@@ -164,14 +164,42 @@ g4dp.is.dat.full.with.samp.edited <- g4dp.is.dat.full.with.samp %>%
   filter(!str_detect(MF, "Succinic")) 
 
 
+
+##G3_DepthProfiles
+g3dp.is.dat.full.with.samp <- is.dat.full.with.samp %>%
+  filter(Cruise == "G3_DepthProfiles")
+
+g3dp.IS_inspectPlot <- ggplot(g3dp.is.dat.full.with.samp, aes(x=SampID, y=Area)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(.~MF, scales="free_y")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust = 0.5, size = 5), 
+        axis.text.y = element_text(size = 10),
+        legend.position = "top",
+        strip.text = element_text(size = 10))+
+  ggtitle("IS Raw Areas")
+g3dp.IS_inspectPlot
+
+g3dp.is.dat.full.with.samp.edited <- g4dp.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "Trimethylamine N-oxide")) %>%
+  filter(!str_detect(MF, "Homarine")) %>%
+  filter(!str_detect(MF, "Nitrate")) %>%
+  filter(!str_detect(MF, "Arginine"))
+
+
+
 ###Combine all batches together:
 is.dat.full.with.samp.edited <- rbind(
   km1906.is.dat.full.with.samp.edited,
   tn397.is.dat.full.with.samp.edited,
   perifix.is.dat.full.with.samp.edited,
   rc078.is.dat.full.with.samp.edited,
-  g4dp.is.dat.full.with.samp.edited
+  g4dp.is.dat.full.with.samp.edited,
+  g3dp.is.dat.full.with.samp.edited
 )
+
+#export peak list of good IS:
+write_csv(is.dat.full.with.samp.edited, file = "Intermediates/particulate_final_IS_peaklist.csv")
+
 
 hilic.long <- hilic.dat
 

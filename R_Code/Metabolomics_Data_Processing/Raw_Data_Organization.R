@@ -157,7 +157,7 @@ osmo.p.dat <- all.p.dat %>%
                  "5-Hydroxyectoine", "Carnitine", "Ectoine", "Hydroxyisoleucine", "L-Alanine", "L-Aspartic acid", "L-Glutamic acid",
                  "L-Glutamine", "L-Proline", "L-Serine", "L-Threonine", "Sarcosine", "Threonine Betaine (tentative)",
                  "Homoserine Betaine (tentative)", "L-Cysteic acid", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Isethionic acid",
-                 "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "Glycine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
+                 "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
                  "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine"))
 
 #make sample list:
@@ -231,7 +231,7 @@ osmo.d.dat <- all.d.dat %>%
              "5-Hydroxyectoine", "Carnitine", "Ectoine", "Hydroxyisoleucine", "L-Alanine", "L-Aspartic acid", "L-Glutamic acid",
              "L-Glutamine", "L-Proline", "L-Serine", "L-Threonine", "Sarcosine", "Threonine Betaine (tentative)",
              "Homoserine Betaine (tentative)", "L-Cysteic acid", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Isethionic acid",
-             "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "Glycine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
+             "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
              "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine"))
 
 #make sample list:
@@ -325,7 +325,7 @@ osmo.c.dat <- all.c.dat %>%
              "5-Hydroxyectoine", "Carnitine", "Ectoine", "Hydroxyisoleucine", "L-Alanine", "L-Aspartic acid", "L-Glutamic acid",
              "L-Glutamine", "L-Proline", "L-Serine", "L-Threonine", "Sarcosine", "Threonine Betaine (tentative)",
              "Homoserine Betaine (tentative)", "L-Cysteic acid", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Isethionic acid",
-             "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "Glycine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
+             "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
              "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine"))
 
 #make sample list:
@@ -372,7 +372,7 @@ osmo.g2.dat <- g2.dat %>%
              "5-Hydroxyectoine", "Carnitine", "Ectoine", "Hydroxyisoleucine", "L-Alanine", "L-Aspartic acid", "L-Glutamic acid",
              "L-Glutamine", "L-Proline", "L-Serine", "L-Threonine", "Sarcosine", "Threonine Betaine (tentative)",
              "Homoserine Betaine (tentative)", "L-Cysteic acid", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Isethionic acid",
-             "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "Glycine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
+             "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
              "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine"))
 
 #make sample list:

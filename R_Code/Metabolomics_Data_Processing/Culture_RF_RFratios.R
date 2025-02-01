@@ -15,7 +15,7 @@ source("R_Code/Functions.R")
 #Define Inputs:
 part.file <- "Intermediates/culture_osmo_data_raw.csv"
 
-Stds.info.file <- "Meta_Data/Ingalls_Lab_Data/Ingalls_Lab_Standards_03172023.csv" 
+Stds.info.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv" 
 
 
 #Load in data
@@ -75,9 +75,69 @@ RF.ratios <- RFratio.dat %>%
   summarise(RFratio = mean(RFratio, na.rm = TRUE)) %>%
   ungroup()
 
+
+
+## Calculate mean RF ratios across batches and replace outlier or 
+#  negative RFratio values with consensus mean RFratio values or for glutamic acid use 1
+
+#Ok values to take concensus of... 
+RFratios.removeissues <- RF.ratios %>%
+  filter(!RFratio == Inf,
+         !RFratio > 2,
+         !RFratio < 0.3) 
+
+#Problems to remove...
+RFratio.issues <- RF.ratios %>%
+  filter(RFratio == Inf |
+           RFratio > 2 |
+           RFratio < 0.3) %>%
+  mutate(remove = "Yes") %>%
+  select(Name, Batch, remove)
+
+#Determine consensus values for all compounds with standards
+RFratio.consensus <- RFratios.removeissues %>%
+  group_by(Name) %>%
+  reframe(mean.RFratio = mean(RFratio, na.rm = TRUE))# %>%
+#mutate(mean.RFratio = case_when(Name == "L-Glutamic acid" ~ 1.45,
+#                                TRUE ~ mean.RFratio))
+
+##Create data frame of values to replace problematic ones:
+RFratio.replace <-RFratio.issues %>%
+  left_join(RFratio.consensus) %>%
+  select(-remove) %>%
+  rename(RFratio = mean.RFratio)
+
+#remove problematic values and add in consensus values 
+RFratio.final.values <- RF.ratios %>%
+  left_join(RFratio.issues) %>%
+  filter(is.na(remove)) %>%
+  select(-remove) %>%
+  rbind(RFratio.replace) 
+
+
 ###Join it all together
-RF.RFratios <- left_join(RF.dat, RF.ratios)
-write_csv(RF.RFratios, file = "Intermediates/Culture_Stds_RFs_RFratios.csv")
+RF.RFratios <- left_join(RF.dat, RFratio.final.values)
+
+
+##Calculate predicted RFratios for Homarine, Homoserine betaine, and Threnonine betaine as average values for all betaines
+Betaine.RF.RFratios <- RF.RFratios %>%
+  filter(Name %in% c("(3-Carboxypropyl)trimethylammonium", "Betonicine", "Glycine betaine",
+                     "Proline betaine", "Trigonelline", "beta-Alaninebetaine", "Carnitine")) %>%
+  group_by(Batch) %>%
+  summarize(RFmax = mean(RFmax),
+            RFmin = mean(RFmin),
+            RF = mean(RF),
+            RFratio = mean(RFratio)) %>%
+  cross_join(.,  tibble(Name = c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)", "Homarine")))
+
+
+##Add in RFs and RFratios for Homoserine betaine and Threnonine betaine
+RF.RFratios.final <- rbind(RF.RFratios %>% filter(!Name == "Homarine"), Betaine.RF.RFratios)
+
+
+
+###Join it all together
+write_csv(RF.RFratios.final, file = "Intermediates/Culture_Stds_RFs_RFratios.csv")
 
 
 

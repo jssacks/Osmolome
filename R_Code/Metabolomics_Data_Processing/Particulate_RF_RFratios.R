@@ -14,7 +14,7 @@ source("R_Code/Functions.R")
 #Define Inputs:
 part.file <- "Intermediates/particulate_osmo_data_raw.csv"
 
-Stds.info.file <- "Meta_Data/Ingalls_Lab_Data/Ingalls_Lab_Standards_03172023.csv" 
+Stds.info.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv" 
 
 
 #Load in data, remove incorrect additional std additions for KM1906 samples
@@ -49,7 +49,13 @@ stds.dat.info <- left_join(stds.dat, stds.info) %>%
                               # Name == "Dimethylsulfonioacetate" & Cruise == "G4_DepthProfiles" ~ "Mix1",
                                Name == "Gonyol" & Cruise == "G4_DepthProfiles" ~ "Mix1",
                               # Name == "Gonyol" & Cruise == "G4_DepthProfiles" ~ "Mix1",
+                               Name == "5-Hydroxyectoine" & Cruise == "G3_DepthProfiles" ~ "Mix1",
+                               Name == "Hydroxyisoleucine" & Cruise == "G4_DepthProfiles" ~ "Mix1",
+                               Name == "Arsenobetaine" & Cruise == "G4_DepthProfiles" ~ "Mix1",
                                TRUE ~ HILIC_Mix))
+
+
+
 
 ##Calculate RFs
 RF.dat <- stds.dat.info %>%
@@ -96,23 +102,23 @@ RF.ratios <- RFratio.dat %>%
 #Ok values to take concensus of... 
 RFratios.removeissues <- RF.ratios %>%
   filter(!RFratio == Inf,
-         !RFratio > 3,
-         !RFratio < 0.2) 
+         !RFratio > 2,
+         !RFratio < 0.3) 
 
 #Problems to remove...
 RFratio.issues <- RF.ratios %>%
   filter(RFratio == Inf |
-         RFratio > 3 |
-         RFratio < 0.2) %>%
+         RFratio > 2 |
+         RFratio < 0.3) %>%
   mutate(remove = "Yes") %>%
   select(Name, Cruise, remove)
 
 #Determine consensus values for all compounds with standards
 RFratio.consensus <- RFratios.removeissues %>%
   group_by(Name) %>%
-  reframe(mean.RFratio = mean(RFratio, na.rm = TRUE)) %>%
-  mutate(mean.RFratio = case_when(Name == "L-Glutamic acid" ~ 1.45,
-                                  TRUE ~ mean.RFratio))
+  reframe(mean.RFratio = mean(RFratio, na.rm = TRUE))# %>%
+  #mutate(mean.RFratio = case_when(Name == "L-Glutamic acid" ~ 1.45,
+  #                                TRUE ~ mean.RFratio))
 
 ##Create data frame of values to replace problematic ones:
 RFratio.replace <-RFratio.issues %>%
@@ -120,7 +126,7 @@ RFratio.replace <-RFratio.issues %>%
   select(-remove) %>%
   rename(RFratio = mean.RFratio)
 
-#remove problematic values and add in consensus ones
+#remove problematic values and add in consensus values (also use average RFratio for Gonyol because values were highly variable)
 RFratio.final.values <- RF.ratios %>%
   left_join(RFratio.issues) %>%
   filter(is.na(remove)) %>%
@@ -129,12 +135,35 @@ RFratio.final.values <- RF.ratios %>%
   mutate(RFratio = case_when(Name == "Gonyol" ~ 1.02,
                              TRUE ~ RFratio))
     
+
+
+
+####____Fix bad RF values:
+
+##Calculate consensus value of L-Arginine RF for TN397
+arg.RF.concensus <- RF.dat %>%
+  filter(Name == "L-Arginine") %>%
+  filter(!Cruise == "TN397") %>%
+  group_by(Name) %>%
+  reframe(RFmax = mean(RFmax),
+          RFmin = mean(RFmin),
+          RF = mean(RF)) %>%
+  mutate(Cruise = "TN397")
+
+##Calculate 
+RF.dat.final <- RF.dat %>%
+  filter(!(Name == "L-Arginine" & Cruise == "TN397")) %>%
+  rbind(., arg.RF.concensus)
+
+
+
+
   
 ###Join it all together
-RF.RFratios <- left_join(RF.dat, RFratio.final.values)
+RF.RFratios <- left_join(RF.dat.final, RFratio.final.values)
 
 
-##Calculate predicted RFratios for Homoserine betaine and Threnonine betaine as average values for all betaines
+##Calculate predicted RFratios for Homarine, Homoserine betaine, and Threnonine betaine as average values for all betaines
 Betaine.RF.RFratios <- RF.RFratios %>%
   filter(Name %in% c("(3-Carboxypropyl)trimethylammonium", "Betonicine", "Glycine betaine",
                       "Proline betaine", "Trigonelline", "beta-Alaninebetaine", "Carnitine")) %>%
@@ -143,18 +172,46 @@ Betaine.RF.RFratios <- RF.RFratios %>%
             RFmin = mean(RFmin),
             RF = mean(RF),
             RFratio = mean(RFratio)) %>%
-  cross_join(., tibble(Name = c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)")))
+  cross_join(., tibble(Name = c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)", "Homarine")))
+
+
+
+
 
 ##Add in RFs and RFratios for Homoserine betaine and Threnonine betaine
-RF.RFratios.final <- rbind(RF.RFratios, Betaine.RF.RFratios)
+RF.RFratios.final <- rbind(RF.RFratios %>% filter(!Name == "Homarine"), Betaine.RF.RFratios)
 
 ###Export final values
 write_csv(RF.RFratios.final, file = "Intermediates/Particulate_Stds_RFs_RFratios.csv")
 
-ggplot(RF.RFratios, aes(y = Name, x = RF)) +
-  
+
+
+
+
+
+
+
+
+# Code to visualize RFs and RFratios in order to identify values that 
+# look weird in a single batch for further inspection
+
+
+ggplot(RF.RFratios, aes(y = reorder(Name, RF), x = RF)) +
   geom_point(aes(y = Name, x = RFmax)) + 
   geom_point(aes(y = Name, x = RFmin)) + 
   geom_point(size = 3, color = "blue") +
   facet_wrap(.~Cruise, scales = "free_x") +
   scale_x_log10()
+
+
+ggplot(RF.RFratios, aes(y = Cruise, x = RF)) +
+  geom_point(aes(Cruise = Name, x = RFmax)) + 
+  geom_point(aes(Cruise = Name, x = RFmin)) + 
+  geom_point(size = 3, color = "blue") +
+  facet_wrap(.~Name) +
+  scale_x_log10()
+
+
+ggplot(RF.RFratios, aes(y = Cruise, x = RFratio)) +
+  geom_point(size = 3, color = "blue") +
+  facet_wrap(.~Name) 

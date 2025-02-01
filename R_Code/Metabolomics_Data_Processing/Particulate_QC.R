@@ -27,17 +27,28 @@ blk.dat <- raw.dat %>%
                               Cruise == "KM1906" & str_detect(Rep, "_MBlk") ~ "Yes",
                               Cruise == "RC078" & str_detect(Rep, "Blk") ~ "Yes",
                               Cruise == "G4_DepthProfiles" & str_detect(Rep, "Blk") ~ "Yes",
+                              Cruise == "G3_DepthProfiles" & str_detect(Rep, "Blk") ~ "Yes",
                              # Cruise == "PERIFIX" & str_detect(Rep, "Blk") ~ "Yes",
                               TRUE ~ NA)) %>%
   filter(keep.blk == "Yes")  %>%
   group_by(Compound) %>%
-  summarize(blk.ave = mean(Area),
-            blk.threshold = blk.ave*min.blk.ratio)
+  mutate(overall.mean.area = mean(Area)) %>%
+  group_by(Compound, Cruise, overall.mean.area) %>%
+  reframe(blk.sd = sd(Area),
+          blk.ave = mean(Area),
+          blk.threshold = blk.ave*min.blk.ratio) 
+
+#visualize areas
+ggplot(blk.dat, aes(x = blk.ave, y = Cruise)) + 
+  geom_point(color = "blue", size = 2.5) +
+  geom_vline(aes(xintercept = overall.mean.area)) +
+  facet_wrap(.~Compound) +
+  scale_x_log10()
 
 
 ###Perform minimum area and blk QC 
 qc.dat <- raw.dat %>%
-  left_join(., blk.dat) %>%
+  left_join(., blk.dat %>% select(Compound, Cruise, blk.threshold, blk.ave)) %>%
   filter(!str_detect(Rep, "Std")) %>%
   filter(!str_detect(Rep, "Blk")) %>%
   filter(!str_detect(Rep, "Poo")) %>%
@@ -111,8 +122,21 @@ write_csv(dat.qc.impute, file = "Intermediates/Particulate_QCdat_blanksimputed.c
 
 
 
+#visualize removals:
+dat.viz <- raw.dat %>%
+  mutate(Area = replace_na(Area, 0)) %>%
+  mutate(keep.blk = case_when(Cruise == "TN397" & str_detect(Rep, "MQBlk") ~ "Yes",
+                              Cruise == "KM1906" & str_detect(Rep, "MMQBlk") ~ "Yes",
+                              Cruise == "KM1906" & str_detect(Rep, "_MBlk") ~ "Yes",
+                              Cruise == "RC078" & str_detect(Rep, "Blk") ~ "Yes",
+                              
+                              Cruise == "G3_DepthProfiles" & str_detect(Rep, "Blk") ~ "Yes",
+                              Cruise == "G4_DepthProfiles" & str_detect(Rep, "Blk") ~ "Yes")) %>%
+  filter(Compound == "Sucrose")
 
-
+ggplot(dat.viz, aes(x = Rep, fill = keep.blk, y = Area)) +
+  geom_col() +
+  facet_wrap(.~Cruise, scales = "free")
 
 
 

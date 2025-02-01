@@ -5,17 +5,28 @@
 #Define inputs:
 
 #volume.filtered data
-g4.vol.file  <- "Meta_Data/Ingalls_Lab_Data/G4_vol_filt.csv"
-g3.vol.file <- "Meta_Data/Ingalls_Lab_Data/G3_vol_filt.csv"
-d1.vol.file <- "Meta_Data/Ingalls_Lab_Data/RC078_metadata.csv"
-perifix.file <-  "Meta_Data/Ingalls_Lab_Data/PERIFIX_metadata_2.csv"
-g4dp.file <- "Meta_Data/Ingalls_Lab_Data/G4_DepthProfile_metadata_2.csv"
+g4.vol.file  <- "Meta_Data/G4_vol_filt.csv"
+g3.vol.file <- "Meta_Data/G3_vol_filt.csv"
+d1.vol.file <- "Meta_Data/RC078_metadata.csv"
+perifix.file <-  "Meta_Data/PERIFIX_metadata_2.csv"
+g4dp.file <- "Meta_Data/G4_DepthProfile_metadata_2.csv"
+g3dp.file <- "Meta_Data/G3_DepthProfile_metadata.csv"
 
 #Location data:
-g3.loc.file <- "Meta_Data/Ingalls_Lab_Data/G3_Samp_Locations.csv"
-g4.loc.file <- "Meta_Data/Ingalls_Lab_Data/G4_Samp_Locations.csv"
+g3.loc.file <- "Meta_Data/G3_Samp_Locations.csv"
+g4.loc.file <- "Meta_Data/G4_Samp_Locations.csv"
+d1.ctd.file <- "Meta_Data/RC078_ctd_data.csv"
+
+#Time data:
+d1.d.t.file <- "Meta_Data/Rc078_Local_Date_Time.csv"
 
 
+
+
+
+
+
+#____Make vol filtered dataset_______
 
 #G4
 g4.vol.filt <- read_csv(g4.vol.file) %>%
@@ -53,8 +64,14 @@ g4dp.vol.filt <- read_csv(g4dp.file) %>%
   select(SampID, Vol_L)  %>%
   mutate(Cruise = "G4_DepthProfiles")
 
+#G3 Depth profiles
+g3dp.vol.filt <- read_csv(g3dp.file) %>%
+  select(SampID, Vol_L)  %>%
+  mutate(Cruise = "G3_DepthProfiles")
+
+
 ###All Volume Filtered Data:
-vol.dat <- rbind(g4.vol.filt, g3.vol.filt, d1.vol.filt, g4dp.vol.filt, perifix.vol.filt)
+vol.dat <- rbind(g4.vol.filt, g3.vol.filt, d1.vol.filt, g4dp.vol.filt, perifix.vol.filt, g3dp.vol.filt)
 
 write_csv(vol.dat, file = "Intermediates/all_vol_filt_data.csv")
 
@@ -84,6 +101,24 @@ g3.samp.info <- read_csv(g3.loc.file) %>%
 
 
 #D1
+
+#Locations
+d1.samp.locs <- read_csv(d1.ctd.file) %>%
+  dplyr::select(Station, latitude, longitude) %>%
+  group_by(Station) %>%
+  summarise(Long = mean(longitude),
+            Lat = mean(latitude)) %>%
+  mutate(station = as.numeric(str_remove(Station, "S"))) %>%
+  select(-Station)
+
+#date and time
+d1.time <- read_csv(d1.d.t.file) %>%
+  rename("SampID" = sample_id) %>%
+  mutate(SampID = paste("221006_Smp_", SampID, sep = ""),
+         Cruise = "RC078") %>%
+  select(-parent_id)
+
+#Volumes, depths, stations
 d1.samp.info <- read_csv(d1.vol.file) %>%
   filter(!is.na(depth_m),
          !is.na(station)) %>%
@@ -92,11 +127,14 @@ d1.samp.info <- read_csv(d1.vol.file) %>%
   mutate(SampID = paste("221006_Smp_", SampID, sep = ""),
          Cruise = "RC078") %>%
   select(SampID, Cruise, station, depth_m, Cruise) %>%
-  unique()
+  unique() %>%
+  left_join(., d1.samp.locs) %>%
+  left_join(., d1.time) 
 
 #PERIFIX
 perifix.samp.info <- read_csv(perifix.file) %>%
-  select(SampID, Treatment) %>%
+  select(-Vol_L, -`...9`) %>%
+ # select(SampID, Treatment) %>%
   mutate(Cruise = "PERIFIX")
 
 #G4 Depth Profiles
@@ -106,15 +144,30 @@ g4dp.samp.info <- read_csv(g4dp.file) %>%
   mutate(station = str_extract(SampID, "_S\\d+"),
          station = as.numeric(str_remove(station, "_S"))) %>%
   rename("depth_m" = Depth_m) %>%
-  select(SampID, Cruise, station, depth_m, Lat, Long)
+  select(SampID, Cruise, station, depth_m, Lat, Long, Local_Date, Local_Time)
   
+
+#G3 Depth Profiles
+g3dp.samp.info <- read_csv(g3dp.file) %>%
+  mutate(Cruise = "G3_DepthProfiles",
+         Long = -1*abs(Lon)) %>%
+  rename("depth_m" = Depth_m,
+         "Local_Date" = Date,
+         "Local_Time" = Time) %>%
+  select(SampID, Cruise, station, depth_m, Lat, Long, Local_Date, Local_Time)
+
+
+
+
+
 
 ##All Sample Information:
 all.samp.info <- g4.samp.info %>%
   full_join(., g3.samp.info) %>%
   full_join(., d1.samp.info) %>%
   full_join(., perifix.samp.info) %>%
-  full_join(., g4dp.samp.info) 
+  full_join(., g4dp.samp.info) %>%
+  full_join(., g3dp.samp.info)
 
 write_csv(all.samp.info, file = "Intermediates/All_metadata_information.csv")
 

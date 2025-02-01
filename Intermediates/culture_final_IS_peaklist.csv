@@ -1,0 +1,2403 @@
+SampID,MF,Area,Batch
+220111_Blk_MediaBlk_A,"Arsenobetaine, 13C2",957003328,Bacteria
+220111_Blk_MediaBlk_AMS,"Arsenobetaine, 13C2",26106,Bacteria
+220111_Blk_MediaBlk_AOA,"Arsenobetaine, 13C2",1005176064,Bacteria
+220111_Blk_MediaBlk_B,"Arsenobetaine, 13C2",963564672,Bacteria
+220111_Poo_TruePooBacteria_Full1,"Arsenobetaine, 13C2",900441088,Bacteria
+220111_Poo_TruePooBacteria_Full2,"Arsenobetaine, 13C2",960286144,Bacteria
+220111_Poo_TruePooBacteria_Full3,"Arsenobetaine, 13C2",932230912,Bacteria
+220111_Poo_TruePooBacteria_Half1,"Arsenobetaine, 13C2",452687520,Bacteria
+220111_Poo_TruePooBacteria_Half2,"Arsenobetaine, 13C2",456134816,Bacteria
+220111_Poo_TruePooBacteria_Half3,"Arsenobetaine, 13C2",481935424,Bacteria
+220111_Smp_DSS3_A,"Arsenobetaine, 13C2",968113536,Bacteria
+220111_Smp_DSS3_B,"Arsenobetaine, 13C2",962104960,Bacteria
+220111_Smp_DSS3_C,"Arsenobetaine, 13C2",909565568,Bacteria
+220111_Smp_Och_A,"Arsenobetaine, 13C2",887013184,Bacteria
+220111_Smp_Och_B,"Arsenobetaine, 13C2",842524352,Bacteria
+220111_Smp_Och_C,"Arsenobetaine, 13C2",818760768,Bacteria
+220111_Smp_SA7_A,"Arsenobetaine, 13C2",884179904,Bacteria
+220111_Smp_SA7_B,"Arsenobetaine, 13C2",870990720,Bacteria
+220111_Smp_SA7_C,"Arsenobetaine, 13C2",818558016,Bacteria
+220111_Smp_SA11_A,"Arsenobetaine, 13C2",860930304,Bacteria
+220111_Smp_SA11_B,"Arsenobetaine, 13C2",954985792,Bacteria
+220111_Smp_SA11_C,"Arsenobetaine, 13C2",971899264,Bacteria
+220111_Smp_SA16_A,"Arsenobetaine, 13C2",933803136,Bacteria
+220111_Smp_SA16_B,"Arsenobetaine, 13C2",860301824,Bacteria
+220111_Smp_SA16_C,"Arsenobetaine, 13C2",905569280,Bacteria
+220111_Smp_SA36_A,"Arsenobetaine, 13C2",882740032,Bacteria
+220111_Smp_SA36_B,"Arsenobetaine, 13C2",839217216,Bacteria
+220111_Smp_SA36_C,"Arsenobetaine, 13C2",985566400,Bacteria
+220111_Smp_SA42_A,"Arsenobetaine, 13C2",860209408,Bacteria
+220111_Smp_SA44_B,"Arsenobetaine, 13C2",925166016,Bacteria
+220111_Smp_SA44_C,"Arsenobetaine, 13C2",886520448,Bacteria
+220111_Smp_SA48_A,"Arsenobetaine, 13C2",844343744,Bacteria
+220111_Smp_SA48_B,"Arsenobetaine, 13C2",865127872,Bacteria
+220111_Smp_SA48_C,"Arsenobetaine, 13C2",898009344,Bacteria
+220111_Smp_SA53_A,"Arsenobetaine, 13C2",933933248,Bacteria
+220111_Smp_SA53_B,"Arsenobetaine, 13C2",1042952448,Bacteria
+220111_Smp_SA53_C,"Arsenobetaine, 13C2",984819904,Bacteria
+220111_Smp_SA55_A,"Arsenobetaine, 13C2",959905216,Bacteria
+220111_Smp_SA55_B,"Arsenobetaine, 13C2",903967552,Bacteria
+220111_Smp_SA55_C,"Arsenobetaine, 13C2",931375296,Bacteria
+220111_Smp_SA59_A,"Arsenobetaine, 13C2",979365632,Bacteria
+220111_Smp_SA59_B,"Arsenobetaine, 13C2",845774656,Bacteria
+220111_Smp_SA59_C,"Arsenobetaine, 13C2",853557248,Bacteria
+220111_Smp_SA60_A,"Arsenobetaine, 13C2",831300352,Bacteria
+220111_Smp_SA60_B,"Arsenobetaine, 13C2",1033717184,Bacteria
+220111_Smp_SCM1_Exp1,"Arsenobetaine, 13C2",739875648,Bacteria
+220111_Smp_SCM1_Exp2,"Arsenobetaine, 13C2",787213184,Bacteria
+220111_Smp_SCM1_Exp3,"Arsenobetaine, 13C2",761752320,Bacteria
+220111_Smp_SCM1_St1,"Arsenobetaine, 13C2",743100928,Bacteria
+220111_Smp_SCM1_St2,"Arsenobetaine, 13C2",822890432,Bacteria
+220111_Smp_SCM1_St3,"Arsenobetaine, 13C2",810588480,Bacteria
+220111_Smp_SCM1_St4,"Arsenobetaine, 13C2",743536128,Bacteria
+220111_Blk_MediaBlk_A,"Cytosine, 13C2, 15N3",155671136,Bacteria
+220111_Blk_MediaBlk_AMS,"Cytosine, 13C2, 15N3",153423696,Bacteria
+220111_Blk_MediaBlk_AOA,"Cytosine, 13C2, 15N3",154941168,Bacteria
+220111_Blk_MediaBlk_B,"Cytosine, 13C2, 15N3",154784784,Bacteria
+220111_Poo_TruePooBacteria_Full1,"Cytosine, 13C2, 15N3",155912432,Bacteria
+220111_Poo_TruePooBacteria_Full2,"Cytosine, 13C2, 15N3",154385744,Bacteria
+220111_Poo_TruePooBacteria_Full3,"Cytosine, 13C2, 15N3",163292640,Bacteria
+220111_Poo_TruePooBacteria_Half1,"Cytosine, 13C2, 15N3",76581440,Bacteria
+220111_Poo_TruePooBacteria_Half2,"Cytosine, 13C2, 15N3",75633248,Bacteria
+220111_Poo_TruePooBacteria_Half3,"Cytosine, 13C2, 15N3",83296704,Bacteria
+220111_Smp_DSS3_A,"Cytosine, 13C2, 15N3",9495,Bacteria
+220111_Smp_DSS3_B,"Cytosine, 13C2, 15N3",128090040,Bacteria
+220111_Smp_DSS3_C,"Cytosine, 13C2, 15N3",NA,Bacteria
+220111_Smp_Och_A,"Cytosine, 13C2, 15N3",147905200,Bacteria
+220111_Smp_Och_B,"Cytosine, 13C2, 15N3",145549776,Bacteria
+220111_Smp_Och_C,"Cytosine, 13C2, 15N3",140804880,Bacteria
+220111_Smp_SA7_A,"Cytosine, 13C2, 15N3",134510448,Bacteria
+220111_Smp_SA7_B,"Cytosine, 13C2, 15N3",128883520,Bacteria
+220111_Smp_SA7_C,"Cytosine, 13C2, 15N3",124491184,Bacteria
+220111_Smp_SA11_A,"Cytosine, 13C2, 15N3",130454504,Bacteria
+220111_Smp_SA11_B,"Cytosine, 13C2, 15N3",138363456,Bacteria
+220111_Smp_SA11_C,"Cytosine, 13C2, 15N3",151020544,Bacteria
+220111_Smp_SA16_A,"Cytosine, 13C2, 15N3",152629872,Bacteria
+220111_Smp_SA16_B,"Cytosine, 13C2, 15N3",134294880,Bacteria
+220111_Smp_SA16_C,"Cytosine, 13C2, 15N3",142907664,Bacteria
+220111_Smp_SA36_A,"Cytosine, 13C2, 15N3",136325712,Bacteria
+220111_Smp_SA36_B,"Cytosine, 13C2, 15N3",131787312,Bacteria
+220111_Smp_SA36_C,"Cytosine, 13C2, 15N3",153308000,Bacteria
+220111_Smp_SA42_A,"Cytosine, 13C2, 15N3",135510128,Bacteria
+220111_Smp_SA44_B,"Cytosine, 13C2, 15N3",152860288,Bacteria
+220111_Smp_SA44_C,"Cytosine, 13C2, 15N3",146585056,Bacteria
+220111_Smp_SA48_A,"Cytosine, 13C2, 15N3",133155944,Bacteria
+220111_Smp_SA48_B,"Cytosine, 13C2, 15N3",144515024,Bacteria
+220111_Smp_SA48_C,"Cytosine, 13C2, 15N3",150737984,Bacteria
+220111_Smp_SA53_A,"Cytosine, 13C2, 15N3",149135360,Bacteria
+220111_Smp_SA53_B,"Cytosine, 13C2, 15N3",162353472,Bacteria
+220111_Smp_SA53_C,"Cytosine, 13C2, 15N3",154361792,Bacteria
+220111_Smp_SA55_A,"Cytosine, 13C2, 15N3",131926304,Bacteria
+220111_Smp_SA55_B,"Cytosine, 13C2, 15N3",105303528,Bacteria
+220111_Smp_SA55_C,"Cytosine, 13C2, 15N3",102703400,Bacteria
+220111_Smp_SA59_A,"Cytosine, 13C2, 15N3",155178176,Bacteria
+220111_Smp_SA59_B,"Cytosine, 13C2, 15N3",134253296,Bacteria
+220111_Smp_SA59_C,"Cytosine, 13C2, 15N3",135793904,Bacteria
+220111_Smp_SA60_A,"Cytosine, 13C2, 15N3",131057944,Bacteria
+220111_Smp_SA60_B,"Cytosine, 13C2, 15N3",163647232,Bacteria
+220111_Smp_SCM1_Exp1,"Cytosine, 13C2, 15N3",25556664,Bacteria
+220111_Smp_SCM1_Exp2,"Cytosine, 13C2, 15N3",22941132,Bacteria
+220111_Smp_SCM1_Exp3,"Cytosine, 13C2, 15N3",20999292,Bacteria
+220111_Smp_SCM1_St1,"Cytosine, 13C2, 15N3",22861628,Bacteria
+220111_Smp_SCM1_St2,"Cytosine, 13C2, 15N3",36892156,Bacteria
+220111_Smp_SCM1_St3,"Cytosine, 13C2, 15N3",35735096,Bacteria
+220111_Smp_SCM1_St4,"Cytosine, 13C2, 15N3",22132332,Bacteria
+220111_Blk_MediaBlk_A,"DL-Alanine, 2H3",15012478,Bacteria
+220111_Blk_MediaBlk_AMS,"DL-Alanine, 2H3",13646416,Bacteria
+220111_Blk_MediaBlk_AOA,"DL-Alanine, 2H3",14773636,Bacteria
+220111_Blk_MediaBlk_B,"DL-Alanine, 2H3",14564536,Bacteria
+220111_Poo_TruePooBacteria_Full1,"DL-Alanine, 2H3",19925814,Bacteria
+220111_Poo_TruePooBacteria_Full2,"DL-Alanine, 2H3",17180904,Bacteria
+220111_Poo_TruePooBacteria_Full3,"DL-Alanine, 2H3",21632442,Bacteria
+220111_Poo_TruePooBacteria_Half1,"DL-Alanine, 2H3",9912262,Bacteria
+220111_Poo_TruePooBacteria_Half2,"DL-Alanine, 2H3",10001883,Bacteria
+220111_Poo_TruePooBacteria_Half3,"DL-Alanine, 2H3",11977766,Bacteria
+220111_Smp_DSS3_A,"DL-Alanine, 2H3",12983153,Bacteria
+220111_Smp_DSS3_B,"DL-Alanine, 2H3",12681833,Bacteria
+220111_Smp_DSS3_C,"DL-Alanine, 2H3",13205246,Bacteria
+220111_Smp_Och_A,"DL-Alanine, 2H3",13679690,Bacteria
+220111_Smp_Och_B,"DL-Alanine, 2H3",13874924,Bacteria
+220111_Smp_Och_C,"DL-Alanine, 2H3",14306609,Bacteria
+220111_Smp_SA7_A,"DL-Alanine, 2H3",13432894,Bacteria
+220111_Smp_SA7_B,"DL-Alanine, 2H3",14407484,Bacteria
+220111_Smp_SA7_C,"DL-Alanine, 2H3",13475105,Bacteria
+220111_Smp_SA11_A,"DL-Alanine, 2H3",12120139,Bacteria
+220111_Smp_SA11_B,"DL-Alanine, 2H3",12037375,Bacteria
+220111_Smp_SA11_C,"DL-Alanine, 2H3",13283309,Bacteria
+220111_Smp_SA16_A,"DL-Alanine, 2H3",14712161,Bacteria
+220111_Smp_SA16_B,"DL-Alanine, 2H3",12188730,Bacteria
+220111_Smp_SA16_C,"DL-Alanine, 2H3",11917983,Bacteria
+220111_Smp_SA36_A,"DL-Alanine, 2H3",10623621,Bacteria
+220111_Smp_SA36_B,"DL-Alanine, 2H3",12709306,Bacteria
+220111_Smp_SA36_C,"DL-Alanine, 2H3",12284353,Bacteria
+220111_Smp_SA42_A,"DL-Alanine, 2H3",15189409,Bacteria
+220111_Smp_SA44_B,"DL-Alanine, 2H3",12343714,Bacteria
+220111_Smp_SA44_C,"DL-Alanine, 2H3",12786807,Bacteria
+220111_Smp_SA48_A,"DL-Alanine, 2H3",13856658,Bacteria
+220111_Smp_SA48_B,"DL-Alanine, 2H3",12355958,Bacteria
+220111_Smp_SA48_C,"DL-Alanine, 2H3",13969565,Bacteria
+220111_Smp_SA53_A,"DL-Alanine, 2H3",12030023,Bacteria
+220111_Smp_SA53_B,"DL-Alanine, 2H3",13550370,Bacteria
+220111_Smp_SA53_C,"DL-Alanine, 2H3",14151721,Bacteria
+220111_Smp_SA55_A,"DL-Alanine, 2H3",14449233,Bacteria
+220111_Smp_SA55_B,"DL-Alanine, 2H3",13122141,Bacteria
+220111_Smp_SA55_C,"DL-Alanine, 2H3",15269724,Bacteria
+220111_Smp_SA59_A,"DL-Alanine, 2H3",12237513,Bacteria
+220111_Smp_SA59_B,"DL-Alanine, 2H3",12310981,Bacteria
+220111_Smp_SA59_C,"DL-Alanine, 2H3",13345524,Bacteria
+220111_Smp_SA60_A,"DL-Alanine, 2H3",12583671,Bacteria
+220111_Smp_SA60_B,"DL-Alanine, 2H3",13961071,Bacteria
+220111_Smp_SCM1_Exp1,"DL-Alanine, 2H3",14957866,Bacteria
+220111_Smp_SCM1_Exp2,"DL-Alanine, 2H3",13733454,Bacteria
+220111_Smp_SCM1_Exp3,"DL-Alanine, 2H3",15209317,Bacteria
+220111_Smp_SCM1_St1,"DL-Alanine, 2H3",15227423,Bacteria
+220111_Smp_SCM1_St2,"DL-Alanine, 2H3",13461400,Bacteria
+220111_Smp_SCM1_St3,"DL-Alanine, 2H3",14888951,Bacteria
+220111_Smp_SCM1_St4,"DL-Alanine, 2H3",14869671,Bacteria
+220111_Blk_MediaBlk_A,"Glycine betaine, 13C5, 15N",574726144,Bacteria
+220111_Blk_MediaBlk_AMS,"Glycine betaine, 13C5, 15N",592145792,Bacteria
+220111_Blk_MediaBlk_AOA,"Glycine betaine, 13C5, 15N",615702208,Bacteria
+220111_Blk_MediaBlk_B,"Glycine betaine, 13C5, 15N",578932288,Bacteria
+220111_Poo_TruePooBacteria_Full1,"Glycine betaine, 13C5, 15N",572571072,Bacteria
+220111_Poo_TruePooBacteria_Full2,"Glycine betaine, 13C5, 15N",615149888,Bacteria
+220111_Poo_TruePooBacteria_Full3,"Glycine betaine, 13C5, 15N",610069632,Bacteria
+220111_Poo_TruePooBacteria_Half1,"Glycine betaine, 13C5, 15N",287806208,Bacteria
+220111_Poo_TruePooBacteria_Half2,"Glycine betaine, 13C5, 15N",296659392,Bacteria
+220111_Poo_TruePooBacteria_Half3,"Glycine betaine, 13C5, 15N",316479776,Bacteria
+220111_Smp_DSS3_A,"Glycine betaine, 13C5, 15N",590745152,Bacteria
+220111_Smp_DSS3_B,"Glycine betaine, 13C5, 15N",580105984,Bacteria
+220111_Smp_DSS3_C,"Glycine betaine, 13C5, 15N",584185216,Bacteria
+220111_Smp_Och_A,"Glycine betaine, 13C5, 15N",537152128,Bacteria
+220111_Smp_Och_B,"Glycine betaine, 13C5, 15N",508808896,Bacteria
+220111_Smp_Och_C,"Glycine betaine, 13C5, 15N",497198304,Bacteria
+220111_Smp_SA7_A,"Glycine betaine, 13C5, 15N",527621952,Bacteria
+220111_Smp_SA7_B,"Glycine betaine, 13C5, 15N",527641152,Bacteria
+220111_Smp_SA7_C,"Glycine betaine, 13C5, 15N",493025312,Bacteria
+220111_Smp_SA11_A,"Glycine betaine, 13C5, 15N",516913920,Bacteria
+220111_Smp_SA11_B,"Glycine betaine, 13C5, 15N",561071424,Bacteria
+220111_Smp_SA11_C,"Glycine betaine, 13C5, 15N",576485056,Bacteria
+220111_Smp_SA16_A,"Glycine betaine, 13C5, 15N",557897664,Bacteria
+220111_Smp_SA16_B,"Glycine betaine, 13C5, 15N",515115008,Bacteria
+220111_Smp_SA16_C,"Glycine betaine, 13C5, 15N",539312448,Bacteria
+220111_Smp_SA36_A,"Glycine betaine, 13C5, 15N",540211392,Bacteria
+220111_Smp_SA36_B,"Glycine betaine, 13C5, 15N",506322912,Bacteria
+220111_Smp_SA36_C,"Glycine betaine, 13C5, 15N",600781312,Bacteria
+220111_Smp_SA42_A,"Glycine betaine, 13C5, 15N",521736800,Bacteria
+220111_Smp_SA44_B,"Glycine betaine, 13C5, 15N",551205696,Bacteria
+220111_Smp_SA44_C,"Glycine betaine, 13C5, 15N",524858752,Bacteria
+220111_Smp_SA48_A,"Glycine betaine, 13C5, 15N",505595104,Bacteria
+220111_Smp_SA48_B,"Glycine betaine, 13C5, 15N",522337824,Bacteria
+220111_Smp_SA48_C,"Glycine betaine, 13C5, 15N",548092160,Bacteria
+220111_Smp_SA53_A,"Glycine betaine, 13C5, 15N",567084032,Bacteria
+220111_Smp_SA53_B,"Glycine betaine, 13C5, 15N",625758720,Bacteria
+220111_Smp_SA53_C,"Glycine betaine, 13C5, 15N",595943168,Bacteria
+220111_Smp_SA55_A,"Glycine betaine, 13C5, 15N",587107136,Bacteria
+220111_Smp_SA55_B,"Glycine betaine, 13C5, 15N",540756480,Bacteria
+220111_Smp_SA55_C,"Glycine betaine, 13C5, 15N",571793216,Bacteria
+220111_Smp_SA59_A,"Glycine betaine, 13C5, 15N",585455488,Bacteria
+220111_Smp_SA59_B,"Glycine betaine, 13C5, 15N",503340160,Bacteria
+220111_Smp_SA59_C,"Glycine betaine, 13C5, 15N",505943936,Bacteria
+220111_Smp_SA60_A,"Glycine betaine, 13C5, 15N",500210080,Bacteria
+220111_Smp_SA60_B,"Glycine betaine, 13C5, 15N",615129856,Bacteria
+220111_Smp_SCM1_Exp1,"Glycine betaine, 13C5, 15N",524420064,Bacteria
+220111_Smp_SCM1_Exp2,"Glycine betaine, 13C5, 15N",555427584,Bacteria
+220111_Smp_SCM1_Exp3,"Glycine betaine, 13C5, 15N",548397888,Bacteria
+220111_Smp_SCM1_St1,"Glycine betaine, 13C5, 15N",526944256,Bacteria
+220111_Smp_SCM1_St2,"Glycine betaine, 13C5, 15N",505037056,Bacteria
+220111_Smp_SCM1_St3,"Glycine betaine, 13C5, 15N",500296896,Bacteria
+220111_Smp_SCM1_St4,"Glycine betaine, 13C5, 15N",544117376,Bacteria
+220111_Blk_MediaBlk_A,"Homarine, 2H3",2606279168,Bacteria
+220111_Blk_MediaBlk_AMS,"Homarine, 2H3",21131,Bacteria
+220111_Blk_MediaBlk_AOA,"Homarine, 2H3",2714952192,Bacteria
+220111_Blk_MediaBlk_B,"Homarine, 2H3",2590504704,Bacteria
+220111_Poo_TruePooBacteria_Full1,"Homarine, 2H3",2492374016,Bacteria
+220111_Poo_TruePooBacteria_Full2,"Homarine, 2H3",2675688448,Bacteria
+220111_Poo_TruePooBacteria_Full3,"Homarine, 2H3",2710179072,Bacteria
+220111_Poo_TruePooBacteria_Half1,"Homarine, 2H3",1238007296,Bacteria
+220111_Poo_TruePooBacteria_Half2,"Homarine, 2H3",1311992064,Bacteria
+220111_Poo_TruePooBacteria_Half3,"Homarine, 2H3",1339322752,Bacteria
+220111_Smp_DSS3_A,"Homarine, 2H3",2768179968,Bacteria
+220111_Smp_DSS3_B,"Homarine, 2H3",2648454400,Bacteria
+220111_Smp_DSS3_C,"Homarine, 2H3",2632790784,Bacteria
+220111_Smp_Och_A,"Homarine, 2H3",2416800000,Bacteria
+220111_Smp_Och_B,"Homarine, 2H3",2360646656,Bacteria
+220111_Smp_Och_C,"Homarine, 2H3",2291317760,Bacteria
+220111_Smp_SA7_A,"Homarine, 2H3",2477079040,Bacteria
+220111_Smp_SA7_B,"Homarine, 2H3",2456461824,Bacteria
+220111_Smp_SA7_C,"Homarine, 2H3",2298151936,Bacteria
+220111_Smp_SA11_A,"Homarine, 2H3",2434302976,Bacteria
+220111_Smp_SA11_B,"Homarine, 2H3",2663671552,Bacteria
+220111_Smp_SA11_C,"Homarine, 2H3",2811614720,Bacteria
+220111_Smp_SA16_A,"Homarine, 2H3",2523363072,Bacteria
+220111_Smp_SA16_B,"Homarine, 2H3",2475255040,Bacteria
+220111_Smp_SA16_C,"Homarine, 2H3",2467910912,Bacteria
+220111_Smp_SA36_A,"Homarine, 2H3",2429808128,Bacteria
+220111_Smp_SA36_B,"Homarine, 2H3",2298002688,Bacteria
+220111_Smp_SA36_C,"Homarine, 2H3",2730078464,Bacteria
+220111_Smp_SA42_A,"Homarine, 2H3",2367657472,Bacteria
+220111_Smp_SA44_B,"Homarine, 2H3",2614703616,Bacteria
+220111_Smp_SA44_C,"Homarine, 2H3",2587523584,Bacteria
+220111_Smp_SA48_A,"Homarine, 2H3",2297248256,Bacteria
+220111_Smp_SA48_B,"Homarine, 2H3",2511951872,Bacteria
+220111_Smp_SA48_C,"Homarine, 2H3",2477904384,Bacteria
+220111_Smp_SA53_A,"Homarine, 2H3",2640835328,Bacteria
+220111_Smp_SA53_B,"Homarine, 2H3",2882682624,Bacteria
+220111_Smp_SA53_C,"Homarine, 2H3",2822163712,Bacteria
+220111_Smp_SA55_A,"Homarine, 2H3",2538185984,Bacteria
+220111_Smp_SA55_B,"Homarine, 2H3",2467938816,Bacteria
+220111_Smp_SA55_C,"Homarine, 2H3",2545622784,Bacteria
+220111_Smp_SA59_A,"Homarine, 2H3",2727191296,Bacteria
+220111_Smp_SA59_B,"Homarine, 2H3",2301916672,Bacteria
+220111_Smp_SA59_C,"Homarine, 2H3",2408946688,Bacteria
+220111_Smp_SA60_A,"Homarine, 2H3",2379048192,Bacteria
+220111_Smp_SA60_B,"Homarine, 2H3",2833790976,Bacteria
+220111_Smp_SCM1_Exp1,"Homarine, 2H3",2703351552,Bacteria
+220111_Smp_SCM1_Exp2,"Homarine, 2H3",2748460800,Bacteria
+220111_Smp_SCM1_Exp3,"Homarine, 2H3",2690311936,Bacteria
+220111_Smp_SCM1_St1,"Homarine, 2H3",2644059136,Bacteria
+220111_Smp_SCM1_St2,"Homarine, 2H3",2868652032,Bacteria
+220111_Smp_SCM1_St3,"Homarine, 2H3",2803790080,Bacteria
+220111_Smp_SCM1_St4,"Homarine, 2H3",2677593088,Bacteria
+220111_Blk_MediaBlk_A,"Thymine, 2H4",91871448,Bacteria
+220111_Blk_MediaBlk_AMS,"Thymine, 2H4",119263592,Bacteria
+220111_Blk_MediaBlk_AOA,"Thymine, 2H4",117162360,Bacteria
+220111_Blk_MediaBlk_B,"Thymine, 2H4",85457192,Bacteria
+220111_Poo_TruePooBacteria_Full1,"Thymine, 2H4",92031504,Bacteria
+220111_Poo_TruePooBacteria_Full2,"Thymine, 2H4",99695928,Bacteria
+220111_Poo_TruePooBacteria_Full3,"Thymine, 2H4",112438608,Bacteria
+220111_Poo_TruePooBacteria_Half1,"Thymine, 2H4",43928920,Bacteria
+220111_Poo_TruePooBacteria_Half2,"Thymine, 2H4",50157868,Bacteria
+220111_Poo_TruePooBacteria_Half3,"Thymine, 2H4",56519484,Bacteria
+220111_Smp_DSS3_A,"Thymine, 2H4",96517720,Bacteria
+220111_Smp_DSS3_B,"Thymine, 2H4",91582696,Bacteria
+220111_Smp_DSS3_C,"Thymine, 2H4",94936584,Bacteria
+220111_Smp_Och_A,"Thymine, 2H4",96438768,Bacteria
+220111_Smp_Och_B,"Thymine, 2H4",87389992,Bacteria
+220111_Smp_Och_C,"Thymine, 2H4",94309112,Bacteria
+220111_Smp_SA7_A,"Thymine, 2H4",81062128,Bacteria
+220111_Smp_SA7_B,"Thymine, 2H4",83755880,Bacteria
+220111_Smp_SA7_C,"Thymine, 2H4",75783512,Bacteria
+220111_Smp_SA11_A,"Thymine, 2H4",90647224,Bacteria
+220111_Smp_SA11_B,"Thymine, 2H4",89518912,Bacteria
+220111_Smp_SA11_C,"Thymine, 2H4",100987280,Bacteria
+220111_Smp_SA16_A,"Thymine, 2H4",91537376,Bacteria
+220111_Smp_SA16_B,"Thymine, 2H4",88839168,Bacteria
+220111_Smp_SA16_C,"Thymine, 2H4",89626000,Bacteria
+220111_Smp_SA36_A,"Thymine, 2H4",93644824,Bacteria
+220111_Smp_SA36_B,"Thymine, 2H4",90548944,Bacteria
+220111_Smp_SA36_C,"Thymine, 2H4",101409936,Bacteria
+220111_Smp_SA42_A,"Thymine, 2H4",95002736,Bacteria
+220111_Smp_SA44_B,"Thymine, 2H4",86723304,Bacteria
+220111_Smp_SA44_C,"Thymine, 2H4",85414560,Bacteria
+220111_Smp_SA48_A,"Thymine, 2H4",86168800,Bacteria
+220111_Smp_SA48_B,"Thymine, 2H4",92506352,Bacteria
+220111_Smp_SA48_C,"Thymine, 2H4",93714160,Bacteria
+220111_Smp_SA53_A,"Thymine, 2H4",100751656,Bacteria
+220111_Smp_SA53_B,"Thymine, 2H4",104063168,Bacteria
+220111_Smp_SA53_C,"Thymine, 2H4",97583320,Bacteria
+220111_Smp_SA55_A,"Thymine, 2H4",99355736,Bacteria
+220111_Smp_SA55_B,"Thymine, 2H4",92941104,Bacteria
+220111_Smp_SA55_C,"Thymine, 2H4",NA,Bacteria
+220111_Smp_SA59_A,"Thymine, 2H4",80260504,Bacteria
+220111_Smp_SA59_B,"Thymine, 2H4",81292024,Bacteria
+220111_Smp_SA59_C,"Thymine, 2H4",7119936,Bacteria
+220111_Smp_SA60_A,"Thymine, 2H4",81595024,Bacteria
+220111_Smp_SA60_B,"Thymine, 2H4",101057408,Bacteria
+220111_Smp_SA60_C,"Thymine, 2H4",93089048,Bacteria
+220111_Smp_SCM1_Exp1,"Thymine, 2H4",115236016,Bacteria
+220111_Smp_SCM1_Exp2,"Thymine, 2H4",113217152,Bacteria
+220111_Smp_SCM1_Exp3,"Thymine, 2H4",109927128,Bacteria
+220111_Smp_SCM1_St1,"Thymine, 2H4",114292872,Bacteria
+220111_Smp_SCM1_St2,"Thymine, 2H4",109017272,Bacteria
+220111_Smp_SCM1_St3,"Thymine, 2H4",106810464,Bacteria
+220111_Smp_SCM1_St4,"Thymine, 2H4",106166032,Bacteria
+220111_Blk_MediaBlk_A,"L-Cysteic acid, 2H3",5851820,Bacteria
+220111_Blk_MediaBlk_AMS,"L-Cysteic acid, 2H3",5153236,Bacteria
+220111_Blk_MediaBlk_AOA,"L-Cysteic acid, 2H3",4144650,Bacteria
+220111_Blk_MediaBlk_B,"L-Cysteic acid, 2H3",5316558,Bacteria
+220111_Poo_TruePooBacteria_Full1,"L-Cysteic acid, 2H3",9031662,Bacteria
+220111_Poo_TruePooBacteria_Full2,"L-Cysteic acid, 2H3",7988779,Bacteria
+220111_Poo_TruePooBacteria_Full3,"L-Cysteic acid, 2H3",8057799,Bacteria
+220111_Poo_TruePooBacteria_Half1,"L-Cysteic acid, 2H3",5395149,Bacteria
+220111_Poo_TruePooBacteria_Half2,"L-Cysteic acid, 2H3",3149668,Bacteria
+220111_Poo_TruePooBacteria_Half3,"L-Cysteic acid, 2H3",3541901,Bacteria
+220111_Smp_DSS3_A,"L-Cysteic acid, 2H3",4847990,Bacteria
+220111_Smp_DSS3_B,"L-Cysteic acid, 2H3",4430084,Bacteria
+220111_Smp_DSS3_C,"L-Cysteic acid, 2H3",5218641,Bacteria
+220111_Smp_Och_A,"L-Cysteic acid, 2H3",5270935,Bacteria
+220111_Smp_Och_B,"L-Cysteic acid, 2H3",5478904,Bacteria
+220111_Smp_Och_C,"L-Cysteic acid, 2H3",5665939,Bacteria
+220111_Smp_SA7_A,"L-Cysteic acid, 2H3",6183600,Bacteria
+220111_Smp_SA7_B,"L-Cysteic acid, 2H3",5959552,Bacteria
+220111_Smp_SA7_C,"L-Cysteic acid, 2H3",7052592,Bacteria
+220111_Smp_SA11_A,"L-Cysteic acid, 2H3",4874578,Bacteria
+220111_Smp_SA11_B,"L-Cysteic acid, 2H3",3682965,Bacteria
+220111_Smp_SA11_C,"L-Cysteic acid, 2H3",4386206,Bacteria
+220111_Smp_SA16_A,"L-Cysteic acid, 2H3",5165815,Bacteria
+220111_Smp_SA16_B,"L-Cysteic acid, 2H3",5462224,Bacteria
+220111_Smp_SA16_C,"L-Cysteic acid, 2H3",4789071,Bacteria
+220111_Smp_SA36_A,"L-Cysteic acid, 2H3",5181286,Bacteria
+220111_Smp_SA36_B,"L-Cysteic acid, 2H3",5641764,Bacteria
+220111_Smp_SA36_C,"L-Cysteic acid, 2H3",4620120,Bacteria
+220111_Smp_SA42_A,"L-Cysteic acid, 2H3",5978077,Bacteria
+220111_Smp_SA44_B,"L-Cysteic acid, 2H3",6019139,Bacteria
+220111_Smp_SA44_C,"L-Cysteic acid, 2H3",5419322,Bacteria
+220111_Smp_SA48_A,"L-Cysteic acid, 2H3",4957421,Bacteria
+220111_Smp_SA48_B,"L-Cysteic acid, 2H3",4763596,Bacteria
+220111_Smp_SA48_C,"L-Cysteic acid, 2H3",4590198,Bacteria
+220111_Smp_SA53_A,"L-Cysteic acid, 2H3",5103826,Bacteria
+220111_Smp_SA53_B,"L-Cysteic acid, 2H3",5124130,Bacteria
+220111_Smp_SA53_C,"L-Cysteic acid, 2H3",4558389,Bacteria
+220111_Smp_SA55_A,"L-Cysteic acid, 2H3",7388474,Bacteria
+220111_Smp_SA55_B,"L-Cysteic acid, 2H3",6471617,Bacteria
+220111_Smp_SA55_C,"L-Cysteic acid, 2H3",7530122,Bacteria
+220111_Smp_SA59_A,"L-Cysteic acid, 2H3",4480917,Bacteria
+220111_Smp_SA59_B,"L-Cysteic acid, 2H3",4708642,Bacteria
+220111_Smp_SA59_C,"L-Cysteic acid, 2H3",4689933,Bacteria
+220111_Smp_SA60_A,"L-Cysteic acid, 2H3",6549888,Bacteria
+220111_Smp_SA60_B,"L-Cysteic acid, 2H3",8757936,Bacteria
+220111_Smp_SA60_C,"L-Cysteic acid, 2H3",7478760,Bacteria
+220111_Smp_SCM1_Exp1,"L-Cysteic acid, 2H3",4998645,Bacteria
+220111_Smp_SCM1_Exp2,"L-Cysteic acid, 2H3",5324544,Bacteria
+220111_Smp_SCM1_Exp3,"L-Cysteic acid, 2H3",5397146,Bacteria
+220111_Smp_SCM1_St1,"L-Cysteic acid, 2H3",4414133,Bacteria
+220111_Smp_SCM1_St2,"L-Cysteic acid, 2H3",4796349,Bacteria
+220111_Smp_SCM1_St3,"L-Cysteic acid, 2H3",4939783,Bacteria
+220111_Smp_SCM1_St4,"L-Cysteic acid, 2H3",5175635,Bacteria
+220111_Blk_MediaBlk_A,"3-Sulfolactate, 13C3",2176852,Bacteria
+220111_Blk_MediaBlk_AMS,"3-Sulfolactate, 13C3",3798635,Bacteria
+220111_Blk_MediaBlk_AOA,"3-Sulfolactate, 13C3",2062068,Bacteria
+220111_Blk_MediaBlk_B,"3-Sulfolactate, 13C3",1147669,Bacteria
+220111_Poo_TruePooBacteria_Full1,"3-Sulfolactate, 13C3",4667708,Bacteria
+220111_Poo_TruePooBacteria_Full2,"3-Sulfolactate, 13C3",2303222,Bacteria
+220111_Poo_TruePooBacteria_Full3,"3-Sulfolactate, 13C3",2580020,Bacteria
+220111_Poo_TruePooBacteria_Half1,"3-Sulfolactate, 13C3",1354585,Bacteria
+220111_Poo_TruePooBacteria_Half2,"3-Sulfolactate, 13C3",839531,Bacteria
+220111_Poo_TruePooBacteria_Half3,"3-Sulfolactate, 13C3",974561,Bacteria
+220111_Smp_DSS3_A,"3-Sulfolactate, 13C3",1159057,Bacteria
+220111_Smp_DSS3_B,"3-Sulfolactate, 13C3",661086,Bacteria
+220111_Smp_DSS3_C,"3-Sulfolactate, 13C3",913039,Bacteria
+220111_Smp_Och_A,"3-Sulfolactate, 13C3",909355,Bacteria
+220111_Smp_Och_B,"3-Sulfolactate, 13C3",870685,Bacteria
+220111_Smp_Och_C,"3-Sulfolactate, 13C3",1207935,Bacteria
+220111_Smp_SA7_A,"3-Sulfolactate, 13C3",3928048,Bacteria
+220111_Smp_SA7_B,"3-Sulfolactate, 13C3",2860659,Bacteria
+220111_Smp_SA7_C,"3-Sulfolactate, 13C3",3065351,Bacteria
+220111_Smp_SA11_A,"3-Sulfolactate, 13C3",870827,Bacteria
+220111_Smp_SA11_B,"3-Sulfolactate, 13C3",560036,Bacteria
+220111_Smp_SA11_C,"3-Sulfolactate, 13C3",1256275,Bacteria
+220111_Smp_SA16_A,"3-Sulfolactate, 13C3",2232091,Bacteria
+220111_Smp_SA16_B,"3-Sulfolactate, 13C3",2179994,Bacteria
+220111_Smp_SA16_C,"3-Sulfolactate, 13C3",1533450,Bacteria
+220111_Smp_SA36_A,"3-Sulfolactate, 13C3",2576493,Bacteria
+220111_Smp_SA36_B,"3-Sulfolactate, 13C3",2869029,Bacteria
+220111_Smp_SA36_C,"3-Sulfolactate, 13C3",1750785,Bacteria
+220111_Smp_SA42_A,"3-Sulfolactate, 13C3",2411998,Bacteria
+220111_Smp_SA44_B,"3-Sulfolactate, 13C3",1823680,Bacteria
+220111_Smp_SA44_C,"3-Sulfolactate, 13C3",2343074,Bacteria
+220111_Smp_SA48_A,"3-Sulfolactate, 13C3",1582945,Bacteria
+220111_Smp_SA48_B,"3-Sulfolactate, 13C3",1966359,Bacteria
+220111_Smp_SA48_C,"3-Sulfolactate, 13C3",1860640,Bacteria
+220111_Smp_SA53_A,"3-Sulfolactate, 13C3",1531052,Bacteria
+220111_Smp_SA53_B,"3-Sulfolactate, 13C3",1821023,Bacteria
+220111_Smp_SA53_C,"3-Sulfolactate, 13C3",1268575,Bacteria
+220111_Smp_SA55_A,"3-Sulfolactate, 13C3",2128527,Bacteria
+220111_Smp_SA55_B,"3-Sulfolactate, 13C3",2439826,Bacteria
+220111_Smp_SA55_C,"3-Sulfolactate, 13C3",1216950,Bacteria
+220111_Smp_SA59_A,"3-Sulfolactate, 13C3",2034145,Bacteria
+220111_Smp_SA59_B,"3-Sulfolactate, 13C3",1707651,Bacteria
+220111_Smp_SA59_C,"3-Sulfolactate, 13C3",1850909,Bacteria
+220111_Smp_SA60_A,"3-Sulfolactate, 13C3",1668228,Bacteria
+220111_Smp_SA60_B,"3-Sulfolactate, 13C3",4580427,Bacteria
+220111_Smp_SA60_C,"3-Sulfolactate, 13C3",2224672,Bacteria
+220111_Smp_SCM1_Exp1,"3-Sulfolactate, 13C3",2106336,Bacteria
+220111_Smp_SCM1_Exp2,"3-Sulfolactate, 13C3",2605469,Bacteria
+220111_Smp_SCM1_Exp3,"3-Sulfolactate, 13C3",2691251,Bacteria
+220111_Smp_SCM1_St1,"3-Sulfolactate, 13C3",2472207,Bacteria
+220111_Smp_SCM1_St2,"3-Sulfolactate, 13C3",2302267,Bacteria
+220111_Smp_SCM1_St3,"3-Sulfolactate, 13C3",2034044,Bacteria
+220111_Smp_SCM1_St4,"3-Sulfolactate, 13C3",2323905,Bacteria
+220111_Blk_MediaBlk_A,Inj_vol,2,Bacteria
+220111_Blk_MediaBlk_AMS,Inj_vol,2,Bacteria
+220111_Blk_MediaBlk_AOA,Inj_vol,2,Bacteria
+220111_Blk_MediaBlk_B,Inj_vol,2,Bacteria
+220111_Poo_TruePooBacteria_Full1,Inj_vol,2,Bacteria
+220111_Poo_TruePooBacteria_Full2,Inj_vol,2,Bacteria
+220111_Poo_TruePooBacteria_Full3,Inj_vol,2,Bacteria
+220111_Poo_TruePooBacteria_Half1,Inj_vol,1,Bacteria
+220111_Poo_TruePooBacteria_Half2,Inj_vol,1,Bacteria
+220111_Poo_TruePooBacteria_Half3,Inj_vol,1,Bacteria
+220111_Smp_DSS3_A,Inj_vol,2,Bacteria
+220111_Smp_DSS3_B,Inj_vol,2,Bacteria
+220111_Smp_DSS3_C,Inj_vol,2,Bacteria
+220111_Smp_Och_A,Inj_vol,2,Bacteria
+220111_Smp_Och_B,Inj_vol,2,Bacteria
+220111_Smp_Och_C,Inj_vol,2,Bacteria
+220111_Smp_SA7_A,Inj_vol,2,Bacteria
+220111_Smp_SA7_B,Inj_vol,2,Bacteria
+220111_Smp_SA7_C,Inj_vol,2,Bacteria
+220111_Smp_SA11_A,Inj_vol,2,Bacteria
+220111_Smp_SA11_B,Inj_vol,2,Bacteria
+220111_Smp_SA11_C,Inj_vol,2,Bacteria
+220111_Smp_SA16_A,Inj_vol,2,Bacteria
+220111_Smp_SA16_B,Inj_vol,2,Bacteria
+220111_Smp_SA16_C,Inj_vol,2,Bacteria
+220111_Smp_SA36_A,Inj_vol,2,Bacteria
+220111_Smp_SA36_B,Inj_vol,2,Bacteria
+220111_Smp_SA36_C,Inj_vol,2,Bacteria
+220111_Smp_SA42_A,Inj_vol,2,Bacteria
+220111_Smp_SA44_B,Inj_vol,2,Bacteria
+220111_Smp_SA44_C,Inj_vol,2,Bacteria
+220111_Smp_SA48_A,Inj_vol,2,Bacteria
+220111_Smp_SA48_B,Inj_vol,2,Bacteria
+220111_Smp_SA48_C,Inj_vol,2,Bacteria
+220111_Smp_SA53_A,Inj_vol,2,Bacteria
+220111_Smp_SA53_B,Inj_vol,2,Bacteria
+220111_Smp_SA53_C,Inj_vol,2,Bacteria
+220111_Smp_SA55_A,Inj_vol,2,Bacteria
+220111_Smp_SA55_B,Inj_vol,2,Bacteria
+220111_Smp_SA55_C,Inj_vol,2,Bacteria
+220111_Smp_SA59_A,Inj_vol,2,Bacteria
+220111_Smp_SA59_B,Inj_vol,2,Bacteria
+220111_Smp_SA59_C,Inj_vol,2,Bacteria
+220111_Smp_SA60_A,Inj_vol,2,Bacteria
+220111_Smp_SA60_B,Inj_vol,2,Bacteria
+220111_Smp_SCM1_Exp1,Inj_vol,2,Bacteria
+220111_Smp_SCM1_Exp2,Inj_vol,2,Bacteria
+220111_Smp_SCM1_Exp3,Inj_vol,2,Bacteria
+220111_Smp_SCM1_St1,Inj_vol,2,Bacteria
+220111_Smp_SCM1_St2,Inj_vol,2,Bacteria
+220111_Smp_SCM1_St3,Inj_vol,2,Bacteria
+220111_Smp_SCM1_St4,Inj_vol,2,Bacteria
+220111_Smp_SA60_C,Inj_vol,2,Bacteria
+211221_Poo_TruePooCyanos_Full1,"Arsenobetaine, 13C2",885314176,Cyano
+211221_Poo_TruePooCyanos_Full2,"Arsenobetaine, 13C2",863827840,Cyano
+211221_Poo_TruePooCyanos_Full3,"Arsenobetaine, 13C2",870003840,Cyano
+211221_Poo_TruePooCyanos_Half1,"Arsenobetaine, 13C2",522528864,Cyano
+211221_Poo_TruePooCyanos_Half2,"Arsenobetaine, 13C2",519406624,Cyano
+211221_Poo_TruePooCyanos_Half3,"Arsenobetaine, 13C2",512939680,Cyano
+211221_Blk_MediaBlk_1314P,"Arsenobetaine, 13C2",1144174336,Cyano
+211221_Blk_MediaBlk_A,"Arsenobetaine, 13C2",1145170688,Cyano
+211221_Blk_MediaBlk_As9601,"Arsenobetaine, 13C2",1108778624,Cyano
+211221_Blk_MediaBlk_C,"Arsenobetaine, 13C2",1247555328,Cyano
+211221_Blk_MediaBlk_Nat,"Arsenobetaine, 13C2",1132022400,Cyano
+211221_Smp_1314P_A,"Arsenobetaine, 13C2",1100630144,Cyano
+211221_Smp_1314P_B,"Arsenobetaine, 13C2",1234712064,Cyano
+211221_Smp_1314P_C,"Arsenobetaine, 13C2",1093873024,Cyano
+211221_Smp_7803_B,"Arsenobetaine, 13C2",497471328,Cyano
+211221_Smp_7803_F,"Arsenobetaine, 13C2",400314112,Cyano
+211221_Smp_8102_A,"Arsenobetaine, 13C2",577165824,Cyano
+211221_Smp_8102_F,"Arsenobetaine, 13C2",616353664,Cyano
+211221_Smp_8501_B,"Arsenobetaine, 13C2",1194991232,Cyano
+211221_Smp_8501_C,"Arsenobetaine, 13C2",1185597824,Cyano
+211221_Smp_8501_D,"Arsenobetaine, 13C2",1208848896,Cyano
+211221_Smp_As9601_A,"Arsenobetaine, 13C2",1150170752,Cyano
+211221_Smp_As9601_B,"Arsenobetaine, 13C2",1172166016,Cyano
+211221_Smp_As9601_C,"Arsenobetaine, 13C2",1115197952,Cyano
+211221_Smp_MED4_D,"Arsenobetaine, 13C2",1198024704,Cyano
+211221_Smp_MED4_E,"Arsenobetaine, 13C2",1353542784,Cyano
+211221_Smp_MED4_F,"Arsenobetaine, 13C2",1225578112,Cyano
+211221_Smp_Nat_A,"Arsenobetaine, 13C2",1176916224,Cyano
+211221_Smp_Nat_B,"Arsenobetaine, 13C2",1208041856,Cyano
+211221_Smp_Nat_C,"Arsenobetaine, 13C2",1163658368,Cyano
+211221_Poo_TruePooCyanos_Full1,"Cytosine, 13C2, 15N3",151134736,Cyano
+211221_Poo_TruePooCyanos_Full2,"Cytosine, 13C2, 15N3",143185808,Cyano
+211221_Poo_TruePooCyanos_Full3,"Cytosine, 13C2, 15N3",151514112,Cyano
+211221_Poo_TruePooCyanos_Half1,"Cytosine, 13C2, 15N3",81705848,Cyano
+211221_Poo_TruePooCyanos_Half2,"Cytosine, 13C2, 15N3",79121224,Cyano
+211221_Poo_TruePooCyanos_Half3,"Cytosine, 13C2, 15N3",85046280,Cyano
+211221_Blk_MediaBlk_1314P,"Cytosine, 13C2, 15N3",162295008,Cyano
+211221_Blk_MediaBlk_A,"Cytosine, 13C2, 15N3",158365104,Cyano
+211221_Blk_MediaBlk_As9601,"Cytosine, 13C2, 15N3",162023040,Cyano
+211221_Blk_MediaBlk_C,"Cytosine, 13C2, 15N3",168992416,Cyano
+211221_Blk_MediaBlk_Nat,"Cytosine, 13C2, 15N3",151044368,Cyano
+211221_Smp_1314P_A,"Cytosine, 13C2, 15N3",155393536,Cyano
+211221_Smp_1314P_B,"Cytosine, 13C2, 15N3",173221232,Cyano
+211221_Smp_1314P_C,"Cytosine, 13C2, 15N3",151743952,Cyano
+211221_Smp_7803_B,"Cytosine, 13C2, 15N3",133710808,Cyano
+211221_Smp_7803_F,"Cytosine, 13C2, 15N3",114790600,Cyano
+211221_Smp_8102_A,"Cytosine, 13C2, 15N3",128013840,Cyano
+211221_Smp_8102_F,"Cytosine, 13C2, 15N3",131428088,Cyano
+211221_Smp_8501_B,"Cytosine, 13C2, 15N3",167476592,Cyano
+211221_Smp_8501_C,"Cytosine, 13C2, 15N3",176727280,Cyano
+211221_Smp_8501_D,"Cytosine, 13C2, 15N3",166161760,Cyano
+211221_Smp_As9601_A,"Cytosine, 13C2, 15N3",163683648,Cyano
+211221_Smp_As9601_B,"Cytosine, 13C2, 15N3",164759232,Cyano
+211221_Smp_As9601_C,"Cytosine, 13C2, 15N3",143125328,Cyano
+211221_Smp_MED4_D,"Cytosine, 13C2, 15N3",168682256,Cyano
+211221_Smp_MED4_E,"Cytosine, 13C2, 15N3",180805680,Cyano
+211221_Smp_MED4_F,"Cytosine, 13C2, 15N3",172286096,Cyano
+211221_Smp_Nat_A,"Cytosine, 13C2, 15N3",161634160,Cyano
+211221_Smp_Nat_B,"Cytosine, 13C2, 15N3",160274048,Cyano
+211221_Smp_Nat_C,"Cytosine, 13C2, 15N3",144416624,Cyano
+211221_Poo_TruePooCyanos_Full1,"DL-Alanine, 2H3",24074706,Cyano
+211221_Poo_TruePooCyanos_Full2,"DL-Alanine, 2H3",20295410,Cyano
+211221_Poo_TruePooCyanos_Full3,"DL-Alanine, 2H3",24303780,Cyano
+211221_Poo_TruePooCyanos_Half1,"DL-Alanine, 2H3",14677012,Cyano
+211221_Poo_TruePooCyanos_Half2,"DL-Alanine, 2H3",13127188,Cyano
+211221_Poo_TruePooCyanos_Half3,"DL-Alanine, 2H3",17498214,Cyano
+211221_Blk_MediaBlk_1314P,"DL-Alanine, 2H3",15338796,Cyano
+211221_Blk_MediaBlk_A,"DL-Alanine, 2H3",14370560,Cyano
+211221_Blk_MediaBlk_As9601,"DL-Alanine, 2H3",22691544,Cyano
+211221_Blk_MediaBlk_C,"DL-Alanine, 2H3",10352558,Cyano
+211221_Blk_MediaBlk_Nat,"DL-Alanine, 2H3",15316878,Cyano
+211221_Smp_1314P_A,"DL-Alanine, 2H3",16704746,Cyano
+211221_Smp_1314P_B,"DL-Alanine, 2H3",15749521,Cyano
+211221_Smp_1314P_C,"DL-Alanine, 2H3",14768857,Cyano
+211221_Smp_7803_B,"DL-Alanine, 2H3",12918677,Cyano
+211221_Smp_7803_F,"DL-Alanine, 2H3",10406960,Cyano
+211221_Smp_8102_A,"DL-Alanine, 2H3",10745468,Cyano
+211221_Smp_8102_F,"DL-Alanine, 2H3",12500636,Cyano
+211221_Smp_8501_B,"DL-Alanine, 2H3",13138086,Cyano
+211221_Smp_8501_C,"DL-Alanine, 2H3",15684082,Cyano
+211221_Smp_8501_D,"DL-Alanine, 2H3",12137856,Cyano
+211221_Smp_As9601_A,"DL-Alanine, 2H3",18268502,Cyano
+211221_Smp_As9601_B,"DL-Alanine, 2H3",25653130,Cyano
+211221_Smp_As9601_C,"DL-Alanine, 2H3",13966218,Cyano
+211221_Smp_MED4_D,"DL-Alanine, 2H3",20543942,Cyano
+211221_Smp_MED4_E,"DL-Alanine, 2H3",12578303,Cyano
+211221_Smp_MED4_F,"DL-Alanine, 2H3",18627896,Cyano
+211221_Smp_Nat_A,"DL-Alanine, 2H3",18895646,Cyano
+211221_Smp_Nat_B,"DL-Alanine, 2H3",11790203,Cyano
+211221_Smp_Nat_C,"DL-Alanine, 2H3",14972625,Cyano
+211221_Poo_TruePooCyanos_Full1,"Glycine betaine, 13C5, 15N",358939008,Cyano
+211221_Poo_TruePooCyanos_Full2,"Glycine betaine, 13C5, 15N",353006784,Cyano
+211221_Poo_TruePooCyanos_Full3,"Glycine betaine, 13C5, 15N",343257024,Cyano
+211221_Poo_TruePooCyanos_Half1,"Glycine betaine, 13C5, 15N",256477504,Cyano
+211221_Poo_TruePooCyanos_Half2,"Glycine betaine, 13C5, 15N",251679808,Cyano
+211221_Poo_TruePooCyanos_Half3,"Glycine betaine, 13C5, 15N",239895728,Cyano
+211221_Blk_MediaBlk_1314P,"Glycine betaine, 13C5, 15N",711836288,Cyano
+211221_Blk_MediaBlk_A,"Glycine betaine, 13C5, 15N",707906560,Cyano
+211221_Blk_MediaBlk_As9601,"Glycine betaine, 13C5, 15N",696005440,Cyano
+211221_Blk_MediaBlk_C,"Glycine betaine, 13C5, 15N",782568896,Cyano
+211221_Blk_MediaBlk_Nat,"Glycine betaine, 13C5, 15N",706410752,Cyano
+211221_Smp_1314P_A,"Glycine betaine, 13C5, 15N",684823360,Cyano
+211221_Smp_1314P_B,"Glycine betaine, 13C5, 15N",759833216,Cyano
+211221_Smp_1314P_C,"Glycine betaine, 13C5, 15N",677841792,Cyano
+211221_Smp_7803_B,"Glycine betaine, 13C5, 15N",102272128,Cyano
+211221_Smp_7803_F,"Glycine betaine, 13C5, 15N",86155040,Cyano
+211221_Smp_8102_A,"Glycine betaine, 13C5, 15N",158580048,Cyano
+211221_Smp_8102_F,"Glycine betaine, 13C5, 15N",179848832,Cyano
+211221_Smp_8501_B,"Glycine betaine, 13C5, 15N",729062080,Cyano
+211221_Smp_8501_C,"Glycine betaine, 13C5, 15N",727751232,Cyano
+211221_Smp_8501_D,"Glycine betaine, 13C5, 15N",744167104,Cyano
+211221_Smp_As9601_A,"Glycine betaine, 13C5, 15N",711683200,Cyano
+211221_Smp_As9601_B,"Glycine betaine, 13C5, 15N",734205888,Cyano
+211221_Smp_As9601_C,"Glycine betaine, 13C5, 15N",689999744,Cyano
+211221_Smp_MED4_D,"Glycine betaine, 13C5, 15N",741445184,Cyano
+211221_Smp_MED4_E,"Glycine betaine, 13C5, 15N",844174144,Cyano
+211221_Smp_MED4_F,"Glycine betaine, 13C5, 15N",759171072,Cyano
+211221_Smp_Nat_A,"Glycine betaine, 13C5, 15N",731742976,Cyano
+211221_Smp_Nat_B,"Glycine betaine, 13C5, 15N",759293504,Cyano
+211221_Smp_Nat_C,"Glycine betaine, 13C5, 15N",722968448,Cyano
+211221_Poo_TruePooCyanos_Full1,"Guanine, 13C, 15N2",110305320,Cyano
+211221_Poo_TruePooCyanos_Full2,"Guanine, 13C, 15N2",109105208,Cyano
+211221_Poo_TruePooCyanos_Full3,"Guanine, 13C, 15N2",127803352,Cyano
+211221_Poo_TruePooCyanos_Half1,"Guanine, 13C, 15N2",79240432,Cyano
+211221_Poo_TruePooCyanos_Half2,"Guanine, 13C, 15N2",67261152,Cyano
+211221_Poo_TruePooCyanos_Half3,"Guanine, 13C, 15N2",90475416,Cyano
+211221_Blk_MediaBlk_1314P,"Guanine, 13C, 15N2",181296480,Cyano
+211221_Blk_MediaBlk_A,"Guanine, 13C, 15N2",97505560,Cyano
+211221_Blk_MediaBlk_As9601,"Guanine, 13C, 15N2",149907936,Cyano
+211221_Blk_MediaBlk_C,"Guanine, 13C, 15N2",158251120,Cyano
+211221_Blk_MediaBlk_Nat,"Guanine, 13C, 15N2",153295136,Cyano
+211221_Smp_1314P_A,"Guanine, 13C, 15N2",173072480,Cyano
+211221_Smp_1314P_B,"Guanine, 13C, 15N2",180086016,Cyano
+211221_Smp_1314P_C,"Guanine, 13C, 15N2",157448960,Cyano
+211221_Smp_7803_B,"Guanine, 13C, 15N2",142848944,Cyano
+211221_Smp_7803_F,"Guanine, 13C, 15N2",157335792,Cyano
+211221_Smp_8102_A,"Guanine, 13C, 15N2",178684848,Cyano
+211221_Smp_8102_F,"Guanine, 13C, 15N2",145971728,Cyano
+211221_Smp_8501_B,"Guanine, 13C, 15N2",47754428,Cyano
+211221_Smp_8501_C,"Guanine, 13C, 15N2",47251596,Cyano
+211221_Smp_8501_D,"Guanine, 13C, 15N2",54311320,Cyano
+211221_Smp_As9601_A,"Guanine, 13C, 15N2",176458144,Cyano
+211221_Smp_As9601_B,"Guanine, 13C, 15N2",317733056,Cyano
+211221_Smp_As9601_C,"Guanine, 13C, 15N2",149956000,Cyano
+211221_Smp_MED4_D,"Guanine, 13C, 15N2",173304672,Cyano
+211221_Smp_MED4_E,"Guanine, 13C, 15N2",156597184,Cyano
+211221_Smp_MED4_F,"Guanine, 13C, 15N2",160054960,Cyano
+211221_Smp_Nat_A,"Guanine, 13C, 15N2",158619408,Cyano
+211221_Smp_Nat_B,"Guanine, 13C, 15N2",158174768,Cyano
+211221_Smp_Nat_C,"Guanine, 13C, 15N2",140506880,Cyano
+211221_Poo_TruePooCyanos_Full1,"Homarine, 2H3",2413198080,Cyano
+211221_Poo_TruePooCyanos_Full2,"Homarine, 2H3",2332464640,Cyano
+211221_Poo_TruePooCyanos_Full3,"Homarine, 2H3",2321980672,Cyano
+211221_Poo_TruePooCyanos_Half1,"Homarine, 2H3",1528998144,Cyano
+211221_Poo_TruePooCyanos_Half2,"Homarine, 2H3",1509443200,Cyano
+211221_Poo_TruePooCyanos_Half3,"Homarine, 2H3",1523901568,Cyano
+211221_Blk_MediaBlk_1314P,"Homarine, 2H3",3154560512,Cyano
+211221_Blk_MediaBlk_A,"Homarine, 2H3",2990978560,Cyano
+211221_Blk_MediaBlk_As9601,"Homarine, 2H3",2975081984,Cyano
+211221_Blk_MediaBlk_C,"Homarine, 2H3",3264443136,Cyano
+211221_Blk_MediaBlk_Nat,"Homarine, 2H3",3057863424,Cyano
+211221_Smp_1314P_A,"Homarine, 2H3",3043913984,Cyano
+211221_Smp_1314P_B,"Homarine, 2H3",3429957120,Cyano
+211221_Smp_1314P_C,"Homarine, 2H3",2974387456,Cyano
+211221_Smp_7803_B,"Homarine, 2H3",3593045248,Cyano
+211221_Smp_7803_F,"Homarine, 2H3",3347792128,Cyano
+211221_Smp_8102_A,"Homarine, 2H3",643341248,Cyano
+211221_Smp_8102_F,"Homarine, 2H3",609260928,Cyano
+211221_Smp_8501_B,"Homarine, 2H3",3077952000,Cyano
+211221_Smp_8501_C,"Homarine, 2H3",3157315328,Cyano
+211221_Smp_8501_D,"Homarine, 2H3",3133074432,Cyano
+211221_Smp_As9601_A,"Homarine, 2H3",3109168640,Cyano
+211221_Smp_As9601_B,"Homarine, 2H3",3094037504,Cyano
+211221_Smp_As9601_C,"Homarine, 2H3",3147559680,Cyano
+211221_Smp_MED4_D,"Homarine, 2H3",3217661952,Cyano
+211221_Smp_MED4_E,"Homarine, 2H3",3595266304,Cyano
+211221_Smp_MED4_F,"Homarine, 2H3",3238093312,Cyano
+211221_Smp_Nat_A,"Homarine, 2H3",3210970112,Cyano
+211221_Smp_Nat_B,"Homarine, 2H3",3384384512,Cyano
+211221_Smp_Nat_C,"Homarine, 2H3",3065436928,Cyano
+211221_Poo_TruePooCyanos_Full1,"Isethionic acid, 13C2",98498760,Cyano
+211221_Poo_TruePooCyanos_Full2,"Isethionic acid, 13C2",100970176,Cyano
+211221_Poo_TruePooCyanos_Full3,"Isethionic acid, 13C2",111226992,Cyano
+211221_Poo_TruePooCyanos_Half1,"Isethionic acid, 13C2",54019184,Cyano
+211221_Poo_TruePooCyanos_Half2,"Isethionic acid, 13C2",53095468,Cyano
+211221_Poo_TruePooCyanos_Half3,"Isethionic acid, 13C2",52074344,Cyano
+211221_Blk_MediaBlk_1314P,"Isethionic acid, 13C2",39907428,Cyano
+211221_Blk_MediaBlk_A,"Isethionic acid, 13C2",105099264,Cyano
+211221_Blk_MediaBlk_As9601,"Isethionic acid, 13C2",49212904,Cyano
+211221_Blk_MediaBlk_C,"Isethionic acid, 13C2",146762048,Cyano
+211221_Blk_MediaBlk_Nat,"Isethionic acid, 13C2",52324408,Cyano
+211221_Smp_1314P_A,"Isethionic acid, 13C2",47751768,Cyano
+211221_Smp_1314P_B,"Isethionic acid, 13C2",31821290,Cyano
+211221_Smp_1314P_C,"Isethionic acid, 13C2",39070460,Cyano
+211221_Smp_7803_B,"Isethionic acid, 13C2",71183376,Cyano
+211221_Smp_7803_F,"Isethionic acid, 13C2",126729296,Cyano
+211221_Smp_8102_A,"Isethionic acid, 13C2",142615104,Cyano
+211221_Smp_8102_F,"Isethionic acid, 13C2",158216176,Cyano
+211221_Smp_8501_B,"Isethionic acid, 13C2",64226496,Cyano
+211221_Smp_8501_C,"Isethionic acid, 13C2",152865504,Cyano
+211221_Smp_8501_D,"Isethionic acid, 13C2",130821536,Cyano
+211221_Smp_As9601_A,"Isethionic acid, 13C2",46335008,Cyano
+211221_Smp_As9601_B,"Isethionic acid, 13C2",52074760,Cyano
+211221_Smp_As9601_C,"Isethionic acid, 13C2",46266212,Cyano
+211221_Smp_MED4_D,"Isethionic acid, 13C2",117577272,Cyano
+211221_Smp_MED4_E,"Isethionic acid, 13C2",157121072,Cyano
+211221_Smp_MED4_F,"Isethionic acid, 13C2",171489984,Cyano
+211221_Smp_Nat_A,"Isethionic acid, 13C2",40781232,Cyano
+211221_Smp_Nat_B,"Isethionic acid, 13C2",54554708,Cyano
+211221_Smp_Nat_C,"Isethionic acid, 13C2",55379156,Cyano
+211221_Poo_TruePooCyanos_Full1,"Taurine, 2H4",5141000,Cyano
+211221_Poo_TruePooCyanos_Full2,"Taurine, 2H4",4484233,Cyano
+211221_Poo_TruePooCyanos_Full3,"Taurine, 2H4",4737794,Cyano
+211221_Poo_TruePooCyanos_Half1,"Taurine, 2H4",3526759,Cyano
+211221_Poo_TruePooCyanos_Half2,"Taurine, 2H4",2137352,Cyano
+211221_Poo_TruePooCyanos_Half3,"Taurine, 2H4",2920562,Cyano
+211221_Blk_MediaBlk_1314P,"Taurine, 2H4",7345178,Cyano
+211221_Blk_MediaBlk_A,"Taurine, 2H4",2706790,Cyano
+211221_Blk_MediaBlk_As9601,"Taurine, 2H4",6522147,Cyano
+211221_Blk_MediaBlk_C,"Taurine, 2H4",2882614,Cyano
+211221_Blk_MediaBlk_Nat,"Taurine, 2H4",6100742,Cyano
+211221_Smp_1314P_A,"Taurine, 2H4",6561478,Cyano
+211221_Smp_1314P_B,"Taurine, 2H4",7073885,Cyano
+211221_Smp_1314P_C,"Taurine, 2H4",6648853,Cyano
+211221_Smp_7803_B,"Taurine, 2H4",1423262,Cyano
+211221_Smp_7803_F,"Taurine, 2H4",2358882,Cyano
+211221_Smp_8102_A,"Taurine, 2H4",2232677,Cyano
+211221_Smp_8102_F,"Taurine, 2H4",2604469,Cyano
+211221_Smp_8501_B,"Taurine, 2H4",2553101,Cyano
+211221_Smp_8501_C,"Taurine, 2H4",2651659,Cyano
+211221_Smp_8501_D,"Taurine, 2H4",3022528,Cyano
+211221_Smp_As9601_A,"Taurine, 2H4",7581986,Cyano
+211221_Smp_As9601_B,"Taurine, 2H4",6566516,Cyano
+211221_Smp_As9601_C,"Taurine, 2H4",5174751,Cyano
+211221_Smp_MED4_D,"Taurine, 2H4",2583761,Cyano
+211221_Smp_MED4_E,"Taurine, 2H4",3401067,Cyano
+211221_Smp_MED4_F,"Taurine, 2H4",2361450,Cyano
+211221_Smp_Nat_A,"Taurine, 2H4",7093007,Cyano
+211221_Smp_Nat_B,"Taurine, 2H4",6117967,Cyano
+211221_Smp_Nat_C,"Taurine, 2H4",5954126,Cyano
+211221_Poo_TruePooCyanos_Full1,"Thymine, 2H4",127213784,Cyano
+211221_Poo_TruePooCyanos_Full2,"Thymine, 2H4",127851904,Cyano
+211221_Poo_TruePooCyanos_Full3,"Thymine, 2H4",131840952,Cyano
+211221_Poo_TruePooCyanos_Half1,"Thymine, 2H4",65140176,Cyano
+211221_Poo_TruePooCyanos_Half2,"Thymine, 2H4",63682432,Cyano
+211221_Poo_TruePooCyanos_Half3,"Thymine, 2H4",69601840,Cyano
+211221_Blk_MediaBlk_1314P,"Thymine, 2H4",123815056,Cyano
+211221_Blk_MediaBlk_A,"Thymine, 2H4",116049632,Cyano
+211221_Blk_MediaBlk_As9601,"Thymine, 2H4",120234880,Cyano
+211221_Blk_MediaBlk_C,"Thymine, 2H4",125550360,Cyano
+211221_Blk_MediaBlk_Nat,"Thymine, 2H4",121879104,Cyano
+211221_Smp_1314P_A,"Thymine, 2H4",124756232,Cyano
+211221_Smp_1314P_B,"Thymine, 2H4",126362760,Cyano
+211221_Smp_1314P_C,"Thymine, 2H4",116762256,Cyano
+211221_Smp_7803_B,"Thymine, 2H4",130829584,Cyano
+211221_Smp_7803_F,"Thymine, 2H4",144756672,Cyano
+211221_Smp_8102_A,"Thymine, 2H4",130951728,Cyano
+211221_Smp_8102_F,"Thymine, 2H4",122622560,Cyano
+211221_Smp_8501_B,"Thymine, 2H4",125578392,Cyano
+211221_Smp_8501_C,"Thymine, 2H4",124039528,Cyano
+211221_Smp_8501_D,"Thymine, 2H4",115490624,Cyano
+211221_Smp_As9601_A,"Thymine, 2H4",125533896,Cyano
+211221_Smp_As9601_B,"Thymine, 2H4",131371440,Cyano
+211221_Smp_As9601_C,"Thymine, 2H4",123769288,Cyano
+211221_Smp_MED4_D,"Thymine, 2H4",126168608,Cyano
+211221_Smp_MED4_E,"Thymine, 2H4",129355744,Cyano
+211221_Smp_MED4_F,"Thymine, 2H4",123257952,Cyano
+211221_Smp_Nat_A,"Thymine, 2H4",114689240,Cyano
+211221_Smp_Nat_B,"Thymine, 2H4",126142600,Cyano
+211221_Smp_Nat_C,"Thymine, 2H4",120104512,Cyano
+211221_Poo_TruePooCyanos_Full1,"Sulfoacetic acid, 13C2",11555688,Cyano
+211221_Poo_TruePooCyanos_Full2,"Sulfoacetic acid, 13C2",13020786,Cyano
+211221_Poo_TruePooCyanos_Full3,"Sulfoacetic acid, 13C2",13790045,Cyano
+211221_Poo_TruePooCyanos_Half1,"Sulfoacetic acid, 13C2",8579975,Cyano
+211221_Poo_TruePooCyanos_Half2,"Sulfoacetic acid, 13C2",10260046,Cyano
+211221_Poo_TruePooCyanos_Half3,"Sulfoacetic acid, 13C2",9936030,Cyano
+211221_Blk_MediaBlk_1314P,"Sulfoacetic acid, 13C2",17860558,Cyano
+211221_Blk_MediaBlk_A,"Sulfoacetic acid, 13C2",4919932,Cyano
+211221_Blk_MediaBlk_As9601,"Sulfoacetic acid, 13C2",17541422,Cyano
+211221_Blk_MediaBlk_C,"Sulfoacetic acid, 13C2",3130982,Cyano
+211221_Blk_MediaBlk_Nat,"Sulfoacetic acid, 13C2",17181342,Cyano
+211221_Smp_1314P_A,"Sulfoacetic acid, 13C2",18786010,Cyano
+211221_Smp_1314P_B,"Sulfoacetic acid, 13C2",13674114,Cyano
+211221_Smp_1314P_C,"Sulfoacetic acid, 13C2",10470269,Cyano
+211221_Smp_7803_B,"Sulfoacetic acid, 13C2",2572623,Cyano
+211221_Smp_7803_F,"Sulfoacetic acid, 13C2",4102394,Cyano
+211221_Smp_8102_A,"Sulfoacetic acid, 13C2",3240994,Cyano
+211221_Smp_8102_F,"Sulfoacetic acid, 13C2",3988301,Cyano
+211221_Smp_8501_B,"Sulfoacetic acid, 13C2",3912505,Cyano
+211221_Smp_8501_C,"Sulfoacetic acid, 13C2",4562610,Cyano
+211221_Smp_8501_D,"Sulfoacetic acid, 13C2",3889262,Cyano
+211221_Smp_As9601_A,"Sulfoacetic acid, 13C2",21454462,Cyano
+211221_Smp_As9601_B,"Sulfoacetic acid, 13C2",17020182,Cyano
+211221_Smp_As9601_C,"Sulfoacetic acid, 13C2",18306720,Cyano
+211221_Smp_MED4_D,"Sulfoacetic acid, 13C2",5331213,Cyano
+211221_Smp_MED4_E,"Sulfoacetic acid, 13C2",3010613,Cyano
+211221_Smp_MED4_F,"Sulfoacetic acid, 13C2",6015320,Cyano
+211221_Smp_Nat_A,"Sulfoacetic acid, 13C2",19164996,Cyano
+211221_Smp_Nat_B,"Sulfoacetic acid, 13C2",19544924,Cyano
+211221_Smp_Nat_C,"Sulfoacetic acid, 13C2",19405356,Cyano
+211221_Poo_TruePooCyanos_Full1,"L-Cysteic acid, 2H3",6540113,Cyano
+211221_Poo_TruePooCyanos_Full2,"L-Cysteic acid, 2H3",6105322,Cyano
+211221_Poo_TruePooCyanos_Full3,"L-Cysteic acid, 2H3",6884541,Cyano
+211221_Poo_TruePooCyanos_Half1,"L-Cysteic acid, 2H3",3253724,Cyano
+211221_Poo_TruePooCyanos_Half2,"L-Cysteic acid, 2H3",3130537,Cyano
+211221_Poo_TruePooCyanos_Half3,"L-Cysteic acid, 2H3",3220326,Cyano
+211221_Blk_MediaBlk_1314P,"L-Cysteic acid, 2H3",7004670,Cyano
+211221_Blk_MediaBlk_A,"L-Cysteic acid, 2H3",6313199,Cyano
+211221_Blk_MediaBlk_As9601,"L-Cysteic acid, 2H3",6973784,Cyano
+211221_Blk_MediaBlk_C,"L-Cysteic acid, 2H3",6009567,Cyano
+211221_Blk_MediaBlk_Nat,"L-Cysteic acid, 2H3",5862164,Cyano
+211221_Smp_1314P_A,"L-Cysteic acid, 2H3",7788722,Cyano
+211221_Smp_1314P_B,"L-Cysteic acid, 2H3",6872875,Cyano
+211221_Smp_1314P_C,"L-Cysteic acid, 2H3",6306575,Cyano
+211221_Smp_7803_B,"L-Cysteic acid, 2H3",8037720,Cyano
+211221_Smp_7803_F,"L-Cysteic acid, 2H3",10037319,Cyano
+211221_Smp_8102_A,"L-Cysteic acid, 2H3",7090496,Cyano
+211221_Smp_8102_F,"L-Cysteic acid, 2H3",6599103,Cyano
+211221_Smp_8501_B,"L-Cysteic acid, 2H3",5947160,Cyano
+211221_Smp_8501_C,"L-Cysteic acid, 2H3",5453687,Cyano
+211221_Smp_8501_D,"L-Cysteic acid, 2H3",5632760,Cyano
+211221_Smp_As9601_A,"L-Cysteic acid, 2H3",8107940,Cyano
+211221_Smp_As9601_B,"L-Cysteic acid, 2H3",8198224,Cyano
+211221_Smp_As9601_C,"L-Cysteic acid, 2H3",5759873,Cyano
+211221_Smp_MED4_D,"L-Cysteic acid, 2H3",7249633,Cyano
+211221_Smp_MED4_E,"L-Cysteic acid, 2H3",6930955,Cyano
+211221_Smp_MED4_F,"L-Cysteic acid, 2H3",7284300,Cyano
+211221_Smp_Nat_A,"L-Cysteic acid, 2H3",7498604,Cyano
+211221_Smp_Nat_B,"L-Cysteic acid, 2H3",6526316,Cyano
+211221_Smp_Nat_C,"L-Cysteic acid, 2H3",7030613,Cyano
+211221_Poo_TruePooCyanos_Full1,"3-Sulfolactate, 13C3",4176052,Cyano
+211221_Poo_TruePooCyanos_Full2,"3-Sulfolactate, 13C3",3437252,Cyano
+211221_Poo_TruePooCyanos_Full3,"3-Sulfolactate, 13C3",3621236,Cyano
+211221_Poo_TruePooCyanos_Half1,"3-Sulfolactate, 13C3",1838647,Cyano
+211221_Poo_TruePooCyanos_Half2,"3-Sulfolactate, 13C3",1545833,Cyano
+211221_Poo_TruePooCyanos_Half3,"3-Sulfolactate, 13C3",1388194,Cyano
+211221_Blk_MediaBlk_1314P,"3-Sulfolactate, 13C3",3420603,Cyano
+211221_Blk_MediaBlk_A,"3-Sulfolactate, 13C3",2505897,Cyano
+211221_Blk_MediaBlk_As9601,"3-Sulfolactate, 13C3",4214316,Cyano
+211221_Blk_MediaBlk_C,"3-Sulfolactate, 13C3",2537372,Cyano
+211221_Blk_MediaBlk_Nat,"3-Sulfolactate, 13C3",2979952,Cyano
+211221_Smp_1314P_A,"3-Sulfolactate, 13C3",3964009,Cyano
+211221_Smp_1314P_B,"3-Sulfolactate, 13C3",3577898,Cyano
+211221_Smp_1314P_C,"3-Sulfolactate, 13C3",3170275,Cyano
+211221_Smp_7803_B,"3-Sulfolactate, 13C3",2549518,Cyano
+211221_Smp_7803_F,"3-Sulfolactate, 13C3",4935659,Cyano
+211221_Smp_8102_A,"3-Sulfolactate, 13C3",4249685,Cyano
+211221_Smp_8102_F,"3-Sulfolactate, 13C3",4266715,Cyano
+211221_Smp_8501_B,"3-Sulfolactate, 13C3",2451483,Cyano
+211221_Smp_8501_C,"3-Sulfolactate, 13C3",2673054,Cyano
+211221_Smp_8501_D,"3-Sulfolactate, 13C3",2784337,Cyano
+211221_Smp_As9601_A,"3-Sulfolactate, 13C3",4259957,Cyano
+211221_Smp_As9601_B,"3-Sulfolactate, 13C3",5799634,Cyano
+211221_Smp_As9601_C,"3-Sulfolactate, 13C3",2623924,Cyano
+211221_Smp_MED4_D,"3-Sulfolactate, 13C3",2851953,Cyano
+211221_Smp_MED4_E,"3-Sulfolactate, 13C3",2343311,Cyano
+211221_Smp_MED4_F,"3-Sulfolactate, 13C3",2758657,Cyano
+211221_Smp_Nat_A,"3-Sulfolactate, 13C3",4003800,Cyano
+211221_Smp_Nat_B,"3-Sulfolactate, 13C3",3423844,Cyano
+211221_Smp_Nat_C,"3-Sulfolactate, 13C3",2775685,Cyano
+211221_Poo_TruePooCyanos_Full1,Inj_vol,2,Cyano
+211221_Poo_TruePooCyanos_Full2,Inj_vol,2,Cyano
+211221_Poo_TruePooCyanos_Full3,Inj_vol,2,Cyano
+211221_Poo_TruePooCyanos_Half1,Inj_vol,1,Cyano
+211221_Poo_TruePooCyanos_Half2,Inj_vol,1,Cyano
+211221_Poo_TruePooCyanos_Half3,Inj_vol,1,Cyano
+211221_Blk_MediaBlk_1314P,Inj_vol,2,Cyano
+211221_Blk_MediaBlk_A,Inj_vol,2,Cyano
+211221_Blk_MediaBlk_As9601,Inj_vol,2,Cyano
+211221_Blk_MediaBlk_C,Inj_vol,2,Cyano
+211221_Blk_MediaBlk_Nat,Inj_vol,2,Cyano
+211221_Smp_1314P_A,Inj_vol,2,Cyano
+211221_Smp_1314P_B,Inj_vol,2,Cyano
+211221_Smp_1314P_C,Inj_vol,2,Cyano
+211221_Smp_7803_B,Inj_vol,2,Cyano
+211221_Smp_7803_F,Inj_vol,2,Cyano
+211221_Smp_8102_A,Inj_vol,2,Cyano
+211221_Smp_8102_F,Inj_vol,2,Cyano
+211221_Smp_8501_B,Inj_vol,2,Cyano
+211221_Smp_8501_C,Inj_vol,2,Cyano
+211221_Smp_8501_D,Inj_vol,2,Cyano
+211221_Smp_As9601_A,Inj_vol,2,Cyano
+211221_Smp_As9601_B,Inj_vol,2,Cyano
+211221_Smp_As9601_C,Inj_vol,2,Cyano
+211221_Smp_MED4_D,Inj_vol,2,Cyano
+211221_Smp_MED4_E,Inj_vol,2,Cyano
+211221_Smp_MED4_F,Inj_vol,2,Cyano
+211221_Smp_Nat_A,Inj_vol,2,Cyano
+211221_Smp_Nat_B,Inj_vol,2,Cyano
+211221_Smp_Nat_C,Inj_vol,2,Cyano
+211215_Poo_TruePooDiatoms_Full1,"Arsenobetaine, 13C2",961259776,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Arsenobetaine, 13C2",1005938560,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Arsenobetaine, 13C2",930399424,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Arsenobetaine, 13C2",566520384,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Arsenobetaine, 13C2",557213888,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Arsenobetaine, 13C2",546268608,Diatom
+211215_Blk_MediaBlk_A,"Arsenobetaine, 13C2",1249504000,Diatom
+211215_Blk_MediaBlk_B,"Arsenobetaine, 13C2",1187534592,Diatom
+211215_Blk_MediaBlk_Fc,"Arsenobetaine, 13C2",977849152,Diatom
+211215_Blk_MediaBlk_Pc55x,"Arsenobetaine, 13C2",1209640320,Diatom
+211215_Blk_MediaBlk_Z,"Arsenobetaine, 13C2",1278923136,Diatom
+211215_Smp_Cy_A,"Arsenobetaine, 13C2",896612672,Diatom
+211215_Smp_Cy_B,"Arsenobetaine, 13C2",783918080,Diatom
+211215_Smp_Cy_C,"Arsenobetaine, 13C2",713729024,Diatom
+211215_Smp_Fc_A,"Arsenobetaine, 13C2",862908352,Diatom
+211215_Smp_Fc_B,"Arsenobetaine, 13C2",1028341312,Diatom
+211215_Smp_Fc_C,"Arsenobetaine, 13C2",859734144,Diatom
+211215_Smp_Np_A,"Arsenobetaine, 13C2",1351595008,Diatom
+211215_Smp_Np_C,"Arsenobetaine, 13C2",1315110016,Diatom
+211215_Smp_Np_F,"Arsenobetaine, 13C2",1301486208,Diatom
+211215_Smp_Pc55x_A,"Arsenobetaine, 13C2",1285292288,Diatom
+211215_Smp_Pc55x_B,"Arsenobetaine, 13C2",1336488832,Diatom
+211215_Smp_Pc55x_C,"Arsenobetaine, 13C2",1379903488,Diatom
+211215_Smp_Pt_C,"Arsenobetaine, 13C2",568592064,Diatom
+211215_Smp_Pt_F,"Arsenobetaine, 13C2",478000384,Diatom
+211215_Smp_To_A,"Arsenobetaine, 13C2",1075204480,Diatom
+211215_Smp_To_B,"Arsenobetaine, 13C2",976929536,Diatom
+211215_Smp_To_C,"Arsenobetaine, 13C2",1081571968,Diatom
+211215_Smp_Tp_A,"Arsenobetaine, 13C2",814931904,Diatom
+211215_Smp_Tp_E,"Arsenobetaine, 13C2",890825216,Diatom
+211215_Smp_Tp_F,"Arsenobetaine, 13C2",906967872,Diatom
+211215_Poo_TruePooDiatoms_Full1,"Cytosine, 13C2, 15N3",223297488,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Cytosine, 13C2, 15N3",212631360,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Cytosine, 13C2, 15N3",188451888,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Cytosine, 13C2, 15N3",120281168,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Cytosine, 13C2, 15N3",102723384,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Cytosine, 13C2, 15N3",97599288,Diatom
+211215_Blk_MediaBlk_A,"Cytosine, 13C2, 15N3",237389648,Diatom
+211215_Blk_MediaBlk_B,"Cytosine, 13C2, 15N3",199698368,Diatom
+211215_Blk_MediaBlk_Fc,"Cytosine, 13C2, 15N3",152667296,Diatom
+211215_Blk_MediaBlk_Pc55x,"Cytosine, 13C2, 15N3",203626288,Diatom
+211215_Blk_MediaBlk_Z,"Cytosine, 13C2, 15N3",204204192,Diatom
+211215_Smp_Cy_A,"Cytosine, 13C2, 15N3",232143072,Diatom
+211215_Smp_Cy_B,"Cytosine, 13C2, 15N3",198892096,Diatom
+211215_Smp_Cy_C,"Cytosine, 13C2, 15N3",192904240,Diatom
+211215_Smp_Fc_A,"Cytosine, 13C2, 15N3",150093184,Diatom
+211215_Smp_Fc_B,"Cytosine, 13C2, 15N3",195465472,Diatom
+211215_Smp_Fc_C,"Cytosine, 13C2, 15N3",146158928,Diatom
+211215_Smp_Np_A,"Cytosine, 13C2, 15N3",218155392,Diatom
+211215_Smp_Np_C,"Cytosine, 13C2, 15N3",244679888,Diatom
+211215_Smp_Np_F,"Cytosine, 13C2, 15N3",207777168,Diatom
+211215_Smp_Pc55x_A,"Cytosine, 13C2, 15N3",204891072,Diatom
+211215_Smp_Pc55x_B,"Cytosine, 13C2, 15N3",201911632,Diatom
+211215_Smp_Pc55x_C,"Cytosine, 13C2, 15N3",232236928,Diatom
+211215_Smp_Pt_C,"Cytosine, 13C2, 15N3",185997280,Diatom
+211215_Smp_Pt_F,"Cytosine, 13C2, 15N3",159617072,Diatom
+211215_Smp_To_A,"Cytosine, 13C2, 15N3",225287936,Diatom
+211215_Smp_To_B,"Cytosine, 13C2, 15N3",214223584,Diatom
+211215_Smp_To_C,"Cytosine, 13C2, 15N3",217253520,Diatom
+211215_Smp_Tp_A,"Cytosine, 13C2, 15N3",215440048,Diatom
+211215_Smp_Tp_E,"Cytosine, 13C2, 15N3",188801632,Diatom
+211215_Smp_Tp_F,"Cytosine, 13C2, 15N3",194047984,Diatom
+211215_Poo_TruePooDiatoms_Full1,"DL-Alanine, 2H3",30204136,Diatom
+211215_Poo_TruePooDiatoms_Full2,"DL-Alanine, 2H3",30981952,Diatom
+211215_Poo_TruePooDiatoms_Full3,"DL-Alanine, 2H3",30191522,Diatom
+211215_Poo_TruePooDiatoms_Half1,"DL-Alanine, 2H3",15750729,Diatom
+211215_Poo_TruePooDiatoms_Half2,"DL-Alanine, 2H3",16596120,Diatom
+211215_Poo_TruePooDiatoms_Half3,"DL-Alanine, 2H3",17487976,Diatom
+211215_Blk_MediaBlk_A,"DL-Alanine, 2H3",16079338,Diatom
+211215_Blk_MediaBlk_B,"DL-Alanine, 2H3",13147799,Diatom
+211215_Blk_MediaBlk_Fc,"DL-Alanine, 2H3",10404875,Diatom
+211215_Blk_MediaBlk_Pc55x,"DL-Alanine, 2H3",17662164,Diatom
+211215_Blk_MediaBlk_Z,"DL-Alanine, 2H3",8769,Diatom
+211215_Smp_Cy_A,"DL-Alanine, 2H3",14022612,Diatom
+211215_Smp_Cy_B,"DL-Alanine, 2H3",14217565,Diatom
+211215_Smp_Cy_C,"DL-Alanine, 2H3",15326793,Diatom
+211215_Smp_Fc_A,"DL-Alanine, 2H3",9885040,Diatom
+211215_Smp_Fc_B,"DL-Alanine, 2H3",13743409,Diatom
+211215_Smp_Fc_C,"DL-Alanine, 2H3",10602769,Diatom
+211215_Smp_Np_A,"DL-Alanine, 2H3",22006148,Diatom
+211215_Smp_Np_C,"DL-Alanine, 2H3",27725996,Diatom
+211215_Smp_Np_F,"DL-Alanine, 2H3",12985021,Diatom
+211215_Smp_Pc55x_A,"DL-Alanine, 2H3",21685184,Diatom
+211215_Smp_Pc55x_B,"DL-Alanine, 2H3",13426226,Diatom
+211215_Smp_Pc55x_C,"DL-Alanine, 2H3",13209667,Diatom
+211215_Smp_Pt_C,"DL-Alanine, 2H3",11559554,Diatom
+211215_Smp_Pt_F,"DL-Alanine, 2H3",20710798,Diatom
+211215_Smp_To_A,"DL-Alanine, 2H3",13633322,Diatom
+211215_Smp_To_B,"DL-Alanine, 2H3",15257699,Diatom
+211215_Smp_To_C,"DL-Alanine, 2H3",15811044,Diatom
+211215_Smp_Tp_A,"DL-Alanine, 2H3",24670040,Diatom
+211215_Smp_Tp_E,"DL-Alanine, 2H3",23383602,Diatom
+211215_Smp_Tp_F,"DL-Alanine, 2H3",18899584,Diatom
+211215_Poo_TruePooDiatoms_Full1,"Glycine betaine, 13C5, 15N",341721184,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Glycine betaine, 13C5, 15N",350084384,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Glycine betaine, 13C5, 15N",314965472,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Glycine betaine, 13C5, 15N",260599216,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Glycine betaine, 13C5, 15N",249165888,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Glycine betaine, 13C5, 15N",245151760,Diatom
+211215_Blk_MediaBlk_A,"Glycine betaine, 13C5, 15N",775368384,Diatom
+211215_Blk_MediaBlk_B,"Glycine betaine, 13C5, 15N",720163072,Diatom
+211215_Blk_MediaBlk_Fc,"Glycine betaine, 13C5, 15N",616449152,Diatom
+211215_Blk_MediaBlk_Pc55x,"Glycine betaine, 13C5, 15N",736255040,Diatom
+211215_Blk_MediaBlk_Z,"Glycine betaine, 13C5, 15N",774750784,Diatom
+211215_Smp_Cy_A,"Glycine betaine, 13C5, 15N",272836032,Diatom
+211215_Smp_Cy_B,"Glycine betaine, 13C5, 15N",239415376,Diatom
+211215_Smp_Cy_C,"Glycine betaine, 13C5, 15N",206745824,Diatom
+211215_Smp_Fc_A,"Glycine betaine, 13C5, 15N",452503904,Diatom
+211215_Smp_Fc_B,"Glycine betaine, 13C5, 15N",549452736,Diatom
+211215_Smp_Fc_C,"Glycine betaine, 13C5, 15N",450890880,Diatom
+211215_Smp_Np_A,"Glycine betaine, 13C5, 15N",805116032,Diatom
+211215_Smp_Np_C,"Glycine betaine, 13C5, 15N",799969280,Diatom
+211215_Smp_Np_F,"Glycine betaine, 13C5, 15N",775133760,Diatom
+211215_Smp_Pc55x_A,"Glycine betaine, 13C5, 15N",752022528,Diatom
+211215_Smp_Pc55x_B,"Glycine betaine, 13C5, 15N",783273536,Diatom
+211215_Smp_Pc55x_C,"Glycine betaine, 13C5, 15N",820349376,Diatom
+211215_Smp_Pt_C,"Glycine betaine, 13C5, 15N",111340104,Diatom
+211215_Smp_Pt_F,"Glycine betaine, 13C5, 15N",88345280,Diatom
+211215_Smp_To_A,"Glycine betaine, 13C5, 15N",582649728,Diatom
+211215_Smp_To_B,"Glycine betaine, 13C5, 15N",507727968,Diatom
+211215_Smp_To_C,"Glycine betaine, 13C5, 15N",569384448,Diatom
+211215_Smp_Tp_A,"Glycine betaine, 13C5, 15N",276790848,Diatom
+211215_Smp_Tp_E,"Glycine betaine, 13C5, 15N",310903936,Diatom
+211215_Smp_Tp_F,"Glycine betaine, 13C5, 15N",316203424,Diatom
+211215_Poo_TruePooDiatoms_Full1,"Guanine, 13C, 15N2",198987728,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Guanine, 13C, 15N2",157603744,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Guanine, 13C, 15N2",128491320,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Guanine, 13C, 15N2",104006184,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Guanine, 13C, 15N2",70565640,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Guanine, 13C, 15N2",66122360,Diatom
+211215_Blk_MediaBlk_A,"Guanine, 13C, 15N2",237339984,Diatom
+211215_Blk_MediaBlk_B,"Guanine, 13C, 15N2",134961968,Diatom
+211215_Blk_MediaBlk_Fc,"Guanine, 13C, 15N2",123211776,Diatom
+211215_Blk_MediaBlk_Pc55x,"Guanine, 13C, 15N2",138587504,Diatom
+211215_Blk_MediaBlk_Z,"Guanine, 13C, 15N2",115845848,Diatom
+211215_Smp_Cy_A,"Guanine, 13C, 15N2",256732576,Diatom
+211215_Smp_Cy_B,"Guanine, 13C, 15N2",206110400,Diatom
+211215_Smp_Cy_C,"Guanine, 13C, 15N2",210084336,Diatom
+211215_Smp_Fc_A,"Guanine, 13C, 15N2",126979848,Diatom
+211215_Smp_Fc_B,"Guanine, 13C, 15N2",134683520,Diatom
+211215_Smp_Fc_C,"Guanine, 13C, 15N2",106883128,Diatom
+211215_Smp_Np_A,"Guanine, 13C, 15N2",159418096,Diatom
+211215_Smp_Np_C,"Guanine, 13C, 15N2",248763696,Diatom
+211215_Smp_Np_F,"Guanine, 13C, 15N2",124894552,Diatom
+211215_Smp_Pc55x_A,"Guanine, 13C, 15N2",120765264,Diatom
+211215_Smp_Pc55x_B,"Guanine, 13C, 15N2",183114368,Diatom
+211215_Smp_Pc55x_C,"Guanine, 13C, 15N2",166533648,Diatom
+211215_Smp_Pt_C,"Guanine, 13C, 15N2",212493808,Diatom
+211215_Smp_Pt_F,"Guanine, 13C, 15N2",142684368,Diatom
+211215_Smp_To_A,"Guanine, 13C, 15N2",210739856,Diatom
+211215_Smp_To_B,"Guanine, 13C, 15N2",191022064,Diatom
+211215_Smp_To_C,"Guanine, 13C, 15N2",240407456,Diatom
+211215_Smp_Tp_A,"Guanine, 13C, 15N2",221892912,Diatom
+211215_Smp_Tp_E,"Guanine, 13C, 15N2",145850224,Diatom
+211215_Smp_Tp_F,"Guanine, 13C, 15N2",149527632,Diatom
+211215_Poo_TruePooDiatoms_Full1,"Homarine, 2H3",3737043200,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Homarine, 2H3",3768359424,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Homarine, 2H3",3526482944,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Homarine, 2H3",1965760128,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Homarine, 2H3",1965846784,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Homarine, 2H3",1946748160,Diatom
+211215_Blk_MediaBlk_A,"Homarine, 2H3",3439466752,Diatom
+211215_Blk_MediaBlk_B,"Homarine, 2H3",3240399104,Diatom
+211215_Blk_MediaBlk_Fc,"Homarine, 2H3",2563864064,Diatom
+211215_Blk_MediaBlk_Pc55x,"Homarine, 2H3",3202622720,Diatom
+211215_Blk_MediaBlk_Z,"Homarine, 2H3",3397068800,Diatom
+211215_Smp_Cy_A,"Homarine, 2H3",2563645952,Diatom
+211215_Smp_Cy_B,"Homarine, 2H3",2492276480,Diatom
+211215_Smp_Cy_C,"Homarine, 2H3",2001696896,Diatom
+211215_Smp_Fc_A,"Homarine, 2H3",2264829440,Diatom
+211215_Smp_Fc_B,"Homarine, 2H3",2719504384,Diatom
+211215_Smp_Fc_C,"Homarine, 2H3",2169496320,Diatom
+211215_Smp_Np_A,"Homarine, 2H3",3536069632,Diatom
+211215_Smp_Np_C,"Homarine, 2H3",3555379200,Diatom
+211215_Smp_Np_F,"Homarine, 2H3",3506927360,Diatom
+211215_Smp_Pc55x_A,"Homarine, 2H3",3567172352,Diatom
+211215_Smp_Pc55x_B,"Homarine, 2H3",3682942976,Diatom
+211215_Smp_Pc55x_C,"Homarine, 2H3",3806148608,Diatom
+211215_Smp_Pt_C,"Homarine, 2H3",3940968704,Diatom
+211215_Smp_Pt_F,"Homarine, 2H3",3767997696,Diatom
+211215_Smp_To_A,"Homarine, 2H3",3312058880,Diatom
+211215_Smp_To_B,"Homarine, 2H3",3080526848,Diatom
+211215_Smp_To_C,"Homarine, 2H3",3317585664,Diatom
+211215_Smp_Tp_A,"Homarine, 2H3",3457769216,Diatom
+211215_Smp_Tp_E,"Homarine, 2H3",3506214656,Diatom
+211215_Smp_Tp_F,"Homarine, 2H3",3524154112,Diatom
+211215_Poo_TruePooDiatoms_Full1,"Succinic acid, 2H4",41944796,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Succinic acid, 2H4",40916924,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Succinic acid, 2H4",41956224,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Succinic acid, 2H4",17769948,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Succinic acid, 2H4",20735670,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Succinic acid, 2H4",22241370,Diatom
+211215_Blk_MediaBlk_A,"Succinic acid, 2H4",29905676,Diatom
+211215_Blk_MediaBlk_B,"Succinic acid, 2H4",32378936,Diatom
+211215_Blk_MediaBlk_Fc,"Succinic acid, 2H4",40095844,Diatom
+211215_Blk_MediaBlk_Pc55x,"Succinic acid, 2H4",31599894,Diatom
+211215_Blk_MediaBlk_Z,"Succinic acid, 2H4",NA,Diatom
+211215_Smp_Cy_A,"Succinic acid, 2H4",32285408,Diatom
+211215_Smp_Cy_B,"Succinic acid, 2H4",36102992,Diatom
+211215_Smp_Cy_C,"Succinic acid, 2H4",44419292,Diatom
+211215_Smp_Fc_A,"Succinic acid, 2H4",42808428,Diatom
+211215_Smp_Fc_B,"Succinic acid, 2H4",58331204,Diatom
+211215_Smp_Fc_C,"Succinic acid, 2H4",43988212,Diatom
+211215_Smp_Np_A,"Succinic acid, 2H4",52700892,Diatom
+211215_Smp_Np_C,"Succinic acid, 2H4",61437476,Diatom
+211215_Smp_Np_F,"Succinic acid, 2H4",32565822,Diatom
+211215_Smp_Pc55x_A,"Succinic acid, 2H4",33429952,Diatom
+211215_Smp_Pc55x_B,"Succinic acid, 2H4",29561926,Diatom
+211215_Smp_Pc55x_C,"Succinic acid, 2H4",32939278,Diatom
+211215_Smp_Pt_C,"Succinic acid, 2H4",31724758,Diatom
+211215_Smp_Pt_F,"Succinic acid, 2H4",51739576,Diatom
+211215_Smp_To_A,"Succinic acid, 2H4",32729122,Diatom
+211215_Smp_To_B,"Succinic acid, 2H4",32703614,Diatom
+211215_Smp_To_C,"Succinic acid, 2H4",40985204,Diatom
+211215_Smp_Tp_A,"Succinic acid, 2H4",58418264,Diatom
+211215_Smp_Tp_E,"Succinic acid, 2H4",53219512,Diatom
+211215_Smp_Tp_F,"Succinic acid, 2H4",54036456,Diatom
+211215_Poo_TruePooDiatoms_Full1,"Isethionic acid, 13C2",29917732,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Isethionic acid, 13C2",31533926,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Isethionic acid, 13C2",34918248,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Isethionic acid, 13C2",18861826,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Isethionic acid, 13C2",19510212,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Isethionic acid, 13C2",22185444,Diatom
+211215_Blk_MediaBlk_A,"Isethionic acid, 13C2",43817272,Diatom
+211215_Blk_MediaBlk_B,"Isethionic acid, 13C2",66038216,Diatom
+211215_Blk_MediaBlk_Fc,"Isethionic acid, 13C2",16653030,Diatom
+211215_Blk_MediaBlk_Pc55x,"Isethionic acid, 13C2",33302048,Diatom
+211215_Blk_MediaBlk_Z,"Isethionic acid, 13C2",0,Diatom
+211215_Smp_Cy_A,"Isethionic acid, 13C2",23522624,Diatom
+211215_Smp_Cy_B,"Isethionic acid, 13C2",28142938,Diatom
+211215_Smp_Cy_C,"Isethionic acid, 13C2",25501812,Diatom
+211215_Smp_Fc_A,"Isethionic acid, 13C2",12048035,Diatom
+211215_Smp_Fc_B,"Isethionic acid, 13C2",14566565,Diatom
+211215_Smp_Fc_C,"Isethionic acid, 13C2",8353706,Diatom
+211215_Smp_Np_A,"Isethionic acid, 13C2",109359720,Diatom
+211215_Smp_Np_C,"Isethionic acid, 13C2",76397672,Diatom
+211215_Smp_Np_F,"Isethionic acid, 13C2",35407640,Diatom
+211215_Smp_Pc55x_A,"Isethionic acid, 13C2",9803754,Diatom
+211215_Smp_Pc55x_B,"Isethionic acid, 13C2",8599954,Diatom
+211215_Smp_Pc55x_C,"Isethionic acid, 13C2",10850814,Diatom
+211215_Smp_Pt_C,"Isethionic acid, 13C2",24247770,Diatom
+211215_Smp_Pt_F,"Isethionic acid, 13C2",86373832,Diatom
+211215_Smp_To_A,"Isethionic acid, 13C2",55956008,Diatom
+211215_Smp_To_B,"Isethionic acid, 13C2",59038332,Diatom
+211215_Smp_To_C,"Isethionic acid, 13C2",59284604,Diatom
+211215_Smp_Tp_A,"Isethionic acid, 13C2",86902312,Diatom
+211215_Smp_Tp_E,"Isethionic acid, 13C2",97971640,Diatom
+211215_Smp_Tp_F,"Isethionic acid, 13C2",102654872,Diatom
+211215_Poo_TruePooDiatoms_Full1,"Taurine, 2H4",5779683,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Taurine, 2H4",5089748,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Taurine, 2H4",5308018,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Taurine, 2H4",3501073,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Taurine, 2H4",2838416,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Taurine, 2H4",2915538,Diatom
+211215_Blk_MediaBlk_A,"Taurine, 2H4",5319527,Diatom
+211215_Blk_MediaBlk_B,"Taurine, 2H4",3929998,Diatom
+211215_Blk_MediaBlk_Fc,"Taurine, 2H4",6327019,Diatom
+211215_Blk_MediaBlk_Pc55x,"Taurine, 2H4",4987141,Diatom
+211215_Blk_MediaBlk_Z,"Taurine, 2H4",0,Diatom
+211215_Smp_Cy_A,"Taurine, 2H4",3972473,Diatom
+211215_Smp_Cy_B,"Taurine, 2H4",4338653,Diatom
+211215_Smp_Cy_C,"Taurine, 2H4",4026406,Diatom
+211215_Smp_Fc_A,"Taurine, 2H4",9212829,Diatom
+211215_Smp_Fc_B,"Taurine, 2H4",10713855,Diatom
+211215_Smp_Fc_C,"Taurine, 2H4",5059311,Diatom
+211215_Smp_Np_A,"Taurine, 2H4",6447845,Diatom
+211215_Smp_Np_C,"Taurine, 2H4",8565451,Diatom
+211215_Smp_Np_F,"Taurine, 2H4",4389492,Diatom
+211215_Smp_Pc55x_A,"Taurine, 2H4",1532895,Diatom
+211215_Smp_Pc55x_B,"Taurine, 2H4",1880467,Diatom
+211215_Smp_Pc55x_C,"Taurine, 2H4",2215778,Diatom
+211215_Smp_Pt_C,"Taurine, 2H4",3495550,Diatom
+211215_Smp_Pt_F,"Taurine, 2H4",6066658,Diatom
+211215_Smp_To_A,"Taurine, 2H4",3943663,Diatom
+211215_Smp_To_B,"Taurine, 2H4",3801152,Diatom
+211215_Smp_To_C,"Taurine, 2H4",4484899,Diatom
+211215_Smp_Tp_A,"Taurine, 2H4",7452898,Diatom
+211215_Smp_Tp_E,"Taurine, 2H4",6547790,Diatom
+211215_Smp_Tp_F,"Taurine, 2H4",7116652,Diatom
+211215_Poo_TruePooDiatoms_Full1,"Thymine, 2H4",106238152,Diatom
+211215_Poo_TruePooDiatoms_Full2,"Thymine, 2H4",118180112,Diatom
+211215_Poo_TruePooDiatoms_Full3,"Thymine, 2H4",125576360,Diatom
+211215_Poo_TruePooDiatoms_Half1,"Thymine, 2H4",55523292,Diatom
+211215_Poo_TruePooDiatoms_Half2,"Thymine, 2H4",63902892,Diatom
+211215_Poo_TruePooDiatoms_Half3,"Thymine, 2H4",70620112,Diatom
+211215_Blk_MediaBlk_A,"Thymine, 2H4",99574192,Diatom
+211215_Blk_MediaBlk_B,"Thymine, 2H4",112778680,Diatom
+211215_Blk_MediaBlk_Fc,"Thymine, 2H4",82891352,Diatom
+211215_Blk_MediaBlk_Pc55x,"Thymine, 2H4",124098096,Diatom
+211215_Blk_MediaBlk_Z,"Thymine, 2H4",125432472,Diatom
+211215_Smp_Cy_A,"Thymine, 2H4",110392336,Diatom
+211215_Smp_Cy_B,"Thymine, 2H4",118870656,Diatom
+211215_Smp_Cy_C,"Thymine, 2H4",116714472,Diatom
+211215_Smp_Fc_A,"Thymine, 2H4",86718352,Diatom
+211215_Smp_Fc_B,"Thymine, 2H4",128262608,Diatom
+211215_Smp_Fc_C,"Thymine, 2H4",87575400,Diatom
+211215_Smp_Np_A,"Thymine, 2H4",126139336,Diatom
+211215_Smp_Np_C,"Thymine, 2H4",121759624,Diatom
+211215_Smp_Np_F,"Thymine, 2H4",131754416,Diatom
+211215_Smp_Pc55x_A,"Thymine, 2H4",118768632,Diatom
+211215_Smp_Pc55x_B,"Thymine, 2H4",96579856,Diatom
+211215_Smp_Pc55x_C,"Thymine, 2H4",117661256,Diatom
+211215_Smp_Pt_C,"Thymine, 2H4",127656952,Diatom
+211215_Smp_Pt_F,"Thymine, 2H4",135226016,Diatom
+211215_Smp_To_A,"Thymine, 2H4",106727288,Diatom
+211215_Smp_To_B,"Thymine, 2H4",103605000,Diatom
+211215_Smp_To_C,"Thymine, 2H4",108516968,Diatom
+211215_Smp_Tp_A,"Thymine, 2H4",125592720,Diatom
+211215_Smp_Tp_E,"Thymine, 2H4",134835376,Diatom
+211215_Smp_Tp_F,"Thymine, 2H4",128795032,Diatom
+211215_Poo_TruePooDiatoms_Full1,"L-Cysteic acid, 2H3",7755485,Diatom
+211215_Poo_TruePooDiatoms_Full2,"L-Cysteic acid, 2H3",5134553,Diatom
+211215_Poo_TruePooDiatoms_Full3,"L-Cysteic acid, 2H3",5049003,Diatom
+211215_Poo_TruePooDiatoms_Half1,"L-Cysteic acid, 2H3",3669302,Diatom
+211215_Poo_TruePooDiatoms_Half2,"L-Cysteic acid, 2H3",3304498,Diatom
+211215_Poo_TruePooDiatoms_Half3,"L-Cysteic acid, 2H3",3220379,Diatom
+211215_Blk_MediaBlk_A,"L-Cysteic acid, 2H3",5490424,Diatom
+211215_Blk_MediaBlk_B,"L-Cysteic acid, 2H3",4232970,Diatom
+211215_Blk_MediaBlk_Fc,"L-Cysteic acid, 2H3",2805463,Diatom
+211215_Blk_MediaBlk_Pc55x,"L-Cysteic acid, 2H3",5993967,Diatom
+211215_Blk_MediaBlk_Z,"L-Cysteic acid, 2H3",0,Diatom
+211215_Smp_Cy_A,"L-Cysteic acid, 2H3",6489705,Diatom
+211215_Smp_Cy_B,"L-Cysteic acid, 2H3",5308040,Diatom
+211215_Smp_Cy_C,"L-Cysteic acid, 2H3",7647173,Diatom
+211215_Smp_Fc_A,"L-Cysteic acid, 2H3",6208087,Diatom
+211215_Smp_Fc_B,"L-Cysteic acid, 2H3",7753457,Diatom
+211215_Smp_Fc_C,"L-Cysteic acid, 2H3",3768095,Diatom
+211215_Smp_Np_A,"L-Cysteic acid, 2H3",8843512,Diatom
+211215_Smp_Np_C,"L-Cysteic acid, 2H3",9912866,Diatom
+211215_Smp_Np_F,"L-Cysteic acid, 2H3",5354975,Diatom
+211215_Smp_Pc55x_A,"L-Cysteic acid, 2H3",6110540,Diatom
+211215_Smp_Pc55x_B,"L-Cysteic acid, 2H3",4866937,Diatom
+211215_Smp_Pc55x_C,"L-Cysteic acid, 2H3",4358397,Diatom
+211215_Smp_Pt_C,"L-Cysteic acid, 2H3",4167911,Diatom
+211215_Smp_Pt_F,"L-Cysteic acid, 2H3",7139619,Diatom
+211215_Smp_To_A,"L-Cysteic acid, 2H3",3598689,Diatom
+211215_Smp_To_B,"L-Cysteic acid, 2H3",7519160,Diatom
+211215_Smp_To_C,"L-Cysteic acid, 2H3",8404020,Diatom
+211215_Smp_Tp_A,"L-Cysteic acid, 2H3",9559217,Diatom
+211215_Smp_Tp_E,"L-Cysteic acid, 2H3",9138957,Diatom
+211215_Smp_Tp_F,"L-Cysteic acid, 2H3",9338634,Diatom
+211215_Poo_TruePooDiatoms_Full1,"3-Sulfolactate, 13C3",5511068,Diatom
+211215_Poo_TruePooDiatoms_Full2,"3-Sulfolactate, 13C3",3225015,Diatom
+211215_Poo_TruePooDiatoms_Full3,"3-Sulfolactate, 13C3",3504027,Diatom
+211215_Poo_TruePooDiatoms_Half1,"3-Sulfolactate, 13C3",1750608,Diatom
+211215_Poo_TruePooDiatoms_Half2,"3-Sulfolactate, 13C3",1244767,Diatom
+211215_Poo_TruePooDiatoms_Half3,"3-Sulfolactate, 13C3",1163433,Diatom
+211215_Blk_MediaBlk_A,"3-Sulfolactate, 13C3",1787474,Diatom
+211215_Blk_MediaBlk_B,"3-Sulfolactate, 13C3",1755643,Diatom
+211215_Blk_MediaBlk_Fc,"3-Sulfolactate, 13C3",1518367,Diatom
+211215_Blk_MediaBlk_Pc55x,"3-Sulfolactate, 13C3",1474846,Diatom
+211215_Blk_MediaBlk_Z,"3-Sulfolactate, 13C3",0,Diatom
+211215_Smp_Cy_A,"3-Sulfolactate, 13C3",3689551,Diatom
+211215_Smp_Cy_B,"3-Sulfolactate, 13C3",1921000,Diatom
+211215_Smp_Cy_C,"3-Sulfolactate, 13C3",8197464,Diatom
+211215_Smp_Fc_A,"3-Sulfolactate, 13C3",3623722,Diatom
+211215_Smp_Fc_B,"3-Sulfolactate, 13C3",4300179,Diatom
+211215_Smp_Fc_C,"3-Sulfolactate, 13C3",2033346,Diatom
+211215_Smp_Np_A,"3-Sulfolactate, 13C3",4789923,Diatom
+211215_Smp_Np_C,"3-Sulfolactate, 13C3",16174642,Diatom
+211215_Smp_Np_F,"3-Sulfolactate, 13C3",1645094,Diatom
+211215_Smp_Pc55x_A,"3-Sulfolactate, 13C3",1509958,Diatom
+211215_Smp_Pc55x_B,"3-Sulfolactate, 13C3",1026061,Diatom
+211215_Smp_Pc55x_C,"3-Sulfolactate, 13C3",854882,Diatom
+211215_Smp_Pt_C,"3-Sulfolactate, 13C3",2123256,Diatom
+211215_Smp_Pt_F,"3-Sulfolactate, 13C3",5143761,Diatom
+211215_Smp_To_A,"3-Sulfolactate, 13C3",2883438,Diatom
+211215_Smp_To_B,"3-Sulfolactate, 13C3",3693855,Diatom
+211215_Smp_To_C,"3-Sulfolactate, 13C3",4066282,Diatom
+211215_Smp_Tp_A,"3-Sulfolactate, 13C3",3437688,Diatom
+211215_Smp_Tp_E,"3-Sulfolactate, 13C3",3106617,Diatom
+211215_Smp_Tp_F,"3-Sulfolactate, 13C3",3787894,Diatom
+211215_Poo_TruePooDiatoms_Full1,"GMP, 15N5",NA,Diatom
+211215_Poo_TruePooDiatoms_Full2,"GMP, 15N5",NA,Diatom
+211215_Poo_TruePooDiatoms_Full3,"GMP, 15N5",NA,Diatom
+211215_Poo_TruePooDiatoms_Half1,"GMP, 15N5",NA,Diatom
+211215_Poo_TruePooDiatoms_Half2,"GMP, 15N5",NA,Diatom
+211215_Poo_TruePooDiatoms_Half3,"GMP, 15N5",NA,Diatom
+211215_Blk_MediaBlk_A,"GMP, 15N5",NA,Diatom
+211215_Blk_MediaBlk_B,"GMP, 15N5",NA,Diatom
+211215_Blk_MediaBlk_Fc,"GMP, 15N5",4460951,Diatom
+211215_Blk_MediaBlk_Pc55x,"GMP, 15N5",NA,Diatom
+211215_Blk_MediaBlk_Z,"GMP, 15N5",NA,Diatom
+211215_Smp_Cy_A,"GMP, 15N5",365019,Diatom
+211215_Smp_Cy_B,"GMP, 15N5",NA,Diatom
+211215_Smp_Cy_C,"GMP, 15N5",NA,Diatom
+211215_Smp_Fc_A,"GMP, 15N5",5290651,Diatom
+211215_Smp_Fc_B,"GMP, 15N5",6989498,Diatom
+211215_Smp_Fc_C,"GMP, 15N5",5116020,Diatom
+211215_Smp_Np_A,"GMP, 15N5",NA,Diatom
+211215_Smp_Np_C,"GMP, 15N5",NA,Diatom
+211215_Smp_Np_F,"GMP, 15N5",NA,Diatom
+211215_Smp_Pc55x_A,"GMP, 15N5",NA,Diatom
+211215_Smp_Pc55x_B,"GMP, 15N5",NA,Diatom
+211215_Smp_Pc55x_C,"GMP, 15N5",NA,Diatom
+211215_Smp_Pt_C,"GMP, 15N5",NA,Diatom
+211215_Smp_Pt_F,"GMP, 15N5",NA,Diatom
+211215_Smp_To_A,"GMP, 15N5",NA,Diatom
+211215_Smp_To_B,"GMP, 15N5",NA,Diatom
+211215_Smp_To_C,"GMP, 15N5",66952,Diatom
+211215_Smp_Tp_A,"GMP, 15N5",64787,Diatom
+211215_Smp_Tp_E,"GMP, 15N5",NA,Diatom
+211215_Smp_Tp_F,"GMP, 15N5",68480,Diatom
+211215_Poo_TruePooDiatoms_Full1,Inj_vol,2,Diatom
+211215_Poo_TruePooDiatoms_Full2,Inj_vol,2,Diatom
+211215_Poo_TruePooDiatoms_Full3,Inj_vol,2,Diatom
+211215_Poo_TruePooDiatoms_Half1,Inj_vol,1,Diatom
+211215_Poo_TruePooDiatoms_Half2,Inj_vol,1,Diatom
+211215_Poo_TruePooDiatoms_Half3,Inj_vol,1,Diatom
+211215_Blk_MediaBlk_A,Inj_vol,2,Diatom
+211215_Blk_MediaBlk_B,Inj_vol,2,Diatom
+211215_Blk_MediaBlk_Fc,Inj_vol,2,Diatom
+211215_Blk_MediaBlk_Pc55x,Inj_vol,2,Diatom
+211215_Blk_MediaBlk_Z,Inj_vol,2,Diatom
+211215_Smp_Cy_A,Inj_vol,2,Diatom
+211215_Smp_Cy_B,Inj_vol,2,Diatom
+211215_Smp_Cy_C,Inj_vol,2,Diatom
+211215_Smp_Fc_A,Inj_vol,2,Diatom
+211215_Smp_Fc_B,Inj_vol,2,Diatom
+211215_Smp_Fc_C,Inj_vol,2,Diatom
+211215_Smp_Np_A,Inj_vol,2,Diatom
+211215_Smp_Np_C,Inj_vol,2,Diatom
+211215_Smp_Np_F,Inj_vol,2,Diatom
+211215_Smp_Pc55x_A,Inj_vol,2,Diatom
+211215_Smp_Pc55x_B,Inj_vol,2,Diatom
+211215_Smp_Pc55x_C,Inj_vol,2,Diatom
+211215_Smp_Pt_C,Inj_vol,2,Diatom
+211215_Smp_Pt_F,Inj_vol,2,Diatom
+211215_Smp_To_A,Inj_vol,2,Diatom
+211215_Smp_To_B,Inj_vol,2,Diatom
+211215_Smp_To_C,Inj_vol,2,Diatom
+211215_Smp_Tp_A,Inj_vol,2,Diatom
+211215_Smp_Tp_E,Inj_vol,2,Diatom
+211215_Smp_Tp_F,Inj_vol,2,Diatom
+211218_Poo_TruePooDinosGreens_Full1,"Arsenobetaine, 13C2",1220032640,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Arsenobetaine, 13C2",1260417408,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Arsenobetaine, 13C2",1258673280,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Arsenobetaine, 13C2",616858880,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Arsenobetaine, 13C2",653320576,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Arsenobetaine, 13C2",648833920,Dino_Green
+211218_Blk_MediaBlk_21,"Arsenobetaine, 13C2",1297372160,Dino_Green
+211218_Blk_MediaBlk_49,"Arsenobetaine, 13C2",1153992576,Dino_Green
+211218_Blk_MediaBlk_71,"Arsenobetaine, 13C2",1116669568,Dino_Green
+211218_Blk_MediaBlk_3430,"Arsenobetaine, 13C2",1120572288,Dino_Green
+211218_Blk_MediaBlk_N,"Arsenobetaine, 13C2",1128280960,Dino_Green
+211218_Blk_MediaBlk_O,"Arsenobetaine, 13C2",1074860800,Dino_Green
+211218_Smp_449_A,"Arsenobetaine, 13C2",1184783232,Dino_Green
+211218_Smp_449_B,"Arsenobetaine, 13C2",1235503104,Dino_Green
+211218_Smp_449_C,"Arsenobetaine, 13C2",1168002944,Dino_Green
+211218_Smp_1314_A,"Arsenobetaine, 13C2",1322746496,Dino_Green
+211218_Smp_1314_B,"Arsenobetaine, 13C2",1166745856,Dino_Green
+211218_Smp_1314_C,"Arsenobetaine, 13C2",1204704640,Dino_Green
+211218_Smp_1545_A,"Arsenobetaine, 13C2",1126422400,Dino_Green
+211218_Smp_1545_B,"Arsenobetaine, 13C2",1186346240,Dino_Green
+211218_Smp_1545_C,"Arsenobetaine, 13C2",1121107456,Dino_Green
+211218_Smp_1771_A,"Arsenobetaine, 13C2",1249605376,Dino_Green
+211218_Smp_1771_B,"Arsenobetaine, 13C2",1201531520,Dino_Green
+211218_Smp_1771_C,"Arsenobetaine, 13C2",1073336960,Dino_Green
+211218_Smp_2021_A,"Arsenobetaine, 13C2",1042704128,Dino_Green
+211218_Smp_2021_B,"Arsenobetaine, 13C2",1210068224,Dino_Green
+211218_Smp_2021_C,"Arsenobetaine, 13C2",1233409792,Dino_Green
+211218_Smp_3430_A,"Arsenobetaine, 13C2",1221724160,Dino_Green
+211218_Smp_3430_B,"Arsenobetaine, 13C2",1125156480,Dino_Green
+211218_Smp_3430_C,"Arsenobetaine, 13C2",1080655488,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Cytosine, 13C2, 15N3",187905824,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Cytosine, 13C2, 15N3",185140288,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Cytosine, 13C2, 15N3",179722048,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Cytosine, 13C2, 15N3",96831568,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Cytosine, 13C2, 15N3",93701192,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Cytosine, 13C2, 15N3",94950784,Dino_Green
+211218_Blk_MediaBlk_21,"Cytosine, 13C2, 15N3",178025760,Dino_Green
+211218_Blk_MediaBlk_49,"Cytosine, 13C2, 15N3",170061712,Dino_Green
+211218_Blk_MediaBlk_71,"Cytosine, 13C2, 15N3",167184832,Dino_Green
+211218_Blk_MediaBlk_3430,"Cytosine, 13C2, 15N3",169386128,Dino_Green
+211218_Blk_MediaBlk_N,"Cytosine, 13C2, 15N3",178657664,Dino_Green
+211218_Blk_MediaBlk_O,"Cytosine, 13C2, 15N3",169809808,Dino_Green
+211218_Smp_449_A,"Cytosine, 13C2, 15N3",171724752,Dino_Green
+211218_Smp_449_B,"Cytosine, 13C2, 15N3",177595856,Dino_Green
+211218_Smp_449_C,"Cytosine, 13C2, 15N3",154007472,Dino_Green
+211218_Smp_1314_A,"Cytosine, 13C2, 15N3",200654032,Dino_Green
+211218_Smp_1314_B,"Cytosine, 13C2, 15N3",183029392,Dino_Green
+211218_Smp_1314_C,"Cytosine, 13C2, 15N3",194243888,Dino_Green
+211218_Smp_1545_A,"Cytosine, 13C2, 15N3",175163472,Dino_Green
+211218_Smp_1545_B,"Cytosine, 13C2, 15N3",177234560,Dino_Green
+211218_Smp_1545_C,"Cytosine, 13C2, 15N3",179029616,Dino_Green
+211218_Smp_1771_A,"Cytosine, 13C2, 15N3",183724624,Dino_Green
+211218_Smp_1771_B,"Cytosine, 13C2, 15N3",179210768,Dino_Green
+211218_Smp_1771_C,"Cytosine, 13C2, 15N3",156230384,Dino_Green
+211218_Smp_2021_A,"Cytosine, 13C2, 15N3",134853056,Dino_Green
+211218_Smp_2021_B,"Cytosine, 13C2, 15N3",148447856,Dino_Green
+211218_Smp_2021_C,"Cytosine, 13C2, 15N3",173682352,Dino_Green
+211218_Smp_3430_A,"Cytosine, 13C2, 15N3",190846384,Dino_Green
+211218_Smp_3430_B,"Cytosine, 13C2, 15N3",169974304,Dino_Green
+211218_Smp_3430_C,"Cytosine, 13C2, 15N3",166009376,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"DL-Alanine, 2H3",28773088,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"DL-Alanine, 2H3",28915708,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"DL-Alanine, 2H3",31257298,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"DL-Alanine, 2H3",15016784,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"DL-Alanine, 2H3",16865720,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"DL-Alanine, 2H3",18318884,Dino_Green
+211218_Blk_MediaBlk_21,"DL-Alanine, 2H3",15773519,Dino_Green
+211218_Blk_MediaBlk_49,"DL-Alanine, 2H3",20469506,Dino_Green
+211218_Blk_MediaBlk_71,"DL-Alanine, 2H3",16364381,Dino_Green
+211218_Blk_MediaBlk_3430,"DL-Alanine, 2H3",20910950,Dino_Green
+211218_Blk_MediaBlk_N,"DL-Alanine, 2H3",14269035,Dino_Green
+211218_Blk_MediaBlk_O,"DL-Alanine, 2H3",27832630,Dino_Green
+211218_Smp_449_A,"DL-Alanine, 2H3",23443510,Dino_Green
+211218_Smp_449_B,"DL-Alanine, 2H3",14299791,Dino_Green
+211218_Smp_449_C,"DL-Alanine, 2H3",22207454,Dino_Green
+211218_Smp_1314_A,"DL-Alanine, 2H3",13308834,Dino_Green
+211218_Smp_1314_B,"DL-Alanine, 2H3",14687162,Dino_Green
+211218_Smp_1314_C,"DL-Alanine, 2H3",18372704,Dino_Green
+211218_Smp_1545_A,"DL-Alanine, 2H3",19275456,Dino_Green
+211218_Smp_1545_B,"DL-Alanine, 2H3",20851000,Dino_Green
+211218_Smp_1545_C,"DL-Alanine, 2H3",17595804,Dino_Green
+211218_Smp_1771_A,"DL-Alanine, 2H3",15419775,Dino_Green
+211218_Smp_1771_B,"DL-Alanine, 2H3",16283284,Dino_Green
+211218_Smp_1771_C,"DL-Alanine, 2H3",19192156,Dino_Green
+211218_Smp_2021_A,"DL-Alanine, 2H3",4474691,Dino_Green
+211218_Smp_2021_B,"DL-Alanine, 2H3",1079025,Dino_Green
+211218_Smp_2021_C,"DL-Alanine, 2H3",14522003,Dino_Green
+211218_Smp_3430_A,"DL-Alanine, 2H3",15659010,Dino_Green
+211218_Smp_3430_B,"DL-Alanine, 2H3",19524830,Dino_Green
+211218_Smp_3430_C,"DL-Alanine, 2H3",15144121,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"DL-Histidine, 15N",68372168,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"DL-Histidine, 15N",68921128,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"DL-Histidine, 15N",80514336,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"DL-Histidine, 15N",34958748,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"DL-Histidine, 15N",37392224,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"DL-Histidine, 15N",47795172,Dino_Green
+211218_Blk_MediaBlk_21,"DL-Histidine, 15N",26909822,Dino_Green
+211218_Blk_MediaBlk_49,"DL-Histidine, 15N",38439412,Dino_Green
+211218_Blk_MediaBlk_71,"DL-Histidine, 15N",32458146,Dino_Green
+211218_Blk_MediaBlk_3430,"DL-Histidine, 15N",50288736,Dino_Green
+211218_Blk_MediaBlk_N,"DL-Histidine, 15N",26215786,Dino_Green
+211218_Blk_MediaBlk_O,"DL-Histidine, 15N",59735920,Dino_Green
+211218_Smp_449_A,"DL-Histidine, 15N",46940820,Dino_Green
+211218_Smp_449_B,"DL-Histidine, 15N",28378046,Dino_Green
+211218_Smp_449_C,"DL-Histidine, 15N",40343356,Dino_Green
+211218_Smp_1314_A,"DL-Histidine, 15N",28052326,Dino_Green
+211218_Smp_1314_B,"DL-Histidine, 15N",30099082,Dino_Green
+211218_Smp_1314_C,"DL-Histidine, 15N",57298836,Dino_Green
+211218_Smp_1545_A,"DL-Histidine, 15N",59535952,Dino_Green
+211218_Smp_1545_B,"DL-Histidine, 15N",55769588,Dino_Green
+211218_Smp_1545_C,"DL-Histidine, 15N",59792268,Dino_Green
+211218_Smp_1771_A,"DL-Histidine, 15N",29710060,Dino_Green
+211218_Smp_1771_B,"DL-Histidine, 15N",34342480,Dino_Green
+211218_Smp_1771_C,"DL-Histidine, 15N",37404828,Dino_Green
+211218_Smp_2021_A,"DL-Histidine, 15N",26926618,Dino_Green
+211218_Smp_2021_B,"DL-Histidine, 15N",18808408,Dino_Green
+211218_Smp_2021_C,"DL-Histidine, 15N",47051528,Dino_Green
+211218_Smp_3430_A,"DL-Histidine, 15N",45106240,Dino_Green
+211218_Smp_3430_B,"DL-Histidine, 15N",44392620,Dino_Green
+211218_Smp_3430_C,"DL-Histidine, 15N",37013100,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"DL-Proline, 2H7",49057448,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"DL-Proline, 2H7",47124444,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"DL-Proline, 2H7",46395164,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"DL-Proline, 2H7",22807496,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"DL-Proline, 2H7",22078348,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"DL-Proline, 2H7",22916966,Dino_Green
+211218_Blk_MediaBlk_21,"DL-Proline, 2H7",34107168,Dino_Green
+211218_Blk_MediaBlk_49,"DL-Proline, 2H7",36630584,Dino_Green
+211218_Blk_MediaBlk_71,"DL-Proline, 2H7",34869996,Dino_Green
+211218_Blk_MediaBlk_3430,"DL-Proline, 2H7",40829436,Dino_Green
+211218_Blk_MediaBlk_N,"DL-Proline, 2H7",34364368,Dino_Green
+211218_Blk_MediaBlk_O,"DL-Proline, 2H7",44391228,Dino_Green
+211218_Smp_449_A,"DL-Proline, 2H7",38291260,Dino_Green
+211218_Smp_449_B,"DL-Proline, 2H7",31696692,Dino_Green
+211218_Smp_449_C,"DL-Proline, 2H7",38584172,Dino_Green
+211218_Smp_1314_A,"DL-Proline, 2H7",36610600,Dino_Green
+211218_Smp_1314_B,"DL-Proline, 2H7",36709356,Dino_Green
+211218_Smp_1314_C,"DL-Proline, 2H7",42514848,Dino_Green
+211218_Smp_1545_A,"DL-Proline, 2H7",42123844,Dino_Green
+211218_Smp_1545_B,"DL-Proline, 2H7",43787308,Dino_Green
+211218_Smp_1545_C,"DL-Proline, 2H7",42838900,Dino_Green
+211218_Smp_1771_A,"DL-Proline, 2H7",34531656,Dino_Green
+211218_Smp_1771_B,"DL-Proline, 2H7",35485104,Dino_Green
+211218_Smp_1771_C,"DL-Proline, 2H7",36300308,Dino_Green
+211218_Smp_2021_A,"DL-Proline, 2H7",36879784,Dino_Green
+211218_Smp_2021_B,"DL-Proline, 2H7",31739310,Dino_Green
+211218_Smp_2021_C,"DL-Proline, 2H7",40646020,Dino_Green
+211218_Smp_3430_A,"DL-Proline, 2H7",40245368,Dino_Green
+211218_Smp_3430_B,"DL-Proline, 2H7",41632260,Dino_Green
+211218_Smp_3430_C,"DL-Proline, 2H7",39656436,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Glycine betaine, 13C5, 15N",797027840,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Glycine betaine, 13C5, 15N",789450560,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Glycine betaine, 13C5, 15N",825708288,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Glycine betaine, 13C5, 15N",406517408,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Glycine betaine, 13C5, 15N",413012288,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Glycine betaine, 13C5, 15N",413543328,Dino_Green
+211218_Blk_MediaBlk_21,"Glycine betaine, 13C5, 15N",789113344,Dino_Green
+211218_Blk_MediaBlk_49,"Glycine betaine, 13C5, 15N",704877440,Dino_Green
+211218_Blk_MediaBlk_71,"Glycine betaine, 13C5, 15N",691956672,Dino_Green
+211218_Blk_MediaBlk_3430,"Glycine betaine, 13C5, 15N",688384576,Dino_Green
+211218_Blk_MediaBlk_N,"Glycine betaine, 13C5, 15N",688930944,Dino_Green
+211218_Blk_MediaBlk_O,"Glycine betaine, 13C5, 15N",668084672,Dino_Green
+211218_Smp_449_A,"Glycine betaine, 13C5, 15N",736755392,Dino_Green
+211218_Smp_449_B,"Glycine betaine, 13C5, 15N",771995072,Dino_Green
+211218_Smp_449_C,"Glycine betaine, 13C5, 15N",724860544,Dino_Green
+211218_Smp_1314_A,"Glycine betaine, 13C5, 15N",805941760,Dino_Green
+211218_Smp_1314_B,"Glycine betaine, 13C5, 15N",718089728,Dino_Green
+211218_Smp_1314_C,"Glycine betaine, 13C5, 15N",737507904,Dino_Green
+211218_Smp_1545_A,"Glycine betaine, 13C5, 15N",695864832,Dino_Green
+211218_Smp_1545_B,"Glycine betaine, 13C5, 15N",727515072,Dino_Green
+211218_Smp_1545_C,"Glycine betaine, 13C5, 15N",687755968,Dino_Green
+211218_Smp_1771_A,"Glycine betaine, 13C5, 15N",763306048,Dino_Green
+211218_Smp_1771_B,"Glycine betaine, 13C5, 15N",740508352,Dino_Green
+211218_Smp_1771_C,"Glycine betaine, 13C5, 15N",668663360,Dino_Green
+211218_Smp_2021_A,"Glycine betaine, 13C5, 15N",639980160,Dino_Green
+211218_Smp_2021_B,"Glycine betaine, 13C5, 15N",727986432,Dino_Green
+211218_Smp_2021_C,"Glycine betaine, 13C5, 15N",763202880,Dino_Green
+211218_Smp_3430_A,"Glycine betaine, 13C5, 15N",733772224,Dino_Green
+211218_Smp_3430_B,"Glycine betaine, 13C5, 15N",676937088,Dino_Green
+211218_Smp_3430_C,"Glycine betaine, 13C5, 15N",652111488,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Guanine, 13C, 15N2",57006700,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Guanine, 13C, 15N2",52598196,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Guanine, 13C, 15N2",53153220,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Guanine, 13C, 15N2",36933776,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Guanine, 13C, 15N2",37374720,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Guanine, 13C, 15N2",41145288,Dino_Green
+211218_Blk_MediaBlk_21,"Guanine, 13C, 15N2",103752816,Dino_Green
+211218_Blk_MediaBlk_49,"Guanine, 13C, 15N2",91242688,Dino_Green
+211218_Blk_MediaBlk_71,"Guanine, 13C, 15N2",94923176,Dino_Green
+211218_Blk_MediaBlk_3430,"Guanine, 13C, 15N2",90237816,Dino_Green
+211218_Blk_MediaBlk_N,"Guanine, 13C, 15N2",173114416,Dino_Green
+211218_Blk_MediaBlk_O,"Guanine, 13C, 15N2",86176280,Dino_Green
+211218_Smp_449_A,"Guanine, 13C, 15N2",96080192,Dino_Green
+211218_Smp_449_B,"Guanine, 13C, 15N2",93700104,Dino_Green
+211218_Smp_449_C,"Guanine, 13C, 15N2",89785872,Dino_Green
+211218_Smp_1314_A,"Guanine, 13C, 15N2",98728072,Dino_Green
+211218_Smp_1314_B,"Guanine, 13C, 15N2",69284736,Dino_Green
+211218_Smp_1314_C,"Guanine, 13C, 15N2",80312896,Dino_Green
+211218_Smp_1545_A,"Guanine, 13C, 15N2",168289824,Dino_Green
+211218_Smp_1545_B,"Guanine, 13C, 15N2",127032440,Dino_Green
+211218_Smp_1545_C,"Guanine, 13C, 15N2",118600016,Dino_Green
+211218_Smp_1771_A,"Guanine, 13C, 15N2",79565432,Dino_Green
+211218_Smp_1771_B,"Guanine, 13C, 15N2",71758776,Dino_Green
+211218_Smp_1771_C,"Guanine, 13C, 15N2",68134600,Dino_Green
+211218_Smp_2021_A,"Guanine, 13C, 15N2",11773565,Dino_Green
+211218_Smp_2021_B,"Guanine, 13C, 15N2",16438762,Dino_Green
+211218_Smp_2021_C,"Guanine, 13C, 15N2",30315870,Dino_Green
+211218_Smp_3430_A,"Guanine, 13C, 15N2",96736992,Dino_Green
+211218_Smp_3430_B,"Guanine, 13C, 15N2",81697048,Dino_Green
+211218_Smp_3430_C,"Guanine, 13C, 15N2",83778856,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Homarine, 2H3",3286323968,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Homarine, 2H3",3312072704,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Homarine, 2H3",3363311616,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Homarine, 2H3",1709041664,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Homarine, 2H3",1732700928,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Homarine, 2H3",1778007808,Dino_Green
+211218_Blk_MediaBlk_21,"Homarine, 2H3",3363427072,Dino_Green
+211218_Blk_MediaBlk_49,"Homarine, 2H3",3114311168,Dino_Green
+211218_Blk_MediaBlk_71,"Homarine, 2H3",3051878656,Dino_Green
+211218_Blk_MediaBlk_3430,"Homarine, 2H3",2996429824,Dino_Green
+211218_Blk_MediaBlk_N,"Homarine, 2H3",3085192192,Dino_Green
+211218_Blk_MediaBlk_O,"Homarine, 2H3",3011859712,Dino_Green
+211218_Smp_449_A,"Homarine, 2H3",3246288384,Dino_Green
+211218_Smp_449_B,"Homarine, 2H3",3408776192,Dino_Green
+211218_Smp_449_C,"Homarine, 2H3",3113561600,Dino_Green
+211218_Smp_1314_A,"Homarine, 2H3",3651800576,Dino_Green
+211218_Smp_1314_B,"Homarine, 2H3",3206512640,Dino_Green
+211218_Smp_1314_C,"Homarine, 2H3",3288260096,Dino_Green
+211218_Smp_1545_A,"Homarine, 2H3",3154179328,Dino_Green
+211218_Smp_1545_B,"Homarine, 2H3",3223209216,Dino_Green
+211218_Smp_1545_C,"Homarine, 2H3",3013964032,Dino_Green
+211218_Smp_1771_A,"Homarine, 2H3",3259091456,Dino_Green
+211218_Smp_1771_B,"Homarine, 2H3",3229251840,Dino_Green
+211218_Smp_1771_C,"Homarine, 2H3",2974824960,Dino_Green
+211218_Smp_2021_A,"Homarine, 2H3",2954938112,Dino_Green
+211218_Smp_2021_B,"Homarine, 2H3",3218622208,Dino_Green
+211218_Smp_2021_C,"Homarine, 2H3",3356503552,Dino_Green
+211218_Smp_3430_A,"Homarine, 2H3",3321419008,Dino_Green
+211218_Smp_3430_B,"Homarine, 2H3",3071861760,Dino_Green
+211218_Smp_3430_C,"Homarine, 2H3",3080313600,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"L-Isoleucine, 15N",10244866,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"L-Isoleucine, 15N",12567296,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"L-Isoleucine, 15N",13512967,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"L-Isoleucine, 15N",5341565,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"L-Isoleucine, 15N",6131836,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"L-Isoleucine, 15N",7207606,Dino_Green
+211218_Blk_MediaBlk_21,"L-Isoleucine, 15N",9691002,Dino_Green
+211218_Blk_MediaBlk_49,"L-Isoleucine, 15N",11322009,Dino_Green
+211218_Blk_MediaBlk_71,"L-Isoleucine, 15N",9957065,Dino_Green
+211218_Blk_MediaBlk_3430,"L-Isoleucine, 15N",10857712,Dino_Green
+211218_Blk_MediaBlk_N,"L-Isoleucine, 15N",7979015,Dino_Green
+211218_Blk_MediaBlk_O,"L-Isoleucine, 15N",12045752,Dino_Green
+211218_Smp_449_A,"L-Isoleucine, 15N",9633393,Dino_Green
+211218_Smp_449_B,"L-Isoleucine, 15N",9704657,Dino_Green
+211218_Smp_449_C,"L-Isoleucine, 15N",10165407,Dino_Green
+211218_Smp_1314_A,"L-Isoleucine, 15N",8052190,Dino_Green
+211218_Smp_1314_B,"L-Isoleucine, 15N",8849427,Dino_Green
+211218_Smp_1314_C,"L-Isoleucine, 15N",9924076,Dino_Green
+211218_Smp_1545_A,"L-Isoleucine, 15N",9312404,Dino_Green
+211218_Smp_1545_B,"L-Isoleucine, 15N",10204976,Dino_Green
+211218_Smp_1545_C,"L-Isoleucine, 15N",10835063,Dino_Green
+211218_Smp_1771_A,"L-Isoleucine, 15N",10791262,Dino_Green
+211218_Smp_1771_B,"L-Isoleucine, 15N",10224348,Dino_Green
+211218_Smp_1771_C,"L-Isoleucine, 15N",11414473,Dino_Green
+211218_Smp_2021_A,"L-Isoleucine, 15N",9428781,Dino_Green
+211218_Smp_2021_B,"L-Isoleucine, 15N",9036922,Dino_Green
+211218_Smp_2021_C,"L-Isoleucine, 15N",12076559,Dino_Green
+211218_Smp_3430_A,"L-Isoleucine, 15N",9987197,Dino_Green
+211218_Smp_3430_B,"L-Isoleucine, 15N",10751890,Dino_Green
+211218_Smp_3430_C,"L-Isoleucine, 15N",9641230,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Succinic acid, 2H4",74621712,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Succinic acid, 2H4",83245328,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Succinic acid, 2H4",95509856,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Succinic acid, 2H4",36736284,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Succinic acid, 2H4",42534128,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Succinic acid, 2H4",50000588,Dino_Green
+211218_Blk_MediaBlk_21,"Succinic acid, 2H4",81866016,Dino_Green
+211218_Blk_MediaBlk_49,"Succinic acid, 2H4",78687216,Dino_Green
+211218_Blk_MediaBlk_71,"Succinic acid, 2H4",81958168,Dino_Green
+211218_Blk_MediaBlk_3430,"Succinic acid, 2H4",81179672,Dino_Green
+211218_Blk_MediaBlk_N,"Succinic acid, 2H4",72265016,Dino_Green
+211218_Blk_MediaBlk_O,"Succinic acid, 2H4",72070520,Dino_Green
+211218_Smp_449_A,"Succinic acid, 2H4",90901392,Dino_Green
+211218_Smp_449_B,"Succinic acid, 2H4",82147512,Dino_Green
+211218_Smp_449_C,"Succinic acid, 2H4",85048832,Dino_Green
+211218_Smp_1314_A,"Succinic acid, 2H4",78998168,Dino_Green
+211218_Smp_1314_B,"Succinic acid, 2H4",72593296,Dino_Green
+211218_Smp_1314_C,"Succinic acid, 2H4",81844896,Dino_Green
+211218_Smp_1545_A,"Succinic acid, 2H4",88921664,Dino_Green
+211218_Smp_1545_B,"Succinic acid, 2H4",78881896,Dino_Green
+211218_Smp_1545_C,"Succinic acid, 2H4",87191888,Dino_Green
+211218_Smp_1771_A,"Succinic acid, 2H4",85874128,Dino_Green
+211218_Smp_1771_B,"Succinic acid, 2H4",83160144,Dino_Green
+211218_Smp_1771_C,"Succinic acid, 2H4",82594784,Dino_Green
+211218_Smp_2021_A,"Succinic acid, 2H4",84077320,Dino_Green
+211218_Smp_2021_B,"Succinic acid, 2H4",79450992,Dino_Green
+211218_Smp_2021_C,"Succinic acid, 2H4",89285928,Dino_Green
+211218_Smp_3430_A,"Succinic acid, 2H4",81733264,Dino_Green
+211218_Smp_3430_B,"Succinic acid, 2H4",79902736,Dino_Green
+211218_Smp_3430_C,"Succinic acid, 2H4",83837176,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Isethionic acid, 13C2",39084524,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Isethionic acid, 13C2",40387444,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Isethionic acid, 13C2",46306284,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Isethionic acid, 13C2",21465532,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Isethionic acid, 13C2",22278910,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Isethionic acid, 13C2",26280250,Dino_Green
+211218_Blk_MediaBlk_21,"Isethionic acid, 13C2",36890500,Dino_Green
+211218_Blk_MediaBlk_49,"Isethionic acid, 13C2",41569516,Dino_Green
+211218_Blk_MediaBlk_71,"Isethionic acid, 13C2",33386550,Dino_Green
+211218_Blk_MediaBlk_3430,"Isethionic acid, 13C2",38465884,Dino_Green
+211218_Blk_MediaBlk_N,"Isethionic acid, 13C2",20856824,Dino_Green
+211218_Blk_MediaBlk_O,"Isethionic acid, 13C2",32405386,Dino_Green
+211218_Smp_449_A,"Isethionic acid, 13C2",48008284,Dino_Green
+211218_Smp_449_B,"Isethionic acid, 13C2",42868860,Dino_Green
+211218_Smp_449_C,"Isethionic acid, 13C2",37569980,Dino_Green
+211218_Smp_1314_A,"Isethionic acid, 13C2",23396166,Dino_Green
+211218_Smp_1314_B,"Isethionic acid, 13C2",27090778,Dino_Green
+211218_Smp_1314_C,"Isethionic acid, 13C2",33930100,Dino_Green
+211218_Smp_1545_A,"Isethionic acid, 13C2",22277434,Dino_Green
+211218_Smp_1545_B,"Isethionic acid, 13C2",27183942,Dino_Green
+211218_Smp_1545_C,"Isethionic acid, 13C2",34968524,Dino_Green
+211218_Smp_1771_A,"Isethionic acid, 13C2",48204912,Dino_Green
+211218_Smp_1771_B,"Isethionic acid, 13C2",42270392,Dino_Green
+211218_Smp_1771_C,"Isethionic acid, 13C2",47493972,Dino_Green
+211218_Smp_2021_A,"Isethionic acid, 13C2",34794540,Dino_Green
+211218_Smp_2021_B,"Isethionic acid, 13C2",50392496,Dino_Green
+211218_Smp_2021_C,"Isethionic acid, 13C2",49623948,Dino_Green
+211218_Smp_3430_A,"Isethionic acid, 13C2",42072736,Dino_Green
+211218_Smp_3430_B,"Isethionic acid, 13C2",43142900,Dino_Green
+211218_Smp_3430_C,"Isethionic acid, 13C2",38024320,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Taurine, 2H4",11447675,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Taurine, 2H4",11394640,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Taurine, 2H4",10912097,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Taurine, 2H4",7693250,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Taurine, 2H4",6779697,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Taurine, 2H4",7273438,Dino_Green
+211218_Blk_MediaBlk_21,"Taurine, 2H4",10807940,Dino_Green
+211218_Blk_MediaBlk_49,"Taurine, 2H4",9608937,Dino_Green
+211218_Blk_MediaBlk_71,"Taurine, 2H4",9621336,Dino_Green
+211218_Blk_MediaBlk_3430,"Taurine, 2H4",10191418,Dino_Green
+211218_Blk_MediaBlk_N,"Taurine, 2H4",10849430,Dino_Green
+211218_Blk_MediaBlk_O,"Taurine, 2H4",10759229,Dino_Green
+211218_Smp_449_A,"Taurine, 2H4",10110834,Dino_Green
+211218_Smp_449_B,"Taurine, 2H4",10296985,Dino_Green
+211218_Smp_449_C,"Taurine, 2H4",9045990,Dino_Green
+211218_Smp_1314_A,"Taurine, 2H4",11485845,Dino_Green
+211218_Smp_1314_B,"Taurine, 2H4",11702720,Dino_Green
+211218_Smp_1314_C,"Taurine, 2H4",12047174,Dino_Green
+211218_Smp_1545_A,"Taurine, 2H4",9468440,Dino_Green
+211218_Smp_1545_B,"Taurine, 2H4",8877305,Dino_Green
+211218_Smp_1545_C,"Taurine, 2H4",9952970,Dino_Green
+211218_Smp_1771_A,"Taurine, 2H4",10193084,Dino_Green
+211218_Smp_1771_B,"Taurine, 2H4",10393182,Dino_Green
+211218_Smp_1771_C,"Taurine, 2H4",10467939,Dino_Green
+211218_Smp_2021_A,"Taurine, 2H4",7954798,Dino_Green
+211218_Smp_2021_B,"Taurine, 2H4",10155406,Dino_Green
+211218_Smp_2021_C,"Taurine, 2H4",11924275,Dino_Green
+211218_Smp_3430_A,"Taurine, 2H4",7069838,Dino_Green
+211218_Smp_3430_B,"Taurine, 2H4",7080273,Dino_Green
+211218_Smp_3430_C,"Taurine, 2H4",7270477,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Thymine, 2H4",113107488,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Thymine, 2H4",125562184,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Thymine, 2H4",136822112,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Thymine, 2H4",57362388,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Thymine, 2H4",60670680,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Thymine, 2H4",68131768,Dino_Green
+211218_Blk_MediaBlk_21,"Thymine, 2H4",119987160,Dino_Green
+211218_Blk_MediaBlk_49,"Thymine, 2H4",117973232,Dino_Green
+211218_Blk_MediaBlk_71,"Thymine, 2H4",112464640,Dino_Green
+211218_Blk_MediaBlk_3430,"Thymine, 2H4",114184896,Dino_Green
+211218_Blk_MediaBlk_N,"Thymine, 2H4",109638712,Dino_Green
+211218_Blk_MediaBlk_O,"Thymine, 2H4",104897096,Dino_Green
+211218_Smp_449_A,"Thymine, 2H4",129047392,Dino_Green
+211218_Smp_449_B,"Thymine, 2H4",128048760,Dino_Green
+211218_Smp_449_C,"Thymine, 2H4",109718168,Dino_Green
+211218_Smp_1314_A,"Thymine, 2H4",115678288,Dino_Green
+211218_Smp_1314_B,"Thymine, 2H4",111839864,Dino_Green
+211218_Smp_1314_C,"Thymine, 2H4",118458352,Dino_Green
+211218_Smp_1545_A,"Thymine, 2H4",115731448,Dino_Green
+211218_Smp_1545_B,"Thymine, 2H4",105940800,Dino_Green
+211218_Smp_1545_C,"Thymine, 2H4",109695976,Dino_Green
+211218_Smp_1771_A,"Thymine, 2H4",130072800,Dino_Green
+211218_Smp_1771_B,"Thymine, 2H4",120241184,Dino_Green
+211218_Smp_1771_C,"Thymine, 2H4",110128880,Dino_Green
+211218_Smp_2021_A,"Thymine, 2H4",111345328,Dino_Green
+211218_Smp_2021_B,"Thymine, 2H4",127327456,Dino_Green
+211218_Smp_2021_C,"Thymine, 2H4",132127336,Dino_Green
+211218_Smp_3430_A,"Thymine, 2H4",123879168,Dino_Green
+211218_Smp_3430_B,"Thymine, 2H4",120536192,Dino_Green
+211218_Smp_3430_C,"Thymine, 2H4",112390256,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Sulfoacetic acid, 13C2",15935024,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Sulfoacetic acid, 13C2",17630166,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Sulfoacetic acid, 13C2",19378430,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Sulfoacetic acid, 13C2",10760749,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Sulfoacetic acid, 13C2",11789295,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Sulfoacetic acid, 13C2",13039011,Dino_Green
+211218_Blk_MediaBlk_21,"Sulfoacetic acid, 13C2",16421660,Dino_Green
+211218_Blk_MediaBlk_49,"Sulfoacetic acid, 13C2",13948107,Dino_Green
+211218_Blk_MediaBlk_71,"Sulfoacetic acid, 13C2",12923419,Dino_Green
+211218_Blk_MediaBlk_3430,"Sulfoacetic acid, 13C2",14410339,Dino_Green
+211218_Blk_MediaBlk_N,"Sulfoacetic acid, 13C2",14243878,Dino_Green
+211218_Blk_MediaBlk_O,"Sulfoacetic acid, 13C2",14672208,Dino_Green
+211218_Smp_449_A,"Sulfoacetic acid, 13C2",17243568,Dino_Green
+211218_Smp_449_B,"Sulfoacetic acid, 13C2",13632378,Dino_Green
+211218_Smp_449_C,"Sulfoacetic acid, 13C2",15097629,Dino_Green
+211218_Smp_1314_A,"Sulfoacetic acid, 13C2",12795582,Dino_Green
+211218_Smp_1314_B,"Sulfoacetic acid, 13C2",14942749,Dino_Green
+211218_Smp_1314_C,"Sulfoacetic acid, 13C2",13515246,Dino_Green
+211218_Smp_1545_A,"Sulfoacetic acid, 13C2",14029428,Dino_Green
+211218_Smp_1545_B,"Sulfoacetic acid, 13C2",15482979,Dino_Green
+211218_Smp_1545_C,"Sulfoacetic acid, 13C2",13561023,Dino_Green
+211218_Smp_1771_A,"Sulfoacetic acid, 13C2",15241834,Dino_Green
+211218_Smp_1771_B,"Sulfoacetic acid, 13C2",14219679,Dino_Green
+211218_Smp_1771_C,"Sulfoacetic acid, 13C2",15849423,Dino_Green
+211218_Smp_2021_A,"Sulfoacetic acid, 13C2",16034347,Dino_Green
+211218_Smp_2021_B,"Sulfoacetic acid, 13C2",12642009,Dino_Green
+211218_Smp_2021_C,"Sulfoacetic acid, 13C2",17024982,Dino_Green
+211218_Smp_3430_A,"Sulfoacetic acid, 13C2",15699650,Dino_Green
+211218_Smp_3430_B,"Sulfoacetic acid, 13C2",15240186,Dino_Green
+211218_Smp_3430_C,"Sulfoacetic acid, 13C2",13306386,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"L-Cysteic acid, 2H3",5219631,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"L-Cysteic acid, 2H3",5666191,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"L-Cysteic acid, 2H3",6463309,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"L-Cysteic acid, 2H3",2589092,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"L-Cysteic acid, 2H3",2571469,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"L-Cysteic acid, 2H3",3102832,Dino_Green
+211218_Blk_MediaBlk_21,"L-Cysteic acid, 2H3",6225607,Dino_Green
+211218_Blk_MediaBlk_49,"L-Cysteic acid, 2H3",5107343,Dino_Green
+211218_Blk_MediaBlk_71,"L-Cysteic acid, 2H3",5123976,Dino_Green
+211218_Blk_MediaBlk_3430,"L-Cysteic acid, 2H3",6548021,Dino_Green
+211218_Blk_MediaBlk_N,"L-Cysteic acid, 2H3",5634610,Dino_Green
+211218_Blk_MediaBlk_O,"L-Cysteic acid, 2H3",5982225,Dino_Green
+211218_Smp_449_A,"L-Cysteic acid, 2H3",5793459,Dino_Green
+211218_Smp_449_B,"L-Cysteic acid, 2H3",5399743,Dino_Green
+211218_Smp_449_C,"L-Cysteic acid, 2H3",5298389,Dino_Green
+211218_Smp_1314_A,"L-Cysteic acid, 2H3",5439028,Dino_Green
+211218_Smp_1314_B,"L-Cysteic acid, 2H3",5825513,Dino_Green
+211218_Smp_1314_C,"L-Cysteic acid, 2H3",6408019,Dino_Green
+211218_Smp_1545_A,"L-Cysteic acid, 2H3",7186827,Dino_Green
+211218_Smp_1545_B,"L-Cysteic acid, 2H3",7043739,Dino_Green
+211218_Smp_1545_C,"L-Cysteic acid, 2H3",6672745,Dino_Green
+211218_Smp_1771_A,"L-Cysteic acid, 2H3",6315581,Dino_Green
+211218_Smp_1771_B,"L-Cysteic acid, 2H3",5873356,Dino_Green
+211218_Smp_1771_C,"L-Cysteic acid, 2H3",5948019,Dino_Green
+211218_Smp_2021_A,"L-Cysteic acid, 2H3",5515010,Dino_Green
+211218_Smp_2021_B,"L-Cysteic acid, 2H3",6738991,Dino_Green
+211218_Smp_2021_C,"L-Cysteic acid, 2H3",6698374,Dino_Green
+211218_Smp_3430_A,"L-Cysteic acid, 2H3",6079117,Dino_Green
+211218_Smp_3430_B,"L-Cysteic acid, 2H3",5782856,Dino_Green
+211218_Smp_3430_C,"L-Cysteic acid, 2H3",6324714,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"3-Sulfolactate, 13C3",3754054,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"3-Sulfolactate, 13C3",3651925,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"3-Sulfolactate, 13C3",4789633,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"3-Sulfolactate, 13C3",1829722,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"3-Sulfolactate, 13C3",1911890,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"3-Sulfolactate, 13C3",1922083,Dino_Green
+211218_Blk_MediaBlk_21,"3-Sulfolactate, 13C3",3903253,Dino_Green
+211218_Blk_MediaBlk_49,"3-Sulfolactate, 13C3",3407086,Dino_Green
+211218_Blk_MediaBlk_71,"3-Sulfolactate, 13C3",3833046,Dino_Green
+211218_Blk_MediaBlk_3430,"3-Sulfolactate, 13C3",4627106,Dino_Green
+211218_Blk_MediaBlk_N,"3-Sulfolactate, 13C3",3078653,Dino_Green
+211218_Blk_MediaBlk_O,"3-Sulfolactate, 13C3",3728516,Dino_Green
+211218_Smp_449_A,"3-Sulfolactate, 13C3",2931124,Dino_Green
+211218_Smp_449_B,"3-Sulfolactate, 13C3",3259470,Dino_Green
+211218_Smp_449_C,"3-Sulfolactate, 13C3",2884484,Dino_Green
+211218_Smp_1314_A,"3-Sulfolactate, 13C3",3361885,Dino_Green
+211218_Smp_1314_B,"3-Sulfolactate, 13C3",3016651,Dino_Green
+211218_Smp_1314_C,"3-Sulfolactate, 13C3",3805034,Dino_Green
+211218_Smp_1545_A,"3-Sulfolactate, 13C3",4228863,Dino_Green
+211218_Smp_1545_B,"3-Sulfolactate, 13C3",4119590,Dino_Green
+211218_Smp_1545_C,"3-Sulfolactate, 13C3",4725759,Dino_Green
+211218_Smp_1771_A,"3-Sulfolactate, 13C3",4192955,Dino_Green
+211218_Smp_1771_B,"3-Sulfolactate, 13C3",3283719,Dino_Green
+211218_Smp_1771_C,"3-Sulfolactate, 13C3",3697987,Dino_Green
+211218_Smp_2021_A,"3-Sulfolactate, 13C3",4049611,Dino_Green
+211218_Smp_2021_B,"3-Sulfolactate, 13C3",4614157,Dino_Green
+211218_Smp_2021_C,"3-Sulfolactate, 13C3",4055881,Dino_Green
+211218_Smp_3430_A,"3-Sulfolactate, 13C3",3788304,Dino_Green
+211218_Smp_3430_B,"3-Sulfolactate, 13C3",3682017,Dino_Green
+211218_Smp_3430_C,"3-Sulfolactate, 13C3",3574750,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"AMP, 15N5",31502426,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"AMP, 15N5",32545190,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"AMP, 15N5",37091204,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"AMP, 15N5",14785336,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"AMP, 15N5",16545036,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"AMP, 15N5",18524864,Dino_Green
+211218_Blk_MediaBlk_21,"AMP, 15N5",37363216,Dino_Green
+211218_Blk_MediaBlk_49,"AMP, 15N5",37680496,Dino_Green
+211218_Blk_MediaBlk_71,"AMP, 15N5",36711056,Dino_Green
+211218_Blk_MediaBlk_3430,"AMP, 15N5",39305020,Dino_Green
+211218_Blk_MediaBlk_N,"AMP, 15N5",33563988,Dino_Green
+211218_Blk_MediaBlk_O,"AMP, 15N5",37001388,Dino_Green
+211218_Smp_449_A,"AMP, 15N5",40166356,Dino_Green
+211218_Smp_449_B,"AMP, 15N5",37776044,Dino_Green
+211218_Smp_449_C,"AMP, 15N5",39642568,Dino_Green
+211218_Smp_1314_A,"AMP, 15N5",34235656,Dino_Green
+211218_Smp_1314_B,"AMP, 15N5",35245692,Dino_Green
+211218_Smp_1314_C,"AMP, 15N5",39336808,Dino_Green
+211218_Smp_1545_A,"AMP, 15N5",38698752,Dino_Green
+211218_Smp_1545_B,"AMP, 15N5",36925636,Dino_Green
+211218_Smp_1545_C,"AMP, 15N5",41893732,Dino_Green
+211218_Smp_1771_A,"AMP, 15N5",40030276,Dino_Green
+211218_Smp_1771_B,"AMP, 15N5",39745892,Dino_Green
+211218_Smp_1771_C,"AMP, 15N5",39610624,Dino_Green
+211218_Smp_2021_A,"AMP, 15N5",39218480,Dino_Green
+211218_Smp_2021_B,"AMP, 15N5",36659772,Dino_Green
+211218_Smp_2021_C,"AMP, 15N5",42547420,Dino_Green
+211218_Smp_3430_A,"AMP, 15N5",36627364,Dino_Green
+211218_Smp_3430_B,"AMP, 15N5",38037592,Dino_Green
+211218_Smp_3430_C,"AMP, 15N5",27961106,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Sucrose, 13C",49727084,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Sucrose, 13C",51860756,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Sucrose, 13C",60479216,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Sucrose, 13C",25288874,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Sucrose, 13C",28834588,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Sucrose, 13C",31126274,Dino_Green
+211218_Blk_MediaBlk_21,"Sucrose, 13C",58005660,Dino_Green
+211218_Blk_MediaBlk_49,"Sucrose, 13C",52945828,Dino_Green
+211218_Blk_MediaBlk_71,"Sucrose, 13C",62111272,Dino_Green
+211218_Blk_MediaBlk_3430,"Sucrose, 13C",59866400,Dino_Green
+211218_Blk_MediaBlk_N,"Sucrose, 13C",54660600,Dino_Green
+211218_Blk_MediaBlk_O,"Sucrose, 13C",53927800,Dino_Green
+211218_Smp_449_A,"Sucrose, 13C",64755876,Dino_Green
+211218_Smp_449_B,"Sucrose, 13C",59775976,Dino_Green
+211218_Smp_449_C,"Sucrose, 13C",60475256,Dino_Green
+211218_Smp_1314_A,"Sucrose, 13C",58239208,Dino_Green
+211218_Smp_1314_B,"Sucrose, 13C",51673512,Dino_Green
+211218_Smp_1314_C,"Sucrose, 13C",68539680,Dino_Green
+211218_Smp_1545_A,"Sucrose, 13C",61875488,Dino_Green
+211218_Smp_1545_B,"Sucrose, 13C",59774364,Dino_Green
+211218_Smp_1545_C,"Sucrose, 13C",65445804,Dino_Green
+211218_Smp_1771_A,"Sucrose, 13C",60140940,Dino_Green
+211218_Smp_1771_B,"Sucrose, 13C",61274092,Dino_Green
+211218_Smp_1771_C,"Sucrose, 13C",61406924,Dino_Green
+211218_Smp_2021_A,"Sucrose, 13C",56505472,Dino_Green
+211218_Smp_2021_B,"Sucrose, 13C",60387448,Dino_Green
+211218_Smp_2021_C,"Sucrose, 13C",54976908,Dino_Green
+211218_Smp_3430_A,"Sucrose, 13C",57941704,Dino_Green
+211218_Smp_3430_B,"Sucrose, 13C",56453720,Dino_Green
+211218_Smp_3430_C,"Sucrose, 13C",55972428,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"Trehalose, 13C",38355740,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"Trehalose, 13C",41186128,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"Trehalose, 13C",46698180,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"Trehalose, 13C",19457198,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"Trehalose, 13C",21664136,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"Trehalose, 13C",22926534,Dino_Green
+211218_Blk_MediaBlk_21,"Trehalose, 13C",47121544,Dino_Green
+211218_Blk_MediaBlk_49,"Trehalose, 13C",42242348,Dino_Green
+211218_Blk_MediaBlk_71,"Trehalose, 13C",50149456,Dino_Green
+211218_Blk_MediaBlk_3430,"Trehalose, 13C",49909544,Dino_Green
+211218_Blk_MediaBlk_N,"Trehalose, 13C",46607740,Dino_Green
+211218_Blk_MediaBlk_O,"Trehalose, 13C",43947024,Dino_Green
+211218_Smp_449_A,"Trehalose, 13C",51590840,Dino_Green
+211218_Smp_449_B,"Trehalose, 13C",47199412,Dino_Green
+211218_Smp_449_C,"Trehalose, 13C",47511344,Dino_Green
+211218_Smp_1314_A,"Trehalose, 13C",50302640,Dino_Green
+211218_Smp_1314_B,"Trehalose, 13C",42678344,Dino_Green
+211218_Smp_1314_C,"Trehalose, 13C",57559100,Dino_Green
+211218_Smp_1545_A,"Trehalose, 13C",53061248,Dino_Green
+211218_Smp_1545_B,"Trehalose, 13C",49815152,Dino_Green
+211218_Smp_1545_C,"Trehalose, 13C",54402780,Dino_Green
+211218_Smp_1771_A,"Trehalose, 13C",48747516,Dino_Green
+211218_Smp_1771_B,"Trehalose, 13C",48631576,Dino_Green
+211218_Smp_1771_C,"Trehalose, 13C",49195536,Dino_Green
+211218_Smp_2021_A,"Trehalose, 13C",47041032,Dino_Green
+211218_Smp_2021_B,"Trehalose, 13C",52070652,Dino_Green
+211218_Smp_2021_C,"Trehalose, 13C",47172884,Dino_Green
+211218_Smp_3430_A,"Trehalose, 13C",48282228,Dino_Green
+211218_Smp_3430_B,"Trehalose, 13C",44938004,Dino_Green
+211218_Smp_3430_C,"Trehalose, 13C",47037916,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,"GMP, 15N5",6708392,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,"GMP, 15N5",6472278,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,"GMP, 15N5",7105583,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,"GMP, 15N5",3293814,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,"GMP, 15N5",2958801,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,"GMP, 15N5",3557177,Dino_Green
+211218_Blk_MediaBlk_21,"GMP, 15N5",8084935,Dino_Green
+211218_Blk_MediaBlk_49,"GMP, 15N5",6643818,Dino_Green
+211218_Blk_MediaBlk_71,"GMP, 15N5",8137763,Dino_Green
+211218_Blk_MediaBlk_3430,"GMP, 15N5",7311926,Dino_Green
+211218_Blk_MediaBlk_N,"GMP, 15N5",7301576,Dino_Green
+211218_Blk_MediaBlk_O,"GMP, 15N5",7478636,Dino_Green
+211218_Smp_449_A,"GMP, 15N5",7809909,Dino_Green
+211218_Smp_449_B,"GMP, 15N5",7006090,Dino_Green
+211218_Smp_449_C,"GMP, 15N5",7632231,Dino_Green
+211218_Smp_1314_A,"GMP, 15N5",8124387,Dino_Green
+211218_Smp_1314_B,"GMP, 15N5",7546906,Dino_Green
+211218_Smp_1314_C,"GMP, 15N5",8149717,Dino_Green
+211218_Smp_1545_A,"GMP, 15N5",7822292,Dino_Green
+211218_Smp_1545_B,"GMP, 15N5",8055547,Dino_Green
+211218_Smp_1545_C,"GMP, 15N5",8182263,Dino_Green
+211218_Smp_1771_A,"GMP, 15N5",7772478,Dino_Green
+211218_Smp_1771_B,"GMP, 15N5",6830552,Dino_Green
+211218_Smp_1771_C,"GMP, 15N5",7729130,Dino_Green
+211218_Smp_2021_A,"GMP, 15N5",8274831,Dino_Green
+211218_Smp_2021_B,"GMP, 15N5",6689171,Dino_Green
+211218_Smp_2021_C,"GMP, 15N5",8259413,Dino_Green
+211218_Smp_3430_A,"GMP, 15N5",7031082,Dino_Green
+211218_Smp_3430_B,"GMP, 15N5",7389693,Dino_Green
+211218_Smp_3430_C,"GMP, 15N5",6413030,Dino_Green
+211218_Poo_TruePooDinosGreens_Full1,Inj_vol,2,Dino_Green
+211218_Poo_TruePooDinosGreens_Full2,Inj_vol,2,Dino_Green
+211218_Poo_TruePooDinosGreens_Full3,Inj_vol,2,Dino_Green
+211218_Poo_TruePooDinosGreens_Half1,Inj_vol,1,Dino_Green
+211218_Poo_TruePooDinosGreens_Half2,Inj_vol,1,Dino_Green
+211218_Poo_TruePooDinosGreens_Half3,Inj_vol,1,Dino_Green
+211218_Blk_MediaBlk_21,Inj_vol,2,Dino_Green
+211218_Blk_MediaBlk_49,Inj_vol,2,Dino_Green
+211218_Blk_MediaBlk_71,Inj_vol,2,Dino_Green
+211218_Blk_MediaBlk_3430,Inj_vol,2,Dino_Green
+211218_Blk_MediaBlk_N,Inj_vol,2,Dino_Green
+211218_Blk_MediaBlk_O,Inj_vol,2,Dino_Green
+211218_Smp_449_A,Inj_vol,2,Dino_Green
+211218_Smp_449_B,Inj_vol,2,Dino_Green
+211218_Smp_449_C,Inj_vol,2,Dino_Green
+211218_Smp_1314_A,Inj_vol,2,Dino_Green
+211218_Smp_1314_B,Inj_vol,2,Dino_Green
+211218_Smp_1314_C,Inj_vol,2,Dino_Green
+211218_Smp_1545_A,Inj_vol,2,Dino_Green
+211218_Smp_1545_B,Inj_vol,2,Dino_Green
+211218_Smp_1545_C,Inj_vol,2,Dino_Green
+211218_Smp_1771_A,Inj_vol,2,Dino_Green
+211218_Smp_1771_B,Inj_vol,2,Dino_Green
+211218_Smp_1771_C,Inj_vol,2,Dino_Green
+211218_Smp_2021_A,Inj_vol,2,Dino_Green
+211218_Smp_2021_B,Inj_vol,2,Dino_Green
+211218_Smp_2021_C,Inj_vol,2,Dino_Green
+211218_Smp_3430_A,Inj_vol,2,Dino_Green
+211218_Smp_3430_B,Inj_vol,2,Dino_Green
+211218_Smp_3430_C,Inj_vol,2,Dino_Green
+220104_Blk_MediaBlk_C,"Arsenobetaine, 13C2",939280320,Haptophyte
+220104_Blk_MediaBlk_H,"Arsenobetaine, 13C2",1038961984,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Arsenobetaine, 13C2",1013659264,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Arsenobetaine, 13C2",983215232,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Arsenobetaine, 13C2",1085428992,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Arsenobetaine, 13C2",1084917248,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Arsenobetaine, 13C2",999213440,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Arsenobetaine, 13C2",532158240,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Arsenobetaine, 13C2",572032000,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Arsenobetaine, 13C2",516399264,Haptophyte
+220104_Smp_116-1_A,"Arsenobetaine, 13C2",1049814336,Haptophyte
+220104_Smp_116-1_B,"Arsenobetaine, 13C2",990935616,Haptophyte
+220104_Smp_116-1_C,"Arsenobetaine, 13C2",902095232,Haptophyte
+220104_Smp_371_A,"Arsenobetaine, 13C2",913127424,Haptophyte
+220104_Smp_371_B,"Arsenobetaine, 13C2",949590272,Haptophyte
+220104_Smp_371_C,"Arsenobetaine, 13C2",1000317760,Haptophyte
+220104_Smp_2090_A,"Arsenobetaine, 13C2",933167552,Haptophyte
+220104_Smp_2090_B,"Arsenobetaine, 13C2",897326464,Haptophyte
+220104_Smp_2090_C,"Arsenobetaine, 13C2",1002204416,Haptophyte
+220104_Smp_Ca_A,"Arsenobetaine, 13C2",922276288,Haptophyte
+220104_Smp_Ca_B,"Arsenobetaine, 13C2",1011488896,Haptophyte
+220104_Smp_Ca_C,"Arsenobetaine, 13C2",996222080,Haptophyte
+220104_Smp_Cr_A,"Arsenobetaine, 13C2",906633408,Haptophyte
+220104_Smp_Cr_B,"Arsenobetaine, 13C2",1021896192,Haptophyte
+220104_Smp_Cr_C,"Arsenobetaine, 13C2",974661440,Haptophyte
+220104_Smp_Cs_A,"Arsenobetaine, 13C2",793474752,Haptophyte
+220104_Smp_Cs_B,"Arsenobetaine, 13C2",733294336,Haptophyte
+220104_Smp_Cs_C,"Arsenobetaine, 13C2",708519168,Haptophyte
+220104_Smp_P3_A,"Arsenobetaine, 13C2",1084916352,Haptophyte
+220104_Smp_P3_B,"Arsenobetaine, 13C2",1008206784,Haptophyte
+220104_Smp_P3_C,"Arsenobetaine, 13C2",948716032,Haptophyte
+220104_Smp_P5-5_A,"Arsenobetaine, 13C2",964282944,Haptophyte
+220104_Smp_P5-5_B,"Arsenobetaine, 13C2",954472960,Haptophyte
+220104_Smp_P5-5_C,"Arsenobetaine, 13C2",1027526016,Haptophyte
+220104_Blk_MediaBlk_C,"Cytosine, 13C2, 15N3",108348264,Haptophyte
+220104_Blk_MediaBlk_H,"Cytosine, 13C2, 15N3",117313560,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Cytosine, 13C2, 15N3",112714032,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Cytosine, 13C2, 15N3",119771824,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Cytosine, 13C2, 15N3",132838184,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Cytosine, 13C2, 15N3",119152920,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Cytosine, 13C2, 15N3",114703904,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Cytosine, 13C2, 15N3",64108384,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Cytosine, 13C2, 15N3",58098800,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Cytosine, 13C2, 15N3",64361356,Haptophyte
+220104_Smp_116-1_A,"Cytosine, 13C2, 15N3",128323144,Haptophyte
+220104_Smp_116-1_B,"Cytosine, 13C2, 15N3",134606032,Haptophyte
+220104_Smp_116-1_C,"Cytosine, 13C2, 15N3",125725248,Haptophyte
+220104_Smp_371_A,"Cytosine, 13C2, 15N3",106131984,Haptophyte
+220104_Smp_371_B,"Cytosine, 13C2, 15N3",112094976,Haptophyte
+220104_Smp_371_C,"Cytosine, 13C2, 15N3",120039816,Haptophyte
+220104_Smp_2090_A,"Cytosine, 13C2, 15N3",113463112,Haptophyte
+220104_Smp_2090_B,"Cytosine, 13C2, 15N3",107725608,Haptophyte
+220104_Smp_2090_C,"Cytosine, 13C2, 15N3",126219096,Haptophyte
+220104_Smp_Ca_A,"Cytosine, 13C2, 15N3",91369584,Haptophyte
+220104_Smp_Ca_B,"Cytosine, 13C2, 15N3",104795736,Haptophyte
+220104_Smp_Ca_C,"Cytosine, 13C2, 15N3",102403040,Haptophyte
+220104_Smp_Cr_A,"Cytosine, 13C2, 15N3",109483224,Haptophyte
+220104_Smp_Cr_B,"Cytosine, 13C2, 15N3",100897920,Haptophyte
+220104_Smp_Cr_C,"Cytosine, 13C2, 15N3",96804080,Haptophyte
+220104_Smp_Cs_A,"Cytosine, 13C2, 15N3",111978728,Haptophyte
+220104_Smp_Cs_B,"Cytosine, 13C2, 15N3",107347696,Haptophyte
+220104_Smp_Cs_C,"Cytosine, 13C2, 15N3",86284048,Haptophyte
+220104_Smp_P3_A,"Cytosine, 13C2, 15N3",127922072,Haptophyte
+220104_Smp_P3_B,"Cytosine, 13C2, 15N3",139234976,Haptophyte
+220104_Smp_P3_C,"Cytosine, 13C2, 15N3",129092168,Haptophyte
+220104_Smp_P5-5_A,"Cytosine, 13C2, 15N3",121505304,Haptophyte
+220104_Smp_P5-5_B,"Cytosine, 13C2, 15N3",135538368,Haptophyte
+220104_Smp_P5-5_C,"Cytosine, 13C2, 15N3",141822880,Haptophyte
+220104_Blk_MediaBlk_C,"DL-Alanine, 2H3",18407962,Haptophyte
+220104_Blk_MediaBlk_H,"DL-Alanine, 2H3",48019132,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"DL-Alanine, 2H3",23637950,Haptophyte
+220104_Blk_MediaBlk_RAC5,"DL-Alanine, 2H3",30500710,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"DL-Alanine, 2H3",25326662,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"DL-Alanine, 2H3",37380844,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"DL-Alanine, 2H3",38043176,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"DL-Alanine, 2H3",13212555,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"DL-Alanine, 2H3",19968508,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"DL-Alanine, 2H3",20835480,Haptophyte
+220104_Smp_116-1_A,"DL-Alanine, 2H3",28283586,Haptophyte
+220104_Smp_116-1_B,"DL-Alanine, 2H3",25187012,Haptophyte
+220104_Smp_116-1_C,"DL-Alanine, 2H3",33911544,Haptophyte
+220104_Smp_371_A,"DL-Alanine, 2H3",30400900,Haptophyte
+220104_Smp_371_B,"DL-Alanine, 2H3",28136658,Haptophyte
+220104_Smp_371_C,"DL-Alanine, 2H3",26451102,Haptophyte
+220104_Smp_2090_A,"DL-Alanine, 2H3",19477284,Haptophyte
+220104_Smp_2090_B,"DL-Alanine, 2H3",16600491,Haptophyte
+220104_Smp_2090_C,"DL-Alanine, 2H3",17009368,Haptophyte
+220104_Smp_Ca_A,"DL-Alanine, 2H3",17115178,Haptophyte
+220104_Smp_Ca_B,"DL-Alanine, 2H3",26235962,Haptophyte
+220104_Smp_Ca_C,"DL-Alanine, 2H3",15634804,Haptophyte
+220104_Smp_Cr_A,"DL-Alanine, 2H3",20026064,Haptophyte
+220104_Smp_Cr_B,"DL-Alanine, 2H3",19402954,Haptophyte
+220104_Smp_Cr_C,"DL-Alanine, 2H3",19363884,Haptophyte
+220104_Smp_Cs_A,"DL-Alanine, 2H3",21980062,Haptophyte
+220104_Smp_Cs_B,"DL-Alanine, 2H3",20677626,Haptophyte
+220104_Smp_Cs_C,"DL-Alanine, 2H3",22455860,Haptophyte
+220104_Smp_P3_A,"DL-Alanine, 2H3",28464126,Haptophyte
+220104_Smp_P3_B,"DL-Alanine, 2H3",30411658,Haptophyte
+220104_Smp_P3_C,"DL-Alanine, 2H3",26729082,Haptophyte
+220104_Smp_P5-5_A,"DL-Alanine, 2H3",28941048,Haptophyte
+220104_Smp_P5-5_B,"DL-Alanine, 2H3",41638848,Haptophyte
+220104_Smp_P5-5_C,"DL-Alanine, 2H3",35324024,Haptophyte
+220104_Blk_MediaBlk_C,"DL-Histidine, 15N",6102416,Haptophyte
+220104_Blk_MediaBlk_H,"DL-Histidine, 15N",21259864,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"DL-Histidine, 15N",67122504,Haptophyte
+220104_Blk_MediaBlk_RAC5,"DL-Histidine, 15N",87851224,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"DL-Histidine, 15N",50907928,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"DL-Histidine, 15N",91100496,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"DL-Histidine, 15N",101634904,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"DL-Histidine, 15N",23282812,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"DL-Histidine, 15N",43041508,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"DL-Histidine, 15N",48475212,Haptophyte
+220104_Smp_116-1_A,"DL-Histidine, 15N",89461416,Haptophyte
+220104_Smp_116-1_B,"DL-Histidine, 15N",67396776,Haptophyte
+220104_Smp_116-1_C,"DL-Histidine, 15N",101118632,Haptophyte
+220104_Smp_371_A,"DL-Histidine, 15N",14920637,Haptophyte
+220104_Smp_371_B,"DL-Histidine, 15N",13064719,Haptophyte
+220104_Smp_371_C,"DL-Histidine, 15N",12414179,Haptophyte
+220104_Smp_2090_A,"DL-Histidine, 15N",8626743,Haptophyte
+220104_Smp_2090_B,"DL-Histidine, 15N",7263863,Haptophyte
+220104_Smp_2090_C,"DL-Histidine, 15N",6777061,Haptophyte
+220104_Smp_Ca_A,"DL-Histidine, 15N",53643208,Haptophyte
+220104_Smp_Ca_B,"DL-Histidine, 15N",92141048,Haptophyte
+220104_Smp_Ca_C,"DL-Histidine, 15N",49437756,Haptophyte
+220104_Smp_Cr_A,"DL-Histidine, 15N",52419204,Haptophyte
+220104_Smp_Cr_B,"DL-Histidine, 15N",50709452,Haptophyte
+220104_Smp_Cr_C,"DL-Histidine, 15N",57805300,Haptophyte
+220104_Smp_Cs_A,"DL-Histidine, 15N",72988400,Haptophyte
+220104_Smp_Cs_B,"DL-Histidine, 15N",50792520,Haptophyte
+220104_Smp_Cs_C,"DL-Histidine, 15N",63358524,Haptophyte
+220104_Smp_P3_A,"DL-Histidine, 15N",87304264,Haptophyte
+220104_Smp_P3_B,"DL-Histidine, 15N",49979764,Haptophyte
+220104_Smp_P3_C,"DL-Histidine, 15N",69817536,Haptophyte
+220104_Smp_P5-5_A,"DL-Histidine, 15N",53395120,Haptophyte
+220104_Smp_P5-5_B,"DL-Histidine, 15N",136064160,Haptophyte
+220104_Smp_P5-5_C,"DL-Histidine, 15N",63419236,Haptophyte
+220104_Blk_MediaBlk_C,"Glycine betaine, 13C5, 15N",532153280,Haptophyte
+220104_Blk_MediaBlk_H,"Glycine betaine, 13C5, 15N",589853632,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Glycine betaine, 13C5, 15N",602912960,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Glycine betaine, 13C5, 15N",574774208,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Glycine betaine, 13C5, 15N",604540608,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Glycine betaine, 13C5, 15N",624196096,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Glycine betaine, 13C5, 15N",613637120,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Glycine betaine, 13C5, 15N",315512864,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Glycine betaine, 13C5, 15N",352056928,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Glycine betaine, 13C5, 15N",331739168,Haptophyte
+220104_Smp_116-1_A,"Glycine betaine, 13C5, 15N",632074560,Haptophyte
+220104_Smp_116-1_B,"Glycine betaine, 13C5, 15N",608483008,Haptophyte
+220104_Smp_116-1_C,"Glycine betaine, 13C5, 15N",548762176,Haptophyte
+220104_Smp_371_A,"Glycine betaine, 13C5, 15N",519370368,Haptophyte
+220104_Smp_371_B,"Glycine betaine, 13C5, 15N",546898752,Haptophyte
+220104_Smp_371_C,"Glycine betaine, 13C5, 15N",581540288,Haptophyte
+220104_Smp_2090_A,"Glycine betaine, 13C5, 15N",530558656,Haptophyte
+220104_Smp_2090_B,"Glycine betaine, 13C5, 15N",509120096,Haptophyte
+220104_Smp_2090_C,"Glycine betaine, 13C5, 15N",554768896,Haptophyte
+220104_Smp_Ca_A,"Glycine betaine, 13C5, 15N",545391040,Haptophyte
+220104_Smp_Ca_B,"Glycine betaine, 13C5, 15N",591612032,Haptophyte
+220104_Smp_Ca_C,"Glycine betaine, 13C5, 15N",591758208,Haptophyte
+220104_Smp_Cr_A,"Glycine betaine, 13C5, 15N",502117472,Haptophyte
+220104_Smp_Cr_B,"Glycine betaine, 13C5, 15N",563155456,Haptophyte
+220104_Smp_Cr_C,"Glycine betaine, 13C5, 15N",542014848,Haptophyte
+220104_Smp_Cs_A,"Glycine betaine, 13C5, 15N",323858624,Haptophyte
+220104_Smp_Cs_B,"Glycine betaine, 13C5, 15N",305384768,Haptophyte
+220104_Smp_Cs_C,"Glycine betaine, 13C5, 15N",280920960,Haptophyte
+220104_Smp_P3_A,"Glycine betaine, 13C5, 15N",632411968,Haptophyte
+220104_Smp_P3_B,"Glycine betaine, 13C5, 15N",623991936,Haptophyte
+220104_Smp_P3_C,"Glycine betaine, 13C5, 15N",578817280,Haptophyte
+220104_Smp_P5-5_A,"Glycine betaine, 13C5, 15N",581861824,Haptophyte
+220104_Smp_P5-5_B,"Glycine betaine, 13C5, 15N",589610048,Haptophyte
+220104_Smp_P5-5_C,"Glycine betaine, 13C5, 15N",635253504,Haptophyte
+220104_Blk_MediaBlk_C,"Guanine, 13C, 15N2",122557904,Haptophyte
+220104_Blk_MediaBlk_H,"Guanine, 13C, 15N2",137477968,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Guanine, 13C, 15N2",129156520,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Guanine, 13C, 15N2",48746424,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Guanine, 13C, 15N2",60237756,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Guanine, 13C, 15N2",62211948,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Guanine, 13C, 15N2",64469876,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Guanine, 13C, 15N2",39324972,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Guanine, 13C, 15N2",40951724,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Guanine, 13C, 15N2",37019272,Haptophyte
+220104_Smp_116-1_A,"Guanine, 13C, 15N2",63772108,Haptophyte
+220104_Smp_116-1_B,"Guanine, 13C, 15N2",49374596,Haptophyte
+220104_Smp_116-1_C,"Guanine, 13C, 15N2",65053012,Haptophyte
+220104_Smp_371_A,"Guanine, 13C, 15N2",139682000,Haptophyte
+220104_Smp_371_B,"Guanine, 13C, 15N2",122058736,Haptophyte
+220104_Smp_371_C,"Guanine, 13C, 15N2",137596672,Haptophyte
+220104_Smp_2090_A,"Guanine, 13C, 15N2",96170640,Haptophyte
+220104_Smp_2090_B,"Guanine, 13C, 15N2",131221384,Haptophyte
+220104_Smp_2090_C,"Guanine, 13C, 15N2",109465744,Haptophyte
+220104_Smp_Ca_A,"Guanine, 13C, 15N2",89642616,Haptophyte
+220104_Smp_Ca_B,"Guanine, 13C, 15N2",99817144,Haptophyte
+220104_Smp_Ca_C,"Guanine, 13C, 15N2",108675912,Haptophyte
+220104_Smp_Cr_A,"Guanine, 13C, 15N2",35746512,Haptophyte
+220104_Smp_Cr_B,"Guanine, 13C, 15N2",39830736,Haptophyte
+220104_Smp_Cr_C,"Guanine, 13C, 15N2",37444820,Haptophyte
+220104_Smp_Cs_A,"Guanine, 13C, 15N2",63798352,Haptophyte
+220104_Smp_Cs_B,"Guanine, 13C, 15N2",57643828,Haptophyte
+220104_Smp_Cs_C,"Guanine, 13C, 15N2",54328644,Haptophyte
+220104_Smp_P3_A,"Guanine, 13C, 15N2",50347100,Haptophyte
+220104_Smp_P3_B,"Guanine, 13C, 15N2",71058312,Haptophyte
+220104_Smp_P3_C,"Guanine, 13C, 15N2",75063800,Haptophyte
+220104_Smp_P5-5_A,"Guanine, 13C, 15N2",44162528,Haptophyte
+220104_Smp_P5-5_B,"Guanine, 13C, 15N2",62757352,Haptophyte
+220104_Smp_P5-5_C,"Guanine, 13C, 15N2",49634500,Haptophyte
+220104_Blk_MediaBlk_C,"Homarine, 2H3",2437472512,Haptophyte
+220104_Blk_MediaBlk_H,"Homarine, 2H3",2637357056,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Homarine, 2H3",2616366336,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Homarine, 2H3",2563342336,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Homarine, 2H3",2907794176,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Homarine, 2H3",2983101440,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Homarine, 2H3",2747133952,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Homarine, 2H3",1421174016,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Homarine, 2H3",1529054208,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Homarine, 2H3",1400252160,Haptophyte
+220104_Smp_116-1_A,"Homarine, 2H3",2669495296,Haptophyte
+220104_Smp_116-1_B,"Homarine, 2H3",2553642240,Haptophyte
+220104_Smp_116-1_C,"Homarine, 2H3",2298530048,Haptophyte
+220104_Smp_371_A,"Homarine, 2H3",2427249664,Haptophyte
+220104_Smp_371_B,"Homarine, 2H3",2478087680,Haptophyte
+220104_Smp_371_C,"Homarine, 2H3",2629845248,Haptophyte
+220104_Smp_2090_A,"Homarine, 2H3",2494901760,Haptophyte
+220104_Smp_2090_B,"Homarine, 2H3",2400279040,Haptophyte
+220104_Smp_2090_C,"Homarine, 2H3",2694606848,Haptophyte
+220104_Smp_Ca_A,"Homarine, 2H3",2410417152,Haptophyte
+220104_Smp_Ca_B,"Homarine, 2H3",2601907968,Haptophyte
+220104_Smp_Ca_C,"Homarine, 2H3",2573029120,Haptophyte
+220104_Smp_Cr_A,"Homarine, 2H3",2481197824,Haptophyte
+220104_Smp_Cr_B,"Homarine, 2H3",2669700864,Haptophyte
+220104_Smp_Cr_C,"Homarine, 2H3",2653350400,Haptophyte
+220104_Smp_Cs_A,"Homarine, 2H3",2678836224,Haptophyte
+220104_Smp_Cs_B,"Homarine, 2H3",2447522816,Haptophyte
+220104_Smp_Cs_C,"Homarine, 2H3",2377100800,Haptophyte
+220104_Smp_P3_A,"Homarine, 2H3",2659773440,Haptophyte
+220104_Smp_P3_B,"Homarine, 2H3",2577534720,Haptophyte
+220104_Smp_P3_C,"Homarine, 2H3",2366359552,Haptophyte
+220104_Smp_P5-5_A,"Homarine, 2H3",2545043200,Haptophyte
+220104_Smp_P5-5_B,"Homarine, 2H3",2406543872,Haptophyte
+220104_Smp_P5-5_C,"Homarine, 2H3",2612805376,Haptophyte
+220104_Blk_MediaBlk_C,"Isethionic acid, 13C2",118245216,Haptophyte
+220104_Blk_MediaBlk_H,"Isethionic acid, 13C2",322375488,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Isethionic acid, 13C2",46902640,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Isethionic acid, 13C2",48756032,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Isethionic acid, 13C2",73030776,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Isethionic acid, 13C2",81695056,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Isethionic acid, 13C2",56813012,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Isethionic acid, 13C2",37062888,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Isethionic acid, 13C2",42599304,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Isethionic acid, 13C2",32093968,Haptophyte
+220104_Smp_116-1_A,"Isethionic acid, 13C2",50567096,Haptophyte
+220104_Smp_116-1_B,"Isethionic acid, 13C2",51377032,Haptophyte
+220104_Smp_116-1_C,"Isethionic acid, 13C2",58304100,Haptophyte
+220104_Smp_371_A,"Isethionic acid, 13C2",183085680,Haptophyte
+220104_Smp_371_B,"Isethionic acid, 13C2",188352144,Haptophyte
+220104_Smp_371_C,"Isethionic acid, 13C2",173569072,Haptophyte
+220104_Smp_2090_A,"Isethionic acid, 13C2",119387032,Haptophyte
+220104_Smp_2090_B,"Isethionic acid, 13C2",115388936,Haptophyte
+220104_Smp_2090_C,"Isethionic acid, 13C2",116779824,Haptophyte
+220104_Smp_Ca_A,"Isethionic acid, 13C2",37010312,Haptophyte
+220104_Smp_Ca_B,"Isethionic acid, 13C2",40254828,Haptophyte
+220104_Smp_Ca_C,"Isethionic acid, 13C2",35478172,Haptophyte
+220104_Smp_Cr_A,"Isethionic acid, 13C2",44698508,Haptophyte
+220104_Smp_Cr_B,"Isethionic acid, 13C2",44864244,Haptophyte
+220104_Smp_Cr_C,"Isethionic acid, 13C2",46923504,Haptophyte
+220104_Smp_Cs_A,"Isethionic acid, 13C2",44385552,Haptophyte
+220104_Smp_Cs_B,"Isethionic acid, 13C2",41516848,Haptophyte
+220104_Smp_Cs_C,"Isethionic acid, 13C2",42828192,Haptophyte
+220104_Smp_P3_A,"Isethionic acid, 13C2",46430904,Haptophyte
+220104_Smp_P3_B,"Isethionic acid, 13C2",58227272,Haptophyte
+220104_Smp_P3_C,"Isethionic acid, 13C2",37584792,Haptophyte
+220104_Smp_P5-5_A,"Isethionic acid, 13C2",52150220,Haptophyte
+220104_Smp_P5-5_B,"Isethionic acid, 13C2",46581916,Haptophyte
+220104_Smp_P5-5_C,"Isethionic acid, 13C2",11094542,Haptophyte
+220104_Blk_MediaBlk_C,"Taurine, 2H4",5870584,Haptophyte
+220104_Blk_MediaBlk_H,"Taurine, 2H4",17830656,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Taurine, 2H4",19738054,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Taurine, 2H4",22453712,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Taurine, 2H4",11783660,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Taurine, 2H4",14041614,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Taurine, 2H4",12572971,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Taurine, 2H4",7705607,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Taurine, 2H4",10993571,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Taurine, 2H4",6670167,Haptophyte
+220104_Smp_116-1_A,"Taurine, 2H4",30678650,Haptophyte
+220104_Smp_116-1_B,"Taurine, 2H4",26975952,Haptophyte
+220104_Smp_116-1_C,"Taurine, 2H4",30619802,Haptophyte
+220104_Smp_371_A,"Taurine, 2H4",10065488,Haptophyte
+220104_Smp_371_B,"Taurine, 2H4",10232101,Haptophyte
+220104_Smp_371_C,"Taurine, 2H4",8889198,Haptophyte
+220104_Smp_2090_A,"Taurine, 2H4",5280306,Haptophyte
+220104_Smp_2090_B,"Taurine, 2H4",5350598,Haptophyte
+220104_Smp_2090_C,"Taurine, 2H4",6274133,Haptophyte
+220104_Smp_Ca_A,"Taurine, 2H4",6432769,Haptophyte
+220104_Smp_Ca_B,"Taurine, 2H4",10588576,Haptophyte
+220104_Smp_Ca_C,"Taurine, 2H4",8550238,Haptophyte
+220104_Smp_Cr_A,"Taurine, 2H4",13533251,Haptophyte
+220104_Smp_Cr_B,"Taurine, 2H4",13665574,Haptophyte
+220104_Smp_Cr_C,"Taurine, 2H4",13574044,Haptophyte
+220104_Smp_Cs_A,"Taurine, 2H4",12325982,Haptophyte
+220104_Smp_Cs_B,"Taurine, 2H4",12902077,Haptophyte
+220104_Smp_Cs_C,"Taurine, 2H4",11738997,Haptophyte
+220104_Smp_P3_A,"Taurine, 2H4",25497874,Haptophyte
+220104_Smp_P3_B,"Taurine, 2H4",29330392,Haptophyte
+220104_Smp_P3_C,"Taurine, 2H4",29249478,Haptophyte
+220104_Smp_P5-5_A,"Taurine, 2H4",26093668,Haptophyte
+220104_Smp_P5-5_B,"Taurine, 2H4",27834424,Haptophyte
+220104_Smp_P5-5_C,"Taurine, 2H4",10756537,Haptophyte
+220104_Blk_MediaBlk_C,"Thymine, 2H4",130052264,Haptophyte
+220104_Blk_MediaBlk_H,"Thymine, 2H4",125536008,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Thymine, 2H4",121881880,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Thymine, 2H4",125249328,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Thymine, 2H4",149887024,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Thymine, 2H4",152501568,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Thymine, 2H4",160006032,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Thymine, 2H4",72230360,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Thymine, 2H4",78295488,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Thymine, 2H4",79160080,Haptophyte
+220104_Smp_116-1_A,"Thymine, 2H4",133753480,Haptophyte
+220104_Smp_116-1_B,"Thymine, 2H4",124335744,Haptophyte
+220104_Smp_116-1_C,"Thymine, 2H4",119524968,Haptophyte
+220104_Smp_371_A,"Thymine, 2H4",115479264,Haptophyte
+220104_Smp_371_B,"Thymine, 2H4",124656944,Haptophyte
+220104_Smp_371_C,"Thymine, 2H4",134621792,Haptophyte
+220104_Smp_2090_A,"Thymine, 2H4",117367424,Haptophyte
+220104_Smp_2090_B,"Thymine, 2H4",125617048,Haptophyte
+220104_Smp_2090_C,"Thymine, 2H4",124933144,Haptophyte
+220104_Smp_Ca_A,"Thymine, 2H4",130102976,Haptophyte
+220104_Smp_Ca_B,"Thymine, 2H4",139193040,Haptophyte
+220104_Smp_Ca_C,"Thymine, 2H4",128046704,Haptophyte
+220104_Smp_Cr_A,"Thymine, 2H4",112347032,Haptophyte
+220104_Smp_Cr_B,"Thymine, 2H4",129600400,Haptophyte
+220104_Smp_Cr_C,"Thymine, 2H4",132992648,Haptophyte
+220104_Smp_Cs_A,"Thymine, 2H4",135093792,Haptophyte
+220104_Smp_Cs_B,"Thymine, 2H4",110971504,Haptophyte
+220104_Smp_Cs_C,"Thymine, 2H4",124865480,Haptophyte
+220104_Smp_P3_A,"Thymine, 2H4",127996960,Haptophyte
+220104_Smp_P3_B,"Thymine, 2H4",116176696,Haptophyte
+220104_Smp_P3_C,"Thymine, 2H4",118317936,Haptophyte
+220104_Smp_P5-5_A,"Thymine, 2H4",126119672,Haptophyte
+220104_Smp_P5-5_B,"Thymine, 2H4",119264248,Haptophyte
+220104_Smp_P5-5_C,"Thymine, 2H4",126812032,Haptophyte
+220104_Blk_MediaBlk_C,"Sulfoacetic acid, 13C2",4475271,Haptophyte
+220104_Blk_MediaBlk_H,"Sulfoacetic acid, 13C2",16577395,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"Sulfoacetic acid, 13C2",53218828,Haptophyte
+220104_Blk_MediaBlk_RAC5,"Sulfoacetic acid, 13C2",44205028,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"Sulfoacetic acid, 13C2",22393140,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"Sulfoacetic acid, 13C2",27767700,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"Sulfoacetic acid, 13C2",28342786,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"Sulfoacetic acid, 13C2",18212482,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"Sulfoacetic acid, 13C2",20957906,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"Sulfoacetic acid, 13C2",22021872,Haptophyte
+220104_Smp_116-1_A,"Sulfoacetic acid, 13C2",43344788,Haptophyte
+220104_Smp_116-1_B,"Sulfoacetic acid, 13C2",21304038,Haptophyte
+220104_Smp_116-1_C,"Sulfoacetic acid, 13C2",16443808,Haptophyte
+220104_Smp_371_A,"Sulfoacetic acid, 13C2",8513570,Haptophyte
+220104_Smp_371_B,"Sulfoacetic acid, 13C2",9203894,Haptophyte
+220104_Smp_371_C,"Sulfoacetic acid, 13C2",8111737,Haptophyte
+220104_Smp_2090_A,"Sulfoacetic acid, 13C2",3030046,Haptophyte
+220104_Smp_2090_B,"Sulfoacetic acid, 13C2",5304692,Haptophyte
+220104_Smp_2090_C,"Sulfoacetic acid, 13C2",6859769,Haptophyte
+220104_Smp_Ca_A,"Sulfoacetic acid, 13C2",17841394,Haptophyte
+220104_Smp_Ca_B,"Sulfoacetic acid, 13C2",23108388,Haptophyte
+220104_Smp_Ca_C,"Sulfoacetic acid, 13C2",19028096,Haptophyte
+220104_Smp_Cr_A,"Sulfoacetic acid, 13C2",32477314,Haptophyte
+220104_Smp_Cr_B,"Sulfoacetic acid, 13C2",28106648,Haptophyte
+220104_Smp_Cr_C,"Sulfoacetic acid, 13C2",27909452,Haptophyte
+220104_Smp_Cs_A,"Sulfoacetic acid, 13C2",25847686,Haptophyte
+220104_Smp_Cs_B,"Sulfoacetic acid, 13C2",28391948,Haptophyte
+220104_Smp_Cs_C,"Sulfoacetic acid, 13C2",25354722,Haptophyte
+220104_Smp_P3_A,"Sulfoacetic acid, 13C2",44863216,Haptophyte
+220104_Smp_P3_B,"Sulfoacetic acid, 13C2",32434120,Haptophyte
+220104_Smp_P3_C,"Sulfoacetic acid, 13C2",19074648,Haptophyte
+220104_Smp_P5-5_A,"Sulfoacetic acid, 13C2",47253148,Haptophyte
+220104_Smp_P5-5_B,"Sulfoacetic acid, 13C2",38397288,Haptophyte
+220104_Smp_P5-5_C,"Sulfoacetic acid, 13C2",21214074,Haptophyte
+220104_Blk_MediaBlk_C,"L-Cysteic acid, 2H3",8409218,Haptophyte
+220104_Blk_MediaBlk_H,"L-Cysteic acid, 2H3",26087164,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"L-Cysteic acid, 2H3",11249117,Haptophyte
+220104_Blk_MediaBlk_RAC5,"L-Cysteic acid, 2H3",9984890,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"L-Cysteic acid, 2H3",6969930,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"L-Cysteic acid, 2H3",10430697,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"L-Cysteic acid, 2H3",11341021,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"L-Cysteic acid, 2H3",3543042,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"L-Cysteic acid, 2H3",4448875,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"L-Cysteic acid, 2H3",5231311,Haptophyte
+220104_Smp_116-1_A,"L-Cysteic acid, 2H3",12964240,Haptophyte
+220104_Smp_116-1_B,"L-Cysteic acid, 2H3",10126825,Haptophyte
+220104_Smp_116-1_C,"L-Cysteic acid, 2H3",6308785,Haptophyte
+220104_Smp_371_A,"L-Cysteic acid, 2H3",14064427,Haptophyte
+220104_Smp_371_B,"L-Cysteic acid, 2H3",14104565,Haptophyte
+220104_Smp_371_C,"L-Cysteic acid, 2H3",13732544,Haptophyte
+220104_Smp_2090_A,"L-Cysteic acid, 2H3",7898554,Haptophyte
+220104_Smp_2090_B,"L-Cysteic acid, 2H3",8074438,Haptophyte
+220104_Smp_2090_C,"L-Cysteic acid, 2H3",7642589,Haptophyte
+220104_Smp_Ca_A,"L-Cysteic acid, 2H3",9168941,Haptophyte
+220104_Smp_Ca_B,"L-Cysteic acid, 2H3",10968939,Haptophyte
+220104_Smp_Ca_C,"L-Cysteic acid, 2H3",9371694,Haptophyte
+220104_Smp_Cr_A,"L-Cysteic acid, 2H3",8892572,Haptophyte
+220104_Smp_Cr_B,"L-Cysteic acid, 2H3",9022780,Haptophyte
+220104_Smp_Cr_C,"L-Cysteic acid, 2H3",9742952,Haptophyte
+220104_Smp_Cs_A,"L-Cysteic acid, 2H3",8805650,Haptophyte
+220104_Smp_Cs_B,"L-Cysteic acid, 2H3",8261071,Haptophyte
+220104_Smp_Cs_C,"L-Cysteic acid, 2H3",8834105,Haptophyte
+220104_Smp_P3_A,"L-Cysteic acid, 2H3",10378383,Haptophyte
+220104_Smp_P3_B,"L-Cysteic acid, 2H3",10644046,Haptophyte
+220104_Smp_P3_C,"L-Cysteic acid, 2H3",10424847,Haptophyte
+220104_Smp_P5-5_A,"L-Cysteic acid, 2H3",12171667,Haptophyte
+220104_Smp_P5-5_B,"L-Cysteic acid, 2H3",10761110,Haptophyte
+220104_Smp_P5-5_C,"L-Cysteic acid, 2H3",9393655,Haptophyte
+220104_Blk_MediaBlk_C,"3-Sulfolactate, 13C3",2976149,Haptophyte
+220104_Blk_MediaBlk_H,"3-Sulfolactate, 13C3",7176355,Haptophyte
+220104_Blk_MediaBlk_LInoSi,"3-Sulfolactate, 13C3",5820588,Haptophyte
+220104_Blk_MediaBlk_RAC5,"3-Sulfolactate, 13C3",4973828,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,"3-Sulfolactate, 13C3",4006635,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,"3-Sulfolactate, 13C3",5690014,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,"3-Sulfolactate, 13C3",5277616,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,"3-Sulfolactate, 13C3",1577027,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,"3-Sulfolactate, 13C3",2354485,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,"3-Sulfolactate, 13C3",2430970,Haptophyte
+220104_Smp_116-1_A,"3-Sulfolactate, 13C3",6140000,Haptophyte
+220104_Smp_116-1_B,"3-Sulfolactate, 13C3",4194195,Haptophyte
+220104_Smp_116-1_C,"3-Sulfolactate, 13C3",3951690,Haptophyte
+220104_Smp_371_A,"3-Sulfolactate, 13C3",5242224,Haptophyte
+220104_Smp_371_B,"3-Sulfolactate, 13C3",5031748,Haptophyte
+220104_Smp_371_C,"3-Sulfolactate, 13C3",5283497,Haptophyte
+220104_Smp_2090_A,"3-Sulfolactate, 13C3",2708591,Haptophyte
+220104_Smp_2090_B,"3-Sulfolactate, 13C3",2623520,Haptophyte
+220104_Smp_2090_C,"3-Sulfolactate, 13C3",2835939,Haptophyte
+220104_Smp_Ca_A,"3-Sulfolactate, 13C3",5169653,Haptophyte
+220104_Smp_Ca_B,"3-Sulfolactate, 13C3",6617671,Haptophyte
+220104_Smp_Ca_C,"3-Sulfolactate, 13C3",5053202,Haptophyte
+220104_Smp_Cr_A,"3-Sulfolactate, 13C3",5019847,Haptophyte
+220104_Smp_Cr_B,"3-Sulfolactate, 13C3",4126347,Haptophyte
+220104_Smp_Cr_C,"3-Sulfolactate, 13C3",4825955,Haptophyte
+220104_Smp_Cs_A,"3-Sulfolactate, 13C3",2921672,Haptophyte
+220104_Smp_Cs_B,"3-Sulfolactate, 13C3",3772142,Haptophyte
+220104_Smp_Cs_C,"3-Sulfolactate, 13C3",4457555,Haptophyte
+220104_Smp_P3_A,"3-Sulfolactate, 13C3",5083052,Haptophyte
+220104_Smp_P3_B,"3-Sulfolactate, 13C3",5267040,Haptophyte
+220104_Smp_P3_C,"3-Sulfolactate, 13C3",4405309,Haptophyte
+220104_Smp_P5-5_A,"3-Sulfolactate, 13C3",5552901,Haptophyte
+220104_Smp_P5-5_B,"3-Sulfolactate, 13C3",4507395,Haptophyte
+220104_Smp_P5-5_C,"3-Sulfolactate, 13C3",4097693,Haptophyte
+220104_Blk_MediaBlk_C,Inj_vol,2,Haptophyte
+220104_Blk_MediaBlk_H,Inj_vol,2,Haptophyte
+220104_Blk_MediaBlk_LInoSi,Inj_vol,2,Haptophyte
+220104_Blk_MediaBlk_RAC5,Inj_vol,2,Haptophyte
+220104_Poo_TruePooHaptophytes_Full1,Inj_vol,2,Haptophyte
+220104_Poo_TruePooHaptophytes_Full2,Inj_vol,2,Haptophyte
+220104_Poo_TruePooHaptophytes_Full3,Inj_vol,2,Haptophyte
+220104_Poo_TruePooHaptophytes_Half1,Inj_vol,1,Haptophyte
+220104_Poo_TruePooHaptophytes_Half2,Inj_vol,1,Haptophyte
+220104_Poo_TruePooHaptophytes_Half3,Inj_vol,1,Haptophyte
+220104_Smp_116-1_A,Inj_vol,2,Haptophyte
+220104_Smp_116-1_B,Inj_vol,2,Haptophyte
+220104_Smp_116-1_C,Inj_vol,2,Haptophyte
+220104_Smp_371_A,Inj_vol,2,Haptophyte
+220104_Smp_371_B,Inj_vol,2,Haptophyte
+220104_Smp_371_C,Inj_vol,2,Haptophyte
+220104_Smp_2090_A,Inj_vol,2,Haptophyte
+220104_Smp_2090_B,Inj_vol,2,Haptophyte
+220104_Smp_2090_C,Inj_vol,2,Haptophyte
+220104_Smp_Ca_A,Inj_vol,2,Haptophyte
+220104_Smp_Ca_B,Inj_vol,2,Haptophyte
+220104_Smp_Ca_C,Inj_vol,2,Haptophyte
+220104_Smp_Cr_A,Inj_vol,2,Haptophyte
+220104_Smp_Cr_B,Inj_vol,2,Haptophyte
+220104_Smp_Cr_C,Inj_vol,2,Haptophyte
+220104_Smp_Cs_A,Inj_vol,2,Haptophyte
+220104_Smp_Cs_B,Inj_vol,2,Haptophyte
+220104_Smp_Cs_C,Inj_vol,2,Haptophyte
+220104_Smp_P3_A,Inj_vol,2,Haptophyte
+220104_Smp_P3_B,Inj_vol,2,Haptophyte
+220104_Smp_P3_C,Inj_vol,2,Haptophyte
+220104_Smp_P5-5_A,Inj_vol,2,Haptophyte
+220104_Smp_P5-5_B,Inj_vol,2,Haptophyte
+220104_Smp_P5-5_C,Inj_vol,2,Haptophyte

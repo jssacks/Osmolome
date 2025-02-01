@@ -11,19 +11,19 @@ library(tidyverse)
 #Inputs
 
 #Stds and RFs and RFratios
-stds.file <- "Meta_Data/Ingalls_Lab_Data/Ingalls_Lab_Standards_03172023.csv" 
+stds.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv" 
 rf.file <- "Intermediates/culture_Stds_RFs_RFratios.csv"
 
 #IS
-hilic.is.file <- "Intermediates/culture_IS_data_raw.csv"
+hilic.is.file <- "Intermediates/culture_final_IS_peaklist.csv"
 
 ### area dat
 hilic.file <- "Intermediates/Culture_HILIC_Pos_BMISed_dat.csv"
-hilic.file.notnorm <- "Intermediates/culture_betaine_data_raw.csv"
+hilic.file.notnorm <- "Intermediates/culture_osmo_data_raw.csv"
 
 
 ###Sample volume dat:
-#file goes here when ready....
+#vol.dat <- 
 
 
 
@@ -40,22 +40,22 @@ rf.dat <- read_csv(rf.file)
 vial.quant.dat <- read_csv(hilic.file) %>%
   rename("Name" = MF) %>%
   filter(!str_detect(.$SampID, "Poo")) %>%
-  filter(!str_detect(.$SampID, "Std")) %>%
+  filter(!str_detect(.$SampID, "Std")) %>% 
  # left_join(., vol.filt.dat) %>%
  # filter(!is.na(Vol_L)) %>%
   left_join(., rf.dat) %>%
   mutate(uM.in.vial.ave = Adjusted_Area/RF/RFratio,
          uM.in.vial.max = Adjusted_Area/RFmin/RFratio,
-         uM.in.vial.min = Adjusted_Area/RFmax/RFratio) 
+         uM.in.vial.min = Adjusted_Area/RFmax/RFratio) %>%
+  unite(c(Batch, Name), remove = FALSE, col = "batch_comp")
 
 
 
 #Quantify compounds with matched IS
-hilic.is.dat <- read_csv(hilic.is.file)  %>%
-  rename("IS" = Compound,
-         "IS.area" = Area,
-         "SampID" = Rep) %>%
-  unique() 
+hilic.is.dat <- read_csv(hilic.is.file) %>%
+  rename("IS" = MF,
+         "IS.area" = Area) %>%
+  unique()
 
 
 #get internal standard concentration values 
@@ -84,14 +84,15 @@ hilic.notnorm.dat <- read_csv(hilic.file.notnorm) %>%
 
 #Quantify using internal standard
 vial.is.quant.dat <- left_join(hilic.notnorm.dat, is.std) %>%
-  mutate(uM.in.vial.ave = Area*IS.Conc.uM/IS.area)
+  mutate(uM.in.vial.ave = Area*IS.Conc.uM/IS.area) %>%
+  unite(c(Batch, Name), remove = FALSE, col = "batch_comp")
 
 
 smp.quant.dat.all <- vial.quant.dat %>%
-  select(Name, SampID, Batch, uM.in.vial.ave) %>%
-  filter(!Name %in% vial.is.quant.dat$Name) %>%
+  select(Name, SampID, Batch, uM.in.vial.ave, batch_comp) %>%
+  filter(!batch_comp %in% vial.is.quant.dat$batch_comp) %>%
   rbind(., vial.is.quant.dat %>% 
-          select(Name, SampID, Batch, uM.in.vial.ave)) %>%
+          select(Name, SampID, Batch, uM.in.vial.ave, batch_comp)) %>%
   unique()
 
 

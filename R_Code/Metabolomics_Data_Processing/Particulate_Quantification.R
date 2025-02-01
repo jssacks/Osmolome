@@ -11,11 +11,11 @@ library(tidyverse)
 #Inputs
 
 #Stds and RFs and RFratios
-stds.file <- "Meta_Data/Ingalls_Lab_Data/Ingalls_Lab_Standards_03172023.csv" 
+stds.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv" 
 rf.file <- "Intermediates/Particulate_Stds_RFs_RFratios.csv"
 
 #IS
-hilic.is.file <- "Intermediates/particulate_IS_data_raw.csv"
+hilic.is.file <- "Intermediates/particulate_final_IS_peaklist.csv"
 
 ### area dat
 hilic.file <- "Intermediates/Particulate_osmo_HILIC_Pos_BMISed_dat.csv"
@@ -49,10 +49,9 @@ vial.quant.dat <- read_csv(hilic.file)  %>%
 
 
 #Quantify compounds with matched IS
-hilic.is.dat <- read_csv(hilic.is.file)  %>%
-  rename("IS" = Compound,
-         "IS.area" = Area,
-         "SampID" = Rep) %>%
+hilic.is.dat <- read_csv(hilic.is.file) %>%
+  rename("IS" = MF,
+         "IS.area" = Area) %>%
   unique() %>%
   filter(!SampID == "221006_Smp_S7_C1_D1_A")
 
@@ -102,7 +101,9 @@ smp.quant.dat.all <- vial.quant.dat %>%
   filter(!cruise_comp %in% vial.is.quant.dat$cruise_comp) %>%
   rbind(., vial.is.quant.dat %>% 
           select(Name, SampID, Cruise, umol.in.vial.ave, Vol_L, cruise_comp)) %>%
-  mutate(nM.in.smp = umol.in.vial.ave*10^-6*400/(Vol_L)*1000)%>%
+  mutate(dilution.factor = case_when(Cruise %in% c("KM1906", "G3_DepthProfiles") ~ 2,
+                                     TRUE ~ 1)) %>%
+  mutate(nM.in.smp = umol.in.vial.ave*10^-6*400/(Vol_L)*1000*dilution.factor)%>%
   unique()
 
 
@@ -134,7 +135,7 @@ samp.quant.dat <- left_join(smp.quant.dat.all, std.formula) %>%
   mutate(nM_C = nM.in.smp*C,
          nM_N = nM.in.smp*N,
          nM_S = nM.in.smp*S) %>%
-  select(Name, SampID, Vol_L, umol.in.vial.ave, nM.in.smp, nM_C, nM_N, nM_S)
+  select(Name, SampID, Cruise, Vol_L, umol.in.vial.ave, nM.in.smp, nM_C, nM_N, nM_S)
 
 write_csv(samp.quant.dat, file = "Intermediates/Particulate_Quant_Output.csv")
 

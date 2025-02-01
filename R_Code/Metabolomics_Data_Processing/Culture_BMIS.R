@@ -64,10 +64,17 @@ samp.key.2 <- samp.key %>%
 
 is.dat.full.with.samp <- rbind(is.dat.full, samp.key.2) 
 
-#Look at extraction replication of the Internal Standards----
 
-####NEED TO GET RID OF ONE OF THE RC078 samples that does not have internal standards added 
-IS_inspectPlot <- ggplot(is.dat.full.with.samp, aes(x=SampID, y=Area, color = Batch)) + 
+
+# Look at extraction replication of the Internal Standards by Batch----
+# Make list of IS to use for BMIS and make separate list of IS to use for quant
+
+
+## Bacteria
+bacteria.is.dat.full.with.samp <- is.dat.full.with.samp %>%
+  filter(Batch == "Bacteria")
+
+bacteria.IS_inspectPlot <- ggplot(bacteria.is.dat.full.with.samp, aes(x=SampID, y=Area)) + 
   geom_bar(stat="identity") + 
   facet_wrap(.~MF, scales="free_y")+
   theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust = 0.5, size = 5), 
@@ -75,28 +82,199 @@ IS_inspectPlot <- ggplot(is.dat.full.with.samp, aes(x=SampID, y=Area, color = Ba
         legend.position = "top",
         strip.text = element_text(size = 10))+
   ggtitle("IS Raw Areas")
-IS_inspectPlot
+bacteria.IS_inspectPlot
 
-#Edit data so names match, separate out the date so we can get individual IS.means for each run batch, remove any ISs that we don't think are good to use
-is.dat.full.with.samp.edited <- is.dat.full.with.samp %>%
-  filter(!str_detect(MF, "Adenine")) %>%
-  filter(!str_detect(MF, "Isoleucine")) %>%
-  filter(!str_detect(MF, "Histidine")) %>%
-  filter(!str_detect(MF, "Arginine")) %>%
-  filter(!str_detect(MF, "Valine")) %>%
-  filter(!str_detect(MF, "Proline")) %>%
+bacteria.is.dat.full.with.samp.edited.BMIS <- bacteria.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "AMP")) %>%
+  filter(!str_detect(MF, "GMP")) %>%
+  filter(!str_detect(MF, "Isethionic")) %>%
+  filter(!str_detect(MF, "Succinic")) %>%
+  filter(!str_detect(MF, "Sucrose")) %>%
+  filter(!str_detect(MF, "Sulfoacetic")) %>%
   filter(!str_detect(MF, "Guanine")) %>%
-  #filter(!str_detect(MF, "Cytosine")) %>%
-  
-  filter(!str_detect(MF, "Cytosine")) %>%
-  
-  filter(!str_detect(MF, "Cytosine")) %>%
-  filter(!str_detect(MF, "Methionine"))
+  filter(!str_detect(MF, "Taurine")) %>%
+  filter(!str_detect(MF, "Trehalose")) 
 
+bacteria.is.dat.full.with.samp.edited.quant <- bacteria.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "AMP")) %>%
+  filter(!str_detect(MF, "GMP")) %>%
+  filter(!str_detect(MF, "Isethionic")) %>%
+  filter(!str_detect(MF, "Succinic")) %>%
+  filter(!str_detect(MF, "Sucrose")) %>%
+  filter(!str_detect(MF, "Sulfoacetic")) %>%
+  filter(!str_detect(MF, "Guanine")) %>%
+  filter(!str_detect(MF, "Taurine")) %>%
+  filter(!str_detect(MF, "Trehalose")) 
+
+## Cyano
+cyano.is.dat.full.with.samp <- is.dat.full.with.samp %>%
+  filter(Batch == "Cyano")
+
+cyano.IS_inspectPlot <- ggplot(cyano.is.dat.full.with.samp, aes(x=SampID, y=Area)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(.~MF, scales="free_y")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust = 0.5, size = 5), 
+        axis.text.y = element_text(size = 10),
+        legend.position = "top",
+        strip.text = element_text(size = 10))+
+  ggtitle("IS Raw Areas")
+cyano.IS_inspectPlot
+
+cyano.is.dat.full.with.samp.edited.BMIS <- cyano.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "AMP")) %>%
+  filter(!str_detect(MF, "Arsenobetaine")) %>%
+  filter(!str_detect(MF, "Glycine betaine")) %>%
+  filter(!str_detect(MF, "GMP")) %>%
+  filter(!str_detect(MF, "Guanine")) %>%
+  filter(!str_detect(MF, "Homarine")) %>%
+  filter(!str_detect(MF, "Isethionic")) %>%
+  filter(!str_detect(MF, "Succinic")) %>%
+  filter(!str_detect(MF, "Sucrose")) %>%
+  filter(!str_detect(MF, "Sulfoacetic")) %>%
+  filter(!str_detect(MF, "Taurine")) %>%
+  filter(!str_detect(MF, "Trehalose")) 
+
+cyano.is.dat.full.with.samp.edited.quant <- cyano.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "AMP")) %>%
+  filter(!str_detect(MF, "GMP")) %>%
+  filter(!str_detect(MF, "Succinic")) %>%
+  filter(!str_detect(MF, "Sucrose")) %>%
+  filter(!str_detect(MF, "Trehalose")) 
+
+## Diatom
+diatom.is.dat.full.with.samp <- is.dat.full.with.samp %>%
+  filter(Batch == "Diatom")
+
+diatom.IS_inspectPlot <- ggplot(diatom.is.dat.full.with.samp, aes(x=SampID, y=Area)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(.~MF, scales="free_y")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust = 0.5, size = 5), 
+        axis.text.y = element_text(size = 10),
+        legend.position = "top",
+        strip.text = element_text(size = 10))+
+  ggtitle("IS Raw Areas")
+diatom.IS_inspectPlot
+
+diatom.is.dat.full.with.samp.edited.BMIS <- diatom.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "sulfolactate")) %>%
+  filter(!str_detect(MF, "AMP")) %>%
+  filter(!str_detect(MF, "Glycine betaine")) %>%
+  filter(!str_detect(MF, "Isethionic")) %>%
+  filter(!str_detect(MF, "Sucrose")) %>%
+  filter(!str_detect(MF, "Sulfoacetic")) %>%
+  filter(!str_detect(MF, "Taurine")) %>%
+  filter(!str_detect(MF, "Trehalose")) 
+
+diatom.is.dat.full.with.samp.edited.quant <- diatom.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "sulfolactate")) %>%
+  filter(!str_detect(MF, "AMP")) %>%
+ # filter(!str_detect(MF, "Glycine betaine")) %>%
+ # filter(!str_detect(MF, "Isethionic")) %>%
+  filter(!str_detect(MF, "Sucrose")) %>%
+  filter(!str_detect(MF, "Sulfoacetic")) %>%
+ # filter(!str_detect(MF, "Taurine")) %>%
+  filter(!str_detect(MF, "Trehalose")) 
+
+
+## Dino_Green
+dinogreen.is.dat.full.with.samp <- is.dat.full.with.samp %>%
+  filter(Batch == "Dino_Green")
+
+dinogreen.IS_inspectPlot <- ggplot(dinogreen.is.dat.full.with.samp, aes(x=SampID, y=Area)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(.~MF, scales="free_y")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust = 0.5, size = 5), 
+        axis.text.y = element_text(size = 10),
+        legend.position = "top",
+        strip.text = element_text(size = 10))+
+  ggtitle("IS Raw Areas")
+dinogreen.IS_inspectPlot
+
+dinogreen.is.dat.full.with.samp.edited.BMIS <- dinogreen.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "Alanine")) %>%
+  filter(!str_detect(MF, "Guanine")) %>%
+  filter(!str_detect(MF, "Isethionic")) 
+
+dinogreen.is.dat.full.with.samp.edited.quant <- dinogreen.is.dat.full.with.samp 
+
+
+## Haptophyte
+hapto.is.dat.full.with.samp <- is.dat.full.with.samp %>%
+  filter(Batch == "Haptophyte")
+
+hapto.IS_inspectPlot <- ggplot(hapto.is.dat.full.with.samp, aes(x=SampID, y=Area)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(.~MF, scales="free_y")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust = 0.5, size = 5), 
+        axis.text.y = element_text(size = 10),
+        legend.position = "top",
+        strip.text = element_text(size = 10))+
+  ggtitle("IS Raw Areas")
+hapto.IS_inspectPlot
+
+hapto.is.dat.full.with.samp.edited.BMIS <- hapto.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "AMP")) %>%
+  filter(!str_detect(MF, "Histidine")) %>%
+  filter(!str_detect(MF, "Glycine betaine")) %>%
+  filter(!str_detect(MF, "GMP")) %>%
+  filter(!str_detect(MF, "Guanine")) %>%
+  filter(!str_detect(MF, "Isethionic")) %>%
+  filter(!str_detect(MF, "Succinic")) %>%
+  filter(!str_detect(MF, "Sucrose")) %>%
+  filter(!str_detect(MF, "Sulfoacetic")) %>%
+  filter(!str_detect(MF, "Taurine")) %>%
+  filter(!str_detect(MF, "Trehalose")) 
+
+
+hapto.is.dat.full.with.samp.edited.quant <- hapto.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "AMP")) %>%
+#  filter(!str_detect(MF, "Histidine")) %>%
+#  filter(!str_detect(MF, "Glycine betaine")) %>%
+  filter(!str_detect(MF, "GMP")) %>%
+#  filter(!str_detect(MF, "Guanine")) %>%
+#  filter(!str_detect(MF, "Isethionic")) %>%
+  filter(!str_detect(MF, "Succinic")) %>%
+  filter(!str_detect(MF, "Sucrose")) %>%
+ # filter(!str_detect(MF, "Sulfoacetic")) %>%
+ # filter(!str_detect(MF, "Taurine")) %>%
+  filter(!str_detect(MF, "Trehalose")) 
+
+
+####______XXX____________________________________
+
+###Combine all batches together for BMIS:
+is.dat.full.with.samp.edited.BMIS <- rbind(
+  bacteria.is.dat.full.with.samp.edited.BMIS,
+  cyano.is.dat.full.with.samp.edited.BMIS,
+  diatom.is.dat.full.with.samp.edited.BMIS,
+  dinogreen.is.dat.full.with.samp.edited.BMIS,
+  hapto.is.dat.full.with.samp.edited.BMIS
+)
+
+
+###Combine all batches together for Quant:
+is.dat.full.with.samp.edited.quant <- rbind(
+  bacteria.is.dat.full.with.samp.edited.quant,
+  cyano.is.dat.full.with.samp.edited.quant,
+  diatom.is.dat.full.with.samp.edited.quant,
+  dinogreen.is.dat.full.with.samp.edited.quant,
+  hapto.is.dat.full.with.samp.edited.quant
+)
+
+#export peak list of good IS:
+write_csv(is.dat.full.with.samp.edited.quant, file = "Intermediates/culture_final_IS_peaklist.csv")
+
+
+
+
+
+
+
+####
 hilic.long <- hilic.dat
 
 #Calculate mean values for each IS----
-is.means <- is.dat.full.with.samp.edited %>% 
+is.means <- is.dat.full.with.samp.edited.BMIS %>% 
   left_join(samp.key %>%
               mutate(SampID = Rep) %>% 
               select(SampID), by = "SampID") %>%
@@ -109,7 +287,7 @@ is.means <- is.dat.full.with.samp.edited %>%
 
 ####
 ######## Make IS Key
-is.info <- is.dat.full.with.samp.edited %>%
+is.info <- is.dat.full.with.samp.edited.BMIS %>%
   select(MF) %>%
   rename("IS" = MF) %>%
   unique() %>%
@@ -135,14 +313,14 @@ IS.key <- IS.dat.key.check %>%
 
 
 #Normalize to each internal Standard----
-binded <- rbind(is.dat.full.with.samp.edited, hilic.long) %>%
+binded <- rbind(is.dat.full.with.samp.edited.BMIS, hilic.long) %>%
   left_join(samp.key %>%
               mutate(SampID = Rep) %>%
               select(SampID), by = "SampID") 
 split.dat <- list()
-for (i in 1:length(unique(is.dat.full.with.samp.edited$MF))){
-  split.dat[[i]] <- binded %>% mutate(MIS = unique(is.dat.full.with.samp.edited$MF)[i]) %>%
-    left_join(is.dat.full.with.samp.edited %>% 
+for (i in 1:length(unique(is.dat.full.with.samp.edited.BMIS$MF))){
+  split.dat[[i]] <- binded %>% mutate(MIS = unique(is.dat.full.with.samp.edited.BMIS$MF)[i]) %>%
+    left_join(is.dat.full.with.samp.edited.BMIS %>% 
                 rename(MIS = MF, IS_Area = Area) %>% 
                 select(MIS, SampID, IS_Area)) %>%
     left_join(is.means %>% 
@@ -227,32 +405,14 @@ QuickReport <- paste("% of MFs that picked a BMIS",
                      "RSD minimum cutoff", cut.off2,
                      sep = " ")
 QuickReport
-#Evaluate the results of your BMIS cutoff-----
-IS_toISdat <- area.norm.2 %>%
-  filter(MF %in% is.dat.full.with.samp.edited$MF) %>%
-  select(MF, MIS, Batch, Adjusted_Area, type) %>%
-  filter(type == "Smp") %>%
-  group_by(MF, Batch, MIS) %>%
-  summarise(RSD_ofSmp = sd(Adjusted_Area)/mean(Adjusted_Area)) %>%
-  left_join(poodat %>% select(MF, MIS, RSD_ofPoo))
 
-injectONlY_toPlot <- IS_toISdat %>%
-  filter(MIS == "Inj_vol" ) 
-
-
-ISTest_plot <- ggplot()+
-  geom_point(dat = IS_toISdat, color = "black", size = 2,aes(x = RSD_ofPoo, y = RSD_ofSmp, shape = Batch))+ 
-  scale_fill_manual(values=c("white","dark gray"))+
-  geom_point(dat = injectONlY_toPlot, aes(x = RSD_ofPoo, y = RSD_ofSmp), size = 3) +
-  facet_wrap(~ MF)
-ISTest_plot
 
 #Get all the data back - and keep only the MF-MIS match set for the BMIS----
 #Add a column to the longdat that has important information from the FullDat_fixed, 
 #then only return data that is normalized via B-MIS normalization
 BMIS_normalizedData <- newpoodat %>% select(MF, FinalBMIS, Orig_RSD, Batch, FinalRSD) %>%
   left_join(area.norm.2 %>% rename(FinalBMIS = MIS)) %>% unique() %>%
-  filter(!MF %in% is.dat.full.with.samp.edited$MF)
+  filter(!MF %in% is.dat.full.with.samp.edited.BMIS$MF)
 
 QuickReport
 
@@ -262,7 +422,7 @@ BMIS_normalizedData.2 <- BMIS_normalizedData %>%
                                    !FinalBMIS == "Inj_vol" ~ Adjusted_Area)) 
 write_csv(BMIS_normalizedData.2, "Intermediates/Culture_HILIC_Pos_BMISed_dat.csv")
 
-BMISlist <- list(IS_inspectPlot, QuickReport, ISTest_plot, BMIS_normalizedData.2)
+BMISlist <- list(QuickReport, BMIS_normalizedData.2)
 
 #Removes all intermediate variables :)
 rm(list=setdiff(ls(), c("BMISlist")))
