@@ -12,7 +12,7 @@ library(tidyverse)
 
 #Stds and RFs and RFratios
 stds.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv" 
-rf.file <- "Intermediates/culture_Stds_RFs_RFratios.csv"
+rf.file <- "Intermediates/Culture_Stds_RFs_RFratios.csv"
 
 #IS
 hilic.is.file <- "Intermediates/culture_final_IS_peaklist.csv"
@@ -23,7 +23,7 @@ hilic.file.notnorm <- "Intermediates/culture_osmo_data_raw.csv"
 
 
 ###Sample volume dat:
-#vol.dat <- 
+vol.file <- "Intermediates/All_culture_metadata.csv"
 
 
 
@@ -55,11 +55,14 @@ vial.quant.dat <- read_csv(hilic.file) %>%
 hilic.is.dat <- read_csv(hilic.is.file) %>%
   rename("IS" = MF,
          "IS.area" = Area) %>%
-  unique()
+  unique() 
 
 
 #get internal standard concentration values 
 is.std <- read_csv(stds.file) %>%
+  mutate(Compound_Name = case_when(Compound_Name == "Sucrose, 13C12" ~ "Sucrose, 13C",
+                   Compound_Name == "Trehalose, 13C12" ~ "Trehalose, 13C",
+                   TRUE ~ Compound_Name)) %>%
   filter(Compound_Name %in% hilic.is.dat$IS) %>%
   select(Compound_Name, Concentration_uM) %>%
   rename("IS" = Compound_Name,
@@ -97,6 +100,10 @@ smp.quant.dat.all <- vial.quant.dat %>%
 
 
 
+#load in volume data
+vol.dat <- read_csv(vol.file) %>%
+  select(SampID, Vol_mL)
+
 
 #Calculate nM C and N per sample
 std.formula <- read_csv(stds.file) %>%
@@ -109,13 +116,25 @@ std.formula <- read_csv(stds.file) %>%
   mutate(C = as.numeric(str_replace_all(C, "C", ""))) %>%
   mutate(N = ifelse(str_detect(Empirical_Formula, "N\\D"),
                     1, str_extract(Empirical_Formula, "N\\d")))%>%
-  mutate(N = as.numeric(str_replace_all(N, "N", "")))
+  mutate(N = as.numeric(str_replace_all(N, "N", ""))) %>%
+  mutate(S = case_when(str_detect(Empirical_Formula, "S$") ~ "1",
+                       str_detect(Empirical_Formula, "S\\d") ~ str_extract(Empirical_Formula, "S\\d"))) %>%
+  mutate(S = as.numeric(str_replace_all(S, "S", "")))
 
-
+#calculate nM, nM-C, nM-N, and nM-S in sample for all compounds
 samp.quant.dat <- left_join(smp.quant.dat.all, std.formula) %>%
+  mutate(C = case_when(Name %in% c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)") ~ 7,
+                       TRUE ~ C),
+         N = case_when(Name %in% c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)") ~ 1,
+                       TRUE ~ N)) %>%
   unique() %>%
-  mutate(uM_C_vial = uM.in.vial.ave*C,
-         uM_N_vial = uM.in.vial.ave*N) %>%
-  select(Name, SampID, Batch, uM.in.vial.ave, uM_C_vial, uM_N_vial)
+  left_join(., vol.dat) %>%
+  mutate(uM_in_samp = uM.in.vial.ave*400*(1/1E6)*(1/Vol_mL)*1000) %>%
+  mutate(uM_C_smp = uM_in_samp*C,
+         uM_N_smp = uM_in_samp*N,
+         uM_S_smp = uM_in_samp*S) %>%
+  select(Name, SampID, Batch, uM.in.vial.ave, uM_in_samp, uM_C_smp, uM_N_smp, uM_S_smp)
+
 
 write_csv(samp.quant.dat, file = "Intermediates/Culture_Quant_Output.csv")
+

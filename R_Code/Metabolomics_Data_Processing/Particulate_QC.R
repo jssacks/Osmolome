@@ -132,7 +132,7 @@ dat.viz <- raw.dat %>%
                               
                               Cruise == "G3_DepthProfiles" & str_detect(Rep, "Blk") ~ "Yes",
                               Cruise == "G4_DepthProfiles" & str_detect(Rep, "Blk") ~ "Yes")) %>%
-  filter(Compound == "Sucrose")
+  filter(Compound == "L-Serine")
 
 ggplot(dat.viz, aes(x = Rep, fill = keep.blk, y = Area)) +
   geom_col() +

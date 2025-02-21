@@ -32,11 +32,7 @@ hilic.dat <- read_csv(hilic.file) %>%
   filter(!str_detect(.$SampID, "Std")) %>%
   filter(!str_detect(.$SampID, "DDA")) %>%
   filter(!str_detect(.$MF, "2-O-alpha-D-Glucosylglycerol")) %>%
-  mutate(remove = case_when(MF == "Glycine betaine" & str_detect(SampID, "KM1906_GBT_F2") ~ "Yes",
-                            TRUE ~ "No")) %>%
-  filter(!remove == "Yes") %>%
-  select(-remove)
-                                                          
+  filter(!str_detect(SampID, "KM1906_GBT_F2"))           
 
 #Import and clean up the Internal standard data---- and remove samples with too high of labeled GBT
 is.dat.full <- read_csv(is.file) %>%
@@ -46,8 +42,8 @@ is.dat.full <- read_csv(is.file) %>%
   filter(!str_detect(.$SampID, "Std")) %>%
   filter(!str_detect(.$SampID, "DDA")) %>%
  # filter(!str_detect(.$SampID, "Blk")) %>%
-#  filter(!str_detect(SampID, "KM1906_GBT_F2")) %>%
-  filter(!str_detect(MF, "Trimethylamine N-oxide, 2H9"))
+  filter(!str_detect(SampID, "KM1906_GBT_F2")) %>%
+  filter(!str_detect(MF, "Trimethylamine N-oxide, 2H9"))  
 
 
 
@@ -154,6 +150,11 @@ is.dat.full.with.samp.edited <- rbind(
   kinexp.is.dat.full.with.samp.edited,
   rc078.is.dat.full.with.samp.edited
 )
+
+write_csv(is.dat.full.with.samp.edited, file = "Intermediates/dissolved_final_IS_peaklist.csv")
+
+
+
 
 hilic.long <- hilic.dat
 
@@ -343,7 +344,7 @@ BMIS_normalizedData.2 <- BMIS_normalizedData %>%
                                    !FinalBMIS == "Inj_vol" ~ Adjusted_Area)) 
 write_csv(BMIS_normalizedData.2, "Intermediates/Dissolved_HILIC_Pos_Osmo_BMISed_dat.csv")
 
-BMISlist <- list(IS_inspectPlot, QuickReport, ISTest_plot, BMIS_normalizedData.2)
+#BMISlist <- list(IS_inspectPlot, QuickReport, ISTest_plot, BMIS_normalizedData.2)
 
 #Removes all intermediate variables :)
-rm(list=setdiff(ls(), c("BMISlist")))
+#rm(list=setdiff(ls(), c("BMISlist")))

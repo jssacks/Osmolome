@@ -20,7 +20,8 @@ d1.ctd.file <- "Meta_Data/RC078_ctd_data.csv"
 #Time data:
 d1.d.t.file <- "Meta_Data/Rc078_Local_Date_Time.csv"
 
-
+#culture data:
+culture.meta.file <- "Meta_Data/Culture_Meta_Data.csv"
 
 
 
@@ -116,7 +117,8 @@ d1.time <- read_csv(d1.d.t.file) %>%
   rename("SampID" = sample_id) %>%
   mutate(SampID = paste("221006_Smp_", SampID, sep = ""),
          Cruise = "RC078") %>%
-  select(-parent_id)
+  select(-parent_id) %>%
+  filter(!is.na(Local_Date))
 
 #Volumes, depths, stations
 d1.samp.info <- read_csv(d1.vol.file) %>%
@@ -127,6 +129,7 @@ d1.samp.info <- read_csv(d1.vol.file) %>%
   mutate(SampID = paste("221006_Smp_", SampID, sep = ""),
          Cruise = "RC078") %>%
   select(SampID, Cruise, station, depth_m, Cruise) %>%
+  filter(!str_detect(SampID, "-")) %>%
   unique() %>%
   left_join(., d1.samp.locs) %>%
   left_join(., d1.time) 
@@ -174,8 +177,19 @@ write_csv(all.samp.info, file = "Intermediates/All_metadata_information.csv")
 
 
 
+###Culture Meta Data:
+cult.meta.dat <- read_csv(culture.meta.file) %>%
+  mutate(cell_volume_on_filter_uL = case_when(is.na(cell_volume_on_filter_uL) ~ Cell_Volume_um3*tot_cells_filt*(1/1E9),
+                                              TRUE ~ cell_volume_on_filter_uL)) %>%
+  rename("SampID" = Samp_ID) %>%
+  mutate(SampID = str_remove(SampID, "_pos"))
+  
+write_csv(cult.meta.dat, file = "Intermediates/All_culture_metadata.csv")
 
 
+
+
+###Dissolved_Particulate Match key:
 
 
 

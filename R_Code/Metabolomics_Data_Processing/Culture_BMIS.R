@@ -279,7 +279,7 @@ is.means <- is.dat.full.with.samp.edited.BMIS %>%
               mutate(SampID = Rep) %>% 
               select(SampID), by = "SampID") %>%
   group_by(MF, Batch) %>%
-  summarise(ave = mean(as.numeric(Area))) %>%
+  summarise(ave = mean(as.numeric(Area), na.rm = TRUE)) %>%
   mutate(ave = ifelse(MF == "Inj_vol", 1, ave))
 #REMOVED SAMPLE.TYPE
 
@@ -288,7 +288,7 @@ is.means <- is.dat.full.with.samp.edited.BMIS %>%
 ####
 ######## Make IS Key
 is.info <- is.dat.full.with.samp.edited.BMIS %>%
-  select(MF) %>%
+  select(MF, Batch) %>%
   rename("IS" = MF) %>%
   unique() %>%
   mutate(match.key = "x")
@@ -305,7 +305,7 @@ IS.dat.key.check <- read_csv(hilic.file) %>%
   filter(!is.na(match.name))
 
 IS.key <- IS.dat.key.check %>%
-  select(MF, IS) %>%
+  select(MF, Batch, IS) %>%
   rename("MIS" = IS)
 
 
@@ -342,7 +342,7 @@ poodat <- area.norm.2 %>%
   filter(type == "Poo")%>% 
   group_by(samp, MF, MIS, Batch) %>%
   summarise(RSD_ofPoo_IND = sd(Adjusted_Area, 
-                               na.rm = TRUE)/mean(Adjusted_Area, na.rm = TRUE))%>%
+                               na.rm = TRUE)/mean(Adjusted_Area+1, na.rm = TRUE)) %>%
   mutate(RSD_ofPoo_IND = ifelse(RSD_ofPoo_IND == "NaN", NA, RSD_ofPoo_IND)) %>%
   group_by(MF, MIS, Batch) %>%
   summarise(RSD_ofPoo =  mean(RSD_ofPoo_IND, na.rm = TRUE)) 
@@ -373,7 +373,9 @@ poodat.2 <- left_join(poodat, poodat %>%
 ###
 Matched.IS.dat <- left_join(IS.key, poodat.2) %>%
   mutate(FinalBMIS = MIS,
-         FinalRSD = RSD_ofPoo)
+         FinalRSD = RSD_ofPoo) %>%
+  unite("batch_compound", c(Batch, MF), remove = FALSE) %>%
+  filter(!is.na(accept_MIS))
 
 
 #Change the BMIS to "Inj_vol" if the BMIS is not an acceptable -----
@@ -385,8 +387,10 @@ fixedpoodat <- poodat.2 %>%
   filter(MIS == Poo.Picked.IS)%>%
   mutate(FinalBMIS = ifelse((accept_MIS == "FALSE"), "Inj_vol", Poo.Picked.IS), 
          FinalRSD = RSD_ofPoo) %>%
-  filter(!MF %in% Matched.IS.dat$MF) %>%
-  rbind(., Matched.IS.dat)
+  unite("batch_compound", c(Batch, MF), remove = FALSE) %>%
+  filter(!batch_compound %in% Matched.IS.dat$batch_compound) %>%
+  rbind(., Matched.IS.dat) #%>%
+ # unite("batch_compound", c(Batch, MF), remove = FALSE)
 
 fixedpoodat.2 <- fixedpoodat %>%
   ungroup() %>%
@@ -422,7 +426,8 @@ BMIS_normalizedData.2 <- BMIS_normalizedData %>%
                                    !FinalBMIS == "Inj_vol" ~ Adjusted_Area)) 
 write_csv(BMIS_normalizedData.2, "Intermediates/Culture_HILIC_Pos_BMISed_dat.csv")
 
-BMISlist <- list(QuickReport, BMIS_normalizedData.2)
+#BMISlist <- list(QuickReport, BMIS_normalizedData.2)
 
 #Removes all intermediate variables :)
 rm(list=setdiff(ls(), c("BMISlist")))
+

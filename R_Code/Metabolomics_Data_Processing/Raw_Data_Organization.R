@@ -158,7 +158,7 @@ osmo.p.dat <- all.p.dat %>%
                  "L-Glutamine", "L-Proline", "L-Serine", "L-Threonine", "Sarcosine", "Threonine Betaine (tentative)",
                  "Homoserine Betaine (tentative)", "L-Cysteic acid", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Isethionic acid",
                  "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
-                 "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine"))
+                 "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine", "beta-Alanine"))
 
 #make sample list:
 p.smp.list <- osmo.p.dat %>%
@@ -232,7 +232,7 @@ osmo.d.dat <- all.d.dat %>%
              "L-Glutamine", "L-Proline", "L-Serine", "L-Threonine", "Sarcosine", "Threonine Betaine (tentative)",
              "Homoserine Betaine (tentative)", "L-Cysteic acid", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Isethionic acid",
              "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
-             "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine"))
+             "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine",  "beta-Alanine"))
 
 #make sample list:
 d.smp.list <- osmo.d.dat %>%
@@ -326,7 +326,7 @@ osmo.c.dat <- all.c.dat %>%
              "L-Glutamine", "L-Proline", "L-Serine", "L-Threonine", "Sarcosine", "Threonine Betaine (tentative)",
              "Homoserine Betaine (tentative)", "L-Cysteic acid", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Isethionic acid",
              "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
-             "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine"))
+             "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine",  "beta-Alanine"))
 
 #make sample list:
 c.smp.list <- osmo.c.dat %>%
@@ -373,7 +373,7 @@ osmo.g2.dat <- g2.dat %>%
              "L-Glutamine", "L-Proline", "L-Serine", "L-Threonine", "Sarcosine", "Threonine Betaine (tentative)",
              "Homoserine Betaine (tentative)", "L-Cysteic acid", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Isethionic acid",
              "Sucrose", "Taurine", "Trehalose", "Arsenobetaine", "L-Isoleucine", "L-Asparagine", "L-Lysine",
-             "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine"))
+             "beta-Glutamic acid", "L-Methionine", "L-Tyrosine", "L-Arginine",  "beta-Alanine"))
 
 #make sample list:
 g2.smp.list <- osmo.g2.dat %>%

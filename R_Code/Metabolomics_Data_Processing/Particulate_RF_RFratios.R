@@ -215,3 +215,4 @@ ggplot(RF.RFratios, aes(y = Cruise, x = RF)) +
 ggplot(RF.RFratios, aes(y = Cruise, x = RFratio)) +
   geom_point(size = 3, color = "blue") +
   facet_wrap(.~Name) 
+

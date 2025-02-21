@@ -45,7 +45,7 @@ Blk.ave.dat <- Blank.dat %>%
             Blk.LD = Blk.Av + (t_val * (Blk.sd/sqrt(count)))) %>%
   unique() %>%    
   ungroup() %>%
-  mutate(Blk.LD = case_when(MF == "Dimethylsulfoniopropionate" & Cruise == "KM1906" ~ 20000,
+  mutate(Blk.LD = case_when(Blk.LD <= 1 ~ 20000,
                             TRUE ~ Blk.LD))
        
 write_csv(Blk.ave.dat, file = "Intermediates/Dissolved_Blk_LOD.csv")

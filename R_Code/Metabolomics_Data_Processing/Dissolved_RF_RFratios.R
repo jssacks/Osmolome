@@ -12,7 +12,7 @@ source("R_Code/Functions.R")
 #Define Inputs:
 diss.file <- "Intermediates/dissolved_osmo_data_raw.csv"
 
-Stds.info.file <- "Meta_Data/Ingalls_Lab_Data/Ingalls_Lab_Standards_03172023.csv" 
+Stds.info.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv" 
 
 
 #Load in data
@@ -49,6 +49,8 @@ stds.dat.info <- left_join(stds.dat, stds.info) %>%
                                Name == "Hydroxyisoleucine" & Cruise == "RC078" ~ "Mix1",
                                Name == "L-Glutamine" & Cruise == "KinExp" ~ "Mix1",
                                Name == "L-Glutamine" & Cruise == "RC078" ~ "Mix1",
+                               Name == "Arsenobetaine" & Cruise == "KinExp" ~ "Mix1",
+                               Name == "Arsenobetaine" & Cruise == "RC078" ~ "Mix1",
                                TRUE ~ HILIC_Mix))
 
 ##Calculate RFs
@@ -112,8 +114,3 @@ write_csv(RF.RFratios.final, file = "Intermediates/Dissolved_Stds_RFs_RFratios.c
 
 
 
-
-ggplot(RF.RFratios, aes(x = Cruise, y = RF)) +
-  geom_point() +
-  facet_wrap(.~Name) +
-  scale_y_log10()

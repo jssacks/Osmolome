@@ -11,12 +11,12 @@ library(tidyverse)
 ###Define inputs
 norm.dat.file <- "Intermediates/Dissolved_HILIC_Pos_Osmo_BMISed_dat.csv"
 rf.file <- "Intermediates/Dissolved_Stds_RFs_RFratios.csv"
-EE.file <- "Meta_Data/Ingalls_Lab_Data/CXSPE_EEs.csv"
-Std.file <- "Meta_Data/Ingalls_Lab_Data/Ingalls_Lab_Standards_03172023.csv"
-IS.names.file <- "Meta_Data/Ingalls_Lab_Data/CXSPE_IS_List_JSS.csv" 
+EE.file <- "Meta_Data/CXSPE_EEs.csv"
+Std.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv"
+IS.names.file <- "Meta_Data/CXSPE_IS_List_JSS.csv" 
 HILIC.raw.dat <- "Intermediates/dissolved_osmo_data_raw.csv"
 Blk.LOD.dat <- "Intermediates/Dissolved_Blk_LOD.csv"
-IS.raw.file <- "Intermediates/Dissolved_IS_data_raw.csv"
+IS.raw.file <- "Intermediates/dissolved_final_IS_peaklist.csv"
 
 ###HILIC Dat
 hilic.dat <- read_csv(norm.dat.file) %>%
@@ -72,6 +72,11 @@ lod.conc.EE <-  left_join(lod.conc, EE.vals) %>%
   select(Name, Cruise, EE.adjust.lod, EE.adjust.Blk.Av) %>%
   unique()
 
+
+
+
+
+
 ####Calculate better concentrations using Internal standards
 IS_names <- read_csv(IS.names.file) %>%
   rename(Compound = Match.New,
@@ -80,23 +85,28 @@ IS_names <- read_csv(IS.names.file) %>%
   select(Compound, IS, Spike.Fraction, Conc.in.vial.uM)
   
 
-#bring in raw IS data and combine with IS matching
-
+#bring in raw IS data and combine with IS names and matching keys
 IS.dat.full <- read_csv(IS.raw.file) %>%
-  rename(IS = Compound,
-         IS_Area = Area) %>%
+  rename(IS = MF,
+         IS_Area = Area,
+         Rep = SampID) %>%
   mutate(IS = str_replace(IS, "DL-", "L-"))
 IS.dat.named <- left_join(IS.dat.full, IS_names)
 
-###Spike Before:
+
+
+
+###_________Spike Before:_______________________________
+
+#select just spike before is data
 IS.Spike.Before <- IS.dat.named %>%
   filter(Spike.Fraction == "Spike_Before")
 
+#pull in raw, not normalized data
 raw.dat <- read_csv(HILIC.raw.dat) %>%
- # separate(Compound, into = c("Compound", "ion_mode")) %>%
- # mutate(z = ifelse(ion_mode == "Neg", -1, 1)) %>%
   select(Cruise, Rep, Compound, Area)
 
+#Combine IS data with raw peak area data and calculate concentrations
 SBe.Matched <- left_join(IS.Spike.Before, raw.dat, by = c("Compound", "Rep", "Cruise")) %>%
   filter(!str_detect(.$Rep, "Std")) %>%
   filter(!str_detect(.$Rep, "Blk")) %>%
@@ -108,23 +118,52 @@ SBe.Matched <- left_join(IS.Spike.Before, raw.dat, by = c("Compound", "Rep", "Cr
   mutate(Nmol.in.vial_IS = Area/IS_Area*Conc.in.vial.uM*1000,
          Nmol.in.Samp_IS = Nmol.in.vial_IS*10^-6*400/(40*10^-3))
 
-
-
-
-
 ####
 SBe.add <- SBe.Matched %>%
   rename(EE.adjust.conc = Nmol.in.Samp_IS) %>%
   select(Compound, Rep, EE.adjust.conc)
 
-#combine SAf and SBe IS
-IS.adjus.dat <- SBe.add %>%
+
+###_________Spike After:_______________________________
+
+#select just spike before is data
+IS.Spike.After <- IS.dat.named %>%
+  filter(Spike.Fraction == "Spike_After")
+
+#Combine IS data with raw peak area data and calculate concentrations
+SAf.Matched <- left_join(IS.Spike.After, raw.dat, by = c("Compound", "Rep", "Cruise")) %>%
+  filter(!str_detect(.$Rep, "Std")) %>%
+  filter(!str_detect(.$Rep, "Blk")) %>%
+  filter(!str_detect(.$Rep, "_C_")) %>%
+  filter(!str_detect(.$Rep, "PPL")) %>%
+  filter(!str_detect(.$Rep, "Poo")) %>%
+  filter(!is.na(Area)) %>%
+  select(Cruise, Rep, Compound, Area, IS_Area, Conc.in.vial.uM) %>%
+  mutate(Nmol.in.vial_IS = Area/IS_Area*Conc.in.vial.uM*1000,
+         Nmol.in.Samp_IS = Nmol.in.vial_IS*10^-6*400/(40*10^-3)) %>%
+  left_join(., EE.vals %>% rename("Compound" = Name)) %>%
+  mutate(EE.adjust.conc = Nmol.in.Samp_IS*(EE/100))
+
+####select just final pieces for comining with other datasets
+SAf.add <- SAf.Matched %>%
+  select(Compound, Rep, EE.adjust.conc)
+
+
+
+
+#______________combine SAf and SBe IS
+IS.adjus.dat <- rbind(SBe.add, SAf.add) %>%
   separate(Rep, 
            c("runDate",
              "type","samp","replicate"),"_", remove = FALSE)
 
 
-#####Recalculate LODs based on IS
+
+
+
+
+#####____Recalculate LODs based on IS___________________
+
 LOD.Matched <- left_join(IS.Spike.Before, raw.dat, by = c("Compound", "Rep", "Cruise")) %>%
   filter(!str_detect(.$Rep, "Std")) %>%
   filter(str_detect(.$Rep, "Blk")) %>%
@@ -176,21 +215,37 @@ LOD.IS.replaced <- lod.conc.EE %>%
   rbind(., Blk.ave.dat %>%
           select(Name, Cruise, EE.adjust.lod, EE.adjust.Blk.Av))
 
-#####
-IS.dat.QCed <- SBe.add %>%
+
+
+
+
+
+
+
+
+
+#####______________Perform final calculations and assemble final dataset__________________
+
+#combine IS quantified values with metadata
+IS.dat.QCed <- rbind(SBe.add, SAf.add) %>%
   rename("SampID" = Rep,
          "Name" = Compound) %>%
   left_join(., dat.conc.EE %>%
               select(SampID, Cruise) %>%
-              unique())
+              unique()) %>%
+  unite(c(Cruise, Name), remove = FALSE, col = "cruise_comp") 
 
-####Add in IS normalized dat
+####______Add in IS normalized dat__________
+
+#Remove compounds from main dataset that are quantified using IS
 no.IS.dat <- dat.conc.EE %>%
   select(Name, SampID, Cruise, EE.adjust.conc)  %>%
-  filter(!Name %in% IS.dat.QCed$Name)
+  unite(c(Cruise, Name), remove = FALSE, col = "cruise_comp") %>%
+  filter(!cruise_comp %in% IS.dat.QCed$cruise_comp) 
 
 ##
-final.conc.dat <- rbind(no.IS.dat, IS.dat.QCed)
+final.conc.dat <- rbind(no.IS.dat, IS.dat.QCed) %>%
+  select(-cruise_comp)
 
 #####Get mols C and N per mol Compound from empirical formula in standard sheet
 std.info <- read_csv(Std.file)
@@ -205,7 +260,10 @@ std.formula <- read_csv(Std.file) %>%
   mutate(C = as.numeric(str_replace_all(C, "C", ""))) %>%
   mutate(N = ifelse(str_detect(Empirical_Formula, "N\\D"),
                     1, str_extract(Empirical_Formula, "N\\d")))%>%
-  mutate(N = as.numeric(str_replace_all(N, "N", "")))
+  mutate(N = as.numeric(str_replace_all(N, "N", ""))) %>%
+  mutate(S = case_when(str_detect(Empirical_Formula, "S$") ~ "1",
+                       str_detect(Empirical_Formula, "S\\d") ~ str_extract(Empirical_Formula, "S\\d"))) %>%
+  mutate(S = as.numeric(str_replace_all(S, "S", "")))
 
 ###Conc Data with C and N mol space data
 final.dat <- left_join(final.conc.dat, std.formula) %>%
@@ -214,8 +272,10 @@ final.dat <- left_join(final.conc.dat, std.formula) %>%
          N = case_when(Name %in% c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)") ~ 1,
                        TRUE ~ N)) %>%
   rowwise() %>%
-  mutate(Nmol.C = C*EE.adjust.conc,
-         Nmol.N = N*EE.adjust.conc) %>%
+  mutate(Nmol.in.smp = EE.adjust.conc,
+         Nmol.C = C*EE.adjust.conc,
+         Nmol.N = N*EE.adjust.conc,
+         Nmol.S = S*EE.adjust.conc) %>%
   #filter(!sample == "TruePoo") %>%
   unique()
 

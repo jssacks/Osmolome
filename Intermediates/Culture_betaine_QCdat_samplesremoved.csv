@@ -1,0 +1,2399 @@
+SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
+220111_Smp_DSS3_A,DSS3,Bacteria,(3-Carboxypropyl)trimethylammonium,140584576,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,(3-Carboxypropyl)trimethylammonium,144082160,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,(3-Carboxypropyl)trimethylammonium,141575664,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,5-Hydroxyectoine,122700,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,5-Hydroxyectoine,105692,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,5-Hydroxyectoine,229358,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,5-Hydroxyectoine,678694,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,5-Hydroxyectoine,2361925,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,5-Hydroxyectoine,4765857,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,5-Hydroxyectoine,413235,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,5-Hydroxyectoine,194008,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,5-Hydroxyectoine,198863,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,5-Hydroxyectoine,11037590,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,5-Hydroxyectoine,16516419,NA,NA
+220111_Smp_SA48_A,SA48,Bacteria,5-Hydroxyectoine,180472,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,5-Hydroxyectoine,2635594,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,5-Hydroxyectoine,1817790,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,5-Hydroxyectoine,5757231,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,5-Hydroxyectoine,4218614,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,5-Hydroxyectoine,16812848,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,5-Hydroxyectoine,14883611,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,5-Hydroxyectoine,330171,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,5-Hydroxyectoine,1098092,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,5-Hydroxyectoine,2375670,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,5-Hydroxyectoine,2350315,NA,NA
+220111_Smp_SCM1_Exp1,Nmar,Bacteria,5-Hydroxyectoine,972056,NA,NA
+220111_Smp_SCM1_Exp2,Nmar,Bacteria,5-Hydroxyectoine,1050637,NA,NA
+220111_Smp_SCM1_Exp3,Nmar,Bacteria,5-Hydroxyectoine,228798,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,beta-Alanine,5626833,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,beta-Alanine,4488162,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,beta-Alanine,5252205,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,beta-Alanine,906146,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,beta-Alanine,5779743,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,beta-Alanine,5646460,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,beta-Alanine,7824911,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,beta-Alanine,3460910,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,beta-Alanine,1222770,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,beta-Alanine,2584309,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,beta-Alanine,1298322,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,beta-Alanine,5430468,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,beta-Alanine,1745074,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,beta-Alanine,5943646,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,beta-Alanine,628771,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,beta-Alanine,2140556,NA,NA
+220111_Smp_SA48_A,SA48,Bacteria,beta-Alanine,1307558,NA,NA
+220111_Smp_SA48_B,SA48,Bacteria,beta-Alanine,523042,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,beta-Alanine,2995511,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,beta-Alanine,7450393,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,beta-Alanine,2278379,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,beta-Alanine,4669590,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,beta-Alanine,891919,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,beta-Alanine,876804,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,beta-Alanine,1430937,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,beta-Alanine,1201190,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,beta-Alanine,1293053,NA,NA
+220111_Smp_SA60_A,SA60,Bacteria,beta-Alanine,2793581,NA,NA
+220111_Smp_SA60_B,SA60,Bacteria,beta-Alanine,2312117,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,beta-Alaninebetaine,49546208,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,beta-Alaninebetaine,62852056,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,beta-Alaninebetaine,54846476,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,beta-Alaninebetaine,61411708,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,beta-Alaninebetaine,64696944,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,beta-Alaninebetaine,62978200,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,beta-Alaninebetaine,853696,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,beta-Alaninebetaine,2144493,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,beta-Alaninebetaine,1416174,NA,NA
+220111_Smp_SA48_B,SA48,Bacteria,beta-Alaninebetaine,7615039,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,beta-Alaninebetaine,14552081,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,beta-Alaninebetaine,20850154,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,beta-Alaninebetaine,25834806,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,beta-Alaninebetaine,26119642,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,beta-Alaninebetaine,4010718,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,beta-Alaninebetaine,2668013,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,beta-Alaninebetaine,2713063,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,beta-Glutamic acid,1212581,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,beta-Glutamic acid,210977,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,beta-Glutamic acid,2419625,NA,NA
+220111_Smp_Och_B,OCh114,Bacteria,beta-Glutamic acid,221475,NA,NA
+220111_Smp_Och_C,OCh114,Bacteria,beta-Glutamic acid,274874,NA,NA
+220111_Smp_SA7_A,SA7,Bacteria,beta-Glutamic acid,278309,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,beta-Glutamic acid,1743129,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,beta-Glutamic acid,186587,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,beta-Glutamic acid,6213161,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,beta-Glutamic acid,239495,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,beta-Glutamic acid,2933388,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,beta-Glutamic acid,187315,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,beta-Glutamic acid,474932,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,beta-Glutamic acid,759578,NA,NA
+220111_Smp_SA48_B,SA48,Bacteria,beta-Glutamic acid,134288,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,beta-Glutamic acid,109261864,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,beta-Glutamic acid,103060144,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,beta-Glutamic acid,115522496,NA,NA
+220111_Smp_SA60_A,SA60,Bacteria,beta-Glutamic acid,196156,NA,NA
+220111_Smp_SCM1_Exp1,Nmar,Bacteria,beta-Glutamic acid,634980672,NA,NA
+220111_Smp_SCM1_Exp2,Nmar,Bacteria,beta-Glutamic acid,648738624,NA,NA
+220111_Smp_SCM1_Exp3,Nmar,Bacteria,beta-Glutamic acid,760280192,NA,NA
+220111_Smp_SCM1_St1,Nmar,Bacteria,beta-Glutamic acid,734662592,NA,NA
+220111_Smp_SCM1_St2,Nmar,Bacteria,beta-Glutamic acid,654251392,NA,NA
+220111_Smp_SCM1_St3,Nmar,Bacteria,beta-Glutamic acid,722520448,NA,NA
+220111_Smp_SCM1_St4,Nmar,Bacteria,beta-Glutamic acid,801406912,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,Betonicine,669400,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,Betonicine,1742117,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,Betonicine,2233332,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,Betonicine,516455,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,Betonicine,619950,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,Betonicine,188098,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,Betonicine,112086,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,Betonicine,209146,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,Betonicine,283854,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,Betonicine,423326,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,Betonicine,276310,NA,NA
+220111_Smp_SCM1_Exp1,Nmar,Bacteria,Betonicine,445732,NA,NA
+220111_Smp_SCM1_Exp2,Nmar,Bacteria,Betonicine,322151,NA,NA
+220111_Smp_SCM1_St1,Nmar,Bacteria,Betonicine,719039,NA,NA
+220111_Smp_SCM1_St2,Nmar,Bacteria,Betonicine,1907398,NA,NA
+220111_Smp_SCM1_St4,Nmar,Bacteria,Betonicine,1286512,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,Carnitine,261395,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,Carnitine,1182815,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,Carnitine,3754929,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,Dimethylsulfoniopropionate,347411,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,Dimethylsulfoniopropionate,1385408,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,Dimethylsulfoniopropionate,1337308,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,Dimethylsulfoniopropionate,1352764,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,Dimethylsulfoniopropionate,1307163,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,Dimethylsulfoniopropionate,1163075,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,Dimethylsulfoniopropionate,268200944,NA,NA
+220111_Smp_SCM1_St2,Nmar,Bacteria,Dimethylsulfoniopropionate,146851,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,Ectoine,8918094,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,Ectoine,8426668,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,Ectoine,8939106,NA,NA
+220111_Smp_Och_A,OCh114,Bacteria,Ectoine,3869699,NA,NA
+220111_Smp_Och_B,OCh114,Bacteria,Ectoine,2339972,NA,NA
+220111_Smp_Och_C,OCh114,Bacteria,Ectoine,2084924,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,Ectoine,3873871,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,Ectoine,3522150,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,Ectoine,3357112,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,Ectoine,3554099,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,Ectoine,10264610,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,Ectoine,4669651,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,Ectoine,10262241280,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,Ectoine,134687456,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,Ectoine,33157188,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,Ectoine,1728421,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,Ectoine,1428610,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,Ectoine,37594570752,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,Ectoine,41906446336,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,Ectoine,37104971776,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,Ectoine,64807018496,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,Ectoine,58678956032,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,Ectoine,61990223872,NA,NA
+220111_Smp_SA60_A,SA60,Bacteria,Ectoine,24246434,NA,NA
+220111_Smp_SA60_B,SA60,Bacteria,Ectoine,19865512,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,Glycine betaine,1117720448,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,Glycine betaine,1207003648,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,Glycine betaine,974537152,NA,NA
+220111_Smp_SA7_A,SA7,Bacteria,Glycine betaine,396224448,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,Glycine betaine,696945088,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,Glycine betaine,303200608,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,Glycine betaine,208842032,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,Glycine betaine,211861824,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,Glycine betaine,196305456,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,Glycine betaine,231300832,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,Glycine betaine,256981648,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,Glycine betaine,244863040,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,Glycine betaine,295314304,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,Glycine betaine,312232896,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,Glycine betaine,176763872,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,Glycine betaine,205155056,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,Glycine betaine,202899008,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,Glycine betaine,717338624,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,Glycine betaine,809690752,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,Glycine betaine,457473184,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,Glycine betaine,354192832,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,Glycine betaine,310742592,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,Glycine betaine,364465504,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,Homarine,180672,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,Homarine,105627,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,Hydroxyisoleucine,29059016,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,Hydroxyisoleucine,24704236,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,Hydroxyisoleucine,31191962,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,Hydroxyisoleucine,67614160,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,Hydroxyisoleucine,63942636,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,Hydroxyisoleucine,59789524,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,Hydroxyisoleucine,29145872,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,Hydroxyisoleucine,22589248,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,Hydroxyisoleucine,25288322,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,Hydroxyisoleucine,379777,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,Hydroxyisoleucine,517061,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,Hydroxyisoleucine,481150,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,Hydroxyisoleucine,1697398,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,Hydroxyisoleucine,1214625,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,Hydroxyisoleucine,1251455,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,Hydroxyisoleucine,292100,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,Hydroxyisoleucine,360502,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,Hydroxyisoleucine,370374,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,Hydroxyisoleucine,658824,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,Hydroxyisoleucine,587914,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,Hydroxyisoleucine,372511,NA,NA
+220111_Smp_SA7_A,SA7,Bacteria,L-Alanine,73557768,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,L-Alanine,79334552,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,L-Alanine,80482648,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,L-Alanine,88394376,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,L-Alanine,103506080,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,L-Alanine,86285864,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,L-Alanine,179653936,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,L-Alanine,204897040,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,L-Alanine,201245408,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,L-Alanine,279520512,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,L-Alanine,381775808,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,L-Alanine,295996608,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,L-Alanine,86999544,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,L-Alanine,92311040,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,L-Aspartic acid,51457788,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,L-Aspartic acid,56627644,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,L-Glutamic acid,4076361472,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,L-Glutamic acid,4063661312,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,L-Glutamic acid,4498135040,NA,NA
+220111_Smp_Och_A,OCh114,Bacteria,L-Glutamic acid,418039168,NA,NA
+220111_Smp_Och_B,OCh114,Bacteria,L-Glutamic acid,388758592,NA,NA
+220111_Smp_Och_C,OCh114,Bacteria,L-Glutamic acid,398737792,NA,NA
+220111_Smp_SA7_A,SA7,Bacteria,L-Glutamic acid,514355648,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,L-Glutamic acid,448666112,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,L-Glutamic acid,471022112,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,L-Glutamic acid,3510552576,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,L-Glutamic acid,3872478208,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,L-Glutamic acid,3557055488,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,L-Glutamic acid,5308828160,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,L-Glutamic acid,4970870784,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,L-Glutamic acid,5024829952,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,L-Glutamic acid,2840249088,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,L-Glutamic acid,3388755968,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,L-Glutamic acid,2772508928,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,L-Glutamic acid,3875859200,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,L-Glutamic acid,1041410688,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,L-Glutamic acid,577485568,NA,NA
+220111_Smp_SA48_A,SA48,Bacteria,L-Glutamic acid,254443376,NA,NA
+220111_Smp_SA48_B,SA48,Bacteria,L-Glutamic acid,247130144,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,L-Glutamic acid,627279360,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,L-Glutamic acid,1057818368,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,L-Glutamic acid,1261602944,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,L-Glutamic acid,1009654784,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,L-Glutamic acid,943324224,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,L-Glutamic acid,770327488,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,L-Glutamic acid,738230656,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,L-Glutamic acid,927342976,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,L-Glutamic acid,793771136,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,L-Glutamic acid,762579200,NA,NA
+220111_Smp_SA60_A,SA60,Bacteria,L-Glutamic acid,990342912,NA,NA
+220111_Smp_SA60_B,SA60,Bacteria,L-Glutamic acid,1152520192,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,L-Glutamine,426245088,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,L-Glutamine,512537472,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,L-Glutamine,553798784,NA,NA
+220111_Smp_Och_A,OCh114,Bacteria,L-Glutamine,17250104,NA,NA
+220111_Smp_Och_B,OCh114,Bacteria,L-Glutamine,16731285,NA,NA
+220111_Smp_Och_C,OCh114,Bacteria,L-Glutamine,17176786,NA,NA
+220111_Smp_SA7_A,SA7,Bacteria,L-Glutamine,1320508416,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,L-Glutamine,1502863616,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,L-Glutamine,1353295872,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,L-Glutamine,1756967552,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,L-Glutamine,1783389568,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,L-Glutamine,2185547008,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,L-Glutamine,998802240,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,L-Glutamine,863220608,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,L-Glutamine,980256768,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,L-Glutamine,225387104,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,L-Glutamine,322271744,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,L-Glutamine,315565056,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,L-Glutamine,184509040,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,L-Glutamine,111738000,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,L-Glutamine,37443852,NA,NA
+220111_Smp_SA48_A,SA48,Bacteria,L-Glutamine,16600771,NA,NA
+220111_Smp_SA48_B,SA48,Bacteria,L-Glutamine,18748034,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,L-Glutamine,40916392,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,L-Glutamine,67379176,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,L-Glutamine,64908228,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,L-Glutamine,56819636,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,L-Glutamine,31767682,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,L-Glutamine,28810334,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,L-Glutamine,42122420,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,L-Glutamine,116755904,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,L-Glutamine,131656048,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,L-Glutamine,124603360,NA,NA
+220111_Smp_SA60_A,SA60,Bacteria,L-Glutamine,98128856,NA,NA
+220111_Smp_SA60_B,SA60,Bacteria,L-Glutamine,96636592,NA,NA
+220111_Smp_SCM1_Exp1,Nmar,Bacteria,L-Glutamine,55809400,NA,NA
+220111_Smp_SCM1_Exp2,Nmar,Bacteria,L-Glutamine,51085880,NA,NA
+220111_Smp_SCM1_Exp3,Nmar,Bacteria,L-Glutamine,57791748,NA,NA
+220111_Smp_SCM1_St1,Nmar,Bacteria,L-Glutamine,137812,NA,NA
+220111_Smp_SCM1_St3,Nmar,Bacteria,L-Glutamine,221288,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,L-Isoleucine,3507246848,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,L-Isoleucine,3828094464,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,L-Lysine,612487360,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,L-Lysine,1039039936,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,L-Lysine,955546304,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,L-Lysine,577218240,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,L-Methionine,362090336,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,L-Methionine,415998368,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,L-Methionine,359517408,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,L-Proline,6301777408,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,L-Proline,5256325632,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,L-Proline,5740425728,NA,NA
+220111_Smp_SA7_A,SA7,Bacteria,L-Serine,110514712,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,L-Serine,101230632,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,L-Serine,118580184,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,Proline betaine,405051,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,Proline betaine,312119,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,Proline betaine,644170,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,Proline betaine,571851,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,Proline betaine,881154,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,Proline betaine,288845,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,Proline betaine,4116702,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,Proline betaine,1506448,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,Proline betaine,1462420,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,Proline betaine,659350,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,Proline betaine,1147878,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,Proline betaine,1036763,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,Proline betaine,1527795,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,Proline betaine,3795679,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,Proline betaine,3312564,NA,NA
+220111_Smp_SA48_A,SA48,Bacteria,Proline betaine,427959,NA,NA
+220111_Smp_SA48_B,SA48,Bacteria,Proline betaine,502875,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,Proline betaine,952978,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,Proline betaine,1771178,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,Proline betaine,2142556,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,Proline betaine,2064764,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,Proline betaine,125202,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,Proline betaine,162245,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,Proline betaine,455722,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,Proline betaine,145591,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,Sarcosine,259182,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,Sarcosine,389652,NA,NA
+220111_Smp_DSS3_A,DSS3,Bacteria,Trigonelline,183076,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,Trigonelline,153706,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,Trigonelline,133939,NA,NA
+220111_Smp_SA7_A,SA7,Bacteria,Trigonelline,164258,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,Trigonelline,197543,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,Trigonelline,375196,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,Trigonelline,219121,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,Trigonelline,488014,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,Trigonelline,148252,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,Trigonelline,177322,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,Trigonelline,7712241,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,Trigonelline,10341478,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,Trigonelline,6801902,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,Trigonelline,3458907,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,Trigonelline,4919396,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,Trigonelline,10935980,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,Trigonelline,591619,NA,NA
+220111_Smp_SA55_A,SA55,Bacteria,Trigonelline,2755684,NA,NA
+220111_Smp_SA55_B,SA55,Bacteria,Trigonelline,3495846,NA,NA
+220111_Smp_SA55_C,SA55,Bacteria,Trigonelline,1721522,NA,NA
+220111_Smp_SA59_A,SA59,Bacteria,Trigonelline,3001453,NA,NA
+220111_Smp_SA59_B,SA59,Bacteria,Trigonelline,961376,NA,NA
+220111_Smp_SA59_C,SA59,Bacteria,Trigonelline,2174236,NA,NA
+220111_Smp_SA60_A,SA60,Bacteria,Trigonelline,1123972,NA,NA
+220111_Smp_SA60_B,SA60,Bacteria,Trigonelline,199827,NA,NA
+220111_Smp_DSS3_C,DSS3,Bacteria,Trimethylamine N-oxide,107538,NA,NA
+220111_Smp_SA48_A,SA48,Bacteria,Threonine Betaine (tentative),108416,NA,NA
+220111_Smp_SA11_A,SA11,Bacteria,Homoserine Betaine (tentative),85156032,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,Homoserine Betaine (tentative),119558208,NA,NA
+220111_Smp_SA11_C,SA11,Bacteria,Homoserine Betaine (tentative),113569448,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,Homoserine Betaine (tentative),47049532,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,Homoserine Betaine (tentative),50672864,NA,NA
+220111_Smp_SA16_C,SA16,Bacteria,Homoserine Betaine (tentative),52937576,NA,NA
+220111_Smp_SA42_A,SA42,Bacteria,Homoserine Betaine (tentative),3025065,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,Homoserine Betaine (tentative),1155197,NA,NA
+220111_Smp_SA48_A,SA48,Bacteria,Homoserine Betaine (tentative),1042920,NA,NA
+220111_Smp_SA48_B,SA48,Bacteria,Homoserine Betaine (tentative),1025584,NA,NA
+220111_Smp_SA48_C,SA48,Bacteria,Homoserine Betaine (tentative),3384509,NA,NA
+220111_Smp_SA53_A,SA53,Bacteria,Homoserine Betaine (tentative),3511314,NA,NA
+220111_Smp_SA53_B,SA53,Bacteria,Homoserine Betaine (tentative),3826408,NA,NA
+220111_Smp_SA53_C,SA53,Bacteria,Homoserine Betaine (tentative),4117969,NA,NA
+220111_Smp_SA16_B,SA16,Bacteria,Isethionic acid,100726,NA,NA
+220111_Smp_DSS3_B,DSS3,Bacteria,L-Cysteic acid,164577,NA,NA
+220111_Smp_SA60_A,SA60,Bacteria,L-Cysteic acid,58153992,NA,NA
+220111_Smp_SA60_B,SA60,Bacteria,L-Cysteic acid,72915880,NA,NA
+220111_Smp_SA60_C,NA,Bacteria,L-Cysteic acid,53444068,NA,NA
+220111_Smp_SA7_B,SA7,Bacteria,Sucrose,246030,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,Sucrose,135961,NA,NA
+220111_Smp_SA11_B,SA11,Bacteria,Sucrose,552691,NA,NA
+220111_Smp_SA16_A,SA16,Bacteria,Sucrose,139302,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,Sucrose,427790,NA,NA
+220111_Smp_SA7_A,SA7,Bacteria,Trehalose,113367,NA,NA
+220111_Smp_SA7_C,SA7,Bacteria,Trehalose,1457753,NA,NA
+220111_Smp_SA36_A,SA36,Bacteria,Trehalose,1579098,NA,NA
+220111_Smp_SA36_B,SA36,Bacteria,Trehalose,1388357,NA,NA
+220111_Smp_SA36_C,SA36,Bacteria,Trehalose,17469156,NA,NA
+220111_Smp_SA44_B,SA44,Bacteria,Trehalose,143797456,NA,NA
+220111_Smp_SA44_C,SA44,Bacteria,Trehalose,7607265,NA,NA
+211221_Smp_7803_B,7803,Cyano,2-O-alpha-D-Glucosylglycerol,450854240,NA,NA
+211221_Smp_7803_F,7803,Cyano,2-O-alpha-D-Glucosylglycerol,479348768,NA,NA
+211221_Smp_8102_A,8102,Cyano,2-O-alpha-D-Glucosylglycerol,191349376,NA,NA
+211221_Smp_8102_F,8102,Cyano,2-O-alpha-D-Glucosylglycerol,173169520,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,2-O-alpha-D-Glucosylglycerol,192416,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,2-O-alpha-D-Glucosylglycerol,128811,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,5-Hydroxyectoine,185088,NA,NA
+211221_Smp_7803_B,7803,Cyano,beta-Alanine,4368426,NA,NA
+211221_Smp_7803_F,7803,Cyano,beta-Alanine,2944133,NA,NA
+211221_Smp_8102_A,8102,Cyano,beta-Alanine,4037446,NA,NA
+211221_Smp_8102_F,8102,Cyano,beta-Alanine,2700964,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,beta-Alanine,2141232,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,beta-Alanine,3449274,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,beta-Alanine,1677636,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,beta-Alanine,310289,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,beta-Alanine,553578,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,beta-Alanine,585532,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,beta-Alanine,210671,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,beta-Alanine,489243,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,beta-Alanine,750125,NA,NA
+211221_Smp_7803_F,7803,Cyano,beta-Alaninebetaine,1176674,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,beta-Alaninebetaine,107155,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,beta-Alaninebetaine,161262,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,beta-Glutamic acid,174058,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,beta-Glutamic acid,139405,NA,NA
+211221_Smp_7803_F,7803,Cyano,beta-Glutamic acid,578929,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,beta-Glutamic acid,380190,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,beta-Glutamic acid,203922,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,beta-Glutamic acid,707751,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,beta-Glutamic acid,794625,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,beta-Glutamic acid,156269,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,beta-Glutamic acid,492659,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,Dimethylsulfoniopropionate,4495409,NA,NA
+211221_Smp_7803_B,7803,Cyano,Glycine betaine,62598537216,NA,NA
+211221_Smp_7803_F,7803,Cyano,Glycine betaine,59570786304,NA,NA
+211221_Smp_8102_A,8102,Cyano,Glycine betaine,45215076352,NA,NA
+211221_Smp_8102_F,8102,Cyano,Glycine betaine,40666533888,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,Glycine betaine,459332352,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,Glycine betaine,651821632,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,Glycine betaine,534677024,NA,NA
+211221_Smp_7803_B,7803,Cyano,Homarine,830968512,NA,NA
+211221_Smp_7803_F,7803,Cyano,Homarine,934457664,NA,NA
+211221_Smp_8102_A,8102,Cyano,Homarine,50622697472,NA,NA
+211221_Smp_8102_F,8102,Cyano,Homarine,48383385600,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,Homarine,37103924,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,Homarine,9860037,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,Homarine,2497887,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,Homarine,131341,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,Homarine,126317,NA,NA
+211221_Smp_7803_B,7803,Cyano,Hydroxyisoleucine,973993,NA,NA
+211221_Smp_7803_F,7803,Cyano,Hydroxyisoleucine,1906636,NA,NA
+211221_Smp_8102_A,8102,Cyano,Hydroxyisoleucine,532689,NA,NA
+211221_Smp_8102_F,8102,Cyano,Hydroxyisoleucine,272209,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,Hydroxyisoleucine,326230,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,Hydroxyisoleucine,712133,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,Hydroxyisoleucine,529160,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Alanine,135049808,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Alanine,120547168,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Alanine,67845696,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Alanine,77912928,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Alanine,15052703,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Alanine,21722330,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Alanine,10585299,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Alanine,42018196,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Alanine,51193200,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Alanine,37735192,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Alanine,31448862,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Alanine,32964350,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Alanine,30460780,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Arginine,5072153,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Arginine,3232239,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Arginine,2422288,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Arginine,59899204,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Arginine,63065372,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Arginine,31320302,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Arginine,30798708,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Arginine,49437116,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Arginine,40266796,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Arginine,24984802,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Arginine,7422792,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Arginine,7122509,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Arginine,3179947,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Arginine,10245195,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Arginine,17014012,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Arginine,11475837,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Arginine,9567383,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Arginine,4146047,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Arginine,4345251,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Asparagine,5715674,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Asparagine,5053584,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Asparagine,3470510,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Asparagine,7939990,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Asparagine,10067027,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Asparagine,1145144,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Asparagine,2176327,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Asparagine,1170834,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Asparagine,5198415,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Asparagine,5493548,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Asparagine,2451053,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Asparagine,6999251,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Asparagine,7754853,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Asparagine,7234087,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Asparagine,10853571,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Asparagine,6410214,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Asparagine,6651919,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Aspartic acid,64736404,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Aspartic acid,51276764,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Aspartic acid,45018268,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Aspartic acid,74291840,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Aspartic acid,116682624,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Aspartic acid,85417600,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Aspartic acid,73971424,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Aspartic acid,7316797,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Aspartic acid,8078411,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Aspartic acid,4981650,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Aspartic acid,67705432,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Aspartic acid,69580520,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Aspartic acid,48450076,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Aspartic acid,76437624,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Aspartic acid,59473736,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Aspartic acid,78156920,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Aspartic acid,117455808,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Aspartic acid,85696440,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Aspartic acid,94103112,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Glutamic acid,792087616,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Glutamic acid,672110656,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Glutamic acid,617605056,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Glutamic acid,4284687872,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Glutamic acid,5352276480,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Glutamic acid,3511036672,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Glutamic acid,3443293952,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Glutamic acid,870269568,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Glutamic acid,1140115840,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Glutamic acid,665407360,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Glutamic acid,1149211776,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Glutamic acid,1148301696,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Glutamic acid,818094912,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Glutamic acid,3416206592,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Glutamic acid,2951658496,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Glutamic acid,3565803776,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Glutamic acid,1009514944,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Glutamic acid,705171328,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Glutamic acid,839326144,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Glutamine,94707496,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Glutamine,64683876,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Glutamine,41167440,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Glutamine,123985240,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Glutamine,136260832,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Glutamine,725454016,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Glutamine,539786880,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Glutamine,7875027,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Glutamine,13129622,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Glutamine,7716911,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Glutamine,74031904,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Glutamine,90200464,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Glutamine,36849996,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Glutamine,116732136,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Glutamine,146295392,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Glutamine,110331816,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Glutamine,245498416,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Glutamine,88934992,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Glutamine,100214424,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Isoleucine,9917100,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Isoleucine,296049888,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Isoleucine,485105472,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Isoleucine,132869664,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Isoleucine,141858432,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Isoleucine,35409912,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Isoleucine,69092680,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Isoleucine,38801620,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Isoleucine,11183684,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Isoleucine,11093225,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Isoleucine,29457778,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Isoleucine,35878816,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Isoleucine,33083422,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Isoleucine,11482700,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Isoleucine,11905596,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Isoleucine,12072319,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Lysine,747679,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Lysine,418361,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Lysine,319765,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Lysine,36520860,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Lysine,44014844,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Lysine,3932412,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Lysine,4062052,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Lysine,8913337,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Lysine,22041082,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Lysine,16455559,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Lysine,1846439,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Lysine,1733896,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Lysine,872015,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Lysine,4202799,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Lysine,5169189,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Lysine,4815720,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Lysine,1034148,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Lysine,325927,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Lysine,403156,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Methionine,11544497,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Methionine,37409340,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Methionine,22844596,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Methionine,26033706,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Methionine,4159046,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Methionine,8543188,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Methionine,4853998,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Methionine,343835,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Methionine,244937,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Methionine,754884,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Methionine,291872,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Methionine,1228330,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Proline,10637769,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Proline,7530485,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Proline,7637683,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Proline,396729440,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Proline,532631072,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Proline,112682960,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Proline,101176848,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Proline,22378580,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Proline,29893306,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Proline,22221814,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Proline,8089763,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Proline,7444664,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Proline,4928552,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Proline,26568774,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Proline,31615968,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Proline,30358658,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Proline,7709422,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Proline,5015597,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Proline,5439862,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Serine,1068020,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Serine,615349,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Serine,527425,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Serine,72721544,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Serine,64131844,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Serine,21526392,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Serine,18847466,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Serine,5977899,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Serine,11325471,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Serine,6117248,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Serine,10885039,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Serine,11492055,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Serine,7209519,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Serine,15603317,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Serine,11986521,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Serine,14349067,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Serine,3739191,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Serine,1983625,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Serine,2354678,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Threonine,544464,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Threonine,899529,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Threonine,162731,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Threonine,15651211,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Threonine,20872554,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Threonine,20859536,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Threonine,20582424,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Threonine,5439717,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Threonine,12307905,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Threonine,6918131,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Threonine,5552286,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Threonine,5589637,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Threonine,4289293,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Threonine,9523704,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Threonine,10829276,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Threonine,11366410,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Threonine,4318519,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Threonine,2513572,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Threonine,2875408,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,L-Tyrosine,2315442,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,L-Tyrosine,1750742,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,L-Tyrosine,1520157,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Tyrosine,51506312,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Tyrosine,63747296,NA,NA
+211221_Smp_8102_A,8102,Cyano,L-Tyrosine,16581934,NA,NA
+211221_Smp_8102_F,8102,Cyano,L-Tyrosine,13985578,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,L-Tyrosine,9834956,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,L-Tyrosine,31492302,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,L-Tyrosine,18322134,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,L-Tyrosine,6884513,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,L-Tyrosine,6094234,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,L-Tyrosine,5236745,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,L-Tyrosine,13778571,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Tyrosine,14634637,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,L-Tyrosine,15227088,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,L-Tyrosine,2294531,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,L-Tyrosine,1489601,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,L-Tyrosine,1616034,NA,NA
+211221_Smp_7803_B,7803,Cyano,Proline betaine,444633,NA,NA
+211221_Smp_7803_F,7803,Cyano,Proline betaine,336516,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,Proline betaine,6567694,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,Proline betaine,10552407,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,Proline betaine,8152022,NA,NA
+211221_Smp_7803_B,7803,Cyano,Sarcosine,114502,NA,NA
+211221_Smp_7803_F,7803,Cyano,Sarcosine,900340,NA,NA
+211221_Smp_8102_A,8102,Cyano,Sarcosine,1348570,NA,NA
+211221_Smp_8102_F,8102,Cyano,Sarcosine,6736445,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,Sarcosine,817970,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,Sarcosine,4894247,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,Sarcosine,4465375,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,Sarcosine,7789784,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,Sarcosine,5961664,NA,NA
+211221_Smp_7803_B,7803,Cyano,Trigonelline,1829295,NA,NA
+211221_Smp_7803_F,7803,Cyano,Trigonelline,1603141,NA,NA
+211221_Smp_8102_A,8102,Cyano,Trigonelline,1472175,NA,NA
+211221_Smp_8102_F,8102,Cyano,Trigonelline,68465936,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,Trigonelline,449612,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,Trigonelline,389405,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,Trigonelline,130729,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,Homoserine Betaine (tentative),333214,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,Homoserine Betaine (tentative),198083,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,Taurine,156624,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,Taurine,192654,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,Taurine,112333,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,Isethionic acid,1267257,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,Isethionic acid,1355425,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,Isethionic acid,1055744,NA,NA
+211221_Smp_7803_F,7803,Cyano,"(R)-2,3-Dihydroxypropane-1-sulfonate",112957,NA,NA
+211221_Smp_7803_B,7803,Cyano,L-Cysteic acid,1940609,NA,NA
+211221_Smp_7803_F,7803,Cyano,L-Cysteic acid,3640658,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,L-Cysteic acid,111962,NA,NA
+211221_Smp_1314P_A,1314P,Cyano,Sucrose,104793272,NA,NA
+211221_Smp_1314P_B,1314P,Cyano,Sucrose,87673464,NA,NA
+211221_Smp_1314P_C,1314P,Cyano,Sucrose,107193360,NA,NA
+211221_Smp_7803_B,7803,Cyano,Sucrose,4415428096,NA,NA
+211221_Smp_7803_F,7803,Cyano,Sucrose,5207544832,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,Sucrose,557406,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,Sucrose,330103328,NA,NA
+211221_Smp_As9601_B,As9601,Cyano,Sucrose,313358368,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,Sucrose,300872000,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,Sucrose,341610656,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,Sucrose,497534944,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,Sucrose,381630176,NA,NA
+211221_Smp_Nat_A,NATL2A,Cyano,Sucrose,201098352,NA,NA
+211221_Smp_Nat_B,NATL2A,Cyano,Sucrose,182479488,NA,NA
+211221_Smp_Nat_C,NATL2A,Cyano,Sucrose,193804256,NA,NA
+211221_Smp_7803_B,7803,Cyano,Trehalose,3004280,NA,NA
+211221_Smp_7803_F,7803,Cyano,Trehalose,5879845,NA,NA
+211221_Smp_8501_B,WH8501,Cyano,Trehalose,803061632,NA,NA
+211221_Smp_8501_C,WH8501,Cyano,Trehalose,2038937856,NA,NA
+211221_Smp_8501_D,WH8501,Cyano,Trehalose,1422582912,NA,NA
+211221_Smp_As9601_A,As9601,Cyano,Trehalose,473523,NA,NA
+211221_Smp_As9601_C,As9601,Cyano,Trehalose,150884,NA,NA
+211221_Smp_MED4_D,MED4,Cyano,Trehalose,866652,NA,NA
+211221_Smp_MED4_E,MED4,Cyano,Trehalose,128350,NA,NA
+211221_Smp_MED4_F,MED4,Cyano,Trehalose,357877,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,(3-Carboxypropyl)trimethylammonium,30413364,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,(3-Carboxypropyl)trimethylammonium,26791050,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,(3-Carboxypropyl)trimethylammonium,29787342,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,(3-Carboxypropyl)trimethylammonium,16228181,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,(3-Carboxypropyl)trimethylammonium,18132832,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,(3-Carboxypropyl)trimethylammonium,15349028,NA,NA
+211215_Smp_Np_A,Np,Diatom,(3-Carboxypropyl)trimethylammonium,8715383,NA,NA
+211215_Smp_Np_C,Np,Diatom,(3-Carboxypropyl)trimethylammonium,4104745,NA,NA
+211215_Smp_Np_F,Np,Diatom,(3-Carboxypropyl)trimethylammonium,7018799,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,(3-Carboxypropyl)trimethylammonium,2735708928,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,(3-Carboxypropyl)trimethylammonium,3561054976,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,(3-Carboxypropyl)trimethylammonium,2282535424,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,(3-Carboxypropyl)trimethylammonium,177456912,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,(3-Carboxypropyl)trimethylammonium,152716128,NA,NA
+211215_Smp_To_A,To,Diatom,(3-Carboxypropyl)trimethylammonium,62179672,NA,NA
+211215_Smp_To_B,To,Diatom,(3-Carboxypropyl)trimethylammonium,62427968,NA,NA
+211215_Smp_To_C,To,Diatom,(3-Carboxypropyl)trimethylammonium,31946802,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,(3-Carboxypropyl)trimethylammonium,40998584,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,(3-Carboxypropyl)trimethylammonium,32821454,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,(3-Carboxypropyl)trimethylammonium,37519692,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,2-O-alpha-D-Glucosylglycerol,3934799,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,2-O-alpha-D-Glucosylglycerol,2528251,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,2-O-alpha-D-Glucosylglycerol,3460948,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,2-O-alpha-D-Glucosylglycerol,440854,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,2-O-alpha-D-Glucosylglycerol,486236,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,2-O-alpha-D-Glucosylglycerol,910886,NA,NA
+211215_Smp_Np_A,Np,Diatom,2-O-alpha-D-Glucosylglycerol,8525763,NA,NA
+211215_Smp_Np_C,Np,Diatom,2-O-alpha-D-Glucosylglycerol,6438840,NA,NA
+211215_Smp_Np_F,Np,Diatom,2-O-alpha-D-Glucosylglycerol,8947292,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,2-O-alpha-D-Glucosylglycerol,26957204,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,2-O-alpha-D-Glucosylglycerol,19839326,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,2-O-alpha-D-Glucosylglycerol,11205056,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,2-O-alpha-D-Glucosylglycerol,5213860,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,2-O-alpha-D-Glucosylglycerol,28256026,NA,NA
+211215_Smp_To_A,To,Diatom,2-O-alpha-D-Glucosylglycerol,718474,NA,NA
+211215_Smp_To_B,To,Diatom,2-O-alpha-D-Glucosylglycerol,1091776,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,2-O-alpha-D-Glucosylglycerol,1510875,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,beta-Alanine,8168675,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,beta-Alanine,9144604,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,beta-Alanine,12627450,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,beta-Alanine,553114,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,beta-Alanine,165332,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,beta-Alanine,578216,NA,NA
+211215_Smp_Np_A,Np,Diatom,beta-Alanine,2714835,NA,NA
+211215_Smp_Np_C,Np,Diatom,beta-Alanine,3479591,NA,NA
+211215_Smp_Np_F,Np,Diatom,beta-Alanine,3278146,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,beta-Alanine,12443302,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,beta-Alanine,8705577,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,beta-Alanine,5491875,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,beta-Alanine,31900068,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,beta-Alanine,40797548,NA,NA
+211215_Smp_To_A,To,Diatom,beta-Alanine,6376541,NA,NA
+211215_Smp_To_B,To,Diatom,beta-Alanine,2109676,NA,NA
+211215_Smp_To_C,To,Diatom,beta-Alanine,2195145,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,beta-Alanine,4290836,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,beta-Alanine,1515907,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,beta-Alanine,725965,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,beta-Alaninebetaine,11764466,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,beta-Alaninebetaine,9971075,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,beta-Alaninebetaine,11936727,NA,NA
+211215_Smp_Np_C,Np,Diatom,beta-Alaninebetaine,579302,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,beta-Alaninebetaine,290905,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,beta-Alaninebetaine,119132,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,beta-Alaninebetaine,180605,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,beta-Alaninebetaine,625918,NA,NA
+211215_Smp_To_A,To,Diatom,beta-Alaninebetaine,100901,NA,NA
+211215_Smp_To_C,To,Diatom,beta-Alaninebetaine,129612,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,beta-Alaninebetaine,7823571,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,beta-Alaninebetaine,4520384,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,beta-Alaninebetaine,5263190,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,beta-Glutamic acid,12794182,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,beta-Glutamic acid,5720966,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,beta-Glutamic acid,21080190,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,beta-Glutamic acid,2870522,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,beta-Glutamic acid,2211309,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,beta-Glutamic acid,2765594,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,beta-Glutamic acid,222842352,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,beta-Glutamic acid,367751712,NA,NA
+211215_Smp_To_C,To,Diatom,beta-Glutamic acid,464366,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,beta-Glutamic acid,2697835,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,beta-Glutamic acid,301635,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Betonicine,4578309,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Betonicine,5329917,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Betonicine,3465305,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Betonicine,28086876,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Betonicine,25237876,NA,NA
+211215_Smp_To_A,To,Diatom,Betonicine,123071,NA,NA
+211215_Smp_To_B,To,Diatom,Betonicine,407445,NA,NA
+211215_Smp_To_C,To,Diatom,Betonicine,400618,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Carnitine,375942144,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Carnitine,145498624,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Carnitine,352524704,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Carnitine,46265556,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Carnitine,50648644,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,Carnitine,9457932,NA,NA
+211215_Smp_Np_A,Np,Diatom,Carnitine,216091904,NA,NA
+211215_Smp_Np_C,Np,Diatom,Carnitine,206978464,NA,NA
+211215_Smp_Np_F,Np,Diatom,Carnitine,169787664,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Carnitine,682730624,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Carnitine,874368704,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Carnitine,590539520,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Carnitine,572746752,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Carnitine,501194944,NA,NA
+211215_Smp_To_A,To,Diatom,Carnitine,1062622080,NA,NA
+211215_Smp_To_B,To,Diatom,Carnitine,984018560,NA,NA
+211215_Smp_To_C,To,Diatom,Carnitine,549344192,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Carnitine,626718016,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Carnitine,408991552,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Carnitine,440845568,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Dimethylsulfonioacetate,43475612,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Dimethylsulfonioacetate,36717196,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Dimethylsulfonioacetate,51551808,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Dimethylsulfonioacetate,697698,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Dimethylsulfonioacetate,862136,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Dimethylsulfonioacetate,345736,NA,NA
+211215_Smp_To_A,To,Diatom,Dimethylsulfonioacetate,100055,NA,NA
+211215_Smp_To_B,To,Diatom,Dimethylsulfonioacetate,794618,NA,NA
+211215_Smp_To_C,To,Diatom,Dimethylsulfonioacetate,714535,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Dimethylsulfonioacetate,769775,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Dimethylsulfonioacetate,504273,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Dimethylsulfonioacetate,555352,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Dimethylsulfoniopropionate,50977869824,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Dimethylsulfoniopropionate,43698958336,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Dimethylsulfoniopropionate,50909278208,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Dimethylsulfoniopropionate,15987819520,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Dimethylsulfoniopropionate,16926451712,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,Dimethylsulfoniopropionate,14714609664,NA,NA
+211215_Smp_Np_A,Np,Diatom,Dimethylsulfoniopropionate,1264736,NA,NA
+211215_Smp_Np_C,Np,Diatom,Dimethylsulfoniopropionate,151984,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Dimethylsulfoniopropionate,726709952,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Dimethylsulfoniopropionate,809906432,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Dimethylsulfoniopropionate,543829952,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Dimethylsulfoniopropionate,16185366528,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Dimethylsulfoniopropionate,11604172800,NA,NA
+211215_Smp_To_A,To,Diatom,Dimethylsulfoniopropionate,993385792,NA,NA
+211215_Smp_To_B,To,Diatom,Dimethylsulfoniopropionate,1053760448,NA,NA
+211215_Smp_To_C,To,Diatom,Dimethylsulfoniopropionate,856118592,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Dimethylsulfoniopropionate,4085111552,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Dimethylsulfoniopropionate,2338236160,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Dimethylsulfoniopropionate,2778877696,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Ectoine,9212885,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Ectoine,6038817,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Ectoine,11502267,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Ectoine,135851,NA,NA
+211215_Smp_Np_A,Np,Diatom,Ectoine,415563,NA,NA
+211215_Smp_Np_C,Np,Diatom,Ectoine,1333618,NA,NA
+211215_Smp_Np_F,Np,Diatom,Ectoine,1574772,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Ectoine,4854148,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Ectoine,4866149,NA,NA
+211215_Smp_To_A,To,Diatom,Ectoine,8205028,NA,NA
+211215_Smp_To_B,To,Diatom,Ectoine,5907741,NA,NA
+211215_Smp_To_C,To,Diatom,Ectoine,227707,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Ectoine,304257,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Ectoine,383729,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Ectoine,186128,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Glycine betaine,54456856576,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Glycine betaine,45915512832,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Glycine betaine,53194207232,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Glycine betaine,19285016576,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Glycine betaine,20149667840,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,Glycine betaine,17895311360,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Glycine betaine,8050200576,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Glycine betaine,9645495296,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Glycine betaine,6130478592,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Glycine betaine,75324473344,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Glycine betaine,67542069248,NA,NA
+211215_Smp_To_A,To,Diatom,Glycine betaine,16890181632,NA,NA
+211215_Smp_To_B,To,Diatom,Glycine betaine,17222750208,NA,NA
+211215_Smp_To_C,To,Diatom,Glycine betaine,16387003392,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Glycine betaine,45504282624,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Glycine betaine,36474576896,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Glycine betaine,38890016768,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Homarine,29067038720,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Homarine,24947228672,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Homarine,28143636480,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Homarine,14911909888,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Homarine,16373026816,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,Homarine,14532635648,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Homarine,887580544,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Homarine,965469888,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Homarine,708905600,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Homarine,487894,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Homarine,360106,NA,NA
+211215_Smp_To_A,To,Diatom,Homarine,499283360,NA,NA
+211215_Smp_To_B,To,Diatom,Homarine,547452096,NA,NA
+211215_Smp_To_C,To,Diatom,Homarine,598787392,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Homarine,6833534464,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Homarine,3401115392,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Homarine,4138140416,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Hydroxyisoleucine,6266809,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Hydroxyisoleucine,5366515,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Hydroxyisoleucine,8827639,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Hydroxyisoleucine,2477741,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Hydroxyisoleucine,2895016,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,Hydroxyisoleucine,2266278,NA,NA
+211215_Smp_Np_A,Np,Diatom,Hydroxyisoleucine,423769,NA,NA
+211215_Smp_Np_C,Np,Diatom,Hydroxyisoleucine,1515787,NA,NA
+211215_Smp_Np_F,Np,Diatom,Hydroxyisoleucine,384064,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Hydroxyisoleucine,1620183,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Hydroxyisoleucine,1404938,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Hydroxyisoleucine,804224,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Hydroxyisoleucine,14842425,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Hydroxyisoleucine,16519961,NA,NA
+211215_Smp_To_A,To,Diatom,Hydroxyisoleucine,6522816,NA,NA
+211215_Smp_To_B,To,Diatom,Hydroxyisoleucine,8195618,NA,NA
+211215_Smp_To_C,To,Diatom,Hydroxyisoleucine,8123774,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Hydroxyisoleucine,8015954,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Hydroxyisoleucine,5660999,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Hydroxyisoleucine,4842584,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Alanine,87430528,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Alanine,72913288,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Alanine,93484016,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Alanine,94427488,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Alanine,104552632,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Alanine,83372424,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Alanine,96639288,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Alanine,113000960,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Alanine,99655904,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Alanine,10672773,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Alanine,6576034,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Alanine,4109245,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Alanine,267791952,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Alanine,312671008,NA,NA
+211215_Smp_To_A,To,Diatom,L-Alanine,196702368,NA,NA
+211215_Smp_To_B,To,Diatom,L-Alanine,194703712,NA,NA
+211215_Smp_To_C,To,Diatom,L-Alanine,197367200,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Alanine,84000392,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Alanine,39573548,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Alanine,34601428,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Arginine,1581273984,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Arginine,864765952,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Arginine,1462248576,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Arginine,729904448,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Arginine,877202112,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Arginine,692743168,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Arginine,3712097280,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Arginine,3669996544,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Arginine,4100026112,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Arginine,17169122,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Arginine,18795908,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Arginine,11210509,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Arginine,2166386688,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Arginine,1245485184,NA,NA
+211215_Smp_To_A,To,Diatom,L-Arginine,173436512,NA,NA
+211215_Smp_To_B,To,Diatom,L-Arginine,178615472,NA,NA
+211215_Smp_To_C,To,Diatom,L-Arginine,189490336,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Arginine,782327680,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Arginine,399085536,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Arginine,412381472,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Asparagine,62111152,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Asparagine,48170296,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Asparagine,80291352,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Asparagine,24243830,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Asparagine,28252466,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Asparagine,24007200,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Asparagine,78672496,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Asparagine,123678840,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Asparagine,78891464,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Asparagine,3085818,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Asparagine,2569627,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Asparagine,1314553,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Asparagine,212111792,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Asparagine,215243104,NA,NA
+211215_Smp_To_A,To,Diatom,L-Asparagine,91110512,NA,NA
+211215_Smp_To_B,To,Diatom,L-Asparagine,94691200,NA,NA
+211215_Smp_To_C,To,Diatom,L-Asparagine,96066192,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Asparagine,79217504,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Asparagine,42094176,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Asparagine,42576820,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Aspartic acid,127658640,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Aspartic acid,77528560,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Aspartic acid,138649232,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Aspartic acid,41347016,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Aspartic acid,50284904,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Aspartic acid,40148884,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Aspartic acid,120010128,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Aspartic acid,185731392,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Aspartic acid,113878736,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Aspartic acid,13649799,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Aspartic acid,11504858,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Aspartic acid,6128458,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Aspartic acid,229261744,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Aspartic acid,298334784,NA,NA
+211215_Smp_To_A,To,Diatom,L-Aspartic acid,103055192,NA,NA
+211215_Smp_To_B,To,Diatom,L-Aspartic acid,114982704,NA,NA
+211215_Smp_To_C,To,Diatom,L-Aspartic acid,121257224,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Aspartic acid,161957168,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Aspartic acid,90425696,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Aspartic acid,84373736,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Glutamic acid,971941056,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Glutamic acid,748884480,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Glutamic acid,1155251072,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Glutamic acid,347125984,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Glutamic acid,468172128,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Glutamic acid,347962016,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Glutamic acid,929128192,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Glutamic acid,1223782272,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Glutamic acid,983003840,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Glutamic acid,154653840,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Glutamic acid,121310784,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Glutamic acid,70412280,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Glutamic acid,3061673216,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Glutamic acid,3464203264,NA,NA
+211215_Smp_To_A,To,Diatom,L-Glutamic acid,1479422080,NA,NA
+211215_Smp_To_B,To,Diatom,L-Glutamic acid,1735204224,NA,NA
+211215_Smp_To_C,To,Diatom,L-Glutamic acid,1734419840,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Glutamic acid,1124393984,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Glutamic acid,582241088,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Glutamic acid,551579520,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Glutamine,1520367232,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Glutamine,927592704,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Glutamine,1456946176,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Glutamine,211283984,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Glutamine,269172896,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Glutamine,219374224,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Glutamine,1455587328,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Glutamine,1614893184,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Glutamine,1435996416,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Glutamine,36487964,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Glutamine,28113714,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Glutamine,12894205,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Glutamine,4347326976,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Glutamine,4401061376,NA,NA
+211215_Smp_To_A,To,Diatom,L-Glutamine,3598140672,NA,NA
+211215_Smp_To_B,To,Diatom,L-Glutamine,3722787840,NA,NA
+211215_Smp_To_C,To,Diatom,L-Glutamine,3481829376,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Glutamine,917862400,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Glutamine,352097088,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Glutamine,300562208,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Isoleucine,323622976,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Isoleucine,282792160,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Isoleucine,422393920,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Isoleucine,232139440,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Isoleucine,248680336,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Isoleucine,224852576,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Isoleucine,144420016,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Isoleucine,148998896,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Isoleucine,179761408,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Isoleucine,68593504,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Isoleucine,60334188,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Isoleucine,38793724,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Isoleucine,229220432,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Isoleucine,252401344,NA,NA
+211215_Smp_To_A,To,Diatom,L-Isoleucine,311499552,NA,NA
+211215_Smp_To_B,To,Diatom,L-Isoleucine,308871616,NA,NA
+211215_Smp_To_C,To,Diatom,L-Isoleucine,315915104,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Isoleucine,181744320,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Isoleucine,100557784,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Isoleucine,107498744,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Lysine,331861248,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Lysine,127179544,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Lysine,352015552,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Lysine,44561684,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Lysine,47187264,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Lysine,35739748,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Lysine,55661500,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Lysine,79382520,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Lysine,62068416,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Lysine,65061556,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Lysine,71612800,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Lysine,36359644,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Lysine,440723232,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Lysine,353564544,NA,NA
+211215_Smp_To_A,To,Diatom,L-Lysine,597528832,NA,NA
+211215_Smp_To_B,To,Diatom,L-Lysine,676838656,NA,NA
+211215_Smp_To_C,To,Diatom,L-Lysine,705353344,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Lysine,41061372,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Lysine,17571246,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Lysine,20046762,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Methionine,1754283904,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Methionine,1087494400,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Methionine,1326828416,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Methionine,147286240,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Methionine,162312672,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Methionine,131860648,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Methionine,89083072,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Methionine,87706576,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Methionine,41191448,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Methionine,9625586,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Methionine,2386256,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Methionine,7905877,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Methionine,53068388,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Methionine,22141646,NA,NA
+211215_Smp_To_A,To,Diatom,L-Methionine,823803392,NA,NA
+211215_Smp_To_B,To,Diatom,L-Methionine,868804672,NA,NA
+211215_Smp_To_C,To,Diatom,L-Methionine,878628928,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Methionine,202015696,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Methionine,129088976,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Methionine,127489664,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Proline,1276546944,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Proline,965920000,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Proline,1228676096,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Proline,1419569792,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Proline,1803891584,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Proline,1341591552,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Proline,31220680704,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Proline,33111439360,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Proline,30835025920,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Proline,72677168,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Proline,64130652,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Proline,45206328,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Proline,15579996160,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Proline,12401225728,NA,NA
+211215_Smp_To_A,To,Diatom,L-Proline,586274688,NA,NA
+211215_Smp_To_B,To,Diatom,L-Proline,677027072,NA,NA
+211215_Smp_To_C,To,Diatom,L-Proline,598241088,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Proline,5178012160,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Proline,3025030400,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Proline,2621995008,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Serine,35577720,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Serine,25436610,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Serine,44865212,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Serine,14720272,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Serine,17824776,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Serine,15176574,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Serine,19750804,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Serine,26488164,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Serine,20386984,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Serine,2766840,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Serine,1968649,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Serine,1476968,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Serine,38806900,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Serine,37821608,NA,NA
+211215_Smp_To_A,To,Diatom,L-Serine,72027272,NA,NA
+211215_Smp_To_B,To,Diatom,L-Serine,81979128,NA,NA
+211215_Smp_To_C,To,Diatom,L-Serine,82234912,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Serine,15983262,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Serine,7898966,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Serine,6715632,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Threonine,80424520,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Threonine,62802960,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Threonine,123289112,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Threonine,18627876,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Threonine,20532016,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Threonine,18553696,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Threonine,9282462,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Threonine,11386239,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Threonine,10108700,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Threonine,14510843,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Threonine,12523884,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Threonine,7028768,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Threonine,78820768,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Threonine,89973768,NA,NA
+211215_Smp_To_A,To,Diatom,L-Threonine,198117552,NA,NA
+211215_Smp_To_B,To,Diatom,L-Threonine,218426944,NA,NA
+211215_Smp_To_C,To,Diatom,L-Threonine,215263024,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Threonine,135405264,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Threonine,52422452,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Threonine,51268300,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Tyrosine,29894742,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Tyrosine,23100072,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Tyrosine,34721188,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,L-Tyrosine,218211056,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,L-Tyrosine,177866480,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,L-Tyrosine,225333536,NA,NA
+211215_Smp_Np_A,Np,Diatom,L-Tyrosine,9405888,NA,NA
+211215_Smp_Np_C,Np,Diatom,L-Tyrosine,10781239,NA,NA
+211215_Smp_Np_F,Np,Diatom,L-Tyrosine,13649190,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,L-Tyrosine,322187328,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,L-Tyrosine,271218784,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,L-Tyrosine,164036304,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,L-Tyrosine,47524524,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,L-Tyrosine,36677720,NA,NA
+211215_Smp_To_A,To,Diatom,L-Tyrosine,91653792,NA,NA
+211215_Smp_To_B,To,Diatom,L-Tyrosine,89091024,NA,NA
+211215_Smp_To_C,To,Diatom,L-Tyrosine,99474864,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,L-Tyrosine,57500932,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,L-Tyrosine,46742128,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,L-Tyrosine,46730896,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Proline betaine,13864750,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Proline betaine,12812536,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Proline betaine,17309332,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Proline betaine,737164,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Proline betaine,720332,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Proline betaine,1132619,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Proline betaine,625633,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Proline betaine,989710,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Proline betaine,8020738,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Proline betaine,7270267,NA,NA
+211215_Smp_To_A,To,Diatom,Proline betaine,7879172,NA,NA
+211215_Smp_To_B,To,Diatom,Proline betaine,8988289,NA,NA
+211215_Smp_To_C,To,Diatom,Proline betaine,9078003,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Proline betaine,14417125,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Proline betaine,9528542,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Proline betaine,11798021,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Sarcosine,864329,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Sarcosine,425151,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Sarcosine,834528,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Sarcosine,32551830,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Sarcosine,44675368,NA,NA
+211215_Smp_To_B,To,Diatom,Sarcosine,100557,NA,NA
+211215_Smp_To_C,To,Diatom,Sarcosine,609639,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Sarcosine,1548404,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Sarcosine,1237668,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Sarcosine,623691,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Trigonelline,461428576,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Trigonelline,465137888,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Trigonelline,535974784,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Trigonelline,2000474,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Trigonelline,447169,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Trigonelline,582038,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Trigonelline,7088844288,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Trigonelline,6614989312,NA,NA
+211215_Smp_To_A,To,Diatom,Trigonelline,5652928,NA,NA
+211215_Smp_To_B,To,Diatom,Trigonelline,686932,NA,NA
+211215_Smp_To_C,To,Diatom,Trigonelline,5512607,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Trigonelline,1228255872,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Trigonelline,815100160,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Trigonelline,899840448,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Trimethylamine N-oxide,2762878,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Trimethylamine N-oxide,3225521,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,Trimethylamine N-oxide,2344920,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Trimethylamine N-oxide,338624,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Trimethylamine N-oxide,2090993,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Taurine,3348811,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Taurine,2738581,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Taurine,4019531,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Taurine,887019712,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Taurine,1039796416,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,Taurine,869845632,NA,NA
+211215_Smp_Np_A,Np,Diatom,Taurine,240855,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Taurine,112111960,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Taurine,119531768,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Taurine,72904440,NA,NA
+211215_Smp_To_A,To,Diatom,Taurine,109672,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Isethionic acid,4317760000,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Isethionic acid,4079836672,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Isethionic acid,5142729216,NA,NA
+211215_Smp_Fc_A,Fc,Diatom,Isethionic acid,4754341888,NA,NA
+211215_Smp_Fc_B,Fc,Diatom,Isethionic acid,5956541952,NA,NA
+211215_Smp_Fc_C,Fc,Diatom,Isethionic acid,4964028928,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Isethionic acid,12210095104,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Isethionic acid,7042504704,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Isethionic acid,8307961344,NA,NA
+211215_Smp_To_C,To,Diatom,Isethionic acid,1355750,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",3788081664,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",3730535168,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",5640077824,NA,NA
+211215_Smp_Np_A,Np,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",2304162304,NA,NA
+211215_Smp_Np_C,Np,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",3063540736,NA,NA
+211215_Smp_Np_F,Np,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",2673549568,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",17850872,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",14916206,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",6890757,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",8735156224,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",10580538368,NA,NA
+211215_Smp_To_A,To,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",5526063104,NA,NA
+211215_Smp_To_B,To,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",6174119936,NA,NA
+211215_Smp_To_C,To,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",6469994496,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",3474291200,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",1965209600,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,"(R)-2,3-Dihydroxypropane-1-sulfonate",1994353280,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,L-Cysteic acid,83441056,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,L-Cysteic acid,58034300,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,L-Cysteic acid,116421424,NA,NA
+211215_Smp_Cy_A,Cy,Diatom,Sucrose,12460351,NA,NA
+211215_Smp_Cy_B,Cy,Diatom,Sucrose,14851808,NA,NA
+211215_Smp_Cy_C,Cy,Diatom,Sucrose,18179614,NA,NA
+211215_Smp_Np_A,Np,Diatom,Sucrose,5908650,NA,NA
+211215_Smp_Np_C,Np,Diatom,Sucrose,9797397,NA,NA
+211215_Smp_Np_F,Np,Diatom,Sucrose,6456754,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Sucrose,39246396,NA,NA
+211215_Smp_Pc55x_B,Pc55x,Diatom,Sucrose,35345864,NA,NA
+211215_Smp_Pc55x_C,Pc55x,Diatom,Sucrose,18582804,NA,NA
+211215_Smp_Pt_C,Pt,Diatom,Sucrose,17641798,NA,NA
+211215_Smp_Pt_F,Pt,Diatom,Sucrose,21293278,NA,NA
+211215_Smp_To_A,To,Diatom,Sucrose,5560592,NA,NA
+211215_Smp_To_B,To,Diatom,Sucrose,6654815,NA,NA
+211215_Smp_To_C,To,Diatom,Sucrose,6184787,NA,NA
+211215_Smp_Tp_A,Tp,Diatom,Sucrose,17611734,NA,NA
+211215_Smp_Tp_E,Tp,Diatom,Sucrose,12781872,NA,NA
+211215_Smp_Tp_F,Tp,Diatom,Sucrose,15083362,NA,NA
+211215_Smp_Pc55x_A,Pc55x,Diatom,Trehalose,1495969,NA,NA
+211215_Smp_To_A,To,Diatom,Trehalose,145174,NA,NA
+211215_Smp_To_C,To,Diatom,Trehalose,124737,NA,NA
+211218_Smp_449_A,449,Dino_Green,(3-Carboxypropyl)trimethylammonium,221654224,NA,NA
+211218_Smp_449_B,449,Dino_Green,(3-Carboxypropyl)trimethylammonium,284951840,NA,NA
+211218_Smp_449_C,449,Dino_Green,(3-Carboxypropyl)trimethylammonium,260898848,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,(3-Carboxypropyl)trimethylammonium,200185168,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,(3-Carboxypropyl)trimethylammonium,177837904,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,(3-Carboxypropyl)trimethylammonium,177031744,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,(3-Carboxypropyl)trimethylammonium,204065088,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,(3-Carboxypropyl)trimethylammonium,261684864,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,(3-Carboxypropyl)trimethylammonium,188126192,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,(3-Carboxypropyl)trimethylammonium,2927208704,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,(3-Carboxypropyl)trimethylammonium,3076994304,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,(3-Carboxypropyl)trimethylammonium,1619444096,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,5-Hydroxyectoine,112567,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,5-Hydroxyectoine,130951,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,5-Hydroxyectoine,265239,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,5-Hydroxyectoine,120909,NA,NA
+211218_Smp_449_A,449,Dino_Green,beta-Alanine,338616,NA,NA
+211218_Smp_449_B,449,Dino_Green,beta-Alanine,198747,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,beta-Alanine,168500,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,beta-Alanine,347785,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,beta-Alanine,411930,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,beta-Alanine,1377476,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,beta-Alanine,1260319,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,beta-Alanine,1161079,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,beta-Alanine,2619020,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,beta-Alanine,2677548,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,beta-Alanine,1515195,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,beta-Alanine,6146539,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,beta-Alanine,7014880,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,beta-Alanine,5406506,NA,NA
+211218_Smp_449_A,449,Dino_Green,beta-Alaninebetaine,8012406,NA,NA
+211218_Smp_449_B,449,Dino_Green,beta-Alaninebetaine,12011890,NA,NA
+211218_Smp_449_C,449,Dino_Green,beta-Alaninebetaine,10262347,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,beta-Alaninebetaine,4573238,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,beta-Alaninebetaine,3448858,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,beta-Alaninebetaine,3652605,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,beta-Alaninebetaine,140101,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,beta-Alaninebetaine,961060608,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,beta-Alaninebetaine,1168215168,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,beta-Alaninebetaine,867073280,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,beta-Alaninebetaine,15506355,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,beta-Alaninebetaine,13579259,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,beta-Alaninebetaine,7381270,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,beta-Alaninebetaine,115035,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,beta-Alaninebetaine,105624,NA,NA
+211218_Smp_449_A,449,Dino_Green,beta-Glutamic acid,380387,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,beta-Glutamic acid,104825,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,beta-Glutamic acid,1069774,NA,NA
+211218_Smp_449_A,449,Dino_Green,Carnitine,71736080,NA,NA
+211218_Smp_449_B,449,Dino_Green,Carnitine,87691400,NA,NA
+211218_Smp_449_C,449,Dino_Green,Carnitine,89382024,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,Carnitine,429063,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,Carnitine,399117,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,Carnitine,330951,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,Carnitine,15091154,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,Carnitine,17890706,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,Carnitine,13189090,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Carnitine,670433024,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Carnitine,769971456,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Carnitine,304403296,NA,NA
+211218_Smp_449_A,449,Dino_Green,Dimethylsulfoniopropionate,16133916672,NA,NA
+211218_Smp_449_B,449,Dino_Green,Dimethylsulfoniopropionate,18599479296,NA,NA
+211218_Smp_449_C,449,Dino_Green,Dimethylsulfoniopropionate,20637323264,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,Dimethylsulfoniopropionate,11317018624,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,Dimethylsulfoniopropionate,14735832064,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,Dimethylsulfoniopropionate,9452946432,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,Dimethylsulfoniopropionate,3403277056,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,Dimethylsulfoniopropionate,3743290368,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,Dimethylsulfoniopropionate,3282130688,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,Dimethylsulfoniopropionate,11403720704,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,Dimethylsulfoniopropionate,12885195776,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,Dimethylsulfoniopropionate,10546988032,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Dimethylsulfoniopropionate,1639726848,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Dimethylsulfoniopropionate,2723354880,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Dimethylsulfoniopropionate,415437248,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,Dimethylsulfoniopropionate,3913508608,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,Dimethylsulfoniopropionate,3798640640,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,Dimethylsulfoniopropionate,4179633408,NA,NA
+211218_Smp_449_B,449,Dino_Green,Ectoine,107062,NA,NA
+211218_Smp_449_C,449,Dino_Green,Ectoine,123893,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,Ectoine,679367,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,Ectoine,579092,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,Ectoine,605062,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,Ectoine,323428,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,Ectoine,241880,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,Ectoine,286026,NA,NA
+211218_Smp_449_A,449,Dino_Green,Glycine betaine,303848416,NA,NA
+211218_Smp_449_B,449,Dino_Green,Glycine betaine,374853408,NA,NA
+211218_Smp_449_C,449,Dino_Green,Glycine betaine,342020352,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Glycine betaine,360377856,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Glycine betaine,403162304,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,Glycine betaine,4566244352,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,Glycine betaine,4427250688,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,Glycine betaine,4697174016,NA,NA
+211218_Smp_449_A,449,Dino_Green,Gonyol,2862883584,NA,NA
+211218_Smp_449_B,449,Dino_Green,Gonyol,4114515712,NA,NA
+211218_Smp_449_C,449,Dino_Green,Gonyol,2900568064,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,Gonyol,5936882688,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,Gonyol,5761606144,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,Gonyol,5593911296,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,Gonyol,1725681152,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,Gonyol,1815919872,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,Gonyol,1338824576,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Gonyol,30000859136,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Gonyol,31457906688,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Gonyol,17295108096,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Homarine,777731,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Homarine,632293,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Homarine,178547,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,Hydroxyisoleucine,542696,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,Hydroxyisoleucine,667687,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,Hydroxyisoleucine,648511,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,Hydroxyisoleucine,3884727,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,Hydroxyisoleucine,4174049,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,Hydroxyisoleucine,4074162,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,Hydroxyisoleucine,1651276,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,Hydroxyisoleucine,4351654,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,Hydroxyisoleucine,3429782,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Hydroxyisoleucine,12615198,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Hydroxyisoleucine,9279699,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Hydroxyisoleucine,10576810,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,Hydroxyisoleucine,7056382,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,Hydroxyisoleucine,7516838,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Alanine,1030170,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Alanine,305829,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Alanine,522301,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Alanine,36493412,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Alanine,42162716,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Alanine,36079148,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Alanine,936999,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Alanine,370705,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Alanine,1441436,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Alanine,11400511,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Alanine,8858114,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Alanine,6234604,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Alanine,36672796,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Alanine,40026468,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Alanine,29831770,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Arginine,5664582,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Arginine,6496239,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Arginine,6095393,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Arginine,49466812,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Arginine,33401112,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Arginine,55208420,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Arginine,4590947,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Arginine,4901895,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Arginine,4228343,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Arginine,11592932,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Arginine,14743586,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Arginine,11301481,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Arginine,1095943680,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Arginine,1244947456,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Arginine,381162976,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Arginine,3695778,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Arginine,3867938,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Arginine,3836433,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Asparagine,406110,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Asparagine,384000,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Asparagine,243377,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Asparagine,4228477,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Asparagine,4446103,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Asparagine,5118574,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Asparagine,7309934,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Asparagine,7072656,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Asparagine,7568900,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Asparagine,547179,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Asparagine,521500,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Asparagine,360636,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Asparagine,7604251,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Asparagine,8491964,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Asparagine,3711023,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Asparagine,5633530,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Asparagine,5570796,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Asparagine,5651641,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Aspartic acid,1971888,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Aspartic acid,1888199,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Aspartic acid,1774611,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Aspartic acid,5294526,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Aspartic acid,5201681,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Aspartic acid,6231701,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Aspartic acid,3892974,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Aspartic acid,4016299,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Aspartic acid,3993104,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Aspartic acid,2185571,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Aspartic acid,1859032,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Aspartic acid,1622919,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Aspartic acid,37588880,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Aspartic acid,43212148,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Aspartic acid,14050758,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Aspartic acid,11565398,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Aspartic acid,10745256,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Aspartic acid,10182268,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Glutamic acid,58877620,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Glutamic acid,52917740,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Glutamic acid,52822576,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Glutamic acid,33383100,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Glutamic acid,32063468,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Glutamic acid,34540316,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Glutamic acid,90402968,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Glutamic acid,88570216,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Glutamic acid,82148160,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Glutamic acid,26741056,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Glutamic acid,26998146,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Glutamic acid,20856124,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Glutamic acid,308985952,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Glutamic acid,371333120,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Glutamic acid,133229088,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Glutamic acid,187338016,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Glutamic acid,191284208,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Glutamic acid,178721120,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Glutamine,21413458,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Glutamine,14558258,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Glutamine,13796948,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Glutamine,53360844,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Glutamine,55163028,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Glutamine,62798860,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Glutamine,120911864,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Glutamine,125822408,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Glutamine,106369464,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Glutamine,10451166,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Glutamine,9663251,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Glutamine,8837023,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Glutamine,254561008,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Glutamine,297740704,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Glutamine,134895856,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Glutamine,15438390,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Glutamine,11793755,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Glutamine,8963770,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Isoleucine,26204544,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Isoleucine,28952886,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Isoleucine,24722246,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Isoleucine,37211716,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Isoleucine,35124488,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Isoleucine,33345934,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Isoleucine,27996876,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Isoleucine,26572666,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Isoleucine,24918722,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Isoleucine,34443512,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Isoleucine,41649648,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Isoleucine,27049496,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Isoleucine,436990720,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Isoleucine,464080480,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Isoleucine,205163024,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Isoleucine,34827332,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Isoleucine,35354660,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Isoleucine,32990582,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Lysine,195659,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Lysine,271629,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Lysine,144122,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Lysine,1356618,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Lysine,1139651,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Lysine,1332084,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Lysine,1346949,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Lysine,1503125,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Lysine,1426057,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Lysine,232587,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Lysine,351147,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Lysine,186833,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Lysine,9981210,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Lysine,10738616,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Lysine,4794102,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Lysine,2148170,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Lysine,2013690,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Lysine,2265699,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Methionine,1350246,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Methionine,678986,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Methionine,659508,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Methionine,488553,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Methionine,479385,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Methionine,404164,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Methionine,3062547,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Methionine,4542166,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Methionine,2597739,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Methionine,149848,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Methionine,41399080,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Methionine,48081544,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Methionine,17620006,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Methionine,505569,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Methionine,438412,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Methionine,187963,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Proline,7270349,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Proline,7000060,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Proline,7320980,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Proline,17085882,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Proline,17989916,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Proline,23353652,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Proline,139225504,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Proline,137474640,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Proline,112454520,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Proline,2696812,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Proline,2589081,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Proline,2436111,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Proline,66682992,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Proline,70441616,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Proline,31045910,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Proline,1516243200,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Proline,1491710208,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Proline,1505188864,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Serine,283179,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Serine,259482,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Serine,6648232,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Serine,5948616,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Serine,4999516,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Serine,720882,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Serine,764031,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Serine,763204,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Serine,5167858,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Serine,5256019,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Serine,3035956,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Serine,5522446,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Serine,5572438,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Serine,5301159,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Threonine,2602205,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Threonine,2271837,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Threonine,2553649,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Threonine,13000211,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Threonine,14057546,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Threonine,16730732,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Threonine,5841766,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Threonine,5966616,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Threonine,5257862,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Threonine,2289799,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Threonine,1772900,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Threonine,1673698,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Threonine,14443758,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Threonine,16892082,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Threonine,5857854,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Threonine,7841487,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Threonine,8173530,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Threonine,8413005,NA,NA
+211218_Smp_449_A,449,Dino_Green,L-Tyrosine,479495,NA,NA
+211218_Smp_449_B,449,Dino_Green,L-Tyrosine,666271,NA,NA
+211218_Smp_449_C,449,Dino_Green,L-Tyrosine,296311,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,L-Tyrosine,390581,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,L-Tyrosine,365904,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,L-Tyrosine,798018,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,L-Tyrosine,793182,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,L-Tyrosine,702958,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,L-Tyrosine,607827,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,L-Tyrosine,1315614,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,L-Tyrosine,1603504,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,L-Tyrosine,1236590,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,L-Tyrosine,59828868,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,L-Tyrosine,68768560,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,L-Tyrosine,27423622,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,L-Tyrosine,626377,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,L-Tyrosine,712476,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,L-Tyrosine,915834,NA,NA
+211218_Smp_449_A,449,Dino_Green,Proline betaine,9793183,NA,NA
+211218_Smp_449_B,449,Dino_Green,Proline betaine,11913770,NA,NA
+211218_Smp_449_C,449,Dino_Green,Proline betaine,10527072,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,Proline betaine,9322514,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,Proline betaine,8965923,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,Proline betaine,8685807,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,Proline betaine,671633,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,Proline betaine,742362,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,Proline betaine,982288,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Proline betaine,317818944,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Proline betaine,331031936,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Proline betaine,155804144,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,Proline betaine,822864,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,Proline betaine,980600,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,Proline betaine,1074576,NA,NA
+211218_Smp_449_A,449,Dino_Green,Trigonelline,57820520,NA,NA
+211218_Smp_449_B,449,Dino_Green,Trigonelline,67935000,NA,NA
+211218_Smp_449_C,449,Dino_Green,Trigonelline,61436328,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,Trigonelline,58885168,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,Trigonelline,59622268,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,Trigonelline,47771324,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,Trigonelline,498285664,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,Trigonelline,587033024,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,Trigonelline,541082688,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,Trigonelline,857061056,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,Trigonelline,1019593728,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,Trigonelline,767783616,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Trigonelline,22249902,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Trigonelline,27040800,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Trigonelline,11131157,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,Trigonelline,826825,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,Trigonelline,856673,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,Trigonelline,971268,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Trimethylamine N-oxide,116183,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Homoserine Betaine (tentative),578427200,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Homoserine Betaine (tentative),678825536,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Homoserine Betaine (tentative),281066272,NA,NA
+211218_Smp_449_A,449,Dino_Green,Taurine,8317493,NA,NA
+211218_Smp_449_B,449,Dino_Green,Taurine,9596947,NA,NA
+211218_Smp_449_C,449,Dino_Green,Taurine,8938390,NA,NA
+211218_Smp_1314_A,1314,Dino_Green,Taurine,78766280,NA,NA
+211218_Smp_1314_B,1314,Dino_Green,Taurine,74231520,NA,NA
+211218_Smp_1314_C,1314,Dino_Green,Taurine,73289792,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,Taurine,127538752,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,Taurine,128537944,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,Taurine,129012136,NA,NA
+211218_Smp_1771_A,1771,Dino_Green,Taurine,7610991,NA,NA
+211218_Smp_1771_B,1771,Dino_Green,Taurine,7119468,NA,NA
+211218_Smp_1771_C,1771,Dino_Green,Taurine,5419243,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Taurine,114727768,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Taurine,153768032,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Taurine,49915008,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,Taurine,442977344,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,Taurine,429299456,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,Taurine,452706464,NA,NA
+211218_Smp_449_A,449,Dino_Green,Isethionic acid,1353117,NA,NA
+211218_Smp_449_B,449,Dino_Green,Isethionic acid,999582,NA,NA
+211218_Smp_449_C,449,Dino_Green,Isethionic acid,1231581,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,Isethionic acid,135369472,NA,NA
+211218_Smp_1545_B,1545,Dino_Green,Isethionic acid,171855824,NA,NA
+211218_Smp_1545_C,1545,Dino_Green,Isethionic acid,202983056,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Isethionic acid,3423955,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Isethionic acid,2804941,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,Isethionic acid,3923560,NA,NA
+211218_Smp_449_A,449,Dino_Green,Trehalose,5077214,NA,NA
+211218_Smp_449_B,449,Dino_Green,Trehalose,4482716,NA,NA
+211218_Smp_449_C,449,Dino_Green,Trehalose,4340143,NA,NA
+211218_Smp_1545_A,1545,Dino_Green,Trehalose,221929,NA,NA
+211218_Smp_2021_A,2021,Dino_Green,Trehalose,12655116,NA,NA
+211218_Smp_2021_B,2021,Dino_Green,Trehalose,15471151,NA,NA
+211218_Smp_2021_C,2021,Dino_Green,Trehalose,6470067,NA,NA
+211218_Smp_3430_A,3430,Dino_Green,Trehalose,15442840,NA,NA
+211218_Smp_3430_B,3430,Dino_Green,Trehalose,15012896,NA,NA
+211218_Smp_3430_C,3430,Dino_Green,Trehalose,16687581,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,(3-Carboxypropyl)trimethylammonium,1476152,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,(3-Carboxypropyl)trimethylammonium,1664163,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,(3-Carboxypropyl)trimethylammonium,1453703,NA,NA
+220104_Smp_371_A,371,Haptophyte,(3-Carboxypropyl)trimethylammonium,2367207,NA,NA
+220104_Smp_371_B,371,Haptophyte,(3-Carboxypropyl)trimethylammonium,3077070,NA,NA
+220104_Smp_371_C,371,Haptophyte,(3-Carboxypropyl)trimethylammonium,1639259,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,(3-Carboxypropyl)trimethylammonium,630526,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,(3-Carboxypropyl)trimethylammonium,1773820,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,(3-Carboxypropyl)trimethylammonium,41302444,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,(3-Carboxypropyl)trimethylammonium,43560156,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,(3-Carboxypropyl)trimethylammonium,38183900,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,(3-Carboxypropyl)trimethylammonium,23252076,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,(3-Carboxypropyl)trimethylammonium,19032016,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,(3-Carboxypropyl)trimethylammonium,20019042,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,(3-Carboxypropyl)trimethylammonium,174304784,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,(3-Carboxypropyl)trimethylammonium,205111808,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,(3-Carboxypropyl)trimethylammonium,172274352,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,(3-Carboxypropyl)trimethylammonium,105077,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,(3-Carboxypropyl)trimethylammonium,1219747,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,(3-Carboxypropyl)trimethylammonium,900861,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,(3-Carboxypropyl)trimethylammonium,1212928,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,2-O-alpha-D-Glucosylglycerol,5016235,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,2-O-alpha-D-Glucosylglycerol,6123765,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,2-O-alpha-D-Glucosylglycerol,6133518,NA,NA
+220104_Smp_371_B,371,Haptophyte,2-O-alpha-D-Glucosylglycerol,142424,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,2-O-alpha-D-Glucosylglycerol,2128577,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,2-O-alpha-D-Glucosylglycerol,1818594,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,2-O-alpha-D-Glucosylglycerol,1807608,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,2-O-alpha-D-Glucosylglycerol,2774805,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,2-O-alpha-D-Glucosylglycerol,2488623,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,2-O-alpha-D-Glucosylglycerol,3067919,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,2-O-alpha-D-Glucosylglycerol,2542128,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,2-O-alpha-D-Glucosylglycerol,3065150,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,2-O-alpha-D-Glucosylglycerol,2651914,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,2-O-alpha-D-Glucosylglycerol,5127255,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,2-O-alpha-D-Glucosylglycerol,4029169,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,2-O-alpha-D-Glucosylglycerol,3056911,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,2-O-alpha-D-Glucosylglycerol,579019,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,2-O-alpha-D-Glucosylglycerol,1053443,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,2-O-alpha-D-Glucosylglycerol,2033741,NA,NA
+220104_Smp_371_C,371,Haptophyte,5-Hydroxyectoine,225467,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,5-Hydroxyectoine,311888,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,5-Hydroxyectoine,297009,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,5-Hydroxyectoine,234182,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,5-Hydroxyectoine,890884,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,5-Hydroxyectoine,1095108,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,5-Hydroxyectoine,687413,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,5-Hydroxyectoine,302368,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,5-Hydroxyectoine,464713,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,5-Hydroxyectoine,428273,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,5-Hydroxyectoine,1399759,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,5-Hydroxyectoine,798698,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,5-Hydroxyectoine,1261815,NA,NA
+220104_Smp_371_A,371,Haptophyte,beta-Alanine,649519,NA,NA
+220104_Smp_371_B,371,Haptophyte,beta-Alanine,605150,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,beta-Alanine,575721,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,beta-Alanine,527926,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,beta-Alanine,477102,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,beta-Alanine,440867,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,beta-Alanine,991830,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,beta-Alanine,1239168,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,beta-Alanine,1937263,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,beta-Alanine,2062925,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,beta-Alanine,1914134,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,beta-Alanine,1681937,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,beta-Alanine,2268172,NA,NA
+220104_Smp_371_A,371,Haptophyte,beta-Alaninebetaine,19360348,NA,NA
+220104_Smp_371_B,371,Haptophyte,beta-Alaninebetaine,26861864,NA,NA
+220104_Smp_371_C,371,Haptophyte,beta-Alaninebetaine,2385060,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,beta-Alaninebetaine,435673,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,beta-Alaninebetaine,699448,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,beta-Alaninebetaine,560209664,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,beta-Alaninebetaine,590788352,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,beta-Alaninebetaine,537765312,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,beta-Alaninebetaine,243338416,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,beta-Alaninebetaine,222019264,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,beta-Alaninebetaine,219277808,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,beta-Alaninebetaine,549645376,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,beta-Alaninebetaine,571201728,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,beta-Alaninebetaine,553819520,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,beta-Alaninebetaine,439108,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,beta-Alaninebetaine,559785,NA,NA
+220104_Smp_371_A,371,Haptophyte,beta-Glutamic acid,581499,NA,NA
+220104_Smp_371_B,371,Haptophyte,beta-Glutamic acid,645956,NA,NA
+220104_Smp_371_C,371,Haptophyte,beta-Glutamic acid,688020,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,beta-Glutamic acid,390688,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,beta-Glutamic acid,576346,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,beta-Glutamic acid,682090,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,beta-Glutamic acid,1625351,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,beta-Glutamic acid,785437,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,beta-Glutamic acid,218992,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,beta-Glutamic acid,209967,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,beta-Glutamic acid,189940,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,beta-Glutamic acid,844773,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,beta-Glutamic acid,489311,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,beta-Glutamic acid,737372,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Carnitine,87175568,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Carnitine,101715408,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,Carnitine,89297064,NA,NA
+220104_Smp_371_A,371,Haptophyte,Carnitine,56084864,NA,NA
+220104_Smp_371_B,371,Haptophyte,Carnitine,60913460,NA,NA
+220104_Smp_371_C,371,Haptophyte,Carnitine,50480708,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,Carnitine,75454448,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,Carnitine,72323704,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Carnitine,96672320,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Carnitine,90597640,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Carnitine,92407800,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Carnitine,89663808,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Carnitine,535603200,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Carnitine,448119392,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Carnitine,465098432,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Carnitine,765235392,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Carnitine,905577152,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Carnitine,734601216,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Carnitine,15689768,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,Carnitine,14307789,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,Carnitine,12607598,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,Carnitine,110703512,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,Carnitine,96628992,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,Carnitine,112649752,NA,NA
+220104_Smp_371_A,371,Haptophyte,Dimethylsulfonioacetate,293720,NA,NA
+220104_Smp_371_B,371,Haptophyte,Dimethylsulfonioacetate,404927,NA,NA
+220104_Smp_371_C,371,Haptophyte,Dimethylsulfonioacetate,226257,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,Dimethylsulfonioacetate,1012878,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,Dimethylsulfonioacetate,951936,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Dimethylsulfonioacetate,1453172,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Dimethylsulfonioacetate,3845109248,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Dimethylsulfonioacetate,4049544448,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Dimethylsulfonioacetate,3898840320,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Dimethylsulfonioacetate,23034859520,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Dimethylsulfonioacetate,20875915264,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Dimethylsulfonioacetate,20696705024,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Dimethylsulfonioacetate,12946665472,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Dimethylsulfonioacetate,14104602624,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Dimethylsulfonioacetate,12516449280,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Dimethylsulfoniopropionate,14324432,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Dimethylsulfoniopropionate,16544530,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,Dimethylsulfoniopropionate,15394201,NA,NA
+220104_Smp_371_A,371,Haptophyte,Dimethylsulfoniopropionate,6553033216,NA,NA
+220104_Smp_371_B,371,Haptophyte,Dimethylsulfoniopropionate,7073311232,NA,NA
+220104_Smp_371_C,371,Haptophyte,Dimethylsulfoniopropionate,6244733952,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,Dimethylsulfoniopropionate,7251799552,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,Dimethylsulfoniopropionate,6775423488,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Dimethylsulfoniopropionate,10800405504,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Dimethylsulfoniopropionate,17248520192,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Dimethylsulfoniopropionate,17906595840,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Dimethylsulfoniopropionate,16866591744,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Dimethylsulfoniopropionate,7014387712,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Dimethylsulfoniopropionate,5802485760,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Dimethylsulfoniopropionate,5690189312,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Dimethylsulfoniopropionate,9219011584,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Dimethylsulfoniopropionate,11563655168,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Dimethylsulfoniopropionate,8879650816,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Dimethylsulfoniopropionate,1456210,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,Dimethylsulfoniopropionate,1349698,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,Dimethylsulfoniopropionate,1206048,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,Dimethylsulfoniopropionate,11865828,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,Dimethylsulfoniopropionate,11634210,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,Dimethylsulfoniopropionate,11873518,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Ectoine,73802040,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Ectoine,78793104,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Ectoine,72765152,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Ectoine,85831920,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Ectoine,77448208,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Ectoine,72908088,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Ectoine,61638932,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Ectoine,66321520,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Ectoine,59235360,NA,NA
+220104_Smp_371_A,371,Haptophyte,Glycine betaine,1039812352,NA,NA
+220104_Smp_371_B,371,Haptophyte,Glycine betaine,1124901504,NA,NA
+220104_Smp_371_C,371,Haptophyte,Glycine betaine,915043456,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,Glycine betaine,3421453824,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,Glycine betaine,3139203328,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Glycine betaine,5085138944,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Glycine betaine,4118577664,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Glycine betaine,3884602880,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Glycine betaine,3830477568,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Glycine betaine,17460539392,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Glycine betaine,19101120512,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Glycine betaine,17641113600,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Gonyol,252585808,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Gonyol,271166304,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,Gonyol,268489728,NA,NA
+220104_Smp_371_A,371,Haptophyte,Gonyol,301965056,NA,NA
+220104_Smp_371_B,371,Haptophyte,Gonyol,363304672,NA,NA
+220104_Smp_371_C,371,Haptophyte,Gonyol,237643344,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,Gonyol,387165600,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,Gonyol,342963360,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Gonyol,500744032,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Gonyol,1030475968,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Gonyol,1257827840,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Gonyol,1140479872,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Gonyol,352743328,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Gonyol,246069376,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Gonyol,302621856,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Gonyol,207435840,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Gonyol,189719952,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Gonyol,193998784,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Gonyol,112883616,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,Gonyol,90779384,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,Gonyol,84469960,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,Gonyol,367075616,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,Gonyol,338140608,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,Gonyol,433324416,NA,NA
+220104_Smp_371_A,371,Haptophyte,Homarine,97336360,NA,NA
+220104_Smp_371_B,371,Haptophyte,Homarine,107509200,NA,NA
+220104_Smp_371_C,371,Haptophyte,Homarine,85838344,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Homarine,1344595456,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Homarine,1409528704,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Homarine,1276442496,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Homarine,84379768,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Homarine,77028904,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Homarine,77310472,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Homarine,3881945856,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Homarine,4110402816,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Homarine,3868129792,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Hydroxyisoleucine,3391129,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Hydroxyisoleucine,6660505,NA,NA
+220104_Smp_371_A,371,Haptophyte,Hydroxyisoleucine,638345,NA,NA
+220104_Smp_371_B,371,Haptophyte,Hydroxyisoleucine,860218,NA,NA
+220104_Smp_371_C,371,Haptophyte,Hydroxyisoleucine,371779,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Hydroxyisoleucine,562046,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Hydroxyisoleucine,553706,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Hydroxyisoleucine,433363,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Hydroxyisoleucine,506207,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Hydroxyisoleucine,598140,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Hydroxyisoleucine,1084002,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Hydroxyisoleucine,1319012,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Hydroxyisoleucine,841498,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Hydroxyisoleucine,7793694,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,Hydroxyisoleucine,3435986,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,Hydroxyisoleucine,3472572,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Alanine,4175283,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Alanine,3175035,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Alanine,4010243,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Alanine,2915257,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Alanine,3016744,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Alanine,2919779,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Alanine,4872481,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Alanine,3853928,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Alanine,5804558,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Alanine,20984160,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Alanine,29229978,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Alanine,18430380,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Alanine,30557248,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Alanine,27328644,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Alanine,26929468,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Alanine,16281162,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Alanine,19946088,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Alanine,16082138,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Alanine,4041542,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Alanine,4455680,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Alanine,3234705,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Alanine,1952995,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Alanine,2110929,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Alanine,1813360,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Arginine,7670416,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Arginine,2772269,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Arginine,4314933,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Arginine,28569890,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Arginine,28797652,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Arginine,24294082,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Arginine,56226568,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Arginine,45039928,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Arginine,81590368,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Arginine,40198412,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Arginine,63103136,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Arginine,45522136,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Arginine,24494714,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Arginine,22477368,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Arginine,22439674,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Arginine,25270854,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Arginine,24309580,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Arginine,23817388,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Arginine,27561012,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Arginine,19219826,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Arginine,15366446,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Arginine,4669563,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Arginine,6945593,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Arginine,3048459,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Asparagine,894481,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Asparagine,322711,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Asparagine,458069,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Asparagine,3910764,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Asparagine,3657655,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Asparagine,2947871,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Asparagine,6090814,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Asparagine,6860493,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Asparagine,10326572,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Asparagine,17610424,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Asparagine,28807782,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Asparagine,21277812,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Asparagine,10391772,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Asparagine,10255651,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Asparagine,10531861,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Asparagine,9590401,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Asparagine,8887846,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Asparagine,9261469,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Asparagine,8514796,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Asparagine,8047571,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Asparagine,8634419,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Asparagine,918644,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Asparagine,1496606,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Asparagine,862507,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Glutamic acid,6477386,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Glutamic acid,3903909,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Glutamic acid,6310797,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Glutamic acid,157257184,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Glutamic acid,146601376,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Glutamic acid,121626848,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Glutamic acid,73490672,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Glutamic acid,76254728,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Glutamic acid,104854768,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Glutamic acid,98778648,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Glutamic acid,123751992,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Glutamic acid,74606312,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Glutamic acid,35783408,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Glutamic acid,40952672,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Glutamic acid,35764224,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Glutamic acid,76514632,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Glutamic acid,59049872,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Glutamic acid,83733864,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Glutamic acid,9483080,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Glutamic acid,9424111,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Glutamic acid,10595292,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Glutamic acid,13577076,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Glutamic acid,14673135,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Glutamic acid,13331959,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Aspartic acid,948330,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Aspartic acid,407218,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Aspartic acid,461752,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Aspartic acid,5850975,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Aspartic acid,5739411,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Aspartic acid,4823619,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Aspartic acid,3966792,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Aspartic acid,4647337,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Aspartic acid,4753983,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Aspartic acid,9356536,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Aspartic acid,12113561,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Aspartic acid,9727976,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Aspartic acid,6732622,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Aspartic acid,7099653,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Aspartic acid,7668019,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Aspartic acid,6994896,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Aspartic acid,4946340,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Aspartic acid,5973429,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Aspartic acid,1659797,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Aspartic acid,925967,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Aspartic acid,728371,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Aspartic acid,519571,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Aspartic acid,550742,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Aspartic acid,277124,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Glutamine,7691557,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Glutamine,5494289,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Glutamine,8569639,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Glutamine,36931920,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Glutamine,35734368,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Glutamine,26673414,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Glutamine,84997096,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Glutamine,82696600,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Glutamine,118939408,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Glutamine,51836532,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Glutamine,85248760,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Glutamine,49885540,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Glutamine,35218016,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Glutamine,37031404,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Glutamine,37723548,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Glutamine,49708076,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Glutamine,37925136,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Glutamine,48891216,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Glutamine,25658896,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Glutamine,22792984,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Glutamine,21980478,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Glutamine,10404497,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Glutamine,18662116,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Glutamine,13195202,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Isoleucine,24398750,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Isoleucine,23593878,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Isoleucine,16848974,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Isoleucine,22063514,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Isoleucine,24793630,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Isoleucine,29321054,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Isoleucine,67040492,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Isoleucine,72079656,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Isoleucine,59909668,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Isoleucine,86001984,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Isoleucine,84711272,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Isoleucine,83441232,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Isoleucine,92170736,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Isoleucine,93053272,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Isoleucine,98130296,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Lysine,1338930,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Lysine,588199,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Lysine,684993,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Lysine,3073371,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Lysine,3198846,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Lysine,2790976,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Lysine,5276908,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Lysine,4653287,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Lysine,9164114,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Lysine,4258170,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Lysine,4945636,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Lysine,4067517,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Lysine,4544953,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Lysine,4463957,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Lysine,4483616,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Lysine,3034173,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Lysine,3130318,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Lysine,3169209,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Lysine,1974626,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Lysine,1296920,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Lysine,863739,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Lysine,1108785,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Lysine,1026553,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Lysine,501966,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Methionine,118585,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Methionine,1710566,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Methionine,1364273,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Methionine,1072990,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Methionine,2222140,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Methionine,1911728,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Methionine,1666864,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Methionine,3015644,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Methionine,3356114,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Methionine,1779687,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Methionine,11713455,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Methionine,14469114,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Methionine,13047475,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Methionine,7170456,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Methionine,8793060,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Methionine,10274811,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Methionine,2452480,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Methionine,3210873,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Methionine,3394885,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Methionine,1190805,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Methionine,1513595,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Methionine,1497738,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Proline,6728070,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Proline,5204992,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Proline,5651739,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Proline,12911863,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Proline,13498138,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Proline,11472516,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Proline,10528079,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Proline,9000358,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Proline,13641706,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Proline,22081162,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Proline,23127078,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Proline,20906278,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Proline,56637512,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Proline,50920000,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Proline,51405476,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Proline,33138738,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Proline,35947128,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Proline,33148230,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Proline,13258645,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Proline,10594722,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Proline,10330052,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Proline,3560096,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Proline,5132331,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Proline,4272742,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Serine,3207571,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,L-Serine,968877,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Serine,1288179,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Serine,1990705,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Serine,1938803,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Serine,2236743,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Serine,2624569,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Serine,2623045,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Serine,3841535,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Serine,7036188,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Serine,9971462,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Serine,7520854,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Serine,2986956,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Serine,3337758,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Serine,3559550,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Serine,4900356,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Serine,3571381,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Serine,4831941,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Serine,1826424,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Serine,1784120,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Serine,1119467,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,L-Serine,1281542,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,L-Serine,1431383,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,L-Serine,1160659,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,L-Threonine,2450330,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Threonine,3365236,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Threonine,3202899,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Threonine,2807715,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Threonine,2761629,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Threonine,2805920,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Threonine,4336254,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Threonine,3131817,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Threonine,6299776,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Threonine,4396354,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Threonine,10906633,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Threonine,11043863,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Threonine,11043442,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Threonine,6208137,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Threonine,6199894,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Threonine,6550553,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Threonine,3387093,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Threonine,2731022,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,L-Tyrosine,121694,NA,NA
+220104_Smp_371_A,371,Haptophyte,L-Tyrosine,221035,NA,NA
+220104_Smp_371_B,371,Haptophyte,L-Tyrosine,125596,NA,NA
+220104_Smp_371_C,371,Haptophyte,L-Tyrosine,179018,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,L-Tyrosine,636156,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,L-Tyrosine,451905,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Tyrosine,1405450,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Tyrosine,2295424,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Tyrosine,2877807,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Tyrosine,2557202,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Tyrosine,7473562,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Tyrosine,6842901,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Tyrosine,6714309,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Tyrosine,7980975,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Tyrosine,8639926,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Tyrosine,7923414,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,L-Tyrosine,1504110,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,L-Tyrosine,110402,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,L-Tyrosine,411317,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Proline betaine,582549,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Proline betaine,807445,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,Proline betaine,859010,NA,NA
+220104_Smp_371_A,371,Haptophyte,Proline betaine,7719111,NA,NA
+220104_Smp_371_B,371,Haptophyte,Proline betaine,8574464,NA,NA
+220104_Smp_371_C,371,Haptophyte,Proline betaine,6556413,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,Proline betaine,5628027,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,Proline betaine,5513567,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Proline betaine,8569874,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Proline betaine,9964321,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Proline betaine,10100699,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Proline betaine,9511728,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Proline betaine,237038672,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Proline betaine,219392640,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Proline betaine,221386752,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Proline betaine,155744960,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Proline betaine,160787088,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Proline betaine,158323728,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Proline betaine,938816,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,Proline betaine,856694,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,Proline betaine,557531,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,Proline betaine,1130130,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,Proline betaine,701572,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,Proline betaine,642187,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Sarcosine,248556,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Sarcosine,503261,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Sarcosine,429938,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Sarcosine,579174,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Trigonelline,1794389,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Trigonelline,2266500,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,Trigonelline,1542806,NA,NA
+220104_Smp_371_A,371,Haptophyte,Trigonelline,2017442,NA,NA
+220104_Smp_371_B,371,Haptophyte,Trigonelline,1296999,NA,NA
+220104_Smp_371_C,371,Haptophyte,Trigonelline,2213897,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,Trigonelline,5298809,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,Trigonelline,4879922,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Trigonelline,9836192,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Trigonelline,11881943,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Trigonelline,4504786,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Trigonelline,7023368,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Trigonelline,1002009,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Trigonelline,1772126,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Trigonelline,1827204,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Trigonelline,967660,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Trigonelline,3466992,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Trigonelline,3412865,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Trigonelline,108488,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,Trigonelline,101369,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,Trigonelline,6133028,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,Trigonelline,4621792,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,Trigonelline,6129422,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Trimethylamine N-oxide,1310174,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,Trimethylamine N-oxide,1594952,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,Trimethylamine N-oxide,685803,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Homoserine Betaine (tentative),5758828,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Homoserine Betaine (tentative),5887101,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Homoserine Betaine (tentative),5369652,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Homoserine Betaine (tentative),11551190,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Homoserine Betaine (tentative),9643249,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Homoserine Betaine (tentative),10004537,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Homoserine Betaine (tentative),26169988,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Homoserine Betaine (tentative),28366274,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Homoserine Betaine (tentative),25832972,NA,NA
+220104_Smp_371_B,371,Haptophyte,Taurine,128726,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Taurine,378108,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Taurine,683971,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Taurine,1054928,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Taurine,1210669,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Taurine,12258293,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Taurine,11883859,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Taurine,12262480,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Taurine,43825496,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Taurine,45578356,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Taurine,42400524,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Isethionic acid,13179463,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Isethionic acid,23352824,NA,NA
+220104_Smp_116-1_C,116,Haptophyte,Isethionic acid,14159767,NA,NA
+220104_Smp_371_A,371,Haptophyte,Isethionic acid,1818850,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Isethionic acid,83280352,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Isethionic acid,92644448,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Isethionic acid,81826456,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Isethionic acid,24731316,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Isethionic acid,24393460,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Isethionic acid,25421922,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Isethionic acid,45856016,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Isethionic acid,41958048,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Isethionic acid,45320252,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Isethionic acid,14230909,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,Isethionic acid,12795394,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,Isethionic acid,13341403,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,Isethionic acid,16982638,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,Isethionic acid,8861130,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,Isethionic acid,21589646,NA,NA
+220104_Smp_371_A,371,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",649002432,NA,NA
+220104_Smp_371_B,371,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",659719168,NA,NA
+220104_Smp_371_C,371,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",558194304,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",187440480,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",223156480,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",338077632,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",6405550,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",7968579,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",6566054,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",11769999,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",11500500,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",10769799,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",15754966,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",15450730,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,"(R)-2,3-Dihydroxypropane-1-sulfonate",15386182,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,L-Cysteic acid,141788,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,L-Cysteic acid,981346,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,L-Cysteic acid,2428468,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,L-Cysteic acid,1124907,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,L-Cysteic acid,2058259,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,L-Cysteic acid,519393,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,L-Cysteic acid,2518602,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,L-Cysteic acid,8806281,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,L-Cysteic acid,8630339,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,L-Cysteic acid,9325184,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Sucrose,1234139,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Sucrose,303098,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Sucrose,182576,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Sucrose,424079,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Sucrose,299314,NA,NA
+220104_Smp_Cr_A,Cr,Haptophyte,Sucrose,115155,NA,NA
+220104_Smp_Cr_B,Cr,Haptophyte,Sucrose,171593,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Sucrose,140630,NA,NA
+220104_Smp_Cs_A,Cs,Haptophyte,Sucrose,1303041,NA,NA
+220104_Smp_Cs_B,Cs,Haptophyte,Sucrose,204944,NA,NA
+220104_Smp_Cs_C,Cs,Haptophyte,Sucrose,358540,NA,NA
+220104_Smp_116-1_A,116,Haptophyte,Trehalose,558671,NA,NA
+220104_Smp_116-1_B,116,Haptophyte,Trehalose,192624,NA,NA
+220104_Smp_371_A,371,Haptophyte,Trehalose,4150163,NA,NA
+220104_Smp_371_B,371,Haptophyte,Trehalose,5553557,NA,NA
+220104_Smp_371_C,371,Haptophyte,Trehalose,4950584,NA,NA
+220104_Smp_2090_A,2090,Haptophyte,Trehalose,5181760,NA,NA
+220104_Smp_2090_B,2090,Haptophyte,Trehalose,278045,NA,NA
+220104_Smp_2090_C,2090,Haptophyte,Trehalose,6675167,NA,NA
+220104_Smp_Ca_A,Ca,Haptophyte,Trehalose,1127801,NA,NA
+220104_Smp_Ca_B,Ca,Haptophyte,Trehalose,184675,NA,NA
+220104_Smp_Ca_C,Ca,Haptophyte,Trehalose,299314,NA,NA
+220104_Smp_Cr_C,Cr,Haptophyte,Trehalose,116236,NA,NA
+220104_Smp_P3_A,P3,Haptophyte,Trehalose,253062,NA,NA
+220104_Smp_P3_B,P3,Haptophyte,Trehalose,119634,NA,NA
+220104_Smp_P3_C,P3,Haptophyte,Trehalose,100399,NA,NA
+220104_Smp_P5-5_A,P5,Haptophyte,Trehalose,178673,NA,NA
+220104_Smp_P5-5_B,P5,Haptophyte,Trehalose,140995,NA,NA
+220104_Smp_P5-5_C,P5,Haptophyte,Trehalose,105889,NA,NA

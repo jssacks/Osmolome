@@ -179,7 +179,7 @@ g3dp.IS_inspectPlot <- ggplot(g3dp.is.dat.full.with.samp, aes(x=SampID, y=Area))
   ggtitle("IS Raw Areas")
 g3dp.IS_inspectPlot
 
-g3dp.is.dat.full.with.samp.edited <- g4dp.is.dat.full.with.samp %>%
+g3dp.is.dat.full.with.samp.edited <- g3dp.is.dat.full.with.samp %>%
   filter(!str_detect(MF, "Trimethylamine N-oxide")) %>%
   filter(!str_detect(MF, "Homarine")) %>%
   filter(!str_detect(MF, "Nitrate")) %>%
@@ -374,7 +374,8 @@ BMIS_normalizedData.2 <- BMIS_normalizedData %>%
                                    !FinalBMIS == "Inj_vol" ~ Adjusted_Area)) 
 write_csv(BMIS_normalizedData.2, "Intermediates/Particulate_osmo_HILIC_Pos_BMISed_dat.csv")
 
-BMISlist <- list(IS_inspectPlot, QuickReport, ISTest_plot, BMIS_normalizedData.2)
+#BMISlist <- list(IS_inspectPlot, QuickReport, ISTest_plot, BMIS_normalizedData.2)
 
 #Removes all intermediate variables :)
-rm(list=setdiff(ls(), c("BMISlist")))
+#rm(list=setdiff(ls(), c("BMISlist")))
+

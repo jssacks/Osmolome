@@ -14,12 +14,11 @@ p.qc.file.remove <- "Intermediates/Particulate_QCdat_samplesremoved.csv"
 d.quant.file <- "Intermediates/Dissolved_Quantified_Data.csv"
 d.qc.file.remove <- "Intermediates/Dissolved_betaine_QCdat_samplesremoved.csv"
 d.qc.file.impute <- "Intermediates/Dissolved_betaine_QCdat_blanksimputed.csv"
-d.edgecase.file <- "Intermediates/GBT_Quant_for_KM1906_GBT_F2_edge_case.csv"
 d.lod.file <- "Intermediates/Dissolved_Blk_LOD_Concentrations.csv"
 
 #Cultures
 c.quant.file <- "Intermediates/Culture_Quant_Output.csv"
-c.qc.file <- "Intermediates/Culture_betaine_QCdat_samplesremoved.csv"
+c.qc.file <- "Intermediates/Culture_osmo_QCdat_samplesremoved.csv"
 
 #G2SF
 g2.dat.file <- "Intermediates/G2_osmo_BMISed_dat.csv"

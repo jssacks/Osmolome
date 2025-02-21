@@ -3,19 +3,20 @@
 library(tidyverse)
 
 #define inputs
-raw.file <- "Intermediates/culture_betaine_data_raw.csv"
-cult.info.file <- "Meta_Data/Ingalls_Lab_Data/Culture_Meta_Data.csv"
-blk.key.file <- "Meta_Data/Ingalls_Lab_Data/Culture_Blk_Match_Key.csv"
+raw.file <- "Intermediates/culture_osmo_data_raw.csv"
+cult.info.file <- "Meta_Data/Culture_Meta_Data.csv"
+blk.key.file <- "Meta_Data/Culture_Blk_Match_Key.csv"
 
 #Define QC thresholds
 min.area.threshold <- 100000 #minimum peak area threshold 
 min.blk.ratio <- 3  # minimum signal above average blk that a sample must have to pass QC
-min_perc_replicates <- 0.5 #minimum percentage of replicates that a compound must pass QC in to be considered presten  
+min_perc_replicates <- 1 #minimum percentage of replicates that a compound must pass QC in to be considered presten  
 
 
 #####
 raw.dat <- read_csv(raw.file)
-cult.info <- read_csv(cult.info.file)
+cult.info <- read_csv(cult.info.file) %>%
+  mutate(Samp_ID = str_remove(Samp_ID, "_pos"))
 blk.key <- read_csv(blk.key.file)
 
 
@@ -36,7 +37,8 @@ dat.blks <- raw.dat %>%
   rename("SampID" = Rep) %>%
   filter(str_detect(SampID, "Blk")) %>%
   rename("Blk_ID" = SampID) %>%
-  left_join(., blk.key) %>%
+  left_join(., blk.key %>%
+              mutate(Blk_ID = str_remove(Blk_ID, "_pos")))  %>%
   group_by(Compound, Organism) %>%
   mutate(Area = replace_na(Area, 0)) %>%
   mutate(mean.blk = mean(Area),
@@ -78,8 +80,8 @@ dat.qc.rep <- dat.qc %>%
   mutate(blk.flag.count = sum(!is.na(blk.flag))) %>%
   mutate(min.area.flag.ratio = min.area.flag.count/rep.count,
          blk.flag.ratio = blk.flag.count/rep.count) %>%
-  mutate(smp.remove = case_when(min.area.flag.ratio >= min_perc_replicates | 
-                                  blk.flag.ratio >= min_perc_replicates ~ "Smp_Remove",
+  mutate(smp.remove = case_when(min.area.flag.ratio <= min_perc_replicates | 
+                                  blk.flag.ratio <= min_perc_replicates ~ "Smp_Remove",
                                 TRUE ~ NA)) %>%
   mutate(blk.imputed.value = blk.ave/2) %>%
   ungroup() 
@@ -99,8 +101,8 @@ dat.qc.impute <- dat.sml %>%
   select(SampID, Batch, Organism, Compound, Area, min.area.flag, blk.flag, smp.remove)
 
 ###Export both QCed datasets:
-write_csv(dat.qc.remove, file = "Intermediates/Culture_betaine_QCdat_samplesremoved.csv")
-write_csv(dat.qc.impute, file = "Intermediates/Culture_betaine_QCdat_blanksimputed.csv")
+write_csv(dat.qc.remove, file = "Intermediates/Culture_osmo_QCdat_samplesremoved.csv")
+write_csv(dat.qc.impute, file = "Intermediates/Culture_osmo_QCdat_blanksimputed.csv")
 
 
 

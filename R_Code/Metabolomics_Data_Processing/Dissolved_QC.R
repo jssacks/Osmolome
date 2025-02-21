@@ -3,7 +3,7 @@ library(tidyverse)
 
 
 #Define inputs
-raw.file <- "Intermediates/dissolved_betaine_data_raw.csv"
+raw.file <- "Intermediates/dissolved_osmo_data_raw.csv"
 lod.file <- "Intermediates/Dissolved_BLk_LOD.csv"
 
 
@@ -90,5 +90,5 @@ dat.qc.impute <- raw.dat %>%
 
 
 ###Export both QCed datasets:
-write_csv(dat.qc.remove, file = "Intermediates/Dissolved_betaine_QCdat_samplesremoved.csv")
-write_csv(dat.qc.impute, file = "Intermediates/Dissolved_betaine_QCdat_blanksimputed.csv")
+write_csv(dat.qc.remove, file = "Intermediates/Dissolved_osmo_QCdat_samplesremoved.csv")
+write_csv(dat.qc.impute, file = "Intermediates/Dissolved_osmo_QCdat_blanksimputed.csv")
