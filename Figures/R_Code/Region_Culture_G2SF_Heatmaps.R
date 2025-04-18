@@ -263,14 +263,21 @@ rel.sf.dat <- metab.heatmap.dat %>%
          Range.SFP = max(Small_Frac_Perc) - min(Small_Frac_Perc),
          RSD.SFP = sd(Small_Frac_Perc)/mean(Small_Frac_Perc)) %>%
   select(Compound, Range.rel.abun, Range.SFP, RSD.rel.abun, RSD.SFP) %>%
-  unique()
+  unique() %>%
+  left_join(compound.order)
 
-ggplot(rel.sf.dat, aes(x = Range.rel.abun, y = Range.SFP)) + 
-  geom_point(size = 3, shape = 21, fill = "gray") +
-  geom_abline(intercept = 0, slope = 1) +
-  xlab("Range of Rel Abundance Values") + 
+range.sf.plot <- ggplot(rel.sf.dat, aes(x = Range.rel.abun, y = Range.SFP)) + 
+  geom_point(size = 3, shape = 21, aes(fill = reorder(compound.name.figure, order))) +
+  scale_fill_manual(values = compound.pal.fig) +
+  labs(fill = "Compound") +
+#  geom_abline(intercept = 0, slope = 1) +
+  xlab("Range of Max Normalized Abundance Values") + 
   ylab("Range of Small Fraction Percentage Values") + 
   theme_test()
+range.sf.plot
+
+ggsave(range.sf.plot, file = "Figures/Outputs/G2SF_Supplemental_range_plot.png", height = 5, width = 7, dpi = 600,
+       scale = 1.3)
 
 ##Relative abundance sum:
 rel.sf.sum <- rel.sf.dat %>%

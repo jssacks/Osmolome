@@ -201,7 +201,7 @@ ocean.stoich.plot <- ggplot(pelagic.stoich , aes(x = Mean.NS, y = Mean.Part.Conc
   theme_test() +
   theme(legend.position = "inside", legend.position.inside = c(0.8, 0.8)) +
   xlab("N/S Ratio") +
-  ylab("Total Osmolyte Concentration (nM)") 
+  ylab("Summed Particulate Osmolyte Concentration (nM)") 
 
 ocean.stoich.plot
 
