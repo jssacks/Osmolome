@@ -1,7 +1,13 @@
 
 
 
-
+class.pal <- 
+  c("AA" = "#357eb9",
+    "Betaine" = "#e7ba52",
+    "Other" = "#cccccc",
+    "Sugar" = "#653eb3",
+    "Sulfonium" = "#cedb9c",
+    "Sulfonate" = "#fdae6b")
 
 
 compound.pal <- 
@@ -100,6 +106,27 @@ region.palette <- c(
   "CC" = "#3c5488",
   "PS" = "#ec795d")
 
+region.palette.2 <- c(
+  "NPSG" = "#a8dadc",
+  "Equator" = "#eff0f2", 
+  "NPTZ" = "#457b9d", 
+  "CC" = "#E63946",
+  "PS" = "#1d3557"
+)
+
+region.palette.3 <- c(
+  "Equator" = "#ffd65f",
+  "NPSG" = "#4dbbd5", 
+  "NPTZ" = "#00a087", 
+  "CC" = "#ff9d57",
+  "PS" = "#3c5488")
+
+region.palette.4 <- c(
+  "Equator" = "#ffd65f",
+  "NPSG" = "#3c5488", 
+  "NPTZ" = "#4dbbd5", 
+  "CC" = "#00a087",
+  "PS" = "#ff9d57")
 
 
 compound.order <- 

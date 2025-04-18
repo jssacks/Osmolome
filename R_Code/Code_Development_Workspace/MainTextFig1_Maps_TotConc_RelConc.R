@@ -519,9 +519,30 @@ all.env.dat <- g.env.dat %>%
 
 ##Combine osmo dat with environmental dat:
 osmo.poc.dat <- left_join(tot.osmo.conc, all.env.dat) %>%
- # filter(!Cruise == "RC078") %>%
+  filter(!Cruise == "RC078") %>%
   mutate("Perc_POC" = Total.Osmo.Carbon.nM/(poc*1000)*100,
-         "Perc_PON" = Total.Osmo.Nitrogen.nM/(pn*1000)*100)
+         "Perc_PON" = Total.Osmo.Nitrogen.nM/(pn*1000)*100) %>%
+  mutate(mean_perc_poc = mean(Perc_POC, na.rm = TRUE),
+         sd_perc_poc = sd(Perc_POC, na.rm = TRUE),
+         mean_perc_pon = mean(Perc_PON, na.rm = TRUE),
+         sd_perc_pon = sd(Perc_PON, na.rm = TRUE))
+
+poc.osmo.lm <- lm(Total.Osmo.Conc.nM~poc, data = osmo.poc.dat)
+summary(poc.osmo.lm)
+
+
+sss.osmo.lm <- lm(Total.Osmo.Conc.nM~sss, data = osmo.poc.dat)
+summary(sss.osmo.lm)
+
+ggplot(osmo.poc.dat, aes(x = Total.Osmo.Conc.nM, y = sss)) +
+  geom_smooth(method = "lm") +
+  geom_point()
+
+
+ggplot(osmo.poc.dat, aes(x = Lat, y = Perc_POC)) +
+  geom_smooth() +
+  geom_point(size = 2) +
+  ylab("Percent of POC in Osmolytes (%)")
 
 
 
@@ -533,7 +554,13 @@ ggplot(osmo.poc.dat) +
 
 
 
-
+g.sum <- g3.g4.transect.dat %>%
+  ungroup() %>%
+  mutate(total.conc = sum(Mean_nM)) %>%
+  group_by(class) %>%
+  reframe(class.conc = sum(Mean_nM),
+          rel.conc = class.conc/total.conc) %>%
+  unique()
 
 
 

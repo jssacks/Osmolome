@@ -173,7 +173,7 @@ is.means <- is.dat.full.with.samp.edited %>%
 ####
 ######## Make IS Key
 is.info <- is.dat.full.with.samp.edited %>%
-  select(MF) %>%
+  select(MF, Cruise) %>%
   rename("IS" = MF) %>%
   unique() %>%
   mutate(match.key = "x")
@@ -181,7 +181,7 @@ is.info <- is.dat.full.with.samp.edited %>%
 IS.dat.key.check <- read_csv(hilic.file) %>%
   rename("MF" = Compound,
          "SampID" = Rep) %>%
-  select(MF) %>%
+  select(MF, Cruise) %>%
   unique() %>%
   mutate(match.key = "x") %>%
   full_join(., is.info) %>%
@@ -190,7 +190,7 @@ IS.dat.key.check <- read_csv(hilic.file) %>%
   filter(!is.na(match.name))
 
 IS.key <- IS.dat.key.check %>%
-  select(MF, IS) %>%
+  select(MF, IS, Cruise) %>%
   rename("MIS" = IS) 
   
 
@@ -277,7 +277,8 @@ poodat.2 <- left_join(poodat, poodat %>%
 ###
 Matched.IS.dat <- left_join(IS.key, poodat.2) %>%
   mutate(FinalBMIS = MIS,
-         FinalRSD = RSD_ofPoo)
+         FinalRSD = RSD_ofPoo) %>%
+  unite(col = Cruise_Compound, c("Cruise", "MF"), remove = FALSE)
 
 
 #Change the BMIS to "Inj_vol" if the BMIS is not an acceptable -----
@@ -289,8 +290,10 @@ fixedpoodat <- poodat.2 %>%
   filter(MIS == Poo.Picked.IS)%>%
   mutate(FinalBMIS = ifelse((accept_MIS == "FALSE"), "Inj_vol", Poo.Picked.IS), 
          FinalRSD = RSD_ofPoo) %>%
-  filter(!MF %in% Matched.IS.dat$MF) %>%
-  rbind(., Matched.IS.dat)
+  unite(col = Cruise_Compound, c("Cruise", "MF"), remove = FALSE) %>%
+  filter(!Cruise_Compound %in% Matched.IS.dat$Cruise_Compound) %>%
+  rbind(., Matched.IS.dat) %>%
+  select(-Cruise_Compound)
 
 fixedpoodat.2 <- fixedpoodat %>%
   ungroup() %>%
@@ -316,7 +319,7 @@ IS_toISdat <- area.norm.2 %>%
   filter(type == "Smp") %>%
   group_by(MF, Cruise, MIS) %>%
   summarise(RSD_ofSmp = sd(Adjusted_Area)/mean(Adjusted_Area)) %>%
-  left_join(poodat %>% select(MF, MIS, RSD_ofPoo))
+  left_join(poodat %>% select(Cruise, MF, MIS, RSD_ofPoo))
 
 injectONlY_toPlot <- IS_toISdat %>%
   filter(MIS == "Inj_vol" ) 

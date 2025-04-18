@@ -76,8 +76,8 @@ dat.qc.rep <- left_join(samp.id.key, qc.dat) %>%
 dat.qc.remove <- samp.id.key %>%
   left_join(., raw.dat) %>%
   left_join(., dat.qc.rep) %>%
-  filter(is.na(smp.remove)) %>%
-  select(Rep, SampID, replicate, Cruise, Compound, Area, min.area.flag, blk.lod.flag, Blk.Av)
+ # filter(is.na(smp.remove)) %>%
+  select(Rep, SampID, replicate, Cruise, Compound, Area, min.area.flag, blk.lod.flag, Blk.Av, smp.remove)
 
 
 ###Create blk_imputed_value dataset where samples not passing QC have values equal to 1/2 the blank imputed

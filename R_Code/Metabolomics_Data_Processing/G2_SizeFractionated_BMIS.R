@@ -90,6 +90,9 @@ is.dat.full.with.samp.edited <- is.dat.full.with.samp %>%
 #  filter(!str_detect(MF, "Sulfolactate")) %>%
 #  filter(!str_detect(MF, "AMP")) %>%
 
+write_csv(is.dat.full.with.samp.edited, file = "Intermediates/G2SF_final_IS_peaklist.csv")
+
+
 hilic.long <- hilic.dat
 
 #Calculate mean values for each IS----
@@ -259,7 +262,6 @@ BMIS_normalizedData.2 <- BMIS_normalizedData %>%
                                    !FinalBMIS == "Inj_vol" ~ Adjusted_Area)) 
 write_csv(BMIS_normalizedData.2, "Intermediates/G2_osmo_BMISed_dat.csv")
 
-BMISlist <- list(IS_inspectPlot, QuickReport, ISTest_plot, BMIS_normalizedData.2)
 
 #Removes all intermediate variables :)
 rm(list=setdiff(ls(), c("BMISlist")))

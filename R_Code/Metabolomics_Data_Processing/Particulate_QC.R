@@ -93,12 +93,12 @@ dat.qc.rep <- left_join(samp.id.key, qc.dat) %>%
   mutate(blk.imputed.value = blk.ave/2) %>%
   ungroup()
 
-###Create QCed dataset where samples not passing QC are removed
+###Create QCed dataset where samples not passing QC are flagged for removal
 dat.qc.remove <- samp.id.key %>%
   left_join(., raw.dat) %>%
   left_join(., dat.qc.rep) %>%
-  filter(is.na(smp.remove)) %>%
-  select(Rep, SampID, replicate, Cruise, Compound, Area, min.area.flag, blk.ratio.flag)
+ # filter(is.na(smp.remove)) %>%
+  select(Rep, SampID, replicate, Cruise, Compound, Area, min.area.flag, blk.ratio.flag, smp.remove)
   
 
 ###Create blk_imputed_value dataset where samples not passing QC have values equal to 1/2 the blank imputed

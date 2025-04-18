@@ -20,6 +20,9 @@ d1.ctd.file <- "Meta_Data/RC078_ctd_data.csv"
 #Time data:
 d1.d.t.file <- "Meta_Data/Rc078_Local_Date_Time.csv"
 
+#KinExp Metadata:
+kin.exp.meta.file <- "Meta_Data/KinExp_MetaData.csv"
+
 #culture data:
 culture.meta.file <- "Meta_Data/Culture_Meta_Data.csv"
 
@@ -170,9 +173,19 @@ all.samp.info <- g4.samp.info %>%
   full_join(., d1.samp.info) %>%
   full_join(., perifix.samp.info) %>%
   full_join(., g4dp.samp.info) %>%
-  full_join(., g3dp.samp.info)
+  full_join(., g3dp.samp.info) %>%
+  rename(Part.SampID = SampID)
 
-write_csv(all.samp.info, file = "Intermediates/All_metadata_information.csv")
+
+##Add in Kin Experiment metadata:
+kexp.meta <- read_csv(kin.exp.meta.file) %>%
+  rename(Diss.SampID = SampID) %>%
+  rename("Local_Date" = Date,
+         "Local_Time" = Time)
+
+all.samp.info.add <- full_join(all.samp.info, kexp.meta)
+
+write_csv(all.samp.info.add, file = "Intermediates/All_metadata_information.csv")
 
 
 

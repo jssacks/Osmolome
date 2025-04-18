@@ -29,6 +29,7 @@ surface.dat <- dat.all %>%
 
 
 stoich.dat <- surface.dat %>%
+  filter(!compound.name.figure %in% c("DMSP")) %>%
   group_by(SampID) %>%
   mutate(C.tot = sum(nM_C, na.rm = TRUE),
          N.tot = sum(nM_N, na.rm = TRUE),
@@ -51,6 +52,14 @@ stoich.dat <- surface.dat %>%
   group_by(SampID) %>%
   mutate(tot.osmo.nM = sum(nM.in.smp)) %>%
   ungroup()
+
+
+stoich.dat.sum <- stoich.dat %>%
+  filter(Cruise %in% c("TN397", "KM1906", "RC078")) %>%
+  select(SampID, Cruise, C.tot, N.tot, S.tot, C.S.tot, N.S.tot) %>%
+  unique() %>%
+  reframe(mean.CS = mean(C.S.tot),
+          mean.NS = mean(N.S.tot))
 
 
 

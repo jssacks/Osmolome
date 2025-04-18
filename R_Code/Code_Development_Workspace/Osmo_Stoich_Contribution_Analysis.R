@@ -20,7 +20,8 @@ dat.all <- left_join(part.dat, meta.dat) %>%
 gradients <- dat.all %>%
   filter(Cruise %in% c("TN397", "KM1906")) %>%
   filter(Compound %in% compound.order$Compound) %>%
-  left_join(., compound.order)
+  left_join(., compound.order) %>%
+  filter(!compound.name.figure == "DMSP")
 
 
 gradients.stoich <- gradients %>%

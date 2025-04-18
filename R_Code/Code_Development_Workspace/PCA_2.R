@@ -183,6 +183,7 @@ ggplot(Region.metab.all %>%
   geom_boxplot(alpha = 0.3, width = 0.5) +
   facet_wrap(.~class, nrow = 1, scales = "free") +
   scale_x_continuous(trans = trans_reverser('log10'), breaks = c(1, 0.5, 0.25, 0.1, 0.05, 0.01)) 
+
 # scale_x_log10()#+
 
 
@@ -310,8 +311,8 @@ poc.pca.fig
 
 
 ##Combine plots
-MT.Fig2 <- (region.pca + poc.pca.fig + region.metab.fig) +
-  plot_layout(ncol = 1, heights = c(3,3,4), guides = "collect") +
+MT.Fig2 <- (region.pca + poc.pca.fig) +
+  plot_layout(ncol = 1, heights = c(3,3), guides = "collect") +
   plot_annotation(tag_levels = "A")
 MT.Fig2
 

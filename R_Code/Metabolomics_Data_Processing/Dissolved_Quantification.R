@@ -38,7 +38,9 @@ EE.vals <- read_csv(EE.file) %>%
   rename("Name" = Compound,
          "EE" = `Extraction Efficiency (%)`) %>%
   select(Name, EE) %>%
-  rbind(tibble(Name = c("Carnitine", "Homoserine Betaine (tentative)", "Threonine Betaine (tentative)"), EE = c(100, 100, 100)))
+  rbind(tibble(Name = c("Carnitine", "Homoserine Betaine (tentative)", "Threonine Betaine (tentative)"), EE = c(100, 100, 100))) %>%
+  mutate(Name = case_when(Name == "(Iso)leucine" ~ "L-Isoleucine",
+                          TRUE ~ Name))
 
 dat.conc.EE <- left_join(dat.conc, EE.vals, by = c("Name")) %>%
   mutate(EE.adjust.conc = nmol.conc/(EE/100)) %>%

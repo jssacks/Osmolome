@@ -6,6 +6,17 @@ library(patchwork)
 
 
 
+
+
+library(tidyverse)
+source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
+
+
+##Define inputs:
+part.file <- "Intermediates/Particulate_Quant_Output.csv"
+meta.file <- "Intermediates/All_metadata_information.csv"
+
+
 ###load in data and combine with metadata
 part.dat <- read_csv(part.file)
 meta.dat <- read_csv(meta.file)
@@ -86,6 +97,16 @@ g.dat <- stoich.dat %>%
          C.tot, N.tot, S.tot, C.N.tot, C.S.tot, N.S.tot, 
          C.comp, N.comp, S.comp, C.N.comp, C.S.comp, N.S.comp) %>%
   unique() 
+
+g.dat.sum <- g.dat %>%
+  ungroup() %>%
+  reframe(mean.C.N = mean(C.N.tot),
+          sd.C.N = sd(C.N.tot),
+          mean.C.S = mean(C.S.tot),
+          sd.C.S = sd(C.S.tot),
+          mean.N.S = mean(N.S.tot),
+          sd.N.S = sd(N.S.tot))
+
 
 
 #PERIFIX
@@ -418,8 +439,8 @@ meta.file <- "Intermediates/All_metadata_information.csv"
 
 
 #work on just G4 to start
-meta.dat.g4 <- read_csv(meta.file) %>%
-  filter(Cruise == "TN397") %>%
+meta.dat.samp <- read_csv(meta.file) %>%
+  #filter(Cruise %in) %>%
   unite(c("Local_Date", "Local_Time"), col = "Local_DT", remove = FALSE, sep = " ") %>%
   mutate(Local_DT_obj = dmy_hms(Local_DT)) %>%
   mutate(time.round = round_date(Local_DT_obj, unit = "hour"))
@@ -440,12 +461,17 @@ ggplot(g4.meta.dat, aes(x = Lat, y = c_n_ratio, color = Long)) +
 
 #
 g.dat.nut <- left_join(g4.meta.dat, g.dat %>%
-                         select(SampID, C.N.tot, C.S.tot, N.S.tot)) %>%
+                         select(SampID, C.tot, S.tot, N.tot, C.N.tot, C.S.tot, N.S.tot)) #%>%
   filter(N.S.tot > 2)
 
-ggplot(g.dat.nut, aes(x = chla_interp, y = C.S.tot)) +
-  geom_smooth(method = "lm") +
-  geom_point() 
+  
+g.dat.POS <- g.dat.nut %>%
+  select(SampID, S.tot, pc_interp, pn_interp) %>%
+  mutate(PS_est_c = pc_interp/95*1000,
+         percent_S_osmo = (S.tot/PS_est_c)*100)
+  
+  
+  
 
 
 

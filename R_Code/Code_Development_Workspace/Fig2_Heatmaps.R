@@ -173,9 +173,10 @@ c.hm <- ggplot(dat.cult.mean, aes(y = reorder(compound.name.figure, -Rank), x = 
 c.hm
 
 ##Combined environmental/culture plot
-all.hm <- (enviro.hm | plot_spacer() | c.hm) + 
-  plot_layout(guides = "collect", widths = c(2, -1.26, 2))
+all.hm <- (enviro.hm | c.hm) + 
+  plot_layout(guides = "collect")
 all.hm
 
 ggsave(all.hm, filename = "R_Code/Code_Development_Workspace/Region_Culture_Heatmap.pdf",
        height = 6, width = 5, scale = 1.15)
+

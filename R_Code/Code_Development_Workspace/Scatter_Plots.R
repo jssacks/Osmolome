@@ -74,7 +74,7 @@ ggplot(dat.all.plot, aes(x = GBT.in.smp, y = nM.in.smp)) +
   facet_wrap(.~class, scales = "free") +
   scale_x_log10() +
   scale_y_log10() +
-  theme_bw()
+  theme_bw() 
 
 
 dat.plot.cor <- dat.all.plot %>%
