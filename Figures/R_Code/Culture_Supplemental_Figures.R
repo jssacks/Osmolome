@@ -40,6 +40,20 @@ cult.fig <- cult.meta.dat %>%
   filter(!is.na(cell_volume_on_filter_uL)) %>%
   filter(!is.na(Vol_mL))
 
+
+#Culture.supplemental table Culture.info
+cult.info.supp <- cult.fig %>%
+  select(SampID, Type, Organism, Vol_mL, tot_cells_filt, cell_volume_on_filter_uL, Culture_Info_Source, Cell_Volume_Source) %>%
+  unique()
+write_csv(cult.info.supp, file = "Tables/Outputs/Culture_Information_Supplemental_Table.csv")
+
+#Culture.supplemental table metabolite concentrations
+cult.metab.conc.supp <- cult.fig %>%
+  select(SampID, Type, Organism, Compound, uM.in.vial.ave, uM_in_samp) %>%
+  unique() 
+write_csv(cult.metab.conc.supp, file = "Tables/Outputs/Culture_Osmo_Conc_Supplemental_Table.csv")
+
+
 #absolute concentrations
 cult.fig1 <- ggplot(cult.fig, aes(y = uM_in_samp, x = SampID.fig, fill = reorder(Compound, order))) +
   geom_col(alpha = 0.9, width = 0.7, color = "black", size = 0.15, position = "fill") +

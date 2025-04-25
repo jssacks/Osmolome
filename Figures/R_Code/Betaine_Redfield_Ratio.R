@@ -121,17 +121,16 @@ t.betaine.dat
 
 #particulate
 p.rel.conc.plot <- ggplot(p.betaine.dat, aes(x = Betaine.Norm.Val, y = reorder(compound.name.figure, -Mean.Betaine.Rank))) +
-  geom_jitter(height = 0.12, width = 0, alpha = 0.6, shape = 21, color = "black", size = 2, stroke = 0.1, aes(fill = Region)) +
-  # geom_errorbarh(aes(xmin = Betaine.Val.Min, 
-  #                    xmax = Betaine.Val.Max, 
-  #                    y = reorder(compound.name.figure, -Mean.Betaine.Rank)), 
-  #                color = "black", height = 0, size = 0.3) +
+  geom_jitter(height = 0.12, width = 0, alpha = 0.6, shape = 21, color = "black", 
+              size = 2, stroke = 0.1, aes(fill = reorder(compound.name.figure, order))) +
+  labs(fill = "Comopund") +
   geom_boxplot(alpha = 0.7, width = 0.3) +
   #  geom_point(aes(x = Mean.Betaine.Val, y = reorder(compound.name.figure, -Mean.Betaine.Rank)), color = "black", size = 2, shape = 21, fill = "white") +
-  scale_fill_manual(values = region.palette.2) +
+  scale_fill_manual(values = compound.pal.fig) +
   scale_x_continuous(trans = trans_reverser('log10'), breaks = c(1, 0.5, 0.25, 0.1, 0.05, 0.01, 0.001), limits = c(1.5, 0.001)) +
   theme_bw() +
   theme(panel.grid.minor = element_blank(),
+        legend.position = "none",
         axis.title.y = element_blank(),
         axis.text.x = element_text(angle = 45, hjust = 1),
         plot.title = element_text(hjust = 0.5)) +
@@ -142,14 +141,12 @@ p.rel.conc.plot
 
 #diss
 d.rel.conc.plot <- ggplot(d.betaine.dat, aes(x = Betaine.Norm.Val, y = reorder(compound.name.figure, -Mean.Betaine.Rank))) +
-  geom_jitter(height = 0.12, width = 0, alpha = 0.6, shape = 21, color = "black", size = 2, stroke = 0.1, aes(fill = Region)) +
-  # geom_errorbarh(aes(xmin = Betaine.Val.Min, 
-  #                    xmax = Betaine.Val.Max, 
-  #                    y = reorder(compound.name.figure, -Mean.Betaine.Rank)), 
-  #                color = "black", height = 0, size = 0.3) +
+  geom_jitter(height = 0.12, width = 0, alpha = 0.6, shape = 21, color = "black", 
+              size = 2, stroke = 0.1, aes(fill = reorder(compound.name.figure, order))) +
+  labs(fill = "Comopund") +
   geom_boxplot(alpha = 0.7, width = 0.3) +
   #  geom_point(aes(x = Mean.Betaine.Val, y = reorder(compound.name.figure, -Mean.Betaine.Rank)), color = "black", size = 2, shape = 21, fill = "white") +
-  scale_fill_manual(values = region.palette.2) +
+  scale_fill_manual(values = compound.pal.fig) +
   scale_x_continuous(trans = trans_reverser('log10'), breaks = c(1, 0.5, 0.25, 0.1, 0.05, 0.01, 0.001), limits = c(1.5, 0.001)) +
   theme_bw() +
   theme(panel.grid.minor = element_blank(),
@@ -166,10 +163,12 @@ d.rel.conc.plot
 
 #total
 t.rel.conc.plot <- ggplot(t.betaine.dat, aes(x = Betaine.Norm.Val, y = reorder(compound.name.figure, -Mean.Betaine.Rank))) +
-  geom_jitter(height = 0.12, width = 0, alpha = 0.6, shape = 21, color = "black", size = 2, stroke = 0.1, aes(fill = Region)) +
+  geom_jitter(height = 0.12, width = 0, alpha = 0.6, shape = 21, color = "black", 
+              size = 2, stroke = 0.1, aes(fill = reorder(compound.name.figure, order))) +
+  labs(fill = "Comopund") +
   geom_boxplot(alpha = 0.7, width = 0.3) +
   #  geom_point(aes(x = Mean.Betaine.Val, y = reorder(compound.name.figure, -Mean.Betaine.Rank)), color = "black", size = 2, shape = 21, fill = "white") +
-  scale_fill_manual(values = region.palette.2) +
+  scale_fill_manual(values = compound.pal.fig) +
   scale_x_continuous(trans = trans_reverser('log10'), breaks = c(1, 0.5, 0.25, 0.1, 0.05, 0.01, 0.001), limits = c(1.5, 0.001)) +
   theme_bw() +
   theme(panel.grid.minor = element_blank(),
@@ -220,7 +219,8 @@ comp.info <- dat %>%
 ###
 red.comb <- left_join(p.red, d.red) %>%
   left_join(., t.red) %>%
-  left_join(., comp.info)
+  left_join(., comp.info) %>%
+  left_join(., compound.order)
 
 ###Run quick linear models 
 lm.p.mz <- lm(mz~P.Rank, data = red.comb)
@@ -235,8 +235,10 @@ summary(lm.t.mz)
 #Particulate
 mz.p.plot <- ggplot(red.comb, aes(x = P.Rank, y = mz)) +
   geom_smooth(method = "lm", se = FALSE, color = "darkgray") +
-  geom_point(size = 2) +
+  geom_point(size = 3, shape = 21, stroke = .15, aes(fill = reorder(compound.name.figure, order))) +
   theme_bw() +
+  scale_fill_manual(values = compound.pal.fig) +
+  labs(fill = "Comopund") +
   xlab("Mean Rank in Particulate") +
   annotate("text", x = 6, y = 130, 
            label = expression(R^2~"="~0.71),
@@ -246,8 +248,10 @@ mz.p.plot
 #Dissolved
 mz.d.plot <- ggplot(red.comb, aes(x = D.Rank, y = mz)) +
   geom_smooth(method = "lm", se = FALSE, color = "darkgray") +
-  geom_point(size = 2) +
+  geom_point(size = 3, shape = 21, stroke = .15, aes(fill = reorder(compound.name.figure, order))) +
   theme_bw() +
+  scale_fill_manual(values = compound.pal.fig) +
+  labs(fill = "Comopund") +
   xlab("Mean Rank in Dissolved") +
   annotate("text", x = 6, y = 130, 
            label = expression(R^2~"="~0.73),
@@ -259,12 +263,14 @@ mz.d.plot
 #Total:
 mz.t.plot <- ggplot(red.comb, aes(x = T.Rank, y = mz)) +
   geom_smooth(method = "lm", se = FALSE, color = "darkgray") +
-  geom_point(size = 2) +
+  geom_point(size = 3, shape = 21, stroke = .15, aes(fill = reorder(compound.name.figure, order))) +
   theme_bw() +
+  scale_fill_manual(values = compound.pal.fig) +
+  labs(fill = "Comopund") +
   xlab("Mean Rank in Total") +
   annotate("text", x = 6, y = 130, 
            label = expression(R^2~"="~0.54),
-           size = 4) 
+           size = 4)  +
   theme(axis.text.y = element_blank(),
         axis.title.y = element_blank())
 mz.t.plot

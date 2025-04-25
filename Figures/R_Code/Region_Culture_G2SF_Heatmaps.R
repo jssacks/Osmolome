@@ -179,6 +179,14 @@ sf.dat <- g2.dat %>%
 
 
 
+
+
+##Make Supplemental Table of size fraction partitioning:
+sf.supp.table <- sf.dat %>%
+  select(Station, Lat, Compound, Small_Frac_Perc) %>%
+  unique()
+write_csv(sf.supp.table, file = "Tables/Outputs/Size_Fractionation_Supplemental_Table.csv")
+
 ##
 # metab.clust.dat <- sf.dat %>%
 #   select(Compound, Lat, Small_Frac_Perc) %>%
@@ -207,6 +215,8 @@ sf.dat.relabun <- sf.dat %>%
   filter(Size_Fraction == "L") %>%
   group_by(Station, Lat) %>%
   mutate(max.osmo.nM = max(Mean.nM),
+         total.osmo.nM = sum(Mean.nM),
+         rel.osmo.conc.total = (Mean.nM/total.osmo.nM)*100,
          rel.osmo.conc = Mean.nM/max.osmo.nM,
          comp.rank = rank(Mean.nM)) %>%
 #  left_join(dend.order) %>%
@@ -237,7 +247,10 @@ metab.heatmap.dat <- sf.dat %>%
   left_join(., compound.order %>%
               select(-order)) %>%
   unique() %>%
-  left_join(., sf.dat.relabun %>% select(Compound, Station, rel.osmo.conc))
+  left_join(., sf.dat.relabun %>% select(Compound, Station, rel.osmo.conc, rel.osmo.conc.total))
+
+
+
 
 #heatmap showing % of signal in small size fraction 
 g2sf.hm <- ggplot(metab.heatmap.dat, aes(x = as.factor(Lat), y = reorder(compound.name.figure, rel.osmo.conc), fill = Small_Frac_Perc)) +
@@ -260,24 +273,26 @@ rel.sf.dat <- metab.heatmap.dat %>%
   group_by(Compound) %>%
   mutate(Range.rel.abun = max(rel.osmo.conc) - min(rel.osmo.conc),
          RSD.rel.abun = sd(rel.osmo.conc)/mean(rel.osmo.conc),
-         Range.SFP = max(Small_Frac_Perc) - min(Small_Frac_Perc),
+         Range.rel.total.conc = max(rel.osmo.conc.total) - min(rel.osmo.conc.total),
+         Range.SFP = max(Small_Frac_Perc*100) - min(Small_Frac_Perc*100),
          RSD.SFP = sd(Small_Frac_Perc)/mean(Small_Frac_Perc)) %>%
-  select(Compound, Range.rel.abun, Range.SFP, RSD.rel.abun, RSD.SFP) %>%
+  select(Compound, Range.rel.abun, Range.SFP, RSD.rel.abun, Range.rel.total.conc, RSD.SFP) %>%
   unique() %>%
   left_join(compound.order)
 
-range.sf.plot <- ggplot(rel.sf.dat, aes(x = Range.rel.abun, y = Range.SFP)) + 
-  geom_point(size = 3, shape = 21, aes(fill = reorder(compound.name.figure, order))) +
+range.sf.plot <- ggplot(rel.sf.dat, aes(x = Range.rel.total.conc, y = Range.SFP)) + 
+  geom_point(size = 4, shape = 21, aes(fill = reorder(compound.name.figure, order))) +
   scale_fill_manual(values = compound.pal.fig) +
   labs(fill = "Compound") +
 #  geom_abline(intercept = 0, slope = 1) +
-  xlab("Range of Max Normalized Abundance Values") + 
-  ylab("Range of Small Fraction Percentage Values") + 
+  xlab("Range of Relative Abundance Values (%)") + 
+  ylab("Range of Small Fraction Percentage Values (%)") + 
   theme_test()
 range.sf.plot
 
 ggsave(range.sf.plot, file = "Figures/Outputs/G2SF_Supplemental_range_plot.png", height = 5, width = 7, dpi = 600,
        scale = 1.3)
+
 
 ##Relative abundance sum:
 rel.sf.sum <- rel.sf.dat %>%
