@@ -1,0 +1,1561 @@
+Protein Name,Replicate Name,Precursor Ion Name,Retention Time,Area,Background,Height,Mass Error PPM,Protein
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Trimethylamine,7.74,49142604,0,1771942,3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Trimethylamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Trimethylamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Trimethylamine,7.2,141782,0,25919,1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Trimethylamine,7.26,77788,0,21261,0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Trimethylamine,7.23,84081,0,36597,2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Trimethylamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Trimethylamine,7.27,169820,0,38045,2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Trimethylamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Trimethylamine,7.18,43801,0,26454,2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Trimethylamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Trimethylamine,7.2,84595,0,54549,1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Propylamine,18.85,4499375,1391429,243345,3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Propylamine,20.27,198727952,4853279,5118950,3.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Propylamine,19.8,675189,660902,48883,3.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Propylamine,19.65,147686,288053,22693,3.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Propylamine,19.71,189218,29592,30504,2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Propylamine,19.71,103367,191697,21493,2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Propylamine,19.74,123764,142767,26204,3.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Propylamine,19.58,203851,212890,30502,3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Propylamine,19.71,280116,0,53163,2.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Propylamine,19.71,265315,79638,44769,3.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Propylamine,19.61,150956,103359,30974,3.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Propylamine,19.68,292506,0,51405,2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Urea,6.29,133031416,698364096,8496953,2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Urea,7.31,402109568,524152224,12843328,2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Urea,7.26,441630240,655467712,14169855,2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Urea,5.75,562788416,1013931520,9543043,3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Urea,7.1,376848832,522620608,12422776,3.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Urea,7.38,383314176,555092480,10419994,2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Urea,5.97,174143472,430367360,7009030,2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Urea,5.88,230620800,459708480,7490223,2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Urea,6.87,533161376,133466296,10722093,2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Urea,6.9,481365184,185386080,8526178,2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Urea,6.77,308779168,176493168,5656867,2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Urea,7.15,345609216,126101400,6483466,2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Ethanolamine,16.46,432279424,288611488,9048607,2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Ethanolamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Ethanolamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Ethanolamine,15.12,585175296,158455264,2901557,3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Ethanolamine,14.94,388624224,207229376,2596660,3.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Ethanolamine,14.97,497657120,124569592,2587951,2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Ethanolamine,15.01,169384624,130799568,1790961,2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Ethanolamine,15.12,127632648,120070352,1715270,2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Ethanolamine,15.28,3032575,133413896,258166,2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Ethanolamine,15.42,168753888,82284584,2001099,2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Ethanolamine,16.07,88399264,178239984,1959270,2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Ethanolamine,16.13,105426728,184647296,2731134,2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Glycine,11.47,60355180,889799,3464620,1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Glycine,11.89,199880,0,47433,1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Glycine,11.75,493507,0,58947,2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Glycine,11.58,2172072,0,93552,2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Glycine,11.56,6813433,0,334100,1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Glycine,11.53,6897327,0,379887,1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Glycine,11.58,69287696,0,5129616,1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Glycine,11.58,70506360,924933,5695734,1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Glycine,11.61,212890816,0,18464088,1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Glycine,11.61,205463328,0,18400764,1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Glycine,11.64,281499776,0,23281196,1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Glycine,11.64,281157536,0,23657894,1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Trimethylamine N-oxide,7.2,3640026,0,187211,1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Trimethylamine N-oxide,7.29,1963485824,32815250,97938712,1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Trimethylamine N-oxide,7.31,27440680,7749696,1192808,1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Trimethylamine N-oxide,7.27,24943674,8256557,1160272,1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Trimethylamine N-oxide,7.32,131845480,8819195,6506604,1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Trimethylamine N-oxide,7.31,131487688,10410274,6781405,1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Trimethylamine N-oxide,7.32,1111454336,25418006,55310572,1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Trimethylamine N-oxide,7.29,1118197888,24124554,51736404,1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Trimethylamine N-oxide,7.32,5012767744,70927960,221206224,1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Trimethylamine N-oxide,7.29,4886749696,78850456,230558800,1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Trimethylamine N-oxide,7.29,8588761088,104928144,339690848,1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Trimethylamine N-oxide,7.31,9037566976,131963616,417628832,1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,beta-Alanine,11.46,6943417,6603835,2152752,0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,beta-Alanine,11.73,497670176,9345739,34703640,0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,beta-Alanine,11.76,992837,5293618,91608,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,beta-Alanine,11.81,1138048,5421291,94625,0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,beta-Alanine,11.81,4438991,5845346,315688,0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,beta-Alanine,11.78,5339238,5043919,342340,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,beta-Alanine,11.76,51021772,7928404,3718298,0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,beta-Alanine,11.73,50143560,6952571,3525469,0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,beta-Alanine,11.78,193739792,9399407,16819574,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,beta-Alanine,11.78,184393120,18783096,16040425,0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,beta-Alanine,11.78,259516592,29475232,24088948,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,beta-Alanine,11.78,252493744,36031580,21384570,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Alanine,10.68,317906464,11082720,14226364,0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Alanine,10.27,530021280,359467200,33752240,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Alanine,10.73,14032964,14980848,657787,0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Alanine,10.74,20354676,9541391,707441,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Alanine,10.74,84690072,11934481,3823316,0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Alanine,10.73,84157336,14580896,4037304,0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Alanine,10.76,672156352,15742344,48071472,0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Alanine,10.76,665157184,13749983,46097240,0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Alanine,10.95,1962376192,0,142303680,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Alanine,10.95,2013637504,0,143680160,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Alanine,11.18,2700057856,0,133058640,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Alanine,11.14,2746653184,0,131556944,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Sarcosine,9.43,1273547,2270593,81672,-0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Sarcosine,10.27,836607488,11417180,40083860,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Sarcosine,9.8,1002347,3219384,90929,0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Sarcosine,10.07,740972,2686877,133073,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Sarcosine,10.16,5616419,4840992,639040,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Sarcosine,9.82,1292029,4015955,73989,0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Sarcosine,10.35,29302016,6072662,3150356,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Sarcosine,10.76,597529792,28900838,45508608,0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Sarcosine,10.56,95084736,1416577,6830369,0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Sarcosine,10.6,98125368,0,7140017,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Sarcosine,10.62,33397456,12872382,4009465,0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Sarcosine,10.71,79256840,11850061,9184249,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,4-Aminobutyric acid,11.16,29753994,198031728,2292238,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,4-Aminobutyric acid,10.71,143964976,510317952,8183206,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,4-Aminobutyric acid,10.62,188801872,461923264,5795509,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,4-Aminobutyric acid,11.33,156320240,403311616,3572292,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,4-Aminobutyric acid,11.91,308833408,419761856,8184651,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,4-Aminobutyric acid,11.89,278577920,408708288,8315278,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,4-Aminobutyric acid,11.72,75263128,355489184,12664758,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,4-Aminobutyric acid,11.72,88872256,343360928,14049756,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,4-Aminobutyric acid,10.34,758273728,292962432,20550600,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,4-Aminobutyric acid,10.95,108288440,53796432,6276565,-0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,4-Aminobutyric acid,10.89,168485744,70226488,8759436,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,4-Aminobutyric acid,10.9,138871344,110194136,7316485,-0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Dimethylglycine,9.13,57351032,200772016,4551687,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Dimethylglycine,9.03,59696720,247435664,4239321,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Dimethylglycine,9.8,150987536,1224077952,3805796,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Dimethylglycine,8.76,1308503424,1230500992,10490652,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Dimethylglycine,8.5,1077085824,891267648,10209605,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Dimethylglycine,8.01,1202339456,1159047168,9998555,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Dimethylglycine,8.99,11725484,503255456,1451168,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Dimethylglycine,8.94,56833368,486839744,2938925,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Dimethylglycine,8.4,366323072,150506848,10718772,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Dimethylglycine,9.46,21006326,168617232,1023358,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Dimethylglycine,8.59,84341232,182114688,6668635,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Dimethylglycine,8.42,308505120,102000176,14093823,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Choline,15.2,1234298,2614578,93004,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Choline,14.9,2046047,3700067,204758,-0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Choline,15.16,61298,1270911,16638,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Choline,15,210932,2783791,27606,-0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Choline,15.33,628721,810522,69145,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Choline,15.27,233016,680592,50446,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Choline,15.16,2714646,2352846,265788,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Choline,15.31,1960786,3582548,212023,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Choline,15.3,7422199,11848779,702782,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Choline,15.3,4475489,4072227,677425,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Choline,15.17,3937037,137188112,1884476,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Choline,14.67,1464542976,156111472,11674417,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Serine,10.8,199643040,0,7901350,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Serine,10.85,1054588,0,71728,-0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Serine,10.92,1590443,955268,111218,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Serine,10.89,2827694,0,134681,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Serine,10.92,15172451,1986066,540667,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Serine,10.89,17463382,0,544016,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Serine,10.89,114446216,2296055,6473482,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Serine,10.87,114339832,3360040,6426277,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Serine,11.03,334308768,0,33420364,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Serine,11.03,319635552,0,30779418,-0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Serine,11.33,420157088,0,27259964,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Serine,11.34,419769056,0,24503150,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Hypotaurine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Hypotaurine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Hypotaurine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Hypotaurine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Hypotaurine,10.54,42457,0,34273,-0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Hypotaurine,10.68,29213,0,25222,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Hypotaurine,10.7,1847141,0,260218,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Hypotaurine,10.67,2210906,0,219814,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Hypotaurine,10.89,6611464,0,807118,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Hypotaurine,10.96,8309147,0,824204,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Hypotaurine,11.15,5035274,0,784600,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Hypotaurine,10.87,2087079,0,334918,-0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Cytosine,6.87,499083,2394776,134293,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Cytosine,7.42,6216839680,72175936,320723392,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Cytosine,6.77,292345,5006926,56428,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Cytosine,6.9,502195,3904158,87251,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Cytosine,7.13,23998410,12370223,1058043,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Cytosine,7.13,20039854,12563414,913760,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Cytosine,7.1,181431600,1829565,5723027,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Cytosine,7.1,186816992,0,5713836,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Cytosine,7.1,894136704,0,31606434,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Cytosine,7.09,885202112,0,31337428,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Cytosine,7.09,1546625792,11545707,64844632,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Cytosine,7.1,1566800896,0,65120316,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Creatinine,5.45,9213187072,97323496,306303712,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Creatinine,6.44,1690087,0,107648,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Creatinine,6.02,284384,823101,41843,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Creatinine,6.09,489563,1775290,37078,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Creatinine,6.03,209971,941143,31847,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Creatinine,5.89,522062,1024014,49309,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Creatinine,6.19,1138670,51311,85322,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Creatinine,6.18,727287,0,93381,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Creatinine,5.53,10080471,0,357571,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Creatinine,5.42,10541240,0,364306,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Creatinine,5.55,16500599,0,663023,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Creatinine,5.5,15249663,0,651822,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Proline,9.26,3430604032,43315024,203383520,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Proline,9.24,4278756,4069992,266097,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Proline,9.3,25805070,3230179,1502016,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Proline,9.29,24538434,4319239,1387156,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Proline,9.3,122273904,5452808,7533057,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Proline,9.3,117867288,6512501,7367116,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Proline,9.33,1263187456,24674478,82510032,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Proline,9.33,1263029248,24395422,84528720,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Proline,9.39,3725517312,49895316,209978896,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Proline,9.39,3807672064,50810736,222110704,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Proline,9.39,5377493504,76437312,325111072,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Proline,9.43,5117914624,79337664,300427680,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Homocysteine thiolactone,2.35,279993920,3580264,27529382,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Homocysteine thiolactone,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Glycine betaine,7.57,708072576,465678240,32572940,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Glycine betaine,7.78,10633334784,625396416,585905088,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Glycine betaine,7.82,428563936,478515136,21955898,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Glycine betaine,7.87,524252416,518301088,22591164,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Glycine betaine,7.82,2214462208,556672448,114098560,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Glycine betaine,7.81,2186818048,515405824,113130176,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Glycine betaine,7.84,18761316352,810855040,973413440,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Glycine betaine,7.84,19172399104,910449152,1016401728,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Glycine betaine,7.81,64813998080,1300072960,2528902400,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Glycine betaine,7.82,65086095360,1328072448,2642382080,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Glycine betaine,7.84,94225408000,1569850240,3375906048,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Glycine betaine,7.86,92921749504,1572723200,3228546304,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Valine,8.87,44130536,318919680,3339798,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Valine,8.99,20377666,196785328,1774043,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Valine,8.78,81288896,518051328,2440712,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Valine,8.85,49888440,518983360,2470699,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Valine,9.03,74873360,361614016,3328015,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Valine,9.03,54521836,390797376,3399353,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Valine,9.1,18225570,264914528,2079875,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Valine,8.86,46290696,304421312,2865550,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Valine,9.11,97499816,265145296,16973752,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Valine,8.94,29195418,429087264,5866993,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Valine,9.13,79049856,298532224,4857884,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Valine,9.11,273449568,246246224,10767720,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Homoserine,10.93,2894512,1257428,170420,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Homoserine,11.5,720629632,39330252,40629020,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Homoserine,11.15,285873,2132090,23853,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Homoserine,10.68,2635527,2306271,124973,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Homoserine,10.98,2204273,1987786,103800,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Homoserine,10.95,833862,1777384,77693,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Homoserine,10.7,147482048,12841263,9920243,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Homoserine,10.7,141759136,14125012,10322875,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Homoserine,10.95,506177440,206881,35429140,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Homoserine,10.93,470213504,23286044,32353338,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Homoserine,11.22,369145728,11278701,25309502,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Homoserine,11.23,346601920,10777348,24866212,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Threonine,8.68,327476896,38069264,10099339,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Threonine,11.03,38407312,489128416,3019194,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Threonine,9.11,3214163,4621265,164551,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Threonine,8.66,4714990,8036041,142914,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Threonine,8.73,29342218,9942288,804293,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Threonine,9.05,21730726,11724050,678141,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Threonine,9.24,256141968,21717602,11815226,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Threonine,9.22,263173360,22892262,11725931,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Threonine,10.26,1127520768,65996148,40844988,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Threonine,10.34,1044967424,48723404,37266456,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Threonine,10.82,1805881984,64467932,61754408,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Threonine,10.84,1778172032,79709744,63917040,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,gamma-Amino-beta-hydroxybutyric acid,12,396183,1186389,63167,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,gamma-Amino-beta-hydroxybutyric acid,11.5,720629632,39330252,40629020,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,gamma-Amino-beta-hydroxybutyric acid,11.75,1901695,494519,64862,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,gamma-Amino-beta-hydroxybutyric acid,11.88,1176274,944378,51068,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,gamma-Amino-beta-hydroxybutyric acid,10.98,2204273,1987786,103800,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,gamma-Amino-beta-hydroxybutyric acid,11.7,696710,1135920,46406,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,gamma-Amino-beta-hydroxybutyric acid,11.59,7320160,0,276498,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,gamma-Amino-beta-hydroxybutyric acid,12,1268836,1727869,92220,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,gamma-Amino-beta-hydroxybutyric acid,11.69,19149072,0,917630,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,gamma-Amino-beta-hydroxybutyric acid,11.61,20245142,0,964229,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,gamma-Amino-beta-hydroxybutyric acid,11.58,22780410,15124869,1285623,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,gamma-Amino-beta-hydroxybutyric acid,11.67,20615652,17286496,1389194,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Dimethylsulfonioacetate,8.88,7192179712,93838360,456917088,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Dimethylsulfonioacetate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Dimethylsulfonioacetate,8.89,3685602,0,262236,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Dimethylsulfonioacetate,8.9,3818012,0,258028,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Dimethylsulfonioacetate,8.89,21270040,0,1363885,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Dimethylsulfonioacetate,8.91,21007096,0,1308881,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Dimethylsulfonioacetate,8.92,211070528,2153665,14046713,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Dimethylsulfonioacetate,8.91,212309056,2689820,14127488,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Dimethylsulfonioacetate,8.92,795375488,11178816,49128372,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Dimethylsulfonioacetate,8.92,803541184,11290350,49837288,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Dimethylsulfonioacetate,8.91,1239256192,17882882,78884152,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Dimethylsulfonioacetate,8.92,1209004800,11969305,75441736,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Phenylethylamine,7.18,17967458,58326540,505776,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Phenylethylamine,8.12,3263220992,147388656,72899288,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Phenylethylamine,7.07,44054900,140493312,495274,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Phenylethylamine,7.48,28688412,129157432,413059,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Phenylethylamine,7.2,14059993,127707640,309942,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Phenylethylamine,7.1,37381256,160076912,440993,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Phenylethylamine,7.51,12570932,66782576,305378,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Phenylethylamine,7.35,14277318,64471640,333672,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Phenylethylamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Phenylethylamine,8.44,11768927,76079904,328479,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Phenylethylamine,7.92,37141876,19365364,697915,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Phenylethylamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,5-Methylcytosine,5.51,302643,1739162,96954,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,5-Methylcytosine,6.14,9508545536,132608776,294966624,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,5-Methylcytosine,5.58,703538,1985508,131431,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,5-Methylcytosine,5.48,631636,3033120,105647,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,5-Methylcytosine,5.53,233908,2225351,74532,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,5-Methylcytosine,5.47,98829,2136865,36007,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,5-Methylcytosine,5.48,869527,6558329,102073,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,5-Methylcytosine,5.61,429691,4315512,94635,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,5-Methylcytosine,5.67,74856208,26923200,1377118,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,5-Methylcytosine,5.72,72701032,33549494,1291304,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,5-Methylcytosine,5.69,82746768,21070544,2237860,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,5-Methylcytosine,5.72,122908008,23158244,2248810,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Melamine,7.29,6616924160,144967232,320510720,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Melamine,6.6,1162745,3830942,133984,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Melamine,6.94,7721727,12147032,169972,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Melamine,6.88,4195402,12097750,128529,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Melamine,6.63,1795083,14230853,104470,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Melamine,6.72,3526289,18062764,108823,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Melamine,6.82,1051719,5025408,74874,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Melamine,6.08,4058839,8267166,124277,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Melamine,6.85,418558,4023997,65507,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Melamine,6.99,748578,6525958,116834,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Melamine,6.99,4129331,1320417,273124,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Melamine,7.23,28459224,0,1319198,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Pipecolic acid,10.78,1873890,3606334,275906,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Pipecolic acid,10.71,3860470,202878,165901,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Pipecolic acid,10.9,509228,1354896,75282,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Pipecolic acid,10.86,377370,968665,67864,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Pipecolic acid,10.67,355561,1362591,49648,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Pipecolic acid,10.6,378123,1780801,63193,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Pipecolic acid,10.84,432283,1899078,79904,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Pipecolic acid,10.56,3570953,609605,183750,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Pipecolic acid,10.85,2154513,0,231563,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Pipecolic acid,10.79,1756793,0,254140,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Pipecolic acid,11.67,3579440,0,324458,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Pipecolic acid,10.9,1277551,0,410708,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Hydroxyproline,10.69,1653818240,22985602,91354920,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Hydroxyproline,10.71,354687,0,149417,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Hydroxyproline,10.15,253304,0,42741,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Hydroxyproline,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Hydroxyproline,10.57,750088,0,78678,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Hydroxyproline,10.3,458799,0,54523,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Hydroxyproline,10.05,361406,0,55264,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Hydroxyproline,10.04,536245,0,116567,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Hydroxyproline,10.87,46095080,542036,3862730,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Hydroxyproline,10.9,46571136,0,3522712,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Hydroxyproline,11.01,67123264,0,3813799,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Hydroxyproline,11.04,71888048,0,4307957,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Creatine,11.36,6975589888,89296848,537426752,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Creatine,11.34,527164,45391,66247,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Creatine,11.43,4327288,982481,316787,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Creatine,11.39,4515203,1245391,312197,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Creatine,11.43,19211082,1606004,1486579,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Creatine,11.4,20288888,128617,1437017,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Creatine,11.4,181381744,1504197,13463434,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Creatine,11.4,177384912,1619180,13146808,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Creatine,11.43,658353088,7183073,46439716,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Creatine,11.43,691194496,4701555,49868260,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Creatine,11.45,965512768,5607750,70123696,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Creatine,11.43,942611904,0,69728312,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,beta-Alaninebetaine,9.32,795558,1787416,236568,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,beta-Alaninebetaine,9.86,6431195136,79480528,445284768,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,beta-Alaninebetaine,9.88,213404480,5216223,14934532,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,beta-Alaninebetaine,9.88,214196576,5209022,14570882,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,beta-Alaninebetaine,9.88,1064227904,17094828,76709392,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,beta-Alaninebetaine,9.88,1036955712,14380726,71518384,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,beta-Alaninebetaine,9.91,9591650304,97721944,643911424,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,beta-Alaninebetaine,9.86,9490201600,111429416,655156352,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,beta-Alaninebetaine,9.91,42442395648,688234368,2702936320,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,beta-Alaninebetaine,9.9,44114411520,512009504,2914207232,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,beta-Alaninebetaine,9.88,68761493504,776132736,3822027520,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,beta-Alaninebetaine,9.91,69731319808,905708224,3788181248,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Isoleucine,6.56,1162368256,0,49676940,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Isoleucine,5.97,973390080,23098910,28147626,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Isoleucine,6.14,31463982,11076926,751239,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Isoleucine,6.07,29348424,13904987,794265,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Isoleucine,6.14,157216208,15962608,3991834,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Isoleucine,6.16,151214784,12269095,3480663,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Isoleucine,6.18,1319828864,30930542,21872418,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Isoleucine,6.16,1287385088,43559888,20833240,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Isoleucine,6.14,6302881792,367672096,106539272,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Isoleucine,6.21,6227746816,379516896,109779184,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Isoleucine,6.16,11415555072,1180515072,206260320,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Isoleucine,6.21,11541704704,1119551104,209801584,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Leucine,6.56,866935040,113322672,47589504,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Leucine,5.97,1075193984,27243160,28117042,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Leucine,6.63,5744280,2276775,326426,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Leucine,6.62,5011636,2728124,330138,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Leucine,6.14,137544912,10389458,4013911,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Leucine,6.16,132984896,7308055,3504933,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Leucine,6.52,494357056,3259453,15859616,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Leucine,6.16,842848320,13460028,21012208,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Leucine,6.14,3989838080,56935080,108477720,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Leucine,6.21,3989506560,59365856,111789216,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Leucine,6.16,8729880576,125508848,213078688,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Leucine,6.21,12630264832,191732864,216175856,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Asparagine,10.1,285655104,5323957,8612558,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Asparagine,10.81,837944,0,71382,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Asparagine,9.47,4121518,3500805,151437,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Asparagine,9.51,7591849,947768,179109,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Asparagine,10.21,30703510,663248,864152,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Asparagine,10.21,28593190,2761038,712644,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Asparagine,10.23,251356224,14757290,19685738,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Asparagine,10.23,261313920,6005020,19722546,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Asparagine,10.82,681848320,9364152,33348078,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Asparagine,10.82,676331840,0,34022404,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Asparagine,11.22,926523904,0,37821428,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Asparagine,11.22,889491584,14425685,33959668,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Ornithine,17.63,115071936,0,3366409,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Ornithine,17.56,386098,0,48687,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Ornithine,17.78,1856561,0,56538,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Ornithine,17.74,920412,0,55386,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Ornithine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Ornithine,17.68,8305161,0,212252,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Ornithine,17.64,76925512,314393,2304548,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Ornithine,17.61,81707448,1022349,2502492,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Ornithine,17.43,525227008,6784104,18669486,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Ornithine,17.42,532727584,9709409,18407732,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Ornithine,17.35,1052953728,16353960,35201316,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Ornithine,17.39,1055504640,18798450,35205472,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Aspartic acid,11.21,127654104,0,4167729,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Aspartic acid,11.97,80499,0,29549,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Aspartic acid,11.22,9836969,0,208163,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Aspartic acid,11.25,9912610,0,223902,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Aspartic acid,11.31,49576872,0,1278764,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Aspartic acid,11.29,49196592,0,1304429,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Aspartic acid,11.25,494497248,0,25474558,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Aspartic acid,11.28,516937088,0,27462414,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Aspartic acid,11.33,1408657152,0,88596768,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Aspartic acid,11.31,1402639232,0,87928488,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Aspartic acid,11.37,1802084224,0,85566736,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Aspartic acid,11.36,1870632960,0,81916376,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Dimethylsulfoniopropionate,10.13,85189,0,65485,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Dimethylsulfoniopropionate,10.15,6507677184,100224528,483303808,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Dimethylsulfoniopropionate,10.15,5469658,0,452981,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Dimethylsulfoniopropionate,10.16,5387359,0,405160,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Dimethylsulfoniopropionate,10.16,28232270,0,1967321,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Dimethylsulfoniopropionate,10.18,27968618,0,2101682,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Dimethylsulfoniopropionate,10.16,274748288,3262943,19486116,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Dimethylsulfoniopropionate,10.15,285403392,3235927,20795618,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Dimethylsulfoniopropionate,10.16,1334478848,15264747,94486920,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Dimethylsulfoniopropionate,10.15,1338829440,9794142,96018424,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Dimethylsulfoniopropionate,10.16,2141088640,17422140,141959984,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Dimethylsulfoniopropionate,10.18,2178098944,29082132,149328592,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Adenine,4.95,11647009792,327725600,413840864,-3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Adenine,4.89,562159936,2013407,14656179,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Adenine,4.95,51190736,8436909,1839893,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Adenine,5.03,57324176,8935535,1897666,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Adenine,5.05,275588608,18470824,9630889,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Adenine,5,257678432,15362915,9079835,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Adenine,5.08,2415715584,91367448,82221728,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Adenine,5.06,2459420416,89075344,84966432,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Adenine,5.05,10295201792,322883296,345687680,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Adenine,5.05,10452348928,361198816,364869504,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Adenine,5.03,17081062400,463140800,545243840,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Adenine,5.05,16898571264,480388768,519333888,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Hypoxanthine,6.03,746434,0,125281,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Hypoxanthine,5.97,3757607168,29657508,78932512,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Hypoxanthine,6.1,11383185,2493770,560849,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Hypoxanthine,6.14,12582429,3407528,566466,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Hypoxanthine,6.1,144805792,15673841,3604098,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Hypoxanthine,6.13,140910848,11523203,3475054,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Hypoxanthine,6.18,1750144512,31108590,30837450,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Hypoxanthine,6.14,1762887808,32418582,30975032,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Hypoxanthine,6.14,4154860800,272913728,116768304,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Hypoxanthine,6.14,4276755712,257034208,117183480,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Hypoxanthine,6.13,9369974784,543303232,188077504,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Hypoxanthine,6.14,9014597632,478179168,189175104,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Homarine,6.01,874795,0,94265,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Homarine,6.05,13768023040,195060080,458520064,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Homarine,6.13,39099116,28861,1179797,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Homarine,6.09,36961004,3188242,1216765,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Homarine,6.11,176100816,3949818,5609355,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Homarine,6.07,174615120,4734633,5795347,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Homarine,6.05,1783137664,23717512,60331352,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Homarine,6.08,1789477760,27080862,59274520,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Homarine,6.1,9248861184,97038632,315871232,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Homarine,6.07,9306135552,80363224,307843392,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Homarine,6.08,17715871744,210360208,595435264,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Homarine,6.1,17428938752,240049472,574476736,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Trigonelline,8.3,1202548224,4227572,70283352,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Trigonelline,8.61,132400176,16216260,5961008,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Trigonelline,8.36,18224948,317085,951056,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Trigonelline,8.34,16651283,1298252,922715,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Trigonelline,8.36,80972264,1246284,4578884,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Trigonelline,8.36,81592408,4011042,4777939,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Trigonelline,8.39,777335552,19604028,44397324,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Trigonelline,8.36,797712960,9739793,46749108,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Trigonelline,8.36,3596177920,54074384,215397168,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Trigonelline,8.36,3560432384,52443000,209897776,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Trigonelline,8.33,6429987840,66289932,371902752,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Trigonelline,8.36,6122498048,116854520,370159712,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,N-Methyltaurine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,N-Methyltaurine,8.59,6077624,0,358597,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,N-Methyltaurine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,N-Methyltaurine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,N-Methyltaurine,6.71,176499,0,42164,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,N-Methyltaurine,6.76,210427,0,45534,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,N-Methyltaurine,7.27,994354,224889,85821,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,N-Methyltaurine,7.42,497196,0,115398,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,N-Methyltaurine,7.16,3850430,0,255953,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,N-Methyltaurine,7.4,824167,0,199284,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,N-Methyltaurine,7.38,1859638,0,411986,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,N-Methyltaurine,7.29,13973203,0,481032,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Toxopyrimidine,3.31,2265307,1820621,90662,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Toxopyrimidine,3.38,5408672768,52125804,224119232,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Toxopyrimidine,3.37,203397,413930,48293,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Toxopyrimidine,3.59,974690,4754687,45448,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Toxopyrimidine,2.93,1767653,2993242,78191,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Toxopyrimidine,3.3,224951,4198225,27090,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Toxopyrimidine,3.38,2221427,4177561,63020,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Toxopyrimidine,3.33,1100088,2351354,62085,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Toxopyrimidine,3.27,5267774,3696372,200687,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Toxopyrimidine,3.4,2838289,1858445,214498,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Toxopyrimidine,3.3,11120093,1553004,426981,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Toxopyrimidine,3.48,15205234,0,451514,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Ectoine,9.32,920779,9385396,182619,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Ectoine,9.85,6114892800,16379795,644870528,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Ectoine,9.61,1367706,9768240,204798,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Ectoine,9.55,707603,10055292,80016,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Ectoine,9.58,1396154,11036299,161164,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Ectoine,9.55,1840239,10517467,171203,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Ectoine,9.58,13010889,24904846,1080961,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Ectoine,9.55,11843347,26336794,1111875,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Ectoine,9.58,56552532,76657864,5310589,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Ectoine,9.57,71646016,62349036,5829153,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Ectoine,9.58,100063808,109700424,8767943,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Ectoine,9.57,116139504,98209928,9879720,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Proline betaine,7.07,1853441920,42214728,74995648,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Proline betaine,7.16,355030,0,85093,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Proline betaine,7.2,6266271,842430,189233,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Proline betaine,7.12,4897836,2125838,159571,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Proline betaine,7.16,15536010,2485642,664560,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Proline betaine,7.15,15449549,1007239,585706,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Proline betaine,7.13,128624040,925892,5877179,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Proline betaine,7.15,134359392,0,5655963,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Proline betaine,7.13,646843840,0,28760586,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Proline betaine,7.15,635961344,0,27917030,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Proline betaine,7.15,1237396608,0,54968376,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Proline betaine,7.16,1211309952,0,52352508,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,(3-Carboxypropyl)trimethylammonium,10.19,3124308992,39290908,212798240,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,(3-Carboxypropyl)trimethylammonium,9.14,919874,0,81613,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,(3-Carboxypropyl)trimethylammonium,10.24,13782072,1491317,937531,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,(3-Carboxypropyl)trimethylammonium,10.27,14194083,1483684,963768,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,(3-Carboxypropyl)trimethylammonium,10.23,66027988,2049389,4465111,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,(3-Carboxypropyl)trimethylammonium,10.21,69516768,3160020,4931911,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,(3-Carboxypropyl)trimethylammonium,10.23,704188416,9582136,48027248,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,(3-Carboxypropyl)trimethylammonium,10.23,734887552,12545654,51744028,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,(3-Carboxypropyl)trimethylammonium,10.23,3546670848,41034684,247976672,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,(3-Carboxypropyl)trimethylammonium,10.23,3489206016,35432464,237006192,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,(3-Carboxypropyl)trimethylammonium,10.23,5993602048,90605872,374672832,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,(3-Carboxypropyl)trimethylammonium,10.23,6106057728,110892168,394825472,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Acetylcholine,13.34,164848,900312,39284,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Acetylcholine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Acetylcholine,13.26,735403,0,45636,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Acetylcholine,13.36,240056,144573,31563,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Acetylcholine,13.4,379411,0,41286,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Acetylcholine,13.24,414848,0,34646,-2.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Acetylcholine,13.37,21078,560876,9414,-2.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Acetylcholine,13.4,813373,5929,55445,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Acetylcholine,13.6,1063286,0,91353,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Acetylcholine,13.37,520086,0,71808,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Acetylcholine,13.37,532376,390240,62355,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Acetylcholine,13.46,1326398,480414,78289,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Glutamine,10.39,1483054720,29338304,53730092,-3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Glutamine,10.34,1010163,0,75357,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Glutamine,10.48,18803226,280546,569246,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Glutamine,10.46,18749750,1372920,613641,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Glutamine,10.48,101724256,0,3568789,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Glutamine,10.45,97282720,0,3254638,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Glutamine,10.49,972532480,4254314,65024316,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Glutamine,10.48,957533504,5830734,63997332,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Glutamine,10.84,3467365120,15801764,212760704,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Glutamine,10.85,3375564544,0,199896544,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Glutamine,11.17,4491526144,18292786,178155424,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Glutamine,11.18,4617556992,0,175167616,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Lysine,19.99,61366520,1493212,1926872,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Lysine,20.04,278506,0,28249,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Lysine,20.1,1034405,814199,46520,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Lysine,20.05,1837685,0,76851,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Lysine,20.07,7890181,2046627,270704,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Lysine,19.99,10427954,0,288790,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Lysine,19.91,124449512,0,4080390,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Lysine,19.93,127102672,2786529,4264134,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Lysine,19.76,1069790208,17154546,42625056,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Lysine,19.79,1111988224,5695033,45803620,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Lysine,19.71,2611901696,7336064,85780888,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Lysine,19.66,2630984192,20096282,86177544,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,beta-Glutamic acid,10.25,220279968,0,6687133,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,beta-Glutamic acid,10.48,777328320,33762048,23103090,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,beta-Glutamic acid,10.21,36353564,2891715,1017506,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,beta-Glutamic acid,10.21,36990336,3090644,1016993,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,beta-Glutamic acid,10.4,186007232,6000247,5472573,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,beta-Glutamic acid,10.37,181090048,6473608,4967616,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,beta-Glutamic acid,10.67,497516736,1184600,31577522,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,beta-Glutamic acid,10.67,502399232,4467692,32009900,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,beta-Glutamic acid,10.67,45130472,87947808,3899749,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,beta-Glutamic acid,10.67,44705056,87272520,4858665,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,beta-Glutamic acid,10.67,18333846,95565616,2810135,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,beta-Glutamic acid,10.67,44896076,70565384,3562464,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Glutamic acid,10.8,226137408,2222746,19852514,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Glutamic acid,10.71,7437668,388145,1944903,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Glutamic acid,10.87,29372828,10816,2109747,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Glutamic acid,10.86,28717192,1235275,2042299,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Glutamic acid,10.87,172056048,1534493,12808510,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Glutamic acid,10.85,163961184,2332032,11996223,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Glutamic acid,10.9,2836094720,25786070,199813408,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Glutamic acid,10.9,2841053184,27281924,217134560,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Glutamic acid,10.98,8121286144,97352208,621284352,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Glutamic acid,10.95,7810271744,98095136,597705920,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Glutamic acid,11.26,10044606464,279534880,499237824,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Glutamic acid,11.26,10195931136,246254192,477565952,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,O-Acetyl-L-serine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,O-Acetyl-L-serine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,O-Acetyl-L-serine,6.21,3445,0,3091,-7.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,O-Acetyl-L-serine,5.61,23522,0,18871,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,O-Acetyl-L-serine,7.15,9675,0,7026,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,O-Acetyl-L-serine,7.18,18150,0,12123,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,O-Acetyl-L-serine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,O-Acetyl-L-serine,6.63,53584,0,28802,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,O-Acetyl-L-serine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,O-Acetyl-L-serine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,O-Acetyl-L-serine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,O-Acetyl-L-serine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Hydroxyisoleucine,7.31,367364928,21545434,15077433,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Hydroxyisoleucine,8.34,62067,0,35309,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Hydroxyisoleucine,8.83,6141659,0,276290,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Hydroxyisoleucine,8.88,4520155,2211212,246016,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Hydroxyisoleucine,8.86,22221564,0,1229442,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Hydroxyisoleucine,8.84,20609458,881735,1202507,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Hydroxyisoleucine,8.86,188978352,7884851,11037434,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Hydroxyisoleucine,8.86,192948880,6849174,11533554,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Hydroxyisoleucine,8.84,849063168,19097648,50869240,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Hydroxyisoleucine,8.84,841678912,24934064,47974868,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Hydroxyisoleucine,8.84,1464125824,0,79068976,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Hydroxyisoleucine,8.83,1435814400,6381953,75076128,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Methionine,3.92,3699894,0,475546,-2.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Methionine,3.6,3205958,0,221054,3.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Methionine,3.88,33988,0,20955,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Methionine,3.13,0,0,0,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Methionine,3.91,564866,0,55272,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Methionine,3.91,635575,0,69103,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Methionine,3.85,3169288,659313,290624,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Methionine,3.9,4058590,0,326208,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Methionine,3.9,12662754,285118,1005878,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Methionine,3.91,12787068,0,1041735,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Methionine,3.91,16441709,0,1131936,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Methionine,3.88,13716040,0,947866,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,N6-Methyladenine,4.08,610350,0,165903,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,N6-Methyladenine,3.43,16093736960,142016864,606295936,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,N6-Methyladenine,3.66,140205,0,32476,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,N6-Methyladenine,3.53,80711,0,30255,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,N6-Methyladenine,4.39,93752,0,34512,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,N6-Methyladenine,4.13,83558,0,15070,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,N6-Methyladenine,4.28,1333529,0,75361,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,N6-Methyladenine,3.93,406942,0,60975,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,N6-Methyladenine,4.1,7708814,0,328510,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,N6-Methyladenine,4.23,7913104,0,326762,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,N6-Methyladenine,4.24,15387509,0,522918,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,N6-Methyladenine,4.15,15801801,0,564513,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Dimethylsulfoxonium propionate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Dimethylsulfoxonium propionate,10.49,3852046080,42940768,266286000,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Dimethylsulfoxonium propionate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Dimethylsulfoxonium propionate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Dimethylsulfoxonium propionate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Dimethylsulfoxonium propionate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Dimethylsulfoxonium propionate,9.97,212559,0,127870,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Dimethylsulfoxonium propionate,9.93,884072,0,189038,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Dimethylsulfoxonium propionate,10.01,2952690,0,484650,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Dimethylsulfoxonium propionate,9.97,2376812,0,537808,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Dimethylsulfoxonium propionate,10.04,2851090,0,583200,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Dimethylsulfoxonium propionate,10.04,1018312,0,523765,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Guanine,8.2,97387,0,97444,-0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Guanine,8.69,1162480384,138867392,54091864,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Guanine,7.84,1088068,1502281,69029,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Guanine,8.44,630283,614086,47194,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Guanine,7.86,10918320,1864662,477646,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Guanine,7.84,11504328,0,536825,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Guanine,7.9,99938616,584403,4679004,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Guanine,7.87,103445040,0,4832367,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Guanine,7.93,281217696,1694109,12548904,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Guanine,7.92,275317984,2521719,11409535,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Guanine,7.93,496438016,4086928,19298556,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Guanine,7.98,473033856,5128894,17734036,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Histidine,11.52,1833854720,106313280,22903984,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Histidine,11.01,18048412,4777923,1001543,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Histidine,11.37,1231095,2337093,82274,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Histidine,11.33,231651,1139961,43764,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Histidine,10.59,61643696,0,372835,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Histidine,11.62,887970,9550284,80482,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Histidine,11.53,26110422,43458888,1603903,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Histidine,11.56,23664922,70471880,1372460,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Histidine,11.76,98762664,130783016,4602065,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Histidine,11.59,126857312,51064168,6072598,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Histidine,11.64,151245728,90129984,7669636,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Histidine,11.64,159095504,61664780,9642531,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,5-Hydroxyectoine,11.61,113677392,12542806,5756280,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,5-Hydroxyectoine,11.43,360117632,25177070,27998192,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,5-Hydroxyectoine,11.48,936434,759291,54383,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,5-Hydroxyectoine,11.46,655718,1030197,39382,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,5-Hydroxyectoine,11.45,1768617,1533374,114272,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,5-Hydroxyectoine,11.4,3321623,98051,162489,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,5-Hydroxyectoine,11.5,11624540,5487623,914340,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,5-Hydroxyectoine,11.48,11828487,6990886,980381,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,5-Hydroxyectoine,11.48,29877660,27217970,3149200,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,5-Hydroxyectoine,11.47,38598852,18170476,2944066,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,5-Hydroxyectoine,11.5,58365444,22532294,4871500,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,5-Hydroxyectoine,11.53,55010116,25884278,5317940,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Betonicine,8.94,11154608128,78805376,671972928,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Betonicine,9.28,1593309,0,78307,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Betonicine,9.05,2082650,748178,77109,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Betonicine,9.01,797086,2199800,56647,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Betonicine,9,4020272,2247439,243847,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Betonicine,9.02,4213836,1666031,240101,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Betonicine,8.97,37331264,4492655,2182182,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Betonicine,8.99,37234404,5893065,2177154,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Betonicine,8.99,172557312,13907803,9350977,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Betonicine,8.99,176917040,15129623,10058151,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Betonicine,8.99,290020288,37473936,16249406,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Betonicine,9,291220128,29496030,15518017,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-2-Aminoadipic acid,10.52,502419264,7614727,30553530,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-2-Aminoadipic acid,10.82,537408768,0,17169504,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-2-Aminoadipic acid,10.92,76739,0,21053,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-2-Aminoadipic acid,10.89,108486,0,32928,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-2-Aminoadipic acid,10.79,408256,354378,37057,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-2-Aminoadipic acid,10.93,541047,8501,53172,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-2-Aminoadipic acid,11.28,21494388,0,1118510,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-2-Aminoadipic acid,11.26,21413992,0,1179633,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-2-Aminoadipic acid,10.98,3393297,3895695,448896,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-2-Aminoadipic acid,10.96,7701767,2772549,533230,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-2-Aminoadipic acid,10.45,122478280,7092602,4097262,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-2-Aminoadipic acid,10.45,128549760,4862554,4220831,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,N-Methyl-L-glutamic acid,9.61,33962,0,22523,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,N-Methyl-L-glutamic acid,8.73,3360323072,39373404,85499816,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,N-Methyl-L-glutamic acid,8.67,81443,0,32528,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,N-Methyl-L-glutamic acid,8.62,71043,0,37819,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,N-Methyl-L-glutamic acid,8.5,1090481,863993,88603,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,N-Methyl-L-glutamic acid,8.56,295060,956539,35119,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,N-Methyl-L-glutamic acid,8.94,41166944,567285,1769469,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,N-Methyl-L-glutamic acid,8.95,41842060,0,1789936,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,N-Methyl-L-glutamic acid,8.97,7137812,5881938,395448,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,N-Methyl-L-glutamic acid,8.95,17036638,0,571827,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,N-Methyl-L-glutamic acid,9.14,25984078,0,763627,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,N-Methyl-L-glutamic acid,8.81,1228561,6096513,181820,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Carnitine,10.04,2982455552,56430784,203968864,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Carnitine,9.27,146539,0,41077,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Carnitine,10.08,9051068,0,506721,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Carnitine,10.08,9748548,0,546897,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Carnitine,10.12,44970092,0,2874433,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Carnitine,10.08,45804816,0,2872814,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Carnitine,10.12,427516480,4803784,27323810,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Carnitine,10.12,435417824,4786303,27360864,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Carnitine,10.12,2090964736,30342018,139490224,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Carnitine,10.08,2088308480,34550224,136538512,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Carnitine,10.13,3531556096,33054434,224049008,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Carnitine,10.12,3609634816,36117732,220498064,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Hydroxylysine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Hydroxylysine,17.35,199632,0,28459,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Hydroxylysine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Hydroxylysine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Hydroxylysine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Hydroxylysine,15.55,11736,0,8266,-4.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Hydroxylysine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Hydroxylysine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Hydroxylysine,17.12,19906,0,19323,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Hydroxylysine,17.01,22329,0,14474,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Hydroxylysine,17.12,285291,0,39992,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Hydroxylysine,17.17,187113,0,35666,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Deoxynojirimycin,10.36,55380,0,42532,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Deoxynojirimycin,10.41,3254660096,30833040,209399632,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Deoxynojirimycin,10.32,37427,0,37913,2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Deoxynojirimycin,10.27,440450,0,197316,3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Deoxynojirimycin,10.51,92743,0,79230,0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Deoxynojirimycin,9.41,141481,0,34704,1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Deoxynojirimycin,10.32,157631,0,95809,-0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Deoxynojirimycin,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Deoxynojirimycin,10.74,402492,0,208632,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Deoxynojirimycin,10.79,1903632,0,214472,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Deoxynojirimycin,11.01,1016305,0,426037,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Deoxynojirimycin,10.68,223279,0,123361,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Methionine S-oxide,7.79,484205568,912448,47144300,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Methionine S-oxide,7.76,0,0,0,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Methionine S-oxide,7.86,2154921,0,168421,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Methionine S-oxide,7.91,2455773,68820,178956,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Methionine S-oxide,7.93,16870846,2977,1146737,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Methionine S-oxide,7.89,15897589,72505,1217807,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Methionine S-oxide,8.25,288670944,6589768,18658254,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Methionine S-oxide,8.23,282596160,7369250,18912676,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Methionine S-oxide,8.42,123794192,26113404,5839993,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Methionine S-oxide,8.44,135184992,18088576,6355013,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Methionine S-oxide,8.58,26431122,44353424,2599786,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Methionine S-oxide,8.58,18583852,41970412,1733474,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Hordenine,3.81,1762028032,93952456,97649248,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Hordenine,3.04,173251,0,51898,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Hordenine,3.22,346937,0,42119,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Hordenine,3.36,417149,0,48188,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Hordenine,3.37,184757,0,35342,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Hordenine,3.33,225073,0,47838,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Hordenine,3.37,166497,0,49001,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Hordenine,3.35,320119,0,50261,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Hordenine,3.33,151125,0,40043,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Hordenine,3.49,175855,0,35544,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Hordenine,3.33,73305,0,73756,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Hordenine,3.22,222916,0,73402,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,"2,3-Pyridinedicarboxylic acid",10.68,5881,0,4903,1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,"2,3-Pyridinedicarboxylic acid",10.74,564240448,2815032,27063074,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,"2,3-Pyridinedicarboxylic acid",10.73,4104,0,2297,4.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,"2,3-Pyridinedicarboxylic acid",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,"2,3-Pyridinedicarboxylic acid",10.74,26912,0,6429,6.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,"2,3-Pyridinedicarboxylic acid",10.74,19601,0,12126,7.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,"2,3-Pyridinedicarboxylic acid",10.71,213913,0,34304,8.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,"2,3-Pyridinedicarboxylic acid",10.76,211764,0,28137,9.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,"2,3-Pyridinedicarboxylic acid",10.84,22533,0,22384,0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,"2,3-Pyridinedicarboxylic acid",10.76,12613,0,8554,6.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,"2,3-Pyridinedicarboxylic acid",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,"2,3-Pyridinedicarboxylic acid",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Taurocyamine,12.11,390827072,4289926,27885734,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Taurocyamine,11.11,498497,0,49906,-4.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Taurocyamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Taurocyamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Taurocyamine,12.19,435467,0,48790,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Taurocyamine,12.13,338607,0,38091,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Taurocyamine,12.14,4187906,0,334768,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Taurocyamine,12.13,3983399,0,282434,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Taurocyamine,12.13,18791904,0,1449345,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Taurocyamine,12.14,19383504,0,1563030,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Taurocyamine,12.14,34782464,0,2781557,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Taurocyamine,12.17,36132924,0,2841504,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Theanine,9.08,289573,0,134227,-2.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Theanine,8.61,3489828,0,499493,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Theanine,8.88,47089,0,24655,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Theanine,7.84,45734,0,24460,0,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Theanine,9.13,146741,0,33016,1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Theanine,8.8,153792,0,33589,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Theanine,8.45,3160516,0,201874,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Theanine,8.44,3059711,0,198531,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Theanine,8.51,3581139,0,232677,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Theanine,8.53,3515155,0,245271,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Theanine,8.19,1014298,4444894,191553,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Theanine,8.25,1376788,2652802,219718,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Arginine,20.94,481584864,0,13993492,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Arginine,21.04,5622979,0,144818,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Arginine,21.14,22544020,0,603057,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Arginine,21.03,24453796,0,637562,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Arginine,21.07,126630768,0,3392811,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Arginine,21.03,136290848,0,3575833,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Arginine,20.92,1563362688,4712313,50555808,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Arginine,20.93,1653461120,6191251,51488104,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Arginine,20.79,8502733824,28727884,257240288,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Arginine,20.76,8513448960,43595952,261709088,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Arginine,20.68,15602837504,101081360,398749440,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Arginine,20.64,15806334976,109352520,396601536,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Succinylglycine,11.86,66446,0,42945,0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Succinylglycine,12.57,52374,0,41152,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Succinylglycine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Citrulline,11.91,625633536,28981220,39050620,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Citrulline,12.19,767309,0,44950,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Citrulline,12.17,305728,97922,37629,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Citrulline,12.24,333966,0,48341,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Citrulline,11.95,3599919,376768,228572,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Citrulline,11.97,4264720,339696,211495,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Citrulline,11.94,56246300,0,3351549,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Citrulline,11.94,53179200,0,2950411,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Citrulline,11.98,316618816,0,21837912,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Citrulline,11.97,304010752,0,21709078,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Citrulline,12,478310912,2300653,35756612,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Citrulline,12.02,474458112,1495037,38924872,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Arsenobetaine,7.62,12797036544,167317040,603087040,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Arsenobetaine,6.96,109965,0,64848,-2.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Arsenobetaine,7.65,265612,0,46709,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Arsenobetaine,7.71,78825,0,20905,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Arsenobetaine,7.75,313651,0,45796,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Arsenobetaine,7.68,249093,0,46137,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Arsenobetaine,7.48,1401253,0,131700,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Arsenobetaine,7.51,1927914,0,179861,-2.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Arsenobetaine,7.62,28851244,0,1540921,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Arsenobetaine,7.43,6055559,0,547628,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Arsenobetaine,7.46,11094767,0,1042722,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Arsenobetaine,7.68,46243944,0,2891700,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Gonyol,11.16,547652224,7208933,40058564,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Gonyol,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Gonyol,11.23,8735064,0,730880,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Gonyol,11.24,8980818,0,709583,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Gonyol,11.23,46120420,0,3292880,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Gonyol,11.23,45492296,0,3183836,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Gonyol,11.23,527359424,5270333,40997056,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Gonyol,11.22,523565440,6843109,40097332,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Gonyol,11.23,2663105024,35464440,196908880,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Gonyol,11.23,2639767552,33683604,201182512,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Gonyol,11.23,4057878016,47292036,320615712,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Gonyol,11.28,3972094208,70663208,320742240,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Glucosamine,10.52,529533696,9696483,32974288,-2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Glucosamine,10.23,71744,0,49100,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Glucosamine,9.8,86172,0,70233,1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Glucosamine,10.27,401250,0,125705,2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Glucosamine,10.32,58917,0,41886,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Glucosamine,10.24,25947,0,16300,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Glucosamine,10.49,1863035,0,198937,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Glucosamine,10.38,597907,0,124438,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Glucosamine,10.62,13133646,0,540895,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Glucosamine,10.57,9571447,0,537487,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Glucosamine,10.56,18362032,0,1052066,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Glucosamine,10.63,22930638,0,1236599,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Tyrosine,7.77,863726272,0,33808624,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Tyrosine,9.14,136110,0,38818,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Tyrosine,7.82,8663042,0,298117,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Tyrosine,7.91,8536093,0,287147,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Tyrosine,7.9,40718228,2539163,1663582,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Tyrosine,7.78,43032368,0,1612717,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Tyrosine,8.29,351471072,0,20290708,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Tyrosine,8.28,347962720,0,20551646,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Tyrosine,9.22,1141232128,37659624,17638764,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Tyrosine,9.22,1162457344,1601123,16863874,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Tyrosine,9.58,1856982784,83602744,26616074,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Tyrosine,9.6,1804131072,93684728,25396106,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Choline sulfate,7.26,2423337984,18776248,116472368,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Choline sulfate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Choline sulfate,7.49,28865,0,25921,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Choline sulfate,6.81,2909,0,1970,6.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Choline sulfate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Choline sulfate,7.29,53246,0,19838,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Choline sulfate,7.29,6094486,0,359936,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Choline sulfate,7.29,6526468,0,396234,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Choline sulfate,7.31,38194352,0,2028813,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Choline sulfate,7.35,36567020,0,1869185,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Choline sulfate,7.31,66294236,0,3565552,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Choline sulfate,7.23,64779628,0,2960101,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Phosphocholine,11.52,756871680,49567892,47683116,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Phosphocholine,11.83,97767,0,32368,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Phosphocholine,11.62,4577549,0,231780,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Phosphocholine,11.64,4502596,28880,209406,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Phosphocholine,11.59,25355858,0,1074205,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Phosphocholine,11.64,29326604,0,1333038,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Phosphocholine,11.61,486435072,17643412,27175028,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Phosphocholine,11.58,487347168,18988692,28227934,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Phosphocholine,11.67,3624077824,148031376,214505792,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Phosphocholine,11.64,3643109120,158475808,238303888,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Phosphocholine,11.76,6600473088,691111104,325966272,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Phosphocholine,11.75,6951011840,709567872,357481216,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,N6-Acetyl-L-lysine,9.94,3999031,0,420597,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,N6-Acetyl-L-lysine,8.92,80997,0,32600,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,N6-Acetyl-L-lysine,9.91,133485,0,37525,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,N6-Acetyl-L-lysine,9.94,141275,0,32231,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,N6-Acetyl-L-lysine,9.74,223950,0,34724,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,N6-Acetyl-L-lysine,8.84,601162,0,58568,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,N6-Acetyl-L-lysine,8.91,18457212,202268,1153369,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,N6-Acetyl-L-lysine,8.89,20129818,48581,1222438,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,N6-Acetyl-L-lysine,9.63,16712819,0,1152897,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,N6-Acetyl-L-lysine,9.5,27562278,0,1096927,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,N6-Acetyl-L-lysine,9.72,13320835,0,1172892,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,N6-Acetyl-L-lysine,9.83,8771503,0,1046926,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,"N6,N6,N6-Trimethyl-L-lysine",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,"N6,N6,N6-Trimethyl-L-lysine",17.78,1310731392,16488023,60160804,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,"N6,N6,N6-Trimethyl-L-lysine",17.65,350833,0,45362,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,"N6,N6,N6-Trimethyl-L-lysine",17.76,330250,0,42336,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,"N6,N6,N6-Trimethyl-L-lysine",17.71,489079,0,48509,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,"N6,N6,N6-Trimethyl-L-lysine",17.76,306531,0,45965,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,"N6,N6,N6-Trimethyl-L-lysine",17.73,8202528,0,417810,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,"N6,N6,N6-Trimethyl-L-lysine",17.76,7933754,0,399944,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,"N6,N6,N6-Trimethyl-L-lysine",17.68,46631088,0,2119309,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,"N6,N6,N6-Trimethyl-L-lysine",17.64,44647476,0,2046446,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,"N6,N6,N6-Trimethyl-L-lysine",17.54,84878168,955514,3222168,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,"N6,N6,N6-Trimethyl-L-lysine",17.57,83251816,899865,3204591,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Cyclo(Pro-Pro),2.06,69478,0,69651,0,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Cyclo(Pro-Pro),2.17,1116976000,6836905,73023584,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Cyclo(Pro-Pro),2.03,313345,115274,47105,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Cyclo(Pro-Pro),2.08,500314,0,69386,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Cyclo(Pro-Pro),2.05,277654,60331,49316,-0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Cyclo(Pro-Pro),2.01,328728,93351,44020,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Cyclo(Pro-Pro),1.92,351112,0,65091,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Cyclo(Pro-Pro),2.11,214593,0,52422,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Cyclo(Pro-Pro),2.23,6052200,0,667548,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Cyclo(Pro-Pro),2.27,4716530,0,657414,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Cyclo(Pro-Pro),2.3,9577628,0,901988,-2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Cyclo(Pro-Pro),2.23,9910984,0,856175,-3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,O-Acetylcarnitine,7.77,10161434624,130294504,443330976,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,O-Acetylcarnitine,7.78,17678332,0,712458,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,O-Acetylcarnitine,7.82,12327657,383794,612090,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,O-Acetylcarnitine,7.82,13230827,0,551347,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,O-Acetylcarnitine,7.82,55611740,1287395,2470036,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,O-Acetylcarnitine,7.79,53811448,2784769,2619248,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,O-Acetylcarnitine,7.78,509542816,11042564,23315052,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,O-Acetylcarnitine,7.84,519110720,9551303,23832826,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,O-Acetylcarnitine,7.76,2260573440,35089680,98705960,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,O-Acetylcarnitine,7.81,2253575680,38258064,88174184,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,O-Acetylcarnitine,7.78,3657119744,59893876,130933128,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,O-Acetylcarnitine,7.86,3650423040,49012872,126753456,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,O-Propionylcarnitine,6.35,7267124224,86782968,166600608,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,O-Propionylcarnitine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,O-Propionylcarnitine,5.58,281526,15076,45026,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,O-Propionylcarnitine,5.59,643959,0,41493,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,O-Propionylcarnitine,5.77,851402,0,59907,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,O-Propionylcarnitine,5.7,291093,246245,33987,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,O-Propionylcarnitine,5.52,395845,729668,74950,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,O-Propionylcarnitine,6.36,16208115,0,371610,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,O-Propionylcarnitine,6.38,70942024,0,1653473,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,O-Propionylcarnitine,6.41,71372632,0,1631324,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,O-Propionylcarnitine,6.47,136794576,0,3398169,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,O-Propionylcarnitine,6.05,46045156,0,1563439,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,O-Succinylhomoserine,9.4,367187936,15986506,23162294,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,O-Succinylhomoserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,O-Succinylhomoserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,O-Succinylhomoserine,10.27,37724,0,25375,2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,O-Succinylhomoserine,9.69,24092,0,13158,0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,O-Succinylhomoserine,9.76,33588,0,28571,-0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,O-Succinylhomoserine,10.4,1719389,0,178601,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,O-Succinylhomoserine,10.3,1769647,0,177152,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,O-Succinylhomoserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,O-Succinylhomoserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,O-Succinylhomoserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,O-Succinylhomoserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,N-Acetyl-D-glucosamine,8.2,245176576,2931929,10674113,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,N-Acetyl-D-glucosamine,8.59,329801920,0,9001787,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,N-Acetyl-D-glucosamine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,N-Acetyl-D-glucosamine,8.1,26732,0,15671,0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,N-Acetyl-D-glucosamine,8.53,31281,0,33020,-2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,N-Acetyl-D-glucosamine,8.59,27967,0,20890,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,N-Acetyl-D-glucosamine,8.58,2135042,1775409,211974,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,N-Acetyl-D-glucosamine,8.69,4852229,0,230219,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,N-Acetyl-D-glucosamine,8.58,29993678,0,1072747,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,N-Acetyl-D-glucosamine,8.61,21372234,0,1029595,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,N-Acetyl-D-glucosamine,8.62,46686832,0,1738300,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,N-Acetyl-D-glucosamine,8.56,50934820,0,1758709,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Cystathionine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Cystathionine,12.55,36475800,4958264,1247565,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Cystathionine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Cystathionine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Cystathionine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Cystathionine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Cystathionine,12.58,1266672,0,81242,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Cystathionine,12.58,534286,0,69232,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Cystathionine,12.55,9269856,0,429079,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Cystathionine,13.07,429627,0,65408,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Cystathionine,12.9,2295735,0,241150,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Cystathionine,12.63,14570352,0,705036,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Carnosine,10.27,55953,0,34244,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Carnosine,10.65,45228596,258500192,4226092,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Carnosine,9.8,43933,0,35807,-2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Carnosine,10.27,198469,0,73935,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Carnosine,10.51,39134,0,33432,0,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Carnosine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Carnosine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Carnosine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Carnosine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Carnosine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Carnosine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Carnosine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Ergothioneine,11.39,815999296,9567269,52540864,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Ergothioneine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Butyrylcarnitine,4.79,11629968384,147166624,203914880,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Butyrylcarnitine,4.28,131459,0,41313,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Butyrylcarnitine,4.5,184975,0,48372,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Butyrylcarnitine,4.47,103402,0,47030,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Butyrylcarnitine,4.37,427159,420117,38353,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Butyrylcarnitine,4.51,105013,713206,15142,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Butyrylcarnitine,4.67,1146096,2581624,158084,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Butyrylcarnitine,4.86,26625304,0,513870,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Butyrylcarnitine,4.79,123125120,0,2124177,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Butyrylcarnitine,4.9,120998800,0,2548928,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Butyrylcarnitine,4.84,236909792,0,5063124,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Butyrylcarnitine,4.87,238659792,0,4492599,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Cystine,13.27,1022940,174158,61866,-2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Cystine,12.72,17043,0,15307,-4.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Cystine,12.39,31236,0,15517,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Cystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Anserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Anserine,9.05,1074801152,1554702,26544496,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Anserine,7.56,31829,0,29245,-3.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Anserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Anserine,8.59,26787,0,27754,0,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Anserine,8.89,21916,0,19581,-3.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Anserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Anserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Anserine,9.33,145691,0,98819,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Anserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Anserine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Anserine,8.14,113726,0,86469,-0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Cytidine,7.56,90432,0,17249,-9.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Cytidine,8.59,1222449408,14835772,62186296,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Cytidine,8.56,4394307,0,267275,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Cytidine,8.62,4714034,0,289578,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Cytidine,8.61,27493862,0,1582486,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Cytidine,8.62,26839844,0,1530472,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Cytidine,8.59,275294880,742447,14815846,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Cytidine,8.61,270615360,2481033,14736133,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Cytidine,8.59,755812608,6562555,40684936,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Cytidine,8.59,735826816,9627750,40674956,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Cytidine,8.59,1210711168,13987791,65834720,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Cytidine,8.61,1199224192,7318609,60887520,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Muramic acid,10.36,15311844,0,1981249,1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Muramic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Muramic acid,11.2,125344,0,31672,2.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Muramic acid,10.97,190624,0,39381,3.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Muramic acid,11.17,266774,0,44356,3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Muramic acid,11.45,249362,0,32405,2.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Muramic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Muramic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Muramic acid,10.01,4974235,0,567793,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Muramic acid,10.1,4558027,0,479729,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Muramic acid,10.51,2239821,0,471648,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Muramic acid,10.73,2132652,0,466655,-0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Deoxyadenosine,3.81,8700798976,100787520,220608144,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Deoxyadenosine,3.76,17668506,0,536807,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Deoxyadenosine,3.69,5622202,0,165547,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Deoxyadenosine,3.59,494946,630255,66863,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Deoxyadenosine,3.74,26395148,0,693776,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Deoxyadenosine,3.88,25807618,0,669842,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Deoxyadenosine,3.79,263734608,1327328,6857608,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Deoxyadenosine,3.84,263520736,261555,6700702,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Deoxyadenosine,3.8,1376976768,15301782,36874352,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Deoxyadenosine,3.8,1354250496,12384798,35264408,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Deoxyadenosine,3.82,2589958656,32225724,68837656,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Deoxyadenosine,3.79,2582406144,28571942,71531072,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,2-O-alpha-D-Glucosylglycerol,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,2-O-alpha-D-Glucosylglycerol,10.23,38642872,0,2615900,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,2-O-alpha-D-Glucosylglycerol,10.57,10422042,0,795924,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,2-O-alpha-D-Glucosylglycerol,10.57,10750751,0,764781,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,2-O-alpha-D-Glucosylglycerol,10.54,58153572,0,3928638,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,2-O-alpha-D-Glucosylglycerol,10.57,57397964,146612,4228138,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,2-O-alpha-D-Glucosylglycerol,10.57,572555008,5431782,40183692,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,2-O-alpha-D-Glucosylglycerol,10.54,565738304,6904899,38630544,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,2-O-alpha-D-Glucosylglycerol,10.59,2615706880,36148500,171435440,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,2-O-alpha-D-Glucosylglycerol,10.57,2399604736,34996804,162110256,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,2-O-alpha-D-Glucosylglycerol,10.62,4545680896,51295800,247466512,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,2-O-alpha-D-Glucosylglycerol,10.59,4466174976,52158364,242831872,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Glycerophosphocholine,11.35,1934720512,27549476,142869440,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Glycerophosphocholine,10.87,35851,0,31261,0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Glycerophosphocholine,11.4,95935120,37712,6728002,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Glycerophosphocholine,11.42,102169520,257450,7415864,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Glycerophosphocholine,11.4,556221696,8420653,43269172,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Glycerophosphocholine,11.43,615676160,9134708,43684004,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Glycerophosphocholine,11.4,13875881984,168175040,843934400,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Glycerophosphocholine,11.4,13931448320,183336288,838686912,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Glycerophosphocholine,11.39,59492921344,626248320,3222473216,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Glycerophosphocholine,11.39,58500075520,607673664,3337217792,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Glycerophosphocholine,11.42,84736720896,1048574464,4776927744,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Glycerophosphocholine,11.42,85186494464,1108755584,4813508608,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,2-Heptyl-3-hydroxy-quinolone,1.77,66350072,0,2236851,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,2-Heptyl-3-hydroxy-quinolone,1.91,20949,0,11440,0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,2-Heptyl-3-hydroxy-quinolone,2.23,107052,0,16756,-9.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,2-Heptyl-3-hydroxy-quinolone,2.22,107985,0,17081,-8.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,2-Heptyl-3-hydroxy-quinolone,2.22,733907,0,70000,-8.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,2-Heptyl-3-hydroxy-quinolone,2.22,488635,0,54567,-8.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,2-Heptyl-3-hydroxy-quinolone,2.28,6775724,0,580998,-7.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,2-Heptyl-3-hydroxy-quinolone,2.23,5356263,0,493230,-7.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,2-Heptyl-3-hydroxy-quinolone,2.38,59521104,894991,8208907,-7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,2-Heptyl-3-hydroxy-quinolone,2.22,22735440,0,1837801,-7.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,2-Heptyl-3-hydroxy-quinolone,2.39,94739184,0,12121957,-7.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,2-Heptyl-3-hydroxy-quinolone,2.27,33363658,0,3008707,-7.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,O-Methylmalonyl-L-carnitine,9.94,3385905,0,1027736,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,O-Methylmalonyl-L-carnitine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,O-Methylmalonyl-L-carnitine,9.83,3921,0,3262,-7.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,O-Methylmalonyl-L-carnitine,10.27,31536,0,21213,1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,O-Methylmalonyl-L-carnitine,9.66,8221,0,4698,-5.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,O-Methylmalonyl-L-carnitine,9.69,26920,0,15413,-4.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,O-Methylmalonyl-L-carnitine,9.33,1404359,0,155370,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,O-Methylmalonyl-L-carnitine,9.33,1362332,0,143172,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,O-Methylmalonyl-L-carnitine,9.66,2744894,0,333887,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,O-Methylmalonyl-L-carnitine,9.76,2056465,0,388525,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,O-Methylmalonyl-L-carnitine,10.21,4262638,0,551743,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,O-Methylmalonyl-L-carnitine,10.48,8737265,0,833164,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Adenosine,4.87,4131498,0,193818,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Adenosine,4.87,4933723136,52608872,118605512,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Adenosine,4.97,51854564,57854,1360854,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Adenosine,4.97,51528824,0,1306698,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Adenosine,4.94,293802560,3278047,7629201,-1.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Adenosine,4.89,286998432,3003154,7444385,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Adenosine,4.92,2737417984,33741260,69080936,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Adenosine,4.86,2809964800,26528274,68946576,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Adenosine,4.84,10690495488,136655680,247471808,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Adenosine,4.9,10828424192,119465608,263277696,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Adenosine,4.84,17588389888,282660352,417975552,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Adenosine,4.89,17701394432,223485392,403675936,-1.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Homocystine,12.19,5630149,1879842,258253,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Homocystine,12.14,48955,0,43820,4.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Homocystine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Guanosine,9.29,1712104,0,153379,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Guanosine,9.28,710170048,1567012,31199144,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Guanosine,9.32,6661852,0,299130,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Guanosine,9.32,6704676,0,349966,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Guanosine,9.33,36368836,0,1685509,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Guanosine,9.36,37509956,0,1959565,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Guanosine,9.39,343856064,2065431,19268408,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Guanosine,9.36,335002112,3774185,18494842,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Guanosine,9.49,1997600768,24957494,100790112,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Guanosine,9.47,1976391680,28632114,94942432,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Guanosine,9.5,2937271552,30529458,154872368,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Guanosine,9.49,2749525248,50481036,146550112,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Ophthalmic acid,10.27,923797,0,220127,-1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Ophthalmic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Ophthalmic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Ophthalmic acid,10.27,32436,0,21818,2.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Ophthalmic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Ophthalmic acid,11.4,30690,0,24200,0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Ophthalmic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Ophthalmic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Ophthalmic acid,10.37,77503280,0,2114957,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Ophthalmic acid,10.23,71382200,0,1961471,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Ophthalmic acid,10.78,73825712,0,2537387,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Ophthalmic acid,10.81,104131600,0,2509574,-1.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,L-Arginosuccinic acid,13.25,84983456,2456771,6491739,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,L-Arginosuccinic acid,13.24,22604,0,23263,-1.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,L-Arginosuccinic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,L-Arginosuccinic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,L-Arginosuccinic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,L-Arginosuccinic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,L-Arginosuccinic acid,13.3,312950,0,46884,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,L-Arginosuccinic acid,13.32,291930,0,63015,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,L-Arginosuccinic acid,13.3,6112394,0,541166,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,L-Arginosuccinic acid,13.3,5802055,0,529274,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,L-Arginosuccinic acid,13.33,9649804,0,750071,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,L-Arginosuccinic acid,13.32,9921658,0,763897,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,N-Acetylmuramic acid,2.49,412716,0,57453,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,N-Acetylmuramic acid,3.13,457367136,3423161,13555516,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,N-Acetylmuramic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,N-Acetylmuramic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,N-Acetylmuramic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,N-Acetylmuramic acid,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,N-Acetylmuramic acid,2.41,69106,0,56664,-0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,N-Acetylmuramic acid,4.04,5044,0,5148,-13.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,N-Acetylmuramic acid,2.38,176088,0,126498,-0.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,N-Acetylmuramic acid,3.24,35536,0,26277,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,N-Acetylmuramic acid,3.51,130451,0,89627,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,N-Acetylmuramic acid,3.49,126684,0,64534,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Glutamylphenylalanine,9.94,167413,0,113009,0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Glutamylphenylalanine,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Glutamylphenylalanine,8.84,2691956,0,233338,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Glutamylphenylalanine,8.59,7962679,0,345749,-0.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Glutamylphenylalanine,9.05,18828352,0,625479,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Glutamylphenylalanine,8.88,14750826,953698,614709,-1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Glutathione,11.77,1003223,0,80037,-1.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Glutathione,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Glutathione,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Glutathione,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Glutathione,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Glutathione,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Glutathione,12.36,88820,0,12772,10.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Glutathione,12.41,146725,0,26132,10.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Glutathione,12.36,894847,0,92618,10.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Glutathione,12.39,799610,0,86868,9.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Glutathione,12.11,755573,0,155445,-1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Glutathione,12.11,1850103,0,247414,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Thiamine monophosphate,10.69,306022784,16068768,12841492,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Thiamine monophosphate,10.9,42986,0,40107,0.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Thiamine monophosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Thiamine monophosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Thiamine monophosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Thiamine monophosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Thiamine monophosphate,10.73,61228,0,53919,1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Thiamine monophosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Thiamine monophosphate,10.67,2871137,0,319511,-0.8,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Thiamine monophosphate,10.82,1872857,0,326747,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Thiamine monophosphate,11,5938934,0,690687,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Thiamine monophosphate,11.03,3976103,0,855111,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,"Cys-Gly, oxidized",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Thiamine diphosphate,13.8,532245,1977933,58499,-1.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Thiamine diphosphate,13.13,34955,0,30828,-0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Thiamine diphosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Chitobiose,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Chitobiose,9.99,330793984,4348224,12322833,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Chitobiose,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Chitobiose,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Chitobiose,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Chitobiose,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Chitobiose,9.44,42670,0,35602,-0.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Chitobiose,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Chitobiose,10.12,143275,0,109604,0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Chitobiose,10.05,548372,0,192352,0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Chitobiose,10.18,220731,0,160161,0,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Chitobiose,10.1,267479,0,279243,-4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Riboflavin-5-phosphate,8.09,6938867,0,690046,3.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Riboflavin-5-phosphate,7.97,296966720,23043094,8671760,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Riboflavin-5-phosphate,8.47,466298,128678,50792,2.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Riboflavin-5-phosphate,8.49,284560,0,47586,5.7,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Riboflavin-5-phosphate,8.53,855295,52944,106949,4.4,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Riboflavin-5-phosphate,8.48,855492,157125,66602,2.9,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Riboflavin-5-phosphate,8.61,40911,0,42915,5.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Riboflavin-5-phosphate,8.26,952705,0,91319,1.2,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Riboflavin-5-phosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Riboflavin-5-phosphate,9.14,173983,0,118350,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Riboflavin-5-phosphate,9.19,108170,0,81639,0.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Riboflavin-5-phosphate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Sodium taurocholate,1.58,814220992,5896760,42820060,0,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Sodium taurocholate,1.51,203020,0,142255,5.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Sodium taurocholate,2.2,149002,0,113644,2.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Sodium taurocholate,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix1InH2O_1,Glutathione disulfide,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Std_4uMStdsMix2InH2O_1,Glutathione disulfide,15.41,232239,0,49118,-1.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_A,Glutathione disulfide,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_500x_B,Glutathione disulfide,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_A,Glutathione disulfide,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_100x_B,Glutathione disulfide,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_A,Glutathione disulfide,#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_10x_B,Glutathione disulfide,14.07,49722,0,19952,1.1,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_A,Glutathione disulfide,14.06,1465572,0,162035,-0.3,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_2x_B,Glutathione disulfide,14.07,1821716,0,147486,-0.5,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_A,Glutathione disulfide,14.09,3430428,0,277482,-0.6,HILIC_Standards_Pos
+HILIC_Standards_Pos,250925_Smp_D1_DilTest_1x_B,Glutathione disulfide,14.1,3405761,0,258548,-0.5,HILIC_Standards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Trimethylamine N-oxide, 2H9",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Trimethylamine N-oxide, 2H9",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Trimethylamine N-oxide, 2H9",7.32,6051520,0,331659,0.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Trimethylamine N-oxide, 2H9",7.35,6278544,0,328587,1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Trimethylamine N-oxide, 2H9",7.35,33686392,0,1675135,1.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Trimethylamine N-oxide, 2H9",7.35,33737256,0,1636646,1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Trimethylamine N-oxide, 2H9",7.34,315925408,493378,15506739,1.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Trimethylamine N-oxide, 2H9",7.34,320712320,4913427,15989722,1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Trimethylamine N-oxide, 2H9",7.32,1434197632,6593931,63597224,1.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Trimethylamine N-oxide, 2H9",7.34,1451618432,0,71264272,1.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Trimethylamine N-oxide, 2H9",7.34,2429832192,24976632,106187712,1.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Trimethylamine N-oxide, 2H9",7.34,2400064000,24548812,105014768,1.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"L-Alanine, 2H3",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"L-Alanine, 2H3",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"L-Alanine, 2H3",10.81,162506,0,29692,2.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"L-Alanine, 2H3",10.77,178225,0,27963,3.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"L-Alanine, 2H3",10.74,2567904,0,152070,4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"L-Alanine, 2H3",10.76,1841766,0,157832,3.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"L-Alanine, 2H3",10.81,21303928,0,1715230,3.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"L-Alanine, 2H3",10.79,21596936,0,1631269,3.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"L-Alanine, 2H3",10.95,63414896,0,6009159,3.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"L-Alanine, 2H3",10.95,62549052,0,5618472,3.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"L-Alanine, 2H3",11.15,78267392,0,4444450,3.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"L-Alanine, 2H3",11.22,80912768,0,4810748,3.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Cytosine, 13C2, 15N3",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Cytosine, 13C2, 15N3",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Cytosine, 13C2, 15N3",7.43,1868466,0,140865,-1.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Cytosine, 13C2, 15N3",7.46,1995202,0,137246,-1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Cytosine, 13C2, 15N3",7.45,12879240,0,767665,-1.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Cytosine, 13C2, 15N3",7.48,12437032,0,743575,-1.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Cytosine, 13C2, 15N3",7.49,57168196,0,3164006,-1.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Cytosine, 13C2, 15N3",7.46,60042680,0,3422579,-1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Cytosine, 13C2, 15N3",7.42,230948032,0,13072374,-0.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Cytosine, 13C2, 15N3",7.45,225786928,0,13458119,-1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Cytosine, 13C2, 15N3",7.45,290384160,0,15935951,-0.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Cytosine, 13C2, 15N3",7.46,296366240,0,16470539,-1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"L-Proline, 2H7",10.05,78240,0,61605,0.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"L-Proline, 2H7",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"L-Proline, 2H7",9.38,872108,0,79371,1.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"L-Proline, 2H7",9.38,1124880,0,67015,1.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"L-Proline, 2H7",9.35,5768010,0,359796,2.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"L-Proline, 2H7",9.36,5556613,0,336941,1.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"L-Proline, 2H7",9.39,62608548,0,4269524,1.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"L-Proline, 2H7",9.39,62533568,0,4111745,1.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"L-Proline, 2H7",9.43,198559568,0,11402011,1.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"L-Proline, 2H7",9.46,196226736,0,12086578,1.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"L-Proline, 2H7",9.44,276215360,0,17718740,1.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"L-Proline, 2H7",9.43,263029008,0,16081209,1.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Glycine betaine, 13C5, 15N",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Glycine betaine, 13C5, 15N",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Glycine betaine, 13C5, 15N",7.86,4968972,0,306963,-1.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Glycine betaine, 13C5, 15N",7.85,5295423,0,310103,-1.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Glycine betaine, 13C5, 15N",7.81,29409052,0,1589391,-1.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Glycine betaine, 13C5, 15N",7.81,29946128,0,1643054,-2.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Glycine betaine, 13C5, 15N",7.84,272073984,2878185,14645121,-2.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Glycine betaine, 13C5, 15N",7.84,281578016,2605106,15460694,-2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Glycine betaine, 13C5, 15N",7.76,960321408,9982882,40293704,-2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Glycine betaine, 13C5, 15N",7.82,968281792,8991892,40712980,-2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Glycine betaine, 13C5, 15N",7.82,1379306752,15745201,49351868,-1.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Glycine betaine, 13C5, 15N",7.81,1384682112,5676513,47483264,-1.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"L-Valine, 2H8",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"L-Valine, 2H8",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"L-Valine, 2H8",8.64,0,0,0,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"L-Valine, 2H8",7.82,49279,0,14695,1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"L-Valine, 2H8",7.79,1129524,0,97969,1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"L-Valine, 2H8",7.7,1210005,0,94808,1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"L-Valine, 2H8",8.23,10462069,0,558665,1.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"L-Valine, 2H8",8.14,10993222,0,621645,1.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"L-Valine, 2H8",8.36,35244228,0,1094170,1.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"L-Valine, 2H8",8.33,36602380,0,1040309,1.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"L-Valine, 2H8",8.42,68774552,0,2022036,1.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"L-Valine, 2H8",8.39,64672428,0,1706594,1.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"L-Isoleucine, 15N",6.59,2031174,0,172168,1.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"L-Isoleucine, 15N",5.74,192358,0,44862,0.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"L-Isoleucine, 15N",7.45,38063,0,7647,-4.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"L-Isoleucine, 15N",5.62,72107,0,11881,-2.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"L-Isoleucine, 15N",6.77,445344,0,47936,0.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"L-Isoleucine, 15N",6.71,413367,0,40752,0.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"L-Isoleucine, 15N",6.87,11408673,0,309237,1.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"L-Isoleucine, 15N",6.8,11341913,0,271232,1.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"L-Isoleucine, 15N",6.77,63974708,0,1367531,2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"L-Isoleucine, 15N",6.76,61220080,0,1301506,2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"L-Isoleucine, 15N",6.74,119017896,0,2626367,2.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"L-Isoleucine, 15N",6.82,121670648,0,2653167,2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Ornithine, 2H6",17.57,14169,0,13925,3.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Ornithine, 2H6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Homarine, 2H3",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Homarine, 2H3",5.25,4910,0,3752,5.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Homarine, 2H3",6.02,25050046,0,867641,-2.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Homarine, 2H3",6.1,26073980,0,883473,-1.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Homarine, 2H3",6.11,130859512,502445,4335791,-1.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Homarine, 2H3",6.08,137604304,0,4593174,-2.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Homarine, 2H3",6.05,1349876480,13157296,45577904,-2.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Homarine, 2H3",6.05,1340468736,15544205,44988392,-2.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Homarine, 2H3",6.1,6930178048,90048320,236466896,-2.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Homarine, 2H3",6.05,6984451072,65665364,231886752,-2.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Homarine, 2H3",6.08,13473907712,193111680,448560192,-2.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Homarine, 2H3",6.07,13452955648,194369392,460833792,-2.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"L-Methionine, 2H3",6.37,9918458,0,162570,0.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"L-Methionine, 2H3",7.45,25023504,3512209,927362,0.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"L-Methionine, 2H3",5.83,1261563,14506113,42267,0.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"L-Methionine, 2H3",7.31,1696737,13687143,43220,0.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"L-Methionine, 2H3",5.94,4403039,13273476,108821,0.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"L-Methionine, 2H3",5.69,3302461,13520104,72790,0.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"L-Methionine, 2H3",6.24,33287208,0,467612,0.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"L-Methionine, 2H3",5.89,33670592,0,436173,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"L-Methionine, 2H3",5.99,93565056,13464295,1520162,0.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"L-Methionine, 2H3",5.88,104002864,0,1520756,0.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"L-Methionine, 2H3",5.89,175741968,0,2877860,0.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"L-Methionine, 2H3",5.97,172503840,3697197,2853690,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Guanine, 13C, 15N2",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Guanine, 13C, 15N2",8.25,19584,0,15061,2.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Guanine, 13C, 15N2",8.73,2434549,0,145367,-2.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Guanine, 13C, 15N2",8.74,2755979,0,152719,-2.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Guanine, 13C, 15N2",8.72,13479729,0,822234,-2.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Guanine, 13C, 15N2",8.73,14361318,0,806660,-2.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Guanine, 13C, 15N2",8.73,100195840,1276974,6444351,-2.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Guanine, 13C, 15N2",8.75,101146288,788578,6429128,-2.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Guanine, 13C, 15N2",8.77,415809536,0,23527176,-2.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Guanine, 13C, 15N2",8.77,413524000,5612177,25430858,-2.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Guanine, 13C, 15N2",8.77,631225536,662344,34914084,-2.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Guanine, 13C, 15N2",8.77,606894016,8546652,34270996,-2.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"L-Histidine, 15N",11.3,33941464,0,316077,1.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"L-Histidine, 15N",11.31,12086,0,11085,-5.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"L-Histidine, 15N",11.47,34863,0,22177,0,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"L-Histidine, 15N",11.25,30791,0,17488,-0.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"L-Histidine, 15N",11.48,101657,488790,46436,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"L-Histidine, 15N",11.45,150463,378994,40116,0.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"L-Histidine, 15N",11.58,5032374,16294819,383953,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"L-Histidine, 15N",11.61,104312816,0,1031448,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"L-Histidine, 15N",10.9,84455016,0,4407139,0.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"L-Histidine, 15N",10.84,85671208,0,3833767,0.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"L-Histidine, 15N",11.04,83131816,0,4267102,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"L-Histidine, 15N",11.09,82516392,0,4224314,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Citrulline, 2H4",12.05,58027,0,42878,1.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Citrulline, 2H4",12.09,20252,0,18416,0.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Citrulline, 2H4",12.22,22440,0,19303,-0.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Citrulline, 2H4",12.22,19619,0,16986,-0.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Citrulline, 2H4",12.36,17182,0,13305,2.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Citrulline, 2H4",12.46,20942,0,14402,1.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Citrulline, 2H4",12.14,26660,0,15931,0.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Citrulline, 2H4",12.3,21015,0,18225,0.4,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Citrulline, 2H4",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Citrulline, 2H4",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Citrulline, 2H4",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Citrulline, 2H4",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Arsenobetaine, 13C2",7.48,5135078,117863,618811,-6.7,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Arsenobetaine, 13C2",7.21,82020,0,8783,7.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Arsenobetaine, 13C2",7.62,5700453,10497,298517,0.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Arsenobetaine, 13C2",7.65,6308645,67603,374957,0.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Arsenobetaine, 13C2",7.67,36988876,670665,2022270,0.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Arsenobetaine, 13C2",7.67,38252536,193624,2093862,0.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Arsenobetaine, 13C2",7.67,385135648,3572611,20657196,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Arsenobetaine, 13C2",7.68,397979712,5204894,20509046,0.8,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Arsenobetaine, 13C2",7.65,1796489600,30318862,99546224,0.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Arsenobetaine, 13C2",7.67,1809605760,32725964,100454736,0.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Arsenobetaine, 13C2",7.64,2880194560,52888484,157574784,1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Arsenobetaine, 13C2",7.65,2864158464,50274812,147448256,0.9,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"L-Arginine, 13C6, 15N4",20.91,70832,0,16194,3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"L-Arginine, 13C6, 15N4",22,61621,0,25434,0.6,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"L-Arginine, 13C6, 15N4",21.03,561156,0,34680,1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"L-Arginine, 13C6, 15N4",21.08,606850,0,46147,1.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"L-Arginine, 13C6, 15N4",21.12,5365575,0,160679,0,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"L-Arginine, 13C6, 15N4",21,5981420,0,177883,-0.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"L-Arginine, 13C6, 15N4",21.03,73186168,0,2303714,-0.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"L-Arginine, 13C6, 15N4",21.06,76905688,0,2452689,-0.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"L-Arginine, 13C6, 15N4",20.87,413913536,0,13151595,-0.2,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"L-Arginine, 13C6, 15N4",20.87,416880096,0,13344080,-0.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"L-Arginine, 13C6, 15N4",20.7,752639680,4547036,20257862,-0.3,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"L-Arginine, 13C6, 15N4",20.82,765710400,5621424,19091992,-0.5,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix1InH2O_1,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Std_4uMStdsMix2InH2O_1,"Glucosamine, 13C6",11.37,71909688,0,4791380,-3.1,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_A,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_500x_B,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_A,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_100x_B,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_A,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_10x_B,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_A,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_2x_B,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_A,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos
+HILIC_InternalStandards_Pos,250925_Smp_D1_DilTest_1x_B,"Glucosamine, 13C6",#N/A,#N/A,#N/A,#N/A,#N/A,HILIC_InternalStandards_Pos

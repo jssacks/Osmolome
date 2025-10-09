@@ -37,12 +37,15 @@ vol.filt.dat <- read_csv(vol.file)
 ## calculate concentration in Vial using normal RF and RFratio approach 
 vial.quant.dat <- read_csv(hilic.file)  %>%
   rename("Name" = MF) %>%
+  filter(!str_detect(.$SampID, "Blk")) %>%
   left_join(., vol.filt.dat) %>%
   filter(!is.na(Vol_L)) %>%
   left_join(., rf.dat) %>%
   mutate(umol.in.vial.ave = Adjusted_Area/RF/RFratio,
          umol.in.vial.max = Adjusted_Area/RFmin/RFratio,
          umol.in.vial.min = Adjusted_Area/RFmax/RFratio) 
+
+write_csv(vial.quant.dat, file = "Intermediates/Part_Vial_Quant_Dat.csv")
 
 
 
@@ -80,7 +83,11 @@ hilic.notnorm.dat <- read_csv(hilic.file.notnorm) %>%
   filter(!str_detect(.$SampID, "Poo")) %>%
   filter(!str_detect(.$SampID, "Std")) %>%
   filter(!str_detect(.$SampID, "Blk")) %>%
-  filter(!SampID == "221006_Smp_S7_C1_D1_A")
+  filter(!SampID == "221006_Smp_S7_C1_D1_A") %>%
+  mutate(IS = case_when(IS == "Sucrose, 13C12" ~ "Sucrose, 13C",
+                        IS == "Trehalose, 13C12" ~ "Trehalose, 13C", 
+                        IS == "L-Proline, 2H7" ~ "DL-Proline, 2H7",
+                                   TRUE ~ IS)) 
 
 
 
@@ -91,6 +98,7 @@ vial.is.quant.dat <- left_join(hilic.notnorm.dat, is.std) %>%
   filter(!is.na(Vol_L)) %>%
   unite(c(Cruise, Name), remove = FALSE, col = "cruise_comp")
 
+write_csv(vial.is.quant.dat, "Intermediates/Part_IS_vial_quant.csv")
 
 smp.quant.dat.all <- vial.quant.dat %>%
   select(Name, SampID, Cruise, umol.in.vial.ave, Vol_L) %>%
@@ -105,8 +113,6 @@ smp.quant.dat.all <- vial.quant.dat %>%
                                      TRUE ~ 1)) %>%
   mutate(nM.in.smp = umol.in.vial.ave*10^-6*400/(Vol_L)*1000*dilution.factor)%>%
   unique()
-
-
 
 
 #Calculate nM C and N per sample
@@ -137,6 +143,12 @@ samp.quant.dat <- left_join(smp.quant.dat.all, std.formula) %>%
          nM_S = nM.in.smp*S) %>%
   select(Name, SampID, Cruise, Vol_L, umol.in.vial.ave, nM.in.smp, nM_C, nM_N, nM_S)
 
+
 write_csv(samp.quant.dat, file = "Intermediates/Particulate_Quant_Output.csv")
+
+
+
+
+
 
 

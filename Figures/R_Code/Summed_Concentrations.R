@@ -201,6 +201,9 @@ ggsave(Summed.comb.fig, file = "Figures/Outputs/POC_Salinity_Correlation_Plots.p
        height = 4, width = 7, dpi = 600, scale = 1.5)
 
 
+ggsave(Summed.comb.fig, file = "Figures/Outputs/POC_Salinity_Correlation_Plots_Pres.pdf",
+       height = 4, width = 7, dpi = 600, scale = 1.5)
+
 ###Comparing dissolved and particulate total concentrations:
 
 # ggplot(summed.dat, aes(x = Sum.Part.nM, y = Sum.Diss.nM)) +

@@ -1,0 +1,657 @@
+Rep,Compound,detected
+170706_Smp_S3E15D15_A,Trimethylamine N-oxide,No
+170706_Smp_S3E15D15_B,Trimethylamine N-oxide,No
+170706_Smp_S3E15D15_C,Trimethylamine N-oxide,No
+170706_Smp_S3E15E15_Ds,Trimethylamine N-oxide,No
+170706_Smp_S4E16D15_A,Trimethylamine N-oxide,No
+170706_Smp_S4E16D15_B,Trimethylamine N-oxide,No
+170706_Smp_S4E16D15_C,Trimethylamine N-oxide,No
+170706_Smp_S4E16D15_Ds,Trimethylamine N-oxide,No
+170706_Smp_S5E28D15_A,Trimethylamine N-oxide,No
+170706_Smp_S5E28D15_B,Trimethylamine N-oxide,No
+170706_Smp_S5E28D15_C,Trimethylamine N-oxide,No
+170706_Smp_S5E28D15_Ds,Trimethylamine N-oxide,No
+170706_Smp_S6E37D15_A,Trimethylamine N-oxide,No
+170706_Smp_S6E37D15_B,Trimethylamine N-oxide,No
+170706_Smp_S6E37D15_C,Trimethylamine N-oxide,No
+170706_Smp_S6E37D15_Ds,Trimethylamine N-oxide,No
+170706_Smp_S3E15D15_A,beta-Alanine,Yes
+170706_Smp_S3E15D15_B,beta-Alanine,Yes
+170706_Smp_S3E15D15_C,beta-Alanine,Yes
+170706_Smp_S3E15E15_Ds,beta-Alanine,Yes
+170706_Smp_S4E16D15_A,beta-Alanine,Yes
+170706_Smp_S4E16D15_B,beta-Alanine,Yes
+170706_Smp_S4E16D15_C,beta-Alanine,Yes
+170706_Smp_S4E16D15_Ds,beta-Alanine,Yes
+170706_Smp_S5E28D15_A,beta-Alanine,Yes
+170706_Smp_S5E28D15_B,beta-Alanine,Yes
+170706_Smp_S5E28D15_C,beta-Alanine,Yes
+170706_Smp_S5E28D15_Ds,beta-Alanine,Yes
+170706_Smp_S6E37D15_A,beta-Alanine,Yes
+170706_Smp_S6E37D15_B,beta-Alanine,Yes
+170706_Smp_S6E37D15_C,beta-Alanine,Yes
+170706_Smp_S6E37D15_Ds,beta-Alanine,Yes
+170706_Smp_S3E15D15_A,L-Alanine,Yes
+170706_Smp_S3E15D15_B,L-Alanine,Yes
+170706_Smp_S3E15D15_C,L-Alanine,Yes
+170706_Smp_S3E15E15_Ds,L-Alanine,Yes
+170706_Smp_S4E16D15_A,L-Alanine,Yes
+170706_Smp_S4E16D15_B,L-Alanine,Yes
+170706_Smp_S4E16D15_C,L-Alanine,Yes
+170706_Smp_S4E16D15_Ds,L-Alanine,Yes
+170706_Smp_S5E28D15_A,L-Alanine,Yes
+170706_Smp_S5E28D15_B,L-Alanine,Yes
+170706_Smp_S5E28D15_C,L-Alanine,Yes
+170706_Smp_S5E28D15_Ds,L-Alanine,Yes
+170706_Smp_S6E37D15_A,L-Alanine,Yes
+170706_Smp_S6E37D15_B,L-Alanine,Yes
+170706_Smp_S6E37D15_C,L-Alanine,Yes
+170706_Smp_S6E37D15_Ds,L-Alanine,Yes
+170706_Smp_S3E15D15_A,Sarcosine,Yes
+170706_Smp_S3E15D15_B,Sarcosine,Yes
+170706_Smp_S3E15D15_C,Sarcosine,Yes
+170706_Smp_S3E15E15_Ds,Sarcosine,No
+170706_Smp_S4E16D15_A,Sarcosine,Yes
+170706_Smp_S4E16D15_B,Sarcosine,Yes
+170706_Smp_S4E16D15_C,Sarcosine,Yes
+170706_Smp_S4E16D15_Ds,Sarcosine,Yes
+170706_Smp_S5E28D15_A,Sarcosine,Yes
+170706_Smp_S5E28D15_B,Sarcosine,Yes
+170706_Smp_S5E28D15_C,Sarcosine,Yes
+170706_Smp_S5E28D15_Ds,Sarcosine,Yes
+170706_Smp_S6E37D15_A,Sarcosine,Yes
+170706_Smp_S6E37D15_B,Sarcosine,Yes
+170706_Smp_S6E37D15_C,Sarcosine,Yes
+170706_Smp_S6E37D15_Ds,Sarcosine,Yes
+170706_Smp_S3E15D15_A,L-Serine,No
+170706_Smp_S3E15D15_B,L-Serine,No
+170706_Smp_S3E15D15_C,L-Serine,No
+170706_Smp_S3E15E15_Ds,L-Serine,No
+170706_Smp_S4E16D15_A,L-Serine,No
+170706_Smp_S4E16D15_B,L-Serine,No
+170706_Smp_S4E16D15_C,L-Serine,No
+170706_Smp_S4E16D15_Ds,L-Serine,No
+170706_Smp_S5E28D15_A,L-Serine,No
+170706_Smp_S5E28D15_B,L-Serine,No
+170706_Smp_S5E28D15_C,L-Serine,Yes
+170706_Smp_S5E28D15_Ds,L-Serine,No
+170706_Smp_S6E37D15_A,L-Serine,Yes
+170706_Smp_S6E37D15_B,L-Serine,Yes
+170706_Smp_S6E37D15_C,L-Serine,Yes
+170706_Smp_S6E37D15_Ds,L-Serine,Yes
+170706_Smp_S3E15D15_A,L-Proline,Yes
+170706_Smp_S3E15D15_B,L-Proline,Yes
+170706_Smp_S3E15D15_C,L-Proline,Yes
+170706_Smp_S3E15E15_Ds,L-Proline,Yes
+170706_Smp_S4E16D15_A,L-Proline,Yes
+170706_Smp_S4E16D15_B,L-Proline,Yes
+170706_Smp_S4E16D15_C,L-Proline,Yes
+170706_Smp_S4E16D15_Ds,L-Proline,Yes
+170706_Smp_S5E28D15_A,L-Proline,Yes
+170706_Smp_S5E28D15_B,L-Proline,Yes
+170706_Smp_S5E28D15_C,L-Proline,Yes
+170706_Smp_S5E28D15_Ds,L-Proline,Yes
+170706_Smp_S6E37D15_A,L-Proline,Yes
+170706_Smp_S6E37D15_B,L-Proline,Yes
+170706_Smp_S6E37D15_C,L-Proline,Yes
+170706_Smp_S6E37D15_Ds,L-Proline,Yes
+170706_Smp_S3E15D15_A,Glycine betaine,Yes
+170706_Smp_S3E15D15_B,Glycine betaine,Yes
+170706_Smp_S3E15D15_C,Glycine betaine,Yes
+170706_Smp_S3E15E15_Ds,Glycine betaine,Yes
+170706_Smp_S4E16D15_A,Glycine betaine,Yes
+170706_Smp_S4E16D15_B,Glycine betaine,Yes
+170706_Smp_S4E16D15_C,Glycine betaine,Yes
+170706_Smp_S4E16D15_Ds,Glycine betaine,Yes
+170706_Smp_S5E28D15_A,Glycine betaine,Yes
+170706_Smp_S5E28D15_B,Glycine betaine,Yes
+170706_Smp_S5E28D15_C,Glycine betaine,Yes
+170706_Smp_S5E28D15_Ds,Glycine betaine,Yes
+170706_Smp_S6E37D15_A,Glycine betaine,Yes
+170706_Smp_S6E37D15_B,Glycine betaine,Yes
+170706_Smp_S6E37D15_C,Glycine betaine,Yes
+170706_Smp_S6E37D15_Ds,Glycine betaine,Yes
+170706_Smp_S3E15D15_A,L-Threonine,Yes
+170706_Smp_S3E15D15_B,L-Threonine,Yes
+170706_Smp_S3E15D15_C,L-Threonine,No
+170706_Smp_S3E15E15_Ds,L-Threonine,No
+170706_Smp_S4E16D15_A,L-Threonine,Yes
+170706_Smp_S4E16D15_B,L-Threonine,Yes
+170706_Smp_S4E16D15_C,L-Threonine,Yes
+170706_Smp_S4E16D15_Ds,L-Threonine,No
+170706_Smp_S5E28D15_A,L-Threonine,Yes
+170706_Smp_S5E28D15_B,L-Threonine,Yes
+170706_Smp_S5E28D15_C,L-Threonine,Yes
+170706_Smp_S5E28D15_Ds,L-Threonine,Yes
+170706_Smp_S6E37D15_A,L-Threonine,Yes
+170706_Smp_S6E37D15_B,L-Threonine,Yes
+170706_Smp_S6E37D15_C,L-Threonine,Yes
+170706_Smp_S6E37D15_Ds,L-Threonine,Yes
+170706_Smp_S3E15D15_A,Dimethylsulfonioacetate,Yes
+170706_Smp_S3E15D15_B,Dimethylsulfonioacetate,Yes
+170706_Smp_S3E15D15_C,Dimethylsulfonioacetate,Yes
+170706_Smp_S3E15E15_Ds,Dimethylsulfonioacetate,Yes
+170706_Smp_S4E16D15_A,Dimethylsulfonioacetate,Yes
+170706_Smp_S4E16D15_B,Dimethylsulfonioacetate,Yes
+170706_Smp_S4E16D15_C,Dimethylsulfonioacetate,Yes
+170706_Smp_S4E16D15_Ds,Dimethylsulfonioacetate,Yes
+170706_Smp_S5E28D15_A,Dimethylsulfonioacetate,Yes
+170706_Smp_S5E28D15_B,Dimethylsulfonioacetate,Yes
+170706_Smp_S5E28D15_C,Dimethylsulfonioacetate,Yes
+170706_Smp_S5E28D15_Ds,Dimethylsulfonioacetate,Yes
+170706_Smp_S6E37D15_A,Dimethylsulfonioacetate,Yes
+170706_Smp_S6E37D15_B,Dimethylsulfonioacetate,Yes
+170706_Smp_S6E37D15_C,Dimethylsulfonioacetate,Yes
+170706_Smp_S6E37D15_Ds,Dimethylsulfonioacetate,Yes
+170706_Smp_S3E15D15_A,beta-Alaninebetaine,Yes
+170706_Smp_S3E15D15_B,beta-Alaninebetaine,Yes
+170706_Smp_S3E15D15_C,beta-Alaninebetaine,Yes
+170706_Smp_S3E15E15_Ds,beta-Alaninebetaine,Yes
+170706_Smp_S4E16D15_A,beta-Alaninebetaine,Yes
+170706_Smp_S4E16D15_B,beta-Alaninebetaine,Yes
+170706_Smp_S4E16D15_C,beta-Alaninebetaine,Yes
+170706_Smp_S4E16D15_Ds,beta-Alaninebetaine,Yes
+170706_Smp_S5E28D15_A,beta-Alaninebetaine,Yes
+170706_Smp_S5E28D15_B,beta-Alaninebetaine,Yes
+170706_Smp_S5E28D15_C,beta-Alaninebetaine,Yes
+170706_Smp_S5E28D15_Ds,beta-Alaninebetaine,Yes
+170706_Smp_S6E37D15_A,beta-Alaninebetaine,Yes
+170706_Smp_S6E37D15_B,beta-Alaninebetaine,Yes
+170706_Smp_S6E37D15_C,beta-Alaninebetaine,Yes
+170706_Smp_S6E37D15_Ds,beta-Alaninebetaine,Yes
+170706_Smp_S3E15D15_A,L-Isoleucine,Yes
+170706_Smp_S3E15D15_B,L-Isoleucine,Yes
+170706_Smp_S3E15D15_C,L-Isoleucine,Yes
+170706_Smp_S3E15E15_Ds,L-Isoleucine,Yes
+170706_Smp_S4E16D15_A,L-Isoleucine,Yes
+170706_Smp_S4E16D15_B,L-Isoleucine,Yes
+170706_Smp_S4E16D15_C,L-Isoleucine,Yes
+170706_Smp_S4E16D15_Ds,L-Isoleucine,Yes
+170706_Smp_S5E28D15_A,L-Isoleucine,Yes
+170706_Smp_S5E28D15_B,L-Isoleucine,Yes
+170706_Smp_S5E28D15_C,L-Isoleucine,Yes
+170706_Smp_S5E28D15_Ds,L-Isoleucine,Yes
+170706_Smp_S6E37D15_A,L-Isoleucine,Yes
+170706_Smp_S6E37D15_B,L-Isoleucine,Yes
+170706_Smp_S6E37D15_C,L-Isoleucine,Yes
+170706_Smp_S6E37D15_Ds,L-Isoleucine,Yes
+170706_Smp_S3E15D15_A,L-Asparagine,Yes
+170706_Smp_S3E15D15_B,L-Asparagine,Yes
+170706_Smp_S3E15D15_C,L-Asparagine,Yes
+170706_Smp_S3E15E15_Ds,L-Asparagine,Yes
+170706_Smp_S4E16D15_A,L-Asparagine,Yes
+170706_Smp_S4E16D15_B,L-Asparagine,Yes
+170706_Smp_S4E16D15_C,L-Asparagine,Yes
+170706_Smp_S4E16D15_Ds,L-Asparagine,Yes
+170706_Smp_S5E28D15_A,L-Asparagine,Yes
+170706_Smp_S5E28D15_B,L-Asparagine,Yes
+170706_Smp_S5E28D15_C,L-Asparagine,Yes
+170706_Smp_S5E28D15_Ds,L-Asparagine,Yes
+170706_Smp_S6E37D15_A,L-Asparagine,Yes
+170706_Smp_S6E37D15_B,L-Asparagine,Yes
+170706_Smp_S6E37D15_C,L-Asparagine,Yes
+170706_Smp_S6E37D15_Ds,L-Asparagine,Yes
+170706_Smp_S3E15D15_A,L-Aspartic acid,Yes
+170706_Smp_S3E15D15_B,L-Aspartic acid,Yes
+170706_Smp_S3E15D15_C,L-Aspartic acid,Yes
+170706_Smp_S3E15E15_Ds,L-Aspartic acid,Yes
+170706_Smp_S4E16D15_A,L-Aspartic acid,Yes
+170706_Smp_S4E16D15_B,L-Aspartic acid,Yes
+170706_Smp_S4E16D15_C,L-Aspartic acid,Yes
+170706_Smp_S4E16D15_Ds,L-Aspartic acid,Yes
+170706_Smp_S5E28D15_A,L-Aspartic acid,Yes
+170706_Smp_S5E28D15_B,L-Aspartic acid,Yes
+170706_Smp_S5E28D15_C,L-Aspartic acid,Yes
+170706_Smp_S5E28D15_Ds,L-Aspartic acid,Yes
+170706_Smp_S6E37D15_A,L-Aspartic acid,Yes
+170706_Smp_S6E37D15_B,L-Aspartic acid,Yes
+170706_Smp_S6E37D15_C,L-Aspartic acid,Yes
+170706_Smp_S6E37D15_Ds,L-Aspartic acid,Yes
+170706_Smp_S3E15D15_A,Dimethylsulfoniopropionate,Yes
+170706_Smp_S3E15D15_B,Dimethylsulfoniopropionate,Yes
+170706_Smp_S3E15D15_C,Dimethylsulfoniopropionate,Yes
+170706_Smp_S3E15E15_Ds,Dimethylsulfoniopropionate,Yes
+170706_Smp_S4E16D15_A,Dimethylsulfoniopropionate,Yes
+170706_Smp_S4E16D15_B,Dimethylsulfoniopropionate,Yes
+170706_Smp_S4E16D15_C,Dimethylsulfoniopropionate,Yes
+170706_Smp_S4E16D15_Ds,Dimethylsulfoniopropionate,Yes
+170706_Smp_S5E28D15_A,Dimethylsulfoniopropionate,Yes
+170706_Smp_S5E28D15_B,Dimethylsulfoniopropionate,Yes
+170706_Smp_S5E28D15_C,Dimethylsulfoniopropionate,Yes
+170706_Smp_S5E28D15_Ds,Dimethylsulfoniopropionate,No
+170706_Smp_S6E37D15_A,Dimethylsulfoniopropionate,Yes
+170706_Smp_S6E37D15_B,Dimethylsulfoniopropionate,Yes
+170706_Smp_S6E37D15_C,Dimethylsulfoniopropionate,Yes
+170706_Smp_S6E37D15_Ds,Dimethylsulfoniopropionate,Yes
+170706_Smp_S3E15D15_A,Homarine,Yes
+170706_Smp_S3E15D15_B,Homarine,Yes
+170706_Smp_S3E15D15_C,Homarine,Yes
+170706_Smp_S3E15E15_Ds,Homarine,Yes
+170706_Smp_S4E16D15_A,Homarine,Yes
+170706_Smp_S4E16D15_B,Homarine,Yes
+170706_Smp_S4E16D15_C,Homarine,Yes
+170706_Smp_S4E16D15_Ds,Homarine,Yes
+170706_Smp_S5E28D15_A,Homarine,Yes
+170706_Smp_S5E28D15_B,Homarine,Yes
+170706_Smp_S5E28D15_C,Homarine,Yes
+170706_Smp_S5E28D15_Ds,Homarine,Yes
+170706_Smp_S6E37D15_A,Homarine,Yes
+170706_Smp_S6E37D15_B,Homarine,Yes
+170706_Smp_S6E37D15_C,Homarine,Yes
+170706_Smp_S6E37D15_Ds,Homarine,Yes
+170706_Smp_S3E15D15_A,Trigonelline,Yes
+170706_Smp_S3E15D15_B,Trigonelline,Yes
+170706_Smp_S3E15D15_C,Trigonelline,Yes
+170706_Smp_S3E15E15_Ds,Trigonelline,Yes
+170706_Smp_S4E16D15_A,Trigonelline,Yes
+170706_Smp_S4E16D15_B,Trigonelline,Yes
+170706_Smp_S4E16D15_C,Trigonelline,Yes
+170706_Smp_S4E16D15_Ds,Trigonelline,Yes
+170706_Smp_S5E28D15_A,Trigonelline,Yes
+170706_Smp_S5E28D15_B,Trigonelline,Yes
+170706_Smp_S5E28D15_C,Trigonelline,Yes
+170706_Smp_S5E28D15_Ds,Trigonelline,Yes
+170706_Smp_S6E37D15_A,Trigonelline,Yes
+170706_Smp_S6E37D15_B,Trigonelline,Yes
+170706_Smp_S6E37D15_C,Trigonelline,Yes
+170706_Smp_S6E37D15_Ds,Trigonelline,Yes
+170706_Smp_S3E15D15_A,Ectoine,Yes
+170706_Smp_S3E15D15_B,Ectoine,Yes
+170706_Smp_S3E15D15_C,Ectoine,Yes
+170706_Smp_S3E15E15_Ds,Ectoine,Yes
+170706_Smp_S4E16D15_A,Ectoine,Yes
+170706_Smp_S4E16D15_B,Ectoine,Yes
+170706_Smp_S4E16D15_C,Ectoine,Yes
+170706_Smp_S4E16D15_Ds,Ectoine,Yes
+170706_Smp_S5E28D15_A,Ectoine,Yes
+170706_Smp_S5E28D15_B,Ectoine,Yes
+170706_Smp_S5E28D15_C,Ectoine,Yes
+170706_Smp_S5E28D15_Ds,Ectoine,Yes
+170706_Smp_S6E37D15_A,Ectoine,Yes
+170706_Smp_S6E37D15_B,Ectoine,Yes
+170706_Smp_S6E37D15_C,Ectoine,Yes
+170706_Smp_S6E37D15_Ds,Ectoine,Yes
+170706_Smp_S3E15D15_A,Proline betaine,Yes
+170706_Smp_S3E15D15_B,Proline betaine,Yes
+170706_Smp_S3E15D15_C,Proline betaine,Yes
+170706_Smp_S3E15E15_Ds,Proline betaine,Yes
+170706_Smp_S4E16D15_A,Proline betaine,Yes
+170706_Smp_S4E16D15_B,Proline betaine,Yes
+170706_Smp_S4E16D15_C,Proline betaine,Yes
+170706_Smp_S4E16D15_Ds,Proline betaine,Yes
+170706_Smp_S5E28D15_A,Proline betaine,Yes
+170706_Smp_S5E28D15_B,Proline betaine,Yes
+170706_Smp_S5E28D15_C,Proline betaine,Yes
+170706_Smp_S5E28D15_Ds,Proline betaine,Yes
+170706_Smp_S6E37D15_A,Proline betaine,Yes
+170706_Smp_S6E37D15_B,Proline betaine,Yes
+170706_Smp_S6E37D15_C,Proline betaine,Yes
+170706_Smp_S6E37D15_Ds,Proline betaine,Yes
+170706_Smp_S3E15D15_A,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S3E15D15_B,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S3E15D15_C,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S3E15E15_Ds,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S4E16D15_A,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S4E16D15_B,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S4E16D15_C,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S4E16D15_Ds,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S5E28D15_A,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S5E28D15_B,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S5E28D15_C,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S5E28D15_Ds,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S6E37D15_A,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S6E37D15_B,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S6E37D15_C,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S6E37D15_Ds,(3-Carboxypropyl)trimethylammonium,Yes
+170706_Smp_S3E15D15_A,L-Glutamine,Yes
+170706_Smp_S3E15D15_B,L-Glutamine,Yes
+170706_Smp_S3E15D15_C,L-Glutamine,Yes
+170706_Smp_S3E15E15_Ds,L-Glutamine,Yes
+170706_Smp_S4E16D15_A,L-Glutamine,Yes
+170706_Smp_S4E16D15_B,L-Glutamine,Yes
+170706_Smp_S4E16D15_C,L-Glutamine,Yes
+170706_Smp_S4E16D15_Ds,L-Glutamine,Yes
+170706_Smp_S5E28D15_A,L-Glutamine,Yes
+170706_Smp_S5E28D15_B,L-Glutamine,Yes
+170706_Smp_S5E28D15_C,L-Glutamine,Yes
+170706_Smp_S5E28D15_Ds,L-Glutamine,Yes
+170706_Smp_S6E37D15_A,L-Glutamine,Yes
+170706_Smp_S6E37D15_B,L-Glutamine,Yes
+170706_Smp_S6E37D15_C,L-Glutamine,Yes
+170706_Smp_S6E37D15_Ds,L-Glutamine,Yes
+170706_Smp_S3E15D15_A,L-Lysine,Yes
+170706_Smp_S3E15D15_B,L-Lysine,Yes
+170706_Smp_S3E15D15_C,L-Lysine,Yes
+170706_Smp_S3E15E15_Ds,L-Lysine,Yes
+170706_Smp_S4E16D15_A,L-Lysine,Yes
+170706_Smp_S4E16D15_B,L-Lysine,Yes
+170706_Smp_S4E16D15_C,L-Lysine,Yes
+170706_Smp_S4E16D15_Ds,L-Lysine,Yes
+170706_Smp_S5E28D15_A,L-Lysine,Yes
+170706_Smp_S5E28D15_B,L-Lysine,Yes
+170706_Smp_S5E28D15_C,L-Lysine,Yes
+170706_Smp_S5E28D15_Ds,L-Lysine,Yes
+170706_Smp_S6E37D15_A,L-Lysine,Yes
+170706_Smp_S6E37D15_B,L-Lysine,Yes
+170706_Smp_S6E37D15_C,L-Lysine,Yes
+170706_Smp_S6E37D15_Ds,L-Lysine,Yes
+170706_Smp_S3E15D15_A,beta-Glutamic acid,Yes
+170706_Smp_S3E15D15_B,beta-Glutamic acid,Yes
+170706_Smp_S3E15D15_C,beta-Glutamic acid,Yes
+170706_Smp_S3E15E15_Ds,beta-Glutamic acid,Yes
+170706_Smp_S4E16D15_A,beta-Glutamic acid,Yes
+170706_Smp_S4E16D15_B,beta-Glutamic acid,Yes
+170706_Smp_S4E16D15_C,beta-Glutamic acid,Yes
+170706_Smp_S4E16D15_Ds,beta-Glutamic acid,Yes
+170706_Smp_S5E28D15_A,beta-Glutamic acid,Yes
+170706_Smp_S5E28D15_B,beta-Glutamic acid,Yes
+170706_Smp_S5E28D15_C,beta-Glutamic acid,Yes
+170706_Smp_S5E28D15_Ds,beta-Glutamic acid,Yes
+170706_Smp_S6E37D15_A,beta-Glutamic acid,Yes
+170706_Smp_S6E37D15_B,beta-Glutamic acid,Yes
+170706_Smp_S6E37D15_C,beta-Glutamic acid,Yes
+170706_Smp_S6E37D15_Ds,beta-Glutamic acid,Yes
+170706_Smp_S3E15D15_A,L-Glutamic acid,Yes
+170706_Smp_S3E15D15_B,L-Glutamic acid,Yes
+170706_Smp_S3E15D15_C,L-Glutamic acid,Yes
+170706_Smp_S3E15E15_Ds,L-Glutamic acid,Yes
+170706_Smp_S4E16D15_A,L-Glutamic acid,Yes
+170706_Smp_S4E16D15_B,L-Glutamic acid,Yes
+170706_Smp_S4E16D15_C,L-Glutamic acid,Yes
+170706_Smp_S4E16D15_Ds,L-Glutamic acid,Yes
+170706_Smp_S5E28D15_A,L-Glutamic acid,Yes
+170706_Smp_S5E28D15_B,L-Glutamic acid,Yes
+170706_Smp_S5E28D15_C,L-Glutamic acid,Yes
+170706_Smp_S5E28D15_Ds,L-Glutamic acid,Yes
+170706_Smp_S6E37D15_A,L-Glutamic acid,Yes
+170706_Smp_S6E37D15_B,L-Glutamic acid,Yes
+170706_Smp_S6E37D15_C,L-Glutamic acid,Yes
+170706_Smp_S6E37D15_Ds,L-Glutamic acid,Yes
+170706_Smp_S3E15D15_A,Hydroxyisoleucine,Yes
+170706_Smp_S3E15D15_B,Hydroxyisoleucine,Yes
+170706_Smp_S3E15D15_C,Hydroxyisoleucine,Yes
+170706_Smp_S3E15E15_Ds,Hydroxyisoleucine,Yes
+170706_Smp_S4E16D15_A,Hydroxyisoleucine,Yes
+170706_Smp_S4E16D15_B,Hydroxyisoleucine,Yes
+170706_Smp_S4E16D15_C,Hydroxyisoleucine,Yes
+170706_Smp_S4E16D15_Ds,Hydroxyisoleucine,Yes
+170706_Smp_S5E28D15_A,Hydroxyisoleucine,Yes
+170706_Smp_S5E28D15_B,Hydroxyisoleucine,Yes
+170706_Smp_S5E28D15_C,Hydroxyisoleucine,Yes
+170706_Smp_S5E28D15_Ds,Hydroxyisoleucine,Yes
+170706_Smp_S6E37D15_A,Hydroxyisoleucine,Yes
+170706_Smp_S6E37D15_B,Hydroxyisoleucine,Yes
+170706_Smp_S6E37D15_C,Hydroxyisoleucine,Yes
+170706_Smp_S6E37D15_Ds,Hydroxyisoleucine,Yes
+170706_Smp_S3E15D15_A,L-Methionine,Yes
+170706_Smp_S3E15D15_B,L-Methionine,Yes
+170706_Smp_S3E15D15_C,L-Methionine,Yes
+170706_Smp_S3E15E15_Ds,L-Methionine,Yes
+170706_Smp_S4E16D15_A,L-Methionine,Yes
+170706_Smp_S4E16D15_B,L-Methionine,Yes
+170706_Smp_S4E16D15_C,L-Methionine,Yes
+170706_Smp_S4E16D15_Ds,L-Methionine,Yes
+170706_Smp_S5E28D15_A,L-Methionine,Yes
+170706_Smp_S5E28D15_B,L-Methionine,Yes
+170706_Smp_S5E28D15_C,L-Methionine,Yes
+170706_Smp_S5E28D15_Ds,L-Methionine,Yes
+170706_Smp_S6E37D15_A,L-Methionine,Yes
+170706_Smp_S6E37D15_B,L-Methionine,Yes
+170706_Smp_S6E37D15_C,L-Methionine,Yes
+170706_Smp_S6E37D15_Ds,L-Methionine,Yes
+170706_Smp_S3E15D15_A,5-Hydroxyectoine,Yes
+170706_Smp_S3E15D15_B,5-Hydroxyectoine,Yes
+170706_Smp_S3E15D15_C,5-Hydroxyectoine,Yes
+170706_Smp_S3E15E15_Ds,5-Hydroxyectoine,Yes
+170706_Smp_S4E16D15_A,5-Hydroxyectoine,Yes
+170706_Smp_S4E16D15_B,5-Hydroxyectoine,Yes
+170706_Smp_S4E16D15_C,5-Hydroxyectoine,Yes
+170706_Smp_S4E16D15_Ds,5-Hydroxyectoine,Yes
+170706_Smp_S5E28D15_A,5-Hydroxyectoine,Yes
+170706_Smp_S5E28D15_B,5-Hydroxyectoine,Yes
+170706_Smp_S5E28D15_C,5-Hydroxyectoine,Yes
+170706_Smp_S5E28D15_Ds,5-Hydroxyectoine,Yes
+170706_Smp_S6E37D15_A,5-Hydroxyectoine,Yes
+170706_Smp_S6E37D15_B,5-Hydroxyectoine,Yes
+170706_Smp_S6E37D15_C,5-Hydroxyectoine,Yes
+170706_Smp_S6E37D15_Ds,5-Hydroxyectoine,Yes
+170706_Smp_S3E15D15_A,Betonicine,Yes
+170706_Smp_S3E15D15_B,Betonicine,Yes
+170706_Smp_S3E15D15_C,Betonicine,Yes
+170706_Smp_S3E15E15_Ds,Betonicine,Yes
+170706_Smp_S4E16D15_A,Betonicine,Yes
+170706_Smp_S4E16D15_B,Betonicine,Yes
+170706_Smp_S4E16D15_C,Betonicine,Yes
+170706_Smp_S4E16D15_Ds,Betonicine,Yes
+170706_Smp_S5E28D15_A,Betonicine,Yes
+170706_Smp_S5E28D15_B,Betonicine,Yes
+170706_Smp_S5E28D15_C,Betonicine,Yes
+170706_Smp_S5E28D15_Ds,Betonicine,Yes
+170706_Smp_S6E37D15_A,Betonicine,Yes
+170706_Smp_S6E37D15_B,Betonicine,Yes
+170706_Smp_S6E37D15_C,Betonicine,Yes
+170706_Smp_S6E37D15_Ds,Betonicine,Yes
+170706_Smp_S3E15D15_A,Carnitine,Yes
+170706_Smp_S3E15D15_B,Carnitine,Yes
+170706_Smp_S3E15D15_C,Carnitine,Yes
+170706_Smp_S3E15E15_Ds,Carnitine,Yes
+170706_Smp_S4E16D15_A,Carnitine,Yes
+170706_Smp_S4E16D15_B,Carnitine,Yes
+170706_Smp_S4E16D15_C,Carnitine,Yes
+170706_Smp_S4E16D15_Ds,Carnitine,Yes
+170706_Smp_S5E28D15_A,Carnitine,Yes
+170706_Smp_S5E28D15_B,Carnitine,Yes
+170706_Smp_S5E28D15_C,Carnitine,Yes
+170706_Smp_S5E28D15_Ds,Carnitine,Yes
+170706_Smp_S6E37D15_A,Carnitine,Yes
+170706_Smp_S6E37D15_B,Carnitine,Yes
+170706_Smp_S6E37D15_C,Carnitine,Yes
+170706_Smp_S6E37D15_Ds,Carnitine,Yes
+170706_Smp_S3E15D15_A,L-Arginine,Yes
+170706_Smp_S3E15D15_B,L-Arginine,Yes
+170706_Smp_S3E15D15_C,L-Arginine,Yes
+170706_Smp_S3E15E15_Ds,L-Arginine,Yes
+170706_Smp_S4E16D15_A,L-Arginine,Yes
+170706_Smp_S4E16D15_B,L-Arginine,Yes
+170706_Smp_S4E16D15_C,L-Arginine,Yes
+170706_Smp_S4E16D15_Ds,L-Arginine,Yes
+170706_Smp_S5E28D15_A,L-Arginine,Yes
+170706_Smp_S5E28D15_B,L-Arginine,Yes
+170706_Smp_S5E28D15_C,L-Arginine,Yes
+170706_Smp_S5E28D15_Ds,L-Arginine,Yes
+170706_Smp_S6E37D15_A,L-Arginine,Yes
+170706_Smp_S6E37D15_B,L-Arginine,Yes
+170706_Smp_S6E37D15_C,L-Arginine,Yes
+170706_Smp_S6E37D15_Ds,L-Arginine,Yes
+170706_Smp_S3E15D15_A,Arsenobetaine,Yes
+170706_Smp_S3E15D15_B,Arsenobetaine,Yes
+170706_Smp_S3E15D15_C,Arsenobetaine,Yes
+170706_Smp_S3E15E15_Ds,Arsenobetaine,Yes
+170706_Smp_S4E16D15_A,Arsenobetaine,Yes
+170706_Smp_S4E16D15_B,Arsenobetaine,Yes
+170706_Smp_S4E16D15_C,Arsenobetaine,Yes
+170706_Smp_S4E16D15_Ds,Arsenobetaine,Yes
+170706_Smp_S5E28D15_A,Arsenobetaine,Yes
+170706_Smp_S5E28D15_B,Arsenobetaine,Yes
+170706_Smp_S5E28D15_C,Arsenobetaine,Yes
+170706_Smp_S5E28D15_Ds,Arsenobetaine,Yes
+170706_Smp_S6E37D15_A,Arsenobetaine,Yes
+170706_Smp_S6E37D15_B,Arsenobetaine,Yes
+170706_Smp_S6E37D15_C,Arsenobetaine,Yes
+170706_Smp_S6E37D15_Ds,Arsenobetaine,Yes
+170706_Smp_S3E15D15_A,Gonyol,Yes
+170706_Smp_S3E15D15_B,Gonyol,Yes
+170706_Smp_S3E15D15_C,Gonyol,Yes
+170706_Smp_S3E15E15_Ds,Gonyol,Yes
+170706_Smp_S4E16D15_A,Gonyol,Yes
+170706_Smp_S4E16D15_B,Gonyol,Yes
+170706_Smp_S4E16D15_C,Gonyol,Yes
+170706_Smp_S4E16D15_Ds,Gonyol,Yes
+170706_Smp_S5E28D15_A,Gonyol,Yes
+170706_Smp_S5E28D15_B,Gonyol,Yes
+170706_Smp_S5E28D15_C,Gonyol,Yes
+170706_Smp_S5E28D15_Ds,Gonyol,Yes
+170706_Smp_S6E37D15_A,Gonyol,Yes
+170706_Smp_S6E37D15_B,Gonyol,Yes
+170706_Smp_S6E37D15_C,Gonyol,Yes
+170706_Smp_S6E37D15_Ds,Gonyol,Yes
+170706_Smp_S3E15D15_A,L-Tyrosine,Yes
+170706_Smp_S3E15D15_B,L-Tyrosine,Yes
+170706_Smp_S3E15D15_C,L-Tyrosine,Yes
+170706_Smp_S3E15E15_Ds,L-Tyrosine,Yes
+170706_Smp_S4E16D15_A,L-Tyrosine,Yes
+170706_Smp_S4E16D15_B,L-Tyrosine,Yes
+170706_Smp_S4E16D15_C,L-Tyrosine,Yes
+170706_Smp_S4E16D15_Ds,L-Tyrosine,Yes
+170706_Smp_S5E28D15_A,L-Tyrosine,Yes
+170706_Smp_S5E28D15_B,L-Tyrosine,Yes
+170706_Smp_S5E28D15_C,L-Tyrosine,Yes
+170706_Smp_S5E28D15_Ds,L-Tyrosine,Yes
+170706_Smp_S6E37D15_A,L-Tyrosine,Yes
+170706_Smp_S6E37D15_B,L-Tyrosine,Yes
+170706_Smp_S6E37D15_C,L-Tyrosine,Yes
+170706_Smp_S6E37D15_Ds,L-Tyrosine,Yes
+170706_Smp_S3E15D15_A,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S3E15D15_B,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S3E15D15_C,2-O-alpha-D-Glucosylglycerol,No
+170706_Smp_S3E15E15_Ds,2-O-alpha-D-Glucosylglycerol,No
+170706_Smp_S4E16D15_A,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S4E16D15_B,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S4E16D15_C,2-O-alpha-D-Glucosylglycerol,No
+170706_Smp_S4E16D15_Ds,2-O-alpha-D-Glucosylglycerol,No
+170706_Smp_S5E28D15_A,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S5E28D15_B,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S5E28D15_C,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S5E28D15_Ds,2-O-alpha-D-Glucosylglycerol,No
+170706_Smp_S6E37D15_A,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S6E37D15_B,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S6E37D15_C,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S6E37D15_Ds,2-O-alpha-D-Glucosylglycerol,Yes
+170706_Smp_S3E15D15_A,Threonine Betaine (tentative),Yes
+170706_Smp_S3E15D15_B,Threonine Betaine (tentative),Yes
+170706_Smp_S3E15D15_C,Threonine Betaine (tentative),Yes
+170706_Smp_S3E15E15_Ds,Threonine Betaine (tentative),Yes
+170706_Smp_S4E16D15_A,Threonine Betaine (tentative),Yes
+170706_Smp_S4E16D15_B,Threonine Betaine (tentative),Yes
+170706_Smp_S4E16D15_C,Threonine Betaine (tentative),Yes
+170706_Smp_S4E16D15_Ds,Threonine Betaine (tentative),Yes
+170706_Smp_S5E28D15_A,Threonine Betaine (tentative),No
+170706_Smp_S5E28D15_B,Threonine Betaine (tentative),No
+170706_Smp_S5E28D15_C,Threonine Betaine (tentative),No
+170706_Smp_S5E28D15_Ds,Threonine Betaine (tentative),No
+170706_Smp_S6E37D15_A,Threonine Betaine (tentative),Yes
+170706_Smp_S6E37D15_B,Threonine Betaine (tentative),Yes
+170706_Smp_S6E37D15_C,Threonine Betaine (tentative),Yes
+170706_Smp_S6E37D15_Ds,Threonine Betaine (tentative),Yes
+170706_Smp_S3E15D15_A,Homoserine Betaine (tentative),Yes
+170706_Smp_S3E15D15_B,Homoserine Betaine (tentative),Yes
+170706_Smp_S3E15D15_C,Homoserine Betaine (tentative),Yes
+170706_Smp_S3E15E15_Ds,Homoserine Betaine (tentative),Yes
+170706_Smp_S4E16D15_A,Homoserine Betaine (tentative),Yes
+170706_Smp_S4E16D15_B,Homoserine Betaine (tentative),Yes
+170706_Smp_S4E16D15_C,Homoserine Betaine (tentative),Yes
+170706_Smp_S4E16D15_Ds,Homoserine Betaine (tentative),Yes
+170706_Smp_S5E28D15_A,Homoserine Betaine (tentative),Yes
+170706_Smp_S5E28D15_B,Homoserine Betaine (tentative),Yes
+170706_Smp_S5E28D15_C,Homoserine Betaine (tentative),Yes
+170706_Smp_S5E28D15_Ds,Homoserine Betaine (tentative),Yes
+170706_Smp_S6E37D15_A,Homoserine Betaine (tentative),Yes
+170706_Smp_S6E37D15_B,Homoserine Betaine (tentative),Yes
+170706_Smp_S6E37D15_C,Homoserine Betaine (tentative),Yes
+170706_Smp_S6E37D15_Ds,Homoserine Betaine (tentative),Yes
+170706_Smp_S3E15D15_A,Taurine,Yes
+170706_Smp_S3E15D15_B,Taurine,Yes
+170706_Smp_S3E15D15_C,Taurine,Yes
+170706_Smp_S3E15E15_Ds,Taurine,Yes
+170706_Smp_S4E16D15_A,Taurine,Yes
+170706_Smp_S4E16D15_B,Taurine,Yes
+170706_Smp_S4E16D15_C,Taurine,Yes
+170706_Smp_S4E16D15_Ds,Taurine,Yes
+170706_Smp_S5E28D15_A,Taurine,Yes
+170706_Smp_S5E28D15_B,Taurine,Yes
+170706_Smp_S5E28D15_C,Taurine,Yes
+170706_Smp_S5E28D15_Ds,Taurine,Yes
+170706_Smp_S6E37D15_A,Taurine,Yes
+170706_Smp_S6E37D15_B,Taurine,Yes
+170706_Smp_S6E37D15_C,Taurine,Yes
+170706_Smp_S6E37D15_Ds,Taurine,Yes
+170706_Smp_S3E15D15_A,Isethionic acid,Yes
+170706_Smp_S3E15D15_B,Isethionic acid,Yes
+170706_Smp_S3E15D15_C,Isethionic acid,Yes
+170706_Smp_S3E15E15_Ds,Isethionic acid,Yes
+170706_Smp_S4E16D15_A,Isethionic acid,Yes
+170706_Smp_S4E16D15_B,Isethionic acid,Yes
+170706_Smp_S4E16D15_C,Isethionic acid,Yes
+170706_Smp_S4E16D15_Ds,Isethionic acid,Yes
+170706_Smp_S5E28D15_A,Isethionic acid,Yes
+170706_Smp_S5E28D15_B,Isethionic acid,Yes
+170706_Smp_S5E28D15_C,Isethionic acid,Yes
+170706_Smp_S5E28D15_Ds,Isethionic acid,Yes
+170706_Smp_S6E37D15_A,Isethionic acid,Yes
+170706_Smp_S6E37D15_B,Isethionic acid,Yes
+170706_Smp_S6E37D15_C,Isethionic acid,Yes
+170706_Smp_S6E37D15_Ds,Isethionic acid,Yes
+170706_Smp_S3E15D15_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S3E15D15_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S3E15D15_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S3E15E15_Ds,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S4E16D15_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S4E16D15_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S4E16D15_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S4E16D15_Ds,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S5E28D15_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S5E28D15_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S5E28D15_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S5E28D15_Ds,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S6E37D15_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S6E37D15_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S6E37D15_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S6E37D15_Ds,"(R)-2,3-Dihydroxypropane-1-sulfonate",Yes
+170706_Smp_S3E15D15_A,L-Cysteic acid,No
+170706_Smp_S3E15D15_B,L-Cysteic acid,No
+170706_Smp_S3E15D15_C,L-Cysteic acid,No
+170706_Smp_S3E15E15_Ds,L-Cysteic acid,Yes
+170706_Smp_S4E16D15_A,L-Cysteic acid,No
+170706_Smp_S4E16D15_B,L-Cysteic acid,Yes
+170706_Smp_S4E16D15_C,L-Cysteic acid,No
+170706_Smp_S4E16D15_Ds,L-Cysteic acid,No
+170706_Smp_S5E28D15_A,L-Cysteic acid,No
+170706_Smp_S5E28D15_B,L-Cysteic acid,No
+170706_Smp_S5E28D15_C,L-Cysteic acid,No
+170706_Smp_S5E28D15_Ds,L-Cysteic acid,No
+170706_Smp_S6E37D15_A,L-Cysteic acid,No
+170706_Smp_S6E37D15_B,L-Cysteic acid,No
+170706_Smp_S6E37D15_C,L-Cysteic acid,Yes
+170706_Smp_S6E37D15_Ds,L-Cysteic acid,No
+170706_Smp_S3E15D15_A,Sucrose,Yes
+170706_Smp_S3E15D15_B,Sucrose,Yes
+170706_Smp_S3E15D15_C,Sucrose,Yes
+170706_Smp_S3E15E15_Ds,Sucrose,Yes
+170706_Smp_S4E16D15_A,Sucrose,Yes
+170706_Smp_S4E16D15_B,Sucrose,Yes
+170706_Smp_S4E16D15_C,Sucrose,Yes
+170706_Smp_S4E16D15_Ds,Sucrose,Yes
+170706_Smp_S5E28D15_A,Sucrose,Yes
+170706_Smp_S5E28D15_B,Sucrose,Yes
+170706_Smp_S5E28D15_C,Sucrose,Yes
+170706_Smp_S5E28D15_Ds,Sucrose,Yes
+170706_Smp_S6E37D15_A,Sucrose,No
+170706_Smp_S6E37D15_B,Sucrose,No
+170706_Smp_S6E37D15_C,Sucrose,Yes
+170706_Smp_S6E37D15_Ds,Sucrose,No
+170706_Smp_S3E15D15_A,Trehalose,Yes
+170706_Smp_S3E15D15_B,Trehalose,Yes
+170706_Smp_S3E15D15_C,Trehalose,Yes
+170706_Smp_S3E15E15_Ds,Trehalose,Yes
+170706_Smp_S4E16D15_A,Trehalose,Yes
+170706_Smp_S4E16D15_B,Trehalose,Yes
+170706_Smp_S4E16D15_C,Trehalose,Yes
+170706_Smp_S4E16D15_Ds,Trehalose,Yes
+170706_Smp_S5E28D15_A,Trehalose,Yes
+170706_Smp_S5E28D15_B,Trehalose,Yes
+170706_Smp_S5E28D15_C,Trehalose,Yes
+170706_Smp_S5E28D15_Ds,Trehalose,No
+170706_Smp_S6E37D15_A,Trehalose,Yes
+170706_Smp_S6E37D15_B,Trehalose,Yes
+170706_Smp_S6E37D15_C,Trehalose,Yes
+170706_Smp_S6E37D15_Ds,Trehalose,Yes

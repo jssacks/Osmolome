@@ -12,7 +12,7 @@ nut.uw.file <- "Collaborator_Data/KM1906/Gradients3_KM1906_AA_Nutrients_UW.csv"
 pc.uw.file <- "Collaborator_Data/KM1906/Gradients3_KM1906_PCPN_UW.csv"
 #g3.don.file <- no DON data from what I can tell
 ts.file <- "Collaborator_Data/KM1906/KM1906_Gradients3_uw_tsg.csv"
-bact.file <- "Collaborator_Data/KM1906/G3_Influx_Stations_Gradients_2019.csv"
+#bact.file <- "Collaborator_Data/KM1906/G3_Influx_Stations_Gradients_2019.csv"
 chla.file <- "Collaborator_Data/KM1906/Gradients3_KM1906_Optics_LISST_ACS_ECO.csv"
 
 #Read in datasets:
@@ -20,7 +20,6 @@ nut.uw.dat <- read_csv(nut.uw.file)
 pc.uw.dat <- read_csv(pc.uw.file)
 #don.dat <- read_csv(g3.don.file).    #No DON Data for G3
 ts.dat <- read_csv(ts.file)
-bact.dat <- read_csv(bact.file)
 chla.dat <- read_csv(chla.file)
 #pp.13c.dat <- read_csv(pp.13c.file)
 
@@ -114,18 +113,10 @@ N_N.interp <- data_frame(N_N_interp = na.stinterp(full.dat$N_N, along = time(ful
 #SRP
 SRP.interp <- data_frame(SRP_interp = na.stinterp(full.dat$SRP, along = time(full.dat$time), na.rm = F))
 
-#DON
-#DON.interp <- data_frame(DON_interp = na.stinterp(full.dat$DON, along = time(full.dat$time), na.rm = F))
-
-#bact_abu
-bact_abu.interp <- data_frame(bact_abu_interp = na.stinterp(full.dat$bact_abu, along = time(full.dat$time), na.rm = F))
-
-#bact_c
-bact_c.interp <- data_frame(bact_c_interp = na.stinterp(full.dat$bact_c, along = time(full.dat$time), na.rm = F))
 
 ###Put all datasets together:
 full.interp <- full.dat %>%
-  cbind(., chla.interp, pc.interp, pn.interp, N_N.interp, SRP.interp, bact_abu.interp, bact_c.interp)
+  cbind(., chla.interp, pc.interp, pn.interp, N_N.interp, SRP.interp)
 
 write_csv(full.interp, file = "Intermediates/G3_metadata_with_interpolations.csv")
 
@@ -136,12 +127,29 @@ ggplot(full.interp, aes(x = lat, y = N_N_interp)) +
   geom_path() +
   geom_point(aes(x = lat, y = N_N), color = "red")
 
+#chla
+ggplot(full.interp, aes(x = lat, y = chla_interp)) +
+  geom_point(aes(color = lat)) +
+  geom_path() +
+  geom_point(aes(x = lat, y = chla), color = "red")
 
+#poc
+ggplot(full.interp, aes(x = lat, y = pc_interp)) +
+  geom_point(aes(color = lat)) +
+  geom_path() +
+  geom_point(aes(x = lat, y = pc), color = "red")
 
+#pon
+ggplot(full.interp, aes(x = lat, y = pn_interp)) +
+  geom_point(aes(color = lat)) +
+  geom_path() +
+  geom_point(aes(x = lat, y = pn), color = "red")
 
-
-
-
+#srp
+ggplot(full.interp, aes(x = lat, y = SRP_interp)) +
+  geom_point(aes(color = lat)) +
+  geom_path() +
+  geom_point(aes(x = lat, y = SRP), color = "red")
 
 
 

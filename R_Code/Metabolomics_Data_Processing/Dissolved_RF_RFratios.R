@@ -19,7 +19,8 @@ Stds.info.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv"
 diss.dat <- read_csv(diss.file) %>%
   rename("SampID" = Rep,
          "Name" = Compound) %>%
-  filter(str_detect(.$SampID, "Std"))
+  filter(str_detect(.$SampID, "Std")) %>%
+  mutate(Area = replace_na(Area, 0))
 
 
 ####Load in standards

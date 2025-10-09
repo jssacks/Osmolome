@@ -7,23 +7,21 @@ library(tidyverse)
 
 #particulate
 p.quant.file <- "Intermediates/Particulate_Quant_Output.csv"
-p.qc.file.remove <- "Intermediates/Particulate_QCdat_samplesremoved.csv"
-p.qc.file.impute <- "Intermediates/Particulate_QCdat_blanksimputed.csv"
+p.qc.file <- "Intermediates/Particulate_QCdat.csv"
+p.impute.file <- "Intermediates/Particulate_Quantified_BlkAve.csv"
   
 #dissolved
 d.quant.file <- "Intermediates/Dissolved_Quantified_Data.csv"
-d.qc.file.remove <- "Intermediates/Dissolved_osmo_QCdat_samplesremoved.csv"
-d.qc.file.impute <- "Intermediates/Dissolved_osmo_QCdat_blanksimputed.csv"
+d.qc.file <- "Intermediates/Dissolved_QCdat.csv"
 d.lod.file <- "Intermediates/Dissolved_Blk_LOD_Concentrations.csv"
 
 #Cultures
 c.quant.file <- "Intermediates/Culture_Quant_Output.csv"
-c.qc.file <- "Intermediates/Culture_osmo_QCdat_samplesremoved.csv"
+c.qc.file <- "Intermediates/Culture_QCdat.csv"
 
 #G2SF
-g2.dat.file <- "Intermediates/G2_osmo_BMISed_dat.csv"
-g2.qc.file <- "Intermediates/G2SF_osmo_QCdat_blanksimputed.csv"
-
+g2.dat.file <- "Intermediates/G2SF_Quant_Output.csv"
+g2.qc.file <- "Intermediates/G2SF_QCdat.csv"
 
 
 
@@ -33,19 +31,29 @@ g2.qc.file <- "Intermediates/G2SF_osmo_QCdat_blanksimputed.csv"
 
 #load in datasets
 p.q.dat <- read_csv(p.quant.file) %>%
-  rename("Rep" = SampID,
-         "Compound" = Name)
-p.qc.remove <- read_csv(p.qc.file.remove)
-p.qc.impute <- read_csv(p.qc.file.remove)
+  rename("Compound" = Name)
 
-#samples removed qc and remove sample with no IS 
-p.q.r.dat <- p.qc.remove %>%
-  left_join(., p.q.dat) %>%
-  select(-Area) %>%
-  filter(!Rep == "221006_Smp_S7_C1_D1_A") #sample to be removed
+p.qc <- read_csv(p.qc.file) %>%
+  rename("SampID" = Rep)
 
-#export final dataset 
-write_csv(p.q.r.dat, file = "Intermediates/Particualte_Final_Quant_QCed.csv")
+p.qc.impute.values <- read_csv(p.impute.file) %>%
+  rename("Compound" = Name)
+
+#Make final quant and QC particulate dataset:
+p.q.qc.dat <- p.q.dat %>%
+  left_join(., p.qc) %>%
+  left_join(., p.qc.impute.values) %>%
+  filter(!SampID == "221006_Smp_S7_C1_D1_A") %>%
+  rename(Part.Conc.Vial.uM = umol.in.vial.ave,
+         Part.Conc.nM = nM.in.smp,
+         Part.Conc.C.nM = nM_C,
+         Part.Conc.N.nM = nM_N,
+         Part.Conc.S.nM = nM_S) 
+
+write_csv(p.q.qc.dat, file = "Intermediates/Dissolved_Final_Quant_QCed.csv")
+
+
+
 
 
 
@@ -53,63 +61,35 @@ write_csv(p.q.r.dat, file = "Intermediates/Particualte_Final_Quant_QCed.csv")
 
 #load in datasets
 d.q.dat <- read_csv(d.quant.file) %>%
-  rename("Rep" = SampID,
-         "Compound" = Name)
-d.qc.r <- read_csv(d.qc.file.remove)
-# 
-# d.edgecase.dat <- read_csv(d.edgecase.file) %>%
-#   rename("redone.conc" = EE.adjust.conc) %>%
-#   select(Rep, Compound, redone.conc) %>%
-#   filter(Compound == "Glycine betaine")
-#  mutate(SampID = "KM1906_GBT_F2_T0",
-#         min.area.flag = NA,
-#         blk.lod.flag = NA,
-#         smp.remove = NA
-
-
-d.lod.dat <- read_csv(d.lod.file) %>%
   rename("Compound" = Name)
 
-##incorporate blk data imputation and blk subtraction into final dataset:
-d.q.r.dat <- d.qc.r %>%
-  filter(!str_detect(Rep, "Std")) %>%
-  filter(!str_detect(Rep, "Blk")) %>%
-  filter(!str_detect(Rep, "Poo")) %>%
-  left_join(., d.q.dat) %>%
-  left_join(., d.lod.dat)  %>%
- # left_join(., d.edgecase.dat) %>%             #Add in edgecase dat form weird GBT sample
-  # mutate(EE.adjust.conc = case_when(!is.na(redone.conc) ~ redone.conc,
-  #                                   TRUE ~ EE.adjust.conc)) %>%
-  # select(-redone.conc) %>%
-  mutate(Diss.Conc.nM.noblksub = EE.adjust.conc,
-         Blk.ave.conc.nM = EE.adjust.Blk.Av) %>%
-  mutate(Diss.Conc.nM = case_when(blk.lod.flag == "Flag" ~ EE.adjust.Blk.Av/2,
-                                  TRUE ~ EE.adjust.conc - EE.adjust.Blk.Av)) %>%
-  mutate(Diss.Nmol.C = Diss.Conc.nM*C,
-         Diss.Nmol.N = Diss.Conc.nM*N,
-         Diss.Nmol.S = Diss.Conc.nM*S) %>%
-  rename("LOD.nM" = EE.adjust.lod) %>%
-  mutate(LOD.nM.blk.sub = LOD.nM - EE.adjust.Blk.Av) #%>%
-#  select(Rep, SampID, replicate, Cruise, Compound, min.area.flag, blk.lod.flag, smp.remove,
-#         Diss.Conc.nM.noblksub, Blk.ave.conc.nM, Diss.Conc.nM, Diss.Nmol.C, Diss.Nmol.N, LOD.nM, LOD.nM.blk.sub)
-         
+d.qc.dat <- read_csv(d.qc.file) %>%
+  rename(SampID = Rep) 
 
-#Perform secondary QC following blank subtraction:
-d.q.r.dat.qc2 <- d.q.r.dat %>%
-  mutate(LOD.Flag.2 = case_when(Diss.Conc.nM <= LOD.nM.blk.sub ~ "Flag",
-                                TRUE ~ NA)) %>%
-  mutate(Diss.Conc.nM.adj = case_when(LOD.Flag.2 == "Flag" ~ LOD.nM.blk.sub,
-                                      TRUE ~ Diss.Conc.nM)) %>%
-  mutate(LOD.nM.adj = LOD.nM.blk.sub,
-         Diss.Nmol.C.adj = Diss.Conc.nM.adj*C,
-         Diss.Nmol.N.adj = Diss.Conc.nM.adj*N,
-         Diss.Nmol.S.adj = Diss.Conc.nM.adj*S) %>%
-  filter(!is.na(Diss.Conc.nM.adj)) %>%
-  select(Rep, SampID, replicate, Cruise, Compound, smp.remove, Diss.Conc.nM.adj, Diss.Nmol.C.adj, Diss.Nmol.N.adj, Diss.Nmol.S.adj, LOD.nM.adj, LOD.Flag.2)
+d.qc.impute.values <- read_csv(d.lod.file) %>%
+  rename("Compound" = Name) 
+
+#Make final quant and qc dissolved dataset and calculate blank subtracted values:
+d.q.qc.dat <- d.q.dat %>%
+  left_join(., d.qc.dat) %>%
+  left_join(., d.qc.impute.values) %>%
+  mutate(Diss.Conc.nM = EE.adjust.conc - EE.adjust.Blk.Av,
+         Diss.Conc.C.nM = Diss.Conc.nM*C,
+         Diss.Conc.N.nM = Diss.Conc.nM*N,
+         Diss.Conc.S.nM = Diss.Conc.nM*S,
+         impute.conc.nM = EE.adjust.lod - EE.adjust.Blk.Av,
+         LOD.nM = EE.adjust.lod - EE.adjust.Blk.Av,
+         Diss.Conc.no.blk.sub.nM = EE.adjust.conc,
+         LOD.no.blk.sub.nM = EE.adjust.lod) %>%
+  filter(!str_detect(SampID, "Std")) %>%
+  filter(!str_detect(SampID, "Blk")) %>%
+  filter(!str_detect(SampID, "Poo")) %>%
+  rename(Diss.Conc.Vial.uM = conc.in.vial.uM) %>%
+  select(Cruise, SampID, Compound, detected, Diss.Conc.Vial.uM, Diss.Conc.nM, Diss.Conc.C.nM, Diss.Conc.N.nM, Diss.Conc.S.nM, impute.conc.nM, LOD.nM, Diss.Conc.no.blk.sub.nM, LOD.no.blk.sub.nM)
+
+write_csv(d.q.qc.dat, file = "Intermediates/Dissolved_Final_Quant_QCed.csv")
 
 
-#write final dataset to csv:
-write_csv(d.q.r.dat.qc2, file = "Intermediates/Dissolved_Final_Quant_QCed.csv")
 
 
 #Culture (apply QC)
@@ -117,16 +97,21 @@ write_csv(d.q.r.dat.qc2, file = "Intermediates/Dissolved_Final_Quant_QCed.csv")
 #load in datasets
 c.q.dat <- read_csv(c.quant.file) %>%
   rename("Compound" = Name)
-c.qc.remove <- read_csv(c.qc.file)
+c.qc <- read_csv(c.qc.file)
 
 #samples removed qc 
-c.q.r.dat <- c.qc.remove %>%
-  left_join(., c.q.dat) %>%
-  select(-Area)# %>%
- # filter(!Rep == "221006_Smp_S7_C1_D1_A"). #sample to be removed
+c.q.qc.dat <- c.q.dat %>%
+  left_join(., c.qc) %>%
+  rename(Part.Conc.Vial.uM = uM.in.vial.ave,
+         Part.Conc.uM = uM_in_samp,
+         Part.Conc.C.uM = uM_C_smp,
+         Part.Conc.N.uM = uM_N_smp,
+         Part.Conc.S.uM = uM_S_smp) %>%
+  select(Batch, Type, Organism, SampID, Compound, Part.Conc.Vial.uM, Part.Conc.uM, Part.Conc.C.uM, Part.Conc.N.uM, Part.Conc.S.uM, Detected)
 
-#export final dataset 
-write_csv(c.q.r.dat, file = "Intermediates/Culture_Final_Quant_QCed.csv")
+
+write_csv(c.q.qc.dat, file = "Intermediates/Culture_Final_Quant_QCed.csv")
+
 
 
 
@@ -134,41 +119,137 @@ write_csv(c.q.r.dat, file = "Intermediates/Culture_Final_Quant_QCed.csv")
 #G2_Size_Fractionated (apply QC)
 
 #load in datasets
-g2.dat <- read_csv(g2.dat.file) %>%
-  rename("Rep" = SampID,
-         "Compound" = MF)
-g2.qc.impute <- read_csv(g2.qc.file)
+g2.q.dat <- read_csv(g2.dat.file) %>%
+  rename("Compound" = Name,
+         "Part.Conc.Vial.uM" = umol.in.vial.ave)
+
+g2.qc.dat <- read_csv(g2.qc.file)  %>%
+  rename("SampID" = Rep)
 
 #apply sample imputation qc 
-g2.q.i.dat <- g2.qc.impute %>%
-  left_join(., g2.dat) %>%
-  mutate(Adjusted_Area = case_when(is.na(Adjusted_Area) ~ Area,
-                                   TRUE ~ Adjusted_Area)) %>%
-  select(Rep, SampID, replicate, Batch, SizeFrac, Compound, min.area.flag, blk.ratio.flag, Adjusted_Area)
+g2.q.qc.dat <- g2.q.dat %>%
+  left_join(., g2.qc.dat) %>%
+  mutate(impute.conc.nM = 0) %>%
+  rename(Part.Conc.nM = nM.in.smp,
+         Part.Conc.C.nM = nM_C,
+         Part.Conc.N.nM = nM_N,
+         Part.Conc.S.nM = nM_S) %>%
+  select(SampID, Compound, Part.Conc.Vial.uM, Part.Conc.nM, Part.Conc.C.nM, Part.Conc.N.nM, Part.Conc.S.nM, detected, impute.conc.nM)
+  
 
-#export final dataset 
-write_csv(g2.q.i.dat, file = "Intermediates/G2_Final_Areas_QCed.csv")
+write_csv(g2.q.qc.dat, file = "Intermediates/G2SF_Final_Quant_QCed.csv")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Match Particulate and Dissolved Samples ---------------------------------
 
 
 ####Create Sample Matching Key for Dissolved and Particulate Data:
 
-#get particulate sample key
-p.ids <- p.q.r.dat %>%
-  select(Rep, SampID, replicate, Cruise) %>%
-  unique() %>%
-  rename("Part.Rep" = Rep)
+p.ids <- p.q.dat %>%
+  filter(Cruise %in% c("TN397", "KM1906", "RC078")) %>%
+  filter(!str_detect(SampID, "Blk"),
+         !str_detect(SampID, "blk"),
+         !str_detect(SampID, "Poo")) %>%
+  mutate(Parent_ID = str_remove(SampID, "220902_Smp_")) %>%
+  mutate(Parent_ID = str_remove(Parent_ID, "220628_Smp_")) %>%
+  mutate(Parent_ID = str_remove(Parent_ID, "221006_Smp_")) %>%
+  rename(Part.SampID = SampID) %>%
+  select(Cruise, Parent_ID, Part.SampID) %>% 
+  unique()
+
+
 
 #get dissolved sample key
-d.ids <- d.q.i.dat %>%
-  select(Rep, SampID, replicate, Cruise) %>%
-  unique() %>%
-  rename("Diss.Rep" = Rep)
+d.ids <- d.q.dat %>%
+  filter(Cruise %in% c("TN397", "KM1906", "RC078")) %>%
+  filter(!str_detect(SampID, "Blk"),
+         !str_detect(SampID, "blk"),
+         !str_detect(SampID, "Poo")) %>%
+  mutate(Parent_ID = str_remove(SampID, "220623_Smp_")) %>%
+  mutate(Parent_ID = str_remove(Parent_ID, "240415_Smp_")) %>%
+  mutate(Parent_ID = str_remove(Parent_ID, "220602_Smp_")) %>%
+  rename(Diss.SampID = SampID) %>%
+  select(Cruise, Parent_ID, Diss.SampID) %>%
+  unique()
+
+
 
 #combine sample keys
 Part.Diss.Samp.Key <- full_join(p.ids, d.ids)
 
 #write to csv
 write_csv(Part.Diss.Samp.Key, file = "Intermediates/Distributions_Part_Diss_Sample_Key.csv")
+
+
+####Match up particulate and dissolved measurements:
+part.dat.match <- p.q.qc.dat %>%
+  rename(Part.SampID = SampID,
+         Part.detected = detected,
+         Part.Impute.Conc.nM = impute_conc_nM) %>%
+  select(-Vol_L)
+
+diss.dat.match <- d.q.qc.dat %>%
+  rename(Diss.SampID = SampID,
+         Diss.detected = detected,
+         Diss.Impute.Conc.nM = impute.conc.nM,
+         Diss.LOD.nM = LOD.nM,
+         Diss.LOD.no.blk.sub.nM = LOD.no.blk.sub.nM) %>%
+  filter(Diss.SampID %in% d.ids$Diss.SampID)
+
+p.d.dat <- left_join(Part.Diss.Samp.Key, part.dat.match) %>%
+  full_join(., diss.dat.match)
+
+
+write_csv(p.d.dat, file = "Intermediates/Full_Particulate_Dissolved_Osmolome_Dat_100725.csv")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

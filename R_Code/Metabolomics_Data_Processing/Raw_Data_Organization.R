@@ -77,6 +77,20 @@ g2.pos.file <- "Raw_Data/Size_Fraction_Data/G2_particulate_HILICPos_Jan25.csv"
 g2.neg.file <- "Raw_Data/Size_Fraction_Data/G2_particulate_HILICNeg_Oct24.csv"
 
 
+#_________G2 Resource Ratio Incubation
+rr.pos.file <- "Raw_Data/ResourceRatio_Data/G2_RR_Rerun_2025_QE_HILIC_Pos.csv"
+rr.neg.file <- "Raw_Data/ResourceRatio_Data/G2_RR_Rerun_2025_QE_HILIC_Neg.csv"
+
+
+
+#_________PARAGON Net Trap Samples
+pnt.pos.file <- "Raw_Data/NetTrap_Data/PNT_HILIC_Pos.csv"
+pnt.neg.file <- "Raw_Data/NetTrap_Data/PNT_HILIC_Neg.csv"
+
+
+
+
+
 
 
 # Organize Particulate Data -----------------------------------------------
@@ -138,11 +152,39 @@ perifix.neg <- sky_read(perifix.neg.file) %>%
   filter(!str_detect(Rep, "241031"))
 
 
+#Organize Resource Ratio
+rr.pos <- sky_read(rr.pos.file) %>% 
+  select(Rep, Compound, Area) %>%
+  mutate(Cruise = "RR") %>%
+  mutate(Rep = case_when(Rep == "250626_Poo_Day1Poo_Full1" ~ "250626_Poo_Day1Poo_Half1",
+                        Rep == "250626_Poo_Day1Poo_Half1" ~ "250626_Poo_Day1Poo_Full1",
+                        TRUE ~ Rep))
+
+rr.neg <- sky_read(rr.neg.file) %>% 
+  select(Rep, Compound, Area) %>%
+  mutate(Cruise = "RR") %>%
+  mutate(Rep = case_when(Rep == "250626_Poo_Day1Poo_Full1" ~ "250626_Poo_Day1Poo_Half1",
+                         Rep == "250626_Poo_Day1Poo_Half1" ~ "250626_Poo_Day1Poo_Full1",
+                         TRUE ~ Rep))
+
+
+#Organize PARAGON Net Traps
+pnt.pos <- sky_read(pnt.pos.file) %>% 
+  select(Rep, Compound, Area) %>%
+  mutate(Cruise = "PNT")
+
+pnt.neg <- sky_read(pnt.neg.file) %>% 
+  select(Rep, Compound, Area) %>%
+  mutate(Cruise = "PNT")
+
+
+
+
 
 ####Pull together all particulate data:
 all.p.dat <- rbind(g3p.pos, g3p.neg, g4p.pos, g4p.neg, d1p.pos, d1p.neg, 
                    g4.depthprofile.pos, g4.depthprofile.neg, g3.depthprofile.pos, 
-                   g3.depthprofile.neg, perifix.pos, perifix.neg)
+                   g3.depthprofile.neg, perifix.pos, perifix.neg, rr.pos, rr.neg, pnt.pos, pnt.neg)
 
 is.p.dat <- all.p.dat %>%
   filter(str_detect(Compound, ", ")) %>%

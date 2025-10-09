@@ -140,6 +140,31 @@ c.hm <- ggplot(dat.cult.mean, aes(y = reorder(compound.name.figure, -Rank), x = 
   xlab("Taxonomic Group")
 c.hm
 
+#C.hm.reduced:
+dat.cult.mean.reduced <- dat.cult.mean %>%
+  filter(org.group %in% c("Pro", "Syn", "Diatom", "Dino"))
+
+
+c.hm.red <- ggplot(dat.cult.mean.reduced, aes(y = reorder(compound.name.figure, -Rank), x = org.group, fill = mean.norm.conc)) +
+  # geom_tile(color = "black", aes(fill = NA))# +
+  geom_tile(color = "black") +
+  scale_fill_viridis(option = "F", end = 0.85, trans = "sqrt", breaks = c(0.01, 0.1, 0.25, 0.5, 0.75)) +
+  coord_fixed() +
+  theme_test() +
+  scale_x_discrete(position = "top") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 0),
+        axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        #    axis.ticks.y = element_blank(),
+        legend.position = "none") +
+  xlab("Taxonomic Group")
+c.hm.red
+
+
+
+
+
+
 ##Combined environmental/culture plot
 env.cult.hm <- (enviro.hm | c.hm) + 
   plot_layout(guides = "collect")

@@ -435,4 +435,45 @@ ggsave(total.corr.scatter, file = "Figures/Outputs/Total_Glu_Cor_Scatter.png",
 
 
 
+#######Figures for presentation:
+#Particulate:
+p.pca.plot.pres <- ggplot(p.pca.samp.plot, aes(x = PC1, y = PC2, shape = Cruise)) +
+  geom_point(aes(fill = Region), stroke = 0.15, size = 2.5, shape = 21) +
+  #  scale_shape_manual(values = c(22, 21, 23)) +
+  scale_fill_manual(values = region.palette.2) +
+  ylab("PC2 (8%)") +
+  xlab("PC1 (70%)") +
+  theme_test() +
+  theme(panel.border = element_blank(), axis.line = element_line(), 
+       # axis.text.x = element_blank(), axis.title.x = element_blank(), 
+        plot.title = element_text(hjust = 0.5)) +
+  ggtitle("Particulate")
+p.pca.plot.pres
+
+
+#Dissolved:
+d.pca.plot.pres <- ggplot(d.pca.samp.plot, aes(x = PC1, y = PC2, shape = Cruise)) +
+  geom_point(aes(fill = Region), stroke = 0.15, size = 2.5, shape = 21) +
+  #  scale_shape_manual(values = c(22, 21, 23)) +
+  scale_fill_manual(values = region.palette.2) +
+  ylab("PC2 (6%)") +
+  xlab("PC1 (52%)") +
+  theme_test() +
+  theme(panel.border = element_blank(), axis.line = element_line(), 
+       # axis.text.x = element_blank(), axis.title.x = element_blank(), 
+        plot.title = element_text(hjust = 0.5)) +
+  ggtitle("Dissolved")
+d.pca.plot.pres
+
+
+pres.pca <- p.pca.plot.pres + d.pca.plot.pres + plot_layout(guides = "collect")
+pres.pca
+
+ggsave(pres.pca, file = "Figures/Outputs/pres_pca.pdf", 
+       height = 3.5, width = 7, scale = 1, dpi = 600)
+
+
+###Save scatter plots for presentation:
+ggsave(part.corr.scatter, file = "Figures/Outputs/Pres_Part_Glu_Cor_Scatter.pdf", 
+       height = 4.5, width = 9, scale = 1.2, dpi = 600)
 

@@ -35,7 +35,7 @@ env.stoich.dat <- dat %>%
          Part.CN = Sum.Part.C.nM/Sum.Part.N.nM,
          Part.CS = Sum.Part.C.nM/Sum.Part.S.nM,
          Part.NS = Sum.Part.N.nM/Sum.Part.S.nM) %>%
-  select(Part.SampID, Region, Sum.Part.Conc.nM, Part.CN, Part.CS, Part.NS) %>%
+  select(Part.SampID, Lat, Long, Region, Sum.Part.Conc.nM, Part.CN, Part.CS, Part.NS) %>%
   unique() %>%
   filter(!Region == "PS")
 
@@ -217,6 +217,7 @@ Stoich.fig
 
 ggsave(Stoich.fig, file = "Figures/Outputs/Stoichiometry_Figure.png" , height = 4.5, width = 5.25, dpi = 600, scale = 1.2)
 
+ggsave(Stoich.fig, file = "Figures/Outputs/Pres_Stoichiometry_Figure.pdf" , height = 4.5, width = 6.5, dpi = 600, scale = 1.2)
 
 ###PERIFIX total osmolyte vs. N/S ratio 
 peri.stoich.fig <- ggplot(peri.dat, aes(x = Part.NS, y = Sum.Part.Conc.nM, color = N_status)) +
@@ -242,9 +243,56 @@ ggsave(peri.stoich.fig, file = "Figures/Outputs/PERIFIX_Stoichiometry_Concentrat
 
 
 
+###Env Stoichiometry Figures:
+gradients.env.stoich <- env.stoich.dat %>%
+  filter(Region %in% c("NPSG", "NPTZ", "Equator"))
+
+ggplot(gradients.env.stoich, aes(x = Lat, y = Part.NS)) +
+  geom_point(aes(fill = Region), shape = 21)
+
+
+ns.g.plot <- ggplot(gradients.env.stoich, aes(x = Lat, y = Part.NS)) +
+  geom_smooth(color = "black") +
+  geom_point(aes(fill = Region), shape = 21, size = 3.5, stroke = 0.2) +
+  scale_fill_manual(values = region.palette.2) +
+  theme_test() +
+  ylab("Osmolome N/S Ratio")
+ns.g.plot
+
+cn.g.plot <- ggplot(gradients.env.stoich, aes(x = Lat, y = Part.CN)) +
+  geom_smooth(color = "black") +
+  geom_point(aes(fill = Region), shape = 21, size = 3.5, stroke = 0.2) +
+  scale_fill_manual(values = region.palette.2) +
+  theme_test() +
+  ylab("Osmolome C/N Ratio") +
+  ylim(c(0, 12))
+cn.g.plot
+
+cs.g.plot <- ggplot(gradients.env.stoich, aes(x = Lat, y = Part.CS)) +
+  geom_smooth(color = "black") +
+  geom_point(aes(fill = Region), shape = 21, size = 3.5, stroke = 0.2) +
+  scale_fill_manual(values = region.palette.2) +
+  theme_test() +
+  ylab("Osmolome C/S Ratio")
+cs.g.plot
+
+g.stoich.plots <- cn.g.plot + ns.g.plot + cs.g.plot + 
+  plot_layout(guides = "collect")
+g.stoich.plots
+
+ggsave(g.stoich.plots, filename = "Figures/Outputs/gradients_stoich_plots.jpg", dpi = 600,
+       height = 4, width = 12)
 
 
 
+
+
+ggplot(gradients.env.stoich, aes(x = Lat, y = Part.CN)) +
+  geom_point(aes(fill = Region), shape = 21) +
+  ylim(c(0, 12))
+
+ggplot(gradients.env.stoich, aes(x = Part.NS, y = Sum.Part.Conc.nM)) +
+  geom_point(aes(fill = Region), shape = 21)
 
 
 

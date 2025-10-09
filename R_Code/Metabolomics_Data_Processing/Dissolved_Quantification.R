@@ -31,9 +31,10 @@ dat <- left_join(hilic.dat, hilic.rfs) %>%
 dat.conc <- dat %>%
   rowwise() %>%
   mutate(RF = as.numeric(RF)) %>%
-  mutate(nmol.conc = Adjusted_Area/RF/RFratio*10^-6*400/(40*10^-3)*1000)
+  mutate(conc.in.vial.uM = Adjusted_Area/RF/RFratio,
+         nmol.conc = Adjusted_Area/RF/RFratio*10^-6*400/(40*10^-3)*1000)
 
-###Adjust values using extraction efficiencies and remove compound not extracted by CX-SPE
+###Adjust values using extraction efficiencies and remove compounds not extracted by CX-SPE
 EE.vals <- read_csv(EE.file) %>%
   rename("Name" = Compound,
          "EE" = `Extraction Efficiency (%)`) %>%
@@ -46,29 +47,29 @@ dat.conc.EE <- left_join(dat.conc, EE.vals, by = c("Name")) %>%
   mutate(EE.adjust.conc = nmol.conc/(EE/100)) %>%
   unique()
 
+
+
+
+
+
 ####Calculate LODs in Concentration Space 
+
+#Load in lod data
 blk.lod.dat <- read_csv(Blk.LOD.dat) %>%
   rename("Name" = MF)
-#  mutate(MF = str_replace_all(.$MF, "butyric_acid_Neg", "butyric acid_Neg")) %>%
- # separate(MF, into = c("Compound", "ion_mode"), sep = "_") %>%
-#  mutate(z = ifelse(ion_mode == "Neg", -1, 1)) %>%
-#  mutate(LOQ.test = Blk.Av + (10 * (Blk.sd/sqrt(15)))) %>%
-#  mutate(Compound = str_replace_all(.$Compound, "Isoleucine", "(Iso)leucine")) %>%
-#  filter(!Compound == "leucine")
-
-lod.dat.2 <- left_join(blk.lod.dat, hilic.rfs) %>%
-  filter(!is.na(RF))
 
 
-lod.conc <- lod.dat.2 %>%
+#Calculate LOD Concentrations:
+lod.conc <- left_join(blk.lod.dat, hilic.rfs) %>%
+  filter(!is.na(RF)) %>%
   rowwise() %>%
   mutate(RF = as.numeric(RF)) %>%
   mutate(lod.nmol.conc = Blk.LD/RF/RFratio*10^-6*400/(40*10^-3)*1000,
          Blk.av.nmol.conc = Blk.Av/RF/RFratio*10^-6*400/(40*10^-3)*1000)
-       #  loq.nmol.conc = LOQ.test/RF/RFratio*10^-6*400/(40*10^-3)*1000)
 
+
+#Adjust LOD Concentrations with EEs
 lod.conc.EE <-  left_join(lod.conc, EE.vals) %>%
- # filter(!is.na(Overall.Mean.EE)) %>%
   mutate(EE.adjust.lod = lod.nmol.conc/(EE/100),
          EE.adjust.Blk.Av = Blk.av.nmol.conc/(EE/100)) %>%
   select(Name, Cruise, EE.adjust.lod, EE.adjust.Blk.Av) %>%
@@ -78,6 +79,10 @@ lod.conc.EE <-  left_join(lod.conc, EE.vals) %>%
 
 
 
+
+
+
+# Calculate Concentrations using IS ---------------------------------------
 
 ####Calculate better concentrations using Internal standards
 IS_names <- read_csv(IS.names.file) %>%
@@ -117,13 +122,15 @@ SBe.Matched <- left_join(IS.Spike.Before, raw.dat, by = c("Compound", "Rep", "Cr
   filter(!str_detect(.$Rep, "Poo")) %>%
   filter(!is.na(Area)) %>%
   select(Cruise, Rep, Compound, Area, IS_Area, Conc.in.vial.uM) %>%
-  mutate(Nmol.in.vial_IS = Area/IS_Area*Conc.in.vial.uM*1000,
+  rename(IS.vial.conc.uM = Conc.in.vial.uM) %>%
+  mutate(conc.in.vial.uM = Area/IS_Area*IS.vial.conc.uM,
+         Nmol.in.vial_IS = Area/IS_Area*IS.vial.conc.uM*1000,
          Nmol.in.Samp_IS = Nmol.in.vial_IS*10^-6*400/(40*10^-3))
 
 ####
 SBe.add <- SBe.Matched %>%
   rename(EE.adjust.conc = Nmol.in.Samp_IS) %>%
-  select(Compound, Rep, EE.adjust.conc)
+  select(Compound, Rep, conc.in.vial.uM, EE.adjust.conc)
 
 
 ###_________Spike After:_______________________________
@@ -141,16 +148,16 @@ SAf.Matched <- left_join(IS.Spike.After, raw.dat, by = c("Compound", "Rep", "Cru
   filter(!str_detect(.$Rep, "Poo")) %>%
   filter(!is.na(Area)) %>%
   select(Cruise, Rep, Compound, Area, IS_Area, Conc.in.vial.uM) %>%
-  mutate(Nmol.in.vial_IS = Area/IS_Area*Conc.in.vial.uM*1000,
+  rename(IS.vial.conc.uM = Conc.in.vial.uM) %>%
+  mutate(conc.in.vial.uM = Area/IS_Area*IS.vial.conc.uM,
+         Nmol.in.vial_IS = Area/IS_Area*IS.vial.conc.uM*1000,
          Nmol.in.Samp_IS = Nmol.in.vial_IS*10^-6*400/(40*10^-3)) %>%
   left_join(., EE.vals %>% rename("Compound" = Name)) %>%
   mutate(EE.adjust.conc = Nmol.in.Samp_IS*(EE/100))
 
 ####select just final pieces for comining with other datasets
 SAf.add <- SAf.Matched %>%
-  select(Compound, Rep, EE.adjust.conc)
-
-
+  select(Compound, Rep, conc.in.vial.uM, EE.adjust.conc)
 
 
 #______________combine SAf and SBe IS
@@ -164,29 +171,65 @@ IS.adjus.dat <- rbind(SBe.add, SAf.add) %>%
 
 
 
+
+
+
+
 #####____Recalculate LODs based on IS___________________
 
-LOD.Matched <- left_join(IS.Spike.Before, raw.dat, by = c("Compound", "Rep", "Cruise")) %>%
+#Calculate Blk values for Spike Before IS
+Blks.Matched.SBe <- left_join(IS.Spike.Before, raw.dat, by = c("Compound", "Rep", "Cruise"))  %>%
   filter(!str_detect(.$Rep, "Std")) %>%
   filter(str_detect(.$Rep, "Blk")) %>%
-  filter(!str_detect(.$Rep, "MQBlk_")) %>%
+  filter(!str_detect(.$Rep, "220623_Smp_MQBlk")) %>%
   filter(!str_detect(.$Rep, "TN397_MQBlk")) %>%
   filter(!str_detect(.$Rep, "FilterBlk")) %>%
   filter(!str_detect(.$Rep, "BottleBlk")) %>%
   filter(!str_detect(.$Rep, "CXC_Blk")) %>%    
- # filter(!str_detect(.$Rep, "Smp")) %>%
-  filter(!str_detect(.$Rep, "_C_")) %>%
-  filter(!str_detect(.$Rep, "PPL")) %>%
-  filter(!str_detect(.$Rep, "Poo")) %>%
-  filter(!is.na(Area)) %>%
+  mutate(Area = replace_na(Area, 0)) %>%
   select(Cruise, Rep, Compound, Area, IS_Area, Conc.in.vial.uM) %>%
   mutate(Nmol.in.vial_IS = Area/IS_Area*Conc.in.vial.uM*1000,
-         Nmol.in.Samp_IS = Nmol.in.vial_IS*10^-6*400/(40*10^-3))
+         Nmol.in.Samp_IS = Nmol.in.vial_IS*10^-6*400/(40*10^-3)) 
 
+#Calculate Blk values for Spike After IS
+Blks.Matched.SAf <- left_join(IS.Spike.After, raw.dat, by = c("Compound", "Rep", "Cruise"))%>%
+  filter(!str_detect(.$Rep, "Std")) %>%
+  filter(str_detect(.$Rep, "Blk")) %>%
+  filter(!str_detect(.$Rep, "220623_Smp_MQBlk")) %>%
+  filter(!str_detect(.$Rep, "TN397_MQBlk")) %>%
+  filter(!str_detect(.$Rep, "FilterBlk")) %>%
+  filter(!str_detect(.$Rep, "BottleBlk")) %>%
+  filter(!str_detect(.$Rep, "CXC_Blk")) %>%    
+  mutate(Area = replace_na(Area, 0)) %>%
+  left_join(., EE.vals %>% rename(Compound = Name)) %>%
+  select(Cruise, Rep, Compound, Area, IS_Area, Conc.in.vial.uM, EE) %>%
+  mutate(Nmol.in.vial_IS = Area/IS_Area*Conc.in.vial.uM*1000,
+         Nmol.in.Samp_IS = Nmol.in.vial_IS*10^-6*400/(40*10^-3),
+         EE.adjust.conc = Nmol.in.Samp_IS*(EE/100)) 
+
+
+#Combine Spike Before and Spike After IS:
+Blks.IS <- Blks.Matched.SBe %>%
+  rename(EE.adjust.conc = Nmol.in.Samp_IS) %>%
+  select(Cruise, Rep, Compound, EE.adjust.conc) %>%
+  rbind(Blks.Matched.SAf %>% select(Cruise, Rep, Compound, EE.adjust.conc))
+  
+  
 
 
 ##Count number of blanks and assign student's t-value
-Blk.sum <- LOD.Matched %>%
+# Blk.sum <- LOD.Matched %>%
+#   select(Rep, Cruise) %>%
+#   unique() %>%
+#   group_by(Cruise) %>%
+#   summarize(count = n()) %>%
+#   mutate(t_val = case_when(count == 12 ~ 1.782,
+#                            count == 14 ~ 1.761,
+#                            count == 15 ~ 1.753)) %>%
+#   ungroup()
+
+
+Blk.sum <- Blks.IS %>%
   select(Rep, Cruise) %>%
   unique() %>%
   group_by(Cruise) %>%
@@ -197,23 +240,29 @@ Blk.sum <- LOD.Matched %>%
   ungroup()
 
 
-###
-Blk.ave.dat <- LOD.Matched %>%
+
+
+
+###Calculate LOD values from IS quantified compounds 
+Blk.ave.dat <- Blks.IS %>%
   group_by(Compound, Cruise) %>%
   left_join(., Blk.sum) %>%
-  summarize(Blk.Av = mean(Nmol.in.Samp_IS),
-            Blk.sd = sd(Nmol.in.Samp_IS),
-            Blk.max = max(Nmol.in.Samp_IS),
+  summarize(Blk.Av = mean(EE.adjust.conc),
+            Blk.sd = sd(EE.adjust.conc),
+            Blk.max = max(EE.adjust.conc),
             Blk.LD = Blk.Av + (t_val * (Blk.sd/sqrt(count)))) %>%
   unique() %>%
   rename("Name" = Compound) %>%
   rename("EE.adjust.lod" = Blk.LD,
-         "EE.adjust.Blk.Av" = Blk.Av)
+         "EE.adjust.Blk.Av" = Blk.Av) %>%
+  unite(c(Cruise, Name), remove = FALSE, col = "cruise_comp") 
 
 
-############LODs:
+#####Replace regularly quantified LODs with IS quantified LODs for final LOD dataset:
 LOD.IS.replaced <- lod.conc.EE %>%
-  filter(!Name %in% Blk.ave.dat$Name) %>%
+  unite(c(Cruise, Name), remove = FALSE, col = "cruise_comp") %>%
+  filter(!cruise_comp %in% Blk.ave.dat$cruise_comp) %>%
+  select(-cruise_comp) %>%
   rbind(., Blk.ave.dat %>%
           select(Name, Cruise, EE.adjust.lod, EE.adjust.Blk.Av))
 
@@ -225,8 +274,7 @@ LOD.IS.replaced <- lod.conc.EE %>%
 
 
 
-
-#####______________Perform final calculations and assemble final dataset__________________
+#####______________Perform final calculations and assemble final calculated concentrations dataset__________________
 
 #combine IS quantified values with metadata
 IS.dat.QCed <- rbind(SBe.add, SAf.add) %>%
@@ -241,7 +289,7 @@ IS.dat.QCed <- rbind(SBe.add, SAf.add) %>%
 
 #Remove compounds from main dataset that are quantified using IS
 no.IS.dat <- dat.conc.EE %>%
-  select(Name, SampID, Cruise, EE.adjust.conc)  %>%
+  select(Name, SampID, Cruise, conc.in.vial.uM, EE.adjust.conc)  %>%
   unite(c(Cruise, Name), remove = FALSE, col = "cruise_comp") %>%
   filter(!cruise_comp %in% IS.dat.QCed$cruise_comp) 
 

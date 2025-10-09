@@ -114,7 +114,8 @@ d1.env.dat <- read_csv(d1.file) %>%
          "pn" = "PN_uM",
          "sss" = sal,
          "sst" = temp,
-         "chla" = Chl_fluor) %>%
+         "chla" = Chl_fluor,
+         "doc" = DOC_uM) %>%
   mutate("N_N" = NO3 + NO2) %>%
   rename(Part.SampID = SampID) %>%
   left_join(., d1.samp.IDs)
@@ -128,7 +129,8 @@ all.env.dat <- g.samp.enviro.dat %>%
          "poc" = pc_interp,
          "pn" = pn_interp,
          "N_N" = N_N_interp) %>%
-  rbind(., d1.env.dat %>% select(Part.SampID, Diss.SampID, sst, sss, chla, poc, pn, N_N)) 
+  mutate(doc = NA) %>%
+  rbind(., d1.env.dat %>% select(Part.SampID, Diss.SampID, sst, sss, chla, poc, pn, N_N, doc)) 
 
 
 

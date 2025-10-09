@@ -125,7 +125,9 @@ cult.fig3
 ####Normailze things to cell volume:
 cult.fig.norm <- cult.fig %>%
   mutate(umol_in_samp = uM_in_samp*Vol_mL*(1/1000),
-         intracellular_conc_uM = umol_in_samp*(1/cell_volume_on_filter_uL)*1e6)
+         intracellular_conc_uM = umol_in_samp*(1/cell_volume_on_filter_uL)*1e6,
+         Carbon_per_Cell_fg = 0.261*Cell_Volume_um3^0.86,
+         Cell_Carbon_on_filter_fg = Carbon_per_Cell_fg*tot_cells_filt)
 
 
 norm.cult.fig1 <- ggplot(cult.fig.norm, aes(y = intracellular_conc_uM, x = SampID.fig, fill = reorder(Compound, order))) +
@@ -155,7 +157,7 @@ norm.cult.fig1
 
 cult.norm.sum <- cult.fig.norm %>%
   filter(!is.na(Vol_mL)) %>%
-  group_by(SampID.fig, cell_volume_on_filter_uL, Organism, Type, Cell_Volume_um3, tot_cells_filt) %>%
+  group_by(SampID.fig, cell_volume_on_filter_uL, Organism, Type, Cell_Volume_um3, tot_cells_filt, Carbon_per_Cell_fg, Cell_Carbon_on_filter_fg) %>%
   reframe(Tot.Osmo.umol = sum(umol_in_samp, na.rm = TRUE),
           Osmo.per.cell.umol = Tot.Osmo.umol/tot_cells_filt,
           Intracellular_Conc_uM = Tot.Osmo.umol/cell_volume_on_filter_uL*1e6)
@@ -164,13 +166,72 @@ ggplot(cult.norm.sum, aes(x = cell_volume_on_filter_uL, y = Tot.Osmo.umol)) +
   geom_smooth(method = "lm") +
   geom_point(aes(color = Type)) +
   scale_y_log10() +
-  scale_x_log10() 
+  scale_x_log10() +
+  xlab("Cell volume on filter (uL)") +
+  ylab("Total Osmolyte Amount on filter (umol)")
 
 ggplot(cult.norm.sum, aes(x = Cell_Volume_um3, y = Osmo.per.cell.umol)) +
   geom_smooth(method = "lm") +
   geom_point(aes(color = Type)) +
   scale_y_log10() +
-  scale_x_log10() 
+  scale_x_log10() +
+  xlab("Cell Volume (um^3)") +
+  ylab("Osmolyte Amount per Cell (umol)")
+
+ggplot(cult.norm.sum, aes(y = Carbon_per_Cell_fg, x = Osmo.per.cell.umol)) +
+  geom_smooth(method = "lm") +
+  geom_point(aes(color = Type)) +
+  scale_y_log10() +
+  scale_x_log10() +
+  ylab("Qc (fg C)") +
+  xlab("Osmolyte Amount per Cell (umol)")
+
+ggplot(cult.norm.sum, aes(x = Carbon_per_Cell_fg, y = Osmo.per.cell.umol)) +
+  geom_smooth(method = "lm") +
+  geom_point(aes(color = Type)) +
+  # xlab("Cell Volume (um^3)") +
+  ylab("Osmolyte Amount per Cell (umol)")
+
+
+
+
+ggplot(cult.norm.sum, aes(x = Cell_Volume_um3, y = Carbon_per_Cell_fg)) +
+  geom_smooth(method = "lm") +
+  scale_y_log10() +
+  scale_x_log10() +
+  geom_point(aes(color = Type))
+
+ggplot(cult.norm.sum %>% filter(!Type == "Bacteria"), aes(x = Cell_Carbon_on_filter_fg, y = Tot.Osmo.umol)) +
+  geom_smooth(method = "lm") +
+  geom_point(aes(color = Type)) +
+  xlab("Cell carbon on filter (fg)") +
+  ylab("Total Osmolyte Amount on filter (umol)")
+
+
+
+osmo.calibration <- cult.norm.sum %>%
+  mutate(Osmo.per.cell.nmol = 1000*Osmo.per.cell.umol,
+         Carbon_per_Cell_ng = Carbon_per_Cell_fg/1000) 
+
+
+ggplot(osmo.calibration, aes(y = Carbon_per_Cell_ng, x = Osmo.per.cell.nmol)) +
+  geom_smooth(method = "lm") +
+  geom_point(aes(color = Type)) +
+  scale_y_log10() +
+  scale_x_log10() +
+  ylab("Qc (ng C)") +
+  xlab("Osmolyte Amount per Cell (nmol)")
+
+ggplot(osmo.calibration, aes(y = Carbon_per_Cell_ng, x = Osmo.per.cell.nmol)) +
+  geom_smooth(method = "lm") +
+  geom_point(aes(color = Type)) +
+  ylab("Qc (ng C)") +
+  xlab("Osmolyte Amount per Cell (nmol)")
+model.norm <- lm(Carbon_per_Cell_ng ~ Osmo.per.cell.nmol, data = osmo.calibration)
+summary(model.norm)
+
+model.log <- lm(log10(Carbon_per_Cell_ng) ~ log10(Osmo.per.cell.nmol), data = osmo.calibration)
+summary(model.log)
 
 
 ggplot(cult.norm.sum, aes(x = Cell_Volume_um3, y = Intracellular_Conc_uM)) +

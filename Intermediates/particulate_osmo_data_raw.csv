@@ -23638,3 +23638,3630 @@ Rep,Compound,Area,Cruise
 230213_Smp_TfinalPF_1,Trehalose,67453048,PERIFIX
 230213_Smp_TfinalPF_2,Trehalose,34527540,PERIFIX
 230213_Smp_TfinalPF_3,Trehalose,43654424,PERIFIX
+250626_Std_4uMStdsMix1InH2O_1,Trimethylamine N-oxide,308990,RR
+250626_Std_4uMStdsMix1InH2O_2,Trimethylamine N-oxide,89279,RR
+250626_Std_4uMStdsMix1InMatrix_1,Trimethylamine N-oxide,1549785856,RR
+250626_Std_4uMStdsMix1InMatrix_2,Trimethylamine N-oxide,1423060864,RR
+250626_Std_4uMStdsMix2InH2O_1,Trimethylamine N-oxide,1907181440,RR
+250626_Std_4uMStdsMix2InH2O_2,Trimethylamine N-oxide,2263151872,RR
+250626_Std_4uMStdsMix2InMatrix_1,Trimethylamine N-oxide,3085510144,RR
+250626_Std_4uMStdsMix2InMatrix_2,Trimethylamine N-oxide,3425112832,RR
+250626_Std_H2OinMatrix_1,Trimethylamine N-oxide,1328311040,RR
+250626_Std_H2OinMatrix_2,Trimethylamine N-oxide,1367038464,RR
+250626_Blk_FilterBlk_1,Trimethylamine N-oxide,606161,RR
+250626_Poo_Day1Poo_Half1,Trimethylamine N-oxide,979477888,RR
+250626_Poo_Day1Poo_Full2,Trimethylamine N-oxide,2233344512,RR
+250626_Poo_Day1Poo_Full3,Trimethylamine N-oxide,2276792576,RR
+250626_Poo_Day1Poo_Full1,Trimethylamine N-oxide,1965437312,RR
+250626_Poo_Day1Poo_Half2,Trimethylamine N-oxide,1173052160,RR
+250626_Poo_Day1Poo_Half3,Trimethylamine N-oxide,1124302720,RR
+250626_Smp_RExp1Cnt_A,Trimethylamine N-oxide,3373103616,RR
+250626_Smp_RExp1Cnt_B,Trimethylamine N-oxide,2879590912,RR
+250626_Smp_RExp1Cnt_C,Trimethylamine N-oxide,3061160960,RR
+250626_Smp_RExp1HFe_A,Trimethylamine N-oxide,3198479104,RR
+250626_Smp_RExp1HFe_B,Trimethylamine N-oxide,3407781376,RR
+250626_Smp_RExp1HFe_C,Trimethylamine N-oxide,2808166656,RR
+250626_Smp_RExp1LFe_A,Trimethylamine N-oxide,3360516096,RR
+250626_Smp_RExp1LFe_B,Trimethylamine N-oxide,4480176640,RR
+250626_Smp_RExp1LFe_C,Trimethylamine N-oxide,2990195968,RR
+250626_Smp_RExp1NPFe_A,Trimethylamine N-oxide,3358441728,RR
+250626_Smp_RExp1NPFe_B,Trimethylamine N-oxide,4404461056,RR
+250626_Smp_RExp1NPFe_C,Trimethylamine N-oxide,4403605504,RR
+250626_Smp_RExp1T0_A,Trimethylamine N-oxide,6309483008,RR
+250626_Smp_RExp1T0_B,Trimethylamine N-oxide,5038902272,RR
+250626_Smp_RExp1T0_C,Trimethylamine N-oxide,2829737472,RR
+250626_Smp_RExp2Cnt_A,Trimethylamine N-oxide,699798720,RR
+250626_Smp_RExp2Cnt_B,Trimethylamine N-oxide,1574056704,RR
+250626_Smp_RExp2Cnt_C,Trimethylamine N-oxide,1197467520,RR
+250626_Smp_RExp2Fe_A,Trimethylamine N-oxide,410594624,RR
+250626_Smp_RExp2Fe_B,Trimethylamine N-oxide,270249376,RR
+250626_Smp_RExp2Fe_C,Trimethylamine N-oxide,945249984,RR
+250626_Smp_RExp2NP_A,Trimethylamine N-oxide,918964352,RR
+250626_Smp_RExp2NP_B,Trimethylamine N-oxide,757324736,RR
+250626_Smp_RExp2NP_C,Trimethylamine N-oxide,823400256,RR
+250626_Smp_RExp2NPFe_A,Trimethylamine N-oxide,873720704,RR
+250626_Smp_RExp2NPFe_B,Trimethylamine N-oxide,1119189120,RR
+250626_Smp_RExp2NPFe_C,Trimethylamine N-oxide,1143627264,RR
+250626_Smp_RExp2T0_A,Trimethylamine N-oxide,6677178368,RR
+250626_Smp_RExp2T0_B,Trimethylamine N-oxide,588061056,RR
+250626_Smp_RExp2T0_C,Trimethylamine N-oxide,1223495808,RR
+250626_Smp_RExp3Cnt_A,Trimethylamine N-oxide,166363248,RR
+250626_Smp_RExp3Cnt_B,Trimethylamine N-oxide,149173776,RR
+250626_Smp_RExp3Cnt_C,Trimethylamine N-oxide,84345656,RR
+250626_Smp_RExp3FeNP_A,Trimethylamine N-oxide,218915344,RR
+250626_Smp_RExp3FeNP_B,Trimethylamine N-oxide,218037056,RR
+250626_Smp_RExp3FENP_C,Trimethylamine N-oxide,180149888,RR
+250626_Smp_RExp3HiNP_A,Trimethylamine N-oxide,246500928,RR
+250626_Smp_RExp3HiNP_B,Trimethylamine N-oxide,472366144,RR
+250626_Smp_RExp3HiNP_C,Trimethylamine N-oxide,252684192,RR
+250626_Smp_RExp3LNP_A,Trimethylamine N-oxide,227888000,RR
+250626_Smp_RExp3LNP_B,Trimethylamine N-oxide,247901296,RR
+250626_Smp_RExp3LNP_C,Trimethylamine N-oxide,154461168,RR
+250626_Smp_RExp3T0_A,Trimethylamine N-oxide,90529504,RR
+250626_Smp_RExp3T0_B,Trimethylamine N-oxide,80813496,RR
+250626_Smp_RExp3T0_C,Trimethylamine N-oxide,110874560,RR
+250626_Std_4uMStdsMix1InH2O_1,beta-Alanine,108182296,RR
+250626_Std_4uMStdsMix1InH2O_2,beta-Alanine,343224160,RR
+250626_Std_4uMStdsMix1InMatrix_1,beta-Alanine,162301440,RR
+250626_Std_4uMStdsMix1InMatrix_2,beta-Alanine,302172320,RR
+250626_Std_4uMStdsMix2InH2O_1,beta-Alanine,212618352,RR
+250626_Std_4uMStdsMix2InH2O_2,beta-Alanine,655682752,RR
+250626_Std_4uMStdsMix2InMatrix_1,beta-Alanine,383343648,RR
+250626_Std_4uMStdsMix2InMatrix_2,beta-Alanine,805589120,RR
+250626_Std_H2OinMatrix_1,beta-Alanine,36648992,RR
+250626_Std_H2OinMatrix_2,beta-Alanine,266750720,RR
+250626_Blk_FilterBlk_1,beta-Alanine,1367076,RR
+250626_Poo_Day1Poo_Half1,beta-Alanine,132902144,RR
+250626_Poo_Day1Poo_Full2,beta-Alanine,211604816,RR
+250626_Poo_Day1Poo_Full3,beta-Alanine,275426976,RR
+250626_Poo_Day1Poo_Full1,beta-Alanine,239169904,RR
+250626_Poo_Day1Poo_Half2,beta-Alanine,104273352,RR
+250626_Poo_Day1Poo_Half3,beta-Alanine,172092752,RR
+250626_Smp_RExp1Cnt_A,beta-Alanine,574610368,RR
+250626_Smp_RExp1Cnt_B,beta-Alanine,669585472,RR
+250626_Smp_RExp1Cnt_C,beta-Alanine,684218048,RR
+250626_Smp_RExp1HFe_A,beta-Alanine,479131872,RR
+250626_Smp_RExp1HFe_B,beta-Alanine,626907328,RR
+250626_Smp_RExp1HFe_C,beta-Alanine,678893312,RR
+250626_Smp_RExp1LFe_A,beta-Alanine,705400128,RR
+250626_Smp_RExp1LFe_B,beta-Alanine,574609344,RR
+250626_Smp_RExp1LFe_C,beta-Alanine,545006784,RR
+250626_Smp_RExp1NPFe_A,beta-Alanine,576429184,RR
+250626_Smp_RExp1NPFe_B,beta-Alanine,651390016,RR
+250626_Smp_RExp1NPFe_C,beta-Alanine,919769216,RR
+250626_Smp_RExp1T0_A,beta-Alanine,161018720,RR
+250626_Smp_RExp1T0_B,beta-Alanine,319700416,RR
+250626_Smp_RExp1T0_C,beta-Alanine,424219648,RR
+250626_Smp_RExp2Cnt_A,beta-Alanine,61862436,RR
+250626_Smp_RExp2Cnt_B,beta-Alanine,258457600,RR
+250626_Smp_RExp2Cnt_C,beta-Alanine,118265800,RR
+250626_Smp_RExp2Fe_A,beta-Alanine,49089492,RR
+250626_Smp_RExp2Fe_B,beta-Alanine,42728668,RR
+250626_Smp_RExp2Fe_C,beta-Alanine,152738736,RR
+250626_Smp_RExp2NP_A,beta-Alanine,140149568,RR
+250626_Smp_RExp2NP_B,beta-Alanine,121433528,RR
+250626_Smp_RExp2NP_C,beta-Alanine,137827616,RR
+250626_Smp_RExp2NPFe_A,beta-Alanine,182162160,RR
+250626_Smp_RExp2NPFe_B,beta-Alanine,300363904,RR
+250626_Smp_RExp2NPFe_C,beta-Alanine,163782144,RR
+250626_Smp_RExp2T0_A,beta-Alanine,468666240,RR
+250626_Smp_RExp2T0_B,beta-Alanine,96371072,RR
+250626_Smp_RExp2T0_C,beta-Alanine,73296344,RR
+250626_Smp_RExp3Cnt_A,beta-Alanine,33035698,RR
+250626_Smp_RExp3Cnt_B,beta-Alanine,24139566,RR
+250626_Smp_RExp3Cnt_C,beta-Alanine,12406806,RR
+250626_Smp_RExp3FeNP_A,beta-Alanine,53144132,RR
+250626_Smp_RExp3FeNP_B,beta-Alanine,47102228,RR
+250626_Smp_RExp3FENP_C,beta-Alanine,33129322,RR
+250626_Smp_RExp3HiNP_A,beta-Alanine,53613268,RR
+250626_Smp_RExp3HiNP_B,beta-Alanine,107046296,RR
+250626_Smp_RExp3HiNP_C,beta-Alanine,56252404,RR
+250626_Smp_RExp3LNP_A,beta-Alanine,42050456,RR
+250626_Smp_RExp3LNP_B,beta-Alanine,53884120,RR
+250626_Smp_RExp3LNP_C,beta-Alanine,25282734,RR
+250626_Smp_RExp3T0_A,beta-Alanine,19805630,RR
+250626_Smp_RExp3T0_B,beta-Alanine,17932474,RR
+250626_Smp_RExp3T0_C,beta-Alanine,11849695,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Alanine,108182296,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Alanine,343224160,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Alanine,68429984,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Alanine,48131704,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Alanine,22351336,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Alanine,52026888,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Alanine,43653728,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Alanine,21472974,RR
+250626_Std_H2OinMatrix_1,L-Alanine,36648992,RR
+250626_Std_H2OinMatrix_2,L-Alanine,12603119,RR
+250626_Blk_FilterBlk_1,L-Alanine,3392363,RR
+250626_Poo_Day1Poo_Half1,L-Alanine,47437424,RR
+250626_Poo_Day1Poo_Full2,L-Alanine,8615573,RR
+250626_Poo_Day1Poo_Full3,L-Alanine,13912581,RR
+250626_Poo_Day1Poo_Full1,L-Alanine,37747856,RR
+250626_Poo_Day1Poo_Half2,L-Alanine,15403799,RR
+250626_Poo_Day1Poo_Half3,L-Alanine,21234700,RR
+250626_Smp_RExp1Cnt_A,L-Alanine,28438792,RR
+250626_Smp_RExp1Cnt_B,L-Alanine,22055506,RR
+250626_Smp_RExp1Cnt_C,L-Alanine,23482568,RR
+250626_Smp_RExp1HFe_A,L-Alanine,24048574,RR
+250626_Smp_RExp1HFe_B,L-Alanine,9360845,RR
+250626_Smp_RExp1HFe_C,L-Alanine,91971056,RR
+250626_Smp_RExp1LFe_A,L-Alanine,29874394,RR
+250626_Smp_RExp1LFe_B,L-Alanine,36771168,RR
+250626_Smp_RExp1LFe_C,L-Alanine,42704892,RR
+250626_Smp_RExp1NPFe_A,L-Alanine,39727604,RR
+250626_Smp_RExp1NPFe_B,L-Alanine,37945852,RR
+250626_Smp_RExp1NPFe_C,L-Alanine,35397800,RR
+250626_Smp_RExp1T0_A,L-Alanine,14941705,RR
+250626_Smp_RExp1T0_B,L-Alanine,18814822,RR
+250626_Smp_RExp1T0_C,L-Alanine,14094373,RR
+250626_Smp_RExp2Cnt_A,L-Alanine,4065342,RR
+250626_Smp_RExp2Cnt_B,L-Alanine,5410604,RR
+250626_Smp_RExp2Cnt_C,L-Alanine,6185429,RR
+250626_Smp_RExp2Fe_A,L-Alanine,1222142,RR
+250626_Smp_RExp2Fe_B,L-Alanine,2128618,RR
+250626_Smp_RExp2Fe_C,L-Alanine,1973322,RR
+250626_Smp_RExp2NP_A,L-Alanine,3769481,RR
+250626_Smp_RExp2NP_B,L-Alanine,12987671,RR
+250626_Smp_RExp2NP_C,L-Alanine,5583828,RR
+250626_Smp_RExp2NPFe_A,L-Alanine,4388444,RR
+250626_Smp_RExp2NPFe_B,L-Alanine,20602970,RR
+250626_Smp_RExp2NPFe_C,L-Alanine,6412201,RR
+250626_Smp_RExp2T0_A,L-Alanine,41680076,RR
+250626_Smp_RExp2T0_B,L-Alanine,4397736,RR
+250626_Smp_RExp2T0_C,L-Alanine,1177389,RR
+250626_Smp_RExp3Cnt_A,L-Alanine,4321659,RR
+250626_Smp_RExp3Cnt_B,L-Alanine,207584,RR
+250626_Smp_RExp3Cnt_C,L-Alanine,487674,RR
+250626_Smp_RExp3FeNP_A,L-Alanine,11415216,RR
+250626_Smp_RExp3FeNP_B,L-Alanine,3411482,RR
+250626_Smp_RExp3FENP_C,L-Alanine,1278694,RR
+250626_Smp_RExp3HiNP_A,L-Alanine,2416174,RR
+250626_Smp_RExp3HiNP_B,L-Alanine,1585526,RR
+250626_Smp_RExp3HiNP_C,L-Alanine,6286734,RR
+250626_Smp_RExp3LNP_A,L-Alanine,1537733,RR
+250626_Smp_RExp3LNP_B,L-Alanine,1971321,RR
+250626_Smp_RExp3LNP_C,L-Alanine,2137565,RR
+250626_Smp_RExp3T0_A,L-Alanine,755256,RR
+250626_Smp_RExp3T0_B,L-Alanine,1653661,RR
+250626_Smp_RExp3T0_C,L-Alanine,907700,RR
+250626_Std_4uMStdsMix1InH2O_1,Sarcosine,108182296,RR
+250626_Std_4uMStdsMix1InH2O_2,Sarcosine,13009441,RR
+250626_Std_4uMStdsMix1InMatrix_1,Sarcosine,34367292,RR
+250626_Std_4uMStdsMix1InMatrix_2,Sarcosine,46869248,RR
+250626_Std_4uMStdsMix2InH2O_1,Sarcosine,270936608,RR
+250626_Std_4uMStdsMix2InH2O_2,Sarcosine,737812480,RR
+250626_Std_4uMStdsMix2InMatrix_1,Sarcosine,75068928,RR
+250626_Std_4uMStdsMix2InMatrix_2,Sarcosine,110056216,RR
+250626_Std_H2OinMatrix_1,Sarcosine,31219452,RR
+250626_Std_H2OinMatrix_2,Sarcosine,40536088,RR
+250626_Blk_FilterBlk_1,Sarcosine,2477217,RR
+250626_Poo_Day1Poo_Half1,Sarcosine,16747327,RR
+250626_Poo_Day1Poo_Full2,Sarcosine,20091408,RR
+250626_Poo_Day1Poo_Full3,Sarcosine,21304024,RR
+250626_Poo_Day1Poo_Full1,Sarcosine,20487844,RR
+250626_Poo_Day1Poo_Half2,Sarcosine,15800086,RR
+250626_Poo_Day1Poo_Half3,Sarcosine,20894762,RR
+250626_Smp_RExp1Cnt_A,Sarcosine,76365856,RR
+250626_Smp_RExp1Cnt_B,Sarcosine,77494176,RR
+250626_Smp_RExp1Cnt_C,Sarcosine,82235592,RR
+250626_Smp_RExp1HFe_A,Sarcosine,109245448,RR
+250626_Smp_RExp1HFe_B,Sarcosine,146241984,RR
+250626_Smp_RExp1HFe_C,Sarcosine,149264944,RR
+250626_Smp_RExp1LFe_A,Sarcosine,159110144,RR
+250626_Smp_RExp1LFe_B,Sarcosine,86333200,RR
+250626_Smp_RExp1LFe_C,Sarcosine,81282328,RR
+250626_Smp_RExp1NPFe_A,Sarcosine,97493928,RR
+250626_Smp_RExp1NPFe_B,Sarcosine,105459240,RR
+250626_Smp_RExp1NPFe_C,Sarcosine,156703280,RR
+250626_Smp_RExp1T0_A,Sarcosine,3811643,RR
+250626_Smp_RExp1T0_B,Sarcosine,17983166,RR
+250626_Smp_RExp1T0_C,Sarcosine,13879853,RR
+250626_Smp_RExp2Cnt_A,Sarcosine,4080735,RR
+250626_Smp_RExp2Cnt_B,Sarcosine,11470595,RR
+250626_Smp_RExp2Cnt_C,Sarcosine,6386865,RR
+250626_Smp_RExp2Fe_A,Sarcosine,2736974,RR
+250626_Smp_RExp2Fe_B,Sarcosine,3887682,RR
+250626_Smp_RExp2Fe_C,Sarcosine,8782384,RR
+250626_Smp_RExp2NP_A,Sarcosine,3894759,RR
+250626_Smp_RExp2NP_B,Sarcosine,5400759,RR
+250626_Smp_RExp2NP_C,Sarcosine,11163320,RR
+250626_Smp_RExp2NPFe_A,Sarcosine,4333516,RR
+250626_Smp_RExp2NPFe_B,Sarcosine,7601388,RR
+250626_Smp_RExp2NPFe_C,Sarcosine,4164363,RR
+250626_Smp_RExp2T0_A,Sarcosine,29194384,RR
+250626_Smp_RExp2T0_B,Sarcosine,2772142,RR
+250626_Smp_RExp2T0_C,Sarcosine,1316628,RR
+250626_Smp_RExp3Cnt_A,Sarcosine,1634373,RR
+250626_Smp_RExp3Cnt_B,Sarcosine,426400,RR
+250626_Smp_RExp3Cnt_C,Sarcosine,83618,RR
+250626_Smp_RExp3FeNP_A,Sarcosine,582429,RR
+250626_Smp_RExp3FeNP_B,Sarcosine,3866960,RR
+250626_Smp_RExp3FENP_C,Sarcosine,326611,RR
+250626_Smp_RExp3HiNP_A,Sarcosine,637019,RR
+250626_Smp_RExp3HiNP_B,Sarcosine,2858070,RR
+250626_Smp_RExp3HiNP_C,Sarcosine,3258455,RR
+250626_Smp_RExp3LNP_A,Sarcosine,407805,RR
+250626_Smp_RExp3LNP_B,Sarcosine,1282145,RR
+250626_Smp_RExp3LNP_C,Sarcosine,428407,RR
+250626_Smp_RExp3T0_A,Sarcosine,85010,RR
+250626_Smp_RExp3T0_B,Sarcosine,280397,RR
+250626_Smp_RExp3T0_C,Sarcosine,395117,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Serine,32633118,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Serine,135109568,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Serine,43820928,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Serine,113592736,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Serine,43606,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Serine,83442,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Serine,15595798,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Serine,30179410,RR
+250626_Std_H2OinMatrix_1,L-Serine,12877978,RR
+250626_Std_H2OinMatrix_2,L-Serine,27651896,RR
+250626_Blk_FilterBlk_1,L-Serine,1160780,RR
+250626_Poo_Day1Poo_Half1,L-Serine,15477395,RR
+250626_Poo_Day1Poo_Full2,L-Serine,13610098,RR
+250626_Poo_Day1Poo_Full3,L-Serine,38038564,RR
+250626_Poo_Day1Poo_Full1,L-Serine,32732390,RR
+250626_Poo_Day1Poo_Half2,L-Serine,15968885,RR
+250626_Poo_Day1Poo_Half3,L-Serine,25915502,RR
+250626_Smp_RExp1Cnt_A,L-Serine,72924832,RR
+250626_Smp_RExp1Cnt_B,L-Serine,66741464,RR
+250626_Smp_RExp1Cnt_C,L-Serine,95057008,RR
+250626_Smp_RExp1HFe_A,L-Serine,70480768,RR
+250626_Smp_RExp1HFe_B,L-Serine,92543272,RR
+250626_Smp_RExp1HFe_C,L-Serine,120549944,RR
+250626_Smp_RExp1LFe_A,L-Serine,93548176,RR
+250626_Smp_RExp1LFe_B,L-Serine,88479912,RR
+250626_Smp_RExp1LFe_C,L-Serine,102391760,RR
+250626_Smp_RExp1NPFe_A,L-Serine,84566856,RR
+250626_Smp_RExp1NPFe_B,L-Serine,102929568,RR
+250626_Smp_RExp1NPFe_C,L-Serine,145300560,RR
+250626_Smp_RExp1T0_A,L-Serine,15532722,RR
+250626_Smp_RExp1T0_B,L-Serine,26585914,RR
+250626_Smp_RExp1T0_C,L-Serine,47999880,RR
+250626_Smp_RExp2Cnt_A,L-Serine,10872831,RR
+250626_Smp_RExp2Cnt_B,L-Serine,17255814,RR
+250626_Smp_RExp2Cnt_C,L-Serine,10734289,RR
+250626_Smp_RExp2Fe_A,L-Serine,2598256,RR
+250626_Smp_RExp2Fe_B,L-Serine,10906472,RR
+250626_Smp_RExp2Fe_C,L-Serine,7745092,RR
+250626_Smp_RExp2NP_A,L-Serine,11079061,RR
+250626_Smp_RExp2NP_B,L-Serine,16512953,RR
+250626_Smp_RExp2NP_C,L-Serine,19162902,RR
+250626_Smp_RExp2NPFe_A,L-Serine,12497517,RR
+250626_Smp_RExp2NPFe_B,L-Serine,38919408,RR
+250626_Smp_RExp2NPFe_C,L-Serine,15087438,RR
+250626_Smp_RExp2T0_A,L-Serine,67591224,RR
+250626_Smp_RExp2T0_B,L-Serine,9053982,RR
+250626_Smp_RExp2T0_C,L-Serine,4992390,RR
+250626_Smp_RExp3Cnt_A,L-Serine,5609954,RR
+250626_Smp_RExp3Cnt_B,L-Serine,7690137,RR
+250626_Smp_RExp3Cnt_C,L-Serine,3060945,RR
+250626_Smp_RExp3FeNP_A,L-Serine,15287136,RR
+250626_Smp_RExp3FeNP_B,L-Serine,21777244,RR
+250626_Smp_RExp3FENP_C,L-Serine,8699196,RR
+250626_Smp_RExp3HiNP_A,L-Serine,12222246,RR
+250626_Smp_RExp3HiNP_B,L-Serine,20196654,RR
+250626_Smp_RExp3HiNP_C,L-Serine,11543533,RR
+250626_Smp_RExp3LNP_A,L-Serine,10405875,RR
+250626_Smp_RExp3LNP_B,L-Serine,12718941,RR
+250626_Smp_RExp3LNP_C,L-Serine,4586846,RR
+250626_Smp_RExp3T0_A,L-Serine,8394117,RR
+250626_Smp_RExp3T0_B,L-Serine,8813282,RR
+250626_Smp_RExp3T0_C,L-Serine,2959243,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Proline,1181130880,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Proline,2522659840,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Proline,1294786560,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Proline,1694365312,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Proline,4297955,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Proline,39215808,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Proline,610958208,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Proline,551793664,RR
+250626_Std_H2OinMatrix_1,L-Proline,488968288,RR
+250626_Std_H2OinMatrix_2,L-Proline,501805280,RR
+250626_Blk_FilterBlk_1,L-Proline,11895393,RR
+250626_Poo_Day1Poo_Half1,L-Proline,346359680,RR
+250626_Poo_Day1Poo_Full2,L-Proline,532488288,RR
+250626_Poo_Day1Poo_Full3,L-Proline,595555072,RR
+250626_Poo_Day1Poo_Full1,L-Proline,648394560,RR
+250626_Poo_Day1Poo_Half2,L-Proline,299357856,RR
+250626_Poo_Day1Poo_Half3,L-Proline,292782848,RR
+250626_Smp_RExp1Cnt_A,L-Proline,1584444032,RR
+250626_Smp_RExp1Cnt_B,L-Proline,1571045376,RR
+250626_Smp_RExp1Cnt_C,L-Proline,1402530048,RR
+250626_Smp_RExp1HFe_A,L-Proline,1634465280,RR
+250626_Smp_RExp1HFe_B,L-Proline,1609605120,RR
+250626_Smp_RExp1HFe_C,L-Proline,2204640256,RR
+250626_Smp_RExp1LFe_A,L-Proline,1948614400,RR
+250626_Smp_RExp1LFe_B,L-Proline,1715502208,RR
+250626_Smp_RExp1LFe_C,L-Proline,1660536832,RR
+250626_Smp_RExp1NPFe_A,L-Proline,2911248896,RR
+250626_Smp_RExp1NPFe_B,L-Proline,3758092288,RR
+250626_Smp_RExp1NPFe_C,L-Proline,4712819200,RR
+250626_Smp_RExp1T0_A,L-Proline,295990208,RR
+250626_Smp_RExp1T0_B,L-Proline,1117518336,RR
+250626_Smp_RExp1T0_C,L-Proline,1135913088,RR
+250626_Smp_RExp2Cnt_A,L-Proline,146917584,RR
+250626_Smp_RExp2Cnt_B,L-Proline,244516272,RR
+250626_Smp_RExp2Cnt_C,L-Proline,198268256,RR
+250626_Smp_RExp2Fe_A,L-Proline,84669896,RR
+250626_Smp_RExp2Fe_B,L-Proline,97186344,RR
+250626_Smp_RExp2Fe_C,L-Proline,210104176,RR
+250626_Smp_RExp2NP_A,L-Proline,281701248,RR
+250626_Smp_RExp2NP_B,L-Proline,382639872,RR
+250626_Smp_RExp2NP_C,L-Proline,350720448,RR
+250626_Smp_RExp2NPFe_A,L-Proline,431867264,RR
+250626_Smp_RExp2NPFe_B,L-Proline,904020096,RR
+250626_Smp_RExp2NPFe_C,L-Proline,663071808,RR
+250626_Smp_RExp2T0_A,L-Proline,1659822592,RR
+250626_Smp_RExp2T0_B,L-Proline,153279568,RR
+250626_Smp_RExp2T0_C,L-Proline,128885280,RR
+250626_Smp_RExp3Cnt_A,L-Proline,128399136,RR
+250626_Smp_RExp3Cnt_B,L-Proline,113565400,RR
+250626_Smp_RExp3Cnt_C,L-Proline,58842216,RR
+250626_Smp_RExp3FeNP_A,L-Proline,155484336,RR
+250626_Smp_RExp3FeNP_B,L-Proline,107760560,RR
+250626_Smp_RExp3FENP_C,L-Proline,123554584,RR
+250626_Smp_RExp3HiNP_A,L-Proline,88387104,RR
+250626_Smp_RExp3HiNP_B,L-Proline,177233168,RR
+250626_Smp_RExp3HiNP_C,L-Proline,277487392,RR
+250626_Smp_RExp3LNP_A,L-Proline,103249264,RR
+250626_Smp_RExp3LNP_B,L-Proline,167080176,RR
+250626_Smp_RExp3LNP_C,L-Proline,110708208,RR
+250626_Smp_RExp3T0_A,L-Proline,65749500,RR
+250626_Smp_RExp3T0_B,L-Proline,147539280,RR
+250626_Smp_RExp3T0_C,L-Proline,70674552,RR
+250626_Std_4uMStdsMix1InH2O_1,Glycine betaine,15415815,RR
+250626_Std_4uMStdsMix1InH2O_2,Glycine betaine,74913056,RR
+250626_Std_4uMStdsMix1InMatrix_1,Glycine betaine,38087008256,RR
+250626_Std_4uMStdsMix1InMatrix_2,Glycine betaine,31767740416,RR
+250626_Std_4uMStdsMix2InH2O_1,Glycine betaine,11791651840,RR
+250626_Std_4uMStdsMix2InH2O_2,Glycine betaine,12210807808,RR
+250626_Std_4uMStdsMix2InMatrix_1,Glycine betaine,45848371200,RR
+250626_Std_4uMStdsMix2InMatrix_2,Glycine betaine,42124955648,RR
+250626_Std_H2OinMatrix_1,Glycine betaine,37305466880,RR
+250626_Std_H2OinMatrix_2,Glycine betaine,32985948160,RR
+250626_Blk_FilterBlk_1,Glycine betaine,90467800,RR
+250626_Poo_Day1Poo_Half1,Glycine betaine,20398895104,RR
+250626_Poo_Day1Poo_Full2,Glycine betaine,39462248448,RR
+250626_Poo_Day1Poo_Full3,Glycine betaine,37687418880,RR
+250626_Poo_Day1Poo_Full1,Glycine betaine,37334654976,RR
+250626_Poo_Day1Poo_Half2,Glycine betaine,19760201728,RR
+250626_Poo_Day1Poo_Half3,Glycine betaine,20313339904,RR
+250626_Smp_RExp1Cnt_A,Glycine betaine,81958035456,RR
+250626_Smp_RExp1Cnt_B,Glycine betaine,79366471680,RR
+250626_Smp_RExp1Cnt_C,Glycine betaine,82452193280,RR
+250626_Smp_RExp1HFe_A,Glycine betaine,78401683456,RR
+250626_Smp_RExp1HFe_B,Glycine betaine,89724723200,RR
+250626_Smp_RExp1HFe_C,Glycine betaine,80044482560,RR
+250626_Smp_RExp1LFe_A,Glycine betaine,89564938240,RR
+250626_Smp_RExp1LFe_B,Glycine betaine,93480353792,RR
+250626_Smp_RExp1LFe_C,Glycine betaine,78535458816,RR
+250626_Smp_RExp1NPFe_A,Glycine betaine,74889420800,RR
+250626_Smp_RExp1NPFe_B,Glycine betaine,93570580480,RR
+250626_Smp_RExp1NPFe_C,Glycine betaine,105195290624,RR
+250626_Smp_RExp1T0_A,Glycine betaine,30686107648,RR
+250626_Smp_RExp1T0_B,Glycine betaine,62577283072,RR
+250626_Smp_RExp1T0_C,Glycine betaine,55986700288,RR
+250626_Smp_RExp2Cnt_A,Glycine betaine,14316873728,RR
+250626_Smp_RExp2Cnt_B,Glycine betaine,38108344320,RR
+250626_Smp_RExp2Cnt_C,Glycine betaine,16794952704,RR
+250626_Smp_RExp2Fe_A,Glycine betaine,10499853312,RR
+250626_Smp_RExp2Fe_B,Glycine betaine,10019186688,RR
+250626_Smp_RExp2Fe_C,Glycine betaine,17480364032,RR
+250626_Smp_RExp2NP_A,Glycine betaine,20591822848,RR
+250626_Smp_RExp2NP_B,Glycine betaine,18110748672,RR
+250626_Smp_RExp2NP_C,Glycine betaine,24251592704,RR
+250626_Smp_RExp2NPFe_A,Glycine betaine,20969428992,RR
+250626_Smp_RExp2NPFe_B,Glycine betaine,24988422144,RR
+250626_Smp_RExp2NPFe_C,Glycine betaine,21706203136,RR
+250626_Smp_RExp2T0_A,Glycine betaine,78745649152,RR
+250626_Smp_RExp2T0_B,Glycine betaine,27556376576,RR
+250626_Smp_RExp2T0_C,Glycine betaine,19384832000,RR
+250626_Smp_RExp3Cnt_A,Glycine betaine,12496718848,RR
+250626_Smp_RExp3Cnt_B,Glycine betaine,11094721536,RR
+250626_Smp_RExp3Cnt_C,Glycine betaine,7510151168,RR
+250626_Smp_RExp3FeNP_A,Glycine betaine,14458358784,RR
+250626_Smp_RExp3FeNP_B,Glycine betaine,12418233344,RR
+250626_Smp_RExp3FENP_C,Glycine betaine,9480256512,RR
+250626_Smp_RExp3HiNP_A,Glycine betaine,14235513856,RR
+250626_Smp_RExp3HiNP_B,Glycine betaine,34770255872,RR
+250626_Smp_RExp3HiNP_C,Glycine betaine,31332325376,RR
+250626_Smp_RExp3LNP_A,Glycine betaine,15887288320,RR
+250626_Smp_RExp3LNP_B,Glycine betaine,22744535040,RR
+250626_Smp_RExp3LNP_C,Glycine betaine,9529242624,RR
+250626_Smp_RExp3T0_A,Glycine betaine,10115168256,RR
+250626_Smp_RExp3T0_B,Glycine betaine,13295425536,RR
+250626_Smp_RExp3T0_C,Glycine betaine,10951457792,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Threonine,97682992,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Threonine,497435872,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Threonine,70748384,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Threonine,84530192,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Threonine,189967360,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Threonine,927080960,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Threonine,210720768,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Threonine,102383840,RR
+250626_Std_H2OinMatrix_1,L-Threonine,8599210,RR
+250626_Std_H2OinMatrix_2,L-Threonine,8573171,RR
+250626_Blk_FilterBlk_1,L-Threonine,2101929,RR
+250626_Poo_Day1Poo_Half1,L-Threonine,30883698,RR
+250626_Poo_Day1Poo_Full2,L-Threonine,5560437,RR
+250626_Poo_Day1Poo_Full3,L-Threonine,9666573,RR
+250626_Poo_Day1Poo_Full1,L-Threonine,60056788,RR
+250626_Poo_Day1Poo_Half2,L-Threonine,8257228,RR
+250626_Poo_Day1Poo_Half3,L-Threonine,7994041,RR
+250626_Smp_RExp1Cnt_A,L-Threonine,33592560,RR
+250626_Smp_RExp1Cnt_B,L-Threonine,4363005,RR
+250626_Smp_RExp1Cnt_C,L-Threonine,13083518,RR
+250626_Smp_RExp1HFe_A,L-Threonine,32474100,RR
+250626_Smp_RExp1HFe_B,L-Threonine,10221893,RR
+250626_Smp_RExp1HFe_C,L-Threonine,115753448,RR
+250626_Smp_RExp1LFe_A,L-Threonine,9076051,RR
+250626_Smp_RExp1LFe_B,L-Threonine,25514868,RR
+250626_Smp_RExp1LFe_C,L-Threonine,60116964,RR
+250626_Smp_RExp1NPFe_A,L-Threonine,87038952,RR
+250626_Smp_RExp1NPFe_B,L-Threonine,258228688,RR
+250626_Smp_RExp1NPFe_C,L-Threonine,214234160,RR
+250626_Smp_RExp1T0_A,L-Threonine,27730276,RR
+250626_Smp_RExp1T0_B,L-Threonine,45303632,RR
+250626_Smp_RExp1T0_C,L-Threonine,29728508,RR
+250626_Smp_RExp2Cnt_A,L-Threonine,8617060,RR
+250626_Smp_RExp2Cnt_B,L-Threonine,4449919,RR
+250626_Smp_RExp2Cnt_C,L-Threonine,4475670,RR
+250626_Smp_RExp2Fe_A,L-Threonine,1420540,RR
+250626_Smp_RExp2Fe_B,L-Threonine,456323,RR
+250626_Smp_RExp2Fe_C,L-Threonine,6185257,RR
+250626_Smp_RExp2NP_A,L-Threonine,9648953,RR
+250626_Smp_RExp2NP_B,L-Threonine,22005244,RR
+250626_Smp_RExp2NP_C,L-Threonine,5598950,RR
+250626_Smp_RExp2NPFe_A,L-Threonine,13815646,RR
+250626_Smp_RExp2NPFe_B,L-Threonine,88812824,RR
+250626_Smp_RExp2NPFe_C,L-Threonine,3905455,RR
+250626_Smp_RExp2T0_A,L-Threonine,177652592,RR
+250626_Smp_RExp2T0_B,L-Threonine,3264784,RR
+250626_Smp_RExp2T0_C,L-Threonine,1713014,RR
+250626_Smp_RExp3Cnt_A,L-Threonine,9544796,RR
+250626_Smp_RExp3Cnt_B,L-Threonine,1148369,RR
+250626_Smp_RExp3Cnt_C,L-Threonine,94258,RR
+250626_Smp_RExp3FeNP_A,L-Threonine,46087552,RR
+250626_Smp_RExp3FeNP_B,L-Threonine,7050100,RR
+250626_Smp_RExp3FENP_C,L-Threonine,4750700,RR
+250626_Smp_RExp3HiNP_A,L-Threonine,5213606,RR
+250626_Smp_RExp3HiNP_B,L-Threonine,14474168,RR
+250626_Smp_RExp3HiNP_C,L-Threonine,12531782,RR
+250626_Smp_RExp3LNP_A,L-Threonine,2094423,RR
+250626_Smp_RExp3LNP_B,L-Threonine,1893162,RR
+250626_Smp_RExp3LNP_C,L-Threonine,1150490,RR
+250626_Smp_RExp3T0_A,L-Threonine,524178,RR
+250626_Smp_RExp3T0_B,L-Threonine,5469960,RR
+250626_Smp_RExp3T0_C,L-Threonine,NA,RR
+250626_Std_4uMStdsMix1InH2O_1,Dimethylsulfonioacetate,5562309632,RR
+250626_Std_4uMStdsMix1InH2O_2,Dimethylsulfonioacetate,5308536832,RR
+250626_Std_4uMStdsMix1InMatrix_1,Dimethylsulfonioacetate,11195901952,RR
+250626_Std_4uMStdsMix1InMatrix_2,Dimethylsulfonioacetate,11029997568,RR
+250626_Std_4uMStdsMix2InH2O_1,Dimethylsulfonioacetate,0,RR
+250626_Std_4uMStdsMix2InH2O_2,Dimethylsulfonioacetate,0,RR
+250626_Std_4uMStdsMix2InMatrix_1,Dimethylsulfonioacetate,7395150336,RR
+250626_Std_4uMStdsMix2InMatrix_2,Dimethylsulfonioacetate,6715180544,RR
+250626_Std_H2OinMatrix_1,Dimethylsulfonioacetate,7315877888,RR
+250626_Std_H2OinMatrix_2,Dimethylsulfonioacetate,6726636544,RR
+250626_Blk_FilterBlk_1,Dimethylsulfonioacetate,0,RR
+250626_Poo_Day1Poo_Half1,Dimethylsulfonioacetate,4387490816,RR
+250626_Poo_Day1Poo_Full2,Dimethylsulfonioacetate,8328921088,RR
+250626_Poo_Day1Poo_Full3,Dimethylsulfonioacetate,8441138176,RR
+250626_Poo_Day1Poo_Full1,Dimethylsulfonioacetate,8148289536,RR
+250626_Poo_Day1Poo_Half2,Dimethylsulfonioacetate,4252031744,RR
+250626_Poo_Day1Poo_Half3,Dimethylsulfonioacetate,4494570496,RR
+250626_Smp_RExp1Cnt_A,Dimethylsulfonioacetate,17695608832,RR
+250626_Smp_RExp1Cnt_B,Dimethylsulfonioacetate,17753395200,RR
+250626_Smp_RExp1Cnt_C,Dimethylsulfonioacetate,18820055040,RR
+250626_Smp_RExp1HFe_A,Dimethylsulfonioacetate,17773348864,RR
+250626_Smp_RExp1HFe_B,Dimethylsulfonioacetate,17663455232,RR
+250626_Smp_RExp1HFe_C,Dimethylsulfonioacetate,20337244160,RR
+250626_Smp_RExp1LFe_A,Dimethylsulfonioacetate,24005328896,RR
+250626_Smp_RExp1LFe_B,Dimethylsulfonioacetate,21732483072,RR
+250626_Smp_RExp1LFe_C,Dimethylsulfonioacetate,21622652928,RR
+250626_Smp_RExp1NPFe_A,Dimethylsulfonioacetate,17357561856,RR
+250626_Smp_RExp1NPFe_B,Dimethylsulfonioacetate,21903155200,RR
+250626_Smp_RExp1NPFe_C,Dimethylsulfonioacetate,23470897152,RR
+250626_Smp_RExp1T0_A,Dimethylsulfonioacetate,8184337408,RR
+250626_Smp_RExp1T0_B,Dimethylsulfonioacetate,8076255744,RR
+250626_Smp_RExp1T0_C,Dimethylsulfonioacetate,7288835072,RR
+250626_Smp_RExp2Cnt_A,Dimethylsulfonioacetate,3841894912,RR
+250626_Smp_RExp2Cnt_B,Dimethylsulfonioacetate,5725128704,RR
+250626_Smp_RExp2Cnt_C,Dimethylsulfonioacetate,3794922752,RR
+250626_Smp_RExp2Fe_A,Dimethylsulfonioacetate,2562436096,RR
+250626_Smp_RExp2Fe_B,Dimethylsulfonioacetate,2059407872,RR
+250626_Smp_RExp2Fe_C,Dimethylsulfonioacetate,5013700608,RR
+250626_Smp_RExp2NP_A,Dimethylsulfonioacetate,3965844224,RR
+250626_Smp_RExp2NP_B,Dimethylsulfonioacetate,4539228672,RR
+250626_Smp_RExp2NP_C,Dimethylsulfonioacetate,7700288512,RR
+250626_Smp_RExp2NPFe_A,Dimethylsulfonioacetate,4393730048,RR
+250626_Smp_RExp2NPFe_B,Dimethylsulfonioacetate,5870922752,RR
+250626_Smp_RExp2NPFe_C,Dimethylsulfonioacetate,5284868096,RR
+250626_Smp_RExp2T0_A,Dimethylsulfonioacetate,11539833856,RR
+250626_Smp_RExp2T0_B,Dimethylsulfonioacetate,6343640064,RR
+250626_Smp_RExp2T0_C,Dimethylsulfonioacetate,4742417920,RR
+250626_Smp_RExp3Cnt_A,Dimethylsulfonioacetate,2996776448,RR
+250626_Smp_RExp3Cnt_B,Dimethylsulfonioacetate,2463241472,RR
+250626_Smp_RExp3Cnt_C,Dimethylsulfonioacetate,1533135232,RR
+250626_Smp_RExp3FeNP_A,Dimethylsulfonioacetate,5055572992,RR
+250626_Smp_RExp3FeNP_B,Dimethylsulfonioacetate,4665131008,RR
+250626_Smp_RExp3FENP_C,Dimethylsulfonioacetate,3851863040,RR
+250626_Smp_RExp3HiNP_A,Dimethylsulfonioacetate,5165367808,RR
+250626_Smp_RExp3HiNP_B,Dimethylsulfonioacetate,7585473024,RR
+250626_Smp_RExp3HiNP_C,Dimethylsulfonioacetate,3531320320,RR
+250626_Smp_RExp3LNP_A,Dimethylsulfonioacetate,5683591680,RR
+250626_Smp_RExp3LNP_B,Dimethylsulfonioacetate,4963646464,RR
+250626_Smp_RExp3LNP_C,Dimethylsulfonioacetate,4041612032,RR
+250626_Smp_RExp3T0_A,Dimethylsulfonioacetate,1968835456,RR
+250626_Smp_RExp3T0_B,Dimethylsulfonioacetate,1946715776,RR
+250626_Smp_RExp3T0_C,Dimethylsulfonioacetate,2105071360,RR
+250626_Std_4uMStdsMix1InH2O_1,beta-Alaninebetaine,745144,RR
+250626_Std_4uMStdsMix1InH2O_2,beta-Alaninebetaine,5272059,RR
+250626_Std_4uMStdsMix1InMatrix_1,beta-Alaninebetaine,8615411712,RR
+250626_Std_4uMStdsMix1InMatrix_2,beta-Alaninebetaine,7698788352,RR
+250626_Std_4uMStdsMix2InH2O_1,beta-Alaninebetaine,6142129664,RR
+250626_Std_4uMStdsMix2InH2O_2,beta-Alaninebetaine,7266860544,RR
+250626_Std_4uMStdsMix2InMatrix_1,beta-Alaninebetaine,12770078720,RR
+250626_Std_4uMStdsMix2InMatrix_2,beta-Alaninebetaine,13411377152,RR
+250626_Std_H2OinMatrix_1,beta-Alaninebetaine,8569187840,RR
+250626_Std_H2OinMatrix_2,beta-Alaninebetaine,7924583936,RR
+250626_Blk_FilterBlk_1,beta-Alaninebetaine,1769171,RR
+250626_Poo_Day1Poo_Half1,beta-Alaninebetaine,4546934784,RR
+250626_Poo_Day1Poo_Full2,beta-Alaninebetaine,9389747200,RR
+250626_Poo_Day1Poo_Full3,beta-Alaninebetaine,8863732736,RR
+250626_Poo_Day1Poo_Full1,beta-Alaninebetaine,8940790784,RR
+250626_Poo_Day1Poo_Half2,beta-Alaninebetaine,4761378304,RR
+250626_Poo_Day1Poo_Half3,beta-Alaninebetaine,4815658496,RR
+250626_Smp_RExp1Cnt_A,beta-Alaninebetaine,26647226368,RR
+250626_Smp_RExp1Cnt_B,beta-Alaninebetaine,21832065024,RR
+250626_Smp_RExp1Cnt_C,beta-Alaninebetaine,22760583168,RR
+250626_Smp_RExp1HFe_A,beta-Alaninebetaine,22556053504,RR
+250626_Smp_RExp1HFe_B,beta-Alaninebetaine,22548621312,RR
+250626_Smp_RExp1HFe_C,beta-Alaninebetaine,21888391168,RR
+250626_Smp_RExp1LFe_A,beta-Alaninebetaine,24223729664,RR
+250626_Smp_RExp1LFe_B,beta-Alaninebetaine,26472153088,RR
+250626_Smp_RExp1LFe_C,beta-Alaninebetaine,18712186880,RR
+250626_Smp_RExp1NPFe_A,beta-Alaninebetaine,19782432768,RR
+250626_Smp_RExp1NPFe_B,beta-Alaninebetaine,27400652800,RR
+250626_Smp_RExp1NPFe_C,beta-Alaninebetaine,30160797696,RR
+250626_Smp_RExp1T0_A,beta-Alaninebetaine,7303136256,RR
+250626_Smp_RExp1T0_B,beta-Alaninebetaine,15674598400,RR
+250626_Smp_RExp1T0_C,beta-Alaninebetaine,13843272704,RR
+250626_Smp_RExp2Cnt_A,beta-Alaninebetaine,4637966336,RR
+250626_Smp_RExp2Cnt_B,beta-Alaninebetaine,14025978880,RR
+250626_Smp_RExp2Cnt_C,beta-Alaninebetaine,6746483200,RR
+250626_Smp_RExp2Fe_A,beta-Alaninebetaine,2248391168,RR
+250626_Smp_RExp2Fe_B,beta-Alaninebetaine,2039608320,RR
+250626_Smp_RExp2Fe_C,beta-Alaninebetaine,4197990400,RR
+250626_Smp_RExp2NP_A,beta-Alaninebetaine,3636158464,RR
+250626_Smp_RExp2NP_B,beta-Alaninebetaine,3358284032,RR
+250626_Smp_RExp2NP_C,beta-Alaninebetaine,4121691904,RR
+250626_Smp_RExp2NPFe_A,beta-Alaninebetaine,4472173056,RR
+250626_Smp_RExp2NPFe_B,beta-Alaninebetaine,5864306176,RR
+250626_Smp_RExp2NPFe_C,beta-Alaninebetaine,5003368448,RR
+250626_Smp_RExp2T0_A,beta-Alaninebetaine,16992656384,RR
+250626_Smp_RExp2T0_B,beta-Alaninebetaine,6643399168,RR
+250626_Smp_RExp2T0_C,beta-Alaninebetaine,5171380224,RR
+250626_Smp_RExp3Cnt_A,beta-Alaninebetaine,2472719616,RR
+250626_Smp_RExp3Cnt_B,beta-Alaninebetaine,2169593088,RR
+250626_Smp_RExp3Cnt_C,beta-Alaninebetaine,1385840256,RR
+250626_Smp_RExp3FeNP_A,beta-Alaninebetaine,2508785920,RR
+250626_Smp_RExp3FeNP_B,beta-Alaninebetaine,2220476160,RR
+250626_Smp_RExp3FENP_C,beta-Alaninebetaine,1972111360,RR
+250626_Smp_RExp3HiNP_A,beta-Alaninebetaine,2478552320,RR
+250626_Smp_RExp3HiNP_B,beta-Alaninebetaine,7271940608,RR
+250626_Smp_RExp3HiNP_C,beta-Alaninebetaine,9956327424,RR
+250626_Smp_RExp3LNP_A,beta-Alaninebetaine,2810946816,RR
+250626_Smp_RExp3LNP_B,beta-Alaninebetaine,3950790912,RR
+250626_Smp_RExp3LNP_C,beta-Alaninebetaine,1837582720,RR
+250626_Smp_RExp3T0_A,beta-Alaninebetaine,1710576000,RR
+250626_Smp_RExp3T0_B,beta-Alaninebetaine,1785071488,RR
+250626_Smp_RExp3T0_C,beta-Alaninebetaine,1774594432,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Isoleucine,661870528,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Isoleucine,1409698816,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Isoleucine,804849920,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Isoleucine,2204510464,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Isoleucine,483269248,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Isoleucine,1066048576,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Isoleucine,1088510080,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Isoleucine,2110191616,RR
+250626_Std_H2OinMatrix_1,L-Isoleucine,682119424,RR
+250626_Std_H2OinMatrix_2,L-Isoleucine,1440683136,RR
+250626_Blk_FilterBlk_1,L-Isoleucine,10512923,RR
+250626_Poo_Day1Poo_Half1,L-Isoleucine,774920896,RR
+250626_Poo_Day1Poo_Full2,L-Isoleucine,2124575104,RR
+250626_Poo_Day1Poo_Full3,L-Isoleucine,2203357696,RR
+250626_Poo_Day1Poo_Full1,L-Isoleucine,1538338048,RR
+250626_Poo_Day1Poo_Half2,L-Isoleucine,1057085120,RR
+250626_Poo_Day1Poo_Half3,L-Isoleucine,1175093248,RR
+250626_Smp_RExp1Cnt_A,L-Isoleucine,3426157056,RR
+250626_Smp_RExp1Cnt_B,L-Isoleucine,3377991424,RR
+250626_Smp_RExp1Cnt_C,L-Isoleucine,4242623232,RR
+250626_Smp_RExp1HFe_A,L-Isoleucine,3815619840,RR
+250626_Smp_RExp1HFe_B,L-Isoleucine,4275008512,RR
+250626_Smp_RExp1HFe_C,L-Isoleucine,3607532800,RR
+250626_Smp_RExp1LFe_A,L-Isoleucine,4659204608,RR
+250626_Smp_RExp1LFe_B,L-Isoleucine,4358013440,RR
+250626_Smp_RExp1LFe_C,L-Isoleucine,4126739712,RR
+250626_Smp_RExp1NPFe_A,L-Isoleucine,3424344576,RR
+250626_Smp_RExp1NPFe_B,L-Isoleucine,4006401792,RR
+250626_Smp_RExp1NPFe_C,L-Isoleucine,5469703168,RR
+250626_Smp_RExp1T0_A,L-Isoleucine,904799744,RR
+250626_Smp_RExp1T0_B,L-Isoleucine,1654505856,RR
+250626_Smp_RExp1T0_C,L-Isoleucine,2124481152,RR
+250626_Smp_RExp2Cnt_A,L-Isoleucine,673125568,RR
+250626_Smp_RExp2Cnt_B,L-Isoleucine,1459919744,RR
+250626_Smp_RExp2Cnt_C,L-Isoleucine,1071724864,RR
+250626_Smp_RExp2Fe_A,L-Isoleucine,346904896,RR
+250626_Smp_RExp2Fe_B,L-Isoleucine,462184544,RR
+250626_Smp_RExp2Fe_C,L-Isoleucine,552511040,RR
+250626_Smp_RExp2NP_A,L-Isoleucine,832867904,RR
+250626_Smp_RExp2NP_B,L-Isoleucine,588105792,RR
+250626_Smp_RExp2NP_C,L-Isoleucine,943301760,RR
+250626_Smp_RExp2NPFe_A,L-Isoleucine,824058624,RR
+250626_Smp_RExp2NPFe_B,L-Isoleucine,1277833472,RR
+250626_Smp_RExp2NPFe_C,L-Isoleucine,717275584,RR
+250626_Smp_RExp2T0_A,L-Isoleucine,2540495616,RR
+250626_Smp_RExp2T0_B,L-Isoleucine,700131328,RR
+250626_Smp_RExp2T0_C,L-Isoleucine,515590016,RR
+250626_Smp_RExp3Cnt_A,L-Isoleucine,760833216,RR
+250626_Smp_RExp3Cnt_B,L-Isoleucine,747169920,RR
+250626_Smp_RExp3Cnt_C,L-Isoleucine,419916928,RR
+250626_Smp_RExp3FeNP_A,L-Isoleucine,1115666176,RR
+250626_Smp_RExp3FeNP_B,L-Isoleucine,1026528704,RR
+250626_Smp_RExp3FENP_C,L-Isoleucine,643519936,RR
+250626_Smp_RExp3HiNP_A,L-Isoleucine,1080017408,RR
+250626_Smp_RExp3HiNP_B,L-Isoleucine,1414765184,RR
+250626_Smp_RExp3HiNP_C,L-Isoleucine,1073291392,RR
+250626_Smp_RExp3LNP_A,L-Isoleucine,1154597760,RR
+250626_Smp_RExp3LNP_B,L-Isoleucine,1050901504,RR
+250626_Smp_RExp3LNP_C,L-Isoleucine,662009216,RR
+250626_Smp_RExp3T0_A,L-Isoleucine,566730944,RR
+250626_Smp_RExp3T0_B,L-Isoleucine,434964832,RR
+250626_Smp_RExp3T0_C,L-Isoleucine,510123232,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Asparagine,39276720,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Asparagine,125862192,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Asparagine,45106248,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Asparagine,44049708,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Asparagine,54669,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Asparagine,64039,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Asparagine,10832515,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Asparagine,8281609,RR
+250626_Std_H2OinMatrix_1,L-Asparagine,9650542,RR
+250626_Std_H2OinMatrix_2,L-Asparagine,7137987,RR
+250626_Blk_FilterBlk_1,L-Asparagine,147102,RR
+250626_Poo_Day1Poo_Half1,L-Asparagine,10002719,RR
+250626_Poo_Day1Poo_Full2,L-Asparagine,13611961,RR
+250626_Poo_Day1Poo_Full3,L-Asparagine,11237314,RR
+250626_Poo_Day1Poo_Full1,L-Asparagine,21047506,RR
+250626_Poo_Day1Poo_Half2,L-Asparagine,7284683,RR
+250626_Poo_Day1Poo_Half3,L-Asparagine,6382888,RR
+250626_Smp_RExp1Cnt_A,L-Asparagine,35149956,RR
+250626_Smp_RExp1Cnt_B,L-Asparagine,18499702,RR
+250626_Smp_RExp1Cnt_C,L-Asparagine,39255152,RR
+250626_Smp_RExp1HFe_A,L-Asparagine,35608448,RR
+250626_Smp_RExp1HFe_B,L-Asparagine,32713804,RR
+250626_Smp_RExp1HFe_C,L-Asparagine,65633564,RR
+250626_Smp_RExp1LFe_A,L-Asparagine,33654492,RR
+250626_Smp_RExp1LFe_B,L-Asparagine,38984736,RR
+250626_Smp_RExp1LFe_C,L-Asparagine,51262568,RR
+250626_Smp_RExp1NPFe_A,L-Asparagine,42878172,RR
+250626_Smp_RExp1NPFe_B,L-Asparagine,64837032,RR
+250626_Smp_RExp1NPFe_C,L-Asparagine,77384096,RR
+250626_Smp_RExp1T0_A,L-Asparagine,11055586,RR
+250626_Smp_RExp1T0_B,L-Asparagine,23417094,RR
+250626_Smp_RExp1T0_C,L-Asparagine,22254740,RR
+250626_Smp_RExp2Cnt_A,L-Asparagine,6083267,RR
+250626_Smp_RExp2Cnt_B,L-Asparagine,4388820,RR
+250626_Smp_RExp2Cnt_C,L-Asparagine,3963442,RR
+250626_Smp_RExp2Fe_A,L-Asparagine,1194704,RR
+250626_Smp_RExp2Fe_B,L-Asparagine,125254,RR
+250626_Smp_RExp2Fe_C,L-Asparagine,3429110,RR
+250626_Smp_RExp2NP_A,L-Asparagine,8559897,RR
+250626_Smp_RExp2NP_B,L-Asparagine,6779345,RR
+250626_Smp_RExp2NP_C,L-Asparagine,3484365,RR
+250626_Smp_RExp2NPFe_A,L-Asparagine,12225023,RR
+250626_Smp_RExp2NPFe_B,L-Asparagine,31799366,RR
+250626_Smp_RExp2NPFe_C,L-Asparagine,8875825,RR
+250626_Smp_RExp2T0_A,L-Asparagine,48276480,RR
+250626_Smp_RExp2T0_B,L-Asparagine,2668893,RR
+250626_Smp_RExp2T0_C,L-Asparagine,2553770,RR
+250626_Smp_RExp3Cnt_A,L-Asparagine,3928156,RR
+250626_Smp_RExp3Cnt_B,L-Asparagine,515703,RR
+250626_Smp_RExp3Cnt_C,L-Asparagine,333530,RR
+250626_Smp_RExp3FeNP_A,L-Asparagine,16463716,RR
+250626_Smp_RExp3FeNP_B,L-Asparagine,5300159,RR
+250626_Smp_RExp3FENP_C,L-Asparagine,5709279,RR
+250626_Smp_RExp3HiNP_A,L-Asparagine,5502569,RR
+250626_Smp_RExp3HiNP_B,L-Asparagine,9137287,RR
+250626_Smp_RExp3HiNP_C,L-Asparagine,10082590,RR
+250626_Smp_RExp3LNP_A,L-Asparagine,4632582,RR
+250626_Smp_RExp3LNP_B,L-Asparagine,1844736,RR
+250626_Smp_RExp3LNP_C,L-Asparagine,1644777,RR
+250626_Smp_RExp3T0_A,L-Asparagine,89956,RR
+250626_Smp_RExp3T0_B,L-Asparagine,194775,RR
+250626_Smp_RExp3T0_C,L-Asparagine,54457,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Aspartic acid,17491140,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Aspartic acid,26354620,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Aspartic acid,30247352,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Aspartic acid,45097384,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Aspartic acid,0,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Aspartic acid,0,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Aspartic acid,16042711,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Aspartic acid,17782986,RR
+250626_Std_H2OinMatrix_1,L-Aspartic acid,13865188,RR
+250626_Std_H2OinMatrix_2,L-Aspartic acid,14541718,RR
+250626_Blk_FilterBlk_1,L-Aspartic acid,0,RR
+250626_Poo_Day1Poo_Half1,L-Aspartic acid,10268195,RR
+250626_Poo_Day1Poo_Full2,L-Aspartic acid,14930607,RR
+250626_Poo_Day1Poo_Full3,L-Aspartic acid,18995044,RR
+250626_Poo_Day1Poo_Full1,L-Aspartic acid,19247834,RR
+250626_Poo_Day1Poo_Half2,L-Aspartic acid,8915045,RR
+250626_Poo_Day1Poo_Half3,L-Aspartic acid,10537159,RR
+250626_Smp_RExp1Cnt_A,L-Aspartic acid,29790914,RR
+250626_Smp_RExp1Cnt_B,L-Aspartic acid,35030648,RR
+250626_Smp_RExp1Cnt_C,L-Aspartic acid,37014504,RR
+250626_Smp_RExp1HFe_A,L-Aspartic acid,27776808,RR
+250626_Smp_RExp1HFe_B,L-Aspartic acid,38701544,RR
+250626_Smp_RExp1HFe_C,L-Aspartic acid,45484736,RR
+250626_Smp_RExp1LFe_A,L-Aspartic acid,45629720,RR
+250626_Smp_RExp1LFe_B,L-Aspartic acid,33955160,RR
+250626_Smp_RExp1LFe_C,L-Aspartic acid,34906528,RR
+250626_Smp_RExp1NPFe_A,L-Aspartic acid,54824584,RR
+250626_Smp_RExp1NPFe_B,L-Aspartic acid,57992656,RR
+250626_Smp_RExp1NPFe_C,L-Aspartic acid,94813144,RR
+250626_Smp_RExp1T0_A,L-Aspartic acid,10718597,RR
+250626_Smp_RExp1T0_B,L-Aspartic acid,27720752,RR
+250626_Smp_RExp1T0_C,L-Aspartic acid,34979584,RR
+250626_Smp_RExp2Cnt_A,L-Aspartic acid,8114895,RR
+250626_Smp_RExp2Cnt_B,L-Aspartic acid,14756686,RR
+250626_Smp_RExp2Cnt_C,L-Aspartic acid,9328100,RR
+250626_Smp_RExp2Fe_A,L-Aspartic acid,3126293,RR
+250626_Smp_RExp2Fe_B,L-Aspartic acid,6458699,RR
+250626_Smp_RExp2Fe_C,L-Aspartic acid,9858799,RR
+250626_Smp_RExp2NP_A,L-Aspartic acid,12553805,RR
+250626_Smp_RExp2NP_B,L-Aspartic acid,16096587,RR
+250626_Smp_RExp2NP_C,L-Aspartic acid,16279199,RR
+250626_Smp_RExp2NPFe_A,L-Aspartic acid,15971243,RR
+250626_Smp_RExp2NPFe_B,L-Aspartic acid,28627670,RR
+250626_Smp_RExp2NPFe_C,L-Aspartic acid,12941412,RR
+250626_Smp_RExp2T0_A,L-Aspartic acid,35459128,RR
+250626_Smp_RExp2T0_B,L-Aspartic acid,7457590,RR
+250626_Smp_RExp2T0_C,L-Aspartic acid,4419562,RR
+250626_Smp_RExp3Cnt_A,L-Aspartic acid,5483809,RR
+250626_Smp_RExp3Cnt_B,L-Aspartic acid,1110657,RR
+250626_Smp_RExp3Cnt_C,L-Aspartic acid,1173987,RR
+250626_Smp_RExp3FeNP_A,L-Aspartic acid,12020010,RR
+250626_Smp_RExp3FeNP_B,L-Aspartic acid,9422077,RR
+250626_Smp_RExp3FENP_C,L-Aspartic acid,7301276,RR
+250626_Smp_RExp3HiNP_A,L-Aspartic acid,7944333,RR
+250626_Smp_RExp3HiNP_B,L-Aspartic acid,13236766,RR
+250626_Smp_RExp3HiNP_C,L-Aspartic acid,7012700,RR
+250626_Smp_RExp3LNP_A,L-Aspartic acid,3843102,RR
+250626_Smp_RExp3LNP_B,L-Aspartic acid,5839248,RR
+250626_Smp_RExp3LNP_C,L-Aspartic acid,2948419,RR
+250626_Smp_RExp3T0_A,L-Aspartic acid,2216826,RR
+250626_Smp_RExp3T0_B,L-Aspartic acid,4577262,RR
+250626_Smp_RExp3T0_C,L-Aspartic acid,891914,RR
+250626_Std_4uMStdsMix1InH2O_1,Dimethylsulfoniopropionate,NA,RR
+250626_Std_4uMStdsMix1InH2O_2,Dimethylsulfoniopropionate,NA,RR
+250626_Std_4uMStdsMix1InMatrix_1,Dimethylsulfoniopropionate,32701147136,RR
+250626_Std_4uMStdsMix1InMatrix_2,Dimethylsulfoniopropionate,27690571776,RR
+250626_Std_4uMStdsMix2InH2O_1,Dimethylsulfoniopropionate,5242964480,RR
+250626_Std_4uMStdsMix2InH2O_2,Dimethylsulfoniopropionate,6887937536,RR
+250626_Std_4uMStdsMix2InMatrix_1,Dimethylsulfoniopropionate,33172228096,RR
+250626_Std_4uMStdsMix2InMatrix_2,Dimethylsulfoniopropionate,30176305152,RR
+250626_Std_H2OinMatrix_1,Dimethylsulfoniopropionate,33176041472,RR
+250626_Std_H2OinMatrix_2,Dimethylsulfoniopropionate,27431069696,RR
+250626_Blk_FilterBlk_1,Dimethylsulfoniopropionate,469411,RR
+250626_Poo_Day1Poo_Half1,Dimethylsulfoniopropionate,12293157888,RR
+250626_Poo_Day1Poo_Full2,Dimethylsulfoniopropionate,16515342336,RR
+250626_Poo_Day1Poo_Full3,Dimethylsulfoniopropionate,14409914368,RR
+250626_Poo_Day1Poo_Full1,Dimethylsulfoniopropionate,16961177600,RR
+250626_Poo_Day1Poo_Half2,Dimethylsulfoniopropionate,12263735296,RR
+250626_Poo_Day1Poo_Half3,Dimethylsulfoniopropionate,11784204288,RR
+250626_Smp_RExp1Cnt_A,Dimethylsulfoniopropionate,58200485888,RR
+250626_Smp_RExp1Cnt_B,Dimethylsulfoniopropionate,70760685568,RR
+250626_Smp_RExp1Cnt_C,Dimethylsulfoniopropionate,63231180800,RR
+250626_Smp_RExp1HFe_A,Dimethylsulfoniopropionate,95448686592,RR
+250626_Smp_RExp1HFe_B,Dimethylsulfoniopropionate,116402225152,RR
+250626_Smp_RExp1HFe_C,Dimethylsulfoniopropionate,120834908160,RR
+250626_Smp_RExp1LFe_A,Dimethylsulfoniopropionate,95231352832,RR
+250626_Smp_RExp1LFe_B,Dimethylsulfoniopropionate,78475534336,RR
+250626_Smp_RExp1LFe_C,Dimethylsulfoniopropionate,106410754048,RR
+250626_Smp_RExp1NPFe_A,Dimethylsulfoniopropionate,78285021184,RR
+250626_Smp_RExp1NPFe_B,Dimethylsulfoniopropionate,101773271040,RR
+250626_Smp_RExp1NPFe_C,Dimethylsulfoniopropionate,98477252608,RR
+250626_Smp_RExp1T0_A,Dimethylsulfoniopropionate,16531915776,RR
+250626_Smp_RExp1T0_B,Dimethylsulfoniopropionate,38555164672,RR
+250626_Smp_RExp1T0_C,Dimethylsulfoniopropionate,38842458112,RR
+250626_Smp_RExp2Cnt_A,Dimethylsulfoniopropionate,6461197312,RR
+250626_Smp_RExp2Cnt_B,Dimethylsulfoniopropionate,12752613376,RR
+250626_Smp_RExp2Cnt_C,Dimethylsulfoniopropionate,8298627584,RR
+250626_Smp_RExp2Fe_A,Dimethylsulfoniopropionate,5537313792,RR
+250626_Smp_RExp2Fe_B,Dimethylsulfoniopropionate,4190492160,RR
+250626_Smp_RExp2Fe_C,Dimethylsulfoniopropionate,10936506368,RR
+250626_Smp_RExp2NP_A,Dimethylsulfoniopropionate,12197090304,RR
+250626_Smp_RExp2NP_B,Dimethylsulfoniopropionate,7908143104,RR
+250626_Smp_RExp2NP_C,Dimethylsulfoniopropionate,13817678848,RR
+250626_Smp_RExp2NPFe_A,Dimethylsulfoniopropionate,12158999552,RR
+250626_Smp_RExp2NPFe_B,Dimethylsulfoniopropionate,11893599232,RR
+250626_Smp_RExp2NPFe_C,Dimethylsulfoniopropionate,13259002880,RR
+250626_Smp_RExp2T0_A,Dimethylsulfoniopropionate,34193647616,RR
+250626_Smp_RExp2T0_B,Dimethylsulfoniopropionate,12128200704,RR
+250626_Smp_RExp2T0_C,Dimethylsulfoniopropionate,16015194112,RR
+250626_Smp_RExp3Cnt_A,Dimethylsulfoniopropionate,1969179136,RR
+250626_Smp_RExp3Cnt_B,Dimethylsulfoniopropionate,575232640,RR
+250626_Smp_RExp3Cnt_C,Dimethylsulfoniopropionate,7958820864,RR
+250626_Smp_RExp3FeNP_A,Dimethylsulfoniopropionate,1676949632,RR
+250626_Smp_RExp3FeNP_B,Dimethylsulfoniopropionate,604809216,RR
+250626_Smp_RExp3FENP_C,Dimethylsulfoniopropionate,13943979008,RR
+250626_Smp_RExp3HiNP_A,Dimethylsulfoniopropionate,3055532544,RR
+250626_Smp_RExp3HiNP_B,Dimethylsulfoniopropionate,3150476032,RR
+250626_Smp_RExp3HiNP_C,Dimethylsulfoniopropionate,1393811456,RR
+250626_Smp_RExp3LNP_A,Dimethylsulfoniopropionate,828161920,RR
+250626_Smp_RExp3LNP_B,Dimethylsulfoniopropionate,8805979136,RR
+250626_Smp_RExp3LNP_C,Dimethylsulfoniopropionate,1578459008,RR
+250626_Smp_RExp3T0_A,Dimethylsulfoniopropionate,5048134144,RR
+250626_Smp_RExp3T0_B,Dimethylsulfoniopropionate,3643180800,RR
+250626_Smp_RExp3T0_C,Dimethylsulfoniopropionate,4630491136,RR
+250626_Std_4uMStdsMix1InH2O_1,Homarine,634504,RR
+250626_Std_4uMStdsMix1InH2O_2,Homarine,604859,RR
+250626_Std_4uMStdsMix1InMatrix_1,Homarine,10879889408,RR
+250626_Std_4uMStdsMix1InMatrix_2,Homarine,9237476352,RR
+250626_Std_4uMStdsMix2InH2O_1,Homarine,17193644032,RR
+250626_Std_4uMStdsMix2InH2O_2,Homarine,15021064192,RR
+250626_Std_4uMStdsMix2InMatrix_1,Homarine,23857631232,RR
+250626_Std_4uMStdsMix2InMatrix_2,Homarine,24129605632,RR
+250626_Std_H2OinMatrix_1,Homarine,10179971072,RR
+250626_Std_H2OinMatrix_2,Homarine,9709734912,RR
+250626_Blk_FilterBlk_1,Homarine,315244,RR
+250626_Poo_Day1Poo_Half1,Homarine,7197408768,RR
+250626_Poo_Day1Poo_Full2,Homarine,15142117376,RR
+250626_Poo_Day1Poo_Full3,Homarine,15093498880,RR
+250626_Poo_Day1Poo_Full1,Homarine,14181762048,RR
+250626_Poo_Day1Poo_Half2,Homarine,7287287808,RR
+250626_Poo_Day1Poo_Half3,Homarine,7575941632,RR
+250626_Smp_RExp1Cnt_A,Homarine,26634539008,RR
+250626_Smp_RExp1Cnt_B,Homarine,25123178496,RR
+250626_Smp_RExp1Cnt_C,Homarine,29116786688,RR
+250626_Smp_RExp1HFe_A,Homarine,28682819584,RR
+250626_Smp_RExp1HFe_B,Homarine,30596724736,RR
+250626_Smp_RExp1HFe_C,Homarine,23629187072,RR
+250626_Smp_RExp1LFe_A,Homarine,31889328128,RR
+250626_Smp_RExp1LFe_B,Homarine,33261406208,RR
+250626_Smp_RExp1LFe_C,Homarine,24156264448,RR
+250626_Smp_RExp1NPFe_A,Homarine,32064665600,RR
+250626_Smp_RExp1NPFe_B,Homarine,38597070848,RR
+250626_Smp_RExp1NPFe_C,Homarine,45580951552,RR
+250626_Smp_RExp1T0_A,Homarine,13835857920,RR
+250626_Smp_RExp1T0_B,Homarine,19259756544,RR
+250626_Smp_RExp1T0_C,Homarine,14436319232,RR
+250626_Smp_RExp2Cnt_A,Homarine,8231262720,RR
+250626_Smp_RExp2Cnt_B,Homarine,28974338048,RR
+250626_Smp_RExp2Cnt_C,Homarine,14296565760,RR
+250626_Smp_RExp2Fe_A,Homarine,6908896256,RR
+250626_Smp_RExp2Fe_B,Homarine,8601043968,RR
+250626_Smp_RExp2Fe_C,Homarine,11357566976,RR
+250626_Smp_RExp2NP_A,Homarine,25957437440,RR
+250626_Smp_RExp2NP_B,Homarine,23411836928,RR
+250626_Smp_RExp2NP_C,Homarine,26688542720,RR
+250626_Smp_RExp2NPFe_A,Homarine,19529850880,RR
+250626_Smp_RExp2NPFe_B,Homarine,21195370496,RR
+250626_Smp_RExp2NPFe_C,Homarine,20445110272,RR
+250626_Smp_RExp2T0_A,Homarine,22117775360,RR
+250626_Smp_RExp2T0_B,Homarine,10560798720,RR
+250626_Smp_RExp2T0_C,Homarine,8540315648,RR
+250626_Smp_RExp3Cnt_A,Homarine,857321344,RR
+250626_Smp_RExp3Cnt_B,Homarine,751725056,RR
+250626_Smp_RExp3Cnt_C,Homarine,534390400,RR
+250626_Smp_RExp3FeNP_A,Homarine,2305099520,RR
+250626_Smp_RExp3FeNP_B,Homarine,2222794752,RR
+250626_Smp_RExp3FENP_C,Homarine,2081477760,RR
+250626_Smp_RExp3HiNP_A,Homarine,2696111616,RR
+250626_Smp_RExp3HiNP_B,Homarine,4388205056,RR
+250626_Smp_RExp3HiNP_C,Homarine,3645570048,RR
+250626_Smp_RExp3LNP_A,Homarine,1886881920,RR
+250626_Smp_RExp3LNP_B,Homarine,1791315840,RR
+250626_Smp_RExp3LNP_C,Homarine,1352351744,RR
+250626_Smp_RExp3T0_A,Homarine,899523968,RR
+250626_Smp_RExp3T0_B,Homarine,703250816,RR
+250626_Smp_RExp3T0_C,Homarine,842170496,RR
+250626_Std_4uMStdsMix1InH2O_1,Trigonelline,1224144512,RR
+250626_Std_4uMStdsMix1InH2O_2,Trigonelline,1135833344,RR
+250626_Std_4uMStdsMix1InMatrix_1,Trigonelline,4908738560,RR
+250626_Std_4uMStdsMix1InMatrix_2,Trigonelline,4562352640,RR
+250626_Std_4uMStdsMix2InH2O_1,Trigonelline,27418952,RR
+250626_Std_4uMStdsMix2InH2O_2,Trigonelline,30245636,RR
+250626_Std_4uMStdsMix2InMatrix_1,Trigonelline,3977765376,RR
+250626_Std_4uMStdsMix2InMatrix_2,Trigonelline,3673194752,RR
+250626_Std_H2OinMatrix_1,Trigonelline,3917246464,RR
+250626_Std_H2OinMatrix_2,Trigonelline,3493479424,RR
+250626_Blk_FilterBlk_1,Trigonelline,13896570,RR
+250626_Poo_Day1Poo_Half1,Trigonelline,2049826688,RR
+250626_Poo_Day1Poo_Full2,Trigonelline,4098876160,RR
+250626_Poo_Day1Poo_Full3,Trigonelline,4229478656,RR
+250626_Poo_Day1Poo_Full1,Trigonelline,3920249856,RR
+250626_Poo_Day1Poo_Half2,Trigonelline,1961376384,RR
+250626_Poo_Day1Poo_Half3,Trigonelline,2099065600,RR
+250626_Smp_RExp1Cnt_A,Trigonelline,10300135424,RR
+250626_Smp_RExp1Cnt_B,Trigonelline,10080164864,RR
+250626_Smp_RExp1Cnt_C,Trigonelline,9197792256,RR
+250626_Smp_RExp1HFe_A,Trigonelline,11060694016,RR
+250626_Smp_RExp1HFe_B,Trigonelline,12311222272,RR
+250626_Smp_RExp1HFe_C,Trigonelline,10175092736,RR
+250626_Smp_RExp1LFe_A,Trigonelline,13740773376,RR
+250626_Smp_RExp1LFe_B,Trigonelline,12068089856,RR
+250626_Smp_RExp1LFe_C,Trigonelline,10541750272,RR
+250626_Smp_RExp1NPFe_A,Trigonelline,11272258560,RR
+250626_Smp_RExp1NPFe_B,Trigonelline,14808828928,RR
+250626_Smp_RExp1NPFe_C,Trigonelline,15561404416,RR
+250626_Smp_RExp1T0_A,Trigonelline,3209550336,RR
+250626_Smp_RExp1T0_B,Trigonelline,7840980992,RR
+250626_Smp_RExp1T0_C,Trigonelline,6252249088,RR
+250626_Smp_RExp2Cnt_A,Trigonelline,1216246528,RR
+250626_Smp_RExp2Cnt_B,Trigonelline,2747699968,RR
+250626_Smp_RExp2Cnt_C,Trigonelline,1719655040,RR
+250626_Smp_RExp2Fe_A,Trigonelline,787904256,RR
+250626_Smp_RExp2Fe_B,Trigonelline,716877824,RR
+250626_Smp_RExp2Fe_C,Trigonelline,1570825856,RR
+250626_Smp_RExp2NP_A,Trigonelline,1453272064,RR
+250626_Smp_RExp2NP_B,Trigonelline,1530379136,RR
+250626_Smp_RExp2NP_C,Trigonelline,1950571392,RR
+250626_Smp_RExp2NPFe_A,Trigonelline,1628556032,RR
+250626_Smp_RExp2NPFe_B,Trigonelline,2204929536,RR
+250626_Smp_RExp2NPFe_C,Trigonelline,2080514432,RR
+250626_Smp_RExp2T0_A,Trigonelline,9591248896,RR
+250626_Smp_RExp2T0_B,Trigonelline,2013330304,RR
+250626_Smp_RExp2T0_C,Trigonelline,1659113472,RR
+250626_Smp_RExp3Cnt_A,Trigonelline,903036416,RR
+250626_Smp_RExp3Cnt_B,Trigonelline,723482624,RR
+250626_Smp_RExp3Cnt_C,Trigonelline,500037280,RR
+250626_Smp_RExp3FeNP_A,Trigonelline,1228184192,RR
+250626_Smp_RExp3FeNP_B,Trigonelline,1107790336,RR
+250626_Smp_RExp3FENP_C,Trigonelline,1000541120,RR
+250626_Smp_RExp3HiNP_A,Trigonelline,1252168704,RR
+250626_Smp_RExp3HiNP_B,Trigonelline,1962508288,RR
+250626_Smp_RExp3HiNP_C,Trigonelline,1631313664,RR
+250626_Smp_RExp3LNP_A,Trigonelline,1199381888,RR
+250626_Smp_RExp3LNP_B,Trigonelline,1169795072,RR
+250626_Smp_RExp3LNP_C,Trigonelline,717254272,RR
+250626_Smp_RExp3T0_A,Trigonelline,582132544,RR
+250626_Smp_RExp3T0_B,Trigonelline,476794400,RR
+250626_Smp_RExp3T0_C,Trigonelline,615685056,RR
+250626_Std_4uMStdsMix1InH2O_1,Ectoine,1788521,RR
+250626_Std_4uMStdsMix1InH2O_2,Ectoine,2727827,RR
+250626_Std_4uMStdsMix1InMatrix_1,Ectoine,257844784,RR
+250626_Std_4uMStdsMix1InMatrix_2,Ectoine,168890912,RR
+250626_Std_4uMStdsMix2InH2O_1,Ectoine,9740021760,RR
+250626_Std_4uMStdsMix2InH2O_2,Ectoine,9605466112,RR
+250626_Std_4uMStdsMix2InMatrix_1,Ectoine,6789585920,RR
+250626_Std_4uMStdsMix2InMatrix_2,Ectoine,7515977216,RR
+250626_Std_H2OinMatrix_1,Ectoine,127309056,RR
+250626_Std_H2OinMatrix_2,Ectoine,120540192,RR
+250626_Blk_FilterBlk_1,Ectoine,11113391,RR
+250626_Poo_Day1Poo_Half1,Ectoine,100120520,RR
+250626_Poo_Day1Poo_Full2,Ectoine,84656880,RR
+250626_Poo_Day1Poo_Full3,Ectoine,104763952,RR
+250626_Poo_Day1Poo_Full1,Ectoine,135035296,RR
+250626_Poo_Day1Poo_Half2,Ectoine,64532100,RR
+250626_Poo_Day1Poo_Half3,Ectoine,96862432,RR
+250626_Smp_RExp1Cnt_A,Ectoine,242616976,RR
+250626_Smp_RExp1Cnt_B,Ectoine,195753184,RR
+250626_Smp_RExp1Cnt_C,Ectoine,152716544,RR
+250626_Smp_RExp1HFe_A,Ectoine,238728768,RR
+250626_Smp_RExp1HFe_B,Ectoine,339680960,RR
+250626_Smp_RExp1HFe_C,Ectoine,224013792,RR
+250626_Smp_RExp1LFe_A,Ectoine,457209984,RR
+250626_Smp_RExp1LFe_B,Ectoine,299146848,RR
+250626_Smp_RExp1LFe_C,Ectoine,210567120,RR
+250626_Smp_RExp1NPFe_A,Ectoine,167894080,RR
+250626_Smp_RExp1NPFe_B,Ectoine,242061936,RR
+250626_Smp_RExp1NPFe_C,Ectoine,317311360,RR
+250626_Smp_RExp1T0_A,Ectoine,101601416,RR
+250626_Smp_RExp1T0_B,Ectoine,215917216,RR
+250626_Smp_RExp1T0_C,Ectoine,198863040,RR
+250626_Smp_RExp2Cnt_A,Ectoine,96108992,RR
+250626_Smp_RExp2Cnt_B,Ectoine,224218880,RR
+250626_Smp_RExp2Cnt_C,Ectoine,97826024,RR
+250626_Smp_RExp2Fe_A,Ectoine,68528920,RR
+250626_Smp_RExp2Fe_B,Ectoine,59303284,RR
+250626_Smp_RExp2Fe_C,Ectoine,54678216,RR
+250626_Smp_RExp2NP_A,Ectoine,187110704,RR
+250626_Smp_RExp2NP_B,Ectoine,64532164,RR
+250626_Smp_RExp2NP_C,Ectoine,155260544,RR
+250626_Smp_RExp2NPFe_A,Ectoine,41155384,RR
+250626_Smp_RExp2NPFe_B,Ectoine,118803704,RR
+250626_Smp_RExp2NPFe_C,Ectoine,234608304,RR
+250626_Smp_RExp2T0_A,Ectoine,223904544,RR
+250626_Smp_RExp2T0_B,Ectoine,169585520,RR
+250626_Smp_RExp2T0_C,Ectoine,171961152,RR
+250626_Smp_RExp3Cnt_A,Ectoine,130445536,RR
+250626_Smp_RExp3Cnt_B,Ectoine,193466432,RR
+250626_Smp_RExp3Cnt_C,Ectoine,45059164,RR
+250626_Smp_RExp3FeNP_A,Ectoine,54906376,RR
+250626_Smp_RExp3FeNP_B,Ectoine,89150688,RR
+250626_Smp_RExp3FENP_C,Ectoine,155740016,RR
+250626_Smp_RExp3HiNP_A,Ectoine,151055536,RR
+250626_Smp_RExp3HiNP_B,Ectoine,287011296,RR
+250626_Smp_RExp3HiNP_C,Ectoine,264822912,RR
+250626_Smp_RExp3LNP_A,Ectoine,133885632,RR
+250626_Smp_RExp3LNP_B,Ectoine,217662384,RR
+250626_Smp_RExp3LNP_C,Ectoine,104698088,RR
+250626_Smp_RExp3T0_A,Ectoine,347895264,RR
+250626_Smp_RExp3T0_B,Ectoine,909553088,RR
+250626_Smp_RExp3T0_C,Ectoine,440920128,RR
+250626_Std_4uMStdsMix1InH2O_1,Proline betaine,2151901440,RR
+250626_Std_4uMStdsMix1InH2O_2,Proline betaine,2122955136,RR
+250626_Std_4uMStdsMix1InMatrix_1,Proline betaine,1933011712,RR
+250626_Std_4uMStdsMix1InMatrix_2,Proline betaine,2547704832,RR
+250626_Std_4uMStdsMix2InH2O_1,Proline betaine,NA,RR
+250626_Std_4uMStdsMix2InH2O_2,Proline betaine,199669,RR
+250626_Std_4uMStdsMix2InMatrix_1,Proline betaine,488666144,RR
+250626_Std_4uMStdsMix2InMatrix_2,Proline betaine,466948640,RR
+250626_Std_H2OinMatrix_1,Proline betaine,478535072,RR
+250626_Std_H2OinMatrix_2,Proline betaine,465862784,RR
+250626_Blk_FilterBlk_1,Proline betaine,133459,RR
+250626_Poo_Day1Poo_Half1,Proline betaine,301614336,RR
+250626_Poo_Day1Poo_Full2,Proline betaine,586414464,RR
+250626_Poo_Day1Poo_Full3,Proline betaine,598822080,RR
+250626_Poo_Day1Poo_Full1,Proline betaine,558012096,RR
+250626_Poo_Day1Poo_Half2,Proline betaine,295873472,RR
+250626_Poo_Day1Poo_Half3,Proline betaine,298164640,RR
+250626_Smp_RExp1Cnt_A,Proline betaine,1586922880,RR
+250626_Smp_RExp1Cnt_B,Proline betaine,1271006592,RR
+250626_Smp_RExp1Cnt_C,Proline betaine,1380558976,RR
+250626_Smp_RExp1HFe_A,Proline betaine,1473227008,RR
+250626_Smp_RExp1HFe_B,Proline betaine,1594834816,RR
+250626_Smp_RExp1HFe_C,Proline betaine,1397182592,RR
+250626_Smp_RExp1LFe_A,Proline betaine,1559926272,RR
+250626_Smp_RExp1LFe_B,Proline betaine,1573720320,RR
+250626_Smp_RExp1LFe_C,Proline betaine,1172088192,RR
+250626_Smp_RExp1NPFe_A,Proline betaine,1058759680,RR
+250626_Smp_RExp1NPFe_B,Proline betaine,1537614976,RR
+250626_Smp_RExp1NPFe_C,Proline betaine,1767024256,RR
+250626_Smp_RExp1T0_A,Proline betaine,447193376,RR
+250626_Smp_RExp1T0_B,Proline betaine,835895232,RR
+250626_Smp_RExp1T0_C,Proline betaine,642401664,RR
+250626_Smp_RExp2Cnt_A,Proline betaine,398584096,RR
+250626_Smp_RExp2Cnt_B,Proline betaine,2971199744,RR
+250626_Smp_RExp2Cnt_C,Proline betaine,930291776,RR
+250626_Smp_RExp2Fe_A,Proline betaine,179804480,RR
+250626_Smp_RExp2Fe_B,Proline betaine,163237072,RR
+250626_Smp_RExp2Fe_C,Proline betaine,353021088,RR
+250626_Smp_RExp2NP_A,Proline betaine,267008880,RR
+250626_Smp_RExp2NP_B,Proline betaine,238934864,RR
+250626_Smp_RExp2NP_C,Proline betaine,336681120,RR
+250626_Smp_RExp2NPFe_A,Proline betaine,272737600,RR
+250626_Smp_RExp2NPFe_B,Proline betaine,385018528,RR
+250626_Smp_RExp2NPFe_C,Proline betaine,412975680,RR
+250626_Smp_RExp2T0_A,Proline betaine,758365696,RR
+250626_Smp_RExp2T0_B,Proline betaine,334869568,RR
+250626_Smp_RExp2T0_C,Proline betaine,279638496,RR
+250626_Smp_RExp3Cnt_A,Proline betaine,292477920,RR
+250626_Smp_RExp3Cnt_B,Proline betaine,231855904,RR
+250626_Smp_RExp3Cnt_C,Proline betaine,178029936,RR
+250626_Smp_RExp3FeNP_A,Proline betaine,302497952,RR
+250626_Smp_RExp3FeNP_B,Proline betaine,252065296,RR
+250626_Smp_RExp3FENP_C,Proline betaine,233079024,RR
+250626_Smp_RExp3HiNP_A,Proline betaine,276453344,RR
+250626_Smp_RExp3HiNP_B,Proline betaine,1001216640,RR
+250626_Smp_RExp3HiNP_C,Proline betaine,727611136,RR
+250626_Smp_RExp3LNP_A,Proline betaine,317556608,RR
+250626_Smp_RExp3LNP_B,Proline betaine,1063832960,RR
+250626_Smp_RExp3LNP_C,Proline betaine,211793952,RR
+250626_Smp_RExp3T0_A,Proline betaine,297633088,RR
+250626_Smp_RExp3T0_B,Proline betaine,278640640,RR
+250626_Smp_RExp3T0_C,Proline betaine,282324576,RR
+250626_Std_4uMStdsMix1InH2O_1,(3-Carboxypropyl)trimethylammonium,3309319424,RR
+250626_Std_4uMStdsMix1InH2O_2,(3-Carboxypropyl)trimethylammonium,4010740992,RR
+250626_Std_4uMStdsMix1InMatrix_1,(3-Carboxypropyl)trimethylammonium,3250807552,RR
+250626_Std_4uMStdsMix1InMatrix_2,(3-Carboxypropyl)trimethylammonium,4033280512,RR
+250626_Std_4uMStdsMix2InH2O_1,(3-Carboxypropyl)trimethylammonium,2136721152,RR
+250626_Std_4uMStdsMix2InH2O_2,(3-Carboxypropyl)trimethylammonium,0,RR
+250626_Std_4uMStdsMix2InMatrix_1,(3-Carboxypropyl)trimethylammonium,3660781568,RR
+250626_Std_4uMStdsMix2InMatrix_2,(3-Carboxypropyl)trimethylammonium,4101054976,RR
+250626_Std_H2OinMatrix_1,(3-Carboxypropyl)trimethylammonium,919781824,RR
+250626_Std_H2OinMatrix_2,(3-Carboxypropyl)trimethylammonium,905897728,RR
+250626_Blk_FilterBlk_1,(3-Carboxypropyl)trimethylammonium,547487,RR
+250626_Poo_Day1Poo_Half1,(3-Carboxypropyl)trimethylammonium,465462368,RR
+250626_Poo_Day1Poo_Full2,(3-Carboxypropyl)trimethylammonium,988938048,RR
+250626_Poo_Day1Poo_Full3,(3-Carboxypropyl)trimethylammonium,931882432,RR
+250626_Poo_Day1Poo_Full1,(3-Carboxypropyl)trimethylammonium,886701568,RR
+250626_Poo_Day1Poo_Half2,(3-Carboxypropyl)trimethylammonium,497898144,RR
+250626_Poo_Day1Poo_Half3,(3-Carboxypropyl)trimethylammonium,500893344,RR
+250626_Smp_RExp1Cnt_A,(3-Carboxypropyl)trimethylammonium,2268302336,RR
+250626_Smp_RExp1Cnt_B,(3-Carboxypropyl)trimethylammonium,1699080832,RR
+250626_Smp_RExp1Cnt_C,(3-Carboxypropyl)trimethylammonium,1703307648,RR
+250626_Smp_RExp1HFe_A,(3-Carboxypropyl)trimethylammonium,1654313984,RR
+250626_Smp_RExp1HFe_B,(3-Carboxypropyl)trimethylammonium,2562852096,RR
+250626_Smp_RExp1HFe_C,(3-Carboxypropyl)trimethylammonium,1952167808,RR
+250626_Smp_RExp1LFe_A,(3-Carboxypropyl)trimethylammonium,3147918848,RR
+250626_Smp_RExp1LFe_B,(3-Carboxypropyl)trimethylammonium,2840882944,RR
+250626_Smp_RExp1LFe_C,(3-Carboxypropyl)trimethylammonium,1658286208,RR
+250626_Smp_RExp1NPFe_A,(3-Carboxypropyl)trimethylammonium,1734412288,RR
+250626_Smp_RExp1NPFe_B,(3-Carboxypropyl)trimethylammonium,2276330496,RR
+250626_Smp_RExp1NPFe_C,(3-Carboxypropyl)trimethylammonium,2958339328,RR
+250626_Smp_RExp1T0_A,(3-Carboxypropyl)trimethylammonium,468127872,RR
+250626_Smp_RExp1T0_B,(3-Carboxypropyl)trimethylammonium,2701222912,RR
+250626_Smp_RExp1T0_C,(3-Carboxypropyl)trimethylammonium,2264814848,RR
+250626_Smp_RExp2Cnt_A,(3-Carboxypropyl)trimethylammonium,272769888,RR
+250626_Smp_RExp2Cnt_B,(3-Carboxypropyl)trimethylammonium,561005312,RR
+250626_Smp_RExp2Cnt_C,(3-Carboxypropyl)trimethylammonium,201272064,RR
+250626_Smp_RExp2Fe_A,(3-Carboxypropyl)trimethylammonium,264332976,RR
+250626_Smp_RExp2Fe_B,(3-Carboxypropyl)trimethylammonium,227225840,RR
+250626_Smp_RExp2Fe_C,(3-Carboxypropyl)trimethylammonium,362021696,RR
+250626_Smp_RExp2NP_A,(3-Carboxypropyl)trimethylammonium,416223264,RR
+250626_Smp_RExp2NP_B,(3-Carboxypropyl)trimethylammonium,370662528,RR
+250626_Smp_RExp2NP_C,(3-Carboxypropyl)trimethylammonium,651569344,RR
+250626_Smp_RExp2NPFe_A,(3-Carboxypropyl)trimethylammonium,464752704,RR
+250626_Smp_RExp2NPFe_B,(3-Carboxypropyl)trimethylammonium,560592704,RR
+250626_Smp_RExp2NPFe_C,(3-Carboxypropyl)trimethylammonium,293917504,RR
+250626_Smp_RExp2T0_A,(3-Carboxypropyl)trimethylammonium,3187554560,RR
+250626_Smp_RExp2T0_B,(3-Carboxypropyl)trimethylammonium,507126272,RR
+250626_Smp_RExp2T0_C,(3-Carboxypropyl)trimethylammonium,377362624,RR
+250626_Smp_RExp3Cnt_A,(3-Carboxypropyl)trimethylammonium,316697248,RR
+250626_Smp_RExp3Cnt_B,(3-Carboxypropyl)trimethylammonium,268898816,RR
+250626_Smp_RExp3Cnt_C,(3-Carboxypropyl)trimethylammonium,156254416,RR
+250626_Smp_RExp3FeNP_A,(3-Carboxypropyl)trimethylammonium,615830720,RR
+250626_Smp_RExp3FeNP_B,(3-Carboxypropyl)trimethylammonium,423888672,RR
+250626_Smp_RExp3FENP_C,(3-Carboxypropyl)trimethylammonium,404304544,RR
+250626_Smp_RExp3HiNP_A,(3-Carboxypropyl)trimethylammonium,600777344,RR
+250626_Smp_RExp3HiNP_B,(3-Carboxypropyl)trimethylammonium,667270848,RR
+250626_Smp_RExp3HiNP_C,(3-Carboxypropyl)trimethylammonium,423536768,RR
+250626_Smp_RExp3LNP_A,(3-Carboxypropyl)trimethylammonium,370659872,RR
+250626_Smp_RExp3LNP_B,(3-Carboxypropyl)trimethylammonium,267246032,RR
+250626_Smp_RExp3LNP_C,(3-Carboxypropyl)trimethylammonium,225158384,RR
+250626_Smp_RExp3T0_A,(3-Carboxypropyl)trimethylammonium,212718272,RR
+250626_Smp_RExp3T0_B,(3-Carboxypropyl)trimethylammonium,147701104,RR
+250626_Smp_RExp3T0_C,(3-Carboxypropyl)trimethylammonium,177277056,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Glutamine,363358400,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Glutamine,1177632256,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Glutamine,625707008,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Glutamine,409516960,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Glutamine,108278,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Glutamine,62795,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Glutamine,374758304,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Glutamine,203150864,RR
+250626_Std_H2OinMatrix_1,L-Glutamine,249539024,RR
+250626_Std_H2OinMatrix_2,L-Glutamine,156476752,RR
+250626_Blk_FilterBlk_1,L-Glutamine,683508,RR
+250626_Poo_Day1Poo_Half1,L-Glutamine,504539296,RR
+250626_Poo_Day1Poo_Full2,L-Glutamine,356576800,RR
+250626_Poo_Day1Poo_Full3,L-Glutamine,219965408,RR
+250626_Poo_Day1Poo_Full1,L-Glutamine,930277696,RR
+250626_Poo_Day1Poo_Half2,L-Glutamine,205568576,RR
+250626_Poo_Day1Poo_Half3,L-Glutamine,214393232,RR
+250626_Smp_RExp1Cnt_A,L-Glutamine,1047866816,RR
+250626_Smp_RExp1Cnt_B,L-Glutamine,357318752,RR
+250626_Smp_RExp1Cnt_C,L-Glutamine,836668608,RR
+250626_Smp_RExp1HFe_A,L-Glutamine,873984128,RR
+250626_Smp_RExp1HFe_B,L-Glutamine,681418176,RR
+250626_Smp_RExp1HFe_C,L-Glutamine,2353921280,RR
+250626_Smp_RExp1LFe_A,L-Glutamine,601334400,RR
+250626_Smp_RExp1LFe_B,L-Glutamine,862244160,RR
+250626_Smp_RExp1LFe_C,L-Glutamine,1402449280,RR
+250626_Smp_RExp1NPFe_A,L-Glutamine,1137166720,RR
+250626_Smp_RExp1NPFe_B,L-Glutamine,2686894592,RR
+250626_Smp_RExp1NPFe_C,L-Glutamine,2057314944,RR
+250626_Smp_RExp1T0_A,L-Glutamine,525476000,RR
+250626_Smp_RExp1T0_B,L-Glutamine,273876224,RR
+250626_Smp_RExp1T0_C,L-Glutamine,281379712,RR
+250626_Smp_RExp2Cnt_A,L-Glutamine,426712640,RR
+250626_Smp_RExp2Cnt_B,L-Glutamine,107933944,RR
+250626_Smp_RExp2Cnt_C,L-Glutamine,141016304,RR
+250626_Smp_RExp2Fe_A,L-Glutamine,129518048,RR
+250626_Smp_RExp2Fe_B,L-Glutamine,135582496,RR
+250626_Smp_RExp2Fe_C,L-Glutamine,364749952,RR
+250626_Smp_RExp2NP_A,L-Glutamine,477350336,RR
+250626_Smp_RExp2NP_B,L-Glutamine,749930240,RR
+250626_Smp_RExp2NP_C,L-Glutamine,264313584,RR
+250626_Smp_RExp2NPFe_A,L-Glutamine,311075488,RR
+250626_Smp_RExp2NPFe_B,L-Glutamine,1497481088,RR
+250626_Smp_RExp2NPFe_C,L-Glutamine,275007808,RR
+250626_Smp_RExp2T0_A,L-Glutamine,987710592,RR
+250626_Smp_RExp2T0_B,L-Glutamine,100566272,RR
+250626_Smp_RExp2T0_C,L-Glutamine,96384408,RR
+250626_Smp_RExp3Cnt_A,L-Glutamine,267410240,RR
+250626_Smp_RExp3Cnt_B,L-Glutamine,105589336,RR
+250626_Smp_RExp3Cnt_C,L-Glutamine,75710032,RR
+250626_Smp_RExp3FeNP_A,L-Glutamine,714306048,RR
+250626_Smp_RExp3FeNP_B,L-Glutamine,127195248,RR
+250626_Smp_RExp3FENP_C,L-Glutamine,162888368,RR
+250626_Smp_RExp3HiNP_A,L-Glutamine,159000784,RR
+250626_Smp_RExp3HiNP_B,L-Glutamine,198230112,RR
+250626_Smp_RExp3HiNP_C,L-Glutamine,216383680,RR
+250626_Smp_RExp3LNP_A,L-Glutamine,134654592,RR
+250626_Smp_RExp3LNP_B,L-Glutamine,133549432,RR
+250626_Smp_RExp3LNP_C,L-Glutamine,142228944,RR
+250626_Smp_RExp3T0_A,L-Glutamine,43110372,RR
+250626_Smp_RExp3T0_B,L-Glutamine,135277440,RR
+250626_Smp_RExp3T0_C,L-Glutamine,29928248,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Lysine,31385670,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Lysine,31223646,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Lysine,53044952,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Lysine,59403440,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Lysine,0,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Lysine,0,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Lysine,25052786,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Lysine,26080344,RR
+250626_Std_H2OinMatrix_1,L-Lysine,23974788,RR
+250626_Std_H2OinMatrix_2,L-Lysine,24065456,RR
+250626_Blk_FilterBlk_1,L-Lysine,0,RR
+250626_Poo_Day1Poo_Half1,L-Lysine,23492598,RR
+250626_Poo_Day1Poo_Full2,L-Lysine,42625324,RR
+250626_Poo_Day1Poo_Full3,L-Lysine,46421816,RR
+250626_Poo_Day1Poo_Full1,L-Lysine,48042116,RR
+250626_Poo_Day1Poo_Half2,L-Lysine,19249116,RR
+250626_Poo_Day1Poo_Half3,L-Lysine,20316312,RR
+250626_Smp_RExp1Cnt_A,L-Lysine,102284920,RR
+250626_Smp_RExp1Cnt_B,L-Lysine,92128528,RR
+250626_Smp_RExp1Cnt_C,L-Lysine,127062048,RR
+250626_Smp_RExp1HFe_A,L-Lysine,125340440,RR
+250626_Smp_RExp1HFe_B,L-Lysine,129543208,RR
+250626_Smp_RExp1HFe_C,L-Lysine,140084480,RR
+250626_Smp_RExp1LFe_A,L-Lysine,159265760,RR
+250626_Smp_RExp1LFe_B,L-Lysine,131312768,RR
+250626_Smp_RExp1LFe_C,L-Lysine,150191680,RR
+250626_Smp_RExp1NPFe_A,L-Lysine,127029600,RR
+250626_Smp_RExp1NPFe_B,L-Lysine,177288160,RR
+250626_Smp_RExp1NPFe_C,L-Lysine,267549664,RR
+250626_Smp_RExp1T0_A,L-Lysine,23288592,RR
+250626_Smp_RExp1T0_B,L-Lysine,37476792,RR
+250626_Smp_RExp1T0_C,L-Lysine,58627044,RR
+250626_Smp_RExp2Cnt_A,L-Lysine,14554981,RR
+250626_Smp_RExp2Cnt_B,L-Lysine,14731167,RR
+250626_Smp_RExp2Cnt_C,L-Lysine,14344543,RR
+250626_Smp_RExp2Fe_A,L-Lysine,1234815,RR
+250626_Smp_RExp2Fe_B,L-Lysine,2671731,RR
+250626_Smp_RExp2Fe_C,L-Lysine,7610821,RR
+250626_Smp_RExp2NP_A,L-Lysine,13313809,RR
+250626_Smp_RExp2NP_B,L-Lysine,10751797,RR
+250626_Smp_RExp2NP_C,L-Lysine,11699090,RR
+250626_Smp_RExp2NPFe_A,L-Lysine,13700849,RR
+250626_Smp_RExp2NPFe_B,L-Lysine,38268660,RR
+250626_Smp_RExp2NPFe_C,L-Lysine,10726538,RR
+250626_Smp_RExp2T0_A,L-Lysine,104017856,RR
+250626_Smp_RExp2T0_B,L-Lysine,10062987,RR
+250626_Smp_RExp2T0_C,L-Lysine,2802671,RR
+250626_Smp_RExp3Cnt_A,L-Lysine,6462795,RR
+250626_Smp_RExp3Cnt_B,L-Lysine,1563729,RR
+250626_Smp_RExp3Cnt_C,L-Lysine,352343,RR
+250626_Smp_RExp3FeNP_A,L-Lysine,11334443,RR
+250626_Smp_RExp3FeNP_B,L-Lysine,5978136,RR
+250626_Smp_RExp3FENP_C,L-Lysine,2709573,RR
+250626_Smp_RExp3HiNP_A,L-Lysine,4010151,RR
+250626_Smp_RExp3HiNP_B,L-Lysine,13180756,RR
+250626_Smp_RExp3HiNP_C,L-Lysine,17228538,RR
+250626_Smp_RExp3LNP_A,L-Lysine,5674772,RR
+250626_Smp_RExp3LNP_B,L-Lysine,4551483,RR
+250626_Smp_RExp3LNP_C,L-Lysine,2212196,RR
+250626_Smp_RExp3T0_A,L-Lysine,1213616,RR
+250626_Smp_RExp3T0_B,L-Lysine,4307182,RR
+250626_Smp_RExp3T0_C,L-Lysine,326200,RR
+250626_Std_4uMStdsMix1InH2O_1,beta-Glutamic acid,78625088,RR
+250626_Std_4uMStdsMix1InH2O_2,beta-Glutamic acid,308538976,RR
+250626_Std_4uMStdsMix1InMatrix_1,beta-Glutamic acid,537707072,RR
+250626_Std_4uMStdsMix1InMatrix_2,beta-Glutamic acid,1285632896,RR
+250626_Std_4uMStdsMix2InH2O_1,beta-Glutamic acid,214345744,RR
+250626_Std_4uMStdsMix2InH2O_2,beta-Glutamic acid,708672192,RR
+250626_Std_4uMStdsMix2InMatrix_1,beta-Glutamic acid,680460864,RR
+250626_Std_4uMStdsMix2InMatrix_2,beta-Glutamic acid,1137169664,RR
+250626_Std_H2OinMatrix_1,beta-Glutamic acid,346948224,RR
+250626_Std_H2OinMatrix_2,beta-Glutamic acid,775750592,RR
+250626_Blk_FilterBlk_1,beta-Glutamic acid,1621130,RR
+250626_Poo_Day1Poo_Half1,beta-Glutamic acid,420491520,RR
+250626_Poo_Day1Poo_Full2,beta-Glutamic acid,547896896,RR
+250626_Poo_Day1Poo_Full3,beta-Glutamic acid,946427328,RR
+250626_Poo_Day1Poo_Full1,beta-Glutamic acid,810194944,RR
+250626_Poo_Day1Poo_Half2,beta-Glutamic acid,339801856,RR
+250626_Poo_Day1Poo_Half3,beta-Glutamic acid,675992064,RR
+250626_Smp_RExp1Cnt_A,beta-Glutamic acid,985994752,RR
+250626_Smp_RExp1Cnt_B,beta-Glutamic acid,1482731264,RR
+250626_Smp_RExp1Cnt_C,beta-Glutamic acid,1417425792,RR
+250626_Smp_RExp1HFe_A,beta-Glutamic acid,937137216,RR
+250626_Smp_RExp1HFe_B,beta-Glutamic acid,1543855360,RR
+250626_Smp_RExp1HFe_C,beta-Glutamic acid,2208119552,RR
+250626_Smp_RExp1LFe_A,beta-Glutamic acid,1698940544,RR
+250626_Smp_RExp1LFe_B,beta-Glutamic acid,1113312768,RR
+250626_Smp_RExp1LFe_C,beta-Glutamic acid,1133211136,RR
+250626_Smp_RExp1NPFe_A,beta-Glutamic acid,1706209280,RR
+250626_Smp_RExp1NPFe_B,beta-Glutamic acid,2013727744,RR
+250626_Smp_RExp1NPFe_C,beta-Glutamic acid,3349414400,RR
+250626_Smp_RExp1T0_A,beta-Glutamic acid,712282624,RR
+250626_Smp_RExp1T0_B,beta-Glutamic acid,678523904,RR
+250626_Smp_RExp1T0_C,beta-Glutamic acid,1300519424,RR
+250626_Smp_RExp2Cnt_A,beta-Glutamic acid,380436608,RR
+250626_Smp_RExp2Cnt_B,beta-Glutamic acid,1279120768,RR
+250626_Smp_RExp2Cnt_C,beta-Glutamic acid,603606080,RR
+250626_Smp_RExp2Fe_A,beta-Glutamic acid,146168160,RR
+250626_Smp_RExp2Fe_B,beta-Glutamic acid,381636288,RR
+250626_Smp_RExp2Fe_C,beta-Glutamic acid,486498432,RR
+250626_Smp_RExp2NP_A,beta-Glutamic acid,596634304,RR
+250626_Smp_RExp2NP_B,beta-Glutamic acid,720556672,RR
+250626_Smp_RExp2NP_C,beta-Glutamic acid,759483520,RR
+250626_Smp_RExp2NPFe_A,beta-Glutamic acid,673630912,RR
+250626_Smp_RExp2NPFe_B,beta-Glutamic acid,1531312896,RR
+250626_Smp_RExp2NPFe_C,beta-Glutamic acid,671509760,RR
+250626_Smp_RExp2T0_A,beta-Glutamic acid,1229560192,RR
+250626_Smp_RExp2T0_B,beta-Glutamic acid,516727808,RR
+250626_Smp_RExp2T0_C,beta-Glutamic acid,289318208,RR
+250626_Smp_RExp3Cnt_A,beta-Glutamic acid,217416368,RR
+250626_Smp_RExp3Cnt_B,beta-Glutamic acid,101510400,RR
+250626_Smp_RExp3Cnt_C,beta-Glutamic acid,111919096,RR
+250626_Smp_RExp3FeNP_A,beta-Glutamic acid,493205248,RR
+250626_Smp_RExp3FeNP_B,beta-Glutamic acid,442640928,RR
+250626_Smp_RExp3FENP_C,beta-Glutamic acid,326585888,RR
+250626_Smp_RExp3HiNP_A,beta-Glutamic acid,319224384,RR
+250626_Smp_RExp3HiNP_B,beta-Glutamic acid,740445376,RR
+250626_Smp_RExp3HiNP_C,beta-Glutamic acid,543072960,RR
+250626_Smp_RExp3LNP_A,beta-Glutamic acid,169693952,RR
+250626_Smp_RExp3LNP_B,beta-Glutamic acid,334024288,RR
+250626_Smp_RExp3LNP_C,beta-Glutamic acid,121835336,RR
+250626_Smp_RExp3T0_A,beta-Glutamic acid,216593568,RR
+250626_Smp_RExp3T0_B,beta-Glutamic acid,418685280,RR
+250626_Smp_RExp3T0_C,beta-Glutamic acid,165256144,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Glutamic acid,78625088,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Glutamic acid,308538976,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Glutamic acid,537707072,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Glutamic acid,1285632896,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Glutamic acid,214345744,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Glutamic acid,708672192,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Glutamic acid,472986400,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Glutamic acid,601516224,RR
+250626_Std_H2OinMatrix_1,L-Glutamic acid,346948224,RR
+250626_Std_H2OinMatrix_2,L-Glutamic acid,775750592,RR
+250626_Blk_FilterBlk_1,L-Glutamic acid,1228170,RR
+250626_Poo_Day1Poo_Half1,L-Glutamic acid,406092608,RR
+250626_Poo_Day1Poo_Full2,L-Glutamic acid,524263840,RR
+250626_Poo_Day1Poo_Full3,L-Glutamic acid,946427328,RR
+250626_Poo_Day1Poo_Full1,L-Glutamic acid,766041856,RR
+250626_Poo_Day1Poo_Half2,L-Glutamic acid,339801856,RR
+250626_Poo_Day1Poo_Half3,L-Glutamic acid,675992064,RR
+250626_Smp_RExp1Cnt_A,L-Glutamic acid,979792512,RR
+250626_Smp_RExp1Cnt_B,L-Glutamic acid,1482731264,RR
+250626_Smp_RExp1Cnt_C,L-Glutamic acid,1461412736,RR
+250626_Smp_RExp1HFe_A,L-Glutamic acid,963394880,RR
+250626_Smp_RExp1HFe_B,L-Glutamic acid,1543855360,RR
+250626_Smp_RExp1HFe_C,L-Glutamic acid,2208119552,RR
+250626_Smp_RExp1LFe_A,L-Glutamic acid,1698940544,RR
+250626_Smp_RExp1LFe_B,L-Glutamic acid,1106995584,RR
+250626_Smp_RExp1LFe_C,L-Glutamic acid,1124507136,RR
+250626_Smp_RExp1NPFe_A,L-Glutamic acid,1706209280,RR
+250626_Smp_RExp1NPFe_B,L-Glutamic acid,1990251392,RR
+250626_Smp_RExp1NPFe_C,L-Glutamic acid,3336168448,RR
+250626_Smp_RExp1T0_A,L-Glutamic acid,685559424,RR
+250626_Smp_RExp1T0_B,L-Glutamic acid,666456064,RR
+250626_Smp_RExp1T0_C,L-Glutamic acid,1298274048,RR
+250626_Smp_RExp2Cnt_A,L-Glutamic acid,380011136,RR
+250626_Smp_RExp2Cnt_B,L-Glutamic acid,1279120768,RR
+250626_Smp_RExp2Cnt_C,L-Glutamic acid,581964160,RR
+250626_Smp_RExp2Fe_A,L-Glutamic acid,169985856,RR
+250626_Smp_RExp2Fe_B,L-Glutamic acid,360972832,RR
+250626_Smp_RExp2Fe_C,L-Glutamic acid,482459264,RR
+250626_Smp_RExp2NP_A,L-Glutamic acid,336642304,RR
+250626_Smp_RExp2NP_B,L-Glutamic acid,737499968,RR
+250626_Smp_RExp2NP_C,L-Glutamic acid,739349440,RR
+250626_Smp_RExp2NPFe_A,L-Glutamic acid,637266816,RR
+250626_Smp_RExp2NPFe_B,L-Glutamic acid,1627202816,RR
+250626_Smp_RExp2NPFe_C,L-Glutamic acid,651134464,RR
+250626_Smp_RExp2T0_A,L-Glutamic acid,1174984320,RR
+250626_Smp_RExp2T0_B,L-Glutamic acid,516727808,RR
+250626_Smp_RExp2T0_C,L-Glutamic acid,295959104,RR
+250626_Smp_RExp3Cnt_A,L-Glutamic acid,216580464,RR
+250626_Smp_RExp3Cnt_B,L-Glutamic acid,112088704,RR
+250626_Smp_RExp3Cnt_C,L-Glutamic acid,112416648,RR
+250626_Smp_RExp3FeNP_A,L-Glutamic acid,515477056,RR
+250626_Smp_RExp3FeNP_B,L-Glutamic acid,458929216,RR
+250626_Smp_RExp3FENP_C,L-Glutamic acid,333690016,RR
+250626_Smp_RExp3HiNP_A,L-Glutamic acid,329826912,RR
+250626_Smp_RExp3HiNP_B,L-Glutamic acid,680218432,RR
+250626_Smp_RExp3HiNP_C,L-Glutamic acid,527739456,RR
+250626_Smp_RExp3LNP_A,L-Glutamic acid,173206464,RR
+250626_Smp_RExp3LNP_B,L-Glutamic acid,327012384,RR
+250626_Smp_RExp3LNP_C,L-Glutamic acid,125170160,RR
+250626_Smp_RExp3T0_A,L-Glutamic acid,275873472,RR
+250626_Smp_RExp3T0_B,L-Glutamic acid,416783552,RR
+250626_Smp_RExp3T0_C,L-Glutamic acid,173232400,RR
+250626_Std_4uMStdsMix1InH2O_1,Hydroxyisoleucine,316264736,RR
+250626_Std_4uMStdsMix1InH2O_2,Hydroxyisoleucine,1003784512,RR
+250626_Std_4uMStdsMix1InMatrix_1,Hydroxyisoleucine,530985888,RR
+250626_Std_4uMStdsMix1InMatrix_2,Hydroxyisoleucine,691787648,RR
+250626_Std_4uMStdsMix2InH2O_1,Hydroxyisoleucine,2503153,RR
+250626_Std_4uMStdsMix2InH2O_2,Hydroxyisoleucine,8833469,RR
+250626_Std_4uMStdsMix2InMatrix_1,Hydroxyisoleucine,385932640,RR
+250626_Std_4uMStdsMix2InMatrix_2,Hydroxyisoleucine,354535104,RR
+250626_Std_H2OinMatrix_1,Hydroxyisoleucine,369328928,RR
+250626_Std_H2OinMatrix_2,Hydroxyisoleucine,352084960,RR
+250626_Blk_FilterBlk_1,Hydroxyisoleucine,1460104,RR
+250626_Poo_Day1Poo_Half1,Hydroxyisoleucine,228777824,RR
+250626_Poo_Day1Poo_Full2,Hydroxyisoleucine,445599552,RR
+250626_Poo_Day1Poo_Full3,Hydroxyisoleucine,473341600,RR
+250626_Poo_Day1Poo_Full1,Hydroxyisoleucine,444949824,RR
+250626_Poo_Day1Poo_Half2,Hydroxyisoleucine,215156720,RR
+250626_Poo_Day1Poo_Half3,Hydroxyisoleucine,239080800,RR
+250626_Smp_RExp1Cnt_A,Hydroxyisoleucine,1014281728,RR
+250626_Smp_RExp1Cnt_B,Hydroxyisoleucine,906486144,RR
+250626_Smp_RExp1Cnt_C,Hydroxyisoleucine,881482880,RR
+250626_Smp_RExp1HFe_A,Hydroxyisoleucine,1048706816,RR
+250626_Smp_RExp1HFe_B,Hydroxyisoleucine,975961216,RR
+250626_Smp_RExp1HFe_C,Hydroxyisoleucine,956775424,RR
+250626_Smp_RExp1LFe_A,Hydroxyisoleucine,1148833024,RR
+250626_Smp_RExp1LFe_B,Hydroxyisoleucine,950968000,RR
+250626_Smp_RExp1LFe_C,Hydroxyisoleucine,874260672,RR
+250626_Smp_RExp1NPFe_A,Hydroxyisoleucine,746848832,RR
+250626_Smp_RExp1NPFe_B,Hydroxyisoleucine,984456576,RR
+250626_Smp_RExp1NPFe_C,Hydroxyisoleucine,1079899008,RR
+250626_Smp_RExp1T0_A,Hydroxyisoleucine,385029152,RR
+250626_Smp_RExp1T0_B,Hydroxyisoleucine,681326720,RR
+250626_Smp_RExp1T0_C,Hydroxyisoleucine,524649344,RR
+250626_Smp_RExp2Cnt_A,Hydroxyisoleucine,189911424,RR
+250626_Smp_RExp2Cnt_B,Hydroxyisoleucine,877140672,RR
+250626_Smp_RExp2Cnt_C,Hydroxyisoleucine,295626976,RR
+250626_Smp_RExp2Fe_A,Hydroxyisoleucine,145681760,RR
+250626_Smp_RExp2Fe_B,Hydroxyisoleucine,160451936,RR
+250626_Smp_RExp2Fe_C,Hydroxyisoleucine,257081808,RR
+250626_Smp_RExp2NP_A,Hydroxyisoleucine,222746736,RR
+250626_Smp_RExp2NP_B,Hydroxyisoleucine,229743616,RR
+250626_Smp_RExp2NP_C,Hydroxyisoleucine,275876704,RR
+250626_Smp_RExp2NPFe_A,Hydroxyisoleucine,187820288,RR
+250626_Smp_RExp2NPFe_B,Hydroxyisoleucine,257361712,RR
+250626_Smp_RExp2NPFe_C,Hydroxyisoleucine,190264256,RR
+250626_Smp_RExp2T0_A,Hydroxyisoleucine,676596352,RR
+250626_Smp_RExp2T0_B,Hydroxyisoleucine,217047808,RR
+250626_Smp_RExp2T0_C,Hydroxyisoleucine,203193424,RR
+250626_Smp_RExp3Cnt_A,Hydroxyisoleucine,347259904,RR
+250626_Smp_RExp3Cnt_B,Hydroxyisoleucine,275731520,RR
+250626_Smp_RExp3Cnt_C,Hydroxyisoleucine,232545744,RR
+250626_Smp_RExp3FeNP_A,Hydroxyisoleucine,328032992,RR
+250626_Smp_RExp3FeNP_B,Hydroxyisoleucine,283444768,RR
+250626_Smp_RExp3FENP_C,Hydroxyisoleucine,273384032,RR
+250626_Smp_RExp3HiNP_A,Hydroxyisoleucine,290831424,RR
+250626_Smp_RExp3HiNP_B,Hydroxyisoleucine,518823904,RR
+250626_Smp_RExp3HiNP_C,Hydroxyisoleucine,463498304,RR
+250626_Smp_RExp3LNP_A,Hydroxyisoleucine,311492544,RR
+250626_Smp_RExp3LNP_B,Hydroxyisoleucine,450086208,RR
+250626_Smp_RExp3LNP_C,Hydroxyisoleucine,223954048,RR
+250626_Smp_RExp3T0_A,Hydroxyisoleucine,265751952,RR
+250626_Smp_RExp3T0_B,Hydroxyisoleucine,232611680,RR
+250626_Smp_RExp3T0_C,Hydroxyisoleucine,272119200,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Methionine,581867648,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Methionine,1586495488,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Methionine,694731904,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Methionine,1720740224,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Methionine,0,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Methionine,0,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Methionine,148964016,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Methionine,175184208,RR
+250626_Std_H2OinMatrix_1,L-Methionine,119502856,RR
+250626_Std_H2OinMatrix_2,L-Methionine,410196352,RR
+250626_Blk_FilterBlk_1,L-Methionine,0,RR
+250626_Poo_Day1Poo_Half1,L-Methionine,167707680,RR
+250626_Poo_Day1Poo_Full2,L-Methionine,496863552,RR
+250626_Poo_Day1Poo_Full3,L-Methionine,530871040,RR
+250626_Poo_Day1Poo_Full1,L-Methionine,372132992,RR
+250626_Poo_Day1Poo_Half2,L-Methionine,250520416,RR
+250626_Poo_Day1Poo_Half3,L-Methionine,298645504,RR
+250626_Smp_RExp1Cnt_A,L-Methionine,1096047488,RR
+250626_Smp_RExp1Cnt_B,L-Methionine,971477312,RR
+250626_Smp_RExp1Cnt_C,L-Methionine,939998464,RR
+250626_Smp_RExp1HFe_A,L-Methionine,1214601088,RR
+250626_Smp_RExp1HFe_B,L-Methionine,726608768,RR
+250626_Smp_RExp1HFe_C,L-Methionine,1218998656,RR
+250626_Smp_RExp1LFe_A,L-Methionine,1403690752,RR
+250626_Smp_RExp1LFe_B,L-Methionine,1351749248,RR
+250626_Smp_RExp1LFe_C,L-Methionine,1439511296,RR
+250626_Smp_RExp1NPFe_A,L-Methionine,1335731712,RR
+250626_Smp_RExp1NPFe_B,L-Methionine,1779777792,RR
+250626_Smp_RExp1NPFe_C,L-Methionine,1975705216,RR
+250626_Smp_RExp1T0_A,L-Methionine,189191232,RR
+250626_Smp_RExp1T0_B,L-Methionine,363870080,RR
+250626_Smp_RExp1T0_C,L-Methionine,516047680,RR
+250626_Smp_RExp2Cnt_A,L-Methionine,94968032,RR
+250626_Smp_RExp2Cnt_B,L-Methionine,163456384,RR
+250626_Smp_RExp2Cnt_C,L-Methionine,156787840,RR
+250626_Smp_RExp2Fe_A,L-Methionine,22106480,RR
+250626_Smp_RExp2Fe_B,L-Methionine,20090464,RR
+250626_Smp_RExp2Fe_C,L-Methionine,38126952,RR
+250626_Smp_RExp2NP_A,L-Methionine,109623792,RR
+250626_Smp_RExp2NP_B,L-Methionine,35416020,RR
+250626_Smp_RExp2NP_C,L-Methionine,106127080,RR
+250626_Smp_RExp2NPFe_A,L-Methionine,214701456,RR
+250626_Smp_RExp2NPFe_B,L-Methionine,402866656,RR
+250626_Smp_RExp2NPFe_C,L-Methionine,121146248,RR
+250626_Smp_RExp2T0_A,L-Methionine,859049600,RR
+250626_Smp_RExp2T0_B,L-Methionine,94694688,RR
+250626_Smp_RExp2T0_C,L-Methionine,40302676,RR
+250626_Smp_RExp3Cnt_A,L-Methionine,19106148,RR
+250626_Smp_RExp3Cnt_B,L-Methionine,567856,RR
+250626_Smp_RExp3Cnt_C,L-Methionine,10901951,RR
+250626_Smp_RExp3FeNP_A,L-Methionine,84487120,RR
+250626_Smp_RExp3FeNP_B,L-Methionine,80536664,RR
+250626_Smp_RExp3FENP_C,L-Methionine,26684226,RR
+250626_Smp_RExp3HiNP_A,L-Methionine,48166996,RR
+250626_Smp_RExp3HiNP_B,L-Methionine,178190336,RR
+250626_Smp_RExp3HiNP_C,L-Methionine,173868928,RR
+250626_Smp_RExp3LNP_A,L-Methionine,32517006,RR
+250626_Smp_RExp3LNP_B,L-Methionine,52393364,RR
+250626_Smp_RExp3LNP_C,L-Methionine,17962392,RR
+250626_Smp_RExp3T0_A,L-Methionine,21049934,RR
+250626_Smp_RExp3T0_B,L-Methionine,9525327,RR
+250626_Smp_RExp3T0_C,L-Methionine,31106240,RR
+250626_Std_4uMStdsMix1InH2O_1,5-Hydroxyectoine,95787392,RR
+250626_Std_4uMStdsMix1InH2O_2,5-Hydroxyectoine,483225728,RR
+250626_Std_4uMStdsMix1InMatrix_1,5-Hydroxyectoine,62924576,RR
+250626_Std_4uMStdsMix1InMatrix_2,5-Hydroxyectoine,457782304,RR
+250626_Std_4uMStdsMix2InH2O_1,5-Hydroxyectoine,49244,RR
+250626_Std_4uMStdsMix2InH2O_2,5-Hydroxyectoine,743133,RR
+250626_Std_4uMStdsMix2InMatrix_1,5-Hydroxyectoine,2268672,RR
+250626_Std_4uMStdsMix2InMatrix_2,5-Hydroxyectoine,9268716,RR
+250626_Std_H2OinMatrix_1,5-Hydroxyectoine,2353246,RR
+250626_Std_H2OinMatrix_2,5-Hydroxyectoine,5477990,RR
+250626_Blk_FilterBlk_1,5-Hydroxyectoine,1411934,RR
+250626_Poo_Day1Poo_Half1,5-Hydroxyectoine,3040697,RR
+250626_Poo_Day1Poo_Full2,5-Hydroxyectoine,5276889,RR
+250626_Poo_Day1Poo_Full3,5-Hydroxyectoine,12793797,RR
+250626_Poo_Day1Poo_Full1,5-Hydroxyectoine,7400122,RR
+250626_Poo_Day1Poo_Half2,5-Hydroxyectoine,1899739,RR
+250626_Poo_Day1Poo_Half3,5-Hydroxyectoine,6691898,RR
+250626_Smp_RExp1Cnt_A,5-Hydroxyectoine,5375415,RR
+250626_Smp_RExp1Cnt_B,5-Hydroxyectoine,9439970,RR
+250626_Smp_RExp1Cnt_C,5-Hydroxyectoine,8415772,RR
+250626_Smp_RExp1HFe_A,5-Hydroxyectoine,5746173,RR
+250626_Smp_RExp1HFe_B,5-Hydroxyectoine,9436048,RR
+250626_Smp_RExp1HFe_C,5-Hydroxyectoine,16214850,RR
+250626_Smp_RExp1LFe_A,5-Hydroxyectoine,12254401,RR
+250626_Smp_RExp1LFe_B,5-Hydroxyectoine,4991251,RR
+250626_Smp_RExp1LFe_C,5-Hydroxyectoine,6748507,RR
+250626_Smp_RExp1NPFe_A,5-Hydroxyectoine,17052570,RR
+250626_Smp_RExp1NPFe_B,5-Hydroxyectoine,22422296,RR
+250626_Smp_RExp1NPFe_C,5-Hydroxyectoine,48498632,RR
+250626_Smp_RExp1T0_A,5-Hydroxyectoine,6534075,RR
+250626_Smp_RExp1T0_B,5-Hydroxyectoine,3570016,RR
+250626_Smp_RExp1T0_C,5-Hydroxyectoine,10860065,RR
+250626_Smp_RExp2Cnt_A,5-Hydroxyectoine,4770384,RR
+250626_Smp_RExp2Cnt_B,5-Hydroxyectoine,21290080,RR
+250626_Smp_RExp2Cnt_C,5-Hydroxyectoine,5808043,RR
+250626_Smp_RExp2Fe_A,5-Hydroxyectoine,1014188,RR
+250626_Smp_RExp2Fe_B,5-Hydroxyectoine,12727423,RR
+250626_Smp_RExp2Fe_C,5-Hydroxyectoine,4325882,RR
+250626_Smp_RExp2NP_A,5-Hydroxyectoine,8457912,RR
+250626_Smp_RExp2NP_B,5-Hydroxyectoine,11972229,RR
+250626_Smp_RExp2NP_C,5-Hydroxyectoine,16182485,RR
+250626_Smp_RExp2NPFe_A,5-Hydroxyectoine,7391059,RR
+250626_Smp_RExp2NPFe_B,5-Hydroxyectoine,22437274,RR
+250626_Smp_RExp2NPFe_C,5-Hydroxyectoine,7754023,RR
+250626_Smp_RExp2T0_A,5-Hydroxyectoine,10820538,RR
+250626_Smp_RExp2T0_B,5-Hydroxyectoine,4244639,RR
+250626_Smp_RExp2T0_C,5-Hydroxyectoine,1705214,RR
+250626_Smp_RExp3Cnt_A,5-Hydroxyectoine,2402613,RR
+250626_Smp_RExp3Cnt_B,5-Hydroxyectoine,2261131,RR
+250626_Smp_RExp3Cnt_C,5-Hydroxyectoine,723471,RR
+250626_Smp_RExp3FeNP_A,5-Hydroxyectoine,9989625,RR
+250626_Smp_RExp3FeNP_B,5-Hydroxyectoine,12023189,RR
+250626_Smp_RExp3FENP_C,5-Hydroxyectoine,3469058,RR
+250626_Smp_RExp3HiNP_A,5-Hydroxyectoine,5163267,RR
+250626_Smp_RExp3HiNP_B,5-Hydroxyectoine,16139803,RR
+250626_Smp_RExp3HiNP_C,5-Hydroxyectoine,5758870,RR
+250626_Smp_RExp3LNP_A,5-Hydroxyectoine,2757159,RR
+250626_Smp_RExp3LNP_B,5-Hydroxyectoine,5052498,RR
+250626_Smp_RExp3LNP_C,5-Hydroxyectoine,2061365,RR
+250626_Smp_RExp3T0_A,5-Hydroxyectoine,2905125,RR
+250626_Smp_RExp3T0_B,5-Hydroxyectoine,4807358,RR
+250626_Smp_RExp3T0_C,5-Hydroxyectoine,709641,RR
+250626_Std_4uMStdsMix1InH2O_1,Betonicine,10902507520,RR
+250626_Std_4uMStdsMix1InH2O_2,Betonicine,11049193472,RR
+250626_Std_4uMStdsMix1InMatrix_1,Betonicine,7482872320,RR
+250626_Std_4uMStdsMix1InMatrix_2,Betonicine,11434829824,RR
+250626_Std_4uMStdsMix2InH2O_1,Betonicine,NA,RR
+250626_Std_4uMStdsMix2InH2O_2,Betonicine,NA,RR
+250626_Std_4uMStdsMix2InMatrix_1,Betonicine,408857280,RR
+250626_Std_4uMStdsMix2InMatrix_2,Betonicine,416467680,RR
+250626_Std_H2OinMatrix_1,Betonicine,421327488,RR
+250626_Std_H2OinMatrix_2,Betonicine,405752832,RR
+250626_Blk_FilterBlk_1,Betonicine,266106,RR
+250626_Poo_Day1Poo_Half1,Betonicine,206202144,RR
+250626_Poo_Day1Poo_Full2,Betonicine,549224640,RR
+250626_Poo_Day1Poo_Full3,Betonicine,592069056,RR
+250626_Poo_Day1Poo_Full1,Betonicine,343867296,RR
+250626_Poo_Day1Poo_Half2,Betonicine,285575968,RR
+250626_Poo_Day1Poo_Half3,Betonicine,237847696,RR
+250626_Smp_RExp1Cnt_A,Betonicine,1035887232,RR
+250626_Smp_RExp1Cnt_B,Betonicine,827849408,RR
+250626_Smp_RExp1Cnt_C,Betonicine,788966784,RR
+250626_Smp_RExp1HFe_A,Betonicine,1345240320,RR
+250626_Smp_RExp1HFe_B,Betonicine,758287424,RR
+250626_Smp_RExp1HFe_C,Betonicine,884912576,RR
+250626_Smp_RExp1LFe_A,Betonicine,991978304,RR
+250626_Smp_RExp1LFe_B,Betonicine,907977408,RR
+250626_Smp_RExp1LFe_C,Betonicine,806164736,RR
+250626_Smp_RExp1NPFe_A,Betonicine,600896896,RR
+250626_Smp_RExp1NPFe_B,Betonicine,981646720,RR
+250626_Smp_RExp1NPFe_C,Betonicine,819000320,RR
+250626_Smp_RExp1T0_A,Betonicine,847347520,RR
+250626_Smp_RExp1T0_B,Betonicine,1089920256,RR
+250626_Smp_RExp1T0_C,Betonicine,511018560,RR
+250626_Smp_RExp2Cnt_A,Betonicine,428195904,RR
+250626_Smp_RExp2Cnt_B,Betonicine,1440902656,RR
+250626_Smp_RExp2Cnt_C,Betonicine,627018624,RR
+250626_Smp_RExp2Fe_A,Betonicine,191955616,RR
+250626_Smp_RExp2Fe_B,Betonicine,150381440,RR
+250626_Smp_RExp2Fe_C,Betonicine,443231872,RR
+250626_Smp_RExp2NP_A,Betonicine,258766576,RR
+250626_Smp_RExp2NP_B,Betonicine,270745728,RR
+250626_Smp_RExp2NP_C,Betonicine,303435968,RR
+250626_Smp_RExp2NPFe_A,Betonicine,343001248,RR
+250626_Smp_RExp2NPFe_B,Betonicine,473412864,RR
+250626_Smp_RExp2NPFe_C,Betonicine,435073888,RR
+250626_Smp_RExp2T0_A,Betonicine,827643392,RR
+250626_Smp_RExp2T0_B,Betonicine,587422784,RR
+250626_Smp_RExp2T0_C,Betonicine,628518720,RR
+250626_Smp_RExp3Cnt_A,Betonicine,341267776,RR
+250626_Smp_RExp3Cnt_B,Betonicine,282012960,RR
+250626_Smp_RExp3Cnt_C,Betonicine,186627200,RR
+250626_Smp_RExp3FeNP_A,Betonicine,402020160,RR
+250626_Smp_RExp3FeNP_B,Betonicine,348736928,RR
+250626_Smp_RExp3FENP_C,Betonicine,332409536,RR
+250626_Smp_RExp3HiNP_A,Betonicine,330726336,RR
+250626_Smp_RExp3HiNP_B,Betonicine,448427392,RR
+250626_Smp_RExp3HiNP_C,Betonicine,566195840,RR
+250626_Smp_RExp3LNP_A,Betonicine,334266656,RR
+250626_Smp_RExp3LNP_B,Betonicine,471462496,RR
+250626_Smp_RExp3LNP_C,Betonicine,236652608,RR
+250626_Smp_RExp3T0_A,Betonicine,252042240,RR
+250626_Smp_RExp3T0_B,Betonicine,214573392,RR
+250626_Smp_RExp3T0_C,Betonicine,284904352,RR
+250626_Std_4uMStdsMix1InH2O_1,Carnitine,3352880896,RR
+250626_Std_4uMStdsMix1InH2O_2,Carnitine,4040761856,RR
+250626_Std_4uMStdsMix1InMatrix_1,Carnitine,3229476352,RR
+250626_Std_4uMStdsMix1InMatrix_2,Carnitine,4136577536,RR
+250626_Std_4uMStdsMix2InH2O_1,Carnitine,121654,RR
+250626_Std_4uMStdsMix2InH2O_2,Carnitine,37840,RR
+250626_Std_4uMStdsMix2InMatrix_1,Carnitine,1232545920,RR
+250626_Std_4uMStdsMix2InMatrix_2,Carnitine,1087515264,RR
+250626_Std_H2OinMatrix_1,Carnitine,1255402752,RR
+250626_Std_H2OinMatrix_2,Carnitine,1241911936,RR
+250626_Blk_FilterBlk_1,Carnitine,1570583,RR
+250626_Poo_Day1Poo_Half1,Carnitine,702747712,RR
+250626_Poo_Day1Poo_Full2,Carnitine,1437963264,RR
+250626_Poo_Day1Poo_Full3,Carnitine,1367711616,RR
+250626_Poo_Day1Poo_Full1,Carnitine,1410126464,RR
+250626_Poo_Day1Poo_Half2,Carnitine,751627648,RR
+250626_Poo_Day1Poo_Half3,Carnitine,742361536,RR
+250626_Smp_RExp1Cnt_A,Carnitine,3922995712,RR
+250626_Smp_RExp1Cnt_B,Carnitine,3010636288,RR
+250626_Smp_RExp1Cnt_C,Carnitine,3218648576,RR
+250626_Smp_RExp1HFe_A,Carnitine,3643829504,RR
+250626_Smp_RExp1HFe_B,Carnitine,3229166592,RR
+250626_Smp_RExp1HFe_C,Carnitine,3563141376,RR
+250626_Smp_RExp1LFe_A,Carnitine,3784265984,RR
+250626_Smp_RExp1LFe_B,Carnitine,4344491008,RR
+250626_Smp_RExp1LFe_C,Carnitine,3155018240,RR
+250626_Smp_RExp1NPFe_A,Carnitine,3067183360,RR
+250626_Smp_RExp1NPFe_B,Carnitine,4368978432,RR
+250626_Smp_RExp1NPFe_C,Carnitine,3972776704,RR
+250626_Smp_RExp1T0_A,Carnitine,897869952,RR
+250626_Smp_RExp1T0_B,Carnitine,2312053248,RR
+250626_Smp_RExp1T0_C,Carnitine,1883727488,RR
+250626_Smp_RExp2Cnt_A,Carnitine,426698496,RR
+250626_Smp_RExp2Cnt_B,Carnitine,1030070080,RR
+250626_Smp_RExp2Cnt_C,Carnitine,535728768,RR
+250626_Smp_RExp2Fe_A,Carnitine,264950256,RR
+250626_Smp_RExp2Fe_B,Carnitine,213140976,RR
+250626_Smp_RExp2Fe_C,Carnitine,460160800,RR
+250626_Smp_RExp2NP_A,Carnitine,416326528,RR
+250626_Smp_RExp2NP_B,Carnitine,414412416,RR
+250626_Smp_RExp2NP_C,Carnitine,505923104,RR
+250626_Smp_RExp2NPFe_A,Carnitine,486255776,RR
+250626_Smp_RExp2NPFe_B,Carnitine,676527296,RR
+250626_Smp_RExp2NPFe_C,Carnitine,559153984,RR
+250626_Smp_RExp2T0_A,Carnitine,2944332544,RR
+250626_Smp_RExp2T0_B,Carnitine,627765440,RR
+250626_Smp_RExp2T0_C,Carnitine,589001024,RR
+250626_Smp_RExp3Cnt_A,Carnitine,660950528,RR
+250626_Smp_RExp3Cnt_B,Carnitine,473116704,RR
+250626_Smp_RExp3Cnt_C,Carnitine,336230976,RR
+250626_Smp_RExp3FeNP_A,Carnitine,589821248,RR
+250626_Smp_RExp3FeNP_B,Carnitine,392227200,RR
+250626_Smp_RExp3FENP_C,Carnitine,383328288,RR
+250626_Smp_RExp3HiNP_A,Carnitine,470665728,RR
+250626_Smp_RExp3HiNP_B,Carnitine,664271936,RR
+250626_Smp_RExp3HiNP_C,Carnitine,921467776,RR
+250626_Smp_RExp3LNP_A,Carnitine,467254720,RR
+250626_Smp_RExp3LNP_B,Carnitine,496171968,RR
+250626_Smp_RExp3LNP_C,Carnitine,386755712,RR
+250626_Smp_RExp3T0_A,Carnitine,288717760,RR
+250626_Smp_RExp3T0_B,Carnitine,367455264,RR
+250626_Smp_RExp3T0_C,Carnitine,363728288,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Arginine,182156400,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Arginine,133212120,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Arginine,322835040,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Arginine,277988384,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Arginine,1256643,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Arginine,182209,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Arginine,162871344,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Arginine,135582832,RR
+250626_Std_H2OinMatrix_1,L-Arginine,146114256,RR
+250626_Std_H2OinMatrix_2,L-Arginine,126560128,RR
+250626_Blk_FilterBlk_1,L-Arginine,0,RR
+250626_Poo_Day1Poo_Half1,L-Arginine,152630896,RR
+250626_Poo_Day1Poo_Full2,L-Arginine,271177120,RR
+250626_Poo_Day1Poo_Full3,L-Arginine,255625184,RR
+250626_Poo_Day1Poo_Full1,L-Arginine,386438720,RR
+250626_Poo_Day1Poo_Half2,L-Arginine,105705016,RR
+250626_Poo_Day1Poo_Half3,L-Arginine,104124248,RR
+250626_Smp_RExp1Cnt_A,L-Arginine,824205376,RR
+250626_Smp_RExp1Cnt_B,L-Arginine,487899840,RR
+250626_Smp_RExp1Cnt_C,L-Arginine,681662144,RR
+250626_Smp_RExp1HFe_A,L-Arginine,829130176,RR
+250626_Smp_RExp1HFe_B,L-Arginine,689780736,RR
+250626_Smp_RExp1HFe_C,L-Arginine,1025606784,RR
+250626_Smp_RExp1LFe_A,L-Arginine,834066752,RR
+250626_Smp_RExp1LFe_B,L-Arginine,900229056,RR
+250626_Smp_RExp1LFe_C,L-Arginine,1054546688,RR
+250626_Smp_RExp1NPFe_A,L-Arginine,976661056,RR
+250626_Smp_RExp1NPFe_B,L-Arginine,1741457024,RR
+250626_Smp_RExp1NPFe_C,L-Arginine,2231020032,RR
+250626_Smp_RExp1T0_A,L-Arginine,185370320,RR
+250626_Smp_RExp1T0_B,L-Arginine,264979712,RR
+250626_Smp_RExp1T0_C,L-Arginine,369572288,RR
+250626_Smp_RExp2Cnt_A,L-Arginine,99532536,RR
+250626_Smp_RExp2Cnt_B,L-Arginine,112302080,RR
+250626_Smp_RExp2Cnt_C,L-Arginine,67200776,RR
+250626_Smp_RExp2Fe_A,L-Arginine,24639680,RR
+250626_Smp_RExp2Fe_B,L-Arginine,21996208,RR
+250626_Smp_RExp2Fe_C,L-Arginine,49259092,RR
+250626_Smp_RExp2NP_A,L-Arginine,115288672,RR
+250626_Smp_RExp2NP_B,L-Arginine,93672120,RR
+250626_Smp_RExp2NP_C,L-Arginine,83438144,RR
+250626_Smp_RExp2NPFe_A,L-Arginine,141304272,RR
+250626_Smp_RExp2NPFe_B,L-Arginine,407614400,RR
+250626_Smp_RExp2NPFe_C,L-Arginine,113144088,RR
+250626_Smp_RExp2T0_A,L-Arginine,682106368,RR
+250626_Smp_RExp2T0_B,L-Arginine,58843160,RR
+250626_Smp_RExp2T0_C,L-Arginine,38578448,RR
+250626_Smp_RExp3Cnt_A,L-Arginine,38095200,RR
+250626_Smp_RExp3Cnt_B,L-Arginine,22826476,RR
+250626_Smp_RExp3Cnt_C,L-Arginine,12182112,RR
+250626_Smp_RExp3FeNP_A,L-Arginine,115547160,RR
+250626_Smp_RExp3FeNP_B,L-Arginine,58700456,RR
+250626_Smp_RExp3FENP_C,L-Arginine,53911056,RR
+250626_Smp_RExp3HiNP_A,L-Arginine,59445632,RR
+250626_Smp_RExp3HiNP_B,L-Arginine,139972192,RR
+250626_Smp_RExp3HiNP_C,L-Arginine,142426608,RR
+250626_Smp_RExp3LNP_A,L-Arginine,50948512,RR
+250626_Smp_RExp3LNP_B,L-Arginine,41167452,RR
+250626_Smp_RExp3LNP_C,L-Arginine,27129718,RR
+250626_Smp_RExp3T0_A,L-Arginine,10404275,RR
+250626_Smp_RExp3T0_B,L-Arginine,23267450,RR
+250626_Smp_RExp3T0_C,L-Arginine,10868266,RR
+250626_Std_4uMStdsMix1InH2O_1,Arsenobetaine,14529482752,RR
+250626_Std_4uMStdsMix1InH2O_2,Arsenobetaine,15876118528,RR
+250626_Std_4uMStdsMix1InMatrix_1,Arsenobetaine,9716834304,RR
+250626_Std_4uMStdsMix1InMatrix_2,Arsenobetaine,14752764928,RR
+250626_Std_4uMStdsMix2InH2O_1,Arsenobetaine,NA,RR
+250626_Std_4uMStdsMix2InH2O_2,Arsenobetaine,NA,RR
+250626_Std_4uMStdsMix2InMatrix_1,Arsenobetaine,4843926,RR
+250626_Std_4uMStdsMix2InMatrix_2,Arsenobetaine,4150736,RR
+250626_Std_H2OinMatrix_1,Arsenobetaine,5445255,RR
+250626_Std_H2OinMatrix_2,Arsenobetaine,5017702,RR
+250626_Blk_FilterBlk_1,Arsenobetaine,NA,RR
+250626_Poo_Day1Poo_Half1,Arsenobetaine,5851247,RR
+250626_Poo_Day1Poo_Full2,Arsenobetaine,13216457,RR
+250626_Poo_Day1Poo_Full3,Arsenobetaine,12718420,RR
+250626_Poo_Day1Poo_Full1,Arsenobetaine,13865838,RR
+250626_Poo_Day1Poo_Half2,Arsenobetaine,6213010,RR
+250626_Poo_Day1Poo_Half3,Arsenobetaine,5895055,RR
+250626_Smp_RExp1Cnt_A,Arsenobetaine,3014369,RR
+250626_Smp_RExp1Cnt_B,Arsenobetaine,4753942,RR
+250626_Smp_RExp1Cnt_C,Arsenobetaine,4235874,RR
+250626_Smp_RExp1HFe_A,Arsenobetaine,7695349,RR
+250626_Smp_RExp1HFe_B,Arsenobetaine,8214712,RR
+250626_Smp_RExp1HFe_C,Arsenobetaine,4456985,RR
+250626_Smp_RExp1LFe_A,Arsenobetaine,3137288,RR
+250626_Smp_RExp1LFe_B,Arsenobetaine,7643042,RR
+250626_Smp_RExp1LFe_C,Arsenobetaine,2371909,RR
+250626_Smp_RExp1NPFe_A,Arsenobetaine,1849021,RR
+250626_Smp_RExp1NPFe_B,Arsenobetaine,5740772,RR
+250626_Smp_RExp1NPFe_C,Arsenobetaine,7278947,RR
+250626_Smp_RExp1T0_A,Arsenobetaine,12618906,RR
+250626_Smp_RExp1T0_B,Arsenobetaine,3692183,RR
+250626_Smp_RExp1T0_C,Arsenobetaine,1198029,RR
+250626_Smp_RExp2Cnt_A,Arsenobetaine,15767861,RR
+250626_Smp_RExp2Cnt_B,Arsenobetaine,115067024,RR
+250626_Smp_RExp2Cnt_C,Arsenobetaine,32963978,RR
+250626_Smp_RExp2Fe_A,Arsenobetaine,10257165,RR
+250626_Smp_RExp2Fe_B,Arsenobetaine,11751710,RR
+250626_Smp_RExp2Fe_C,Arsenobetaine,22650808,RR
+250626_Smp_RExp2NP_A,Arsenobetaine,16329244,RR
+250626_Smp_RExp2NP_B,Arsenobetaine,14772083,RR
+250626_Smp_RExp2NP_C,Arsenobetaine,15207767,RR
+250626_Smp_RExp2NPFe_A,Arsenobetaine,10166386,RR
+250626_Smp_RExp2NPFe_B,Arsenobetaine,15571578,RR
+250626_Smp_RExp2NPFe_C,Arsenobetaine,15524187,RR
+250626_Smp_RExp2T0_A,Arsenobetaine,4496558,RR
+250626_Smp_RExp2T0_B,Arsenobetaine,10229369,RR
+250626_Smp_RExp2T0_C,Arsenobetaine,9819620,RR
+250626_Smp_RExp3Cnt_A,Arsenobetaine,23594912,RR
+250626_Smp_RExp3Cnt_B,Arsenobetaine,18771812,RR
+250626_Smp_RExp3Cnt_C,Arsenobetaine,15377315,RR
+250626_Smp_RExp3FeNP_A,Arsenobetaine,20170748,RR
+250626_Smp_RExp3FeNP_B,Arsenobetaine,15623247,RR
+250626_Smp_RExp3FENP_C,Arsenobetaine,17872172,RR
+250626_Smp_RExp3HiNP_A,Arsenobetaine,17856638,RR
+250626_Smp_RExp3HiNP_B,Arsenobetaine,46483424,RR
+250626_Smp_RExp3HiNP_C,Arsenobetaine,89549896,RR
+250626_Smp_RExp3LNP_A,Arsenobetaine,19749284,RR
+250626_Smp_RExp3LNP_B,Arsenobetaine,31228430,RR
+250626_Smp_RExp3LNP_C,Arsenobetaine,14272048,RR
+250626_Smp_RExp3T0_A,Arsenobetaine,16144939,RR
+250626_Smp_RExp3T0_B,Arsenobetaine,17838094,RR
+250626_Smp_RExp3T0_C,Arsenobetaine,17843238,RR
+250626_Std_4uMStdsMix1InH2O_1,Gonyol,590204800,RR
+250626_Std_4uMStdsMix1InH2O_2,Gonyol,656875648,RR
+250626_Std_4uMStdsMix1InMatrix_1,Gonyol,2182286848,RR
+250626_Std_4uMStdsMix1InMatrix_2,Gonyol,2552630784,RR
+250626_Std_4uMStdsMix2InH2O_1,Gonyol,0,RR
+250626_Std_4uMStdsMix2InH2O_2,Gonyol,0,RR
+250626_Std_4uMStdsMix2InMatrix_1,Gonyol,2105757312,RR
+250626_Std_4uMStdsMix2InMatrix_2,Gonyol,2526347776,RR
+250626_Std_H2OinMatrix_1,Gonyol,1875645440,RR
+250626_Std_H2OinMatrix_2,Gonyol,2745426432,RR
+250626_Blk_FilterBlk_1,Gonyol,3102,RR
+250626_Poo_Day1Poo_Half1,Gonyol,1659553536,RR
+250626_Poo_Day1Poo_Full2,Gonyol,1396524288,RR
+250626_Poo_Day1Poo_Full3,Gonyol,1630438016,RR
+250626_Poo_Day1Poo_Full1,Gonyol,1116533760,RR
+250626_Poo_Day1Poo_Half2,Gonyol,1775064704,RR
+250626_Poo_Day1Poo_Half3,Gonyol,1911661952,RR
+250626_Smp_RExp1Cnt_A,Gonyol,2701233920,RR
+250626_Smp_RExp1Cnt_B,Gonyol,4147245056,RR
+250626_Smp_RExp1Cnt_C,Gonyol,2341734912,RR
+250626_Smp_RExp1HFe_A,Gonyol,2809727744,RR
+250626_Smp_RExp1HFe_B,Gonyol,3898137344,RR
+250626_Smp_RExp1HFe_C,Gonyol,2635405824,RR
+250626_Smp_RExp1LFe_A,Gonyol,7967862272,RR
+250626_Smp_RExp1LFe_B,Gonyol,3525863168,RR
+250626_Smp_RExp1LFe_C,Gonyol,2731545856,RR
+250626_Smp_RExp1NPFe_A,Gonyol,4250309888,RR
+250626_Smp_RExp1NPFe_B,Gonyol,2882377984,RR
+250626_Smp_RExp1NPFe_C,Gonyol,3709141760,RR
+250626_Smp_RExp1T0_A,Gonyol,628862976,RR
+250626_Smp_RExp1T0_B,Gonyol,1577501696,RR
+250626_Smp_RExp1T0_C,Gonyol,1451446656,RR
+250626_Smp_RExp2Cnt_A,Gonyol,427300320,RR
+250626_Smp_RExp2Cnt_B,Gonyol,522964320,RR
+250626_Smp_RExp2Cnt_C,Gonyol,869622784,RR
+250626_Smp_RExp2Fe_A,Gonyol,302175840,RR
+250626_Smp_RExp2Fe_B,Gonyol,256531968,RR
+250626_Smp_RExp2Fe_C,Gonyol,612134848,RR
+250626_Smp_RExp2NP_A,Gonyol,203384336,RR
+250626_Smp_RExp2NP_B,Gonyol,562819776,RR
+250626_Smp_RExp2NP_C,Gonyol,585981248,RR
+250626_Smp_RExp2NPFe_A,Gonyol,437711520,RR
+250626_Smp_RExp2NPFe_B,Gonyol,704199616,RR
+250626_Smp_RExp2NPFe_C,Gonyol,585371840,RR
+250626_Smp_RExp2T0_A,Gonyol,2344964608,RR
+250626_Smp_RExp2T0_B,Gonyol,1030852224,RR
+250626_Smp_RExp2T0_C,Gonyol,479232864,RR
+250626_Smp_RExp3Cnt_A,Gonyol,740973440,RR
+250626_Smp_RExp3Cnt_B,Gonyol,432813056,RR
+250626_Smp_RExp3Cnt_C,Gonyol,607684352,RR
+250626_Smp_RExp3FeNP_A,Gonyol,467091648,RR
+250626_Smp_RExp3FeNP_B,Gonyol,799503680,RR
+250626_Smp_RExp3FENP_C,Gonyol,261801888,RR
+250626_Smp_RExp3HiNP_A,Gonyol,512937472,RR
+250626_Smp_RExp3HiNP_B,Gonyol,725104064,RR
+250626_Smp_RExp3HiNP_C,Gonyol,309558560,RR
+250626_Smp_RExp3LNP_A,Gonyol,494419424,RR
+250626_Smp_RExp3LNP_B,Gonyol,633473472,RR
+250626_Smp_RExp3LNP_C,Gonyol,729621568,RR
+250626_Smp_RExp3T0_A,Gonyol,544162368,RR
+250626_Smp_RExp3T0_B,Gonyol,600786368,RR
+250626_Smp_RExp3T0_C,Gonyol,664918656,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Tyrosine,215405808,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Tyrosine,1004811712,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Tyrosine,152819472,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Tyrosine,305737728,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Tyrosine,119999,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Tyrosine,142851,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Tyrosine,50304472,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Tyrosine,78194464,RR
+250626_Std_H2OinMatrix_1,L-Tyrosine,48126116,RR
+250626_Std_H2OinMatrix_2,L-Tyrosine,75165696,RR
+250626_Blk_FilterBlk_1,L-Tyrosine,1637955,RR
+250626_Poo_Day1Poo_Half1,L-Tyrosine,45314644,RR
+250626_Poo_Day1Poo_Full2,L-Tyrosine,97023992,RR
+250626_Poo_Day1Poo_Full3,L-Tyrosine,119403480,RR
+250626_Poo_Day1Poo_Full1,L-Tyrosine,96781088,RR
+250626_Poo_Day1Poo_Half2,L-Tyrosine,42898740,RR
+250626_Poo_Day1Poo_Half3,L-Tyrosine,58291940,RR
+250626_Smp_RExp1Cnt_A,L-Tyrosine,233508592,RR
+250626_Smp_RExp1Cnt_B,L-Tyrosine,231291264,RR
+250626_Smp_RExp1Cnt_C,L-Tyrosine,259861328,RR
+250626_Smp_RExp1HFe_A,L-Tyrosine,230807136,RR
+250626_Smp_RExp1HFe_B,L-Tyrosine,265025856,RR
+250626_Smp_RExp1HFe_C,L-Tyrosine,246219040,RR
+250626_Smp_RExp1LFe_A,L-Tyrosine,346987424,RR
+250626_Smp_RExp1LFe_B,L-Tyrosine,277538656,RR
+250626_Smp_RExp1LFe_C,L-Tyrosine,254436816,RR
+250626_Smp_RExp1NPFe_A,L-Tyrosine,214847232,RR
+250626_Smp_RExp1NPFe_B,L-Tyrosine,294686944,RR
+250626_Smp_RExp1NPFe_C,L-Tyrosine,513207520,RR
+250626_Smp_RExp1T0_A,L-Tyrosine,58396464,RR
+250626_Smp_RExp1T0_B,L-Tyrosine,96468184,RR
+250626_Smp_RExp1T0_C,L-Tyrosine,148951968,RR
+250626_Smp_RExp2Cnt_A,L-Tyrosine,59901332,RR
+250626_Smp_RExp2Cnt_B,L-Tyrosine,37644004,RR
+250626_Smp_RExp2Cnt_C,L-Tyrosine,60522244,RR
+250626_Smp_RExp2Fe_A,L-Tyrosine,28771146,RR
+250626_Smp_RExp2Fe_B,L-Tyrosine,29677878,RR
+250626_Smp_RExp2Fe_C,L-Tyrosine,62260916,RR
+250626_Smp_RExp2NP_A,L-Tyrosine,52209316,RR
+250626_Smp_RExp2NP_B,L-Tyrosine,55009804,RR
+250626_Smp_RExp2NP_C,L-Tyrosine,50008604,RR
+250626_Smp_RExp2NPFe_A,L-Tyrosine,56684476,RR
+250626_Smp_RExp2NPFe_B,L-Tyrosine,114112792,RR
+250626_Smp_RExp2NPFe_C,L-Tyrosine,54981744,RR
+250626_Smp_RExp2T0_A,L-Tyrosine,192810112,RR
+250626_Smp_RExp2T0_B,L-Tyrosine,32108016,RR
+250626_Smp_RExp2T0_C,L-Tyrosine,20863932,RR
+250626_Smp_RExp3Cnt_A,L-Tyrosine,20527816,RR
+250626_Smp_RExp3Cnt_B,L-Tyrosine,14413820,RR
+250626_Smp_RExp3Cnt_C,L-Tyrosine,10447769,RR
+250626_Smp_RExp3FeNP_A,L-Tyrosine,29215198,RR
+250626_Smp_RExp3FeNP_B,L-Tyrosine,23775386,RR
+250626_Smp_RExp3FENP_C,L-Tyrosine,20690412,RR
+250626_Smp_RExp3HiNP_A,L-Tyrosine,20607260,RR
+250626_Smp_RExp3HiNP_B,L-Tyrosine,40623640,RR
+250626_Smp_RExp3HiNP_C,L-Tyrosine,21587120,RR
+250626_Smp_RExp3LNP_A,L-Tyrosine,22790476,RR
+250626_Smp_RExp3LNP_B,L-Tyrosine,26443328,RR
+250626_Smp_RExp3LNP_C,L-Tyrosine,16250340,RR
+250626_Smp_RExp3T0_A,L-Tyrosine,10825110,RR
+250626_Smp_RExp3T0_B,L-Tyrosine,15429312,RR
+250626_Smp_RExp3T0_C,L-Tyrosine,12238493,RR
+250626_Std_4uMStdsMix1InH2O_1,2-O-alpha-D-Glucosylglycerol,NA,RR
+250626_Std_4uMStdsMix1InH2O_2,2-O-alpha-D-Glucosylglycerol,NA,RR
+250626_Std_4uMStdsMix1InMatrix_1,2-O-alpha-D-Glucosylglycerol,18739588,RR
+250626_Std_4uMStdsMix1InMatrix_2,2-O-alpha-D-Glucosylglycerol,19912454,RR
+250626_Std_4uMStdsMix2InH2O_1,2-O-alpha-D-Glucosylglycerol,12100125,RR
+250626_Std_4uMStdsMix2InH2O_2,2-O-alpha-D-Glucosylglycerol,14985596,RR
+250626_Std_4uMStdsMix2InMatrix_1,2-O-alpha-D-Glucosylglycerol,16239137,RR
+250626_Std_4uMStdsMix2InMatrix_2,2-O-alpha-D-Glucosylglycerol,32902668,RR
+250626_Std_H2OinMatrix_1,2-O-alpha-D-Glucosylglycerol,17058440,RR
+250626_Std_H2OinMatrix_2,2-O-alpha-D-Glucosylglycerol,17165140,RR
+250626_Blk_FilterBlk_1,2-O-alpha-D-Glucosylglycerol,NA,RR
+250626_Poo_Day1Poo_Half1,2-O-alpha-D-Glucosylglycerol,11314365,RR
+250626_Poo_Day1Poo_Full2,2-O-alpha-D-Glucosylglycerol,16052998,RR
+250626_Poo_Day1Poo_Full3,2-O-alpha-D-Glucosylglycerol,18590098,RR
+250626_Poo_Day1Poo_Full1,2-O-alpha-D-Glucosylglycerol,19733628,RR
+250626_Poo_Day1Poo_Half2,2-O-alpha-D-Glucosylglycerol,6983500,RR
+250626_Poo_Day1Poo_Half3,2-O-alpha-D-Glucosylglycerol,11379819,RR
+250626_Smp_RExp1Cnt_A,2-O-alpha-D-Glucosylglycerol,57308772,RR
+250626_Smp_RExp1Cnt_B,2-O-alpha-D-Glucosylglycerol,56084428,RR
+250626_Smp_RExp1Cnt_C,2-O-alpha-D-Glucosylglycerol,39216248,RR
+250626_Smp_RExp1HFe_A,2-O-alpha-D-Glucosylglycerol,67116712,RR
+250626_Smp_RExp1HFe_B,2-O-alpha-D-Glucosylglycerol,44656704,RR
+250626_Smp_RExp1HFe_C,2-O-alpha-D-Glucosylglycerol,62112132,RR
+250626_Smp_RExp1LFe_A,2-O-alpha-D-Glucosylglycerol,88842464,RR
+250626_Smp_RExp1LFe_B,2-O-alpha-D-Glucosylglycerol,54273564,RR
+250626_Smp_RExp1LFe_C,2-O-alpha-D-Glucosylglycerol,39170960,RR
+250626_Smp_RExp1NPFe_A,2-O-alpha-D-Glucosylglycerol,96255280,RR
+250626_Smp_RExp1NPFe_B,2-O-alpha-D-Glucosylglycerol,101191216,RR
+250626_Smp_RExp1NPFe_C,2-O-alpha-D-Glucosylglycerol,121623960,RR
+250626_Smp_RExp1T0_A,2-O-alpha-D-Glucosylglycerol,7508088,RR
+250626_Smp_RExp1T0_B,2-O-alpha-D-Glucosylglycerol,23823324,RR
+250626_Smp_RExp1T0_C,2-O-alpha-D-Glucosylglycerol,21898204,RR
+250626_Smp_RExp2Cnt_A,2-O-alpha-D-Glucosylglycerol,3515231,RR
+250626_Smp_RExp2Cnt_B,2-O-alpha-D-Glucosylglycerol,2590925,RR
+250626_Smp_RExp2Cnt_C,2-O-alpha-D-Glucosylglycerol,4381784,RR
+250626_Smp_RExp2Fe_A,2-O-alpha-D-Glucosylglycerol,192440,RR
+250626_Smp_RExp2Fe_B,2-O-alpha-D-Glucosylglycerol,463672,RR
+250626_Smp_RExp2Fe_C,2-O-alpha-D-Glucosylglycerol,1933853,RR
+250626_Smp_RExp2NP_A,2-O-alpha-D-Glucosylglycerol,7525361,RR
+250626_Smp_RExp2NP_B,2-O-alpha-D-Glucosylglycerol,10850153,RR
+250626_Smp_RExp2NP_C,2-O-alpha-D-Glucosylglycerol,9250174,RR
+250626_Smp_RExp2NPFe_A,2-O-alpha-D-Glucosylglycerol,15331272,RR
+250626_Smp_RExp2NPFe_B,2-O-alpha-D-Glucosylglycerol,34563688,RR
+250626_Smp_RExp2NPFe_C,2-O-alpha-D-Glucosylglycerol,11530681,RR
+250626_Smp_RExp2T0_A,2-O-alpha-D-Glucosylglycerol,40848068,RR
+250626_Smp_RExp2T0_B,2-O-alpha-D-Glucosylglycerol,5606808,RR
+250626_Smp_RExp2T0_C,2-O-alpha-D-Glucosylglycerol,1566301,RR
+250626_Smp_RExp3Cnt_A,2-O-alpha-D-Glucosylglycerol,270716,RR
+250626_Smp_RExp3Cnt_B,2-O-alpha-D-Glucosylglycerol,86508,RR
+250626_Smp_RExp3Cnt_C,2-O-alpha-D-Glucosylglycerol,81830,RR
+250626_Smp_RExp3FeNP_A,2-O-alpha-D-Glucosylglycerol,4492263,RR
+250626_Smp_RExp3FeNP_B,2-O-alpha-D-Glucosylglycerol,2535374,RR
+250626_Smp_RExp3FENP_C,2-O-alpha-D-Glucosylglycerol,1128558,RR
+250626_Smp_RExp3HiNP_A,2-O-alpha-D-Glucosylglycerol,275283,RR
+250626_Smp_RExp3HiNP_B,2-O-alpha-D-Glucosylglycerol,4907781,RR
+250626_Smp_RExp3HiNP_C,2-O-alpha-D-Glucosylglycerol,2114520,RR
+250626_Smp_RExp3LNP_A,2-O-alpha-D-Glucosylglycerol,383406,RR
+250626_Smp_RExp3LNP_B,2-O-alpha-D-Glucosylglycerol,2374347,RR
+250626_Smp_RExp3LNP_C,2-O-alpha-D-Glucosylglycerol,1427131,RR
+250626_Smp_RExp3T0_A,2-O-alpha-D-Glucosylglycerol,63375,RR
+250626_Smp_RExp3T0_B,2-O-alpha-D-Glucosylglycerol,796065,RR
+250626_Smp_RExp3T0_C,2-O-alpha-D-Glucosylglycerol,79410,RR
+250626_Std_4uMStdsMix1InH2O_1,Taurine,1701748,RR
+250626_Std_4uMStdsMix1InH2O_2,Taurine,2042161,RR
+250626_Std_4uMStdsMix1InMatrix_1,Taurine,36430836,RR
+250626_Std_4uMStdsMix1InMatrix_2,Taurine,40621756,RR
+250626_Std_4uMStdsMix2InH2O_1,Taurine,80048072,RR
+250626_Std_4uMStdsMix2InH2O_2,Taurine,182117280,RR
+250626_Std_4uMStdsMix2InMatrix_1,Taurine,70139416,RR
+250626_Std_4uMStdsMix2InMatrix_2,Taurine,90941168,RR
+250626_Std_H2OinMatrix_1,Taurine,34657676,RR
+250626_Std_H2OinMatrix_2,Taurine,38212272,RR
+250626_Blk_FilterBlk_1,Taurine,0,RR
+250626_Poo_Day1Poo_Half1,Taurine,20056968,RR
+250626_Poo_Day1Poo_Full2,Taurine,21808210,RR
+250626_Poo_Day1Poo_Full3,Taurine,24136316,RR
+250626_Poo_Day1Poo_Full1,Taurine,33370300,RR
+250626_Poo_Day1Poo_Half2,Taurine,17775834,RR
+250626_Poo_Day1Poo_Half3,Taurine,21758420,RR
+250626_Smp_RExp1Cnt_A,Taurine,71503728,RR
+250626_Smp_RExp1Cnt_B,Taurine,76221624,RR
+250626_Smp_RExp1Cnt_C,Taurine,60660764,RR
+250626_Smp_RExp1HFe_A,Taurine,59612572,RR
+250626_Smp_RExp1HFe_B,Taurine,60969388,RR
+250626_Smp_RExp1HFe_C,Taurine,89270976,RR
+250626_Smp_RExp1LFe_A,Taurine,80370520,RR
+250626_Smp_RExp1LFe_B,Taurine,69570976,RR
+250626_Smp_RExp1LFe_C,Taurine,58427912,RR
+250626_Smp_RExp1NPFe_A,Taurine,122437808,RR
+250626_Smp_RExp1NPFe_B,Taurine,140024560,RR
+250626_Smp_RExp1NPFe_C,Taurine,158646736,RR
+250626_Smp_RExp1T0_A,Taurine,15081749,RR
+250626_Smp_RExp1T0_B,Taurine,71749936,RR
+250626_Smp_RExp1T0_C,Taurine,64238408,RR
+250626_Smp_RExp2Cnt_A,Taurine,4185389,RR
+250626_Smp_RExp2Cnt_B,Taurine,9447130,RR
+250626_Smp_RExp2Cnt_C,Taurine,4336037,RR
+250626_Smp_RExp2Fe_A,Taurine,2959232,RR
+250626_Smp_RExp2Fe_B,Taurine,1587736,RR
+250626_Smp_RExp2Fe_C,Taurine,5250421,RR
+250626_Smp_RExp2NP_A,Taurine,10877585,RR
+250626_Smp_RExp2NP_B,Taurine,10876753,RR
+250626_Smp_RExp2NP_C,Taurine,9838991,RR
+250626_Smp_RExp2NPFe_A,Taurine,16603067,RR
+250626_Smp_RExp2NPFe_B,Taurine,29378542,RR
+250626_Smp_RExp2NPFe_C,Taurine,13530854,RR
+250626_Smp_RExp2T0_A,Taurine,98347408,RR
+250626_Smp_RExp2T0_B,Taurine,8574351,RR
+250626_Smp_RExp2T0_C,Taurine,5616160,RR
+250626_Smp_RExp3Cnt_A,Taurine,3327064,RR
+250626_Smp_RExp3Cnt_B,Taurine,1330035,RR
+250626_Smp_RExp3Cnt_C,Taurine,934911,RR
+250626_Smp_RExp3FeNP_A,Taurine,8548051,RR
+250626_Smp_RExp3FeNP_B,Taurine,6040276,RR
+250626_Smp_RExp3FENP_C,Taurine,4522789,RR
+250626_Smp_RExp3HiNP_A,Taurine,5231185,RR
+250626_Smp_RExp3HiNP_B,Taurine,9484718,RR
+250626_Smp_RExp3HiNP_C,Taurine,5837801,RR
+250626_Smp_RExp3LNP_A,Taurine,3636817,RR
+250626_Smp_RExp3LNP_B,Taurine,4380071,RR
+250626_Smp_RExp3LNP_C,Taurine,2594121,RR
+250626_Smp_RExp3T0_A,Taurine,1298663,RR
+250626_Smp_RExp3T0_B,Taurine,1399902,RR
+250626_Smp_RExp3T0_C,Taurine,657918,RR
+250626_Std_4uMStdsMix1InH2O_1,Isethionic acid,38325,RR
+250626_Std_4uMStdsMix1InH2O_2,Isethionic acid,0,RR
+250626_Std_4uMStdsMix1InMatrix_1,Isethionic acid,1342784896,RR
+250626_Std_4uMStdsMix1InMatrix_2,Isethionic acid,1412537600,RR
+250626_Std_4uMStdsMix2InH2O_1,Isethionic acid,410252672,RR
+250626_Std_4uMStdsMix2InH2O_2,Isethionic acid,651795072,RR
+250626_Std_4uMStdsMix2InMatrix_1,Isethionic acid,1705997952,RR
+250626_Std_4uMStdsMix2InMatrix_2,Isethionic acid,1771138944,RR
+250626_Std_H2OinMatrix_1,Isethionic acid,1103384832,RR
+250626_Std_H2OinMatrix_2,Isethionic acid,1467619584,RR
+250626_Blk_FilterBlk_1,Isethionic acid,3464998,RR
+250626_Poo_Day1Poo_Half1,Isethionic acid,839747264,RR
+250626_Poo_Day1Poo_Full2,Isethionic acid,1586665856,RR
+250626_Poo_Day1Poo_Full3,Isethionic acid,1482552576,RR
+250626_Poo_Day1Poo_Full1,Isethionic acid,1411387008,RR
+250626_Poo_Day1Poo_Half2,Isethionic acid,921407232,RR
+250626_Poo_Day1Poo_Half3,Isethionic acid,937950144,RR
+250626_Smp_RExp1Cnt_A,Isethionic acid,3989233408,RR
+250626_Smp_RExp1Cnt_B,Isethionic acid,3616465152,RR
+250626_Smp_RExp1Cnt_C,Isethionic acid,3802638080,RR
+250626_Smp_RExp1HFe_A,Isethionic acid,4836926464,RR
+250626_Smp_RExp1HFe_B,Isethionic acid,4532423680,RR
+250626_Smp_RExp1HFe_C,Isethionic acid,3958534656,RR
+250626_Smp_RExp1LFe_A,Isethionic acid,4055184896,RR
+250626_Smp_RExp1LFe_B,Isethionic acid,4290362368,RR
+250626_Smp_RExp1LFe_C,Isethionic acid,3943176192,RR
+250626_Smp_RExp1NPFe_A,Isethionic acid,4727564288,RR
+250626_Smp_RExp1NPFe_B,Isethionic acid,5099018240,RR
+250626_Smp_RExp1NPFe_C,Isethionic acid,5645146624,RR
+250626_Smp_RExp1T0_A,Isethionic acid,665842112,RR
+250626_Smp_RExp1T0_B,Isethionic acid,1970948480,RR
+250626_Smp_RExp1T0_C,Isethionic acid,1742443904,RR
+250626_Smp_RExp2Cnt_A,Isethionic acid,450765280,RR
+250626_Smp_RExp2Cnt_B,Isethionic acid,621408448,RR
+250626_Smp_RExp2Cnt_C,Isethionic acid,521787424,RR
+250626_Smp_RExp2Fe_A,Isethionic acid,288601952,RR
+250626_Smp_RExp2Fe_B,Isethionic acid,237523088,RR
+250626_Smp_RExp2Fe_C,Isethionic acid,621967168,RR
+250626_Smp_RExp2NP_A,Isethionic acid,1008332160,RR
+250626_Smp_RExp2NP_B,Isethionic acid,777526464,RR
+250626_Smp_RExp2NP_C,Isethionic acid,752805056,RR
+250626_Smp_RExp2NPFe_A,Isethionic acid,1511796096,RR
+250626_Smp_RExp2NPFe_B,Isethionic acid,1481266432,RR
+250626_Smp_RExp2NPFe_C,Isethionic acid,1341888512,RR
+250626_Smp_RExp2T0_A,Isethionic acid,1974489344,RR
+250626_Smp_RExp2T0_B,Isethionic acid,652486144,RR
+250626_Smp_RExp2T0_C,Isethionic acid,600572480,RR
+250626_Smp_RExp3Cnt_A,Isethionic acid,138779936,RR
+250626_Smp_RExp3Cnt_B,Isethionic acid,137735744,RR
+250626_Smp_RExp3Cnt_C,Isethionic acid,95883688,RR
+250626_Smp_RExp3FeNP_A,Isethionic acid,231004944,RR
+250626_Smp_RExp3FeNP_B,Isethionic acid,206989152,RR
+250626_Smp_RExp3FENP_C,Isethionic acid,239474768,RR
+250626_Smp_RExp3HiNP_A,Isethionic acid,264135904,RR
+250626_Smp_RExp3HiNP_B,Isethionic acid,426213056,RR
+250626_Smp_RExp3HiNP_C,Isethionic acid,243046992,RR
+250626_Smp_RExp3LNP_A,Isethionic acid,268384544,RR
+250626_Smp_RExp3LNP_B,Isethionic acid,235683680,RR
+250626_Smp_RExp3LNP_C,Isethionic acid,195735184,RR
+250626_Smp_RExp3T0_A,Isethionic acid,93561152,RR
+250626_Smp_RExp3T0_B,Isethionic acid,75807440,RR
+250626_Smp_RExp3T0_C,Isethionic acid,104257288,RR
+250626_Std_4uMStdsMix1InH2O_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",22697,RR
+250626_Std_4uMStdsMix1InH2O_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",53395,RR
+250626_Std_4uMStdsMix1InMatrix_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",105167016,RR
+250626_Std_4uMStdsMix1InMatrix_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",134271024,RR
+250626_Std_4uMStdsMix2InH2O_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",302919264,RR
+250626_Std_4uMStdsMix2InH2O_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",662587072,RR
+250626_Std_4uMStdsMix2InMatrix_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",147202448,RR
+250626_Std_4uMStdsMix2InMatrix_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",212142608,RR
+250626_Std_H2OinMatrix_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",91008344,RR
+250626_Std_H2OinMatrix_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",118481304,RR
+250626_Blk_FilterBlk_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",62023,RR
+250626_Poo_Day1Poo_Half1,"(R)-2,3-Dihydroxypropane-1-sulfonate",62142920,RR
+250626_Poo_Day1Poo_Full2,"(R)-2,3-Dihydroxypropane-1-sulfonate",98137424,RR
+250626_Poo_Day1Poo_Full3,"(R)-2,3-Dihydroxypropane-1-sulfonate",124449576,RR
+250626_Poo_Day1Poo_Full1,"(R)-2,3-Dihydroxypropane-1-sulfonate",115225560,RR
+250626_Poo_Day1Poo_Half2,"(R)-2,3-Dihydroxypropane-1-sulfonate",59111836,RR
+250626_Poo_Day1Poo_Half3,"(R)-2,3-Dihydroxypropane-1-sulfonate",75946912,RR
+250626_Smp_RExp1Cnt_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",244358848,RR
+250626_Smp_RExp1Cnt_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",329575424,RR
+250626_Smp_RExp1Cnt_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",248698336,RR
+250626_Smp_RExp1HFe_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",270426112,RR
+250626_Smp_RExp1HFe_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",339046816,RR
+250626_Smp_RExp1HFe_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",458472192,RR
+250626_Smp_RExp1LFe_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",421351072,RR
+250626_Smp_RExp1LFe_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",258840944,RR
+250626_Smp_RExp1LFe_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",276090272,RR
+250626_Smp_RExp1NPFe_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",261496800,RR
+250626_Smp_RExp1NPFe_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",353974336,RR
+250626_Smp_RExp1NPFe_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",509297056,RR
+250626_Smp_RExp1T0_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",86140464,RR
+250626_Smp_RExp1T0_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",204885824,RR
+250626_Smp_RExp1T0_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",203136656,RR
+250626_Smp_RExp2Cnt_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",16670394,RR
+250626_Smp_RExp2Cnt_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",24509240,RR
+250626_Smp_RExp2Cnt_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",28202314,RR
+250626_Smp_RExp2Fe_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",7692563,RR
+250626_Smp_RExp2Fe_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",9572139,RR
+250626_Smp_RExp2Fe_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",23515348,RR
+250626_Smp_RExp2NP_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",54233640,RR
+250626_Smp_RExp2NP_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",51404760,RR
+250626_Smp_RExp2NP_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",45399852,RR
+250626_Smp_RExp2NPFe_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",126405112,RR
+250626_Smp_RExp2NPFe_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",181160352,RR
+250626_Smp_RExp2NPFe_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",68181472,RR
+250626_Smp_RExp2T0_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",288166432,RR
+250626_Smp_RExp2T0_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",63414452,RR
+250626_Smp_RExp2T0_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",47292272,RR
+250626_Smp_RExp3Cnt_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",17171870,RR
+250626_Smp_RExp3Cnt_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",10248572,RR
+250626_Smp_RExp3Cnt_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",7313863,RR
+250626_Smp_RExp3FeNP_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",24460326,RR
+250626_Smp_RExp3FeNP_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",20836082,RR
+250626_Smp_RExp3FENP_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",16407043,RR
+250626_Smp_RExp3HiNP_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",21103456,RR
+250626_Smp_RExp3HiNP_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",38797408,RR
+250626_Smp_RExp3HiNP_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",11796391,RR
+250626_Smp_RExp3LNP_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",24275894,RR
+250626_Smp_RExp3LNP_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",21642700,RR
+250626_Smp_RExp3LNP_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",19804592,RR
+250626_Smp_RExp3T0_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",8420588,RR
+250626_Smp_RExp3T0_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",10143549,RR
+250626_Smp_RExp3T0_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",9768674,RR
+250626_Std_4uMStdsMix1InH2O_1,L-Cysteic acid,0,RR
+250626_Std_4uMStdsMix1InH2O_2,L-Cysteic acid,0,RR
+250626_Std_4uMStdsMix1InMatrix_1,L-Cysteic acid,731994,RR
+250626_Std_4uMStdsMix1InMatrix_2,L-Cysteic acid,311190,RR
+250626_Std_4uMStdsMix2InH2O_1,L-Cysteic acid,14394397,RR
+250626_Std_4uMStdsMix2InH2O_2,L-Cysteic acid,1302984,RR
+250626_Std_4uMStdsMix2InMatrix_1,L-Cysteic acid,15609182,RR
+250626_Std_4uMStdsMix2InMatrix_2,L-Cysteic acid,13139590,RR
+250626_Std_H2OinMatrix_1,L-Cysteic acid,625440,RR
+250626_Std_H2OinMatrix_2,L-Cysteic acid,174707,RR
+250626_Blk_FilterBlk_1,L-Cysteic acid,0,RR
+250626_Poo_Day1Poo_Half1,L-Cysteic acid,312980,RR
+250626_Poo_Day1Poo_Full2,L-Cysteic acid,387447,RR
+250626_Poo_Day1Poo_Full3,L-Cysteic acid,485342,RR
+250626_Poo_Day1Poo_Full1,L-Cysteic acid,1075624,RR
+250626_Poo_Day1Poo_Half2,L-Cysteic acid,117301,RR
+250626_Poo_Day1Poo_Half3,L-Cysteic acid,111840,RR
+250626_Smp_RExp1Cnt_A,L-Cysteic acid,1376318,RR
+250626_Smp_RExp1Cnt_B,L-Cysteic acid,1289785,RR
+250626_Smp_RExp1Cnt_C,L-Cysteic acid,1559593,RR
+250626_Smp_RExp1HFe_A,L-Cysteic acid,1585719,RR
+250626_Smp_RExp1HFe_B,L-Cysteic acid,1482172,RR
+250626_Smp_RExp1HFe_C,L-Cysteic acid,1944443,RR
+250626_Smp_RExp1LFe_A,L-Cysteic acid,1833920,RR
+250626_Smp_RExp1LFe_B,L-Cysteic acid,1134191,RR
+250626_Smp_RExp1LFe_C,L-Cysteic acid,1036068,RR
+250626_Smp_RExp1NPFe_A,L-Cysteic acid,1389098,RR
+250626_Smp_RExp1NPFe_B,L-Cysteic acid,2286097,RR
+250626_Smp_RExp1NPFe_C,L-Cysteic acid,4384900,RR
+250626_Smp_RExp1T0_A,L-Cysteic acid,602026,RR
+250626_Smp_RExp1T0_B,L-Cysteic acid,1426433,RR
+250626_Smp_RExp1T0_C,L-Cysteic acid,322234,RR
+250626_Smp_RExp2Cnt_A,L-Cysteic acid,658504,RR
+250626_Smp_RExp2Cnt_B,L-Cysteic acid,3281073,RR
+250626_Smp_RExp2Cnt_C,L-Cysteic acid,2618544,RR
+250626_Smp_RExp2Fe_A,L-Cysteic acid,24473,RR
+250626_Smp_RExp2Fe_B,L-Cysteic acid,54467,RR
+250626_Smp_RExp2Fe_C,L-Cysteic acid,1069805,RR
+250626_Smp_RExp2NP_A,L-Cysteic acid,674033,RR
+250626_Smp_RExp2NP_B,L-Cysteic acid,455849,RR
+250626_Smp_RExp2NP_C,L-Cysteic acid,295937,RR
+250626_Smp_RExp2NPFe_A,L-Cysteic acid,1056160,RR
+250626_Smp_RExp2NPFe_B,L-Cysteic acid,1968250,RR
+250626_Smp_RExp2NPFe_C,L-Cysteic acid,1829630,RR
+250626_Smp_RExp2T0_A,L-Cysteic acid,1376252,RR
+250626_Smp_RExp2T0_B,L-Cysteic acid,157751,RR
+250626_Smp_RExp2T0_C,L-Cysteic acid,27695,RR
+250626_Smp_RExp3Cnt_A,L-Cysteic acid,0,RR
+250626_Smp_RExp3Cnt_B,L-Cysteic acid,0,RR
+250626_Smp_RExp3Cnt_C,L-Cysteic acid,0,RR
+250626_Smp_RExp3FeNP_A,L-Cysteic acid,188207,RR
+250626_Smp_RExp3FeNP_B,L-Cysteic acid,61844,RR
+250626_Smp_RExp3FENP_C,L-Cysteic acid,332647,RR
+250626_Smp_RExp3HiNP_A,L-Cysteic acid,78701,RR
+250626_Smp_RExp3HiNP_B,L-Cysteic acid,1882671,RR
+250626_Smp_RExp3HiNP_C,L-Cysteic acid,7410575,RR
+250626_Smp_RExp3LNP_A,L-Cysteic acid,27103,RR
+250626_Smp_RExp3LNP_B,L-Cysteic acid,50912,RR
+250626_Smp_RExp3LNP_C,L-Cysteic acid,0,RR
+250626_Smp_RExp3T0_A,L-Cysteic acid,0,RR
+250626_Smp_RExp3T0_B,L-Cysteic acid,0,RR
+250626_Smp_RExp3T0_C,L-Cysteic acid,0,RR
+250626_Std_4uMStdsMix1InH2O_1,Sucrose,26804692,RR
+250626_Std_4uMStdsMix1InH2O_2,Sucrose,32476726,RR
+250626_Std_4uMStdsMix1InMatrix_1,Sucrose,14598658,RR
+250626_Std_4uMStdsMix1InMatrix_2,Sucrose,29221206,RR
+250626_Std_4uMStdsMix2InH2O_1,Sucrose,31200,RR
+250626_Std_4uMStdsMix2InH2O_2,Sucrose,51695,RR
+250626_Std_4uMStdsMix2InMatrix_1,Sucrose,1258509,RR
+250626_Std_4uMStdsMix2InMatrix_2,Sucrose,793248,RR
+250626_Std_H2OinMatrix_1,Sucrose,797151,RR
+250626_Std_H2OinMatrix_2,Sucrose,764753,RR
+250626_Blk_FilterBlk_1,Sucrose,0,RR
+250626_Poo_Day1Poo_Half1,Sucrose,1201145,RR
+250626_Poo_Day1Poo_Full2,Sucrose,1170045,RR
+250626_Poo_Day1Poo_Full3,Sucrose,1523663,RR
+250626_Poo_Day1Poo_Full1,Sucrose,1917727,RR
+250626_Poo_Day1Poo_Half2,Sucrose,712434,RR
+250626_Poo_Day1Poo_Half3,Sucrose,936243,RR
+250626_Smp_RExp1Cnt_A,Sucrose,1156883,RR
+250626_Smp_RExp1Cnt_B,Sucrose,538512,RR
+250626_Smp_RExp1Cnt_C,Sucrose,392077,RR
+250626_Smp_RExp1HFe_A,Sucrose,1068332,RR
+250626_Smp_RExp1HFe_B,Sucrose,1782285,RR
+250626_Smp_RExp1HFe_C,Sucrose,2415934,RR
+250626_Smp_RExp1LFe_A,Sucrose,2092713,RR
+250626_Smp_RExp1LFe_B,Sucrose,655313,RR
+250626_Smp_RExp1LFe_C,Sucrose,1319153,RR
+250626_Smp_RExp1NPFe_A,Sucrose,681748,RR
+250626_Smp_RExp1NPFe_B,Sucrose,1113009,RR
+250626_Smp_RExp1NPFe_C,Sucrose,1976780,RR
+250626_Smp_RExp1T0_A,Sucrose,1021726,RR
+250626_Smp_RExp1T0_B,Sucrose,775378,RR
+250626_Smp_RExp1T0_C,Sucrose,155944,RR
+250626_Smp_RExp2Cnt_A,Sucrose,1070065,RR
+250626_Smp_RExp2Cnt_B,Sucrose,2240342,RR
+250626_Smp_RExp2Cnt_C,Sucrose,1317964,RR
+250626_Smp_RExp2Fe_A,Sucrose,938920,RR
+250626_Smp_RExp2Fe_B,Sucrose,1530952,RR
+250626_Smp_RExp2Fe_C,Sucrose,2521243,RR
+250626_Smp_RExp2NP_A,Sucrose,1432981,RR
+250626_Smp_RExp2NP_B,Sucrose,3646689,RR
+250626_Smp_RExp2NP_C,Sucrose,2798560,RR
+250626_Smp_RExp2NPFe_A,Sucrose,351393,RR
+250626_Smp_RExp2NPFe_B,Sucrose,2582584,RR
+250626_Smp_RExp2NPFe_C,Sucrose,2288252,RR
+250626_Smp_RExp2T0_A,Sucrose,1036367,RR
+250626_Smp_RExp2T0_B,Sucrose,470133,RR
+250626_Smp_RExp2T0_C,Sucrose,275760,RR
+250626_Smp_RExp3Cnt_A,Sucrose,1009909,RR
+250626_Smp_RExp3Cnt_B,Sucrose,1021421,RR
+250626_Smp_RExp3Cnt_C,Sucrose,823680,RR
+250626_Smp_RExp3FeNP_A,Sucrose,1188199,RR
+250626_Smp_RExp3FeNP_B,Sucrose,4127136,RR
+250626_Smp_RExp3FENP_C,Sucrose,976722,RR
+250626_Smp_RExp3HiNP_A,Sucrose,483331,RR
+250626_Smp_RExp3HiNP_B,Sucrose,1074910,RR
+250626_Smp_RExp3HiNP_C,Sucrose,560332,RR
+250626_Smp_RExp3LNP_A,Sucrose,1420488,RR
+250626_Smp_RExp3LNP_B,Sucrose,1593874,RR
+250626_Smp_RExp3LNP_C,Sucrose,1277746,RR
+250626_Smp_RExp3T0_A,Sucrose,2274633,RR
+250626_Smp_RExp3T0_B,Sucrose,3273974,RR
+250626_Smp_RExp3T0_C,Sucrose,1443579,RR
+250626_Std_4uMStdsMix1InH2O_1,Trehalose,26804692,RR
+250626_Std_4uMStdsMix1InH2O_2,Trehalose,32476726,RR
+250626_Std_4uMStdsMix1InMatrix_1,Trehalose,14598658,RR
+250626_Std_4uMStdsMix1InMatrix_2,Trehalose,29221206,RR
+250626_Std_4uMStdsMix2InH2O_1,Trehalose,19014634,RR
+250626_Std_4uMStdsMix2InH2O_2,Trehalose,19466490,RR
+250626_Std_4uMStdsMix2InMatrix_1,Trehalose,14762401,RR
+250626_Std_4uMStdsMix2InMatrix_2,Trehalose,20611720,RR
+250626_Std_H2OinMatrix_1,Trehalose,795893,RR
+250626_Std_H2OinMatrix_2,Trehalose,677620,RR
+250626_Blk_FilterBlk_1,Trehalose,0,RR
+250626_Poo_Day1Poo_Half1,Trehalose,617555,RR
+250626_Poo_Day1Poo_Full2,Trehalose,896762,RR
+250626_Poo_Day1Poo_Full3,Trehalose,1129392,RR
+250626_Poo_Day1Poo_Full1,Trehalose,1123432,RR
+250626_Poo_Day1Poo_Half2,Trehalose,515554,RR
+250626_Poo_Day1Poo_Half3,Trehalose,648349,RR
+250626_Smp_RExp1Cnt_A,Trehalose,2274334,RR
+250626_Smp_RExp1Cnt_B,Trehalose,3135144,RR
+250626_Smp_RExp1Cnt_C,Trehalose,2272740,RR
+250626_Smp_RExp1HFe_A,Trehalose,2484874,RR
+250626_Smp_RExp1HFe_B,Trehalose,3304847,RR
+250626_Smp_RExp1HFe_C,Trehalose,4450278,RR
+250626_Smp_RExp1LFe_A,Trehalose,6004479,RR
+250626_Smp_RExp1LFe_B,Trehalose,3253501,RR
+250626_Smp_RExp1LFe_C,Trehalose,3878488,RR
+250626_Smp_RExp1NPFe_A,Trehalose,1831392,RR
+250626_Smp_RExp1NPFe_B,Trehalose,3329846,RR
+250626_Smp_RExp1NPFe_C,Trehalose,3001057,RR
+250626_Smp_RExp1T0_A,Trehalose,916701,RR
+250626_Smp_RExp1T0_B,Trehalose,395864,RR
+250626_Smp_RExp1T0_C,Trehalose,322098,RR
+250626_Smp_RExp2Cnt_A,Trehalose,787157,RR
+250626_Smp_RExp2Cnt_B,Trehalose,76804,RR
+250626_Smp_RExp2Cnt_C,Trehalose,452743,RR
+250626_Smp_RExp2Fe_A,Trehalose,87254,RR
+250626_Smp_RExp2Fe_B,Trehalose,409962,RR
+250626_Smp_RExp2Fe_C,Trehalose,1048636,RR
+250626_Smp_RExp2NP_A,Trehalose,0,RR
+250626_Smp_RExp2NP_B,Trehalose,642940,RR
+250626_Smp_RExp2NP_C,Trehalose,243579,RR
+250626_Smp_RExp2NPFe_A,Trehalose,80068,RR
+250626_Smp_RExp2NPFe_B,Trehalose,594978,RR
+250626_Smp_RExp2NPFe_C,Trehalose,433562,RR
+250626_Smp_RExp2T0_A,Trehalose,882143,RR
+250626_Smp_RExp2T0_B,Trehalose,269556,RR
+250626_Smp_RExp2T0_C,Trehalose,185910,RR
+250626_Smp_RExp3Cnt_A,Trehalose,1531205,RR
+250626_Smp_RExp3Cnt_B,Trehalose,1357006,RR
+250626_Smp_RExp3Cnt_C,Trehalose,2069432,RR
+250626_Smp_RExp3FeNP_A,Trehalose,644854,RR
+250626_Smp_RExp3FeNP_B,Trehalose,1011174,RR
+250626_Smp_RExp3FENP_C,Trehalose,367597,RR
+250626_Smp_RExp3HiNP_A,Trehalose,476387,RR
+250626_Smp_RExp3HiNP_B,Trehalose,575615,RR
+250626_Smp_RExp3HiNP_C,Trehalose,138676,RR
+250626_Smp_RExp3LNP_A,Trehalose,1149728,RR
+250626_Smp_RExp3LNP_B,Trehalose,1039177,RR
+250626_Smp_RExp3LNP_C,Trehalose,1592804,RR
+250626_Smp_RExp3T0_A,Trehalose,823882,RR
+250626_Smp_RExp3T0_B,Trehalose,1140537,RR
+250626_Smp_RExp3T0_C,Trehalose,600591,RR
+250807_Std_4uMStdsMix1InH2O_1,Trimethylamine N-oxide,1394511,PNT
+250807_Std_4uMStdsMix1InH2O_2,Trimethylamine N-oxide,666489,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Trimethylamine N-oxide,1316525696,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Trimethylamine N-oxide,1124236800,PNT
+250807_Std_4uMStdsMix2InH2O_1,Trimethylamine N-oxide,2430888192,PNT
+250807_Std_4uMStdsMix2InH2O_2,Trimethylamine N-oxide,2549589248,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Trimethylamine N-oxide,3102716416,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Trimethylamine N-oxide,3392148992,PNT
+250807_Std_H2OinMatrix_1,Trimethylamine N-oxide,1225009152,PNT
+250807_Std_H2OinMatrix_2,Trimethylamine N-oxide,1148315520,PNT
+250807_Poo_P1-NetTraps_Full1,Trimethylamine N-oxide,1920687104,PNT
+250807_Poo_P1-NetTraps_Full2,Trimethylamine N-oxide,1915591808,PNT
+250807_Poo_P1-NetTraps_Full3,Trimethylamine N-oxide,1877499264,PNT
+250807_Poo_P1-NetTraps_Half1,Trimethylamine N-oxide,1005882688,PNT
+250807_Poo_P1-NetTraps_Half2,Trimethylamine N-oxide,949071552,PNT
+250807_Poo_P1-NetTraps_Half3,Trimethylamine N-oxide,970475520,PNT
+250807_Blk_PNT_FltBlk_A,Trimethylamine N-oxide,4219066,PNT
+250807_Blk_PNT_FltBlk_B,Trimethylamine N-oxide,3516456,PNT
+250807_Blk_PNT_FltBlk_C,Trimethylamine N-oxide,5599283,PNT
+250807_Smp_PNT_150m_A,Trimethylamine N-oxide,420992736,PNT
+250807_Smp_PNT_150m_B,Trimethylamine N-oxide,505841472,PNT
+250807_Smp_PNT_150m_C,Trimethylamine N-oxide,268654560,PNT
+250807_Smp_PNT_175m_A,Trimethylamine N-oxide,903456384,PNT
+250807_Smp_PNT_175m_B,Trimethylamine N-oxide,481485376,PNT
+250807_Smp_PNT_175m_C,Trimethylamine N-oxide,454201568,PNT
+250807_Smp_PNT_200m_A,Trimethylamine N-oxide,4301104640,PNT
+250807_Smp_PNT_200m_B,Trimethylamine N-oxide,3839850496,PNT
+250807_Smp_PNT_200m_C,Trimethylamine N-oxide,4328254464,PNT
+250807_Smp_PNT_300m_A,Trimethylamine N-oxide,200982416,PNT
+250807_Smp_PNT_300m_B,Trimethylamine N-oxide,399867264,PNT
+250807_Smp_PNT_300m_C,Trimethylamine N-oxide,346998688,PNT
+250807_Std_4uMStdsMix1InH2O_1,beta-Alanine,59538928,PNT
+250807_Std_4uMStdsMix1InH2O_2,beta-Alanine,62920368,PNT
+250807_Std_4uMStdsMix1InMatrix_1,beta-Alanine,32214338,PNT
+250807_Std_4uMStdsMix1InMatrix_2,beta-Alanine,40675256,PNT
+250807_Std_4uMStdsMix2InH2O_1,beta-Alanine,797070272,PNT
+250807_Std_4uMStdsMix2InH2O_2,beta-Alanine,801821888,PNT
+250807_Std_4uMStdsMix2InMatrix_1,beta-Alanine,665113920,PNT
+250807_Std_4uMStdsMix2InMatrix_2,beta-Alanine,773207040,PNT
+250807_Std_H2OinMatrix_1,beta-Alanine,44821248,PNT
+250807_Std_H2OinMatrix_2,beta-Alanine,38689708,PNT
+250807_Poo_P1-NetTraps_Full1,beta-Alanine,65948196,PNT
+250807_Poo_P1-NetTraps_Full2,beta-Alanine,63053432,PNT
+250807_Poo_P1-NetTraps_Full3,beta-Alanine,57059900,PNT
+250807_Poo_P1-NetTraps_Half1,beta-Alanine,35017636,PNT
+250807_Poo_P1-NetTraps_Half2,beta-Alanine,33667872,PNT
+250807_Poo_P1-NetTraps_Half3,beta-Alanine,29446522,PNT
+250807_Blk_PNT_FltBlk_A,beta-Alanine,4189331,PNT
+250807_Blk_PNT_FltBlk_B,beta-Alanine,5803783,PNT
+250807_Blk_PNT_FltBlk_C,beta-Alanine,1763950,PNT
+250807_Smp_PNT_150m_A,beta-Alanine,59136152,PNT
+250807_Smp_PNT_150m_B,beta-Alanine,149157872,PNT
+250807_Smp_PNT_150m_C,beta-Alanine,321658688,PNT
+250807_Smp_PNT_175m_A,beta-Alanine,42536844,PNT
+250807_Smp_PNT_175m_B,beta-Alanine,67746592,PNT
+250807_Smp_PNT_175m_C,beta-Alanine,172865472,PNT
+250807_Smp_PNT_200m_A,beta-Alanine,45420352,PNT
+250807_Smp_PNT_200m_B,beta-Alanine,40681752,PNT
+250807_Smp_PNT_200m_C,beta-Alanine,58732248,PNT
+250807_Smp_PNT_300m_A,beta-Alanine,15794252,PNT
+250807_Smp_PNT_300m_B,beta-Alanine,8425078,PNT
+250807_Smp_PNT_300m_C,beta-Alanine,11846413,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Alanine,453385376,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Alanine,431676928,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Alanine,312067712,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Alanine,358963840,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Alanine,1286819,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Alanine,534371,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Alanine,72321080,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Alanine,59953740,PNT
+250807_Std_H2OinMatrix_1,L-Alanine,87527640,PNT
+250807_Std_H2OinMatrix_2,L-Alanine,82977144,PNT
+250807_Poo_P1-NetTraps_Full1,L-Alanine,108599288,PNT
+250807_Poo_P1-NetTraps_Full2,L-Alanine,100088136,PNT
+250807_Poo_P1-NetTraps_Full3,L-Alanine,96192712,PNT
+250807_Poo_P1-NetTraps_Half1,L-Alanine,82902928,PNT
+250807_Poo_P1-NetTraps_Half2,L-Alanine,80261088,PNT
+250807_Poo_P1-NetTraps_Half3,L-Alanine,123765432,PNT
+250807_Blk_PNT_FltBlk_A,L-Alanine,1260253,PNT
+250807_Blk_PNT_FltBlk_B,L-Alanine,2134775,PNT
+250807_Blk_PNT_FltBlk_C,L-Alanine,1567892,PNT
+250807_Smp_PNT_150m_A,L-Alanine,103052016,PNT
+250807_Smp_PNT_150m_B,L-Alanine,57444884,PNT
+250807_Smp_PNT_150m_C,L-Alanine,60857940,PNT
+250807_Smp_PNT_175m_A,L-Alanine,50358212,PNT
+250807_Smp_PNT_175m_B,L-Alanine,43184316,PNT
+250807_Smp_PNT_175m_C,L-Alanine,70029440,PNT
+250807_Smp_PNT_200m_A,L-Alanine,98843960,PNT
+250807_Smp_PNT_200m_B,L-Alanine,84909304,PNT
+250807_Smp_PNT_200m_C,L-Alanine,166564480,PNT
+250807_Smp_PNT_300m_A,L-Alanine,31977838,PNT
+250807_Smp_PNT_300m_B,L-Alanine,34457784,PNT
+250807_Smp_PNT_300m_C,L-Alanine,22238862,PNT
+250807_Std_4uMStdsMix1InH2O_1,Sarcosine,7429630,PNT
+250807_Std_4uMStdsMix1InH2O_2,Sarcosine,4403335,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Sarcosine,28005790,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Sarcosine,12597979,PNT
+250807_Std_4uMStdsMix2InH2O_1,Sarcosine,1052700288,PNT
+250807_Std_4uMStdsMix2InH2O_2,Sarcosine,1059658560,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Sarcosine,676989376,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Sarcosine,786630208,PNT
+250807_Std_H2OinMatrix_1,Sarcosine,63215564,PNT
+250807_Std_H2OinMatrix_2,Sarcosine,48587036,PNT
+250807_Poo_P1-NetTraps_Full1,Sarcosine,60552488,PNT
+250807_Poo_P1-NetTraps_Full2,Sarcosine,33261278,PNT
+250807_Poo_P1-NetTraps_Full3,Sarcosine,31853850,PNT
+250807_Poo_P1-NetTraps_Half1,Sarcosine,41261572,PNT
+250807_Poo_P1-NetTraps_Half2,Sarcosine,58904048,PNT
+250807_Poo_P1-NetTraps_Half3,Sarcosine,41037716,PNT
+250807_Blk_PNT_FltBlk_A,Sarcosine,2227744,PNT
+250807_Blk_PNT_FltBlk_B,Sarcosine,2506558,PNT
+250807_Blk_PNT_FltBlk_C,Sarcosine,4263699,PNT
+250807_Smp_PNT_150m_A,Sarcosine,32604110,PNT
+250807_Smp_PNT_150m_B,Sarcosine,13940228,PNT
+250807_Smp_PNT_150m_C,Sarcosine,6366517,PNT
+250807_Smp_PNT_175m_A,Sarcosine,18506390,PNT
+250807_Smp_PNT_175m_B,Sarcosine,36810076,PNT
+250807_Smp_PNT_175m_C,Sarcosine,5345123,PNT
+250807_Smp_PNT_200m_A,Sarcosine,49146392,PNT
+250807_Smp_PNT_200m_B,Sarcosine,76281792,PNT
+250807_Smp_PNT_200m_C,Sarcosine,64208384,PNT
+250807_Smp_PNT_300m_A,Sarcosine,23464462,PNT
+250807_Smp_PNT_300m_B,Sarcosine,14912771,PNT
+250807_Smp_PNT_300m_C,Sarcosine,14298675,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Serine,281511840,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Serine,270566080,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Serine,187031136,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Serine,224642656,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Serine,2547664,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Serine,3148624,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Serine,31970424,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Serine,29163690,PNT
+250807_Std_H2OinMatrix_1,L-Serine,42436276,PNT
+250807_Std_H2OinMatrix_2,L-Serine,40422692,PNT
+250807_Poo_P1-NetTraps_Full1,L-Serine,43545592,PNT
+250807_Poo_P1-NetTraps_Full2,L-Serine,55549988,PNT
+250807_Poo_P1-NetTraps_Full3,L-Serine,48092244,PNT
+250807_Poo_P1-NetTraps_Half1,L-Serine,33023264,PNT
+250807_Poo_P1-NetTraps_Half2,L-Serine,36323472,PNT
+250807_Poo_P1-NetTraps_Half3,L-Serine,36374868,PNT
+250807_Blk_PNT_FltBlk_A,L-Serine,32071576,PNT
+250807_Blk_PNT_FltBlk_B,L-Serine,24759944,PNT
+250807_Blk_PNT_FltBlk_C,L-Serine,11550824,PNT
+250807_Smp_PNT_150m_A,L-Serine,106602376,PNT
+250807_Smp_PNT_150m_B,L-Serine,23346826,PNT
+250807_Smp_PNT_150m_C,L-Serine,41581740,PNT
+250807_Smp_PNT_175m_A,L-Serine,81949696,PNT
+250807_Smp_PNT_175m_B,L-Serine,22647666,PNT
+250807_Smp_PNT_175m_C,L-Serine,33367636,PNT
+250807_Smp_PNT_200m_A,L-Serine,51234664,PNT
+250807_Smp_PNT_200m_B,L-Serine,59133720,PNT
+250807_Smp_PNT_200m_C,L-Serine,40923464,PNT
+250807_Smp_PNT_300m_A,L-Serine,25918280,PNT
+250807_Smp_PNT_300m_B,L-Serine,39024952,PNT
+250807_Smp_PNT_300m_C,L-Serine,12037645,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Proline,3222497536,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Proline,3368136704,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Proline,1942551168,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Proline,2743511552,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Proline,40339604,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Proline,14775546,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Proline,239204240,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Proline,303627840,PNT
+250807_Std_H2OinMatrix_1,L-Proline,164104224,PNT
+250807_Std_H2OinMatrix_2,L-Proline,172123072,PNT
+250807_Poo_P1-NetTraps_Full1,L-Proline,158808400,PNT
+250807_Poo_P1-NetTraps_Full2,L-Proline,171214256,PNT
+250807_Poo_P1-NetTraps_Full3,L-Proline,172497584,PNT
+250807_Poo_P1-NetTraps_Half1,L-Proline,148740736,PNT
+250807_Poo_P1-NetTraps_Half2,L-Proline,156805872,PNT
+250807_Poo_P1-NetTraps_Half3,L-Proline,153909232,PNT
+250807_Blk_PNT_FltBlk_A,L-Proline,43734452,PNT
+250807_Blk_PNT_FltBlk_B,L-Proline,36624360,PNT
+250807_Blk_PNT_FltBlk_C,L-Proline,22333132,PNT
+250807_Smp_PNT_150m_A,L-Proline,193692224,PNT
+250807_Smp_PNT_150m_B,L-Proline,180215680,PNT
+250807_Smp_PNT_150m_C,L-Proline,103429024,PNT
+250807_Smp_PNT_175m_A,L-Proline,92245128,PNT
+250807_Smp_PNT_175m_B,L-Proline,126294584,PNT
+250807_Smp_PNT_175m_C,L-Proline,302497440,PNT
+250807_Smp_PNT_200m_A,L-Proline,178222224,PNT
+250807_Smp_PNT_200m_B,L-Proline,238397856,PNT
+250807_Smp_PNT_200m_C,L-Proline,265393472,PNT
+250807_Smp_PNT_300m_A,L-Proline,63780436,PNT
+250807_Smp_PNT_300m_B,L-Proline,81195816,PNT
+250807_Smp_PNT_300m_C,L-Proline,78510384,PNT
+250807_Std_4uMStdsMix1InH2O_1,Glycine betaine,831497536,PNT
+250807_Std_4uMStdsMix1InH2O_2,Glycine betaine,645881344,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Glycine betaine,14158183424,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Glycine betaine,12472444928,PNT
+250807_Std_4uMStdsMix2InH2O_1,Glycine betaine,12848208896,PNT
+250807_Std_4uMStdsMix2InH2O_2,Glycine betaine,14935450624,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Glycine betaine,23428632576,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Glycine betaine,24790677504,PNT
+250807_Std_H2OinMatrix_1,Glycine betaine,13476838400,PNT
+250807_Std_H2OinMatrix_2,Glycine betaine,12677172224,PNT
+250807_Poo_P1-NetTraps_Full1,Glycine betaine,19400517632,PNT
+250807_Poo_P1-NetTraps_Full2,Glycine betaine,19664099328,PNT
+250807_Poo_P1-NetTraps_Full3,Glycine betaine,20634929152,PNT
+250807_Poo_P1-NetTraps_Half1,Glycine betaine,10455708672,PNT
+250807_Poo_P1-NetTraps_Half2,Glycine betaine,10094955520,PNT
+250807_Poo_P1-NetTraps_Half3,Glycine betaine,10197500928,PNT
+250807_Blk_PNT_FltBlk_A,Glycine betaine,329419968,PNT
+250807_Blk_PNT_FltBlk_B,Glycine betaine,293209280,PNT
+250807_Blk_PNT_FltBlk_C,Glycine betaine,349176000,PNT
+250807_Smp_PNT_150m_A,Glycine betaine,16328832000,PNT
+250807_Smp_PNT_150m_B,Glycine betaine,15159512064,PNT
+250807_Smp_PNT_150m_C,Glycine betaine,20007489536,PNT
+250807_Smp_PNT_175m_A,Glycine betaine,9620708352,PNT
+250807_Smp_PNT_175m_B,Glycine betaine,15796349952,PNT
+250807_Smp_PNT_175m_C,Glycine betaine,13528509440,PNT
+250807_Smp_PNT_200m_A,Glycine betaine,21779490816,PNT
+250807_Smp_PNT_200m_B,Glycine betaine,19554082816,PNT
+250807_Smp_PNT_200m_C,Glycine betaine,32279371776,PNT
+250807_Smp_PNT_300m_A,Glycine betaine,5848223744,PNT
+250807_Smp_PNT_300m_B,Glycine betaine,4997204480,PNT
+250807_Smp_PNT_300m_C,Glycine betaine,5512615424,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Threonine,393551264,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Threonine,429879168,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Threonine,340199552,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Threonine,418358848,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Threonine,1884649,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Threonine,4205800,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Threonine,3593370,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Threonine,2736743,PNT
+250807_Std_H2OinMatrix_1,L-Threonine,23198600,PNT
+250807_Std_H2OinMatrix_2,L-Threonine,22092164,PNT
+250807_Poo_P1-NetTraps_Full1,L-Threonine,18797112,PNT
+250807_Poo_P1-NetTraps_Full2,L-Threonine,24369876,PNT
+250807_Poo_P1-NetTraps_Full3,L-Threonine,20421978,PNT
+250807_Poo_P1-NetTraps_Half1,L-Threonine,35323596,PNT
+250807_Poo_P1-NetTraps_Half2,L-Threonine,28544196,PNT
+250807_Poo_P1-NetTraps_Half3,L-Threonine,26647764,PNT
+250807_Blk_PNT_FltBlk_A,L-Threonine,17807940,PNT
+250807_Blk_PNT_FltBlk_B,L-Threonine,9673909,PNT
+250807_Blk_PNT_FltBlk_C,L-Threonine,8626866,PNT
+250807_Smp_PNT_150m_A,L-Threonine,35352588,PNT
+250807_Smp_PNT_150m_B,L-Threonine,15599625,PNT
+250807_Smp_PNT_150m_C,L-Threonine,16528366,PNT
+250807_Smp_PNT_175m_A,L-Threonine,9781293,PNT
+250807_Smp_PNT_175m_B,L-Threonine,9498631,PNT
+250807_Smp_PNT_175m_C,L-Threonine,13029318,PNT
+250807_Smp_PNT_200m_A,L-Threonine,17450084,PNT
+250807_Smp_PNT_200m_B,L-Threonine,20079482,PNT
+250807_Smp_PNT_200m_C,L-Threonine,33273802,PNT
+250807_Smp_PNT_300m_A,L-Threonine,6812310,PNT
+250807_Smp_PNT_300m_B,L-Threonine,8986502,PNT
+250807_Smp_PNT_300m_C,L-Threonine,3682372,PNT
+250807_Std_4uMStdsMix1InH2O_1,Dimethylsulfonioacetate,6478116352,PNT
+250807_Std_4uMStdsMix1InH2O_2,Dimethylsulfonioacetate,6454320640,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Dimethylsulfonioacetate,4565400064,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Dimethylsulfonioacetate,6314751488,PNT
+250807_Std_4uMStdsMix2InH2O_1,Dimethylsulfonioacetate,0,PNT
+250807_Std_4uMStdsMix2InH2O_2,Dimethylsulfonioacetate,0,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Dimethylsulfonioacetate,63562908,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Dimethylsulfonioacetate,56765608,PNT
+250807_Std_H2OinMatrix_1,Dimethylsulfonioacetate,58773956,PNT
+250807_Std_H2OinMatrix_2,Dimethylsulfonioacetate,59675356,PNT
+250807_Poo_P1-NetTraps_Full1,Dimethylsulfonioacetate,67939824,PNT
+250807_Poo_P1-NetTraps_Full2,Dimethylsulfonioacetate,72002688,PNT
+250807_Poo_P1-NetTraps_Full3,Dimethylsulfonioacetate,72233008,PNT
+250807_Poo_P1-NetTraps_Half1,Dimethylsulfonioacetate,48020292,PNT
+250807_Poo_P1-NetTraps_Half2,Dimethylsulfonioacetate,51299908,PNT
+250807_Poo_P1-NetTraps_Half3,Dimethylsulfonioacetate,49850892,PNT
+250807_Blk_PNT_FltBlk_A,Dimethylsulfonioacetate,66259,PNT
+250807_Blk_PNT_FltBlk_B,Dimethylsulfonioacetate,128424,PNT
+250807_Blk_PNT_FltBlk_C,Dimethylsulfonioacetate,0,PNT
+250807_Smp_PNT_150m_A,Dimethylsulfonioacetate,70757872,PNT
+250807_Smp_PNT_150m_B,Dimethylsulfonioacetate,71619048,PNT
+250807_Smp_PNT_150m_C,Dimethylsulfonioacetate,93969552,PNT
+250807_Smp_PNT_175m_A,Dimethylsulfonioacetate,58274188,PNT
+250807_Smp_PNT_175m_B,Dimethylsulfonioacetate,59259648,PNT
+250807_Smp_PNT_175m_C,Dimethylsulfonioacetate,41859952,PNT
+250807_Smp_PNT_200m_A,Dimethylsulfonioacetate,53778116,PNT
+250807_Smp_PNT_200m_B,Dimethylsulfonioacetate,81597376,PNT
+250807_Smp_PNT_200m_C,Dimethylsulfonioacetate,180237056,PNT
+250807_Smp_PNT_300m_A,Dimethylsulfonioacetate,82112256,PNT
+250807_Smp_PNT_300m_B,Dimethylsulfonioacetate,47727468,PNT
+250807_Smp_PNT_300m_C,Dimethylsulfonioacetate,32222512,PNT
+250807_Std_4uMStdsMix1InH2O_1,beta-Alaninebetaine,4692036,PNT
+250807_Std_4uMStdsMix1InH2O_2,beta-Alaninebetaine,3418381,PNT
+250807_Std_4uMStdsMix1InMatrix_1,beta-Alaninebetaine,1168774272,PNT
+250807_Std_4uMStdsMix1InMatrix_2,beta-Alaninebetaine,1164794240,PNT
+250807_Std_4uMStdsMix2InH2O_1,beta-Alaninebetaine,7259881984,PNT
+250807_Std_4uMStdsMix2InH2O_2,beta-Alaninebetaine,8062782976,PNT
+250807_Std_4uMStdsMix2InMatrix_1,beta-Alaninebetaine,6476319744,PNT
+250807_Std_4uMStdsMix2InMatrix_2,beta-Alaninebetaine,8286945280,PNT
+250807_Std_H2OinMatrix_1,beta-Alaninebetaine,1166328320,PNT
+250807_Std_H2OinMatrix_2,beta-Alaninebetaine,1110568832,PNT
+250807_Poo_P1-NetTraps_Full1,beta-Alaninebetaine,1728691840,PNT
+250807_Poo_P1-NetTraps_Full2,beta-Alaninebetaine,1560168832,PNT
+250807_Poo_P1-NetTraps_Full3,beta-Alaninebetaine,1638945536,PNT
+250807_Poo_P1-NetTraps_Half1,beta-Alaninebetaine,922380992,PNT
+250807_Poo_P1-NetTraps_Half2,beta-Alaninebetaine,845996096,PNT
+250807_Poo_P1-NetTraps_Half3,beta-Alaninebetaine,852564160,PNT
+250807_Blk_PNT_FltBlk_A,beta-Alaninebetaine,5371149,PNT
+250807_Blk_PNT_FltBlk_B,beta-Alaninebetaine,3429012,PNT
+250807_Blk_PNT_FltBlk_C,beta-Alaninebetaine,4274393,PNT
+250807_Smp_PNT_150m_A,beta-Alaninebetaine,1870467200,PNT
+250807_Smp_PNT_150m_B,beta-Alaninebetaine,2122597632,PNT
+250807_Smp_PNT_150m_C,beta-Alaninebetaine,1870079104,PNT
+250807_Smp_PNT_175m_A,beta-Alaninebetaine,390792736,PNT
+250807_Smp_PNT_175m_B,beta-Alaninebetaine,719762560,PNT
+250807_Smp_PNT_175m_C,beta-Alaninebetaine,382170752,PNT
+250807_Smp_PNT_200m_A,beta-Alaninebetaine,1562994048,PNT
+250807_Smp_PNT_200m_B,beta-Alaninebetaine,1242617856,PNT
+250807_Smp_PNT_200m_C,beta-Alaninebetaine,2756312832,PNT
+250807_Smp_PNT_300m_A,beta-Alaninebetaine,179358448,PNT
+250807_Smp_PNT_300m_B,beta-Alaninebetaine,160618208,PNT
+250807_Smp_PNT_300m_C,beta-Alaninebetaine,153631168,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Isoleucine,834789824,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Isoleucine,955042368,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Isoleucine,945388544,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Isoleucine,1135322496,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Isoleucine,655663552,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Isoleucine,478240352,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Isoleucine,827466944,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Isoleucine,1020986496,PNT
+250807_Std_H2OinMatrix_1,L-Isoleucine,270937536,PNT
+250807_Std_H2OinMatrix_2,L-Isoleucine,248334160,PNT
+250807_Poo_P1-NetTraps_Full1,L-Isoleucine,426494016,PNT
+250807_Poo_P1-NetTraps_Full2,L-Isoleucine,385395104,PNT
+250807_Poo_P1-NetTraps_Full3,L-Isoleucine,410861632,PNT
+250807_Poo_P1-NetTraps_Half1,L-Isoleucine,218153408,PNT
+250807_Poo_P1-NetTraps_Half2,L-Isoleucine,202810256,PNT
+250807_Poo_P1-NetTraps_Half3,L-Isoleucine,202047920,PNT
+250807_Blk_PNT_FltBlk_A,L-Isoleucine,15938904,PNT
+250807_Blk_PNT_FltBlk_B,L-Isoleucine,17787140,PNT
+250807_Blk_PNT_FltBlk_C,L-Isoleucine,16389720,PNT
+250807_Smp_PNT_150m_A,L-Isoleucine,437720128,PNT
+250807_Smp_PNT_150m_B,L-Isoleucine,362662560,PNT
+250807_Smp_PNT_150m_C,L-Isoleucine,430484704,PNT
+250807_Smp_PNT_175m_A,L-Isoleucine,202916224,PNT
+250807_Smp_PNT_175m_B,L-Isoleucine,282029024,PNT
+250807_Smp_PNT_175m_C,L-Isoleucine,208290624,PNT
+250807_Smp_PNT_200m_A,L-Isoleucine,421505120,PNT
+250807_Smp_PNT_200m_B,L-Isoleucine,3152596480,PNT
+250807_Smp_PNT_200m_C,L-Isoleucine,1088480384,PNT
+250807_Smp_PNT_300m_A,L-Isoleucine,121932688,PNT
+250807_Smp_PNT_300m_B,L-Isoleucine,119389088,PNT
+250807_Smp_PNT_300m_C,L-Isoleucine,89398288,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Asparagine,887025,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Asparagine,1238727,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Asparagine,111897736,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Asparagine,134131328,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Asparagine,251552,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Asparagine,36497,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Asparagine,631765,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Asparagine,336496,PNT
+250807_Std_H2OinMatrix_1,L-Asparagine,11232595,PNT
+250807_Std_H2OinMatrix_2,L-Asparagine,473316,PNT
+250807_Poo_P1-NetTraps_Full1,L-Asparagine,856306,PNT
+250807_Poo_P1-NetTraps_Full2,L-Asparagine,916487,PNT
+250807_Poo_P1-NetTraps_Full3,L-Asparagine,712215,PNT
+250807_Poo_P1-NetTraps_Half1,L-Asparagine,406286,PNT
+250807_Poo_P1-NetTraps_Half2,L-Asparagine,276860,PNT
+250807_Poo_P1-NetTraps_Half3,L-Asparagine,8577700,PNT
+250807_Blk_PNT_FltBlk_A,L-Asparagine,710387,PNT
+250807_Blk_PNT_FltBlk_B,L-Asparagine,573119,PNT
+250807_Blk_PNT_FltBlk_C,L-Asparagine,675699,PNT
+250807_Smp_PNT_150m_A,L-Asparagine,1039252,PNT
+250807_Smp_PNT_150m_B,L-Asparagine,1340220,PNT
+250807_Smp_PNT_150m_C,L-Asparagine,1045137,PNT
+250807_Smp_PNT_175m_A,L-Asparagine,881024,PNT
+250807_Smp_PNT_175m_B,L-Asparagine,1765602,PNT
+250807_Smp_PNT_175m_C,L-Asparagine,1260448,PNT
+250807_Smp_PNT_200m_A,L-Asparagine,1017733,PNT
+250807_Smp_PNT_200m_B,L-Asparagine,1062187,PNT
+250807_Smp_PNT_200m_C,L-Asparagine,1212975,PNT
+250807_Smp_PNT_300m_A,L-Asparagine,1241704,PNT
+250807_Smp_PNT_300m_B,L-Asparagine,2086819,PNT
+250807_Smp_PNT_300m_C,L-Asparagine,2747242,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Aspartic acid,83711032,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Aspartic acid,85747720,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Aspartic acid,75595456,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Aspartic acid,106483584,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Aspartic acid,257225,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Aspartic acid,34189,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Aspartic acid,11298897,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Aspartic acid,10521498,PNT
+250807_Std_H2OinMatrix_1,L-Aspartic acid,10688281,PNT
+250807_Std_H2OinMatrix_2,L-Aspartic acid,11480036,PNT
+250807_Poo_P1-NetTraps_Full1,L-Aspartic acid,15146307,PNT
+250807_Poo_P1-NetTraps_Full2,L-Aspartic acid,21633390,PNT
+250807_Poo_P1-NetTraps_Full3,L-Aspartic acid,15563546,PNT
+250807_Poo_P1-NetTraps_Half1,L-Aspartic acid,9697522,PNT
+250807_Poo_P1-NetTraps_Half2,L-Aspartic acid,12778685,PNT
+250807_Poo_P1-NetTraps_Half3,L-Aspartic acid,11200623,PNT
+250807_Blk_PNT_FltBlk_A,L-Aspartic acid,6782474,PNT
+250807_Blk_PNT_FltBlk_B,L-Aspartic acid,3931934,PNT
+250807_Blk_PNT_FltBlk_C,L-Aspartic acid,1326599,PNT
+250807_Smp_PNT_150m_A,L-Aspartic acid,22358956,PNT
+250807_Smp_PNT_150m_B,L-Aspartic acid,14812247,PNT
+250807_Smp_PNT_150m_C,L-Aspartic acid,23287176,PNT
+250807_Smp_PNT_175m_A,L-Aspartic acid,15782845,PNT
+250807_Smp_PNT_175m_B,L-Aspartic acid,12538521,PNT
+250807_Smp_PNT_175m_C,L-Aspartic acid,14426670,PNT
+250807_Smp_PNT_200m_A,L-Aspartic acid,15628608,PNT
+250807_Smp_PNT_200m_B,L-Aspartic acid,24500026,PNT
+250807_Smp_PNT_200m_C,L-Aspartic acid,17666908,PNT
+250807_Smp_PNT_300m_A,L-Aspartic acid,5283140,PNT
+250807_Smp_PNT_300m_B,L-Aspartic acid,10032767,PNT
+250807_Smp_PNT_300m_C,L-Aspartic acid,3199318,PNT
+250807_Std_4uMStdsMix1InH2O_1,Dimethylsulfoniopropionate,122171,PNT
+250807_Std_4uMStdsMix1InH2O_2,Dimethylsulfoniopropionate,885615,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Dimethylsulfoniopropionate,1561109248,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Dimethylsulfoniopropionate,1498651392,PNT
+250807_Std_4uMStdsMix2InH2O_1,Dimethylsulfoniopropionate,6456131584,PNT
+250807_Std_4uMStdsMix2InH2O_2,Dimethylsulfoniopropionate,7942325248,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Dimethylsulfoniopropionate,6493058048,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Dimethylsulfoniopropionate,8445451776,PNT
+250807_Std_H2OinMatrix_1,Dimethylsulfoniopropionate,1513992064,PNT
+250807_Std_H2OinMatrix_2,Dimethylsulfoniopropionate,1438148736,PNT
+250807_Poo_P1-NetTraps_Full1,Dimethylsulfoniopropionate,2087774336,PNT
+250807_Poo_P1-NetTraps_Full2,Dimethylsulfoniopropionate,2040623872,PNT
+250807_Poo_P1-NetTraps_Full3,Dimethylsulfoniopropionate,2128413312,PNT
+250807_Poo_P1-NetTraps_Half1,Dimethylsulfoniopropionate,1210833792,PNT
+250807_Poo_P1-NetTraps_Half2,Dimethylsulfoniopropionate,1122923136,PNT
+250807_Poo_P1-NetTraps_Half3,Dimethylsulfoniopropionate,1135388032,PNT
+250807_Blk_PNT_FltBlk_A,Dimethylsulfoniopropionate,4351746,PNT
+250807_Blk_PNT_FltBlk_B,Dimethylsulfoniopropionate,2516354,PNT
+250807_Blk_PNT_FltBlk_C,Dimethylsulfoniopropionate,2941774,PNT
+250807_Smp_PNT_150m_A,Dimethylsulfoniopropionate,3241807872,PNT
+250807_Smp_PNT_150m_B,Dimethylsulfoniopropionate,3584878848,PNT
+250807_Smp_PNT_150m_C,Dimethylsulfoniopropionate,3510039552,PNT
+250807_Smp_PNT_175m_A,Dimethylsulfoniopropionate,1001152448,PNT
+250807_Smp_PNT_175m_B,Dimethylsulfoniopropionate,1359716608,PNT
+250807_Smp_PNT_175m_C,Dimethylsulfoniopropionate,789827904,PNT
+250807_Smp_PNT_200m_A,Dimethylsulfoniopropionate,1429037952,PNT
+250807_Smp_PNT_200m_B,Dimethylsulfoniopropionate,1243636096,PNT
+250807_Smp_PNT_200m_C,Dimethylsulfoniopropionate,2630867200,PNT
+250807_Smp_PNT_300m_A,Dimethylsulfoniopropionate,346283680,PNT
+250807_Smp_PNT_300m_B,Dimethylsulfoniopropionate,541701568,PNT
+250807_Smp_PNT_300m_C,Dimethylsulfoniopropionate,375584416,PNT
+250807_Std_4uMStdsMix1InH2O_1,Homarine,453467,PNT
+250807_Std_4uMStdsMix1InH2O_2,Homarine,312740,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Homarine,938720576,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Homarine,815581056,PNT
+250807_Std_4uMStdsMix2InH2O_1,Homarine,16814214144,PNT
+250807_Std_4uMStdsMix2InH2O_2,Homarine,16274079744,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Homarine,14133163008,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Homarine,17328162816,PNT
+250807_Std_H2OinMatrix_1,Homarine,941194688,PNT
+250807_Std_H2OinMatrix_2,Homarine,832687488,PNT
+250807_Poo_P1-NetTraps_Full1,Homarine,1348025216,PNT
+250807_Poo_P1-NetTraps_Full2,Homarine,1379419648,PNT
+250807_Poo_P1-NetTraps_Full3,Homarine,1295363456,PNT
+250807_Poo_P1-NetTraps_Half1,Homarine,727329216,PNT
+250807_Poo_P1-NetTraps_Half2,Homarine,725968448,PNT
+250807_Poo_P1-NetTraps_Half3,Homarine,664334080,PNT
+250807_Blk_PNT_FltBlk_A,Homarine,13019926,PNT
+250807_Blk_PNT_FltBlk_B,Homarine,12387192,PNT
+250807_Blk_PNT_FltBlk_C,Homarine,12743147,PNT
+250807_Smp_PNT_150m_A,Homarine,1408333696,PNT
+250807_Smp_PNT_150m_B,Homarine,1413166592,PNT
+250807_Smp_PNT_150m_C,Homarine,986010752,PNT
+250807_Smp_PNT_175m_A,Homarine,682988288,PNT
+250807_Smp_PNT_175m_B,Homarine,1171493120,PNT
+250807_Smp_PNT_175m_C,Homarine,728689984,PNT
+250807_Smp_PNT_200m_A,Homarine,2500172032,PNT
+250807_Smp_PNT_200m_B,Homarine,4267938560,PNT
+250807_Smp_PNT_200m_C,Homarine,4699065856,PNT
+250807_Smp_PNT_300m_A,Homarine,496340352,PNT
+250807_Smp_PNT_300m_B,Homarine,471346080,PNT
+250807_Smp_PNT_300m_C,Homarine,591752384,PNT
+250807_Std_4uMStdsMix1InH2O_1,Ectoine,754665,PNT
+250807_Std_4uMStdsMix1InH2O_2,Ectoine,920614,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Ectoine,13553211,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Ectoine,15710724,PNT
+250807_Std_4uMStdsMix2InH2O_1,Ectoine,8454476800,PNT
+250807_Std_4uMStdsMix2InH2O_2,Ectoine,9326248960,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Ectoine,6046319616,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Ectoine,8218323456,PNT
+250807_Std_H2OinMatrix_1,Ectoine,14877947,PNT
+250807_Std_H2OinMatrix_2,Ectoine,12984775,PNT
+250807_Poo_P1-NetTraps_Full1,Ectoine,22603576,PNT
+250807_Poo_P1-NetTraps_Full2,Ectoine,20195822,PNT
+250807_Poo_P1-NetTraps_Full3,Ectoine,20874148,PNT
+250807_Poo_P1-NetTraps_Half1,Ectoine,12420610,PNT
+250807_Poo_P1-NetTraps_Half2,Ectoine,11482982,PNT
+250807_Poo_P1-NetTraps_Half3,Ectoine,11708677,PNT
+250807_Blk_PNT_FltBlk_A,Ectoine,532111,PNT
+250807_Blk_PNT_FltBlk_B,Ectoine,2017972,PNT
+250807_Blk_PNT_FltBlk_C,Ectoine,144920,PNT
+250807_Smp_PNT_150m_A,Ectoine,19174124,PNT
+250807_Smp_PNT_150m_B,Ectoine,17230492,PNT
+250807_Smp_PNT_150m_C,Ectoine,40741736,PNT
+250807_Smp_PNT_175m_A,Ectoine,11059106,PNT
+250807_Smp_PNT_175m_B,Ectoine,2314950,PNT
+250807_Smp_PNT_175m_C,Ectoine,8359504,PNT
+250807_Smp_PNT_200m_A,Ectoine,176909,PNT
+250807_Smp_PNT_200m_B,Ectoine,56077460,PNT
+250807_Smp_PNT_200m_C,Ectoine,13102558,PNT
+250807_Smp_PNT_300m_A,Ectoine,3841314,PNT
+250807_Smp_PNT_300m_B,Ectoine,7443796,PNT
+250807_Smp_PNT_300m_C,Ectoine,1363295,PNT
+250807_Std_4uMStdsMix1InH2O_1,Trigonelline,1460437888,PNT
+250807_Std_4uMStdsMix1InH2O_2,Trigonelline,1346473088,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Trigonelline,1274735872,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Trigonelline,1471416192,PNT
+250807_Std_4uMStdsMix2InH2O_1,Trigonelline,45291436,PNT
+250807_Std_4uMStdsMix2InH2O_2,Trigonelline,84459320,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Trigonelline,318874720,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Trigonelline,301421056,PNT
+250807_Std_H2OinMatrix_1,Trigonelline,251572000,PNT
+250807_Std_H2OinMatrix_2,Trigonelline,207412016,PNT
+250807_Poo_P1-NetTraps_Full1,Trigonelline,364366496,PNT
+250807_Poo_P1-NetTraps_Full2,Trigonelline,359852768,PNT
+250807_Poo_P1-NetTraps_Full3,Trigonelline,332389120,PNT
+250807_Poo_P1-NetTraps_Half1,Trigonelline,200156608,PNT
+250807_Poo_P1-NetTraps_Half2,Trigonelline,190837568,PNT
+250807_Poo_P1-NetTraps_Half3,Trigonelline,176275664,PNT
+250807_Blk_PNT_FltBlk_A,Trigonelline,5456720,PNT
+250807_Blk_PNT_FltBlk_B,Trigonelline,5197382,PNT
+250807_Blk_PNT_FltBlk_C,Trigonelline,5391724,PNT
+250807_Smp_PNT_150m_A,Trigonelline,326739648,PNT
+250807_Smp_PNT_150m_B,Trigonelline,459847424,PNT
+250807_Smp_PNT_150m_C,Trigonelline,459253728,PNT
+250807_Smp_PNT_175m_A,Trigonelline,162325872,PNT
+250807_Smp_PNT_175m_B,Trigonelline,192230880,PNT
+250807_Smp_PNT_175m_C,Trigonelline,202442400,PNT
+250807_Smp_PNT_200m_A,Trigonelline,276476416,PNT
+250807_Smp_PNT_200m_B,Trigonelline,574616448,PNT
+250807_Smp_PNT_200m_C,Trigonelline,580932416,PNT
+250807_Smp_PNT_300m_A,Trigonelline,82908872,PNT
+250807_Smp_PNT_300m_B,Trigonelline,72749888,PNT
+250807_Smp_PNT_300m_C,Trigonelline,58470980,PNT
+250807_Std_4uMStdsMix1InH2O_1,Proline betaine,2104677376,PNT
+250807_Std_4uMStdsMix1InH2O_2,Proline betaine,2193617920,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Proline betaine,1669525504,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Proline betaine,2313974784,PNT
+250807_Std_4uMStdsMix2InH2O_1,Proline betaine,506027,PNT
+250807_Std_4uMStdsMix2InH2O_2,Proline betaine,358345,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Proline betaine,180237136,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Proline betaine,171728208,PNT
+250807_Std_H2OinMatrix_1,Proline betaine,177979504,PNT
+250807_Std_H2OinMatrix_2,Proline betaine,171869552,PNT
+250807_Poo_P1-NetTraps_Full1,Proline betaine,277403936,PNT
+250807_Poo_P1-NetTraps_Full2,Proline betaine,262928784,PNT
+250807_Poo_P1-NetTraps_Full3,Proline betaine,288257536,PNT
+250807_Poo_P1-NetTraps_Half1,Proline betaine,144143376,PNT
+250807_Poo_P1-NetTraps_Half2,Proline betaine,132247808,PNT
+250807_Poo_P1-NetTraps_Half3,Proline betaine,142825760,PNT
+250807_Blk_PNT_FltBlk_A,Proline betaine,10704654,PNT
+250807_Blk_PNT_FltBlk_B,Proline betaine,2548752,PNT
+250807_Blk_PNT_FltBlk_C,Proline betaine,267839,PNT
+250807_Smp_PNT_150m_A,Proline betaine,215585392,PNT
+250807_Smp_PNT_150m_B,Proline betaine,236475104,PNT
+250807_Smp_PNT_150m_C,Proline betaine,240188064,PNT
+250807_Smp_PNT_175m_A,Proline betaine,139370208,PNT
+250807_Smp_PNT_175m_B,Proline betaine,155953744,PNT
+250807_Smp_PNT_175m_C,Proline betaine,130684376,PNT
+250807_Smp_PNT_200m_A,Proline betaine,233923056,PNT
+250807_Smp_PNT_200m_B,Proline betaine,410731424,PNT
+250807_Smp_PNT_200m_C,Proline betaine,630064896,PNT
+250807_Smp_PNT_300m_A,Proline betaine,78189936,PNT
+250807_Smp_PNT_300m_B,Proline betaine,86606456,PNT
+250807_Smp_PNT_300m_C,Proline betaine,56971936,PNT
+250807_Std_4uMStdsMix1InH2O_1,(3-Carboxypropyl)trimethylammonium,4114331136,PNT
+250807_Std_4uMStdsMix1InH2O_2,(3-Carboxypropyl)trimethylammonium,3685584896,PNT
+250807_Std_4uMStdsMix1InMatrix_1,(3-Carboxypropyl)trimethylammonium,3137645568,PNT
+250807_Std_4uMStdsMix1InMatrix_2,(3-Carboxypropyl)trimethylammonium,3744630528,PNT
+250807_Std_4uMStdsMix2InH2O_1,(3-Carboxypropyl)trimethylammonium,455646,PNT
+250807_Std_4uMStdsMix2InH2O_2,(3-Carboxypropyl)trimethylammonium,520103,PNT
+250807_Std_4uMStdsMix2InMatrix_1,(3-Carboxypropyl)trimethylammonium,62005028,PNT
+250807_Std_4uMStdsMix2InMatrix_2,(3-Carboxypropyl)trimethylammonium,49577836,PNT
+250807_Std_H2OinMatrix_1,(3-Carboxypropyl)trimethylammonium,56808808,PNT
+250807_Std_H2OinMatrix_2,(3-Carboxypropyl)trimethylammonium,47795532,PNT
+250807_Poo_P1-NetTraps_Full1,(3-Carboxypropyl)trimethylammonium,75105704,PNT
+250807_Poo_P1-NetTraps_Full2,(3-Carboxypropyl)trimethylammonium,79842336,PNT
+250807_Poo_P1-NetTraps_Full3,(3-Carboxypropyl)trimethylammonium,72851144,PNT
+250807_Poo_P1-NetTraps_Half1,(3-Carboxypropyl)trimethylammonium,44658520,PNT
+250807_Poo_P1-NetTraps_Half2,(3-Carboxypropyl)trimethylammonium,41879088,PNT
+250807_Poo_P1-NetTraps_Half3,(3-Carboxypropyl)trimethylammonium,38760196,PNT
+250807_Blk_PNT_FltBlk_A,(3-Carboxypropyl)trimethylammonium,389021,PNT
+250807_Blk_PNT_FltBlk_B,(3-Carboxypropyl)trimethylammonium,1647773,PNT
+250807_Blk_PNT_FltBlk_C,(3-Carboxypropyl)trimethylammonium,75044,PNT
+250807_Smp_PNT_150m_A,(3-Carboxypropyl)trimethylammonium,115970384,PNT
+250807_Smp_PNT_150m_B,(3-Carboxypropyl)trimethylammonium,130751800,PNT
+250807_Smp_PNT_150m_C,(3-Carboxypropyl)trimethylammonium,96105304,PNT
+250807_Smp_PNT_175m_A,(3-Carboxypropyl)trimethylammonium,18480034,PNT
+250807_Smp_PNT_175m_B,(3-Carboxypropyl)trimethylammonium,23849012,PNT
+250807_Smp_PNT_175m_C,(3-Carboxypropyl)trimethylammonium,16163108,PNT
+250807_Smp_PNT_200m_A,(3-Carboxypropyl)trimethylammonium,31898120,PNT
+250807_Smp_PNT_200m_B,(3-Carboxypropyl)trimethylammonium,32445838,PNT
+250807_Smp_PNT_200m_C,(3-Carboxypropyl)trimethylammonium,145913344,PNT
+250807_Smp_PNT_300m_A,(3-Carboxypropyl)trimethylammonium,6238600,PNT
+250807_Smp_PNT_300m_B,(3-Carboxypropyl)trimethylammonium,6921785,PNT
+250807_Smp_PNT_300m_C,(3-Carboxypropyl)trimethylammonium,7198700,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Glutamine,1779570560,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Glutamine,2043853824,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Glutamine,1398291840,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Glutamine,1748839680,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Glutamine,1157957,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Glutamine,603912,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Glutamine,309667808,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Glutamine,265116400,PNT
+250807_Std_H2OinMatrix_1,L-Glutamine,363636992,PNT
+250807_Std_H2OinMatrix_2,L-Glutamine,353826624,PNT
+250807_Poo_P1-NetTraps_Full1,L-Glutamine,446778144,PNT
+250807_Poo_P1-NetTraps_Full2,L-Glutamine,412787936,PNT
+250807_Poo_P1-NetTraps_Full3,L-Glutamine,411071296,PNT
+250807_Poo_P1-NetTraps_Half1,L-Glutamine,312671392,PNT
+250807_Poo_P1-NetTraps_Half2,L-Glutamine,285599680,PNT
+250807_Poo_P1-NetTraps_Half3,L-Glutamine,295860928,PNT
+250807_Blk_PNT_FltBlk_A,L-Glutamine,4383836,PNT
+250807_Blk_PNT_FltBlk_B,L-Glutamine,3964521,PNT
+250807_Blk_PNT_FltBlk_C,L-Glutamine,1645106,PNT
+250807_Smp_PNT_150m_A,L-Glutamine,651827520,PNT
+250807_Smp_PNT_150m_B,L-Glutamine,644326592,PNT
+250807_Smp_PNT_150m_C,L-Glutamine,702510272,PNT
+250807_Smp_PNT_175m_A,L-Glutamine,176521360,PNT
+250807_Smp_PNT_175m_B,L-Glutamine,304638624,PNT
+250807_Smp_PNT_175m_C,L-Glutamine,325327008,PNT
+250807_Smp_PNT_200m_A,L-Glutamine,481516160,PNT
+250807_Smp_PNT_200m_B,L-Glutamine,422214048,PNT
+250807_Smp_PNT_200m_C,L-Glutamine,483071136,PNT
+250807_Smp_PNT_300m_A,L-Glutamine,98659184,PNT
+250807_Smp_PNT_300m_B,L-Glutamine,115347560,PNT
+250807_Smp_PNT_300m_C,L-Glutamine,111057568,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Lysine,37365524,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Lysine,40618896,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Lysine,37774844,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Lysine,48932980,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Lysine,32601,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Lysine,0,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Lysine,4942454,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Lysine,4091919,PNT
+250807_Std_H2OinMatrix_1,L-Lysine,4713672,PNT
+250807_Std_H2OinMatrix_2,L-Lysine,3640072,PNT
+250807_Poo_P1-NetTraps_Full1,L-Lysine,7721192,PNT
+250807_Poo_P1-NetTraps_Full2,L-Lysine,9172333,PNT
+250807_Poo_P1-NetTraps_Full3,L-Lysine,7758045,PNT
+250807_Poo_P1-NetTraps_Half1,L-Lysine,3650796,PNT
+250807_Poo_P1-NetTraps_Half2,L-Lysine,4230400,PNT
+250807_Poo_P1-NetTraps_Half3,L-Lysine,3326841,PNT
+250807_Blk_PNT_FltBlk_A,L-Lysine,93155,PNT
+250807_Blk_PNT_FltBlk_B,L-Lysine,71903,PNT
+250807_Blk_PNT_FltBlk_C,L-Lysine,32100,PNT
+250807_Smp_PNT_150m_A,L-Lysine,13171891,PNT
+250807_Smp_PNT_150m_B,L-Lysine,7908533,PNT
+250807_Smp_PNT_150m_C,L-Lysine,13495929,PNT
+250807_Smp_PNT_175m_A,L-Lysine,6671722,PNT
+250807_Smp_PNT_175m_B,L-Lysine,6730447,PNT
+250807_Smp_PNT_175m_C,L-Lysine,8047473,PNT
+250807_Smp_PNT_200m_A,L-Lysine,8591269,PNT
+250807_Smp_PNT_200m_B,L-Lysine,13483802,PNT
+250807_Smp_PNT_200m_C,L-Lysine,15025647,PNT
+250807_Smp_PNT_300m_A,L-Lysine,1887855,PNT
+250807_Smp_PNT_300m_B,L-Lysine,3640794,PNT
+250807_Smp_PNT_300m_C,L-Lysine,970734,PNT
+250807_Std_4uMStdsMix1InH2O_1,beta-Glutamic acid,1878261,PNT
+250807_Std_4uMStdsMix1InH2O_2,beta-Glutamic acid,139995,PNT
+250807_Std_4uMStdsMix1InMatrix_1,beta-Glutamic acid,319733,PNT
+250807_Std_4uMStdsMix1InMatrix_2,beta-Glutamic acid,440167,PNT
+250807_Std_4uMStdsMix2InH2O_1,beta-Glutamic acid,1500489216,PNT
+250807_Std_4uMStdsMix2InH2O_2,beta-Glutamic acid,1876037888,PNT
+250807_Std_4uMStdsMix2InMatrix_1,beta-Glutamic acid,1306000512,PNT
+250807_Std_4uMStdsMix2InMatrix_2,beta-Glutamic acid,1491383168,PNT
+250807_Std_H2OinMatrix_1,beta-Glutamic acid,11425036,PNT
+250807_Std_H2OinMatrix_2,beta-Glutamic acid,9194115,PNT
+250807_Poo_P1-NetTraps_Full1,beta-Glutamic acid,10977162,PNT
+250807_Poo_P1-NetTraps_Full2,beta-Glutamic acid,9720688,PNT
+250807_Poo_P1-NetTraps_Full3,beta-Glutamic acid,13529507,PNT
+250807_Poo_P1-NetTraps_Half1,beta-Glutamic acid,8115469,PNT
+250807_Poo_P1-NetTraps_Half2,beta-Glutamic acid,9886681,PNT
+250807_Poo_P1-NetTraps_Half3,beta-Glutamic acid,15078087,PNT
+250807_Blk_PNT_FltBlk_A,beta-Glutamic acid,8461843,PNT
+250807_Blk_PNT_FltBlk_B,beta-Glutamic acid,11451034,PNT
+250807_Blk_PNT_FltBlk_C,beta-Glutamic acid,6084778,PNT
+250807_Smp_PNT_150m_A,beta-Glutamic acid,59946748,PNT
+250807_Smp_PNT_150m_B,beta-Glutamic acid,74186432,PNT
+250807_Smp_PNT_150m_C,beta-Glutamic acid,80103072,PNT
+250807_Smp_PNT_175m_A,beta-Glutamic acid,44897332,PNT
+250807_Smp_PNT_175m_B,beta-Glutamic acid,51289516,PNT
+250807_Smp_PNT_175m_C,beta-Glutamic acid,72940184,PNT
+250807_Smp_PNT_200m_A,beta-Glutamic acid,36403380,PNT
+250807_Smp_PNT_200m_B,beta-Glutamic acid,60105432,PNT
+250807_Smp_PNT_200m_C,beta-Glutamic acid,48047700,PNT
+250807_Smp_PNT_300m_A,beta-Glutamic acid,8917346,PNT
+250807_Smp_PNT_300m_B,beta-Glutamic acid,25165040,PNT
+250807_Smp_PNT_300m_C,beta-Glutamic acid,14001949,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Glutamic acid,647267584,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Glutamic acid,651882944,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Glutamic acid,773209472,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Glutamic acid,746730624,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Glutamic acid,7743853,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Glutamic acid,7177716,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Glutamic acid,3568255,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Glutamic acid,8026162,PNT
+250807_Std_H2OinMatrix_1,L-Glutamic acid,576468800,PNT
+250807_Std_H2OinMatrix_2,L-Glutamic acid,571365312,PNT
+250807_Poo_P1-NetTraps_Full1,L-Glutamic acid,696669888,PNT
+250807_Poo_P1-NetTraps_Full2,L-Glutamic acid,862652608,PNT
+250807_Poo_P1-NetTraps_Full3,L-Glutamic acid,673920832,PNT
+250807_Poo_P1-NetTraps_Half1,L-Glutamic acid,537234176,PNT
+250807_Poo_P1-NetTraps_Half2,L-Glutamic acid,628459328,PNT
+250807_Poo_P1-NetTraps_Half3,L-Glutamic acid,536189024,PNT
+250807_Blk_PNT_FltBlk_A,L-Glutamic acid,10721816,PNT
+250807_Blk_PNT_FltBlk_B,L-Glutamic acid,11255049,PNT
+250807_Blk_PNT_FltBlk_C,L-Glutamic acid,6001918,PNT
+250807_Smp_PNT_150m_A,L-Glutamic acid,546983680,PNT
+250807_Smp_PNT_150m_B,L-Glutamic acid,620599296,PNT
+250807_Smp_PNT_150m_C,L-Glutamic acid,770803904,PNT
+250807_Smp_PNT_175m_A,L-Glutamic acid,237936784,PNT
+250807_Smp_PNT_175m_B,L-Glutamic acid,258397552,PNT
+250807_Smp_PNT_175m_C,L-Glutamic acid,345790592,PNT
+250807_Smp_PNT_200m_A,L-Glutamic acid,196227248,PNT
+250807_Smp_PNT_200m_B,L-Glutamic acid,253053200,PNT
+250807_Smp_PNT_200m_C,L-Glutamic acid,153790864,PNT
+250807_Smp_PNT_300m_A,L-Glutamic acid,67009584,PNT
+250807_Smp_PNT_300m_B,L-Glutamic acid,99653936,PNT
+250807_Smp_PNT_300m_C,L-Glutamic acid,78493168,PNT
+250807_Std_4uMStdsMix1InH2O_1,Hydroxyisoleucine,631075200,PNT
+250807_Std_4uMStdsMix1InH2O_2,Hydroxyisoleucine,680566144,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Hydroxyisoleucine,465841504,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Hydroxyisoleucine,611565504,PNT
+250807_Std_4uMStdsMix2InH2O_1,Hydroxyisoleucine,415301,PNT
+250807_Std_4uMStdsMix2InH2O_2,Hydroxyisoleucine,1806191,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Hydroxyisoleucine,85522896,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Hydroxyisoleucine,89363720,PNT
+250807_Std_H2OinMatrix_1,Hydroxyisoleucine,79312728,PNT
+250807_Std_H2OinMatrix_2,Hydroxyisoleucine,79204560,PNT
+250807_Poo_P1-NetTraps_Full1,Hydroxyisoleucine,122294128,PNT
+250807_Poo_P1-NetTraps_Full2,Hydroxyisoleucine,111297128,PNT
+250807_Poo_P1-NetTraps_Full3,Hydroxyisoleucine,112942960,PNT
+250807_Poo_P1-NetTraps_Half1,Hydroxyisoleucine,77497616,PNT
+250807_Poo_P1-NetTraps_Half2,Hydroxyisoleucine,71634248,PNT
+250807_Poo_P1-NetTraps_Half3,Hydroxyisoleucine,73385048,PNT
+250807_Blk_PNT_FltBlk_A,Hydroxyisoleucine,494687,PNT
+250807_Blk_PNT_FltBlk_B,Hydroxyisoleucine,223987,PNT
+250807_Blk_PNT_FltBlk_C,Hydroxyisoleucine,366254,PNT
+250807_Smp_PNT_150m_A,Hydroxyisoleucine,116071992,PNT
+250807_Smp_PNT_150m_B,Hydroxyisoleucine,108913432,PNT
+250807_Smp_PNT_150m_C,Hydroxyisoleucine,41910316,PNT
+250807_Smp_PNT_175m_A,Hydroxyisoleucine,62151768,PNT
+250807_Smp_PNT_175m_B,Hydroxyisoleucine,66036748,PNT
+250807_Smp_PNT_175m_C,Hydroxyisoleucine,36978248,PNT
+250807_Smp_PNT_200m_A,Hydroxyisoleucine,55766400,PNT
+250807_Smp_PNT_200m_B,Hydroxyisoleucine,202914336,PNT
+250807_Smp_PNT_200m_C,Hydroxyisoleucine,181269024,PNT
+250807_Smp_PNT_300m_A,Hydroxyisoleucine,21506338,PNT
+250807_Smp_PNT_300m_B,Hydroxyisoleucine,21683374,PNT
+250807_Smp_PNT_300m_C,Hydroxyisoleucine,13140219,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Methionine,1029748032,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Methionine,1087059328,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Methionine,1041831808,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Methionine,1332315008,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Methionine,0,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Methionine,0,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Methionine,22541642,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Methionine,11401572,PNT
+250807_Std_H2OinMatrix_1,L-Methionine,29251906,PNT
+250807_Std_H2OinMatrix_2,L-Methionine,20676650,PNT
+250807_Poo_P1-NetTraps_Full1,L-Methionine,36864592,PNT
+250807_Poo_P1-NetTraps_Full2,L-Methionine,36797348,PNT
+250807_Poo_P1-NetTraps_Full3,L-Methionine,36705736,PNT
+250807_Poo_P1-NetTraps_Half1,L-Methionine,20710020,PNT
+250807_Poo_P1-NetTraps_Half2,L-Methionine,20909020,PNT
+250807_Poo_P1-NetTraps_Half3,L-Methionine,21457538,PNT
+250807_Blk_PNT_FltBlk_A,L-Methionine,350710,PNT
+250807_Blk_PNT_FltBlk_B,L-Methionine,159473,PNT
+250807_Blk_PNT_FltBlk_C,L-Methionine,52525,PNT
+250807_Smp_PNT_150m_A,L-Methionine,34862844,PNT
+250807_Smp_PNT_150m_B,L-Methionine,27442578,PNT
+250807_Smp_PNT_150m_C,L-Methionine,35328372,PNT
+250807_Smp_PNT_175m_A,L-Methionine,12416322,PNT
+250807_Smp_PNT_175m_B,L-Methionine,31777772,PNT
+250807_Smp_PNT_175m_C,L-Methionine,25257554,PNT
+250807_Smp_PNT_200m_A,L-Methionine,47063444,PNT
+250807_Smp_PNT_200m_B,L-Methionine,59809588,PNT
+250807_Smp_PNT_200m_C,L-Methionine,105240016,PNT
+250807_Smp_PNT_300m_A,L-Methionine,4465782,PNT
+250807_Smp_PNT_300m_B,L-Methionine,7745121,PNT
+250807_Smp_PNT_300m_C,L-Methionine,5496471,PNT
+250807_Std_4uMStdsMix1InH2O_1,5-Hydroxyectoine,1002554624,PNT
+250807_Std_4uMStdsMix1InH2O_2,5-Hydroxyectoine,5791437,PNT
+250807_Std_4uMStdsMix1InMatrix_1,5-Hydroxyectoine,15404337,PNT
+250807_Std_4uMStdsMix1InMatrix_2,5-Hydroxyectoine,7401430,PNT
+250807_Std_4uMStdsMix2InH2O_1,5-Hydroxyectoine,330328832,PNT
+250807_Std_4uMStdsMix2InH2O_2,5-Hydroxyectoine,2986986,PNT
+250807_Std_4uMStdsMix2InMatrix_1,5-Hydroxyectoine,829895,PNT
+250807_Std_4uMStdsMix2InMatrix_2,5-Hydroxyectoine,347206688,PNT
+250807_Std_H2OinMatrix_1,5-Hydroxyectoine,1494177,PNT
+250807_Std_H2OinMatrix_2,5-Hydroxyectoine,1168461,PNT
+250807_Poo_P1-NetTraps_Full1,5-Hydroxyectoine,1341594,PNT
+250807_Poo_P1-NetTraps_Full2,5-Hydroxyectoine,506869,PNT
+250807_Poo_P1-NetTraps_Full3,5-Hydroxyectoine,972510,PNT
+250807_Poo_P1-NetTraps_Half1,5-Hydroxyectoine,2311485,PNT
+250807_Poo_P1-NetTraps_Half2,5-Hydroxyectoine,3435926,PNT
+250807_Poo_P1-NetTraps_Half3,5-Hydroxyectoine,2792199,PNT
+250807_Blk_PNT_FltBlk_A,5-Hydroxyectoine,1118650,PNT
+250807_Blk_PNT_FltBlk_B,5-Hydroxyectoine,2337687,PNT
+250807_Blk_PNT_FltBlk_C,5-Hydroxyectoine,643840,PNT
+250807_Smp_PNT_150m_A,5-Hydroxyectoine,1566210,PNT
+250807_Smp_PNT_150m_B,5-Hydroxyectoine,852580,PNT
+250807_Smp_PNT_150m_C,5-Hydroxyectoine,492495,PNT
+250807_Smp_PNT_175m_A,5-Hydroxyectoine,737577,PNT
+250807_Smp_PNT_175m_B,5-Hydroxyectoine,3243439,PNT
+250807_Smp_PNT_175m_C,5-Hydroxyectoine,3151573,PNT
+250807_Smp_PNT_200m_A,5-Hydroxyectoine,12017720,PNT
+250807_Smp_PNT_200m_B,5-Hydroxyectoine,13098114,PNT
+250807_Smp_PNT_200m_C,5-Hydroxyectoine,13902509,PNT
+250807_Smp_PNT_300m_A,5-Hydroxyectoine,3617892,PNT
+250807_Smp_PNT_300m_B,5-Hydroxyectoine,3625993,PNT
+250807_Smp_PNT_300m_C,5-Hydroxyectoine,3619553,PNT
+250807_Std_4uMStdsMix1InH2O_1,Betonicine,12730526720,PNT
+250807_Std_4uMStdsMix1InH2O_2,Betonicine,12905748480,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Betonicine,8857019392,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Betonicine,12435907584,PNT
+250807_Std_4uMStdsMix2InH2O_1,Betonicine,974881,PNT
+250807_Std_4uMStdsMix2InH2O_2,Betonicine,762343,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Betonicine,127324048,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Betonicine,115980952,PNT
+250807_Std_H2OinMatrix_1,Betonicine,117233072,PNT
+250807_Std_H2OinMatrix_2,Betonicine,116976104,PNT
+250807_Poo_P1-NetTraps_Full1,Betonicine,158417808,PNT
+250807_Poo_P1-NetTraps_Full2,Betonicine,161951936,PNT
+250807_Poo_P1-NetTraps_Full3,Betonicine,164866000,PNT
+250807_Poo_P1-NetTraps_Half1,Betonicine,93052784,PNT
+250807_Poo_P1-NetTraps_Half2,Betonicine,89998952,PNT
+250807_Poo_P1-NetTraps_Half3,Betonicine,95500912,PNT
+250807_Blk_PNT_FltBlk_A,Betonicine,2776609,PNT
+250807_Blk_PNT_FltBlk_B,Betonicine,2061275,PNT
+250807_Blk_PNT_FltBlk_C,Betonicine,2128012,PNT
+250807_Smp_PNT_150m_A,Betonicine,169336976,PNT
+250807_Smp_PNT_150m_B,Betonicine,152848992,PNT
+250807_Smp_PNT_150m_C,Betonicine,213022432,PNT
+250807_Smp_PNT_175m_A,Betonicine,76603648,PNT
+250807_Smp_PNT_175m_B,Betonicine,86405432,PNT
+250807_Smp_PNT_175m_C,Betonicine,80554192,PNT
+250807_Smp_PNT_200m_A,Betonicine,162196992,PNT
+250807_Smp_PNT_200m_B,Betonicine,216809088,PNT
+250807_Smp_PNT_200m_C,Betonicine,260625504,PNT
+250807_Smp_PNT_300m_A,Betonicine,40940264,PNT
+250807_Smp_PNT_300m_B,Betonicine,38141744,PNT
+250807_Smp_PNT_300m_C,Betonicine,29365398,PNT
+250807_Std_4uMStdsMix1InH2O_1,Carnitine,4251972352,PNT
+250807_Std_4uMStdsMix1InH2O_2,Carnitine,3975419136,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Carnitine,2884955136,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Carnitine,3950375936,PNT
+250807_Std_4uMStdsMix2InH2O_1,Carnitine,59297,PNT
+250807_Std_4uMStdsMix2InH2O_2,Carnitine,0,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Carnitine,145159968,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Carnitine,123896672,PNT
+250807_Std_H2OinMatrix_1,Carnitine,138925808,PNT
+250807_Std_H2OinMatrix_2,Carnitine,136963856,PNT
+250807_Poo_P1-NetTraps_Full1,Carnitine,188933776,PNT
+250807_Poo_P1-NetTraps_Full2,Carnitine,201565440,PNT
+250807_Poo_P1-NetTraps_Full3,Carnitine,202404464,PNT
+250807_Poo_P1-NetTraps_Half1,Carnitine,110183752,PNT
+250807_Poo_P1-NetTraps_Half2,Carnitine,106493744,PNT
+250807_Poo_P1-NetTraps_Half3,Carnitine,104428728,PNT
+250807_Blk_PNT_FltBlk_A,Carnitine,1875475,PNT
+250807_Blk_PNT_FltBlk_B,Carnitine,1467879,PNT
+250807_Blk_PNT_FltBlk_C,Carnitine,1649521,PNT
+250807_Smp_PNT_150m_A,Carnitine,159135312,PNT
+250807_Smp_PNT_150m_B,Carnitine,158676304,PNT
+250807_Smp_PNT_150m_C,Carnitine,197556368,PNT
+250807_Smp_PNT_175m_A,Carnitine,93198248,PNT
+250807_Smp_PNT_175m_B,Carnitine,119795112,PNT
+250807_Smp_PNT_175m_C,Carnitine,94177024,PNT
+250807_Smp_PNT_200m_A,Carnitine,226793408,PNT
+250807_Smp_PNT_200m_B,Carnitine,216577136,PNT
+250807_Smp_PNT_200m_C,Carnitine,673258688,PNT
+250807_Smp_PNT_300m_A,Carnitine,34172644,PNT
+250807_Smp_PNT_300m_B,Carnitine,37948828,PNT
+250807_Smp_PNT_300m_C,Carnitine,25099768,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Arginine,209994128,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Arginine,212359744,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Arginine,236843040,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Arginine,281266528,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Arginine,1192093,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Arginine,1277524,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Arginine,58076356,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Arginine,46063844,PNT
+250807_Std_H2OinMatrix_1,L-Arginine,57821820,PNT
+250807_Std_H2OinMatrix_2,L-Arginine,48880212,PNT
+250807_Poo_P1-NetTraps_Full1,L-Arginine,85956888,PNT
+250807_Poo_P1-NetTraps_Full2,L-Arginine,111503320,PNT
+250807_Poo_P1-NetTraps_Full3,L-Arginine,92958312,PNT
+250807_Poo_P1-NetTraps_Half1,L-Arginine,41898864,PNT
+250807_Poo_P1-NetTraps_Half2,L-Arginine,53932964,PNT
+250807_Poo_P1-NetTraps_Half3,L-Arginine,47245344,PNT
+250807_Blk_PNT_FltBlk_A,L-Arginine,788477,PNT
+250807_Blk_PNT_FltBlk_B,L-Arginine,1005829,PNT
+250807_Blk_PNT_FltBlk_C,L-Arginine,226586,PNT
+250807_Smp_PNT_150m_A,L-Arginine,79771816,PNT
+250807_Smp_PNT_150m_B,L-Arginine,54675328,PNT
+250807_Smp_PNT_150m_C,L-Arginine,78582736,PNT
+250807_Smp_PNT_175m_A,L-Arginine,69371368,PNT
+250807_Smp_PNT_175m_B,L-Arginine,75442208,PNT
+250807_Smp_PNT_175m_C,L-Arginine,69995712,PNT
+250807_Smp_PNT_200m_A,L-Arginine,254389760,PNT
+250807_Smp_PNT_200m_B,L-Arginine,277245792,PNT
+250807_Smp_PNT_200m_C,L-Arginine,401872416,PNT
+250807_Smp_PNT_300m_A,L-Arginine,27415086,PNT
+250807_Smp_PNT_300m_B,L-Arginine,47891320,PNT
+250807_Smp_PNT_300m_C,L-Arginine,21915520,PNT
+250807_Std_4uMStdsMix1InH2O_1,Arsenobetaine,16406596608,PNT
+250807_Std_4uMStdsMix1InH2O_2,Arsenobetaine,15725821952,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Arsenobetaine,11694865408,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Arsenobetaine,14757395456,PNT
+250807_Std_4uMStdsMix2InH2O_1,Arsenobetaine,0,PNT
+250807_Std_4uMStdsMix2InH2O_2,Arsenobetaine,50523,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Arsenobetaine,102989232,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Arsenobetaine,83488840,PNT
+250807_Std_H2OinMatrix_1,Arsenobetaine,97962096,PNT
+250807_Std_H2OinMatrix_2,Arsenobetaine,86238880,PNT
+250807_Poo_P1-NetTraps_Full1,Arsenobetaine,150778800,PNT
+250807_Poo_P1-NetTraps_Full2,Arsenobetaine,150213984,PNT
+250807_Poo_P1-NetTraps_Full3,Arsenobetaine,148968384,PNT
+250807_Poo_P1-NetTraps_Half1,Arsenobetaine,78674192,PNT
+250807_Poo_P1-NetTraps_Half2,Arsenobetaine,72166856,PNT
+250807_Poo_P1-NetTraps_Half3,Arsenobetaine,71921760,PNT
+250807_Blk_PNT_FltBlk_A,Arsenobetaine,0,PNT
+250807_Blk_PNT_FltBlk_B,Arsenobetaine,0,PNT
+250807_Blk_PNT_FltBlk_C,Arsenobetaine,0,PNT
+250807_Smp_PNT_150m_A,Arsenobetaine,143987824,PNT
+250807_Smp_PNT_150m_B,Arsenobetaine,68407040,PNT
+250807_Smp_PNT_150m_C,Arsenobetaine,69570016,PNT
+250807_Smp_PNT_175m_A,Arsenobetaine,47547784,PNT
+250807_Smp_PNT_175m_B,Arsenobetaine,39921968,PNT
+250807_Smp_PNT_175m_C,Arsenobetaine,37145600,PNT
+250807_Smp_PNT_200m_A,Arsenobetaine,57748736,PNT
+250807_Smp_PNT_200m_B,Arsenobetaine,103184544,PNT
+250807_Smp_PNT_200m_C,Arsenobetaine,113849080,PNT
+250807_Smp_PNT_300m_A,Arsenobetaine,8968858,PNT
+250807_Smp_PNT_300m_B,Arsenobetaine,9375214,PNT
+250807_Smp_PNT_300m_C,Arsenobetaine,9618850,PNT
+250807_Std_4uMStdsMix1InH2O_1,Gonyol,707552320,PNT
+250807_Std_4uMStdsMix1InH2O_2,Gonyol,599096960,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Gonyol,571282368,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Gonyol,713352000,PNT
+250807_Std_4uMStdsMix2InH2O_1,Gonyol,0,PNT
+250807_Std_4uMStdsMix2InH2O_2,Gonyol,38498,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Gonyol,91105456,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Gonyol,76419312,PNT
+250807_Std_H2OinMatrix_1,Gonyol,86525320,PNT
+250807_Std_H2OinMatrix_2,Gonyol,78653056,PNT
+250807_Poo_P1-NetTraps_Full1,Gonyol,129399136,PNT
+250807_Poo_P1-NetTraps_Full2,Gonyol,128429424,PNT
+250807_Poo_P1-NetTraps_Full3,Gonyol,123531952,PNT
+250807_Poo_P1-NetTraps_Half1,Gonyol,69406552,PNT
+250807_Poo_P1-NetTraps_Half2,Gonyol,61835476,PNT
+250807_Poo_P1-NetTraps_Half3,Gonyol,61196356,PNT
+250807_Blk_PNT_FltBlk_A,Gonyol,27450,PNT
+250807_Blk_PNT_FltBlk_B,Gonyol,0,PNT
+250807_Blk_PNT_FltBlk_C,Gonyol,313641,PNT
+250807_Smp_PNT_150m_A,Gonyol,356089664,PNT
+250807_Smp_PNT_150m_B,Gonyol,210129776,PNT
+250807_Smp_PNT_150m_C,Gonyol,228619616,PNT
+250807_Smp_PNT_175m_A,Gonyol,195351184,PNT
+250807_Smp_PNT_175m_B,Gonyol,105405792,PNT
+250807_Smp_PNT_175m_C,Gonyol,66896720,PNT
+250807_Smp_PNT_200m_A,Gonyol,126438608,PNT
+250807_Smp_PNT_200m_B,Gonyol,94387584,PNT
+250807_Smp_PNT_200m_C,Gonyol,145369840,PNT
+250807_Smp_PNT_300m_A,Gonyol,36994452,PNT
+250807_Smp_PNT_300m_B,Gonyol,37767312,PNT
+250807_Smp_PNT_300m_C,Gonyol,20827272,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Tyrosine,2013410,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Tyrosine,3476354,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Tyrosine,584896384,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Tyrosine,723297920,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Tyrosine,NA,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Tyrosine,NA,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Tyrosine,41335468,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Tyrosine,36587952,PNT
+250807_Std_H2OinMatrix_1,L-Tyrosine,37233108,PNT
+250807_Std_H2OinMatrix_2,L-Tyrosine,36944744,PNT
+250807_Poo_P1-NetTraps_Full1,L-Tyrosine,26620008,PNT
+250807_Poo_P1-NetTraps_Full2,L-Tyrosine,25992690,PNT
+250807_Poo_P1-NetTraps_Full3,L-Tyrosine,27224370,PNT
+250807_Poo_P1-NetTraps_Half1,L-Tyrosine,32215510,PNT
+250807_Poo_P1-NetTraps_Half2,L-Tyrosine,35010760,PNT
+250807_Poo_P1-NetTraps_Half3,L-Tyrosine,32713210,PNT
+250807_Blk_PNT_FltBlk_A,L-Tyrosine,26614,PNT
+250807_Blk_PNT_FltBlk_B,L-Tyrosine,NA,PNT
+250807_Blk_PNT_FltBlk_C,L-Tyrosine,94741,PNT
+250807_Smp_PNT_150m_A,L-Tyrosine,57186944,PNT
+250807_Smp_PNT_150m_B,L-Tyrosine,43773436,PNT
+250807_Smp_PNT_150m_C,L-Tyrosine,32841026,PNT
+250807_Smp_PNT_175m_A,L-Tyrosine,32130060,PNT
+250807_Smp_PNT_175m_B,L-Tyrosine,28198822,PNT
+250807_Smp_PNT_175m_C,L-Tyrosine,14781896,PNT
+250807_Smp_PNT_200m_A,L-Tyrosine,38202708,PNT
+250807_Smp_PNT_200m_B,L-Tyrosine,14471856,PNT
+250807_Smp_PNT_200m_C,L-Tyrosine,94865864,PNT
+250807_Smp_PNT_300m_A,L-Tyrosine,22969642,PNT
+250807_Smp_PNT_300m_B,L-Tyrosine,9414867,PNT
+250807_Smp_PNT_300m_C,L-Tyrosine,6085189,PNT
+250807_Std_4uMStdsMix1InH2O_1,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Std_4uMStdsMix1InH2O_2,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Std_4uMStdsMix1InMatrix_1,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Std_4uMStdsMix1InMatrix_2,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Std_4uMStdsMix2InH2O_1,2-O-alpha-D-Glucosylglycerol,34955072,PNT
+250807_Std_4uMStdsMix2InH2O_2,2-O-alpha-D-Glucosylglycerol,32545228,PNT
+250807_Std_4uMStdsMix2InMatrix_1,2-O-alpha-D-Glucosylglycerol,51184816,PNT
+250807_Std_4uMStdsMix2InMatrix_2,2-O-alpha-D-Glucosylglycerol,46137196,PNT
+250807_Std_H2OinMatrix_1,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Std_H2OinMatrix_2,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Poo_P1-NetTraps_Full1,2-O-alpha-D-Glucosylglycerol,19875,PNT
+250807_Poo_P1-NetTraps_Full2,2-O-alpha-D-Glucosylglycerol,44085,PNT
+250807_Poo_P1-NetTraps_Full3,2-O-alpha-D-Glucosylglycerol,2855,PNT
+250807_Poo_P1-NetTraps_Half1,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Poo_P1-NetTraps_Half2,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Poo_P1-NetTraps_Half3,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Blk_PNT_FltBlk_A,2-O-alpha-D-Glucosylglycerol,48798,PNT
+250807_Blk_PNT_FltBlk_B,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Blk_PNT_FltBlk_C,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Smp_PNT_150m_A,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Smp_PNT_150m_B,2-O-alpha-D-Glucosylglycerol,53782,PNT
+250807_Smp_PNT_150m_C,2-O-alpha-D-Glucosylglycerol,151954,PNT
+250807_Smp_PNT_175m_A,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Smp_PNT_175m_B,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Smp_PNT_175m_C,2-O-alpha-D-Glucosylglycerol,604590,PNT
+250807_Smp_PNT_200m_A,2-O-alpha-D-Glucosylglycerol,61062,PNT
+250807_Smp_PNT_200m_B,2-O-alpha-D-Glucosylglycerol,51106,PNT
+250807_Smp_PNT_200m_C,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Smp_PNT_300m_A,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Smp_PNT_300m_B,2-O-alpha-D-Glucosylglycerol,44620,PNT
+250807_Smp_PNT_300m_C,2-O-alpha-D-Glucosylglycerol,0,PNT
+250807_Std_4uMStdsMix1InH2O_1,Taurine,0,PNT
+250807_Std_4uMStdsMix1InH2O_2,Taurine,0,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Taurine,58694900,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Taurine,48203884,PNT
+250807_Std_4uMStdsMix2InH2O_1,Taurine,9398943,PNT
+250807_Std_4uMStdsMix2InH2O_2,Taurine,3873369,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Taurine,529876032,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Taurine,561057152,PNT
+250807_Std_H2OinMatrix_1,Taurine,59705908,PNT
+250807_Std_H2OinMatrix_2,Taurine,50530940,PNT
+250807_Poo_P1-NetTraps_Full1,Taurine,71795712,PNT
+250807_Poo_P1-NetTraps_Full2,Taurine,75254184,PNT
+250807_Poo_P1-NetTraps_Full3,Taurine,70237680,PNT
+250807_Poo_P1-NetTraps_Half1,Taurine,45879836,PNT
+250807_Poo_P1-NetTraps_Half2,Taurine,49153516,PNT
+250807_Poo_P1-NetTraps_Half3,Taurine,44860892,PNT
+250807_Blk_PNT_FltBlk_A,Taurine,0,PNT
+250807_Blk_PNT_FltBlk_B,Taurine,0,PNT
+250807_Blk_PNT_FltBlk_C,Taurine,0,PNT
+250807_Smp_PNT_150m_A,Taurine,70963024,PNT
+250807_Smp_PNT_150m_B,Taurine,47349060,PNT
+250807_Smp_PNT_150m_C,Taurine,69147024,PNT
+250807_Smp_PNT_175m_A,Taurine,33683116,PNT
+250807_Smp_PNT_175m_B,Taurine,93306000,PNT
+250807_Smp_PNT_175m_C,Taurine,81988088,PNT
+250807_Smp_PNT_200m_A,Taurine,111556816,PNT
+250807_Smp_PNT_200m_B,Taurine,235127472,PNT
+250807_Smp_PNT_200m_C,Taurine,220073968,PNT
+250807_Smp_PNT_300m_A,Taurine,26088208,PNT
+250807_Smp_PNT_300m_B,Taurine,26502944,PNT
+250807_Smp_PNT_300m_C,Taurine,21485816,PNT
+250807_Std_4uMStdsMix1InH2O_1,Isethionic acid,0,PNT
+250807_Std_4uMStdsMix1InH2O_2,Isethionic acid,0,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Isethionic acid,33014988,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Isethionic acid,19342670,PNT
+250807_Std_4uMStdsMix2InH2O_1,Isethionic acid,1344719872,PNT
+250807_Std_4uMStdsMix2InH2O_2,Isethionic acid,287688704,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Isethionic acid,1349963008,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Isethionic acid,1472748416,PNT
+250807_Std_H2OinMatrix_1,Isethionic acid,37323172,PNT
+250807_Std_H2OinMatrix_2,Isethionic acid,27526530,PNT
+250807_Poo_P1-NetTraps_Full1,Isethionic acid,46869600,PNT
+250807_Poo_P1-NetTraps_Full2,Isethionic acid,47146808,PNT
+250807_Poo_P1-NetTraps_Full3,Isethionic acid,44451324,PNT
+250807_Poo_P1-NetTraps_Half1,Isethionic acid,26353876,PNT
+250807_Poo_P1-NetTraps_Half2,Isethionic acid,24955454,PNT
+250807_Poo_P1-NetTraps_Half3,Isethionic acid,20562776,PNT
+250807_Blk_PNT_FltBlk_A,Isethionic acid,13416055,PNT
+250807_Blk_PNT_FltBlk_B,Isethionic acid,12573788,PNT
+250807_Blk_PNT_FltBlk_C,Isethionic acid,12268749,PNT
+250807_Smp_PNT_150m_A,Isethionic acid,29884270,PNT
+250807_Smp_PNT_150m_B,Isethionic acid,60834696,PNT
+250807_Smp_PNT_150m_C,Isethionic acid,96764264,PNT
+250807_Smp_PNT_175m_A,Isethionic acid,38700600,PNT
+250807_Smp_PNT_175m_B,Isethionic acid,67328208,PNT
+250807_Smp_PNT_175m_C,Isethionic acid,41994504,PNT
+250807_Smp_PNT_200m_A,Isethionic acid,72163840,PNT
+250807_Smp_PNT_200m_B,Isethionic acid,147422032,PNT
+250807_Smp_PNT_200m_C,Isethionic acid,94534016,PNT
+250807_Smp_PNT_300m_A,Isethionic acid,18723698,PNT
+250807_Smp_PNT_300m_B,Isethionic acid,9629366,PNT
+250807_Smp_PNT_300m_C,Isethionic acid,28199542,PNT
+250807_Std_4uMStdsMix1InH2O_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",444150,PNT
+250807_Std_4uMStdsMix1InH2O_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",0,PNT
+250807_Std_4uMStdsMix1InMatrix_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",15563151,PNT
+250807_Std_4uMStdsMix1InMatrix_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",13227491,PNT
+250807_Std_4uMStdsMix2InH2O_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",27954344,PNT
+250807_Std_4uMStdsMix2InH2O_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",14699911,PNT
+250807_Std_4uMStdsMix2InMatrix_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",618595200,PNT
+250807_Std_4uMStdsMix2InMatrix_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",694847040,PNT
+250807_Std_H2OinMatrix_1,"(R)-2,3-Dihydroxypropane-1-sulfonate",11903173,PNT
+250807_Std_H2OinMatrix_2,"(R)-2,3-Dihydroxypropane-1-sulfonate",8814631,PNT
+250807_Poo_P1-NetTraps_Full1,"(R)-2,3-Dihydroxypropane-1-sulfonate",19864282,PNT
+250807_Poo_P1-NetTraps_Full2,"(R)-2,3-Dihydroxypropane-1-sulfonate",18443066,PNT
+250807_Poo_P1-NetTraps_Full3,"(R)-2,3-Dihydroxypropane-1-sulfonate",18543118,PNT
+250807_Poo_P1-NetTraps_Half1,"(R)-2,3-Dihydroxypropane-1-sulfonate",7126779,PNT
+250807_Poo_P1-NetTraps_Half2,"(R)-2,3-Dihydroxypropane-1-sulfonate",6796075,PNT
+250807_Poo_P1-NetTraps_Half3,"(R)-2,3-Dihydroxypropane-1-sulfonate",5913591,PNT
+250807_Blk_PNT_FltBlk_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",0,PNT
+250807_Blk_PNT_FltBlk_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",159725,PNT
+250807_Blk_PNT_FltBlk_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",150008,PNT
+250807_Smp_PNT_150m_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",24002472,PNT
+250807_Smp_PNT_150m_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",14134443,PNT
+250807_Smp_PNT_150m_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",11101751,PNT
+250807_Smp_PNT_175m_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",9922973,PNT
+250807_Smp_PNT_175m_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",10778494,PNT
+250807_Smp_PNT_175m_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",18665370,PNT
+250807_Smp_PNT_200m_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",17406464,PNT
+250807_Smp_PNT_200m_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",24700686,PNT
+250807_Smp_PNT_200m_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",15181949,PNT
+250807_Smp_PNT_300m_A,"(R)-2,3-Dihydroxypropane-1-sulfonate",1181862,PNT
+250807_Smp_PNT_300m_B,"(R)-2,3-Dihydroxypropane-1-sulfonate",468216,PNT
+250807_Smp_PNT_300m_C,"(R)-2,3-Dihydroxypropane-1-sulfonate",652375,PNT
+250807_Std_4uMStdsMix1InH2O_1,L-Cysteic acid,NA,PNT
+250807_Std_4uMStdsMix1InH2O_2,L-Cysteic acid,NA,PNT
+250807_Std_4uMStdsMix1InMatrix_1,L-Cysteic acid,NA,PNT
+250807_Std_4uMStdsMix1InMatrix_2,L-Cysteic acid,175570,PNT
+250807_Std_4uMStdsMix2InH2O_1,L-Cysteic acid,119094552,PNT
+250807_Std_4uMStdsMix2InH2O_2,L-Cysteic acid,150352416,PNT
+250807_Std_4uMStdsMix2InMatrix_1,L-Cysteic acid,218820000,PNT
+250807_Std_4uMStdsMix2InMatrix_2,L-Cysteic acid,311544480,PNT
+250807_Std_H2OinMatrix_1,L-Cysteic acid,799104,PNT
+250807_Std_H2OinMatrix_2,L-Cysteic acid,139016,PNT
+250807_Poo_P1-NetTraps_Full1,L-Cysteic acid,NA,PNT
+250807_Poo_P1-NetTraps_Full2,L-Cysteic acid,781780,PNT
+250807_Poo_P1-NetTraps_Full3,L-Cysteic acid,1087911,PNT
+250807_Poo_P1-NetTraps_Half1,L-Cysteic acid,404110,PNT
+250807_Poo_P1-NetTraps_Half2,L-Cysteic acid,NA,PNT
+250807_Poo_P1-NetTraps_Half3,L-Cysteic acid,NA,PNT
+250807_Blk_PNT_FltBlk_A,L-Cysteic acid,NA,PNT
+250807_Blk_PNT_FltBlk_B,L-Cysteic acid,NA,PNT
+250807_Blk_PNT_FltBlk_C,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_150m_A,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_150m_B,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_150m_C,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_175m_A,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_175m_B,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_175m_C,L-Cysteic acid,174331,PNT
+250807_Smp_PNT_200m_A,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_200m_B,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_200m_C,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_300m_A,L-Cysteic acid,169457,PNT
+250807_Smp_PNT_300m_B,L-Cysteic acid,NA,PNT
+250807_Smp_PNT_300m_C,L-Cysteic acid,NA,PNT
+250807_Std_4uMStdsMix1InH2O_1,Sucrose,217170768,PNT
+250807_Std_4uMStdsMix1InH2O_2,Sucrose,169480640,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Sucrose,138467344,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Sucrose,158191008,PNT
+250807_Std_4uMStdsMix2InH2O_1,Sucrose,827706,PNT
+250807_Std_4uMStdsMix2InH2O_2,Sucrose,529125,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Sucrose,7522924,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Sucrose,6070760,PNT
+250807_Std_H2OinMatrix_1,Sucrose,9252933,PNT
+250807_Std_H2OinMatrix_2,Sucrose,6829557,PNT
+250807_Poo_P1-NetTraps_Full1,Sucrose,8080579,PNT
+250807_Poo_P1-NetTraps_Full2,Sucrose,9222627,PNT
+250807_Poo_P1-NetTraps_Full3,Sucrose,9541391,PNT
+250807_Poo_P1-NetTraps_Half1,Sucrose,5809615,PNT
+250807_Poo_P1-NetTraps_Half2,Sucrose,5584450,PNT
+250807_Poo_P1-NetTraps_Half3,Sucrose,6507304,PNT
+250807_Blk_PNT_FltBlk_A,Sucrose,5962410,PNT
+250807_Blk_PNT_FltBlk_B,Sucrose,5818201,PNT
+250807_Blk_PNT_FltBlk_C,Sucrose,3780481,PNT
+250807_Smp_PNT_150m_A,Sucrose,12053066,PNT
+250807_Smp_PNT_150m_B,Sucrose,2659448,PNT
+250807_Smp_PNT_150m_C,Sucrose,11023976,PNT
+250807_Smp_PNT_175m_A,Sucrose,21932090,PNT
+250807_Smp_PNT_175m_B,Sucrose,5356642,PNT
+250807_Smp_PNT_175m_C,Sucrose,5873606,PNT
+250807_Smp_PNT_200m_A,Sucrose,9467191,PNT
+250807_Smp_PNT_200m_B,Sucrose,7347506,PNT
+250807_Smp_PNT_200m_C,Sucrose,8587096,PNT
+250807_Smp_PNT_300m_A,Sucrose,8175555,PNT
+250807_Smp_PNT_300m_B,Sucrose,12050428,PNT
+250807_Smp_PNT_300m_C,Sucrose,4433178,PNT
+250807_Std_4uMStdsMix1InH2O_1,Trehalose,788450,PNT
+250807_Std_4uMStdsMix1InH2O_2,Trehalose,490171,PNT
+250807_Std_4uMStdsMix1InMatrix_1,Trehalose,2824308,PNT
+250807_Std_4uMStdsMix1InMatrix_2,Trehalose,1424540,PNT
+250807_Std_4uMStdsMix2InH2O_1,Trehalose,113088224,PNT
+250807_Std_4uMStdsMix2InH2O_2,Trehalose,103942696,PNT
+250807_Std_4uMStdsMix2InMatrix_1,Trehalose,76867200,PNT
+250807_Std_4uMStdsMix2InMatrix_2,Trehalose,99942944,PNT
+250807_Std_H2OinMatrix_1,Trehalose,1812072,PNT
+250807_Std_H2OinMatrix_2,Trehalose,1164448,PNT
+250807_Poo_P1-NetTraps_Full1,Trehalose,3186710,PNT
+250807_Poo_P1-NetTraps_Full2,Trehalose,3413647,PNT
+250807_Poo_P1-NetTraps_Full3,Trehalose,3610889,PNT
+250807_Poo_P1-NetTraps_Half1,Trehalose,1639784,PNT
+250807_Poo_P1-NetTraps_Half2,Trehalose,559750,PNT
+250807_Poo_P1-NetTraps_Half3,Trehalose,1467221,PNT
+250807_Blk_PNT_FltBlk_A,Trehalose,277839,PNT
+250807_Blk_PNT_FltBlk_B,Trehalose,118131,PNT
+250807_Blk_PNT_FltBlk_C,Trehalose,120091,PNT
+250807_Smp_PNT_150m_A,Trehalose,7442110,PNT
+250807_Smp_PNT_150m_B,Trehalose,6077152,PNT
+250807_Smp_PNT_150m_C,Trehalose,10504409,PNT
+250807_Smp_PNT_175m_A,Trehalose,2542857,PNT
+250807_Smp_PNT_175m_B,Trehalose,2577259,PNT
+250807_Smp_PNT_175m_C,Trehalose,3350607,PNT
+250807_Smp_PNT_200m_A,Trehalose,4331901,PNT
+250807_Smp_PNT_200m_B,Trehalose,2846136,PNT
+250807_Smp_PNT_200m_C,Trehalose,4419945,PNT
+250807_Smp_PNT_300m_A,Trehalose,592919,PNT
+250807_Smp_PNT_300m_B,Trehalose,2655868,PNT
+250807_Smp_PNT_300m_C,Trehalose,229936,PNT

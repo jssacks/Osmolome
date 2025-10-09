@@ -21,6 +21,10 @@ pcpn.file <- "Collaborator_Data/RC078/pocpn_tidy.csv"
 #nutrients.file
 nut.file <- "Collaborator_Data/RC078/nutrients_tidy.csv"
 
+#doc file
+doc.file <- "Collaborator_Data/RC078/doc_tidy.csv"
+
+
 
 #ctd depth info
 #ctd.file <- "Meta_Data/Enviro_Meta_Data/RC078/ctd_tidy.csv"
@@ -69,11 +73,21 @@ nut.dat <- read_csv(nut.file) %>%
   select(parent_id, sample_id, analyte_short, concentration) %>%
   pivot_wider(id_cols = c(parent_id, sample_id), names_from = analyte_short, values_from = concentration)
 
+#DOC data
+doc.dat <- read_csv(doc.file) %>%
+  select(parent_id, sample_id, analyte, concentration) %>%
+  pivot_wider(id_cols = c(parent_id, sample_id), names_from = analyte, values_from = concentration) %>%
+  rename(DOC_uM = DOC)
+
+
+
+
 
 ###Combine together:
 all.dat <- pcpn.dat %>%
   left_join(., nut.dat) %>%
-  left_join(., ctd.dat)
+  left_join(., ctd.dat) %>%
+  left_join(., doc.dat)
   
 #write to csv
 write_csv(all.dat, file = "Intermediates/RC078_MetaData_Compiled.csv")

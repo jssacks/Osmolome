@@ -94,6 +94,7 @@ ggplot(nmds.out.plot, aes(x = MDS1, y = MDS2, fill = Long)) +
   geom_point(shape = 21, size = 3, stroke = 0.15) +
   scale_fill_viridis()
 
+
 ggplot(nmds.out.plot, aes(x = MDS1, y = MDS2, fill = Cruise)) +
   geom_point(shape = 21, size = 3, stroke = 0.15) +
   scale_fill_viridis(discrete = TRUE, begin = 0.5)

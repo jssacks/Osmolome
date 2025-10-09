@@ -52,6 +52,22 @@ stds.dat.info <- left_join(stds.dat, stds.info) %>%
                                Name == "5-Hydroxyectoine" & Cruise == "G3_DepthProfiles" ~ "Mix1",
                                Name == "Hydroxyisoleucine" & Cruise == "G4_DepthProfiles" ~ "Mix1",
                                Name == "Arsenobetaine" & Cruise == "G4_DepthProfiles" ~ "Mix1",
+                             Name == "Arsenobetaine" & Cruise == "RR" ~ "Mix1",
+                             Name == "Arsenobetaine" & Cruise == "PNT" ~ "Mix1",
+                             Name == "5-Hydroxyectoine" & Cruise == "G4_DepthProfiles" ~ "Mix1",
+                             Name == "5-Hydroxyectoine" & Cruise == "G4_DepthProfiles" ~ "Mix1",
+                             Name == "Glycine betaine" & Cruise == "PNT" ~ "Mix2",
+                             Name == "Glycine betaine" & Cruise == "RR" ~ "Mix2",
+                             Name == "Dimethylsulfonioacetate" & Cruise == "PNT" ~ "Mix1",
+                             Name == "Dimethylsulfonioacetate" & Cruise == "RR" ~ "Mix1",
+                             Name == "Trimethylamine N-oxide" & Cruise == "PNT" ~ "Mix2",
+                             Name == "Trimethylamine N-oxide" & Cruise == "RR" ~ "Mix2",
+                             Name == "Gonyol" & Cruise == "PNT" ~ "Mix1",
+                             Name == "Gonyol" & Cruise == "RR" ~ "Mix1",
+                             Name == "Betonicine" & Cruise == "PNT" ~ "Mix1",
+                             Name == "Betonicine" & Cruise == "RR" ~ "Mix1",
+                             Name == "Hydroxyisoleucine" & Cruise == "PNT" ~ "Mix1",
+                             Name == "Hydroxyisoleucine" & Cruise == "RR" ~ "Mix1",
                                TRUE ~ HILIC_Mix))
 
 

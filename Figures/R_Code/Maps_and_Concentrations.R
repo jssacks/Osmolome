@@ -125,8 +125,8 @@ big.map <- ggplot(data = world) +
   #  scale_color_viridis() +
   theme_test() +
   geom_rect(xmin = -120, xmax = -125,
-            ymin = 46, ymax = 51, alpha = 0, color = "black") +
-  theme(legend.position = "none")
+            ymin = 46, ymax = 51, alpha = 0, color = "black") #+
+#  theme(legend.position = "none")
 big.map
 
 
@@ -227,9 +227,16 @@ ggsave(all.maps, file = "R_Code/Code_Development_Workspace/maps_v1.pdf",
        height = 3, width = 8, scale = 1.2)
 
 
+#maps for presenatation:
+all.maps.pres <- big.map + PS.map + plot_layout(guides = "collect") 
+all.maps.pres 
+
+ggsave(all.maps.pres, file = "Figures/Outputs/maps_for_pres.pdf", 
+       height = 4, width = 7, scale = 1.1)
+
 # Make POC and Concentration Plots ----------------------------------------
 
-g.env.dat <- read_csv(g.env.file)
+#g.env.dat <- read_csv(g.env.file)
 
 #Bin POC by lat and calculate mean and sd:
 lat.breaks <- seq(-3,50, by = 1)
@@ -245,7 +252,7 @@ lat.breaks <- seq(-3,50, by = 1)
 #   filter(!is.na(mean_poc))
 
 
-###Pull in and orgnize osmolyte data:
+###Pull in and orggnize osmolyte data:
 g.tot.osmo.dat <- dat %>%
   filter(Cruise %in% c("TN397", "KM1906")) %>%
   group_by(Part.SampID, Diss.SampID, Cruise, Lat, Long, station, poc) %>%
@@ -352,8 +359,8 @@ map.conc.plot <- all.maps/poc.comb +
 
 map.conc.plot
 
-ggsave(map.conc.plot, file = "Figures/Outputs/MainTextFig1_Maps.png", dpi = 600,
-       height = 5, width = 8, scale = 1.3)
+ggsave(map.conc.plot, file = "Figures/Outputs/MainTextFig1_Maps.png", dpi = 1200,
+       height = 7, width = 10, scale = 1.3)
 
 
 
@@ -368,8 +375,211 @@ ggsave(map.conc.plot, file = "Figures/Outputs/MainTextFig1_Maps.png", dpi = 600,
 
 
 
+###Pull in and orggnize osmolyte data for Steph::
+g.tot.osmo.dat.s <- dat %>%
+  filter(Cruise %in% c("TN397", "KM1906")) %>%
+  group_by(Part.SampID, Diss.SampID, Cruise, Lat, Long, station, poc) %>%
+  reframe(Part.Osmo.Conc.nM = sum(Part.Conc.nM, na.rm = TRUE),
+          Diss.Osmo.Conc.nM = sum(Diss.Conc.nM.adj, na.rm = TRUE),
+          Total.Osmo.Conc.nM = sum(Total.Conc.nM, na.rm = TRUE)) %>%
+  filter(Long < -124) %>%
+  mutate(lat_bin = cut(Lat, breaks = lat.breaks, include.lowest = TRUE, right = FALSE)) %>%
+  group_by(lat_bin) %>%
+  reframe(mean_part_conc = mean(Part.Osmo.Conc.nM, na.rm = TRUE),
+          mean_diss_conc = mean(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          mean_total_conc = mean(Total.Osmo.Conc.nM, na.rm = TRUE),
+          sd_part_conc = sd(Part.Osmo.Conc.nM, na.rm = TRUE),
+          sd_diss_conc = sd(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          sd_tot_conc = sd(Total.Osmo.Conc.nM, na.rm = TRUE),
+          mean_poc = mean(poc, na.rm = TRUE),
+          sd_poc = sd(poc, na.rm = TRUE),
+          mean_lat = mean(Lat)) %>%
+  mutate(Compound = "Total") %>%
+  select(Compound, lat_bin, mean_lat, mean_part_conc, sd_part_conc)
+
+ggplot(g.tot.osmo.dat.s, aes(x = mean_lat, y = mean_part_conc)) +
+  geom_errorbar(aes(ymin = mean_part_conc-sd_part_conc, ymax = mean_part_conc+sd_part_conc), width = 0) +
+  geom_line() + 
+  geom_point() +
+  labs(x = "mean latitiude", y = "Mean Particulate Concentration (nM)")
 
 
+
+Specific.Compound.Osmo.dat.s <- dat %>%
+  filter(Cruise %in% c("TN397", "KM1906")) %>%
+  group_by(Compound, Part.SampID, Diss.SampID, Cruise, Lat, Long, station, poc) %>%
+  reframe(Part.Osmo.Conc.nM = sum(Part.Conc.nM, na.rm = TRUE),
+          Diss.Osmo.Conc.nM = sum(Diss.Conc.nM.adj, na.rm = TRUE),
+          Total.Osmo.Conc.nM = sum(Total.Conc.nM, na.rm = TRUE)) %>%
+  filter(Long < -124) %>%
+  mutate(lat_bin = cut(Lat, breaks = lat.breaks, include.lowest = TRUE, right = FALSE)) %>%
+  group_by(Compound, lat_bin) %>%
+  reframe(mean_part_conc = mean(Part.Osmo.Conc.nM, na.rm = TRUE),
+          mean_diss_conc = mean(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          mean_total_conc = mean(Total.Osmo.Conc.nM, na.rm = TRUE),
+          sd_part_conc = sd(Part.Osmo.Conc.nM, na.rm = TRUE),
+          sd_diss_conc = sd(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          sd_tot_conc = sd(Total.Osmo.Conc.nM, na.rm = TRUE),
+          mean_poc = mean(poc, na.rm = TRUE),
+          sd_poc = sd(poc, na.rm = TRUE),
+          mean_lat = mean(Lat)) %>%
+  filter(Compound %in% c("Sucrose", "Homarine")) %>%
+  select(Compound, lat_bin, mean_lat, mean_part_conc, sd_part_conc)
+
+
+ggplot(Specific.Compound.Osmo.dat.s, aes(x = mean_lat, y = mean_part_conc, color = Compound)) +
+  geom_errorbar(aes(ymin = mean_part_conc-sd_part_conc, ymax = mean_part_conc+sd_part_conc), width = 0) +
+  geom_line() + 
+  geom_point() +
+  labs(x = "mean latitiude", y = "Mean Particulate Concentration (nM)")
+
+
+
+#Data for Steph:
+
+#Organize G3 data by Leg
+g3.dat <- dat %>%
+  filter(Cruise %in% c("KM1906")) %>%
+  group_by(Part.SampID, Diss.SampID, Cruise, Lat, Long, station, poc) %>%
+  reframe(Part.Osmo.Conc.nM = sum(Part.Conc.nM, na.rm = TRUE),
+          Diss.Osmo.Conc.nM = sum(Diss.Conc.nM.adj, na.rm = TRUE),
+          Total.Osmo.Conc.nM = sum(Total.Conc.nM, na.rm = TRUE)) %>%
+  mutate(G3_station = str_remove(Part.SampID, "220628_Smp_MU"),
+         G3_station = str_remove(G3_station, "_A"),
+         G3_station = str_remove(G3_station, "_B"),
+         G3_station = str_remove(G3_station, "_C"),
+         G3_station = as.numeric(G3_station),
+         Leg = case_when(G3_station < 12 ~ "Leg_1",
+                            G3_station > 16 ~ "Leg_3",
+                            TRUE ~ "Leg_2")) %>%
+  mutate(lat_bin = cut(Lat, breaks = lat.breaks, include.lowest = TRUE, right = FALSE)) %>%
+  group_by(Leg, lat_bin) %>%
+  reframe(mean_part_conc = mean(Part.Osmo.Conc.nM, na.rm = TRUE),
+          mean_diss_conc = mean(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          mean_total_conc = mean(Total.Osmo.Conc.nM, na.rm = TRUE),
+          sd_part_conc = sd(Part.Osmo.Conc.nM, na.rm = TRUE),
+          sd_diss_conc = sd(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          sd_tot_conc = sd(Total.Osmo.Conc.nM, na.rm = TRUE),
+          mean_poc = mean(poc, na.rm = TRUE),
+          sd_poc = sd(poc, na.rm = TRUE),
+          mean_lat = mean(Lat)) %>%
+  mutate(Compound = "Total") %>%
+  select(Compound, Leg, lat_bin, mean_lat, mean_part_conc, sd_part_conc)
+
+g3.comp.dat <- dat %>%
+  filter(Cruise %in% c("KM1906")) %>%
+  group_by(Compound, Part.SampID, Diss.SampID, Cruise, Lat, Long, station, poc) %>%
+  reframe(Part.Osmo.Conc.nM = sum(Part.Conc.nM, na.rm = TRUE),
+          Diss.Osmo.Conc.nM = sum(Diss.Conc.nM.adj, na.rm = TRUE),
+          Total.Osmo.Conc.nM = sum(Total.Conc.nM, na.rm = TRUE)) %>%
+  mutate(G3_station = str_remove(Part.SampID, "220628_Smp_MU"),
+         G3_station = str_remove(G3_station, "_A"),
+         G3_station = str_remove(G3_station, "_B"),
+         G3_station = str_remove(G3_station, "_C"),
+         G3_station = as.numeric(G3_station),
+         Leg = case_when(G3_station < 12 ~ "Leg_1",
+                            G3_station > 16 ~ "Leg_3",
+                            TRUE ~ "Leg_2")) %>%
+  mutate(lat_bin = cut(Lat, breaks = lat.breaks, include.lowest = TRUE, right = FALSE)) %>%
+  group_by(Compound, Leg, lat_bin) %>%
+  reframe(mean_part_conc = mean(Part.Osmo.Conc.nM, na.rm = TRUE),
+          mean_diss_conc = mean(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          mean_total_conc = mean(Total.Osmo.Conc.nM, na.rm = TRUE),
+          sd_part_conc = sd(Part.Osmo.Conc.nM, na.rm = TRUE),
+          sd_diss_conc = sd(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          sd_tot_conc = sd(Total.Osmo.Conc.nM, na.rm = TRUE),
+          mean_poc = mean(poc, na.rm = TRUE),
+          sd_poc = sd(poc, na.rm = TRUE),
+          mean_lat = mean(Lat)) %>%
+  filter(Compound %in% c("Sucrose", "Homarine")) %>%
+  select(Compound, Leg, lat_bin, mean_lat, mean_part_conc, sd_part_conc)
+
+g3.all.dat <- rbind(g3.dat, g3.comp.dat) 
+
+
+
+
+#Organize G4 data by Leg
+g4.dat <- dat %>%
+  filter(Cruise %in% c("TN397")) %>%
+  group_by(Part.SampID, Diss.SampID, Cruise, Lat, Long, station, poc) %>%
+  filter(!Part.SampID == "220902_Smp_TN397_U8_BB") %>%
+  reframe(Part.Osmo.Conc.nM = sum(Part.Conc.nM, na.rm = TRUE),
+          Diss.Osmo.Conc.nM = sum(Diss.Conc.nM.adj, na.rm = TRUE),
+          Total.Osmo.Conc.nM = sum(Total.Conc.nM, na.rm = TRUE)) %>%
+  mutate(Leg = case_when(Long > -139.5 ~ "Leg_1",
+                            Long < -140.5 ~ "Leg_3",
+                            TRUE ~ "Leg_2")) %>%
+  mutate(lat_bin = cut(Lat, breaks = lat.breaks, include.lowest = TRUE, right = FALSE)) %>%
+  group_by(Leg, lat_bin) %>%
+  reframe(mean_part_conc = mean(Part.Osmo.Conc.nM, na.rm = TRUE),
+          mean_diss_conc = mean(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          mean_total_conc = mean(Total.Osmo.Conc.nM, na.rm = TRUE),
+          sd_part_conc = sd(Part.Osmo.Conc.nM, na.rm = TRUE),
+          sd_diss_conc = sd(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          sd_tot_conc = sd(Total.Osmo.Conc.nM, na.rm = TRUE),
+          mean_poc = mean(poc, na.rm = TRUE),
+          sd_poc = sd(poc, na.rm = TRUE),
+          mean_lat = mean(Lat)) %>%
+  mutate(Compound = "Total") %>%
+  select(Compound, Leg, lat_bin, mean_lat, mean_part_conc, sd_part_conc)
+
+
+g4.comp.dat <- dat %>%
+  filter(Cruise %in% c("TN397")) %>%
+  group_by(Compound, Part.SampID, Diss.SampID, Cruise, Lat, Long, station, poc) %>%
+  filter(!Part.SampID == "220902_Smp_TN397_U8_BB") %>%
+  reframe(Part.Osmo.Conc.nM = sum(Part.Conc.nM, na.rm = TRUE),
+          Diss.Osmo.Conc.nM = sum(Diss.Conc.nM.adj, na.rm = TRUE),
+          Total.Osmo.Conc.nM = sum(Total.Conc.nM, na.rm = TRUE)) %>%
+  mutate(Leg = case_when(Long > -139.5 ~ "Leg_1",
+                         Long < -140.5 ~ "Leg_3",
+                         TRUE ~ "Leg_2")) %>%
+  mutate(lat_bin = cut(Lat, breaks = lat.breaks, include.lowest = TRUE, right = FALSE)) %>%
+  group_by(Compound, Leg, lat_bin) %>%
+  reframe(mean_part_conc = mean(Part.Osmo.Conc.nM, na.rm = TRUE),
+          mean_diss_conc = mean(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          mean_total_conc = mean(Total.Osmo.Conc.nM, na.rm = TRUE),
+          sd_part_conc = sd(Part.Osmo.Conc.nM, na.rm = TRUE),
+          sd_diss_conc = sd(Diss.Osmo.Conc.nM, na.rm = TRUE),
+          sd_tot_conc = sd(Total.Osmo.Conc.nM, na.rm = TRUE),
+          mean_poc = mean(poc, na.rm = TRUE),
+          sd_poc = sd(poc, na.rm = TRUE),
+          mean_lat = mean(Lat)) %>%
+  filter(Compound %in% c("Sucrose", "Homarine")) %>%
+  select(Compound, Leg, lat_bin, mean_lat, mean_part_conc, sd_part_conc)
+
+
+g4.all.dat <- rbind(g4.dat, g4.comp.dat) 
+
+
+
+#separate data by leg for export:
+
+#G3 data for export:
+g3.leg1.dat <- g3.all.dat %>% filter(Leg == "Leg_1")
+g3.leg2.dat <- g3.all.dat %>% filter(Leg == "Leg_2")
+g3.leg3.dat <- g3.all.dat %>% filter(Leg == "Leg_3")
+
+#G4 data for export:
+g4.leg1.dat <- g4.all.dat %>% filter(Leg == "Leg_1")
+g4.leg2.dat <- g4.all.dat %>% filter(Leg == "Leg_2")
+g4.leg3.dat <- g4.all.dat %>% filter(Leg == "Leg_3")
+
+#Write as separate files:
+write_csv(g3.leg1.dat, file = "Intermediates/Biogeography_Synthesis/G3_Leg1_Osmo.csv")
+write_csv(g3.leg2.dat, file = "Intermediates/Biogeography_Synthesis/G3_Leg2_Osmo.csv")
+write_csv(g3.leg3.dat, file = "Intermediates/Biogeography_Synthesis/G3_Leg3_Osmo.csv")
+write_csv(g4.leg1.dat, file = "Intermediates/Biogeography_Synthesis/G4_Leg1_Osmo.csv")
+write_csv(g4.leg2.dat, file = "Intermediates/Biogeography_Synthesis/G4_Leg2_Osmo.csv")
+write_csv(g4.leg3.dat, file = "Intermediates/Biogeography_Synthesis/G4_Leg3_Osmo.csv")
+
+
+
+
+##Combine together:
+steph.dat <- rbind(g.tot.osmo.dat.s, Specific.Compound.Osmo.dat.s)
+write_csv(steph.dat, file = "Intermediates/Osmolyte_Biogeography_Data_JSS.csv")
 
 
 

@@ -11,6 +11,7 @@ d1.vol.file <- "Meta_Data/RC078_metadata.csv"
 perifix.file <-  "Meta_Data/PERIFIX_metadata_2.csv"
 g4dp.file <- "Meta_Data/G4_DepthProfile_metadata_2.csv"
 g3dp.file <- "Meta_Data/G3_DepthProfile_metadata.csv"
+rr.file <- "Meta_data/RR_MetaData.csv"
 
 #Location data:
 g3.loc.file <- "Meta_Data/G3_Samp_Locations.csv"
@@ -73,9 +74,14 @@ g3dp.vol.filt <- read_csv(g3dp.file) %>%
   select(SampID, Vol_L)  %>%
   mutate(Cruise = "G3_DepthProfiles")
 
+#G2 Resource Ratio:
+RR.vol.filt <- read_csv(rr.file) %>%
+  select(SampID, Vol_L) %>%
+  mutate(Cruise = "RR")
+
 
 ###All Volume Filtered Data:
-vol.dat <- rbind(g4.vol.filt, g3.vol.filt, d1.vol.filt, g4dp.vol.filt, perifix.vol.filt, g3dp.vol.filt)
+vol.dat <- rbind(g4.vol.filt, g3.vol.filt, d1.vol.filt, g4dp.vol.filt, perifix.vol.filt, g3dp.vol.filt, RR.vol.filt)
 
 write_csv(vol.dat, file = "Intermediates/all_vol_filt_data.csv")
 

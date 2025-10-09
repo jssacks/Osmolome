@@ -167,3 +167,54 @@ ggsave(percent.plots, file = "Figures/Outputs/Percent_POC_PON_POS_Plots.png",
 
 
 
+###Try out Percent Living biomass estimate:
+Live.biomass <- percent.dat %>%
+  dplyr::select(Part.SampID, Cruise, Part.Conc.nM, sst, sss, chla, poc, Lat, Long, N_N, Region) %>%
+  group_by(Part.SampID, Cruise, chla, poc, Lat, Long, sst, sss, N_N, Region) %>%
+  reframe(Sum.Part.nM = sum(Part.Conc.nM)) %>%
+  ungroup() %>%
+  unique() %>%
+  mutate(Living_Biomass_ng_C = 660*Sum.Part.nM^0.976,
+            Living_Biomass_nM_C = Living_Biomass_ng_C/12.01,
+            Percent_Living = Living_Biomass_nM_C/(poc*1000)*100)
+
+Gradients.biomass <- Live.biomass %>%
+  filter(Cruise %in% c("TN397", "KM1906"))
+
+ggplot(Gradients.biomass, aes(x = Lat, y = Percent_Living, color = Long)) +
+  geom_point()
+
+
+#Chla
+ggplot(Live.biomass, aes(y = Sum.Part.nM, x = chla, color = Region)) +
+  geom_point() +
+  scale_y_log10() +
+  scale_x_log10()
+
+#POC
+ggplot(Live.biomass, aes(y = Sum.Part.nM, x = poc, color = Region)) +
+  geom_point() +
+  scale_y_log10() +
+  scale_x_log10()
+
+#
+ggplot(Live.biomass, aes(y = Sum.Part.nM, x = N_N, color = Region)) +
+  geom_point() +
+  scale_y_log10() +
+  scale_x_log10()
+
+#sst
+ggplot(Live.biomass, aes(y = Sum.Part.nM, x = sst, color = Region)) +
+  geom_point() +
+  scale_y_log10() 
+#  scale_x_log10()
+
+#sst
+ggplot(Live.biomass, aes(y = Sum.Part.nM, x = sss, color = Region)) +
+  geom_point() +
+  scale_y_log10() 
+
+
+
+
+

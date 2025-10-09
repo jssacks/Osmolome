@@ -180,14 +180,42 @@ write_csv(full.interp, file = "Intermediates/G4_MetaData_with_interpolations.csv
 
 
 
-
-
-
 #@Prelim_Viz
-ggplot(full.interp, aes(x = lat, y = chla_interp)) +
-  geom_point(aes(color = time)) #+
-  geom_point(aes(x = lat, y = pp_14c), color = "red")
 
+#PC
+ggplot(full.interp, aes(x = time, y = pc_interp)) +
+  geom_smooth(span = 0.05) +
+  geom_point(aes(color = time)) +
+  geom_point(aes(x = time, y = pc), color = "red")
+
+
+ggplot(full.interp, aes(x = lat, y = pc_interp)) +
+  geom_point(aes(color = time)) +
+  geom_path() +
+  geom_smooth(span = 0.15, se = FALSE) +
+  geom_point(aes(x = lat, y = pc), color = "red")
+  
+#N+N
+ggplot(full.interp, aes(x = lat, y = N_N_interp)) +
+  geom_point(aes(color = time)) +
+  geom_path() +
+  geom_smooth(span = 0.15, se = FALSE) +
+  geom_point(aes(x = lat, y = N_N), color = "red")
+
+
+
+ggplot(full.interp, aes(x = time, y = N_N_interp)) +
+#  geom_smooth(span = 0.15, se = FALSE) +
+  geom_point(color = "red") 
+
+ggplot(full.interp, aes(x = time, y = chla)) +
+  geom_smooth(span = 0.15, se = FALSE) +
+  geom_point(color = "red") 
+
+
+ggplot(full.interp, aes(x = time, y = chla)) +
+  geom_smooth(span = 0.15, se = FALSE) +
+  geom_point(color = "red") 
 
 ggplot(full.interp, aes(x = lat, y = sss)) +
   geom_point(aes(color = time)) 

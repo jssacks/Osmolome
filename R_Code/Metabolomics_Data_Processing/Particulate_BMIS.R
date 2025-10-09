@@ -31,7 +31,7 @@ hilic.dat <- read_csv(hilic.file) %>%
   select(MF, SampID, Area, Cruise) %>%
   filter(!str_detect(.$SampID, "Std")) %>%
   filter(!str_detect(.$SampID, "DDA")) %>%
-  filter(!str_detect(.$SampID, "Blk")) %>%
+ # filter(!str_detect(.$SampID, "Blk")) %>%
   filter(!SampID == "221006_Smp_S7_C1_D1_A")
 
 
@@ -43,7 +43,7 @@ is.dat.full <- read_csv(is.file) %>%
   select(SampID, MF, Area, Cruise) %>%
   filter(!str_detect(.$SampID, "Std")) %>%
   filter(!str_detect(.$SampID, "DDA")) %>%
-  filter(!str_detect(.$SampID, "Blk")) %>%
+#  filter(!str_detect(.$SampID, "Blk")) %>%
   filter(!SampID == "221006_Smp_S7_C1_D1_A")
 
 
@@ -187,6 +187,64 @@ g3dp.is.dat.full.with.samp.edited <- g3dp.is.dat.full.with.samp %>%
 
 
 
+#G2 Resource Ratio Incubations
+rr.is.dat.full.with.samp <- is.dat.full.with.samp %>%
+  filter(Cruise == "RR") 
+
+rr.IS_inspectPlot <- ggplot(rr.is.dat.full.with.samp, aes(x=SampID, y=Area)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(.~MF, scales="free_y")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust = 0.5, size = 5), 
+        axis.text.y = element_text(size = 10),
+        legend.position = "top",
+        strip.text = element_text(size = 10))+
+  ggtitle("IS Raw Areas")
+rr.IS_inspectPlot
+
+rr.is.dat.full.with.samp.edited <- rr.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "Arsenobetaine")) %>%
+  filter(!str_detect(MF, "Citrulline")) %>%
+  filter(!str_detect(MF, "Cytosine")) %>%
+  filter(!str_detect(MF, "Glucosamine")) %>%
+  filter(!str_detect(MF, "Glycine betaine")) %>%
+  filter(!str_detect(MF, "Guanosine")) %>%
+  filter(!str_detect(MF, "Guanine")) %>%
+  filter(!str_detect(MF, "Homarine")) %>%
+  filter(!str_detect(MF, "Alanine")) %>%
+  filter(!str_detect(MF, "Arginine")) %>%
+  filter(!str_detect(MF, "Cysteic")) %>%
+  filter(!str_detect(MF, "Histidine")) %>%
+  filter(!str_detect(MF, "Nitrate")) %>%
+  filter(!str_detect(MF, "Succinic")) %>%
+  filter(!str_detect(MF, "Sulfoacetic")) %>%
+  filter(!str_detect(MF, "Thymine")) %>%
+  filter(!str_detect(MF, "Ornithine")) %>%
+  filter(!str_detect(MF, "Trimethylamine N-oxide")) 
+
+
+
+##Paragon Net Traps
+pnt.is.dat.full.with.samp <- is.dat.full.with.samp %>%
+  filter(Cruise == "PNT")
+
+pnt.IS_inspectPlot <- ggplot(pnt.is.dat.full.with.samp, aes(x=SampID, y=Area)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(.~MF, scales="free_y")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust = 0.5, size = 5), 
+        axis.text.y = element_text(size = 10),
+        legend.position = "top",
+        strip.text = element_text(size = 10)) +
+  ggtitle("IS Raw Areas")
+pnt.IS_inspectPlot
+
+pnt.is.dat.full.with.samp.edited <- pnt.is.dat.full.with.samp %>%
+  filter(!str_detect(MF, "Sulfolactate")) %>% 
+  filter(!str_detect(MF, "Glucosamine")) %>% 
+  filter(!str_detect(MF, "Ornithine")) 
+
+
+
+
 ###Combine all batches together:
 is.dat.full.with.samp.edited <- rbind(
   km1906.is.dat.full.with.samp.edited,
@@ -194,8 +252,11 @@ is.dat.full.with.samp.edited <- rbind(
   perifix.is.dat.full.with.samp.edited,
   rc078.is.dat.full.with.samp.edited,
   g4dp.is.dat.full.with.samp.edited,
-  g3dp.is.dat.full.with.samp.edited
+  g3dp.is.dat.full.with.samp.edited,
+  rr.is.dat.full.with.samp.edited,
+  pnt.is.dat.full.with.samp.edited
 )
+
 
 #export peak list of good IS:
 write_csv(is.dat.full.with.samp.edited, file = "Intermediates/particulate_final_IS_peaklist.csv")
@@ -352,12 +413,12 @@ injectONlY_toPlot <- IS_toISdat %>%
   filter(MIS == "Inj_vol" ) 
 
 
-ISTest_plot <- ggplot()+
-  geom_point(dat = IS_toISdat, color = "black", size = 2,aes(x = RSD_ofPoo, y = RSD_ofSmp, shape = Cruise))+ 
-  scale_fill_manual(values=c("white","dark gray"))+
-  geom_point(dat = injectONlY_toPlot, aes(x = RSD_ofPoo, y = RSD_ofSmp), size = 3) +
-  facet_wrap(~ MF)
-ISTest_plot
+# ISTest_plot <- ggplot()+
+#   geom_point(dat = IS_toISdat, color = "black", size = 2,aes(x = RSD_ofPoo, y = RSD_ofSmp, shape = Cruise))+ 
+#   scale_fill_manual(values=c("white","dark gray"))+
+#   geom_point(dat = injectONlY_toPlot, aes(x = RSD_ofPoo, y = RSD_ofSmp), size = 3) +
+#   facet_wrap(~ MF)
+# ISTest_plot
 
 #Get all the data back - and keep only the MF-MIS match set for the BMIS----
 #Add a column to the longdat that has important information from the FullDat_fixed, 
