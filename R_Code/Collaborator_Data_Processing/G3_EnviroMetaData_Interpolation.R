@@ -92,7 +92,7 @@ full.dat <- ts.hr %>%
   left_join(., pcpn.hr) %>%
   left_join(., nut.hr) %>%
 #  left_join(., don.hr) %>%
-  left_join(., bact.hr) %>%
+#  left_join(., bact.hr) %>%
   arrange(time)
 
 

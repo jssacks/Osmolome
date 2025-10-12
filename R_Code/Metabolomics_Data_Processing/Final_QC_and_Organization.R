@@ -50,7 +50,7 @@ p.q.qc.dat <- p.q.dat %>%
          Part.Conc.N.nM = nM_N,
          Part.Conc.S.nM = nM_S) 
 
-write_csv(p.q.qc.dat, file = "Intermediates/Dissolved_Final_Quant_QCed.csv")
+write_csv(p.q.qc.dat, file = "Intermediates/Particulate_Final_Quant_QCed.csv")
 
 
 
@@ -81,9 +81,12 @@ d.q.qc.dat <- d.q.dat %>%
          LOD.nM = EE.adjust.lod - EE.adjust.Blk.Av,
          Diss.Conc.no.blk.sub.nM = EE.adjust.conc,
          LOD.no.blk.sub.nM = EE.adjust.lod) %>%
+  mutate(detected = case_when(Diss.Conc.nM < 0 ~ "No",
+                              TRUE ~ detected)) %>%
   filter(!str_detect(SampID, "Std")) %>%
   filter(!str_detect(SampID, "Blk")) %>%
   filter(!str_detect(SampID, "Poo")) %>%
+  filter(!Compound == "L-Arginine") %>%
   rename(Diss.Conc.Vial.uM = conc.in.vial.uM) %>%
   select(Cruise, SampID, Compound, detected, Diss.Conc.Vial.uM, Diss.Conc.nM, Diss.Conc.C.nM, Diss.Conc.N.nM, Diss.Conc.S.nM, impute.conc.nM, LOD.nM, Diss.Conc.no.blk.sub.nM, LOD.no.blk.sub.nM)
 
@@ -158,13 +161,14 @@ write_csv(g2.q.qc.dat, file = "Intermediates/G2SF_Final_Quant_QCed.csv")
 ####Create Sample Matching Key for Dissolved and Particulate Data:
 
 p.ids <- p.q.dat %>%
-  filter(Cruise %in% c("TN397", "KM1906", "RC078")) %>%
+  filter(Cruise %in% c("TN397", "KM1906", "RC078", "PERIFIX")) %>%
   filter(!str_detect(SampID, "Blk"),
          !str_detect(SampID, "blk"),
          !str_detect(SampID, "Poo")) %>%
   mutate(Parent_ID = str_remove(SampID, "220902_Smp_")) %>%
   mutate(Parent_ID = str_remove(Parent_ID, "220628_Smp_")) %>%
   mutate(Parent_ID = str_remove(Parent_ID, "221006_Smp_")) %>%
+  mutate(Parent_ID = str_remove(Parent_ID, "230213_Smp_")) %>%
   rename(Part.SampID = SampID) %>%
   select(Cruise, Parent_ID, Part.SampID) %>% 
   unique()
@@ -173,7 +177,7 @@ p.ids <- p.q.dat %>%
 
 #get dissolved sample key
 d.ids <- d.q.dat %>%
-  filter(Cruise %in% c("TN397", "KM1906", "RC078")) %>%
+  filter(Cruise %in% c("TN397", "KM1906", "RC078", "PERIFIX")) %>%
   filter(!str_detect(SampID, "Blk"),
          !str_detect(SampID, "blk"),
          !str_detect(SampID, "Poo")) %>%
@@ -191,6 +195,8 @@ Part.Diss.Samp.Key <- full_join(p.ids, d.ids)
 
 #write to csv
 write_csv(Part.Diss.Samp.Key, file = "Intermediates/Distributions_Part_Diss_Sample_Key.csv")
+
+
 
 
 ####Match up particulate and dissolved measurements:
