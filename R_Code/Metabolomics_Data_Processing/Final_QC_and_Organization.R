@@ -39,7 +39,7 @@ p.qc <- read_csv(p.qc.file) %>%
 p.qc.impute.values <- read_csv(p.impute.file) %>%
   rename("Compound" = Name)
 
-#Make final quant and QC particulate dataset:
+#Make final quant and QC particulate dataset and remove compounds we are not confident in or that are not documented osmolytes:
 p.q.qc.dat <- p.q.dat %>%
   left_join(., p.qc) %>%
   left_join(., p.qc.impute.values) %>%
@@ -48,7 +48,8 @@ p.q.qc.dat <- p.q.dat %>%
          Part.Conc.nM = nM.in.smp,
          Part.Conc.C.nM = nM_C,
          Part.Conc.N.nM = nM_N,
-         Part.Conc.S.nM = nM_S) 
+         Part.Conc.S.nM = nM_S) %>%
+  filter(!Compound %in% c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)", "L-Serine", "L-Arginine"))
 
 write_csv(p.q.qc.dat, file = "Intermediates/Particulate_Final_Quant_QCed.csv")
 
@@ -88,7 +89,8 @@ d.q.qc.dat <- d.q.dat %>%
   filter(!str_detect(SampID, "Poo")) %>%
   filter(!Compound == "L-Arginine") %>%
   rename(Diss.Conc.Vial.uM = conc.in.vial.uM) %>%
-  select(Cruise, SampID, Compound, detected, Diss.Conc.Vial.uM, Diss.Conc.nM, Diss.Conc.C.nM, Diss.Conc.N.nM, Diss.Conc.S.nM, impute.conc.nM, LOD.nM, Diss.Conc.no.blk.sub.nM, LOD.no.blk.sub.nM)
+  select(Cruise, SampID, Compound, detected, Diss.Conc.Vial.uM, Diss.Conc.nM, Diss.Conc.C.nM, Diss.Conc.N.nM, Diss.Conc.S.nM, impute.conc.nM, LOD.nM, Diss.Conc.no.blk.sub.nM, LOD.no.blk.sub.nM) %>%
+  filter(!Compound %in% c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)", "L-Serine", "L-Arginine"))
 
 write_csv(d.q.qc.dat, file = "Intermediates/Dissolved_Final_Quant_QCed.csv")
 
@@ -110,7 +112,8 @@ c.q.qc.dat <- c.q.dat %>%
          Part.Conc.C.uM = uM_C_smp,
          Part.Conc.N.uM = uM_N_smp,
          Part.Conc.S.uM = uM_S_smp) %>%
-  select(Batch, Type, Organism, SampID, Compound, Part.Conc.Vial.uM, Part.Conc.uM, Part.Conc.C.uM, Part.Conc.N.uM, Part.Conc.S.uM, Detected)
+  select(Batch, Type, Organism, SampID, Compound, Part.Conc.Vial.uM, Part.Conc.uM, Part.Conc.C.uM, Part.Conc.N.uM, Part.Conc.S.uM, Detected) %>%
+  filter(!Compound %in% c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)", "L-Serine", "L-Arginine"))
 
 
 write_csv(c.q.qc.dat, file = "Intermediates/Culture_Final_Quant_QCed.csv")
@@ -137,7 +140,8 @@ g2.q.qc.dat <- g2.q.dat %>%
          Part.Conc.C.nM = nM_C,
          Part.Conc.N.nM = nM_N,
          Part.Conc.S.nM = nM_S) %>%
-  select(SampID, Compound, Part.Conc.Vial.uM, Part.Conc.nM, Part.Conc.C.nM, Part.Conc.N.nM, Part.Conc.S.nM, detected, impute.conc.nM)
+  select(SampID, Compound, Part.Conc.Vial.uM, Part.Conc.nM, Part.Conc.C.nM, Part.Conc.N.nM, Part.Conc.S.nM, detected, impute.conc.nM) %>%
+  filter(!Compound %in% c("Homoserine Betaine (tentative)", "Threonine Betaine (tentative)", "L-Serine", "L-Arginine"))
   
 
 write_csv(g2.q.qc.dat, file = "Intermediates/G2SF_Final_Quant_QCed.csv")

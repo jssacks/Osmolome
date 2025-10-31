@@ -68,7 +68,7 @@ library(cmocean)
 ggplot(chlmap, aes(x=lon, y=lat, fill = log(Chl))) +
   geom_raster() +
   coord_fixed() + 
-  scale_fill_cmocean(name = "delta", alpha = 0.75, limits = c(-3.5,1))  +
+  scale_fill_cmocean(name = "delta", alpha = 0.8, limits = c(-3.5,1.5))  +
   theme_test() +
   scale_y_continuous(expand = c(0,0)) +
   scale_x_continuous(expand = c(0,0))

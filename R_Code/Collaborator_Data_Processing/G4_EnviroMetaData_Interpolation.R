@@ -182,11 +182,18 @@ write_csv(full.interp, file = "Intermediates/G4_MetaData_with_interpolations.csv
 
 #@Prelim_Viz
 
-#PC
-ggplot(full.interp, aes(x = time, y = pc_interp)) +
-  geom_smooth(span = 0.05) +
+#PP 13C
+ggplot(full.interp, aes(x = lat, y = pp_13c_interp)) +
+#  geom_smooth(span = 0.05) +
   geom_point(aes(color = time)) +
-  geom_point(aes(x = time, y = pc), color = "red")
+  geom_point(aes(x = lat, y = pp_13c), color = "red")
+
+
+#PP 14C
+ggplot(full.interp, aes(x = lat, y = pp_14c_interp)) +
+  #  geom_smooth(span = 0.05) +
+  geom_point(aes(color = time)) +
+  geom_point(aes(x = lat, y = pp_14c), color = "red")
 
 
 ggplot(full.interp, aes(x = lat, y = pc_interp)) +
@@ -201,6 +208,24 @@ ggplot(full.interp, aes(x = lat, y = N_N_interp)) +
   geom_path() +
   geom_smooth(span = 0.15, se = FALSE) +
   geom_point(aes(x = lat, y = N_N), color = "red")
+
+
+
+###Compare 14c and 13c to poc ratios
+prod.ratio <- full.interp %>%
+  mutate(prod.ratio.13c = pp_13c/pc_interp,
+         prod.ratio.14c = pp_14c/pc_interp)
+
+
+ggplot(prod.ratio, aes(x = lat, y = prod.ratio.13c)) +
+  geom_point(size = 2) +
+  ylab("13C Productivity/POC Ratio") +
+  ylim(c(0,10))
+
+ggplot(prod.ratio, aes(x = lat, y = prod.ratio.14c)) +
+  geom_point(size = 2)+
+  ylab("14C Productivity/POC Ratio") +
+  ylim(c(0,10))
 
 
 

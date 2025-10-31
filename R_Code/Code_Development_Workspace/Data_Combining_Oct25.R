@@ -171,7 +171,7 @@ g.samp.enviro.dat <- left_join(g.samp.dat, gradients.dat) %>%
   filter(keep == "yes") %>%
   select(-keep) %>%
   unique() %>%
-  select(Cruise, Lat, Long, Local_Date, Local_Time, depth_m, Parent_ID, sst, sss, chla_interp, pc_interp, pn_interp, N_N_interp) %>%
+  select(Cruise, Lat, Long, UTC.time.round, Local_Date, Local_Time, depth_m, Parent_ID, sst, sss, chla_interp, pc_interp, pn_interp, N_N_interp) %>%
   rename(chla = chla_interp,
          poc = pc_interp,
          pn = pn_interp,
@@ -219,7 +219,8 @@ d1.env.dat <- read_csv(d1.file) %>%
  # rename(Part.SampID = SampID) %>%
   left_join(., d1.samp.IDs) %>%
   rename(Parent_ID = sample_id) %>%
-  select(Cruise, Lat, Long, Local_Date, Local_Time, Station, depth_m, Parent_ID, sss, sst, chla, poc, pn, N_N, doc)
+  select(Cruise, Lat, Long, Local_Date, Local_Time, Station, depth_m, Parent_ID, sss, sst, chla, poc, pn, N_N, doc) %>%
+  mutate(UTC.time.round = NA)
 
 
 

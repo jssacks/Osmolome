@@ -14,6 +14,7 @@ pc.uw.file <- "Collaborator_Data/KM1906/Gradients3_KM1906_PCPN_UW.csv"
 ts.file <- "Collaborator_Data/KM1906/KM1906_Gradients3_uw_tsg.csv"
 #bact.file <- "Collaborator_Data/KM1906/G3_Influx_Stations_Gradients_2019.csv"
 chla.file <- "Collaborator_Data/KM1906/Gradients3_KM1906_Optics_LISST_ACS_ECO.csv"
+pp.13c.file <- "Collaborator_Data/KM1906/Gradients3_KM1906_15N13C.csv"
 
 #Read in datasets:
 nut.uw.dat <- read_csv(nut.uw.file)
@@ -21,7 +22,11 @@ pc.uw.dat <- read_csv(pc.uw.file)
 #don.dat <- read_csv(g3.don.file).    #No DON Data for G3
 ts.dat <- read_csv(ts.file)
 chla.dat <- read_csv(chla.file)
-#pp.13c.dat <- read_csv(pp.13c.file)
+pp13c.dat <- read_csv(pp.13c.file)
+
+
+
+
 
 #select desired variables and summarize datasets at the level of hour
 
@@ -66,24 +71,36 @@ nut.hr <- nut.uw.dat %>%
   select(time, N_N, SRP) %>%
   unique()
 
-##DON
-#don.hr <- don.dat %>%
-#  filter(depth < 10) %>%
-#  mutate(time = round_date(time, unit = "hour")) %>%
-#  group_by(time) %>%
-#  mutate(DON = mean(DON)) %>%
-#  select(time, DON) %>%
-#  unique()
-
-##Bacteria
-bact.hr <- bact.dat %>%
-  filter(depth < 16) %>%
-  mutate(time = round_date(time, unit = "hour")) %>%
+##Nutrients
+pp13c.hr <- pp13c.dat %>%
+  # mutate(Nitrate_Nitrite = case_when(Nitrate_Nitrite_below_detection_flag == 1 ~ 0.001,
+  #                                    TRUE ~ Nitrate_Nitrite)) %>%
+  mutate(time = round_date(time, unit = "hour"))# %>%
   group_by(time) %>%
-  mutate(bact_abu = mean(abundance_bacteria, na.rm = T),
-         bact_c = mean(biomass_bacteria, na.rm = T)) %>%
-  select(time, bact_abu, bact_c) %>%
+  mutate(pp13c = mean(avg_fix_rate_13C)) %>%
+  select(time, pp13c) %>%
   unique()
+
+# ##Bacteria
+# bact.hr <- bact.dat %>%
+#   filter(depth < 16) %>%
+#   mutate(time = round_date(time, unit = "hour")) %>%
+#   group_by(time) %>%
+#   mutate(bact_abu = mean(abundance_bacteria, na.rm = T),
+#          bact_c = mean(biomass_bacteria, na.rm = T)) %>%
+#   select(time, bact_abu, bact_c) %>%
+#   unique()
+
+
+
+
+
+
+
+
+
+
+
 
 
 ###_________Put it all together and attempt interpolation
@@ -91,6 +108,7 @@ full.dat <- ts.hr %>%
   left_join(., chla.hr) %>%
   left_join(., pcpn.hr) %>%
   left_join(., nut.hr) %>%
+  left_joing(., pp13c.hr)
 #  left_join(., don.hr) %>%
 #  left_join(., bact.hr) %>%
   arrange(time)

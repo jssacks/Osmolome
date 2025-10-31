@@ -70,10 +70,6 @@ compound.pal.fig <-
     "Proline betaine"	= "#ad494a",
     "Betonicine" =	"#d6616b",
     "TMAB" = "#e7969c",
-    "Homoserine Betaine (t)" = 	"#7b4173",
-    "Threonine Betaine (t)"	= "#a55194",
-    "Ectoine" =	"#ce6dbd",
-    "Hydroxyectoine" =	"#de9ed6",
     "GG" =	"#3d0f99",  
     "Sucrose" =	"#653eb3",
     "Trehalose" =	"#756bb1",
@@ -83,6 +79,8 @@ compound.pal.fig <-
     "Isethionic acid" =	"#fdae6b",
     "Taurine" = "#fdd0a2",
     "DHPS" =	"#fd8d3c",
+    "Ectoine" =	"#ce6dbd",
+    "Hydroxyectoine" =	"#de9ed6",
     "TMAO"	= "#e6550d",
     "Arsenobetaine" = "#cccccc")
 
@@ -129,22 +127,102 @@ region.palette.4 <- c(
   "PS" = "#ff9d57")
 
 
+region.palette.5 <- c(
+  "PEDP" = "#eff0f2", 
+  "NPEC" = "#a8dadc",
+  "NPSG" = "#457b9d",
+  "NPTZ" = "#1d3557",
+  "CUCP" = "#ffd65f",
+  "SS" = "#E63946")
+  
+region.palette.6 <- c(
+  "PEDP" = "#ff9d57", 
+  "NPEC" = "#eff0f2",
+  "NPSG" = "#e7ba52",
+  "NPTZ" = "#E63946",
+  "CUCP" = "#146627",
+  "SS" = "#878927")
+
+
+region.palette.7 <- c(
+  "PEDP" = "#9AB5D2", 
+  "NPEC" = "#EC372E",
+  "NPSG" = "#494784",
+  "NPTZ" = "#F5A622",
+  "CUCP" = "#4BA476",
+  "SS" = "#A6A6A6")
+
+
+region.palette.color <- c(
+  "PEDP" = "#9AB5D2", 
+  "NPEC" = "#EC372E",
+  "NPSG" = "#494784",
+  "NPTZ" = "#F5A622",
+  "CUCP" = "#4BA476",
+  "SS" = "#A6A6A6")
+
+
+region.palette.8 <- c(
+  "PEDP" = "#2A366E", 
+  "NPEC" = "#008280",
+  "NPSG" = "#D74D34",
+  "NPTZ" = "#F5A622",
+  "CUCP" = "#9AB5D2",
+  "SS" = "#667382")
+
+
+volcano.palette <- c(
+  "Increased all three" = "darkblue",
+  "Increased G3 and G4" = "#9AB5D2",
+  "Other" = "lightgray",
+  "Decreased G3 and G4" = "#e7969c",
+  "Decreased all three" = "darkred")
+  
+
+
+
+
+#2A366E
+
+#008280
+
+#D74D34
+
+#F5A622
+
+#9AB5D2
+
+#667382
+
+
 compound.order <- 
   tibble(Compound = c("L-Glutamic acid", "L-Glutamine", "L-Aspartic acid", "L-Proline", "L-Alanine", "beta-Alanine", "L-Isoleucine",
                       "L-Asparagine", "Hydroxyisoleucine", "Sarcosine", "L-Threonine", "beta-Glutamic acid", "Glycine betaine", "beta-Alaninebetaine", "Homarine", "Trigonelline",
                       "Carnitine", "Proline betaine", "Betonicine", "(3-Carboxypropyl)trimethylammonium",
-                      "Ectoine", "5-Hydroxyectoine", "2-O-alpha-D-Glucosylglycerol",
+                       "2-O-alpha-D-Glucosylglycerol",
                       "Sucrose", "Trehalose", "Dimethylsulfonioacetate", "Gonyol", "Dimethylsulfoniopropionate",
-                      "Isethionic acid", "Taurine", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Trimethylamine N-oxide", "Arsenobetaine"), 
+                      "Isethionic acid", "Taurine", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Ectoine", "5-Hydroxyectoine", "Trimethylamine N-oxide", "Arsenobetaine"), 
          order = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30, 31, 32, 33),
          class = c("AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "Betaine", "Betaine", "Betaine", "Betaine", "Betaine", "Betaine", "Betaine",
                    "Betaine", "Other", "Other","Sugar", "Sugar", "Sugar", "Sulfonium", "Sulfonium", "Sulfonium",
                    "Sulfonate","Sulfonate", "Sulfonate", "Other", "Other"),
          compound.name.figure = c("Glutamic acid", "Glutamine", "Aspartic acid", "Proline", "Alanine", "beta-Alanine", "(Iso)leucine", "Asparagine", "Hydroxyisoleucine",
                                   "Sarcosine", "Threonine", "beta-Glutamic acid", "GBT", "beta-Alanine betaine", "Homarine", "Trigonelline", 
-                                  "Carnitine", "Proline betaine", "Betonicine", "TMAB", "Ectoine",
-                                  "Hydroxyectoine", "GG", "Sucrose", "Trehalose", "DMSA", "Gonyol", "DMSP", "Isethionic acid", "Taurine", "DHPS", "TMAO",
-                                  "Arsenobetaine"))
+                                  "Carnitine", "Proline betaine", "Betonicine", "TMAB",  "GG", "Sucrose", "Trehalose", "DMSA", "Gonyol", "DMSP", "Isethionic acid", 
+                                  "Taurine", "DHPS", "Ectoine", "Hydroxyectoine", "TMAO", "Arsenobetaine"))
 
 
+
+
+##Organism palette:
+org.palette <- c(
+  "Archaea" = "darkred",
+  "Bacteria" = "#3c5488", 
+  "Pro" = "#cedb9c", 
+  "Syn" = "#ff9d57",
+  "Croco" = "#a8dadc",
+  "Prasinophyte" = "#00a087",
+  "Diatom" = "#756bb1", 
+  "Haptophyte" = "#eff0f2", 
+  "Dinoflagellate" = "#ffd65f")
 

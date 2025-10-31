@@ -90,8 +90,8 @@ combine.dat.predict <- combine.dat %>%
   ungroup() %>%
   mutate(GBT_log10 = log10(GBT),
          sum.diss.conc.log10 = log10(sum.diss.conc)) %>%
-  mutate(GBT_predict = 1.381 + 1.482e-01*(sum.diss.conc) - -1.173e-05*(sum.diss.conc^2),
-         GBT_predict_log10 = -1.22110 + 1.55206*(sum.diss.conc.log10) -0.15919*(sum.diss.conc.log10^2),
+  mutate(GBT_predict = 1.313 + 1.552e-01*(sum.diss.conc) - 2.234e-05*(sum.diss.conc^2),
+         GBT_predict_log10 = -1.28407 + 1.63840*(sum.diss.conc.log10) - 0.18191*(sum.diss.conc.log10^2),
          GBT_predict_log10_convert = 10^GBT_predict_log10,
          Residual_reg_predict = GBT_predict - GBT,
          Residual_log10_predict = GBT_predict_log10_convert - GBT)
