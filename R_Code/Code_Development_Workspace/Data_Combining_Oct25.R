@@ -26,6 +26,11 @@ g3.file <- "Intermediates/G3_metadata_with_interpolations.csv"
 g4.file <- "Intermediates/G4_metadata_with_interpolations.csv"
 d1.file <- "Intermediates/RC078_MetaData_Compiled.csv"
 
+#ATP data:
+# atp.file <- writ
+
+#Biovolume data:
+biovol.file <- "Intermediates/G3_G4_IFCB_Seaflow_Biovolume_Data.csv"
 
 
 
@@ -171,11 +176,12 @@ g.samp.enviro.dat <- left_join(g.samp.dat, gradients.dat) %>%
   filter(keep == "yes") %>%
   select(-keep) %>%
   unique() %>%
-  select(Cruise, Lat, Long, UTC.time.round, Local_Date, Local_Time, depth_m, Parent_ID, sst, sss, chla_interp, pc_interp, pn_interp, N_N_interp) %>%
+  select(Cruise, Lat, Long, UTC.time.round, Local_Date, Local_Time, depth_m, Parent_ID, sst, sss, chla_interp, pc_interp, pn_interp, N_N_interp, SRP_interp) %>%
   rename(chla = chla_interp,
          poc = pc_interp,
          pn = pn_interp,
-         N_N = N_N_interp) %>%
+         N_N = N_N_interp,
+         SRP = SRP_interp) %>%
   mutate(doc = NA,
          Station = NA)
 
@@ -186,6 +192,14 @@ g.osmo.full <- left_join(full.osmo.meta.2, g.samp.enviro.dat) %>%
   filter(Cruise %in% c("TN397", "KM1906")) 
 
 
+
+
+### Add in biovolume and ATP data to dataframe:
+biovol.dat <- read_csv(biovol.file) %>%
+  rename(UTC.time.round = time.round,
+         Cruise = cruise)
+
+g.osmo.full.biovol <- left_join(g.osmo.full, biovol.dat)
 
 
 
@@ -214,26 +228,29 @@ d1.env.dat <- read_csv(d1.file) %>%
          "sss" = sal,
          "sst" = temp,
          "chla" = Chl_fluor,
-         "doc" = DOC_uM) %>%
+         "doc" = DOC_uM,
+         "SRP" = PO4) %>%
   mutate("N_N" = NO3 + NO2) %>%
  # rename(Part.SampID = SampID) %>%
   left_join(., d1.samp.IDs) %>%
   rename(Parent_ID = sample_id) %>%
-  select(Cruise, Lat, Long, Local_Date, Local_Time, Station, depth_m, Parent_ID, sss, sst, chla, poc, pn, N_N, doc) %>%
-  mutate(UTC.time.round = NA)
+  select(Cruise, Lat, Long, Local_Date, Local_Time, Station, depth_m, Parent_ID, sss, sst, chla, poc, pn, N_N, SRP, doc) %>%
+  mutate(UTC.time.round = NA) %>%
+  unique()
 
 
 
 ##### D1 environmental data with osmolyte data:
 d.osmo.full <- left_join(full.osmo.meta.2, d1.env.dat) %>%
-  filter(Cruise %in% c("RC078"))
+  filter(Cruise %in% c("RC078")) %>%
+  left_join(., biovol.dat)
 
 
 
 
 
 ###Combine gradients and dinimite datasets and remove samples that will not be analyzed in this project:
-g.d.osmo.full <- rbind(g.osmo.full, d.osmo.full) %>%
+g.d.osmo.full <- rbind(g.osmo.full.biovol, d.osmo.full) %>%
   filter(!str_detect(Part.SampID, "BB")) %>%
   mutate(keep = case_when(Cruise == "RC078" & is.na(Diss.SampID) ~ "No",
                           TRUE ~ "Yes")) %>% 

@@ -63,22 +63,22 @@ pcpn.hr <- pc.uw.dat %>%
 ##Nutrients
 
 #get surface bottle nutrient data
-nut.hr <- don.dat %>%
-  filter(depth < 10) %>%
-  mutate(time = round_date(time, unit = "hour")) %>%
-  group_by(time) %>%
-  mutate(N_N = mean(NO3_NO2)) %>%
-  select(time, N_N) %>%
-  unique()
+# nut.hr <- don.dat %>%
+#   filter(depth < 10) %>%
+#   mutate(time = round_date(time, unit = "hour")) %>%
+#   group_by(time) %>%
+#   mutate(N_N = mean(NO3_NO2)) %>%
+#   select(time, N_N) %>%
+#   unique()
 
 #combine bottle and underway nutrient data
-#nut.hr <- nut.uw.dat %>%
-#  mutate(time = round_date(time, unit = "hour")) %>%
-#  group_by(time) %>%
-#  mutate(N_N = mean(Nitrate_Nitrite),
-#         SRP = mean(SRP)) %>%
-#  select(time, N_N, SRP) %>%
- # unique()
+nut.hr <- nut.uw.dat %>%
+  mutate(time = round_date(time, unit = "hour")) %>%
+  group_by(time) %>%
+  mutate(N_N = mean(Nitrate_Nitrite),
+         SRP = mean(SRP)) %>%
+  select(time, N_N, SRP) %>%
+  unique()
 
 ##DON
 don.hr <- don.dat %>%
@@ -90,30 +90,30 @@ don.hr <- don.dat %>%
   unique()
 
 ##Bacteria
-bact.hr <- bact.dat %>%
-  filter(depth < 10) %>%
-  mutate(time = round_date(time, unit = "hour")) %>%
-  group_by(time) %>%
-  mutate(bact_abu = cell_abundance_bacteria,
-         bact_c = carbon_biomass_bacteria) %>%
-  select(time, bact_abu, bact_c) %>%
-  unique()
+# bact.hr <- bact.dat %>%
+#   filter(depth < 10) %>%
+#   mutate(time = round_date(time, unit = "hour")) %>%
+#   group_by(time) %>%
+#   mutate(bact_abu = cell_abundance_bacteria,
+#          bact_c = carbon_biomass_bacteria) %>%
+#   select(time, bact_abu, bact_c) %>%
+#   unique()
 
 ###PP from 13C measurements
-pp.13c.hr <- pp.13c.dat%>%
-  filter(depth < 10) %>%
-  mutate(time = round_date(time, unit = "hour")) %>%
-  group_by(time) %>%
-  mutate(pp_13c = mean(avg_fix_rate_13C)) %>%
-  select(time, pp_13c)
-
-###PP from 14c measurements
-pp.14c.hr <- pp.14c.dat %>%
-  filter(depth < 10) %>%
-  mutate(time = round_date(time, unit = "hour")) %>%
-  group_by(time) %>%
-  mutate(pp_14c = mean(Cfix)) %>%
-  select(time, pp_14c)
+# pp.13c.hr <- pp.13c.dat%>%
+#   filter(depth < 10) %>%
+#   mutate(time = round_date(time, unit = "hour")) %>%
+#   group_by(time) %>%
+#   mutate(pp_13c = mean(avg_fix_rate_13C)) %>%
+#   select(time, pp_13c)
+# 
+# ###PP from 14c measurements
+# pp.14c.hr <- pp.14c.dat %>%
+#   filter(depth < 10) %>%
+#   mutate(time = round_date(time, unit = "hour")) %>%
+#   group_by(time) %>%
+#   mutate(pp_14c = mean(Cfix)) %>%
+#   select(time, pp_14c)
 
 ###_________Put it all together and attempt interpolation
 full.dat <- ts.hr %>%
@@ -121,9 +121,9 @@ full.dat <- ts.hr %>%
   left_join(., pcpn.hr) %>%
   left_join(., nut.hr) %>%
   left_join(., don.hr) %>%
-  left_join(., bact.hr) %>%
-  left_join(., pp.13c.hr) %>%
-  left_join(., pp.14c.hr) %>%
+#  left_join(., bact.hr) %>%
+#  left_join(., pp.13c.hr) %>%
+#  left_join(., pp.14c.hr) %>%
   arrange(time)
 
 
@@ -142,22 +142,22 @@ pn.interp <- data_frame(pn_interp = na.stinterp(full.dat$pn, along = time(full.d
 N_N.interp <- data_frame(N_N_interp = na.stinterp(full.dat$N_N, along = time(full.dat$time), na.rm = F))
 
 #SRP
-#SRP.interp <- data_frame(SRP_interp = na.stinterp(full.dat$SRP, along = time(full.dat$time), na.rm = F))
+SRP.interp <- data_frame(SRP_interp = na.stinterp(full.dat$SRP, along = time(full.dat$time), na.rm = F))
 
 #DON
 DON.interp <- data_frame(DON_interp = na.stinterp(full.dat$DON, along = time(full.dat$time), na.rm = F))
 
 #bact_abu
-bact_abu.interp <- data_frame(bact_abu_interp = na.stinterp(full.dat$bact_abu, along = time(full.dat$time), na.rm = F))
+#bact_abu.interp <- data_frame(bact_abu_interp = na.stinterp(full.dat$bact_abu, along = time(full.dat$time), na.rm = F))
 
 #bact_c
-bact_c.interp <- data_frame(bact_c_interp = na.stinterp(full.dat$bact_c, along = time(full.dat$time), na.rm = F))
+#bact_c.interp <- data_frame(bact_c_interp = na.stinterp(full.dat$bact_c, along = time(full.dat$time), na.rm = F))
 
 #13C PP
-pp_13c.interp <- data_frame(pp_13c_interp = na.stinterp(full.dat$pp_13c, along = time(full.dat$time), na.rm = F))
+#pp_13c.interp <- data_frame(pp_13c_interp = na.stinterp(full.dat$pp_13c, along = time(full.dat$time), na.rm = F))
 
 #14C PP
-pp_14c.interp <- data_frame(pp_14c_interp = na.stinterp(full.dat$pp_14c, along = time(full.dat$time), na.rm = F))
+#pp_14c.interp <- data_frame(pp_14c_interp = na.stinterp(full.dat$pp_14c, along = time(full.dat$time), na.rm = F))
 
 
 
@@ -166,8 +166,7 @@ pp_14c.interp <- data_frame(pp_14c_interp = na.stinterp(full.dat$pp_14c, along =
 ###Put all datasets together:
 full.interp <- full.dat %>%
   cbind(., chla.interp, pc.interp, pn.interp, N_N.interp, 
-      #  SRP.interp, 
-        DON.interp, bact_abu.interp, bact_c.interp, pp_13c.interp, pp_14c.interp) %>%
+        SRP.interp, DON.interp) %>%
   ungroup() %>%
   mutate(N_N_interp = case_when(N_N_interp < 0.001 ~ 0.001,      ###Set N_N values to LOQ (1 nM) when interpolated below this value...
                                 TRUE ~ N_N_interp))
@@ -182,68 +181,68 @@ write_csv(full.interp, file = "Intermediates/G4_MetaData_with_interpolations.csv
 
 #@Prelim_Viz
 
-#PP 13C
-ggplot(full.interp, aes(x = lat, y = pp_13c_interp)) +
-#  geom_smooth(span = 0.05) +
-  geom_point(aes(color = time)) +
-  geom_point(aes(x = lat, y = pp_13c), color = "red")
+# #PP 13C
+# ggplot(full.interp, aes(x = lat, y = pp_13c_interp)) +
+# #  geom_smooth(span = 0.05) +
+#   geom_point(aes(color = time)) +
+#   geom_point(aes(x = lat, y = pp_13c), color = "red")
+# 
+# 
+# #PP 14C
+# ggplot(full.interp, aes(x = lat, y = pp_14c_interp)) +
+#   #  geom_smooth(span = 0.05) +
+#   geom_point(aes(color = time)) +
+#   geom_point(aes(x = lat, y = pp_14c), color = "red")
+# 
+# 
+# ggplot(full.interp, aes(x = lat, y = pc_interp)) +
+#   geom_point(aes(color = time)) +
+#   geom_path() +
+#   geom_smooth(span = 0.15, se = FALSE) +
+#   geom_point(aes(x = lat, y = pc), color = "red")
+#   
+# #N+N
+# ggplot(full.interp, aes(x = lat, y = N_N_interp)) +
+#   geom_point(aes(color = time)) +
+#   geom_path() +
+#   geom_smooth(span = 0.15, se = FALSE) +
+#   geom_point(aes(x = lat, y = N_N), color = "red")
+# 
+# 
+# 
+# ###Compare 14c and 13c to poc ratios
+# prod.ratio <- full.interp %>%
+#   mutate(prod.ratio.13c = pp_13c/pc_interp,
+#          prod.ratio.14c = pp_14c/pc_interp)
+# 
+# 
+# ggplot(prod.ratio, aes(x = lat, y = prod.ratio.13c)) +
+#   geom_point(size = 2) +
+#   ylab("13C Productivity/POC Ratio") +
+#   ylim(c(0,10))
+# 
+# ggplot(prod.ratio, aes(x = lat, y = prod.ratio.14c)) +
+#   geom_point(size = 2)+
+#   ylab("14C Productivity/POC Ratio") +
+#   ylim(c(0,10))
 
 
-#PP 14C
-ggplot(full.interp, aes(x = lat, y = pp_14c_interp)) +
-  #  geom_smooth(span = 0.05) +
-  geom_point(aes(color = time)) +
-  geom_point(aes(x = lat, y = pp_14c), color = "red")
-
-
-ggplot(full.interp, aes(x = lat, y = pc_interp)) +
-  geom_point(aes(color = time)) +
-  geom_path() +
-  geom_smooth(span = 0.15, se = FALSE) +
-  geom_point(aes(x = lat, y = pc), color = "red")
-  
-#N+N
-ggplot(full.interp, aes(x = lat, y = N_N_interp)) +
-  geom_point(aes(color = time)) +
-  geom_path() +
-  geom_smooth(span = 0.15, se = FALSE) +
-  geom_point(aes(x = lat, y = N_N), color = "red")
-
-
-
-###Compare 14c and 13c to poc ratios
-prod.ratio <- full.interp %>%
-  mutate(prod.ratio.13c = pp_13c/pc_interp,
-         prod.ratio.14c = pp_14c/pc_interp)
-
-
-ggplot(prod.ratio, aes(x = lat, y = prod.ratio.13c)) +
-  geom_point(size = 2) +
-  ylab("13C Productivity/POC Ratio") +
-  ylim(c(0,10))
-
-ggplot(prod.ratio, aes(x = lat, y = prod.ratio.14c)) +
-  geom_point(size = 2)+
-  ylab("14C Productivity/POC Ratio") +
-  ylim(c(0,10))
-
-
-
-ggplot(full.interp, aes(x = time, y = N_N_interp)) +
-#  geom_smooth(span = 0.15, se = FALSE) +
-  geom_point(color = "red") 
-
-ggplot(full.interp, aes(x = time, y = chla)) +
-  geom_smooth(span = 0.15, se = FALSE) +
-  geom_point(color = "red") 
-
-
-ggplot(full.interp, aes(x = time, y = chla)) +
-  geom_smooth(span = 0.15, se = FALSE) +
-  geom_point(color = "red") 
-
-ggplot(full.interp, aes(x = lat, y = sss)) +
-  geom_point(aes(color = time)) 
+# 
+# ggplot(full.interp, aes(x = time, y = N_N_interp)) +
+# #  geom_smooth(span = 0.15, se = FALSE) +
+#   geom_point(color = "red") 
+# 
+# ggplot(full.interp, aes(x = time, y = chla)) +
+#   geom_smooth(span = 0.15, se = FALSE) +
+#   geom_point(color = "red") 
+# 
+# 
+# ggplot(full.interp, aes(x = time, y = chla)) +
+#   geom_smooth(span = 0.15, se = FALSE) +
+#   geom_point(color = "red") 
+# 
+# ggplot(full.interp, aes(x = lat, y = sss)) +
+#   geom_point(aes(color = time)) 
 
 
 

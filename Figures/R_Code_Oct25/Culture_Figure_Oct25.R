@@ -42,6 +42,8 @@ dat.cult.organism <- dat.cult %>%
   mutate(rel.conc = mean.conc.uM/sum(mean.conc.uM)*100) %>%
   ungroup() %>%
   mutate(rel.conc = replace_na(rel.conc, 0)) %>%
+  mutate(Detected_0.1_threshold = case_when(rel.conc >= 0.1 ~ "Yes",
+                                            TRUE ~ "No")) %>%
   ungroup() 
 
 
@@ -75,20 +77,20 @@ comp.org.relabun <- dat.org.class.new %>%
   reframe(mean.rel.conc = mean(rel.conc),
           max.rel.conc = max(rel.conc),
           median.rel.conc = median(rel.conc)) %>%
-  mutate(mean.rel.conc.group = case_when(mean.rel.conc == 0 ~ "0",
-                                         mean.rel.conc > 0 & mean.rel.conc < 0.1 ~ "< 0.1",
+  mutate(mean.rel.conc.group = case_when(mean.rel.conc < 0.1 ~ "< 0.1",
                                          mean.rel.conc >= 0.1 & mean.rel.conc < 1 ~ "0.1 - 1",
-                                         mean.rel.conc >= 1 & mean.rel.conc < 10 ~ "1 - 10",
+                                         mean.rel.conc >= 1 & mean.rel.conc < 5 ~ "1 - 5",
+                                         mean.rel.conc >= 5 & mean.rel.conc < 10 ~ "5 - 10",
                                          mean.rel.conc >= 10 & mean.rel.conc < 25 ~ "10 - 25",
                                          mean.rel.conc >= 25 & mean.rel.conc < 50 ~ "25 - 50",
                                          mean.rel.conc >= 50 ~ "> 50")) %>%
   left_join(., compound.order) %>%
-  mutate(mean.rel.conc.group = fct_relevel(mean.rel.conc.group, c("0", "< 0.1", "0.1 - 1", "1 - 10", "10 - 25", "25 - 50", "> 50")))
+  mutate(mean.rel.conc.group = fct_relevel(mean.rel.conc.group, c("< 0.1", "0.1 - 1", "1 - 5", "5 - 10", "10 - 25", "25 - 50", "> 50")))
 
 
 ### Summarize Number of producers by organism class
 comp.org.count <- dat.org.class.new %>%
-  filter(Detected == "Yes") %>%
+  filter(Detected_0.1_threshold == "Yes") %>%
   group_by(compound.name.figure, org_class, class) %>%
   reframe(count = n()) %>%
   full_join(., tibble(compound.name.figure = "Arsenobetaine",
@@ -108,17 +110,25 @@ comp.org.class.count <- comp.org.count %>%
   group_by(compound.name.figure) %>%
   reframe(org_class.count = n()) 
   
+comps.not.accumulated <- anti_join(dat.org.class.new %>% select(compound.name.figure) %>% unique(), 
+                                   comp.org.count %>% select(compound.name.figure) %>% unique()) %>%
+  rbind(., tibble(compound.name.figure = "Arsenobetaine")) %>%
+  left_join(., compound.order) %>%
+  mutate(count.sum = 0,
+         fig.text = "0 (0)")
+  
 comp.org.count.text <- comp.org.count.sum %>%
   left_join(., comp.org.class.count) %>%
   mutate(fig.text = paste0(count.sum, " (", org_class.count, ")")) %>%
   ungroup() %>%
   select(compound.name.figure, order, class, count.sum, fig.text) %>%
   unique() %>%
-  full_join(., tibble(compound.name.figure = "Arsenobetaine",
-                      order = 33,
-                      class = "Other",
-                      count.sum = 0,
-                      fig.text = "0 (0)"))
+  full_join(., comps.not.accumulated)
+  # full_join(., tibble(compound.name.figure = "Arsenobetaine",
+  #                     order = 33,
+  #                     class = "Other",
+  #                     count.sum = 0,
+  #                     fig.text = "0 (0)"))
 
 
 
@@ -136,6 +146,27 @@ ggplot(comp.org.count) +
   geom_text(data = comp.org.count.text, aes(x = count.sum+5, y = reorder(compound.name.figure, -order), label = fig.text)) +
   facet_wrap(.~class, scales = "free_y") +
   theme_minimal() 
+
+
+
+####Try making plot for number of compounds produced by each organism:
+numb.comps.fig.dat <- dat.org.class.new %>%
+  filter(Detected_0.1_threshold == "Yes") %>%
+  group_by(Organism, org_class) %>%
+  reframe(comp.count = n())
+
+numb.comps.produced.fig <- ggplot(numb.comps.fig.dat, aes(x = comp.count, y = org_class)) +
+  geom_boxplot(aes()) +
+  geom_jitter(height = 0.2, width = 0, shape = 21, 
+              aes(fill = org_class), stroke = 0.3, size = 2.5) +
+  theme_bw() +
+  scale_fill_manual(values = org.palette) +
+  xlab("Number of Osmolytes Accumulated (> 0.1%)") +
+  ylab("Taxonomic Group") +
+  theme(legend.position = "none") +
+  coord_fixed()
+
+numb.comps.produced.fig
 
 
 
@@ -167,7 +198,7 @@ aa.rel.plot <- ggplot(aa.relabun, aes(x = org_class, y = reorder(compound.name.f
   labs(fill = "Mean Percent of \nOsmolyte Pool")
 aa.rel.plot
 
-scale_fill_material_
+
 
 aa.count.plot <- ggplot(aa.count) +
   geom_col(aes(x = count, y = reorder(compound.name.figure, -order), 
@@ -198,7 +229,8 @@ aa.comb.plot
 
 
 ###Betaine Data:
-bet.relabun <- comp.org.relabun %>% filter(class == "Betaine")
+bet.relabun <- comp.org.relabun %>% filter(class == "Betaine") %>%
+  full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
 bet.count <- comp.org.count %>% filter(class == "Betaine")
 bet.count.text <- comp.org.count.text %>% filter(class == "Betaine")
 
@@ -215,7 +247,9 @@ bet.rel.plot <- ggplot(bet.relabun, aes(x = org_class, y = reorder(compound.name
         panel.border = element_blank(),
         axis.ticks = element_blank(), 
         plot.margin = unit(c(0,0,0,0), units = "cm")) +
-  geom_vline(color = "gray", xintercept = 5.5)
+  geom_vline(color = "gray", xintercept = 5.5) +
+  scale_x_discrete(na.translate = FALSE) +
+  scale_y_discrete(na.translate = FALSE)
 bet.rel.plot
 
 bet.count.plot <- ggplot(bet.count) +
@@ -244,7 +278,8 @@ bet.comb.plot
 
 
 ###Sugar Data:
-sug.relabun <- comp.org.relabun %>% filter(class == "Sugar")
+sug.relabun <- comp.org.relabun %>% filter(class == "Sugar")  %>%
+  full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
 sug.count <- comp.org.count %>% filter(class == "Sugar")
 sug.count.text <- comp.org.count.text %>% filter(class == "Sugar")
 
@@ -261,7 +296,9 @@ sug.rel.plot <- ggplot(sug.relabun, aes(x = org_class, y = reorder(compound.name
         panel.border = element_blank(),
         axis.ticks = element_blank(), 
         plot.margin = unit(c(0,0,0,0), units = "cm")) +
-  geom_vline(color = "gray", xintercept = 5.5)
+  geom_vline(color = "gray", xintercept = 5.5) +
+  scale_x_discrete(na.translate = FALSE) +
+  scale_y_discrete(na.translate = FALSE)
 sug.rel.plot
 
 sug.count.plot <- ggplot(sug.count) +
@@ -291,7 +328,8 @@ sug.comb.plot
 
 
 ###Sulfonium Data:
-sulfonium.relabun <- comp.org.relabun %>% filter(class == "Sulfonium")
+sulfonium.relabun <- comp.org.relabun %>% filter(class == "Sulfonium") %>%
+  full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
 sulfonium.count <- comp.org.count %>% filter(class == "Sulfonium") 
 sulfonium.count.text <- comp.org.count.text %>% filter(class == "Sulfonium")
 
@@ -308,7 +346,9 @@ sulfonium.rel.plot <- ggplot(sulfonium.relabun, aes(x = org_class, y = reorder(c
         panel.border = element_blank(),
         axis.ticks = element_blank(), 
         plot.margin = unit(c(0,0,0,0), units = "cm")) +
-  geom_vline(color = "gray", xintercept = 5.5)
+  geom_vline(color = "gray", xintercept = 5.5) +
+  scale_x_discrete(na.translate = FALSE) +
+  scale_y_discrete(na.translate = FALSE)
 sulfonium.rel.plot
 
 sulfonium.count.plot <- ggplot(sulfonium.count) +
@@ -336,7 +376,8 @@ sulfonium.comb.plot
 
 
 ###Sulfonate Data:
-sulfonate.relabun <- comp.org.relabun %>% filter(class == "Sulfonate")
+sulfonate.relabun <- comp.org.relabun %>% filter(class == "Sulfonate") %>%
+  full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
 sulfonate.count <- comp.org.count %>% filter(class == "Sulfonate")
 sulfonate.count.text <- comp.org.count.text %>% filter(class == "Sulfonate")
 
@@ -353,7 +394,9 @@ sulfonate.rel.plot <- ggplot(sulfonate.relabun, aes(x = org_class, y = reorder(c
         panel.border = element_blank(),
         axis.ticks = element_blank(), 
         plot.margin = unit(c(0,0,0,0), units = "cm")) +
-  geom_vline(color = "gray", xintercept = 5.5)
+  geom_vline(color = "gray", xintercept = 5.5) +
+  scale_x_discrete(na.translate = FALSE) +
+  scale_y_discrete(na.translate = FALSE)
 sulfonate.rel.plot
 
 sulfonate.count.plot <- ggplot(sulfonate.count) +
@@ -382,7 +425,8 @@ sulfonate.comb.plot
 
 
 ###Other Data:
-other.relabun <- comp.org.relabun %>% filter(class == "Other")
+other.relabun <- comp.org.relabun %>% filter(class == "Other") %>%
+  full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
 other.count <- comp.org.count %>% filter(class == "Other")
 other.count.text <- comp.org.count.text %>% filter(class == "Other")
 
@@ -399,7 +443,9 @@ other.rel.plot <- ggplot(other.relabun, aes(x = org_class, y = reorder(compound.
         legend.position = "none",
         axis.ticks = element_blank(),
         plot.margin = unit(c(0,0,0,0), units = "cm")) +
-  geom_vline(color = "gray", xintercept = 5.5)
+  geom_vline(color = "gray", xintercept = 5.5) +
+  scale_x_discrete(na.translate = FALSE) +
+  scale_y_discrete(na.translate = FALSE)
 other.rel.plot
 
 other.count.plot <- ggplot(other.count) +
@@ -436,17 +482,19 @@ other.comb.plot
 #   plot_layout(guides = "collect", ncol = 3, nrow = 6, widths = c(NA, 0, NA))
   
 
-full.comb.plot <- aa.rel.plot + aa.count.plot +
+full.comb.plot <- numb.comps.produced.fig  + plot_spacer() +
+  (aa.rel.plot + aa.count.plot +
   bet.rel.plot  + bet.count.plot +
   sug.rel.plot  + sug.count.plot +
   sulfonium.rel.plot  + sulfonium.count.plot +
   sulfonate.rel.plot  + sulfonate.count.plot +
   other.rel.plot  + other.count.plot +
-  plot_layout(guides = "collect", ncol = 2, nrow = 6, widths = c(NA, NA))
+  plot_layout(guides = "collect", ncol = 2, nrow = 6, widths = c(NA, NA))) +
+  plot_layout(guides = "collect", nrow = 4, ncol = 1, heights = c(1.25, 0.1, 5.5))
 
 
 
 full.comb.plot
 
 ggsave(full.comb.plot, filename = "Figures/Output_Oct25/Culture_Fig.png", 
-       height = 9, width = 6, dpi = 1000, scale = 1.3)
+       height = 8, width = 6, dpi = 300, scale = 1.3)

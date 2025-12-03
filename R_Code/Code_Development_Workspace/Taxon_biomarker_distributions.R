@@ -131,15 +131,60 @@ p3.plot.rel
 
 
 
+###figures for presentation: 
+
+##Gradients 3:
+g3.sml.dat <- p2.dat.p %>%
+  filter(compound.name.figure %in% c("DMSA", "Homarine"))
+
+
+g3.plot.abs <- ggplot(g3.sml.dat, aes(x = Lat, y = Part.Conc.nM)) +
+  geom_vline(xintercept = 35, linetype = "dashed", color = "darkred") +
+  geom_smooth(alpha = 0.2) +
+  geom_point(shape = 21, fill = "white", size = 3) +
+  facet_wrap(.~compound.name.figure, scales = "free_y", ncol = 1) +
+  ylab("Particulate Concentration (nM)") 
+ # theme_bw()
+g3.plot.abs
+
+
+ggsave(g3.plot.abs, file = "Figures/SCOPE_2025/biogeography_abs_plot.png", dpi = 800, height = 5, width = 5, scale = 0.85)
+
+g3.plot.rel <- ggplot(g3.sml.dat, aes(x = Lat, y = rel.part.conc)) +
+  geom_vline(xintercept = 35, linetype = "dashed", color = "darkred") +
+  geom_smooth() +
+  geom_point(shape = 21, fill = "white", size = 3) +
+  facet_wrap(.~compound.name.figure, scales = "free_y", ncol = 1) +
+  ylab("Relative Abundance")
+g3.plot.rel
+
+
+ggsave(g3.plot.rel, file = "Figures/SCOPE_2025/biogeography_rel_plot.png", dpi = 800, height = 5, width = 5, scale = 0.85)
 
 
 
+#Gradients 4
+g4.sml.dat <- p1.dat.p %>%
+  filter(compound.name.figure %in% c("Proline")) %>%
+  mutate(lt = hour(Local_Time),
+         TOD = as.factor(case_when(lt > 3 & lt < 11 ~ "morning",
+                                   lt > 10 & lt < 17 ~ "midday",
+                                   lt > 16 & lt < 22 ~ "evening",
+                                   TRUE ~ "night")),
+         TOD = fct_relevel(TOD, c("morning", "midday", "evening", "night")))
 
 
+g4.plot.abs <- ggplot(g4.sml.dat, aes(x = Lat, y = Part.Conc.nM)) +
+  scale_fill_viridis(discrete = TRUE, direction = -1, option = "G", end = 0.95) +
+  #geom_vline(xintercept = 35, linetype = "dashed", color = "darkred") +
+  geom_smooth(alpha = 0.2) +
+  geom_point(shape = 21, aes(fill = TOD), size = 3) +
+#  facet_wrap(.~compound.name.figure, scales = "free_y", ncol = 1) +
+  ylab("Particulate Concentration (nM)") 
+# theme_bw()
+g4.plot.abs
 
-
-
-
+ggsave(g4.plot.abs, file = "Figures/SCOPE_2025/biogeography_proline_plot.png", dpi = 800, height = 4, width = 6)
 
 
 

@@ -133,7 +133,8 @@ p.rel.conc.plot <- ggplot(p.betaine.dat, aes(x = Betaine.Norm.Val, y = reorder(c
         plot.title = element_text(hjust = 0.5)) +
   xlab("Relative Abundance") +
   ylab("Compound") +
-  ggtitle("Particulate")
+  ggtitle("Particulate") +
+  scale_x_log10()
 p.rel.conc.plot
 
 #diss
@@ -154,7 +155,8 @@ d.rel.conc.plot <- ggplot(d.betaine.dat, aes(x = Betaine.Norm.Val, y = reorder(c
         plot.title = element_text(hjust = 0.5)) +
   xlab("Relative Abundance") +
   ylab("Compound") +
-  ggtitle("Dissolved")
+  ggtitle("Dissolved") +
+  scale_x_log10()
 d.rel.conc.plot
 
 

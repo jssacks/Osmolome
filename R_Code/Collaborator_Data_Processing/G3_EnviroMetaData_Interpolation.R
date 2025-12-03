@@ -72,14 +72,14 @@ nut.hr <- nut.uw.dat %>%
   unique()
 
 ##Nutrients
-pp13c.hr <- pp13c.dat %>%
-  # mutate(Nitrate_Nitrite = case_when(Nitrate_Nitrite_below_detection_flag == 1 ~ 0.001,
-  #                                    TRUE ~ Nitrate_Nitrite)) %>%
-  mutate(time = round_date(time, unit = "hour"))# %>%
-  group_by(time) %>%
-  mutate(pp13c = mean(avg_fix_rate_13C)) %>%
-  select(time, pp13c) %>%
-  unique()
+# pp13c.hr <- pp13c.dat %>%
+#   # mutate(Nitrate_Nitrite = case_when(Nitrate_Nitrite_below_detection_flag == 1 ~ 0.001,
+#   #                                    TRUE ~ Nitrate_Nitrite)) %>%
+#   mutate(time = round_date(time, unit = "hour"))# %>%
+#   group_by(time) %>%
+#   mutate(pp13c = mean(avg_fix_rate_13C)) %>%
+#   select(time, pp13c) %>%
+#   unique()
 
 # ##Bacteria
 # bact.hr <- bact.dat %>%
@@ -108,7 +108,7 @@ full.dat <- ts.hr %>%
   left_join(., chla.hr) %>%
   left_join(., pcpn.hr) %>%
   left_join(., nut.hr) %>%
-  left_joing(., pp13c.hr)
+ # left_join(., pp13c.hr)
 #  left_join(., don.hr) %>%
 #  left_join(., bact.hr) %>%
   arrange(time)

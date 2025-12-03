@@ -6,6 +6,7 @@
 library(tidyverse)
 library(lubridate)
 library(rstatix)
+library(viridis)
 source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
 
 
@@ -66,10 +67,16 @@ proxy.plot <- ggplot(atp.metab.dat, aes(y = Mean.living.biomass.ngL, x = Mean.Os
   geom_smooth(method = "lm", color = "black", alpha = 0.2) +
   geom_errorbarh(aes(xmin = Mean.Osmo.Conc.nM-SD.Osmo.Conc.nM, xmax = Mean.Osmo.Conc.nM+SD.Osmo.Conc.nM), size = 0.2) +
   geom_errorbar(aes(ymin = Mean.living.biomass.ngL-SD.living.biomass.ngL, ymax = Mean.living.biomass.ngL+SD.living.biomass.ngL), size = 0.2) +
-  geom_point(aes(fill = Cruise), shape = 21, stroke = 0.2, size = 2.5)  +
+  geom_point(aes(fill = Cruise), shape = 21, stroke = 0.2, size = 3)  +
   theme_test() +
+  scale_fill_manual(values = c("darkgray", "cornflowerblue")) +
+ # scale_y_continuous(expand = c(0,NA,NA,NA)) +
+ # scale_x_continuous(expand = c(0,NA,NA,NA)) +
   xlab("Mean Particulate Osmolyte Concentration (nM)") +
-  ylab("Mean Living Biomass (ng C/L)")
+  ylab("Mean Living Biomass (ng C/L)") +
+  annotate(geom = "text", x = 32, y = 18000, label = "y = 1681.3x + 161.3") +
+  annotate(geom = "text", x = 32, y = 14000, label = "R2 = 0.85") +
+  annotate(geom = "text", x = 32, y = 10000, label = "p = 2.2e-10") 
 proxy.plot
 ggsave(proxy.plot, filename = "Figures/SCOPE_2025/ATP_Osmo_Calibration_Plot.png", height = 3.5, width = 4.5, dpi = 800)
 

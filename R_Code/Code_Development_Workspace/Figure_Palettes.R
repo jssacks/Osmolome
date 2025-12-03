@@ -149,8 +149,8 @@ region.palette.7 <- c(
   "NPEC" = "#EC372E",
   "NPSG" = "#494784",
   "NPTZ" = "#F5A622",
-  "CUCP" = "#4BA476",
-  "SS" = "#A6A6A6")
+  "CUCP" = "#A6A6A6",
+  "SS" = "#4BA476")
 
 
 region.palette.color <- c(
@@ -158,8 +158,8 @@ region.palette.color <- c(
   "NPEC" = "#EC372E",
   "NPSG" = "#494784",
   "NPTZ" = "#F5A622",
-  "CUCP" = "#4BA476",
-  "SS" = "#A6A6A6")
+  "CUCP" = "#A6A6A6",
+  "SS" = "#4BA476")
 
 
 region.palette.8 <- c(
@@ -199,13 +199,12 @@ compound.order <-
   tibble(Compound = c("L-Glutamic acid", "L-Glutamine", "L-Aspartic acid", "L-Proline", "L-Alanine", "beta-Alanine", "L-Isoleucine",
                       "L-Asparagine", "Hydroxyisoleucine", "Sarcosine", "L-Threonine", "beta-Glutamic acid", "Glycine betaine", "beta-Alaninebetaine", "Homarine", "Trigonelline",
                       "Carnitine", "Proline betaine", "Betonicine", "(3-Carboxypropyl)trimethylammonium",
-                       "2-O-alpha-D-Glucosylglycerol",
-                      "Sucrose", "Trehalose", "Dimethylsulfonioacetate", "Gonyol", "Dimethylsulfoniopropionate",
+                       "2-O-alpha-D-Glucosylglycerol", "Sucrose", "Trehalose", "Dimethylsulfonioacetate", "Gonyol", "Dimethylsulfoniopropionate",
                       "Isethionic acid", "Taurine", "(R)-2,3-Dihydroxypropane-1-sulfonate", "Ectoine", "5-Hydroxyectoine", "Trimethylamine N-oxide", "Arsenobetaine"), 
          order = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30, 31, 32, 33),
          class = c("AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "AA", "Betaine", "Betaine", "Betaine", "Betaine", "Betaine", "Betaine", "Betaine",
-                   "Betaine", "Other", "Other","Sugar", "Sugar", "Sugar", "Sulfonium", "Sulfonium", "Sulfonium",
-                   "Sulfonate","Sulfonate", "Sulfonate", "Other", "Other"),
+                   "Betaine", "Sugar", "Sugar", "Sugar", "Sulfonium", "Sulfonium", "Sulfonium",
+                   "Sulfonate","Sulfonate", "Sulfonate", "Other", "Other", "Other", "Other"),
          compound.name.figure = c("Glutamic acid", "Glutamine", "Aspartic acid", "Proline", "Alanine", "beta-Alanine", "(Iso)leucine", "Asparagine", "Hydroxyisoleucine",
                                   "Sarcosine", "Threonine", "beta-Glutamic acid", "GBT", "beta-Alanine betaine", "Homarine", "Trigonelline", 
                                   "Carnitine", "Proline betaine", "Betonicine", "TMAB",  "GG", "Sucrose", "Trehalose", "DMSA", "Gonyol", "DMSP", "Isethionic acid", 
@@ -225,4 +224,17 @@ org.palette <- c(
   "Diatom" = "#756bb1", 
   "Haptophyte" = "#eff0f2", 
   "Dinoflagellate" = "#ffd65f")
+
+
+## Resource Ratio Treatment Palette:
+rr.palette <- c(
+  "Control" = "lightgray",
+  "Fe" = "#e7ba52",
+  "H-Fe" = "#e7ba52",
+  "L-Fe" = "#e7ba52",
+  "NP" = "#357eb9", 
+  "H-NP" = "#357eb9",
+  "L-NP" = "#357eb9",
+  "NPFe" = "#4BA476"
+)
 

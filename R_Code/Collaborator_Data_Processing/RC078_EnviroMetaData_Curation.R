@@ -41,6 +41,11 @@ samp.dat <- read_csv(samp.file) %>%
 #Location and CTD information (Average over top 10 m of water column to get station information)
 ctd.dat <- read_csv(loc.file) %>%
   select(Station, Cast, latitude, longitude, depth_m, practical_salinity_psu, temperature_degC, oxygen_V, beam_attenuation_pm, fluorescence_mgpm3) %>%
+  # group_by(Station, Cast, latitude, longitude, depth_m) %>%
+  # reframe(practical_salinity_psu = mean(practical_salinity_psu),
+  #         temperature_degC = mean(temperature_degC),
+  #         oxygen_V = mean(oxygen_V),
+          # beam_attenuation_pm = mean(beamatt))
   filter(depth_m >= 10) %>%
   group_by(Station, Cast) %>%
   reframe(lat = mean(latitude),
@@ -54,12 +59,12 @@ ctd.dat <- read_csv(loc.file) %>%
          station = as.numeric(str_remove(Station, "S"))) 
 
 #Duplicate S7_C2 data for S7_C3 to provide some contextualizing information for that cast and add to ctd.dat
-ctd.s7.c3 <- ctd.dat %>%
-  filter(station == 7,
-         cast == 2) %>%
-  mutate(cast = 3)
-
-ctd.dat <- rbind(ctd.dat, ctd.s7.c3)
+# ctd.s7.c3 <- ctd.dat %>%
+#   filter(station == 7,
+#          cast == 2) %>%
+#   mutate(cast = 3)
+# 
+# ctd.dat <- rbind(ctd.dat, ctd.s7.c3)
 
 
 #POC and PN data (convert to uM to standardize with other measurments)

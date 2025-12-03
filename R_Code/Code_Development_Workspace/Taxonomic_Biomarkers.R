@@ -39,7 +39,7 @@ dat.org.class.new <- dat.cult.organism %>%
     mutate(org_type = case_when(Type == "Dino" ~ "Dinoflagellate",
                                  Type == "Diatom" ~ "Diatom",
                                  Type == "Haptophyte" ~ "Haptophyte",
-                                 Type == "Prasinophyte" ~ "Prasinohpyte",
+                                 Type == "Prasinophyte" ~ "Prasinophyte",
                                  Organism %in% c("WH8501") ~ "Croco",
                                  Organism %in% c("1314P", "As9601", "MED4", "NATL2A") ~ "Pro",
                                  Organism %in% c("8102", "7803") ~ "Syn"))
@@ -57,8 +57,9 @@ org.group.comps <- dat.org.class.new %>%
 
 #compound count by number of organism groups that produce it:
 org.group.sum <- dat.org.class.new %>%
+  ungroup() %>%
   filter(Detected == "Yes") %>%
-  filter(Rel.Conc > 0.1) %>%
+  filter(Rel.Conc > 1) %>%
   select(compound.name.figure, org_type) %>%
   unique() %>%
   group_by(compound.name.figure) %>%
@@ -83,17 +84,30 @@ tax.comp.dat <- dat.org.class.new %>%
   reframe(count = n(),
          mean.rel.conc = mean(Rel.Conc),
          max.rel.conc = max(Rel.Conc),
-         median.rel.conc = median(Rel.Conc)) 
+         median.rel.conc = median(Rel.Conc)) %>%
+  rename(org_class = org_type) %>%
+  mutate(org_class = as.factor(org_class)) %>%
+  mutate(org_class = fct_relevel(org_class, c("Pro", "Syn", "Croco",
+                                              "Prasinophyte", "Diatom", "Haptophyte", "Dinoflagellate")))
 
 
-ggplot(tax.comp.dat, aes(y = compound.name.figure, x = org_type, fill = mean.rel.conc)) +
-  geom_tile(color = "black") +
+tax.biomarker.plot <- ggplot(tax.comp.dat, aes(x = compound.name.figure, y = org_class, fill = mean.rel.conc)) +
+#  geom
+  geom_tile(color = "black", size = 0.3) +
   coord_fixed() +
-  scale_fill_viridis(option = "H") +
-  theme_test() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_fill_viridis(option = "D") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(fill = "Mean Relative \nPercentage \nof Osmolome") +
+  xlab("Compound") +
+  ylab("Group") +
+  geom_hline(yintercept = 3.5,color = "red", size = 1, linetype = "dashed")
+tax.biomarker.plot
+ggsave(tax.biomarker.plot, file = "Figures/SCOPE_2025/tax_biomarker.png", dpi = 800, height = 4, width = 7, scale = 0.85)
 
-ggplot(tax.comp.dat, aes(y = compound.name.figure, x = org_type, fill = max.rel.conc)) +
+
+
+ggplot(tax.comp.dat, aes(x = compound.name.figure, y = org_class, fill = max.rel.conc)) +
   geom_tile(color = "black") +
   coord_fixed() +
   scale_fill_viridis(option = "H") +

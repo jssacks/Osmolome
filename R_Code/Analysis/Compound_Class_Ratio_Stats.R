@@ -107,19 +107,32 @@ dat.peri.stat <- peri.dat %>%
   filter(!Treatment == "Tote")
          
 
+#Sugar:
 ggplot(dat.peri.stat, aes(x = reorder(Treatment, N), y = Sugar_N_ratio, color = Treatment)) +
   geom_boxplot() +
   geom_point()
 
+ggplot(dat.peri.stat, aes(x = N, y = Sugar_N_ratio)) +
+  geom_boxplot(width = 0.5) +
+  geom_point()
+
+#Sulfonate:
 ggplot(dat.peri.stat, aes(x = reorder(Treatment, N), y = Sulfonate_N_ratio, color = Treatment)) +
   geom_boxplot() +
   geom_point()
 
+ggplot(dat.peri.stat, aes(x = N, y = Sulfonate_N_ratio)) +
+  geom_boxplot(width = 0.5) +
+  geom_point()
+
+#Sulfonium:
 ggplot(dat.peri.stat, aes(x = reorder(Treatment, N), y = Sulfonium_N_ratio, color = Treatment)) +
   geom_boxplot() +
   geom_point()
 
-
+ggplot(dat.peri.stat, aes(x = N, y = Sulfonium_N_ratio)) +
+  geom_boxplot(width = 0.5) +
+  geom_point()
 
 #Try linear mixed effects model:
 #install.packages("lmerTest")

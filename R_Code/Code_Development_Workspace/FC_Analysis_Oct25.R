@@ -75,7 +75,7 @@ region.mean.conc <- region.norm.dat %>%
 
 #normalize to POC
 peri.dat.norm <- peri.dat %>%
-  filter(!Treatment == "Tote") #%>%
+  filter(!Treatment == "Tote") %>%
   mutate(Part.Conc.nM = case_when(Part.detected == "No" ~ Part.Impute.Conc.nM,
                                   TRUE ~ Part.Conc.nM)) %>%
   filter(!is.na(POC_uM)) %>%
@@ -127,11 +127,18 @@ peri.log2fc <- peri.mean.conc  %>%
 ###g3 fold change analysis:
 g3.ttest.dat <- region.norm.dat %>%
   filter(Cruise == "KM1906") %>%
-  select(Cruise, Part.SampID, compound.name.figure, Region, poc.norm.conc)
+  select(Cruise, Part.SampID, compound.name.figure, Region, poc.norm.conc) %>%
+  mutate(poc.norm.conc = log10(poc.norm.conc))
 
+#visualize data distributions
+ggplot(g3.ttest.dat, aes(x = poc.norm.conc)) +
+  geom_histogram() +
+  facet_wrap(.~compound.name.figure, scales = "free") 
+
+#run t-test on all compounds
 g3.ttest.out <- g3.ttest.dat %>%
   group_by(Cruise, compound.name.figure) %>%
-  t_test(poc.norm.conc ~ Region, var.equal = FALSE) %>%
+  t_test(poc.norm.conc ~ Region, var.equal = FALSE, p.adjust.method = "fdr") %>%
   select(Cruise, compound.name.figure, p) %>%
   mutate(Comparison = "NPTZ/NPSG")
 
@@ -140,7 +147,15 @@ g3.ttest.out <- g3.ttest.dat %>%
 g4.ttest.dat <- region.norm.dat %>%
   filter(Cruise == "TN397") %>%
   filter(Region %in% c("PEDP", "NPSG")) %>%
-  select(Part.SampID, compound.name.figure, Region, poc.norm.conc)
+  select(Part.SampID, compound.name.figure, Region, poc.norm.conc) %>%
+  mutate(poc.norm.conc = log10(poc.norm.conc))
+
+
+#visualize data distributions
+ggplot(g4.ttest.dat, aes(x = poc.norm.conc)) +
+  geom_histogram() +
+  facet_wrap(.~compound.name.figure, scales = "free") 
+
 
 g4.ttest.out <- g4.ttest.dat %>%
   group_by(Cruise, compound.name.figure) %>%
@@ -150,26 +165,27 @@ g4.ttest.out <- g4.ttest.dat %>%
 
 
 ###peri fold change analysis:
-peri.ttest.dat <- peri.dat.norm %>%
-  select(Part.SampID, compound.name.figure, N_status, poc.norm.conc)
-
-peri.ttest.out <- peri.ttest.dat %>%
-  group_by(compound.name.figure) %>%
-  t_test(poc.norm.conc ~ N_status, var.equal = FALSE) %>%
-  select(compound.name.figure, p)  %>%
-  mutate(Cruise = "PERIFIX",
-         Comparison = "Plus_N/Minus_N")
+# peri.ttest.dat <- peri.dat.norm %>%
+#   select(Part.SampID, compound.name.figure, N_status, poc.norm.conc)
+# 
+# peri.ttest.out <- peri.ttest.dat %>%
+#   group_by(compound.name.figure) %>%
+#   t_test(poc.norm.conc ~ N_status, var.equal = FALSE) %>%
+#   select(compound.name.figure, p)  %>%
+#   mutate(Cruise = "PERIFIX",
+#          Comparison = "Plus_N/Minus_N")
 
 
 
 ####Try out a linear mixed effects model for perifix
 
-#Create data frame 
+#Create data frame and apply log 10 transformation to data to correct for skew in data
 peri.stat.dat <- peri.dat.norm %>%
   select(Part.SampID, compound.name.figure, N_status, N, P, Fe, poc.norm.conc) %>%
   mutate(N = as.factor(N),
          P = as.factor(P),
-         Fe = as.factor(Fe))
+         Fe = as.factor(Fe)) %>%
+  mutate(poc.norm.conc = log10(poc.norm.conc))
 
 
 #Write function to perform linear mixed effects model

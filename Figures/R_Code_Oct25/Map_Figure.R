@@ -14,6 +14,7 @@ library(ggrepel)
 library(maps)
 library(mapdata)
 library(cmocean)
+library(ggnewscale)
 
 
 
@@ -102,8 +103,11 @@ big.map <- ggplot(data = world) +
   theme_test() +
   xlab("Longitude") +
   ylab("Latitude") +
-  theme(legend.position = "right")
-  # annotate("segment", x = -117.5, xend = -138, y = 29.5, yend = 17, size = 0.15, color = "gray20") +
+  theme(legend.position = "right") +
+  annotate("text", x = -115, y = -3, label = "TN397") +
+  annotate("text", x = -157.5, y = 52, label = "KM1906") +
+  annotate("text", x = -132, y = 48, label = "RC078") 
+#   annotate("segment", x = -117.5, xend = -138, y = 29.5, yend = 17, size = 0.15, color = "gray20") +
   # annotate("segment", x = -138, xend = -138, y = 15, yend = -3, size = 0.15, color = "gray20") +
   # annotate("segment", x = -142, xend = -154.5, y = -3, yend = 14, size = 0.15, color = "gray20") #+
  # geom_segment(aes(x = -117.5, xend = -138, y = 29.5, yend = 17), size = 0.15, color = "gray20")) +
@@ -145,7 +149,10 @@ g4.map <- ggplot(g4.chla.dat) +
   annotate("segment", x = -138, xend = -138, y = 15, yend = -3, 
            size = 0.5, color = "black") +
   annotate("text", x = -127, y = 22, label = "Leg 1", angle = 35) +
-  annotate("text", x = -130, y = 0, label = "Legs 2 and 3") 
+  annotate("text", x = -133, y = 0, label = "Leg 2") +
+  annotate("text", x = -147, y = 0, label = "Leg 3") +
+  annotate("rect", ymin = 30.5, ymax = 34, xmin = -159, xmax = -151, fill = "white", alpha = 0.5) +
+  annotate("text", x = -155, y = 32.25, label = "TN397") 
 g4.map
 
 
@@ -173,7 +180,9 @@ g3.map <- ggplot(g3.chla.dat) +
   scale_x_continuous(expand = c(0,0), labels = scales::label_number(accuracy = 5)) +
   theme(legend.position = "none") +
   ylab("Latitude") + 
-  xlab("Longitude") 
+  xlab("Longitude") +
+  annotate("rect", ymin = 46.5, ymax = 48.5, xmin = -166, xmax = -158, fill = "white", alpha = 0.8) +
+  annotate("text", x = -162, y = 47.5, label = "KM1906") 
 g3.map
 
 
@@ -231,7 +240,9 @@ PS.map <- ggplot() +
   scale_x_continuous(expand = c(0,0), labels = scales::label_number(accuracy = 1), breaks = c(-122, -123, -124)) +
   ylab("Lat") +
   xlab("Longitude") +
-  theme(legend.position = "right")
+  theme(legend.position = "right") +
+  annotate("rect", ymin = 49.5, ymax = 49.7, xmin = -122.9, xmax = -122.1, fill = "white", alpha = 0.7) +
+  annotate("text", x = -122.5, y = 49.6, label = "RC078") 
   # theme(legend.position = "inside", legend.position.inside = c(0.2, 0.2),
   #       legend.box.background = element_rect(linewidth = 0.2, color = "black"),
   #       legend.box.margin = margin(10, 10, 10, 10))

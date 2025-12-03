@@ -7,9 +7,10 @@ library(patchwork)
 
 library(tidyverse)
 source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
+library(rstatix)
 
 ##Define inputs:
-part.file <- "Intermediates/Particulate_Quant_Output.csv"
+part.file <- "Intermediates/Particulate_Final_Quant_QCed.csv"
 meta.file <- "Meta_data/RR_MetaData.csv"
 
 
@@ -19,10 +20,162 @@ meta.dat <- read_csv(meta.file)
 part.dat <- read_csv(part.file) %>%
   filter(Cruise == "RR") %>%
   left_join(., meta.dat) %>%
-  filter(!is.na(Samp_Name)) %>%
-  rename(Compound = Name) %>%
   filter(Compound %in% compound.order$Compound) %>%
   left_join(., compound.order)
+
+
+
+###Living biomass analysis:
+rr.biomass.dat <- part.dat %>%
+  filter(detected == "Yes") %>%
+  group_by(SampID, Samp_Name, Experiment, Treatment, N, Fe) %>%
+  reframe(Sum.Part.Conc.nM = sum(Part.Conc.nM),
+         Living.Biomass.ng.L = Sum.Part.Conc.nM*1681.3+161.3)
+
+##RR treatment Sum:
+rr.treatment.sum <- rr.biomass.dat %>%
+  group_by(Treatment, Experiment) %>%
+  reframe(Mean.Osmo.Conc.nM = mean(Sum.Part.Conc.nM),
+          SD.Osmo.Conc.nM = sd(Sum.Part.Conc.nM),
+          Mean.Living.Biomass.ng.L = mean(Living.Biomass.ng.L),
+          SD.Living.Biomass.ng.L = sd(Living.Biomass.ng.L)) 
+
+
+
+
+#Plot overall biomass
+ggplot(rr.treatment.sum %>%
+         filter(!Treatment == "T0"), aes(x = Treatment, y = Mean.Osmo.Conc.nM)) +
+  geom_col(aes(fill = Treatment), color = "black", width = 0.5, linewidth = 0.2) +
+  facet_wrap(.~Experiment, scales = "free") +
+  scale_fill_manual(values = rr.palette) +
+  geom_errorbar(aes(ymin = Mean.Osmo.Conc.nM - SD.Osmo.Conc.nM, 
+                    ymax = Mean.Osmo.Conc.nM + SD.Osmo.Conc.nM),
+                width = 0.2) +
+  theme_test() +
+  theme(legend.position = "none")
+
+####
+rr.living.biomass.plot <- ggplot(rr.treatment.sum, aes(x = Treatment, y = Mean.Living.Biomass.ng.L)) +
+  geom_col(aes(fill = Treatment), color = "black", width = 0.5, linewidth = 0.2) +
+  facet_wrap(.~Experiment, scales = "free") +
+  scale_fill_manual(values = rr.palette) +
+  geom_errorbar(aes(ymin = Mean.Living.Biomass.ng.L - SD.Living.Biomass.ng.L, 
+                    ymax = Mean.Living.Biomass.ng.L + SD.Living.Biomass.ng.L),
+                width = 0.2, linewidth = 0.3) +
+  theme_test() +
+  ylab("Osmolyte-Derived Living Biomass (ng C/L)") +
+  theme(legend.position = "none")
+rr.living.biomass.plot
+ggsave(rr.living.biomass.plot, file = "Figures/SCOPE_2025/RR_biomass_plot.png", 
+       dpi = 800, width = 10, height = 4, scale = 0.9)
+
+
+
+##Run stats:
+
+#Organize total data to see if there are any statistical differences:
+rr.biomass.stat.dat <- rr.biomass.dat %>%
+  filter(!Treatment == "T0") %>%
+  mutate(Treatment = as.factor(Treatment)) %>%
+  mutate(N = replace_na(N, 0),
+         Fe = replace_na(Fe, 0),
+         N = as.factor(N),
+         Fe = as.factor(Fe)) %>%
+  ungroup()
+
+
+#Welch's ANOVA to see if there are differences between treatments in any of the experiments:
+treatment.w.anova.output <- rr.biomass.stat.dat %>%
+  group_by(Experiment) %>%
+  welch_anova_test(Living.Biomass.ng.L ~ Treatment) 
+
+
+#Games-Howell Post Hoc test
+treatment.gh.anova.output <- rr.biomass.stat.dat %>%
+  group_by(Experiment) %>%
+  games_howell_test(Living.Biomass.ng.L ~ Treatment)
+
+
+#Try on just N
+#Welch's t-test to see if there are differences between N and Fe:
+N.w.anova.output <- rr.biomass.stat.dat %>%
+  group_by(Experiment) %>%
+  t_test(Living.Biomass.ng.L ~ N, var.equal = FALSE) 
+
+
+#Try just Fe
+Fe.w.ttest.output <- rr.biomass.stat.dat %>%
+  group_by(Experiment) %>%
+  t_test(Living.Biomass.ng.L ~ Fe, var.equal = FALSE) 
+
+#Try both N and Fe:
+Fe.N.w.anova.output <- rr.biomass.stat.dat %>%
+  group_by(Experiment) %>%
+  welch_anova_test(Living.Biomass.ng.L ~ N*Fe)
+
+Fe.N.gh.outpus <- rr.biomass.stat.dat %>%
+  group_by(Experiment) %>%
+  tukey_hsd(Living.Biomass.ng.L ~ N*Fe)
+
+
+
+
+
+
+
+
+
+
+###Composition Plots:
+rr.dat.compound <- part.dat %>%
+  filter(detected == "Yes") %>%
+  group_by(compound.name.figure, Experiment, Treatment, N, Fe, order) %>%
+  reframe(Mean.Conc.nM = mean(Part.Conc.nM)) %>%
+  filter(!Treatment == "T0")
+
+
+RR.compound.plot <- ggplot(rr.dat.compound, aes(x = Treatment, y=Mean.Conc.nM, fill = reorder(compound.name.figure, order))) +
+  geom_col(alpha = 0.9, width = 0.7, color = "black", size = 0.15) +
+  scale_fill_manual(values = compound.pal.fig)+
+  theme_test() +
+  facet_wrap(.~Experiment, scales = "free") +
+  ylab("Mean nM Compound") +
+  xlab("Treatment") +
+  labs(fill = "Compound")
+RR.compound.plot
+
+
+###Fill
+RR.compound.plot.fill <- ggplot(rr.dat.compound, aes(x = Treatment, y=Mean.Conc.nM, fill = reorder(compound.name.figure, order))) +
+  geom_col(alpha = 0.9, width = 0.7, color = "black", size = 0.15, position = "fill") +
+  scale_fill_manual(values = compound.pal.fig)+
+  theme_test() +
+  facet_wrap(.~Experiment, scales = "free") +
+  ylab("Mean nM Compound") +
+  xlab("Treatment") +
+  labs(fill = "Compound")
+RR.compound.plot.fill
+
+ggsave(RR.compound.plot.fill, file = "Figures/SCOPE_2025/RR.compound.plot.fill.png", 
+       dpi = 800, width = 11, height = 5, scale = 0.9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

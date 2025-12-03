@@ -20,7 +20,8 @@ all.dat.file <- "Intermediates/Enviro_Osmo_Final_Dataset_with_metadata.csv"
 #Read in data 
 dat <- read_csv(all.dat.file) %>%
   left_join(., compound.order) %>%
-  filter(!str_detect(Part.SampID, "Blk"))
+  filter(!str_detect(Part.SampID, "Blk"))  %>%
+  filter(!Parent_ID == "TN397_S11_600_U_C")
   
 
 #Define latitudinal breaks:
@@ -153,10 +154,12 @@ p.p1 <- ggplot(p1.dat.p, aes(x = lat_bin, y=Mean.Part.nM, fill = reorder(compoun
   theme_test() + 
   theme(axis.text.y = element_blank(),
         axis.title.x = element_blank()) +
-  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6)) +
+  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6),
+        plot.title = element_text(hjust = 0.5)) +
   ylab("Particulate Mole Fraction") +
   xlab("Latitude") +
-  labs(fill = "Compound") 
+  labs(fill = "Compound") +
+  ggtitle("TN397 - Legs 2 and 3")
 p.p1
 
 #panel 2
@@ -169,10 +172,12 @@ p.p2 <- ggplot(p2.dat.p, aes(x = lat_bin, y=Mean.Part.nM, fill = reorder(compoun
   theme_test() + 
   theme(axis.text.y = element_blank(),
         axis.title.x = element_blank()) +
-  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6)) +
+  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6),
+        plot.title = element_text(hjust = 0.5))  +
   ylab("Particulate Mole Fraction") +
   xlab("Latitude") +
-  labs(fill = "Compound") 
+  labs(fill = "Compound") +
+  ggtitle("KM1906")
 p.p2
 
 #panel 3
@@ -185,10 +190,12 @@ p.p3 <- ggplot(p3.dat.p, aes(x = reorder(Station, Long), y=Mean.Part.nM, fill = 
   theme_test() + 
   theme(axis.text.y = element_blank(),
         axis.title.x = element_blank()) +
-  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6)) +
+  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6),
+        plot.title = element_text(hjust = 0.5)) +
   ylab("Particulate Mole Fraction") +
   xlab("Latitude") +
-  labs(fill = "Compound") 
+  labs(fill = "Compound")  +
+  ggtitle("TN397 - Leg 1")
 p.p3
 
 #panel 4
@@ -201,10 +208,12 @@ p.p4 <- ggplot(p4.dat.p, aes(x = Station, y=Mean.Part.nM, fill = reorder(compoun
   theme_test() + 
   theme(axis.text.y = element_blank(),
         axis.title.x = element_blank()) +
-  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6)) +
+  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6),
+        plot.title = element_text(hjust = 0.5)) +
   ylab("Particulate Mole Fraction") +
   xlab("Latitude") +
-  labs(fill = "Compound") 
+  labs(fill = "Compound") +
+  ggtitle("RC078")
 p.p4
 
 
@@ -293,10 +302,62 @@ d.p4
 
 
 
+##______________Extra Code:___________
+
+##Make G3 dissolved figure in N-space:
+G3.N.dat <- dat.panel %>%
+  filter(!is.na(Diss.Conc.N.nM)) %>%
+  filter(panel == "p2") %>%
+  filter(Diss.detected == "Yes") %>%
+  mutate(lat_bin = cut(Lat, breaks = lat.breaks, include.lowest = TRUE, right = FALSE)) %>%
+  group_by(lat_bin, compound.name.figure, order) %>%
+  filter(!is.na(compound.name.figure)) %>%
+  reframe(Mean.Diss.N.nM = mean(Diss.Conc.N.nM, na.rm = TRUE))
+
+#panel 2
+g3.diss.N <- ggplot(G3.N.dat, aes(x = lat_bin, y=Mean.Diss.N.nM, fill = reorder(compound.name.figure, order))) +
+  geom_col(alpha = 0.9, width = 0.6, color = "black", size = 0.15) +
+  scale_fill_manual(values = compound.pal.fig)+
+  guides(fill = guide_legend(ncol = 1)) +
+  #  scale_fill_manual(values = stepped2(n = 20)) +
+  scale_y_continuous(expand = c(0,NA,NA,NA), limits = c(0, 130)) +
+  theme_test() + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+#        axis.title.x = element_blank()) +
+  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6)) +
+  ylab("Dissolved Concentration (nmol N/L)") +
+  xlab("Latitude") +
+  labs(fill = "Compound") 
+g3.diss.N
+
+ggsave(g3.diss.N, filename = "Figures/SCOPE_2025/G3_Diss_N.png", dpi = 800, height = 5, width = 10,
+       scale = 0.9)
 
 
 
+#make the same plot without TMAO:
+G3.N.dat.noTMAO <- G3.N.dat %>%
+  filter(!compound.name.figure == "TMAO")
 
+###
+g3.diss.N.noTMAO <- ggplot(G3.N.dat.noTMAO, aes(x = lat_bin, y=Mean.Diss.N.nM, fill = reorder(compound.name.figure, order))) +
+  geom_col(alpha = 0.9, width = 0.6, color = "black", size = 0.15) +
+  scale_fill_manual(values = compound.pal.fig)+
+  guides(fill = guide_legend(ncol = 1)) +
+  scale_y_continuous(expand = c(0,NA,NA,NA), limits = c(0, 65)) +
+  #  scale_fill_manual(values = stepped2(n = 20)) +
+  # scale_y_continuous(expand = c(0,NA,NA,NA)) +
+  theme_test() + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  #        axis.title.x = element_blank()) +
+  theme(legend.key.size = unit(0.4, "cm"), legend.text = element_text(size = 6)) +
+  ylab("Dissolved Concentration (nmol N/L)") +
+  xlab("Latitude") +
+  labs(fill = "Compound") 
+g3.diss.N.noTMAO
+
+ggsave(g3.diss.N.noTMAO, filename = "Figures/SCOPE_2025/G3_Diss_N_noTMAO.png", dpi = 1000, height = 5, width = 10,
+       scale = 0.9)
 
 
 
