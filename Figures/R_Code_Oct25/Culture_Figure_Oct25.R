@@ -96,7 +96,7 @@ comp.org.count <- dat.org.class.new %>%
   full_join(., tibble(compound.name.figure = "Arsenobetaine",
                       class = "Other",
                       org_class = NA,
-                      count = 0)) %>%
+                      count = NA)) %>%
   left_join(., compound.order) 
 
 comp.org.count.sum <- comp.org.count %>%
@@ -116,7 +116,14 @@ comps.not.accumulated <- anti_join(dat.org.class.new %>% select(compound.name.fi
   left_join(., compound.order) %>%
   mutate(count.sum = 0,
          fig.text = "0 (0)")
+
+
+
+comp.org.count.fig <- comp.org.count %>%
+  full_join(., comps.not.accumulated)
   
+
+
 comp.org.count.text <- comp.org.count.sum %>%
   left_join(., comp.org.class.count) %>%
   mutate(fig.text = paste0(count.sum, " (", org_class.count, ")")) %>%
@@ -134,18 +141,32 @@ comp.org.count.text <- comp.org.count.sum %>%
 
 
 
+x <- comp.org.relabun %>%
+  select(compound.name.figure, order) %>%
+  unique()
 
+
+y <- comp.org.count.fig %>%
+  select(compound.name.figure, order) %>%
+  unique()
+  
+
+
+library(viridis)
 ##Make Test Plots
 ggplot(comp.org.relabun, aes(x = org_class, y = reorder(compound.name.figure, -order), fill = mean.rel.conc.group)) +
   geom_tile(color = "black") +
   facet_wrap(.~class, scales = "free_y", ncol = 1) + 
   scale_fill_viridis(discrete = TRUE, option = "G")
 
-ggplot(comp.org.count) +
+ggplot(comp.org.count.fig) +
   geom_col(aes(x = count, y = reorder(compound.name.figure, -order), fill = org_class), color = "black", linewidth = 0.1) +
   geom_text(data = comp.org.count.text, aes(x = count.sum+5, y = reorder(compound.name.figure, -order), label = fig.text)) +
   facet_wrap(.~class, scales = "free_y") +
   theme_minimal() 
+
+
+
 
 
 
@@ -177,7 +198,7 @@ numb.comps.produced.fig
 
 ###AA Data:
 aa.relabun <- comp.org.relabun %>% filter(class == "AA")
-aa.count <- comp.org.count %>% filter(class == "AA")
+aa.count <- comp.org.count.fig %>% filter(class == "AA")
 aa.count.text <- comp.org.count.text %>% filter(class == "AA")
 
 ##Plot AA Data:
@@ -215,8 +236,8 @@ aa.count.plot <- ggplot(aa.count) +
         axis.ticks = element_blank(),
         panel.border = element_blank(),
         plot.margin = unit(c(0,0,0,0), units = "cm")) +
-  scale_fill_manual(values = org.palette) +
-  labs(fill = "Taxonomic Group")
+  scale_fill_manual(values = org.palette, breaks = ~ .x[!is.na(.x)]) +
+  labs(fill = "Taxonomic Group") 
 aa.count.plot
 
 #combine plots:
@@ -231,7 +252,7 @@ aa.comb.plot
 ###Betaine Data:
 bet.relabun <- comp.org.relabun %>% filter(class == "Betaine") %>%
   full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
-bet.count <- comp.org.count %>% filter(class == "Betaine")
+bet.count <- comp.org.count.fig %>% filter(class == "Betaine")
 bet.count.text <- comp.org.count.text %>% filter(class == "Betaine")
 
 ##Plot Betaine Data:
@@ -280,7 +301,7 @@ bet.comb.plot
 ###Sugar Data:
 sug.relabun <- comp.org.relabun %>% filter(class == "Sugar")  %>%
   full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
-sug.count <- comp.org.count %>% filter(class == "Sugar")
+sug.count <- comp.org.count.fig %>% filter(class == "Sugar")
 sug.count.text <- comp.org.count.text %>% filter(class == "Sugar")
 
 ##Plot Sugar Data:
@@ -330,7 +351,7 @@ sug.comb.plot
 ###Sulfonium Data:
 sulfonium.relabun <- comp.org.relabun %>% filter(class == "Sulfonium") %>%
   full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
-sulfonium.count <- comp.org.count %>% filter(class == "Sulfonium") 
+sulfonium.count <- comp.org.count.fig %>% filter(class == "Sulfonium") 
 sulfonium.count.text <- comp.org.count.text %>% filter(class == "Sulfonium")
 
 ##Plot Sulfonium Data:
@@ -378,7 +399,7 @@ sulfonium.comb.plot
 ###Sulfonate Data:
 sulfonate.relabun <- comp.org.relabun %>% filter(class == "Sulfonate") %>%
   full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
-sulfonate.count <- comp.org.count %>% filter(class == "Sulfonate")
+sulfonate.count <- comp.org.count.fig %>% filter(class == "Sulfonate")
 sulfonate.count.text <- comp.org.count.text %>% filter(class == "Sulfonate")
 
 ##Plot Sulfonate Data:
@@ -427,7 +448,7 @@ sulfonate.comb.plot
 ###Other Data:
 other.relabun <- comp.org.relabun %>% filter(class == "Other") %>%
   full_join(comp.org.relabun %>% select(mean.rel.conc.group) %>% unique())
-other.count <- comp.org.count %>% filter(class == "Other")
+other.count <- comp.org.count.fig %>% filter(class == "Other")
 other.count.text <- comp.org.count.text %>% filter(class == "Other")
 
 ##Plot Betaine Data:
@@ -490,11 +511,11 @@ full.comb.plot <- numb.comps.produced.fig  + plot_spacer() +
   sulfonate.rel.plot  + sulfonate.count.plot +
   other.rel.plot  + other.count.plot +
   plot_layout(guides = "collect", ncol = 2, nrow = 6, widths = c(NA, NA))) +
-  plot_layout(guides = "collect", nrow = 4, ncol = 1, heights = c(1.25, 0.1, 5.5))
+  plot_layout(guides = "collect", nrow = 4, ncol = 1, heights = c(1.5, 0.1, 5.5)) 
 
 
 
 full.comb.plot
 
 ggsave(full.comb.plot, filename = "Figures/Output_Oct25/Culture_Fig.png", 
-       height = 8, width = 6, dpi = 300, scale = 1.3)
+       height = 9, width = 7, dpi = 1200, scale = 1.3)

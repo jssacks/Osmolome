@@ -7,6 +7,7 @@
 library(tidyverse)
 library(vegan)
 library(viridis)
+library(rstatix)
 source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
 
 
@@ -65,8 +66,8 @@ part.matrix <- part.dat %>%
 part.metadata <- dat.region %>%
   filter(!is.na(Part.Conc.nM)) %>%
   rename(SampID = Part.SampID) %>%
-  select(SampID, Cruise, Lat, Long, Region, chla, poc, pn, sst, sss, N_N) %>%
-  group_by(SampID, Cruise, Lat, Long, Region, chla, poc, pn, sst, N_N) %>%
+  select(SampID, Cruise, Lat, Long, Region, chla, poc, pn, sst, sss, N_N, SRP) %>%
+  group_by(SampID, Cruise, Lat, Long, Region, chla, poc, pn, sst, N_N, SRP) %>%
   reframe(sss = mean(sss))
 
 
@@ -91,8 +92,8 @@ diss.matrix <- diss.dat %>%
 diss.metadata <- dat.region %>%
   filter(!is.na(Diss.Conc.nM)) %>%
   rename(SampID = Diss.SampID) %>%
-  select(SampID, Cruise, Lat, Long, Region, chla, poc, pn, sst, sss, N_N) %>%
-  group_by(SampID, Cruise, Lat, Long, Region, chla, poc, pn, sst, N_N) %>%
+  select(SampID, Cruise, Lat, Long, Region, chla, poc, pn, sst, sss, N_N, SRP) %>%
+  group_by(SampID, Cruise, Lat, Long, Region, chla, poc, pn, sst, N_N, SRP) %>%
   reframe(sss = mean(sss))
 
 
@@ -160,7 +161,7 @@ p.pca.plot <- ggplot(p.pca.samp.plot, aes(x = PC1, y = PC2)) +
  #       axis.text.x = element_blank(), axis.title.x = element_blank(), 
   #      plot.title = element_text(hjust = 0.5)) +
   ggtitle("Particulate") +
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(plot.title = element_text(hjust = 0.5)) 
   
 p.pca.plot
 
@@ -195,15 +196,27 @@ d.pca.plot
 
 #Particulate - PC1 vs everything:
 p.pca.reg.dat <- p.pca.samp.plot %>%
-  select(Region, SampID, PC1, poc, pn, chla, sst, sss, N_N) %>%
-  pivot_longer(cols = poc:N_N, values_to = "val", names_to = "param") %>%
+  select(Region, SampID, PC1, poc, pn, chla, sst, sss, N_N, SRP) %>%
+  pivot_longer(cols = poc:SRP, values_to = "val", names_to = "param") %>%
   group_by(param) %>%
   mutate(cor_pc1 = cor(PC1*-1, log10(val), use = "complete.obs")) 
+
+##Run PCA regressions
+p.pca.reg.out <- p.pca.reg.dat %>%
+  mutate(val = log10(val)) %>%
+#  filter(!is.na(val)) %>%
+  group_by(param) %>%
+  cor_test(vars = c(PC1, val))
+
 
 ggplot(p.pca.reg.dat, aes(x = val, y = PC1, color = Region)) +
   geom_point() +
   facet_wrap(.~param, scales = "free") +
   scale_x_log10()
+
+
+
+
 
 
 p.pca.reg.sum <- p.pca.reg.dat %>%
@@ -216,8 +229,8 @@ p.pca.reg.sum <- p.pca.reg.dat %>%
 
 #Dissolved - PC1 vs everything:
 d.pca.reg.dat <- d.pca.samp.plot %>%
-  select(Region, SampID, PC1, poc, pn, chla, sst, sss, N_N) %>%
-  pivot_longer(cols = poc:N_N, values_to = "val", names_to = "param") %>%
+  select(Region, SampID, PC1, poc, pn, chla, sst, sss, N_N, SRP) %>%
+  pivot_longer(cols = poc:SRP, values_to = "val", names_to = "param") %>%
   group_by(param) %>%
   mutate(cor_pc1 = cor(PC1*-1, log10(val), use = "complete.obs"))
 

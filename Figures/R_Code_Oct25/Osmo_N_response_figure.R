@@ -18,6 +18,7 @@
 
 library(tidyverse)
 library(patchwork)
+library(ggrepel)
 source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
 
 
@@ -46,6 +47,46 @@ dat.region <- dat %>%
                             Cruise == "TN397" & Lat < 4.5 ~ "PEDP",
                             Cruise == "RC078" ~ "SS"))
 
+
+
+###___Make PERIFIX Composition Plots:
+peri.dat.comp <- read_csv(peri.file)%>%
+  left_join(., compound.order) %>%
+  filter(Part.detected == "Yes") %>%
+  filter(!str_detect(Part.SampID, "Blk")) %>%
+  filter(!is.na(compound.name.figure)) %>%
+  group_by(Treatment, compound.name.figure, order, class, N_status) %>%
+  reframe(Mean.Part.nM = mean(Part.Conc.nM)) %>%
+  ungroup() %>%
+  mutate(Treatment = as.factor(Treatment)) %>%
+  mutate(Treatment = fct_relevel(Treatment, c("Tote", "C", "F", "P", "PF", "N", "NF", "NP", "NPF")))
+
+peri.comp.fig <- ggplot(peri.dat.comp, aes(x = Treatment, y = Mean.Part.nM, fill = reorder(compound.name.figure, order))) +
+  geom_col(alpha = 0.9, width = 0.7, color = "black", size = 0.15, position = "fill") +
+  scale_fill_manual(values = compound.pal.fig)+
+  guides(fill = guide_legend(ncol = 3)) +
+  geom_vline(xintercept = 1.5, linetype = "dashed", size = 0.2) +
+  geom_vline(xintercept = 5.5, linetype = "dashed", size = 0.2) +
+  # scale_fill_manual(values = stepped2(n = 20)) +
+  scale_y_continuous(expand = c(0,NA,NA,NA)) +
+  theme_test() +
+  ylab("Particulate Mole Fraction") +
+  labs(fill = "Compound")  +
+  theme(legend.text = element_text(size = 8),
+        plot.title = element_text(hjust = 0.5)) 
+peri.comp.fig
+
+
+
+
+
+
+
+
+
+
+
+#Make osmolyte class ratio plots:
 
 ##Pull out gradients data and calculate average sample values of each osmolyte class:
 dat.gradients <- dat.region %>%
@@ -216,7 +257,7 @@ g3.sulfonate.plot <- ggplot(dat.g3, aes(x = Lat, y = N_Sulfonate_ratio)) +
   annotate("text", x = 24, y = 1.6, label = "p = 1.18e-7", fontface = "bold.italic") +
   theme(legend.position = "none", 
         axis.title.x = element_blank(),
-        axis.title.y = element_blank())
+        axis.title.y = element_blank()) 
 g3.sulfonate.plot
 
 
@@ -232,7 +273,7 @@ peri.sulfonate.plot <- ggplot(peri.dat, aes(x = N_status_fig, y = N_Sulfonate_ra
   annotate("text", x = 1.1, y = 7, label = "p = 0.001", fontface = "bold.italic") +
   theme(legend.position = "none", 
         axis.title.x = element_blank(),
-        axis.title.y = element_blank())
+        axis.title.y = element_blank()) 
 peri.sulfonate.plot
 
 
@@ -262,7 +303,9 @@ g4.sulfonium.plot <- ggplot(dat.g4, aes(x = Lat, y = N_Sulfonium_ratio)) +
   annotate("text", x = 6.75, y = 0.25, label = "a", fontface = "italic") +
   annotate("text", x = 20, y = 0.41, label = "b", fontface = "italic") +
   annotate("text", x = 1, y = 0.44, label = "p = 2.53e-14", fontface = "bold.italic") +
-  theme(legend.position = "none")
+  theme(legend.position = "bottom") +
+  ggtitle("TN397") +
+  theme(plot.title = element_text(hjust = 0.5))
 g4.sulfonium.plot
 
 
@@ -283,11 +326,13 @@ g3.sulfonium.plot <- ggplot(dat.g3, aes(x = Lat, y = N_Sulfonium_ratio)) +
   annotate("text", x = 38.5, y = 1.15, label = "a", fontface = "italic") +
   annotate("text", x = 24, y = 1.1, label = "p = 0.21", fontface = "italic") +
   theme(legend.position = "none", 
-        axis.title.y = element_blank())
+        axis.title.y = element_blank()) +
+  ggtitle("KM1906") +
+  theme(plot.title = element_text(hjust = 0.5))
 g3.sulfonium.plot
 
 
-#Sulfonate-G3
+#Sulfonium-PERIFIX
 peri.sulfonium.plot <- ggplot(peri.dat, aes(x = N_status_fig, y = N_Sulfonium_ratio)) +
   geom_boxplot(aes(color = N_status), width = 0.5) +
   geom_jitter(shape = 21, fill = "white", width = 0.2, size = 2, stroke = 0.5) +
@@ -298,7 +343,9 @@ peri.sulfonium.plot <- ggplot(peri.dat, aes(x = N_status_fig, y = N_Sulfonium_ra
   ylab("Sulfonium/(AA+Betaine)") +
   annotate("text", x = 1.1, y = 0.7, label = "p = 0.0086", fontface = "bold.italic") +
   theme(legend.position = "none", 
-        axis.title.y = element_blank())
+        axis.title.y = element_blank()) +
+  ggtitle("PERIFIX") +
+  theme(plot.title = element_text(hjust = 0.5))
 peri.sulfonium.plot
 
 
@@ -348,13 +395,14 @@ label.dat.g4.neg <- fc.dat %>%
 #Gradients 3
 label.dat.g3.pos <- fc.dat %>%
   filter(compound.name.figure %in% c("Homarine", "Isethionic acid", "Taurine", "DHPS", "GG"))
+
 label.dat.g3.neg <- fc.dat %>%
-  filter(compound.name.figure %in% c("Sucrose", "Trehalose", "Arsenobetaine", "DMSA"))
+  filter(compound.name.figure %in% c("Trehalose", "Arsenobetaine", "DMSA"))
 
 
 
 
-library(ggrepel)
+
 
 ##Make Base Plots:
 peri.fc.plot <- ggplot(peri.fc.dat, aes(x = peri.log2fc, y = -log10(peri.p))) +
@@ -382,7 +430,7 @@ peri.fc.plot <- ggplot(peri.fc.dat, aes(x = peri.log2fc, y = -log10(peri.p))) +
                   segment.size = 0.25,
                   force = 0.1,
                   xlim = c(NA, -2),
-                  ylim = c(1.5, NA)) +
+                  ylim = c(1, NA)) +
   ylab("-log10(p)") +
   xlab("Log2FC(+N/-N)") +
   theme(legend.position = "bottom") +
@@ -399,7 +447,7 @@ g4.fc.plot <- ggplot(g4.fc.dat, aes(x = g4.log2fc, y = -log10(g4.p))) +
   geom_point(shape = 21, aes(fill = behavior_sum), stroke = 0.2, size = 4) +
   scale_fill_manual(values = volcano.palette) +
   theme_test() +
-  xlim(c(-4, 4)) +
+  xlim(c(-4.5, 4.5)) +
   geom_text_repel(data = label.dat.g4.pos, aes(x = g4.log2fc, y = -log10(g4.p), label = compound.name.figure),
                   label.size = 0.1,
                   size = 3,
@@ -419,7 +467,7 @@ g4.fc.plot <- ggplot(g4.fc.dat, aes(x = g4.log2fc, y = -log10(g4.p))) +
                   segment.size = 0.25,
                   force = 0.1,
                   xlim = c(NA, -2),
-                  ylim = c(2, NA)) +
+                  ylim = c(1, NA)) +
   ylab("-log10(p)") +
   xlab("Log2FC(PEDP/NPSG)") +
   theme(legend.position = "bottom") +
@@ -473,20 +521,35 @@ g3.fc.plot
 
 
 ###Work to combine all plots:
-
-full.comb.plot <- ((g4.fc.plot + g3.fc.plot + peri.fc.plot)/guide_area() + plot_layout(guides = "collect")) /
+full.comb.plot <-
+  (peri.comp.fig + plot_spacer() + guide_area() + plot_layout(guides = "collect", widths = c(4, 0.5, 3))) /
+  plot_spacer()/
+  ((peri.fc.plot + g4.fc.plot + g3.fc.plot)/guide_area() + plot_layout(guides = "collect", heights = c(3,1))) /
   plot_spacer() /
   ((g4.sug.plot + g3.sug.plot + peri.sug.plot + 
       plot_layout(nrow = 1, widths = c(0.4, 0.4, 0.15))) /
      (g4.sulfonate.plot + g3.sulfonate.plot + peri.sulfonate.plot + 
         plot_layout(nrow = 1, widths = c(0.4, 0.4, 0.15))) /
-     (g4.sulfonium.plot + g3.sulfonium.plot + peri.sulfonium.plot + 
-        plot_layout(nrow = 1, widths = c(0.4, 0.4, 0.15))) /
-     guide_area() + plot_layout(guides = "collect", heights = c(3, 3, 3, 1))) +
-  plot_layout(guides = "collect", heights = c(2.5, 0.2, 0.2, 7.5))
+     guide_area() + plot_layout(guides = "collect", heights = c(3, 3, 1))) +
+  plot_layout(heights = c(3.5, 0.1, 4.5, 0.1, 6.5)) +
+  plot_annotation(tag_levels = 'a')
 
 full.comb.plot  
 
 ggsave(full.comb.plot, filename = "Figures/Output_Oct25/Osmo_N_Response_Figure.png", 
-       dpi = 800, height = 8, width = 7, scale = 1.5)
+       dpi = 300, height = 9.5, width = 7.5, scale = 1.5)
+
+
+
+## Make suppelmental plot for Sulfoniums:
+sulfonium.sup.plot <- 
+  (g4.sulfonium.plot + g3.sulfonium.plot + peri.sulfonium.plot +
+     plot_layout(nrow = 1, widths = c(0.4, 0.4, 0.15))) /
+  guide_area() +
+  plot_layout(guides = "collect", heights = c(5,1)) +
+  plot_annotation(tag_levels = 'a')
+sulfonium.sup.plot
+
+ggsave(sulfonium.sup.plot, filename = "Figures/Output_Oct25/Sulfonium_N_Response_Supp_Figure.png", 
+       dpi = 900, height = 2.75, width = 7, scale = 1.5)
 

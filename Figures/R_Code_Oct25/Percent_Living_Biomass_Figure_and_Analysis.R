@@ -8,6 +8,8 @@
 
 library(tidyverse)
 library(lubridate)
+library(patchwork)
+source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
 
 
 
@@ -42,7 +44,7 @@ gradients.enviro.dat <- full_join(g3.dat, g4.dat) %>%
 atp.dat <- read_csv(atp.file)
 
 #Combine gradients data with atp data
-gradients.atp.dat <- left_join(atp.time.dat, gradients.enviro.dat) %>%
+gradients.atp.dat <- left_join(atp.dat, gradients.enviro.dat) %>%
   select(Cruise, Station, Lat, Long, UTC.time.round, PATP_ng_L, SD_PATP_ng_L, ATP_Flag, sst, sss, chla_interp, pc_interp, pn_interp, N_N_interp) %>%
   rename("chla" = chla_interp,
          "poc" = pc_interp,
@@ -104,9 +106,18 @@ osmo.live.bio.sum <- osmo.live.bio %>%
 
 
 
+
+annotation.dat <- tibble(
+  Cruise = "TN397",
+  x = 15, 
+  y = 90,
+  label = "ATP-derived estiamte"
+)
+
+
 ### Plot G3 and G4 Samples:
 #Combined:
-comb.percent.living.plot <- ggplot(osmo.live.bio.sum, aes(x = Lat, y = Mean.Percent.Living)) +
+g4.percent.living.plot <- ggplot(osmo.live.bio.sum %>% filter(Cruise == "TN397"), aes(x = Lat, y = Mean.Percent.Living)) +
   geom_hline(yintercept = 30, color = "gray40", linetype = "dashed") +
  # geom_vline(data = lines.df, aes(xintercept = Lat), linetype = "dashed", size = 0.2) +
   geom_errorbar(aes(ymin = Mean.Percent.Living-SD.Percent.Living, ymax = Mean.Percent.Living+SD.Percent.Living), size = 0.2) +
@@ -115,16 +126,49 @@ comb.percent.living.plot <- ggplot(osmo.live.bio.sum, aes(x = Lat, y = Mean.Perc
   scale_fill_manual(values = region.palette.7) +
  # scale_fill_viridis(discrete = TRUE, direction = -1, option = "G", end = 0.95) +
   #  geom_point(data = atp.dat, aes(x = Lat, y = Living.C.ng.L), fill = "red", shape = 22, stroke = 0.2, size = 3) +
-  facet_grid(.~reorder(Cruise, cruise.order), scales = "free_x") +
-  geom_errorbar(data = atp.live.bio, aes(ymin = Mean.Percent.Living-SD.Percent.Living, ymax = Mean.Percent.Living+SD.Percent.Living), size = 0.2) +
-  geom_point(data = atp.live.bio, aes(x = Lat, y = Mean.Percent.Living), 
+#  facet_grid(.~reorder(Cruise, cruise.order), scales = "free_x") +
+  geom_errorbar(data = atp.live.bio %>% filter(Cruise == "TN397"), aes(ymin = Mean.Percent.Living-SD.Percent.Living, ymax = Mean.Percent.Living+SD.Percent.Living), size = 0.2) +
+  geom_point(data = atp.live.bio %>% filter(Cruise == "TN397"), aes(x = Lat, y = Mean.Percent.Living), 
              shape = 22, stroke = 0.4, size = 2, fill = "red", alpha = 0.6) +
   theme_bw() +
   ylab("Percent Living Biomass (%)") +
-  scale_y_continuous(limits = c(0,NA), expand = c(0,NA)) 
+  scale_y_continuous(limits = c(0,111), expand = c(0,NA)) +
+  annotate(geom = "text", x = 15, y = 90, label = "ATP-derived estimate") + 
+  annotate(geom = "segment", y = 85, x = 15, xend = 17.5, yend = 47, linewidth = 0.2) +
+  xlab("Latitude")
+g4.percent.living.plot
+
+
+g3.percent.living.plot <- ggplot(osmo.live.bio.sum %>% filter(Cruise == "KM1906"), aes(x = Lat, y = Mean.Percent.Living)) +
+  geom_hline(yintercept = 30, color = "gray40", linetype = "dashed") +
+  # geom_vline(data = lines.df, aes(xintercept = Lat), linetype = "dashed", size = 0.2) +
+  geom_errorbar(aes(ymin = Mean.Percent.Living-SD.Percent.Living, ymax = Mean.Percent.Living+SD.Percent.Living), size = 0.2) +
+  #  geom_errorbar(data = Osmo.biomass.sml, aes(ymin = Mean.osmo.percent.living-SD.osmo.percent.living, ymax = Mean.osmo.percent.living+SD.osmo.percent.living)) +
+  geom_point(aes(fill = Region), shape = 21, size = 3, stroke = 0.25) +
+  scale_fill_manual(values = region.palette.7) +
+  # scale_fill_viridis(discrete = TRUE, direction = -1, option = "G", end = 0.95) +
+  #  geom_point(data = atp.dat, aes(x = Lat, y = Living.C.ng.L), fill = "red", shape = 22, stroke = 0.2, size = 3) +
+  #  facet_grid(.~reorder(Cruise, cruise.order), scales = "free_x") +
+  geom_errorbar(data = atp.live.bio %>% filter(Cruise == "KM1906"), aes(ymin = Mean.Percent.Living-SD.Percent.Living, ymax = Mean.Percent.Living+SD.Percent.Living), size = 0.2) +
+  geom_point(data = atp.live.bio %>% filter(Cruise == "KM1906"), aes(x = Lat, y = Mean.Percent.Living), 
+             shape = 22, stroke = 0.4, size = 2, fill = "red", alpha = 0.6) +
+  theme_bw() +
+  ylab("Percent Living Biomass (%)") +
+  scale_y_continuous(limits = c(0,111), expand = c(0,NA)) +
+  theme(legend.position = "none",
+        axis.title.y = element_blank(),
+        axis.text.y = element_blank()) +
+  xlab("Latitude")
+g3.percent.living.plot
+
+
+
+
+comb.percent.living.plot <- g4.percent.living.plot + g3.percent.living.plot + plot_layout(guides = "collect")
 comb.percent.living.plot
 
-
+ggsave(comb.percent.living.plot, dpi = 300, file = "Figures/Output_Oct25/Percent_Living_Biomass.png",
+       height = 2.75, width = 7.5, scale = 1.2)
 
 
 

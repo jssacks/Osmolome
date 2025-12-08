@@ -144,13 +144,13 @@ g4.map <- ggplot(g4.chla.dat) +
   theme(legend.position = "none")+
   ylab("Latitude") + 
   xlab("Longitude") +
-  annotate("segment", x = -117.5, xend = -138, y = 30, yend = 17, 
-           size = 0.5, color = "black") +
-  annotate("segment", x = -138, xend = -138, y = 15, yend = -3, 
-           size = 0.5, color = "black") +
-  annotate("text", x = -127, y = 22, label = "Leg 1", angle = 35) +
-  annotate("text", x = -133, y = 0, label = "Leg 2") +
-  annotate("text", x = -147, y = 0, label = "Leg 3") +
+  # annotate("segment", x = -117.5, xend = -138, y = 30, yend = 17, 
+  #          size = 0.5, color = "black") +
+  # annotate("segment", x = -138, xend = -138, y = 15, yend = -3, 
+  #          size = 0.5, color = "black") +
+  # annotate("text", x = -127, y = 22, label = "Leg 1", angle = 35) +
+  # annotate("text", x = -133, y = 0, label = "Leg 2") +
+  # annotate("text", x = -147, y = 0, label = "Leg 3") +
   annotate("rect", ymin = 30.5, ymax = 34, xmin = -159, xmax = -151, fill = "white", alpha = 0.5) +
   annotate("text", x = -155, y = 32.25, label = "TN397") 
 g4.map
@@ -261,7 +261,8 @@ PS.map
 
 ##arrange figures vertically
 full.fig.vert <- big.map + g4.map + (g3.map + PS.map + plot_layout(nrow = 1)) +
-  plot_layout(ncol = 1, guides = "collect") #&
+  plot_layout(ncol = 1, guides = "collect") +
+  plot_annotation(tag_levels = "a")#&
  # theme(legend.position = "bottom")
 full.fig.vert
 
