@@ -267,7 +267,7 @@ full.fig.vert <- big.map + g4.map + (g3.map + PS.map + plot_layout(nrow = 1)) +
 full.fig.vert
 
 ggsave(full.fig.vert, filename = "Figures/Output_Oct25/Map_Figure_Vertical.png",
-       dpi = 600, height = 9, width = 4, scale = 1.35)
+       dpi = 1200, height = 9, width = 4, scale = 1.35)
 
 
 

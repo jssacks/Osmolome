@@ -19,7 +19,8 @@ library(patchwork)
 library(ggsci)
 source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
 
-
+#load metadata:
+cult.meta <- read.csv("Intermediates/All_culture_metadata.csv")
 
 
 
@@ -27,17 +28,19 @@ source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
 dat.cult <- read_csv("Intermediates/Culture_Final_Quant_QCed.csv") %>%
   left_join(., compound.order) %>%
   filter(!str_detect(SampID, "Blk")) %>%
-  mutate(Part.Conc.Vial.uM = case_when(Detected == "No" ~ 0,
-                                       TRUE ~ Part.Conc.Vial.uM)) %>%
-  mutate(Part.Conc.Vial.uM = replace_na(Part.Conc.Vial.uM, 0)) %>%
+  mutate(Part.Conc.uM = case_when(Detected == "No" ~ 0,
+                                       TRUE ~ Part.Conc.uM)) %>%
+  mutate(Part.Conc.uM = replace_na(Part.Conc.uM, 0)) %>%
   filter(!is.na(compound.name.figure)) %>%
-  filter(!is.na(Type))
+  filter(!is.na(Type)) %>%
+  left_join(., cult.meta) %>%
+  filter(!is.na(Vol_mL))
 
 
 #Summarize data by different groups: 
 dat.cult.organism <- dat.cult %>%
   group_by(Organism, Type, class, compound.name.figure, Detected) %>%
-  reframe(mean.conc.uM = mean(Part.Conc.Vial.uM)) %>%
+  reframe(mean.conc.uM = mean(Part.Conc.uM)) %>%
   group_by(Type, Organism) %>%
   mutate(rel.conc = mean.conc.uM/sum(mean.conc.uM)*100) %>%
   ungroup() %>%
@@ -519,3 +522,4 @@ full.comb.plot
 
 ggsave(full.comb.plot, filename = "Figures/Output_Oct25/Culture_Fig.png", 
        height = 9, width = 7, dpi = 1200, scale = 1.3)
+

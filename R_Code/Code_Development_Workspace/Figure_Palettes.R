@@ -238,3 +238,16 @@ rr.palette <- c(
   "NPFe" = "#4BA476"
 )
 
+#PERIFIX Palette:
+peri.palette <- c(
+  "Tote" = "gray",
+  "C" = "#ed8992",
+  "F" = "#d44057",
+  "P" = "#e89434",
+  "PF" = "#e3c23a",
+  "N" = "darkblue",
+  "NF" = "#61b053",
+  "NP" = "#4baf9f",
+  "NPF" = "#6b7dce"
+)
+

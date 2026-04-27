@@ -98,8 +98,8 @@ osmo.live.bio <- osmo.dat  %>%
   
 osmo.live.bio.sum <- osmo.live.bio %>%
   group_by(Region, Cruise, Lat, Long, sss, sst, poc, chla) %>%
-  reframe(Mean.Percent.Living = mean(Percent.Living),
-          SD.Percent.Living = sd(Percent.Living)) %>%
+  reframe(Mean.Percent.Living = mean(Percent.Living, na.rm = TRUE),
+          SD.Percent.Living = sd(Percent.Living, na.rm = TRUE)) %>%
   filter(!Cruise == "RC078") %>%
   mutate(cruise.order = case_when(Cruise == "TN397" ~ 1,
                                   TRUE ~ 2))
@@ -135,7 +135,9 @@ g4.percent.living.plot <- ggplot(osmo.live.bio.sum %>% filter(Cruise == "TN397")
   scale_y_continuous(limits = c(0,111), expand = c(0,NA)) +
   annotate(geom = "text", x = 15, y = 90, label = "ATP-derived estimate") + 
   annotate(geom = "segment", y = 85, x = 15, xend = 17.5, yend = 47, linewidth = 0.2) +
-  xlab("Latitude")
+  xlab("Latitude") +
+  ggtitle("TN397") +
+  theme(plot.title = element_text(hjust = 0.5))
 g4.percent.living.plot
 
 
@@ -158,7 +160,9 @@ g3.percent.living.plot <- ggplot(osmo.live.bio.sum %>% filter(Cruise == "KM1906"
   theme(legend.position = "none",
         axis.title.y = element_blank(),
         axis.text.y = element_blank()) +
-  xlab("Latitude")
+  xlab("Latitude") +
+  ggtitle("KM1906") +
+  theme(plot.title = element_text(hjust = 0.5))
 g3.percent.living.plot
 
 

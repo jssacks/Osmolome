@@ -80,7 +80,7 @@ part.cor.output <- part.cor.dat %>%
   group_by(param) %>%
   cor_test(vars = c(Sum.Part.Conc.nM, value))
   
-part.log.lm.output <- part.cor.dat %>%
+part.log.cor.output <- part.cor.dat %>%
   group_by(param) %>%
   cor_test(vars = c(log10.Sum.Part.Conc.nM, log10.value))
 
@@ -89,7 +89,7 @@ diss.cor.output <- diss.cor.dat %>%
   group_by(param) %>%
   cor_test(vars = c(Sum.Diss.Conc.nM, value))
 
-diss.log.lm.output <- diss.cor.dat %>%
+diss.log.cor.output <- diss.cor.dat %>%
   group_by(param) %>%
   cor_test(vars = c(log10.Sum.Diss.Conc.nM, log10.value))
 

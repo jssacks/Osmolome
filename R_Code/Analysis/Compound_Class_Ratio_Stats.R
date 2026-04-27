@@ -47,6 +47,20 @@ dat.gradients <- dat.region %>%
   mutate(Cruise = fct_relevel(Cruise, c("TN397", "KM1906")))
 
 
+###Gradients ratio summaries:
+dat.grad.ratio.sum <- dat.gradients %>%
+  group_by(Cruise, Region) %>%
+  reframe(Sugar_N_ratio_avg = mean(Sugar_N_ratio),
+          Sugar_N_ratio_sd = sd(Sugar_N_ratio),
+          Sulfonate_N_ratio_avg = mean(Sugar_N_ratio),
+          Sulfonate_N_ratio_sd = sd(Sugar_N_ratio),
+          Sulfonium_N_ratio_avg = mean(Sugar_N_ratio),
+          Sulfonium_N_ratio_sd = sd(Sugar_N_ratio))
+
+
+
+
+
 ###Perform Welch's ANOVAs and Games-Howell Post-Hoc Tests on each ratio:
 
 

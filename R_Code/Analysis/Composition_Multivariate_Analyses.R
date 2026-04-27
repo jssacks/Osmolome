@@ -9,6 +9,7 @@ library(vegan)
 library(viridis)
 library(rstatix)
 library(Hmisc)
+library(ggdendro)
 source("R_Code/Code_Development_Workspace/Figure_Palettes.R")
 
 
@@ -233,7 +234,7 @@ write_csv(d.pca.reg.out, file = "Intermediates/Diss_PCA_Regression_Output.csv")
 
 
 
-####______________Correlation of all compounds against eachother and against POC:
+####______________Correlation of all compounds against each other and against POC:
 
 #___Particulate 
 
@@ -287,7 +288,9 @@ p.comp.cor.all.sum <- p.comp.cor.all.out.tidy %>%
   mutate(cor.sig = case_when(padj < 0.01 ~ "Sig",
                              TRUE ~ "Not_Sig")) %>%
   group_by(cor.direction, cor.sig) %>%
-  reframe(count = n())
+  reframe(count = n()) %>%
+  mutate(total_comparisons = sum(count),
+         percent = count/total_comparisons * 100)
 
 
 
@@ -346,7 +349,9 @@ d.comp.cor.all.sum <- d.comp.cor.all.out.tidy %>%
   mutate(cor.sig = case_when(padj < 0.01 ~ "Sig",
                              TRUE ~ "Not_Sig")) %>%
   group_by(cor.direction, cor.sig) %>%
-  reframe(count = n())
+  reframe(count = n()) %>%
+  mutate(total_comparisons = sum(count),
+         percent = count/total_comparisons * 100)
 
 
 
@@ -554,7 +559,170 @@ write_csv(d.region.relabun.cor, file = "Intermediates/Diss_Region_RelAbun_Corr_O
 
 
 
+
+
+#####_____heirarchically cluster regions by rank order and relative abundance___________
+
+
+
+#______particulate_________ 
+
+#rank
+p.rank.clust.dat <- p.region.rank.dat %>%
+  unique() %>%
+  pivot_wider(id_cols = Region, names_from = compound.name.figure, values_from = mean.rank) %>%
+  column_to_rownames(var = "Region")
+
+p.rank.dist <- vegdist(p.rank.clust.dat, method = "euclidean")
+
+p.rank.clust.out <- hclust(p.rank.dist, method = "average")
+p.rank.dend <- as.dendrogram(p.rank.clust.out)
+p.rank.dend.dat <- dendro_data(p.rank.dend)
+p.rank.dend.order <- p.rank.dend.dat$labels %>%
+  rename("order" = x, 
+         "Region" = label) %>%
+  select(Region, order) %>%
+  mutate(phase = "part",
+         param = "rank")
+
+
+#rel abun
+p.relabun.clust.dat <- p.region.relabun.dat %>%
+  unique() %>%
+  pivot_wider(id_cols = Region, names_from = compound.name.figure, values_from = mean.relabun) %>%
+  column_to_rownames(var = "Region")
+
+p.relabun.dist <- vegdist(p.relabun.clust.dat, method = "euclidean")
+
+p.relabun.clust.out <- hclust(p.relabun.dist, method = "average")
+p.relabun.dend <- as.dendrogram(p.relabun.clust.out)
+p.relabun.dend.dat <- dendro_data(p.relabun.dend)
+p.relabun.dend.order <- p.relabun.dend.dat$labels %>%
+  rename("order" = x, 
+         "Region" = label) %>%
+  select(Region, order) %>%
+  mutate(phase = "part",
+         param = "relabun")
+
+
+
+
+
+
+
+
+#______dissolved________
+
+#rank
+d.rank.clust.dat <- d.region.rank.dat %>%
+  unique() %>%
+  pivot_wider(id_cols = Region, names_from = compound.name.figure, values_from = mean.rank) %>%
+  column_to_rownames(var = "Region")
+
+d.rank.dist <- vegdist(d.rank.clust.dat, method = "euclidean")
+
+d.rank.clust.out <- hclust(d.rank.dist, method = "average")
+d.rank.dend <- as.dendrogram(d.rank.clust.out)
+d.rank.dend.dat <- dendro_data(d.rank.dend)
+d.rank.dend.order <- d.rank.dend.dat$labels %>%
+  rename("order" = x, 
+         "Region" = label) %>%
+  select(Region, order) %>%
+  mutate(phase = "diss",
+         param = "rank")
+
+
+#rel abun
+d.relabun.clust.dat <- d.region.relabun.dat %>%
+  unique() %>%
+  pivot_wider(id_cols = Region, names_from = compound.name.figure, values_from = mean.relabun) %>%
+  column_to_rownames(var = "Region")
+
+d.relabun.dist <- vegdist(d.relabun.clust.dat, method = "euclidean")
+
+d.relabun.clust.out <- hclust(d.relabun.dist, method = "average")
+d.relabun.dend <- as.dendrogram(d.relabun.clust.out)
+d.relabun.dend.dat <- dendro_data(d.relabun.dend)
+d.relabun.dend.order <- d.relabun.dend.dat$labels %>%
+  rename("order" = x, 
+         "Region" = label) %>%
+  select(Region, order) %>%
+  mutate(phase = "diss",
+         param = "relabun")
+
+
+##combine heirarchicall clustering results:
+combined.dend.order <- rbind(
+  p.rank.dend.order,
+  p.relabun.dend.order,
+  d.rank.dend.order,
+  d.relabun.dend.order
+)
+
+#export
+write_csv(combined.dend.order, file = "Intermediates/Region_hclust_results.csv")
+
+
 #
+
+
+
+####_Summarize compound classes overall and by region:
+
+#Particulate
+overall.compclass.sum.p <- dat.region %>%
+  filter(!is.na(Part.SampID)) %>%
+  filter(Part.detected == "Yes") %>%
+  select(Parent_ID, Region, class, compound.name.figure, Part.Conc.nM) %>%
+  group_by(Parent_ID) %>%
+  unique() %>%
+  mutate(tot.conc.nM = sum(Part.Conc.nM),
+         rel.abun = Part.Conc.nM/tot.conc.nM) %>%
+  group_by(Parent_ID, class) %>%
+  mutate(class.rel.abun.sum = sum(rel.abun)) %>%
+  ungroup() %>%
+  unique() %>%
+  group_by(class) %>%
+  reframe(average.relabun = mean(class.rel.abun.sum),
+          sd.relabun = sd(class.rel.abun.sum)) %>%
+  unique()
+  
+##Dissolved:
+overall.compclass.sum.d <- dat.region %>%
+  filter(!is.na(Diss.SampID)) %>%
+  filter(Diss.detected == "Yes") %>%
+  select(Parent_ID, Region, class, compound.name.figure, Diss.Conc.nM) %>%
+  group_by(Parent_ID) %>%
+  unique() %>%
+  mutate(tot.conc.nM = sum(Diss.Conc.nM),
+         rel.abun = Diss.Conc.nM/tot.conc.nM) %>%
+  group_by(Parent_ID, class) %>%
+  mutate(class.rel.abun.sum = sum(rel.abun)) %>%
+  ungroup() %>%
+  unique() %>%
+  group_by(class) %>%
+  reframe(average.relabun = mean(class.rel.abun.sum),
+          sd.relabun = sd(class.rel.abun.sum)) %>%
+  unique()
+
+
+###Do particulate by region as well:
+region.compclass.sum.p <- dat.region %>%
+  filter(!is.na(Part.SampID)) %>%
+  filter(Part.detected == "Yes") %>%
+  select(Parent_ID, Cruise, Region, class, compound.name.figure, Part.Conc.nM) %>%
+  group_by(Parent_ID) %>%
+  unique() %>%
+  mutate(tot.conc.nM = sum(Part.Conc.nM),
+         rel.abun = Part.Conc.nM/tot.conc.nM) %>%
+  group_by(Parent_ID, class) %>%
+  mutate(class.rel.abun.sum = sum(rel.abun)) %>%
+  ungroup() %>%
+  unique() %>%
+  group_by(Region, Cruise, class) %>%
+  reframe(average.relabun = mean(class.rel.abun.sum),
+          sd.relabun = sd(class.rel.abun.sum)) %>%
+  unique()
 
 
 
